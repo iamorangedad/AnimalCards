@@ -1,0 +1,77 @@
+{
+ "file": "海獭",
+ "no": "063",
+ "cat": "海洋",
+ "name_cn": "海獭",
+ "name_en": "Sea otter",
+ "latin": "Enhydra lutris",
+ "short": "海獭",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃海胆、贝类等海底动物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "14–45 kg",
+   "lo": 14,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "1.0–1.5 m",
+   "lo": 1.0,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "最长约 23 年",
+   "lo": 23,
+   "hi": 23,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "游速",
+   "value": "最快 9 km/h",
+   "lo": 9,
+   "hi": 9,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "石头开贝",
+   "icon": "jar",
+   "desc": "它会用石头砸开贝壳，是少数会使用工具的哺乳动物之一。"
+  },
+  {
+   "name": "超密毛皮",
+   "icon": "huddle",
+   "desc": "海獭不靠脂肪保暖，而靠动物界最密的毛皮。"
+  }
+ ],
+ "intro": [
+  "海獭是鼬科里最重的成员，却是最小的海洋哺乳动物之一。",
+  "它能一辈子不离开水。",
+  "为了在冷水里保持体温，它每天要吃相当于体重 25–38% 的食物。"
+ ],
+ "fact": "1741–1911 年海獭因毛皮被大量猎杀，全球一度只剩 1000–2000 只。",
+ "range": "北太平洋北部和东部沿岸。",
+ "sources": [
+  "Wikipedia「Sea otter」",
+  "IUCN 红色名录（Doroff et al. 2021）"
+ ],
+ "footnote": "体重、体长合并雌雄范围。"
+}

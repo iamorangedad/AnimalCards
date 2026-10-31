@@ -1,0 +1,79 @@
+{
+ "file": "海月水母",
+ "no": "069",
+ "cat": "海洋",
+ "name_cn": "海月水母",
+ "name_en": "Moon jellyfish",
+ "latin": "Aurelia aurita",
+ "short": "海月水母",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用短触手收集浮游生物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "伞径",
+   "value": "约 25–40 cm",
+   "lo": 0.25,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "身体含水",
+   "value": "95% 以上",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "很少超过约 6 个月",
+   "lo": 6,
+   "hi": 6,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "螅体高",
+   "value": "最高 1.6 cm",
+   "lo": 0.016,
+   "hi": 0.016,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "透明身体",
+   "icon": "camo",
+   "desc": "它几乎完全透明，从伞顶就能看见四个马蹄形的生殖腺。"
+  },
+  {
+   "name": "随波漂流",
+   "icon": "dive",
+   "desc": "它只能做有限的游动，即使在游泳时也主要随洋流漂。"
+  }
+ ],
+ "intro": [
+  "海月水母的触手又短又细，蜇人很轻，大多数人几乎没感觉。",
+  "它一生有两个阶段：在水中漂游的水母体和固着在海底的螅状体。",
+  "水母没有真正的大脑，而是有一圈“环状”神经系统。"
+ ],
+ "fact": "水母已经存在了至少 5 亿年，是最古老的多器官动物类群。",
+ "range": "东北大西洋，包括波罗的海。",
+ "sources": [
+  "Wikipedia「Aurelia aurita」",
+  "Wikipedia「Aurelia (cnidarian)」",
+  "Wikipedia「Jellyfish」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。含水量、螅体高度、寿命来自海月水母属或水母总体资料。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 56 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 1，鸟类 1）。
+共 71 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 1）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -63,6 +63,21 @@
 | 055 | 美洲豹（Jaguar） | 森林 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.pdf) |
 | 056 | 亚洲象（Asian elephant） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.pdf) |
 | 005 | 章鱼（Common octopus） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.pdf) |
+| 057 | 蓝鲸（Blue whale） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%93%9D%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%93%9D%E9%B2%B8.pdf) |
+| 058 | 虎鲸（Orca） | 海洋 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%99%8E%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%99%8E%E9%B2%B8.pdf) |
+| 059 | 宽吻海豚（Common bottlenose dolphin） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%AE%BD%E5%90%BB%E6%B5%B7%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%AE%BD%E5%90%BB%E6%B5%B7%E8%B1%9A.pdf) |
+| 060 | 大白鲨（Great white shark） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E7%99%BD%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E7%99%BD%E9%B2%A8.pdf) |
+| 061 | 鲸鲨（Whale shark） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B2%B8%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B2%B8%E9%B2%A8.pdf) |
+| 062 | 绿海龟（Green sea turtle） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BB%BF%E6%B5%B7%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BB%BF%E6%B5%B7%E9%BE%9F.pdf) |
+| 063 | 海獭（Sea otter） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E7%8D%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E7%8D%AD.pdf) |
+| 064 | 加州海狮（California sea lion） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8A%A0%E5%B7%9E%E6%B5%B7%E7%8B%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8A%A0%E5%B7%9E%E6%B5%B7%E7%8B%AE.pdf) |
+| 065 | 斑海豹（Spotted seal） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%96%91%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%96%91%E6%B5%B7%E8%B1%B9.pdf) |
+| 066 | 北极熊（Polar bear） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%9E%81%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%9E%81%E7%86%8A.pdf) |
+| 067 | 大海马（Yellow seahorse） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E6%B5%B7%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E6%B5%B7%E9%A9%AC.pdf) |
+| 068 | 公子小丑鱼（Ocellaris clownfish） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%85%AC%E5%AD%90%E5%B0%8F%E4%B8%91%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%85%AC%E5%AD%90%E5%B0%8F%E4%B8%91%E9%B1%BC.pdf) |
+| 069 | 海月水母（Moon jellyfish） | 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%9C%88%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%9C%88%E6%B0%B4%E6%AF%8D.pdf) |
+| 070 | 海星（Common starfish） | 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.pdf) |
+| 071 | 蝠鲼（Giant oceanic manta ray） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
 
 ## 说明

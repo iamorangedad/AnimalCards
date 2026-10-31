@@ -1,0 +1,77 @@
+{
+ "file": "大白鲨",
+ "no": "060",
+ "cat": "海洋",
+ "name_cn": "大白鲨",
+ "name_en": "Great white shark",
+ "latin": "Carcharodon carcharias",
+ "short": "大白鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼和海洋哺乳动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "雌性体重",
+   "value": "1000–1900 kg",
+   "lo": 1000,
+   "hi": 1900,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "约 6 m",
+   "lo": 6,
+   "hi": 6,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "冲刺速度",
+   "value": "约 24 km/h",
+   "lo": 24,
+   "hi": 24,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "最深下潜",
+   "value": "1300 m",
+   "lo": 1300,
+   "hi": 1300,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "五种感官",
+   "icon": "whisker",
+   "desc": "捕猎时用视觉、听觉、嗅觉、电感受（罗伦氏壶腹）和侧线感受水流。"
+  },
+  {
+   "name": "跨洋远行",
+   "icon": "dive",
+   "desc": "一条南非大白鲨游到澳大利亚再游回来，不到九个月游了 20000 km。"
+  }
+ ],
+ "intro": [
+  "大白鲨是最大的现生鲨鱼和鱼类之一，但比鲸鲨和姥鲨小。",
+  "它的三角形牙齿边缘带锯齿，长可达 7.5 cm。",
+  "3 m 以上的大白鲨会捕食海豹等海洋哺乳动物，小鲨鱼主要吃鱼和头足类。"
+ ],
+ "fact": "雌性大白鲨大约要 33 岁才成熟，雄性约 26 岁。",
+ "range": "全世界热带到温带的海洋，近岸和远洋都有。",
+ "sources": [
+  "Wikipedia「Great white shark」",
+  "IUCN 红色名录（Rigby et al. 2022）"
+ ],
+ "footnote": "雄性体重 680–1000 kg；最长为可靠测量的纪录（约 6.02 m）。"
+}

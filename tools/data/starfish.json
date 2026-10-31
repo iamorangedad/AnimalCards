@@ -1,0 +1,78 @@
+{
+ "file": "海星",
+ "no": "070",
+ "cat": "海洋",
+ "name_cn": "海星",
+ "name_en": "Common starfish",
+ "latin": "Asterias rubens",
+ "short": "海星",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃贝类等海底无脊椎动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "直径·常见",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大直径",
+   "value": "约 52 cm",
+   "lo": 0.52,
+   "hi": 0.52,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "产卵",
+   "value": "约 250 万枚",
+   "lo": 2500000.0,
+   "hi": 2500000.0,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "幼体漂流",
+   "value": "约 87 天",
+   "lo": 87,
+   "hi": 87,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吐胃进食",
+   "icon": "jar",
+   "desc": "它用管足拉开贻贝的壳，只要有 1 mm 的缝，就能把胃伸进去消化贝肉。"
+  },
+  {
+   "name": "断腕再生",
+   "icon": "flip",
+   "desc": "大多数海星能再生受伤的部位和断掉的腕，还会主动断腕自保。"
+  }
+ ],
+ "intro": [
+  "普通海星是东北大西洋最常见的海星，通常有五条腕。",
+  "它一般是橙色或褐色，有时是紫色；深水里的颜色较浅。",
+  "腕的下面有一排排小管足，靠液压系统运动。"
+ ],
+ "fact": "海星的每条腕尖都有一个眼点，由 80–200 个简单的小眼组成。",
+ "range": "东北大西洋：从挪威、北海、英国到西非塞内加尔沿岸。",
+ "sources": [
+  "Wikipedia「Asterias rubens」",
+  "Wikipedia「Starfish」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。再生和眼点为海星整体资料。"
+}

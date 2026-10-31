@@ -1,0 +1,77 @@
+{
+ "file": "鲸鲨",
+ "no": "061",
+ "cat": "海洋",
+ "name_cn": "鲸鲨",
+ "name_en": "Whale shark",
+ "latin": "Rhincodon typus",
+ "short": "鲸鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "滤食浮游生物和小鱼",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "最长纪录",
+   "value": "18.8 m",
+   "lo": 18.8,
+   "hi": 18.8,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 80–130 年",
+   "lo": 80,
+   "hi": 130,
+   "scale": "life_xl",
+   "approx": true
+  },
+  {
+   "label": "最深下潜",
+   "value": "1928 m",
+   "lo": 1928,
+   "hi": 1928,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "新生宝宝",
+   "value": "40–60 cm",
+   "lo": 0.4,
+   "hi": 0.6,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨型滤网",
+   "icon": "whisker",
+   "desc": "它的鳃上有像筛子的滤垫，每小时能过滤 6000 多升海水。"
+  },
+  {
+   "name": "独特斑点",
+   "icon": "camo",
+   "desc": "深灰色皮肤上的浅色斑点和条纹每条都不一样，可以用来认出个体。"
+  }
+ ],
+ "intro": [
+  "鲸鲨是现存最大的鱼，游得很慢，靠滤食为生。",
+  "它的嘴里有 300 多排细小的牙齿，但主要靠 20 个滤垫进食。",
+  "过去 75 年里，全球鲸鲨数量减少了约 50%。"
+ ],
+ "fact": "鲸鲨妈妈不产卵，而是直接生下 40–60 cm 长的小鲸鲨。",
+ "range": "所有热带和暖温带海洋。",
+ "sources": [
+  "Wikipedia「Whale shark」",
+  "IUCN 红色名录（Pierce & Norman 2016）"
+ ],
+ "footnote": "寿命为根据椎骨生长纹等估算。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "虎鲸",
+ "no": "058",
+ "cat": "海洋",
+ "name_cn": "虎鲸",
+ "name_en": "Orca",
+ "latin": "Orcinus orca",
+ "short": "虎鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "鱼、海豹、鲸都吃",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "6–8 m",
+   "lo": 6,
+   "hi": 8,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "6 t 以上",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最快速度",
+   "value": "56 km/h",
+   "lo": 56,
+   "hi": 56,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "每天吃",
+   "value": "约 227 kg",
+   "lo": 227,
+   "hi": 227,
+   "scale": "food",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "家族狩猎",
+   "icon": "team",
+   "desc": "有些虎鲸种群以母系家族（鲸群）为单位生活，狩猎技巧代代相传，被认为是动物“文化”。"
+  },
+  {
+   "name": "高背鳍",
+   "icon": "flip",
+   "desc": "雄性的背鳍高约 1.8 m，是雌性的两倍多，像一个长长的三角形。"
+  }
+ ],
+ "intro": [
+  "虎鲸又叫杀人鲸，是海豚科里最大的成员。",
+  "它背黑腹白，眼睛后面有醒目的白斑。",
+  "不同种群爱吃的东西不同：东北太平洋的“定居型”虎鲸 96% 的食物是三文鱼。"
+ ],
+ "fact": "野生雌性虎鲸平均能活 46 年，少数可达 70–80 岁。",
+ "range": "世界所有大洋和大部分海域。",
+ "sources": [
+  "Wikipedia「Orca」",
+  "IUCN 红色名录（Reeves et al. 2017）"
+ ],
+ "footnote": "IUCN 评为“数据缺乏”（DD）。每天吃约 227 kg 超出食量刻度 200 kg，条画满。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "绿海龟",
+ "no": "062",
+ "cat": "海洋",
+ "name_cn": "绿海龟",
+ "name_en": "Green sea turtle",
+ "latin": "Chelonia mydas",
+ "short": "绿海龟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "成年后主要吃海草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "68–190 kg",
+   "lo": 68,
+   "hi": 190,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "背甲长",
+   "value": "78–112 cm",
+   "lo": 0.78,
+   "hi": 1.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "可达约 90 年",
+   "lo": 90,
+   "hi": 90,
+   "scale": "life_xl",
+   "approx": true
+  },
+  {
+   "label": "迁徙距离",
+   "value": "2600 km 以上",
+   "lo": 2600,
+   "hi": 2600,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长途洄游",
+   "icon": "dive",
+   "desc": "绿海龟在觅食地和产卵地之间长途迁徙，有的要游 2600 多公里。"
+  },
+  {
+   "name": "海滩产卵",
+   "icon": "camo",
+   "desc": "雌龟夜里爬上海滩，用后鳍挖 28–56 cm 深的坑产卵。"
+  }
+ ],
+ "intro": [
+  "绿海龟是唯一一种成年后吃素的海龟。",
+  "它的名字来自壳下面那层绿色的脂肪，而不是壳的颜色（壳是橄榄色到黑色）。",
+  "它们分布在全世界热带和亚热带海域。"
+ ],
+ "fact": "沙窝的温度决定小海龟是公是母；50–70 天后小海龟在夜里孵出，直奔大海。",
+ "range": "全世界热带和亚热带海域。",
+ "sources": [
+  "Wikipedia「Green sea turtle」",
+  "IUCN 红色名录（Seminoff 2025）"
+ ],
+ "footnote": ""
+}

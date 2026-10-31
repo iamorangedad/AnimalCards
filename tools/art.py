@@ -421,3 +421,5 @@ try:
     ART.update(_a2.ART2)
 except ImportError as _e:  # pragma: no cover
     raise
+import art3 as _a3
+ART.update(_a3.ART3)

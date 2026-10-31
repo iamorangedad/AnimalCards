@@ -1,0 +1,77 @@
+{
+ "file": "蝠鲼",
+ "no": "071",
+ "cat": "海洋",
+ "name_cn": "蝠鲼",
+ "name_en": "Giant oceanic manta ray",
+ "latin": "Mobula birostris",
+ "short": "蝠鲼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃浮游动物和小鱼",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "翼展·常见",
+   "value": "约 4.5 m",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大翼展",
+   "value": "7 m",
+   "lo": 7,
+   "hi": 7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 3000 kg",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "游速",
+   "value": "最快 24 km/h",
+   "lo": 24,
+   "hi": 24,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大鱼脑",
+   "icon": "trunk",
+   "desc": "它的脑重可达 200 g，是鱼类中最大的，是鲸鲨脑的 5–10 倍。"
+  },
+  {
+   "name": "照镜子",
+   "icon": "camo",
+   "desc": "它可能是少数能通过“镜子测试”、具有自我意识的动物之一。"
+  }
+ ],
+ "intro": [
+  "大洋蝠鲼是世界上最大的鳐鱼，分布在全球热带和亚热带海洋。",
+  "约 73% 的食物来自深海，其余靠滤食浮游动物。",
+  "因为过度捕捞，过去 20 年数量大幅下降。"
+ ],
+ "fact": "蝠鲼宝宝出生时翼展就有 1.4 m、体重 9 kg，样子和成年蝠鲼很像。",
+ "range": "全球热带、亚热带海洋，也见于温带水域。",
+ "sources": [
+  "Wikipedia「Giant oceanic manta ray」",
+  "IUCN 红色名录（Marshall et al. 2022）"
+ ],
+ "footnote": "体重为最大个体估计。"
+}

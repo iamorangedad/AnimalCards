@@ -1,0 +1,77 @@
+{
+ "file": "宽吻海豚",
+ "no": "059",
+ "cat": "海洋",
+ "name_cn": "宽吻海豚",
+ "name_en": "Common bottlenose dolphin",
+ "latin": "Tursiops truncatus",
+ "short": "宽吻海豚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2–4 m",
+   "lo": 2,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "150–650 kg",
+   "lo": 150,
+   "hi": 650,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "40–60 年",
+   "lo": 40,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 12 个月",
+   "lo": 12,
+   "hi": 12,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "回声定位",
+   "icon": "ear",
+   "desc": "它用头部的“额隆”发出声波，听回声来了解周围环境和寻找鱼群。"
+  },
+  {
+   "name": "超强记忆",
+   "icon": "huddle",
+   "desc": "它们有非人类物种中最长的社交记忆，分开 20 多年后还能认出同伴的哨声。"
+  }
+ ],
+ "intro": [
+  "宽吻海豚因为短而明显的吻部（嘴）而得名，以聪明著称。",
+  "海豚之间用独特的“签名哨声”互相称呼。",
+  "近海种群活动范围小，远洋种群一季能迁徙 4200 km。"
+ ],
+ "fact": "刚出生的海豚宝宝长 0.8–1.4 m、重 15–30 kg，要吃奶 18–20 个月。",
+ "range": "全世界温带和热带海洋，只有极地海域没有。",
+ "sources": [
+  "Wikipedia「Common bottlenose dolphin」",
+  "IUCN 红色名录（Wells et al. 2019）"
+ ],
+ "footnote": ""
+}

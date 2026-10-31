@@ -1,0 +1,78 @@
+{
+ "file": "大海马",
+ "no": "067",
+ "cat": "海洋",
+ "name_cn": "大海马",
+ "name_en": "Yellow seahorse",
+ "latin": "Hippocampus kuda",
+ "short": "大海马",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吸食浮游动物和小鱼苗",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "17–30 cm",
+   "lo": 0.17,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "宝宝体长",
+   "value": "约 7 mm",
+   "lo": 0.007,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "55 m 以内",
+   "lo": 55,
+   "hi": 55,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "适宜水温",
+   "value": "22–25 °C",
+   "lo": 22,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爸爸怀孕",
+   "icon": "huddle",
+   "desc": "雌海马把卵产进雄海马的育儿袋，最多可达约 1000 枚，由爸爸孵化生产。"
+  },
+  {
+   "name": "卷尾抓握",
+   "icon": "climb",
+   "desc": "身体有骨板，尾巴能向前卷曲，牢牢抓住海草。"
+  }
+ ],
+ "intro": [
+  "大海马又叫黄海马，生活在河口、泻湖、港湾和近岸海草床。",
+  "求偶时雄海马会变换体色，围着雌海马跳舞，最后尾巴缠在一起。",
+  "海马竖着身子游泳，靠快速扇动背鳍前进，游得非常慢。"
+ ],
+ "fact": "由于污染、栖息地破坏和非法贸易，大海马数量在过去几十年下降了约 30%。",
+ "range": "印度—太平洋：波斯湾到东南亚、澳大利亚、日本及夏威夷等地。",
+ "sources": [
+  "Wikipedia「Hippocampus kuda」",
+  "Wikipedia「Seahorse」",
+  "IUCN 红色名录（Aylesworth 2014）"
+ ],
+ "footnote": "适宜水温为人工饲养建议值。原文把它归为杂食。"
+}

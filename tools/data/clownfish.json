@@ -1,0 +1,78 @@
+{
+ "file": "公子小丑鱼",
+ "no": "068",
+ "cat": "海洋",
+ "name_cn": "公子小丑鱼",
+ "name_en": "Ocellaris clownfish",
+ "latin": "Amphiprion ocellaris",
+ "short": "公子小丑鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃藻类、桡足类和浮游动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长约 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "15 m 以内",
+   "lo": 15,
+   "hi": 15,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "最多约 1000 枚",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "寿命·同类",
+   "value": "可超过 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海葵之家",
+   "icon": "camo",
+   "desc": "它住在海葵里，海葵保护它不被捕食；它帮海葵赶走天敌、清洁和扇水。"
+  },
+  {
+   "name": "变性",
+   "icon": "flip",
+   "desc": "它先是雄性，群里的雌鱼消失后，最大的雄鱼会变成雌鱼。"
+  }
+ ],
+ "intro": [
+  "公子小丑鱼身上通常是橙色，带三条镶黑边的白色竖纹。",
+  "群里地位按体型排：最大的是繁殖雌鱼，其次是繁殖雄鱼。",
+  "电影《海底总动员》里的尼莫和爸爸马林就是公子小丑鱼。"
+ ],
+ "fact": "在澳大利亚北领地等地，还有黑色身体配白纹的公子小丑鱼。",
+ "range": "东印度洋和西太平洋的珊瑚礁。",
+ "sources": [
+  "Wikipedia「Ocellaris clownfish」",
+  "Wikipedia「Amphiprioninae」",
+  "IUCN 红色名录（Allen et al. 2022）"
+ ],
+ "footnote": "产卵数和寿命是小丑鱼（海葵鱼）整体的数据。"
+}

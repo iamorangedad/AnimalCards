@@ -1,0 +1,77 @@
+{
+ "file": "蓝鲸",
+ "no": "057",
+ "cat": "海洋",
+ "name_cn": "蓝鲸",
+ "name_en": "Blue whale",
+ "latin": "Balaenoptera musculus",
+ "short": "蓝鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "几乎只吃磷虾",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "72–135 t",
+   "lo": 72000,
+   "hi": 135000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "约 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "至少 40–45 年",
+   "lo": 40,
+   "hi": 45,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "游速·平时",
+   "value": "2–8 km/h",
+   "lo": 2,
+   "hi": 8,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冲刺吞食",
+   "icon": "dive",
+   "desc": "它张大嘴（可张到 80°）冲向磷虾群，一口吞进大量海水，再用鲸须把磷虾滤出来。"
+  },
+  {
+   "name": "鲸须过滤",
+   "icon": "whisker",
+   "desc": "上颌长着 70–400 片黑色鲸须板，每片不到 1 m 长。"
+  }
+ ],
+ "intro": [
+  "蓝鲸是已知有史以来最大的动物，最长可达约 30 m、最重约 190–200 t。",
+  "它是须鲸，没有牙齿，靠鲸须过滤食物。",
+  "蓝鲸的心脏重约 180 kg，是所有动物中最大的。"
+ ],
+ "fact": "蓝鲸宝宝一出生就有 6–7 m 长、2–3 t 重。",
+ "range": "遍布世界各大洋，但北冰洋和地中海等海域少见。",
+ "sources": [
+  "Wikipedia「Blue whale」",
+  "IUCN 红色名录（Cooke 2018）"
+ ],
+ "footnote": "最长、最重为科学测量的纪录；平时游速 2–8 km/h，受惊时可达 32–48 km/h。"
+}

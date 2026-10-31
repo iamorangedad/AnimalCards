@@ -1,0 +1,78 @@
+{
+ "file": "斑海豹",
+ "no": "065",
+ "cat": "海洋",
+ "name_cn": "斑海豹",
+ "name_en": "Spotted seal",
+ "latin": "Phoca largha",
+ "short": "斑海豹",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成年吃鱼、贝类和甲壳类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "82–109 kg",
+   "lo": 82,
+   "hi": 109,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "1.5–2.1 m",
+   "lo": 1.5,
+   "hi": 2.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "35 年",
+   "lo": 35,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "最深 300 m",
+   "lo": 300,
+   "hi": 300,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冰上安家",
+   "icon": "huddle",
+   "desc": "它生活在北太平洋的浮冰和海水中，繁殖季节一公一母一宝宝组成小“家庭”。"
+  },
+  {
+   "name": "长途迁徙",
+   "icon": "dive",
+   "desc": "卫星追踪显示，黄海的斑海豹能迁徙 3300 多公里。"
+  }
+ ],
+ "intro": [
+  "斑海豹是没有外耳的“真海豹”，体型中等。",
+  "它常被误认成近亲港海豹，两者有时会混在一起。",
+  "中国辽东湾有一个约 3300 只的种群。"
+ ],
+ "fact": "斑海豹宝宝出生时平均长约 100 cm、重约 12 kg。",
+ "range": "北太平洋及邻近海域，包括中国黄海、渤海。",
+ "sources": [
+  "Wikipedia「Spotted seal」",
+  "IUCN 红色名录（Boveng 2016）"
+ ],
+ "footnote": "怀孕期约 10 个月。"
+}

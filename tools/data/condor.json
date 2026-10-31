@@ -1,0 +1,77 @@
+{
+ "file": "安第斯神鹫",
+ "no": "310",
+ "cat": "鸟类",
+ "name_cn": "安第斯神鹫",
+ "name_en": "Andean condor",
+ "latin": "Vultur gryphus",
+ "short": "安第斯神鹫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃腐肉，喜欢鹿、牛等大型尸体",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "最大翼展",
+   "value": "3.3 m",
+   "lo": 3.3,
+   "hi": 3.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "15 kg",
+   "lo": 15,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "筑巢海拔",
+   "value": "可达 5000 m",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "有的超过 70 年",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "借热气流",
+   "icon": "flip",
+   "desc": "飞到一定高度后很少扇翅，靠上升的热气流在空中盘旋。"
+  },
+  {
+   "name": "国家象征",
+   "icon": "team",
+   "desc": "它是玻利维亚、智利、哥伦比亚、厄瓜多尔和秘鲁的国家象征。"
+  }
+ ],
+ "intro": [
+  "安第斯神鹫是最大的会飞的鸟之一，常被认为是最大的猛禽。",
+  "5–6 岁才性成熟。",
+  "雄鸟平均 12.5 kg，雌鸟 10.1 kg。"
+ ],
+ "fact": "它是世界上最长寿的鸟之一。",
+ "range": "南美洲安第斯山脉和太平洋沿岸。",
+ "sources": [
+  "Wikipedia「Andean condor」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

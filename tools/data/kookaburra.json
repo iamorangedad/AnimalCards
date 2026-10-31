@@ -1,0 +1,77 @@
+{
+ "file": "笑翠鸟",
+ "no": "320",
+ "cat": "鸟类",
+ "name_cn": "笑翠鸟",
+ "name_en": "Laughing kookaburra",
+ "latin": "Dacelo novaeguineae",
+ "short": "笑翠鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "41–47 cm",
+   "lo": 0.41,
+   "hi": 0.47,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "196–450 g",
+   "lo": 0.196,
+   "hi": 0.45,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "24–26 天",
+   "lo": 24,
+   "hi": 26,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "新西兰数量",
+   "value": "可能不到 500 只",
+   "lo": 500,
+   "hi": 500,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大笑",
+   "icon": "ear",
+   "desc": "领地叫声像人在大笑，常好几只一起“笑”。"
+  },
+  {
+   "name": "帮手育雏",
+   "icon": "team",
+   "desc": "父母和帮手一起孵蛋。"
+  }
+ ],
+ "intro": [
+  "笑翠鸟是翠鸟的一种，身体粗壮，头大，嘴又长又结实。",
+  "原产澳大利亚东部，也被引入其他地方。",
+  "每窝通常 3 枚白色的蛋。"
+ ],
+ "fact": "Birdata 数据显示，2000–2019 年它的目击记录减少了 50%。",
+ "range": "澳大利亚东部；被引入西澳、塔斯马尼亚和新西兰。",
+ "sources": [
+  "Wikipedia「Laughing kookaburra」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

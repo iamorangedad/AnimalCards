@@ -1,0 +1,77 @@
+{
+ "file": "北极燕鸥",
+ "no": "321",
+ "cat": "鸟类",
+ "name_cn": "北极燕鸥",
+ "name_en": "Arctic tern",
+ "latin": "Sterna paradisaea",
+ "short": "北极燕鸥",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小鱼和海洋无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "33–36 cm",
+   "lo": 0.33,
+   "hi": 0.36,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 100 g",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "年往返",
+   "value": "平均 70900 km",
+   "lo": 70900,
+   "hi": 70900,
+   "scale": "km_xl",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "31 年",
+   "lo": 31,
+   "hi": 31,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "两个夏天",
+   "icon": "flip",
+   "desc": "从北方繁殖地飞到南极海岸过南半球的夏天，一年过两个夏天。"
+  },
+  {
+   "name": "一生飞行",
+   "icon": "dive",
+   "desc": "一生约飞 240 万 km，相当于往返月球三次多。"
+  }
+ ],
+ "intro": [
+  "北极燕鸥翼展 76–85 cm。",
+  "在冰岛和格陵兰繁殖的，一年平均飞 70900 km，最多 81600 km。",
+  "很多能活 15–30 岁。"
+ ],
+ "fact": "繁殖地和越冬地之间最短也有 19000 km。",
+ "range": "北极和北温带繁殖，南极海域越冬。",
+ "sources": [
+  "Wikipedia「Arctic tern」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

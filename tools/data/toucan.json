@@ -1,0 +1,77 @@
+{
+ "file": "鞭笞巨嘴鸟",
+ "no": "309",
+ "cat": "鸟类",
+ "name_cn": "鞭笞巨嘴鸟",
+ "name_en": "Toco toucan",
+ "latin": "Ramphastos toco",
+ "short": "鞭笞巨嘴鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃多汁的果实，也吃昆虫、鸟蛋和雏鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "雄嘴长",
+   "value": "173–215 mm",
+   "lo": 0.173,
+   "hi": 0.215,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "14.1–17.9 cm",
+   "lo": 0.141,
+   "hi": 0.179,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "可达 1750 m",
+   "lo": 1750,
+   "hi": 1750,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–18 天",
+   "lo": 17,
+   "hi": 18,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大嘴巴",
+   "icon": "trunk",
+   "desc": "雄鸟的嘴长 173–215 mm，平均约 20 cm。"
+  },
+  {
+   "name": "能飞越水面",
+   "icon": "flip",
+   "desc": "和其他巨嘴鸟不同，它能飞越 5 km 宽的水面。"
+  }
+ ],
+ "intro": [
+  "鞭笞巨嘴鸟是最大的巨嘴鸟，平均体长 56 cm。",
+  "它喜欢半开阔的地方，而不是连片的森林。",
+  "在树洞里筑巢，每窝 2–4 枚蛋。"
+ ],
+ "fact": "已知最早的化石约 2 万年前，来自巴西的更新世沉积。",
+ "range": "南美洲中东部（巴西、玻利维亚、巴拉圭、阿根廷北部等）。",
+ "sources": [
+  "Wikipedia「Toco toucan」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

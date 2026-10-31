@@ -1,0 +1,77 @@
+{
+ "file": "北岛褐几维鸟",
+ "no": "305",
+ "cat": "鸟类",
+ "name_cn": "北岛褐几维鸟",
+ "name_en": "North Island brown kiwi",
+ "latin": "Apteryx mantelli",
+ "short": "北岛褐几维鸟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "雌体重",
+   "value": "2.06–3.85 kg",
+   "lo": 2.06,
+   "hi": 3.85,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "1.44–3.06 kg",
+   "lo": 1.44,
+   "hi": 3.06,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "13–20.5 cm",
+   "lo": 0.13,
+   "hi": 0.205,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "2015 年数量",
+   "value": "约 26600 只",
+   "lo": 26600,
+   "hi": 26600,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜行",
+   "icon": "whisker",
+   "desc": "它在夜里的林地上觅食，光线暗，主要靠嗅觉等感觉而不是视觉。"
+  },
+  {
+   "name": "超大蛋",
+   "icon": "jar",
+   "desc": "它的蛋相对于身体，是所有鸟里最大的之一。"
+  }
+ ],
+ "intro": [
+  "北岛褐几维鸟是新西兰北岛的不会飞的夜行鸟，也是最常见的几维鸟。",
+  "1900 年以来数量可能减少了至少 90%。",
+  "幼鸟超过 800 g 后，白鼬就抓不动它了。"
+ ],
+ "fact": "1996 年的研究发现，没有控制外来哺乳动物的地方，94% 的雏鸟活不到繁殖年龄。",
+ "range": "新西兰北岛。",
+ "sources": [
+  "Wikipedia「North Island brown kiwi」",
+  "IUCN 红色名录（BirdLife International 2017）"
+ ],
+ "footnote": "数量条借用对数刻度。"
+}

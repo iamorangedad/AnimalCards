@@ -1,0 +1,77 @@
+{
+ "file": "紫翅椋鸟",
+ "no": "319",
+ "cat": "鸟类",
+ "name_cn": "紫翅椋鸟",
+ "name_en": "Common starling",
+ "latin": "Sturnus vulgaris",
+ "short": "紫翅椋鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "迁徙速度",
+   "value": "60–80 km/h",
+   "lo": 60,
+   "hi": 80,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "迁徙距离",
+   "value": "1000–1500 km",
+   "lo": 1000,
+   "hi": 1500,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "鸣管",
+   "value": "雄比雌大约 35%",
+   "lo": 35,
+   "hi": 35,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "模仿高手",
+   "icon": "ear",
+   "desc": "歌声里常夹杂模仿其他鸟和各种自然、人造的声音。"
+  },
+  {
+   "name": "入侵者",
+   "icon": "team",
+   "desc": "被引入澳大利亚、新西兰、美国等地，成了入侵物种。"
+  }
+ ],
+ "intro": [
+  "紫翅椋鸟有带金属光泽的黑羽毛，有时带白色斑点。",
+  "原产欧洲到蒙古西部。",
+  "它的模仿本领连古罗马的老普林尼都写过。"
+ ],
+ "fact": "看虹膜和瞳孔的对比就能判断性别，准确率 97%。",
+ "range": "欧亚大陆；被引入很多地区。",
+ "sources": [
+  "Wikipedia「Common starling」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

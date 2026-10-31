@@ -1,0 +1,77 @@
+{
+ "file": "渡鸦",
+ "no": "313",
+ "cat": "鸟类",
+ "name_cn": "渡鸦",
+ "name_en": "Common raven",
+ "latin": "Corvus corax",
+ "short": "渡鸦",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、浆果、水果、小动物、鸟蛋雏鸟和剩饭",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "平均 63 cm",
+   "lo": 0.63,
+   "hi": 0.63,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "0.69–2.25 kg",
+   "lo": 0.69,
+   "hi": 2.25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "5.7–8.5 cm",
+   "lo": 0.057,
+   "hi": 0.085,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "可超过 23 年",
+   "lo": 23,
+   "hi": 23,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "聪明",
+   "icon": "ear",
+   "desc": "有不少出色的解决问题的表现，说明渡鸦非常聪明。"
+  },
+  {
+   "name": "学舌",
+   "icon": "whisker",
+   "desc": "能模仿周围环境里的声音，包括人说话。"
+  }
+ ],
+ "intro": [
+  "渡鸦是最大的鸦科鸟之一，也是最重的雀形目鸟。",
+  "不同地方大小差别很大：加州的平均 0.784 kg，阿拉斯加的 1.135 kg。",
+  "羽毛几乎全黑，带金属光泽。"
+ ],
+ "fact": "它的嘴是雀形目里最大的之一。",
+ "range": "北半球（欧亚大陆、北美、北非）。",
+ "sources": [
+  "Wikipedia「Common raven」",
+  "IUCN 红色名录（BirdLife International 2017）"
+ ],
+ "footnote": ""
+}

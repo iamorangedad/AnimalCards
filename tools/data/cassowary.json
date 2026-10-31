@@ -1,0 +1,77 @@
+{
+ "file": "南方鹤鸵",
+ "no": "304",
+ "cat": "鸟类",
+ "name_cn": "南方鹤鸵",
+ "name_en": "Southern cassowary",
+ "latin": "Casuarius casuarius",
+ "short": "南方鹤鸵",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要在林地上吃落下的果实和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "1.5–1.8 m",
+   "lo": 1.5,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "46.7–76 kg",
+   "lo": 46.7,
+   "hi": 76,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "内趾爪",
+   "value": "可达 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "头盔",
+   "value": "13–20 cm 高",
+   "lo": 0.13,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "匕首爪",
+   "icon": "roar",
+   "desc": "粗壮的三趾脚上，内趾有一根长达 12 cm 的匕首状爪。"
+  },
+  {
+   "name": "能吃毒果",
+   "icon": "jar",
+   "desc": "能安全消化一些对其他动物有毒的果实和种子。"
+  }
+ ],
+ "intro": [
+  "南方鹤鸵是最大的鸟之一，平均只比鸵鸟轻。",
+  "头上有一个角质的褐色“头盔”。",
+  "雌鸟比雄鸟重。"
+ ],
+ "fact": "2003 年一项研究统计了 221 次鹤鸵攻击，其中 150 次针对人。",
+ "range": "澳大利亚东北部、新几内亚。",
+ "sources": [
+  "Wikipedia「Southern cassowary」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

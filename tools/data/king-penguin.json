@@ -1,0 +1,78 @@
+{
+ "file": "王企鹅",
+ "no": "308",
+ "cat": "鸟类",
+ "name_cn": "王企鹅",
+ "name_en": "King penguin",
+ "latin": "Aptenodytes patagonicus",
+ "short": "王企鹅",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "平均 12.4 kg",
+   "lo": 12.4,
+   "hi": 12.4,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "最重",
+   "value": "约 20 kg",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最深下潜",
+   "value": "343 m",
+   "lo": 343,
+   "hi": 343,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "最长潜水",
+   "value": "552 秒",
+   "lo": 9.2,
+   "hi": 9.2,
+   "scale": "min",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "觅食时常潜到 100 m 以下，纪录 343 m。"
+  },
+  {
+   "name": "棕色小毛球",
+   "icon": "huddle",
+   "desc": "雏鸟长着厚厚的深棕色绒毛，和灰色的帝企鹅雏鸟完全不同。"
+  }
+ ],
+ "intro": [
+  "王企鹅是第二大的企鹅，仅次于帝企鹅。",
+  "它比帝企鹅矮约 25%，轻约三分之一。",
+  "麦夸里岛现在约有 7 万对。"
+ ],
+ "fact": "马里恩岛的成年雄企鹅平均 12.4 kg，雌企鹅 11.1 kg。",
+ "range": "亚南极岛屿（南乔治亚、克罗泽、凯尔盖朗、福克兰等）。",
+ "sources": [
+  "Wikipedia「King penguin」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": "潜水 552 秒约合 9.2 分钟。"
+}

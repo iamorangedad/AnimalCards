@@ -1,0 +1,78 @@
+{
+ "file": "北极海鹦",
+ "no": "306",
+ "cat": "鸟类",
+ "name_cn": "北极海鹦",
+ "name_en": "Atlantic puffin",
+ "latin": "Fratercula arctica",
+ "short": "北极海鹦",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃浮游动物、小鱼和蟹",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "28–30 cm",
+   "lo": 0.28,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "47–63 cm",
+   "lo": 0.47,
+   "hi": 0.63,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "8 个月飞行",
+   "value": "7700 km",
+   "lo": 7700,
+   "hi": 7700,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "冰岛占比",
+   "value": "约 60%",
+   "lo": 60,
+   "hi": 60,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "水下飞行",
+   "icon": "dive",
+   "desc": "潜到水下用翅膀划水来抓鱼。"
+  },
+  {
+   "name": "挖洞",
+   "icon": "climb",
+   "desc": "在海边悬崖上成群繁殖，挖洞产下一枚白色的蛋。"
+  }
+ ],
+ "intro": [
+  "北极海鹦有红黑相间的大嘴和橙色的脚，被叫作“海中小丑”“海鹦鹉”。",
+  "全球 90% 以上在欧洲，冰岛就占 60%。",
+  "雏鸟约 6 周大后，在夜里自己走向大海。"
+ ],
+ "fact": "它是加拿大纽芬兰与拉布拉多省的省鸟。",
+ "range": "北大西洋（冰岛、挪威、英国、北美东北部）。",
+ "sources": [
+  "Wikipedia「Atlantic puffin」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

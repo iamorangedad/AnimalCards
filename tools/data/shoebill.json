@@ -1,0 +1,78 @@
+{
+ "file": "鲸头鹳",
+ "no": "312",
+ "cat": "鸟类",
+ "name_cn": "鲸头鹳",
+ "name_en": "Shoebill",
+ "latin": "Balaeniceps rex",
+ "short": "鲸头鹳",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "100–140 cm",
+   "lo": 1.0,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "4–7 kg",
+   "lo": 4,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "230–260 cm",
+   "lo": 2.3,
+   "hi": 2.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "18.8–24 cm",
+   "lo": 0.188,
+   "hi": 0.24,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "像雕像",
+   "icon": "camo",
+   "desc": "动作很慢，常长时间一动不动，被形容为“像雕像一样”。"
+  },
+  {
+   "name": "敲嘴",
+   "icon": "ear",
+   "desc": "平时很安静，在巢边会互相敲打大嘴“哒哒”作响来交流。"
+  }
+ ],
+ "intro": [
+  "鲸头鹳的嘴是现存鸟类第三长的，仅次于鹈鹕和大型鹳。",
+  "它的分布和纸莎草、肺鱼的分布大致重合。",
+  "中趾长 16.8–18.5 cm，方便站在水草上。"
+ ],
+ "fact": "雄鸟一般约 5.6 kg，比约 4.9 kg 的雌鸟大。",
+ "range": "东非热带沼泽（南苏丹、乌干达、赞比亚等）。",
+ "sources": [
+  "Wikipedia「Shoebill」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

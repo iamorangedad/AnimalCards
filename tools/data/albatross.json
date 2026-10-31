@@ -1,0 +1,77 @@
+{
+ "file": "漂泊信天翁",
+ "no": "307",
+ "cat": "鸟类",
+ "name_cn": "漂泊信天翁",
+ "name_en": "Wandering albatross",
+ "latin": "Diomedea exulans",
+ "short": "漂泊信天翁",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "平均翼展",
+   "value": "约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最长翼展",
+   "value": "约 3.7 m",
+   "lo": 3.7,
+   "hi": 3.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "107–135 cm",
+   "lo": 1.07,
+   "hi": 1.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一年飞",
+   "value": "超过 12 万 km",
+   "lo": 120000,
+   "hi": 120000,
+   "scale": "km_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长翅膀",
+   "icon": "flip",
+   "desc": "它是翼展最长的鸟，能几个小时不扇翅膀地滑翔，每下降 1 m 能前进 22 m。"
+  },
+  {
+   "name": "终身伴侣",
+   "icon": "team",
+   "desc": "实行终身配对，每两年繁殖一次。"
+  }
+ ],
+ "intro": [
+  "漂泊信天翁一生大部分时间都在飞，只有繁殖和觅食时才落下。",
+  "有些个体一年能绕南大洋飞三圈。",
+  "每次只产一枚约 10 cm 长的蛋。"
+ ],
+ "fact": "曾有报告说翼展 4.22 m 和 5.3 m，但都未经证实。",
+ "range": "南大洋（南乔治亚、克罗泽群岛等岛屿繁殖）。",
+ "sources": [
+  "Wikipedia「Wandering albatross」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

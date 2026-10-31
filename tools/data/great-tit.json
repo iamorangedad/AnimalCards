@@ -1,0 +1,77 @@
+{
+ "file": "大山雀",
+ "no": "314",
+ "cat": "鸟类",
+ "name_cn": "大山雀",
+ "name_en": "Great tit",
+ "latin": "Parus major",
+ "short": "大山雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "冬季可吃掉相当于体重 44% 的葵花籽",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12.5–14 cm",
+   "lo": 0.125,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "约 12 枚",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "12–15 天",
+   "lo": 12,
+   "hi": 15,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "叫声种类",
+   "value": "可达 40 种",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "果园卫士",
+   "icon": "team",
+   "desc": "2007 年的研究发现，大山雀能让苹果园里的毛虫危害减少多达 50%。"
+  },
+  {
+   "name": "会说很多话",
+   "icon": "ear",
+   "desc": "有多达 40 种叫声和歌声，主要是雄鸟在叫。"
+  }
+ ],
+ "intro": [
+  "大山雀在山雀里算大个子。",
+  "雌鸟独自孵蛋，但父母一起喂雏鸟。",
+  "雏鸟每天吃 6–7 g 食物。"
+ ],
+ "fact": "雏鸟在巢里待 16–22 天，离巢 8 天后独立。",
+ "range": "欧洲、中东、中亚到北非。",
+ "sources": [
+  "Wikipedia「Great tit」",
+  "IUCN 红色名录"
+ ],
+ "footnote": "IUCN 评估年份未在来源中注明。"
+}

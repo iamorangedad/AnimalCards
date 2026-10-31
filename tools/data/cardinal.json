@@ -1,0 +1,77 @@
+{
+ "file": "主红雀",
+ "no": "316",
+ "cat": "鸟类",
+ "name_cn": "主红雀",
+ "name_en": "Northern cardinal",
+ "latin": "Cardinalis cardinalis",
+ "short": "主红雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "21–23 cm",
+   "lo": 0.21,
+   "hi": 0.23,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "33.6–65 g",
+   "lo": 0.0336,
+   "hi": 0.065,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "野外最长",
+   "value": "15 年 9 个月",
+   "lo": 15.75,
+   "hi": 15.75,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "圈养最长",
+   "value": "28.5 年",
+   "lo": 28.5,
+   "hi": 28.5,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "降体温",
+   "icon": "huddle",
+   "desc": "需要时能把体温降低 1.7–3.3 °C 来熬过寒冷。"
+  },
+  {
+   "name": "夫妻对唱",
+   "icon": "ear",
+   "desc": "雌雄都会唱清亮的口哨般的歌。"
+  }
+ ],
+ "intro": [
+  "主红雀头上有冠，雄鸟是鲜艳的深红色，脸上有黑色面罩。",
+  "“北方”是因为它是最靠北的红雀。",
+  "成鸟每年的存活率约 60–65%。"
+ ],
+ "fact": "它是美国伊利诺伊、印第安纳、肯塔基、北卡、俄亥俄、弗吉尼亚和西弗吉尼亚七个州的州鸟。",
+ "range": "北美东部到墨西哥、危地马拉北部。",
+ "sources": [
+  "Wikipedia「Northern cardinal」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "欧亚鸲",
+ "no": "315",
+ "cat": "鸟类",
+ "name_cn": "欧亚鸲",
+ "name_en": "European robin",
+ "latin": "Erithacus rubecula",
+ "short": "欧亚鸲",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12.5–14 cm",
+   "lo": 0.125,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "16–22 g",
+   "lo": 0.016,
+   "hi": 0.022,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "20–22 cm",
+   "lo": 0.2,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "19 年",
+   "lo": 19,
+   "hi": 19,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "园丁之友",
+   "icon": "team",
+   "desc": "人在翻土时它会跟在旁边找吃的，英国和爱尔兰人把它当作园丁的朋友。"
+  },
+  {
+   "name": "护地盘",
+   "icon": "roar",
+   "desc": "有些地区多达 10% 的成鸟死于领地争斗。"
+  }
+ ],
+ "intro": [
+  "欧亚鸲胸前是橙红色的。",
+  "因第一年死亡率高，平均寿命只有 1.1 年，但熬过第一年后寿命会变长。",
+  "白天活动，但也有在月夜或灯光下捉虫的报道。"
+ ],
+ "fact": "2015 年它在英国的投票中再次被选为国鸟，得票 34%。",
+ "range": "欧洲、北非、西亚。",
+ "sources": [
+  "Wikipedia「European robin」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "黑颈鹤",
+ "no": "318",
+ "cat": "鸟类",
+ "name_cn": "黑颈鹤",
+ "name_en": "Black-necked crane",
+ "latin": "Grus nigricollis",
+ "short": "黑颈鹤",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "139 cm",
+   "lo": 1.39,
+   "hi": 1.39,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "235 cm",
+   "lo": 2.35,
+   "hi": 2.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "5.5 kg",
+   "lo": 5.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "觅食时间",
+   "value": "近 75% 白天",
+   "lo": 75,
+   "hi": 75,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "高原鹤",
+   "icon": "flip",
+   "desc": "夏天主要在青藏高原的高山草甸、湖边和河边沼泽繁殖。"
+  },
+  {
+   "name": "爱吃",
+   "icon": "jar",
+   "desc": "白天近 75% 的时间都在觅食，早上和傍晚最忙。"
+  }
+ ],
+ "intro": [
+  "黑颈鹤是亚洲的中型鹤。",
+  "在拉达克，父母主要用鱼喂雏鸟，像鹭一样捕鱼。",
+  "最大的一群有 400–500 只。"
+ ],
+ "fact": "2013 年估计全球有 10070–10970 只。",
+ "range": "青藏高原、印度和不丹的偏远地区。",
+ "sources": [
+  "Wikipedia「Black-necked crane」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "斑头雁",
+ "no": "317",
+ "cat": "鸟类",
+ "name_cn": "斑头雁",
+ "name_en": "Bar-headed goose",
+ "latin": "Anser indicus",
+ "short": "斑头雁",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "71–76 cm",
+   "lo": 0.71,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.87–3.2 kg",
+   "lo": 1.87,
+   "hi": 3.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "追踪最高",
+   "value": "7290 m",
+   "lo": 7290,
+   "hi": 7290,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "95% 时间",
+   "value": "低于 5784 m",
+   "lo": 5784,
+   "hi": 5784,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高飞冠军",
+   "icon": "flip",
+   "desc": "它是飞得最高的鸟之一；2012 年追踪的 91 只里，最高一只飞到 7290 m。"
+  },
+  {
+   "name": "绕路飞",
+   "icon": "dive",
+   "desc": "迁徙时 95% 的时间在 5784 m 以下，宁可绕远路也不硬翻高峰。"
+  }
+ ],
+ "intro": [
+  "斑头雁夏天住在中亚的高原湖泊。",
+  "有人听到它飞越马卡鲁峰（8481 m）。",
+  "分布范围超过 250 万 km²。"
+ ],
+ "fact": "研究者认为“斑头雁飞到 8000 m”的说法可能只是传说。",
+ "range": "中亚高原繁殖，南亚越冬。",
+ "sources": [
+  "Wikipedia「Bar-headed goose」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "高度条超出 0–6000 刻度时显示到满格。"
+}

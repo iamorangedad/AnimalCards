@@ -1,0 +1,78 @@
+{
+ "file": "家鸭",
+ "no": "024",
+ "cat": "农场",
+ "name_cn": "家鸭",
+ "name_en": "Domestic duck",
+ "latin": "Anas platyrhynchos domesticus",
+ "short": "家鸭",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（食性待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.7–4.6 kg",
+   "lo": 0.7,
+   "hi": 4.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野鸭体重",
+   "value": "约 1.1 kg",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "年产蛋",
+   "value": "约 200 枚",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "8–12 年",
+   "lo": 8,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳健将",
+   "icon": "dive",
+   "desc": "家鸭的脚有蹼，像船桨一样划水，在池塘里游来游去。"
+  },
+  {
+   "name": "下蛋能手",
+   "icon": "huddle",
+   "desc": "印度跑鸭一年能下 300 多枚蛋，比大多数鸭子都多。"
+  }
+ ],
+ "intro": [
+  "大多数家鸭是由绿头鸭驯化来的，约公元前 2000 年在中国被驯化。",
+  "北京鸭等品种主要用来产肉，有的品种则主要产蛋。",
+  "野生绿头鸭通常一夫一妻，而家鸭往往不是。"
+ ],
+ "fact": "最小的品种不到 1 kg，最大的艾尔斯伯里鸭能重达 4.6 kg。",
+ "range": "驯化于中国；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Domestic duck」"
+ ],
+ "footnote": "体重为最小（Appleyard 0.7 kg）到较大品种（Aylesbury 4.6 kg）；印度跑鸭年产蛋可超过 300 枚。"
+}

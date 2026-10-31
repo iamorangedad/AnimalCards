@@ -1,0 +1,77 @@
+{
+ "file": "猪",
+ "no": "018",
+ "cat": "农场",
+ "name_cn": "猪",
+ "name_en": "Domestic pig",
+ "latin": "Sus domesticus",
+ "short": "猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "什么都吃",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "140–300 kg",
+   "lo": 140,
+   "hi": 300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "112–120 天",
+   "lo": 112,
+   "hi": 120,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "约 27 年",
+   "lo": 27,
+   "hi": 27,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "舒适温度",
+   "value": "16–22 °C",
+   "lo": 16,
+   "hi": 22,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "拱土鼻",
+   "icon": "trunk",
+   "desc": "长长的鼻子里有一块特别的骨头加固，能拱开泥土找吃的，也是灵敏的感觉器官。"
+  },
+  {
+   "name": "泥浴降温",
+   "icon": "dive",
+   "desc": "猪的汗腺很少，天热时会在泥水里打滚，靠水分蒸发给身体降温。"
+  }
+ ],
+ "intro": [
+  "家猪是由野猪驯化的，中国大约在 8000 年前就单独驯化了猪。",
+  "放养的猪每天要走约 4 km，到处找吃的。",
+  "母猪生宝宝前会用树枝和树叶搭一个中间软软的窝。"
+ ],
+ "fact": "有记录的最重的猪“Big Bill”体重达 1157 kg，肩高 1.5 m。",
+ "range": "驯化于近东和中国；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Domestic pig」"
+ ],
+ "footnote": "体重为一般成年猪，部分品种更重；最小的哥廷根迷你猪约 26 kg。"
+}

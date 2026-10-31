@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 16 张（宠物 11，高原草原 2，森林 1，海洋 1，鸟类 1）。
+共 26 张（宠物 11，农场 10，高原草原 2，森林 1，海洋 1，鸟类 1）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -19,6 +19,16 @@
 | 014 | 孔雀鱼（Guppy） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AD%94%E9%9B%80%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AD%94%E9%9B%80%E9%B1%BC.pdf) |
 | 015 | 非洲迷你刺猬（Four-toed hedgehog） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E8%BF%B7%E4%BD%A0%E5%88%BA%E7%8C%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E8%BF%B7%E4%BD%A0%E5%88%BA%E7%8C%AC.pdf) |
 | 016 | 龙猫（Long-tailed chinchilla） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BE%99%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BE%99%E7%8C%AB.pdf) |
+| 017 | 牛（Cattle） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.pdf) |
+| 018 | 猪（Domestic pig） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.pdf) |
+| 019 | 绵羊（Sheep） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.pdf) |
+| 020 | 山羊（Goat） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B1%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B1%B1%E7%BE%8A.pdf) |
+| 021 | 马（Horse） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%AC.pdf) |
+| 022 | 驴（Donkey） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%B4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%B4.pdf) |
+| 023 | 鸡（Chicken） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B8%A1.pdf) |
+| 024 | 家鸭（Domestic duck） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%AD.pdf) |
+| 025 | 家鹅（Domestic goose） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B9%85.pdf) |
+| 026 | 羊驼（Alpaca） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.pdf) |
 | 003 | 非洲象（African bush elephant） | 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.pdf) |
 | 006 | 狮子（Lion） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.pdf) |
 | 001 | 大熊猫（Giant panda） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.pdf) |

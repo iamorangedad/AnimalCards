@@ -167,7 +167,7 @@ def scene(kind, w, h, animal, box=None, extra=""):
 # ====================================================================== quadruped
 def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, neck=(40, 30), nw=None, head=(62, 52), snout=(46, 34),
          snout_col=None, ears="point", tail="thin", tail_col=None, pattern=None, pat_col=INK, horns=None, hooves=None, mane=None, hump=None,
-         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0):
+         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0, wool=None, beard=None, udder=None, pig=False, neck_wool=None):
     farleg = farleg or darker(F)
     snout_col = snout_col or F
     x0, x1, yt, yb = -bl / 2, bl / 2, -(lh + bd), -lh
@@ -238,6 +238,12 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
     if inner:
         o.append(clip(bdpath, inner))
     o.append(P(bdpath, "none"))
+    if udder:
+        o.append(E(x1 - bd * .75, yb + 6, 26, 16, udder, 2.6) + P(f"M{x1-bd*.75-12} {yb+20} v8 M{x1-bd*.75+12} {yb+20} v8", sw=4, col=INK))
+    if wool:
+        o.append(P(wavy((x0 + x1) / 2, (yt + yb) / 2 - 4, bl * .56, bd * .62, 16, 10), wool, 3))
+        for i in range(9):
+            o.append(P(f"M{x0+30+i*bl/10:.0f} {yt+bd*.35+(i%3)*18:.0f} q8 -10 16 0", sw=2, col=MUTE))
     o.append(extras)
     # neck + head
     nl, na = neck
@@ -260,12 +266,17 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
         o.append(P(f"M{nx0+14} {ny0-6} C{nx0+10} {(ny0+hy_)/2} {hx+30} {hy_-10} {hx+16} {hy_-head[1]*.7} L{hx+34} {hy_-head[1]*.3} C{hx+40} {(ny0+hy_)/2} {nx0+24} {ny0} {nx0+40} {ny0+10} Z", darker(F, .55), 2.6))
     if mane == "zebra":
         o.append(P(f"M{nx0+10} {ny0-4} L{hx+14} {hy_-head[1]*.7}", sw=16) + P(f"M{nx0+10} {ny0-4} L{hx+14} {hy_-head[1]*.7}", sw=10, col="#fff"))
-    o.append(head_(hx, hy_, F, head, snout, snout_col, ears, horns, nose, eye))
+    if neck_wool:
+        o.append(P(wavy((nx0 + hx) / 2 + 6, (ny0 + hy_) / 2, nw * .62, abs(ny0 - hy_) * .62 + 10, 10, 7), neck_wool, 2.8))
+    o.append(head_(hx, hy_, F, head, snout, snout_col, ears, horns, nose, eye, pig))
+    if beard:
+        bx2 = hx - head[0] * .7 - snout[0] * .3
+        o.append(P(f"M{bx2+8} {hy_+head[1]*.7} L{bx2-4} {hy_+head[1]*1.6} L{bx2+20} {hy_+head[1]*.75} Z", beard, 2.4))
     o.append(front_extras)
     return "".join(o)
 
 
-def head_(hx, hy, F, head, snout, scol, ears, horns, nose, eye=True):
+def head_(hx, hy, F, head, snout, scol, ears, horns, nose, eye=True, pig=False):
     rx, ry = head
     sl, sh = snout
     o = []
@@ -310,6 +321,9 @@ def head_(hx, hy, F, head, snout, scol, ears, horns, nose, eye=True):
         o.append(E(sx, sy, sl * .6 + 6, sh * .62, scol, 2.8))
         o.append(E(sx - sl * .5, sy - sh * .2, 7, 5.5, nose, 0) if nose else "")
         o.append(P(f"M{sx-sl*.45} {sy+sh*.22} q{sl*.3} {sh*.2} {sl*.65} 0", sw=2.2))
+        if pig:
+            px = sx - sl * .6 - 2
+            o.append(E(px, sy, 9, sh * .5, scol, 2.6) + E(px - 1, sy - sh * .18, 2, 4, INK, 0) + E(px - 1, sy + sh * .18, 2, 4, INK, 0))
     if horns == "rhino":
         sx, sy = hx - rx * .7 - sl * .45, hy + ry * .3
         o.append(P(f"M{sx-sl*.35} {sy-sh*.5} L{sx-sl*.55} {sy-sh*1.9} L{sx-sl*.0} {sy-sh*.55} Z", "#d8d2c6", 2.6))
@@ -596,5 +610,62 @@ def a_chinchilla(w, h):
                  box=(w / 2 + 10, h * .74, 480, 330))
 
 
-ART2 = {"dog": a_dog, "rabbit": a_rabbit, "hamster": a_hamster, "goldfish": a_goldfish, "budgie": a_budgie, "guinea-pig": a_guinea,
+# ====================================================================== farm
+def a_cattle(w, h):
+    return scene("farm", w, h, quad(F="#ffffff", bl=330, bd=140, lh=140, lw=34, pattern="patches", pat_col=INK, neck=(20, 60), nw=90, head=(52, 50),
+                 snout=(44, 40), snout_col="#f6c9c0", nose="#c9857a", ears="side", horns="cow", tail="tuft", tail_col=INK, hooves=INK, udder="#f6c9c0"))
+
+
+def a_pig(w, h):
+    return scene("farm", w, h, quad(F="#f7c9c4", bl=300, bd=150, lh=80, lw=36, neck=(0, 0), head=(64, 58), snout=(34, 40), snout_col="#f2aaa2", nose=None,
+                 ears="point", tail="curl", hooves="#c98a80", pig=True), box=(w / 2, h * .75, 560, 340))
+
+
+def a_sheep(w, h):
+    return scene("farm", w, h, quad(F="#3a3f45", bl=280, bd=140, lh=100, lw=24, wool="#fbfaf6", neck=(10, 60), nw=70, head=(44, 46), snout=(30, 32),
+                 ears="side", tail="short", tail_col="#fbfaf6", nose=None, farleg="#2a2e33"), box=(w / 2, h * .75, 560, 360))
+
+
+def a_goat(w, h):
+    return scene("farm", w, h, quad(F="#e9e2d6", bl=260, bd=110, lh=130, lw=24, neck=(40, 26), nw=60, head=(42, 40), snout=(38, 30), ears="side", horns="goat",
+                 tail="short", hooves="#5a5048", beard="#d9cbb5", belly="#fbf8f2"), extra=G_(rock(0, 0, 1.6), 700, 430))
+
+
+def a_horse(w, h):
+    return scene("farm", w, h, quad(F="#b9774a", bl=320, bd=130, lh=170, lw=30, neck=(90, 32), nw=70, head=(46, 40), snout=(66, 42), snout_col="#b9774a",
+                 ears="point", mane="horse", tail="horse", hooves="#3a3f45", belly=None))
+
+
+def a_donkey(w, h):
+    return scene("farm", w, h, quad(F="#a7a29c", bl=270, bd=120, lh=130, lw=28, neck=(60, 30), nw=66, head=(40, 36), snout=(54, 34), snout_col="#ece8e2",
+                 ears="long", mane="zebra", tail="tuft", tail_col="#3a3f45", hooves="#3a3f45", belly="#ece8e2"))
+
+
+def a_chicken(w, h):
+    b = bird(F="#ffffff", wing="#f1ebe0", rx=80, ry=66, tilt=-12, neck=20, nw=46, hr=32, beak="cone", beak_col=YEL, leg_len=60, leg_col=YEL, legw=6,
+             tail="up", tail_col="#3a3f45", crest="comb", wattle=True)
+    chick = G_(bird(F=YEL_L, wing=YEL, rx=30, ry=26, tilt=0, neck=0, nw=20, hr=18, beak="cone", beak_col=ORG, leg_len=16, leg_col=ORG, legw=3, tail=None), 150, 0)
+    return scene("farm", w, h, b + chick, box=(w / 2, h * .76, 520, 380))
+
+
+def a_duck(w, h):
+    b = bird(F="#ffffff", wing="#eef0f2", rx=92, ry=56, tilt=-6, neck=26, nw=40, hr=32, beak="duck", beak_col=ORG, leg_len=36, leg_col=ORG, legw=6,
+             tail="up", tail_col="#ffffff", webbed=True)
+    return scene("pond", w, h, b, box=(w / 2 - 40, h * .76, 480, 330))
+
+
+def a_goose(w, h):
+    b = bird(F="#f4f4f2", wing="#dfe1e3", rx=100, ry=62, tilt=-8, neck=110, nw=34, hr=30, beak="duck", beak_col=ORG, leg_len=40, leg_col=ORG, legw=6,
+             tail="short", tail_col="#dfe1e3", webbed=True, crest=None)
+    return scene("pond", w, h, b, box=(w / 2 - 40, h * .76, 480, 400))
+
+
+def a_alpaca(w, h):
+    return scene("plateau", w, h, quad(F="#f3e6d0", bl=240, bd=120, lh=130, lw=26, wool="#f6ead6", neck=(130, 8), nw=56, head=(36, 34), snout=(30, 26),
+                 ears="big", tail="short", hooves="#5a5048", neck_wool="#f6ead6", nose="#5a5048"), box=(w / 2, h * .75, 500, 420))
+
+
+ART2 = {"cattle": a_cattle, "pig": a_pig, "sheep": a_sheep, "goat": a_goat, "horse": a_horse, "donkey": a_donkey, "chicken": a_chicken, "duck": a_duck,
+        "goose": a_goose, "alpaca": a_alpaca,
+        "dog": a_dog, "rabbit": a_rabbit, "hamster": a_hamster, "goldfish": a_goldfish, "budgie": a_budgie, "guinea-pig": a_guinea,
         "slider": a_slider, "guppy": a_guppy, "hedgehog": a_hedgehog, "chinchilla": a_chinchilla}

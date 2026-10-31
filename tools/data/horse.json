@@ -1,0 +1,77 @@
+{
+ "file": "马",
+ "no": "021",
+ "cat": "农场",
+ "name_cn": "马",
+ "name_en": "Horse",
+ "latin": "Equus caballus",
+ "short": "马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "380–1000 kg",
+   "lo": 380,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "142–183 cm",
+   "lo": 1.42,
+   "hi": 1.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "320–370 天",
+   "lo": 320,
+   "hi": 370,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "站着睡觉",
+   "icon": "climb",
+   "desc": "马既能躺着睡，也能站着睡——这和野外随时要逃离天敌有关。"
+  },
+  {
+   "name": "出生就能跑",
+   "icon": "flip",
+   "desc": "小马驹出生后不久就能站起来，还能跟着妈妈跑。"
+  }
+ ],
+ "intro": [
+  "马是人类重要的伙伴，用来骑乘、拉车和比赛。",
+  "马的身高常用“掌”来量，1 掌 = 4 英寸（约 10 cm）。",
+  "肩高不到 147 cm 的通常叫小型马（矮马）。"
+ ],
+ "fact": "史上最高的马之一肩高 219 cm，体重估计达 1524 kg。",
+ "range": "驯化后遍布世界各地。",
+ "sources": [
+  "Wikipedia「Horse」"
+ ],
+ "footnote": "体重、肩高为轻型骑乘马到重型挽马的常见范围。"
+}

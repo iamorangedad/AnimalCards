@@ -1,0 +1,77 @@
+{
+ "file": "羊驼",
+ "no": "026",
+ "cat": "农场",
+ "name_cn": "羊驼",
+ "name_en": "Alpaca",
+ "latin": "Lama pacos",
+ "short": "羊驼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "每天吃体重 1–2% 的草料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "48–90 kg",
+   "lo": 48,
+   "hi": 90,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "81–99 cm",
+   "lo": 0.81,
+   "hi": 0.99,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "15–20 年",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "放牧海拔",
+   "value": "3500–5000 m",
+   "lo": 3500,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吐口水",
+   "icon": "roar",
+   "desc": "羊驼主要用身体语言交流；紧张、害怕或生气时会吐口水来示威。"
+  },
+  {
+   "name": "高级羊毛",
+   "icon": "huddle",
+   "desc": "每次剪毛能得到 2.3–4.5 kg 纤维，可以织成柔软的毛衣。"
+  }
+ ],
+ "intro": [
+  "羊驼原产南美洲安第斯山区，至少 5000–6000 年前由野生的小羊驼驯化而来。",
+  "它们成群生活，在海拔 3500–5000 m 的高山草地上吃草。",
+  "羊驼有两个品种：毛直的苏利羊驼和毛卷的华卡约羊驼。"
+ ],
+ "fact": "有记录的最长寿羊驼活了 28 岁。",
+ "range": "原产厄瓜多尔、秘鲁至玻利维亚西部和智利北部的安第斯山区。",
+ "sources": [
+  "Wikipedia「Alpaca」"
+ ],
+ "footnote": ""
+}

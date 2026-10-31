@@ -1,0 +1,77 @@
+{
+ "file": "鸡",
+ "no": "023",
+ "cat": "农场",
+ "name_cn": "鸡",
+ "name_en": "Chicken",
+ "latin": "Gallus gallus domesticus",
+ "short": "鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "啄食种子和小虫（食性待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "年产蛋",
+   "value": "300 枚以上",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 21 天",
+   "lo": 21,
+   "hi": 21,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "5–10 年",
+   "lo": 5,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "小鸡体重",
+   "value": "约 37 g",
+   "lo": 0.037,
+   "hi": 0.037,
+   "scale": "mass_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "啄序",
+   "icon": "team",
+   "desc": "鸡群里有“啄序”：地位高的鸡先吃东西、先占窝。这个概念最早就是在鸡身上发现的。"
+  },
+  {
+   "name": "破壳齿",
+   "icon": "flip",
+   "desc": "小鸡用喙尖上的“卵齿”啄破蛋壳，自己钻出来。"
+  }
+ ],
+ "intro": [
+  "家鸡是红原鸡驯化来的，大约 8000 年前在东南亚被驯化。",
+  "它是世界上数量最多、分布最广的家养动物之一。",
+  "野生原鸡会飞，但家鸡身体太重，只能飞很短的距离。"
+ ],
+ "fact": "正式认证的产蛋纪录是 364 天产下 371 枚蛋。世界上已知最长寿的鸡活了 16 年。",
+ "range": "驯化于东南亚；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Chicken」"
+ ],
+ "footnote": "年产蛋为产蛋品种母鸡。"
+}

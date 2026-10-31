@@ -1,0 +1,77 @@
+{
+ "file": "牛",
+ "no": "017",
+ "cat": "农场",
+ "name_cn": "牛",
+ "name_en": "Cattle",
+ "latin": "Bos taurus",
+ "short": "牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "反刍动物，会“倒嚼”",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "600–1200 kg",
+   "lo": 600,
+   "hi": 1200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最高肩高",
+   "value": "约 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "自然寿命",
+   "value": "25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每天睡觉",
+   "value": "约 4 小时",
+   "lo": 4,
+   "hi": 4,
+   "scale": "hours",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "倒嚼",
+   "icon": "trunk",
+   "desc": "牛吃草时先囫囵吞下，存进瘤胃，之后再把食物返回嘴里重新嚼，这叫反刍。"
+  },
+  {
+   "name": "好记性",
+   "icon": "camo",
+   "desc": "牛能记住好几个吃草地点的位置，记忆至少能保持 48 天。"
+  }
+ ],
+ "intro": [
+  "家牛是大约 1.05 万年前由野生原牛驯化而来的。",
+  "牛只有一个胃，但分成瘤胃、网胃、瓣胃和皱胃四个部分，专门消化难消化的草。",
+  "到 2022 年，全世界的牛已经超过 9.4 亿头。"
+ ],
+ "fact": "最高大的牛品种是契安尼娜牛，公牛肩高可达 1.8 m、体重可达 1280 kg。",
+ "range": "驯化于西亚（安纳托利亚、黎凡特、伊朗西部）；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Cattle」"
+ ],
+ "footnote": "体重为海福特牛（母 600–800 kg，公 1000–1200 kg）。"
+}

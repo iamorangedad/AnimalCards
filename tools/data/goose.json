@@ -1,0 +1,78 @@
+{
+ "file": "家鹅",
+ "no": "025",
+ "cat": "农场",
+ "name_cn": "家鹅",
+ "name_en": "Domestic goose",
+ "latin": "Anser cygnoides domesticus",
+ "short": "家鹅",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（食性待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最重约 10 kg",
+   "lo": 10,
+   "hi": 10,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "野雁最重",
+   "value": "3.5–4.1 kg",
+   "lo": 3.5,
+   "hi": 4.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "年产蛋",
+   "value": "最多约 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "蛋重",
+   "value": "120–170 g",
+   "lo": 0.12,
+   "hi": 0.17,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "看家护院",
+   "icon": "roar",
+   "desc": "鹅见到陌生人会大声叫。疫情期间，中越边境的崇左曾用约 500 只鹅帮忙巡逻。"
+  },
+  {
+   "name": "大头包",
+   "icon": "camo",
+   "desc": "由鸿雁驯化来的中国鹅，嘴巴根部有一个大肉瘤，很好认。"
+  }
+ ],
+ "intro": [
+  "家鹅由灰雁和鸿雁驯化而来；东亚的鹅主要来自鸿雁。",
+  "最早的驯鹅证据来自约 7000 年前长江下游的河姆渡文化。",
+  "经过选育，家鹅一年能下约 100 枚蛋，而野雁只下 5–12 枚。"
+ ],
+ "fact": "鹅的祖先鸿雁最重约 3.5 kg、灰雁约 4.1 kg，而有的家鹅品种能长到 10 kg。",
+ "range": "驯化于中国、欧洲等地；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Domestic goose」"
+ ],
+ "footnote": "学名为中国鹅（源自鸿雁）；欧洲家鹅为 Anser anser domesticus。"
+}

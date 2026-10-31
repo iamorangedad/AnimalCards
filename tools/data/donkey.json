@@ -1,0 +1,77 @@
+{
+ "file": "驴",
+ "no": "022",
+ "cat": "农场",
+ "name_cn": "驴",
+ "name_en": "Donkey",
+ "latin": "Equus asinus",
+ "short": "驴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "适应干旱地区",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "0.9–1.5 m",
+   "lo": 0.9,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "12–50 年",
+   "lo": 12,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "11–14 个月",
+   "lo": 11,
+   "hi": 14,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "每天吃草",
+   "value": "6–7 小时",
+   "lo": 6,
+   "hi": 7,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大嗓门",
+   "icon": "roar",
+   "desc": "驴的叫声“呃—啊”一般持续约 20 秒，3 km 外都能听到，帮它在荒漠里联系同伴。"
+  },
+  {
+   "name": "护卫员",
+   "icon": "team",
+   "desc": "驴可以当牲畜的护卫，遇到狼等天敌会大叫，并用前蹄踢它们。"
+  }
+ ],
+ "intro": [
+  "驴大约在 5000–7000 年前于非洲被驯化。",
+  "至少 5000 年来，驴一直是人类的好帮手，帮忙驮东西、拉车。",
+  "驴很适应贫瘠的荒漠，性格谨慎、友好，也爱玩。"
+ ],
+ "fact": "驴的寿命差别很大：贫穷地区的劳役驴约 12–15 年，条件好的地方能活 30–50 年。",
+ "range": "驯化于非洲；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Donkey」"
+ ],
+ "footnote": "寿命范围跨越不同国家和饲养条件。"
+}

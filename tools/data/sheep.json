@@ -1,0 +1,77 @@
+{
+ "file": "绵羊",
+ "no": "019",
+ "cat": "农场",
+ "name_cn": "绵羊",
+ "name_en": "Sheep",
+ "latin": "Ovis aries",
+ "short": "绵羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "反刍动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "45–160 kg",
+   "lo": 45,
+   "hi": 160,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10–12 年",
+   "lo": 10,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 5 个月",
+   "lo": 5,
+   "hi": 5,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "能记住的脸",
+   "value": "约 50 张",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "认脸高手",
+   "icon": "camo",
+   "desc": "研究发现，一只绵羊能记住 50 只不同羊的脸，而且能记 2 年以上。"
+  },
+  {
+   "name": "跟着头羊",
+   "icon": "team",
+   "desc": "羊群有等级，喜欢跟着领头的羊去新草场——这也是它们容易被驯化的原因。"
+  }
+ ],
+ "intro": [
+  "绵羊是最早被驯化的家畜之一，人们养它来取毛、吃肉和喝奶。",
+  "羊毛是使用最广泛的动物纤维，通常靠剪毛获得。",
+  "绵羊是十二生肖中的“羊”，排第八位。"
+ ],
+ "fact": "有些绵羊能活到 20 岁，比一般的 10–12 年长不少。",
+ "range": "驯化于西亚；如今中国和印度的羊群数量位居世界前列。",
+ "sources": [
+  "Wikipedia「Sheep」"
+ ],
+ "footnote": "体重区间合并母羊（45–100 kg）和公羊（45–160 kg）。"
+}

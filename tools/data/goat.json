@@ -1,0 +1,77 @@
+{
+ "file": "山羊",
+ "no": "020",
+ "cat": "农场",
+ "name_cn": "山羊",
+ "name_en": "Goat",
+ "latin": "Capra hircus",
+ "short": "山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "爱吃树叶、灌木",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "20–140 kg 以上",
+   "lo": 20,
+   "hi": 140,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "迷你羊肩高",
+   "value": "41–58 cm",
+   "lo": 0.41,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "15–18 年",
+   "lo": 15,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 150 天",
+   "lo": 150,
+   "hi": 150,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "爬树高手",
+   "icon": "climb",
+   "desc": "山羊动作灵活，能在险峻的地方站稳，是唯一经常爬树的反刍动物。"
+  },
+  {
+   "name": "横条瞳孔",
+   "icon": "camo",
+   "desc": "山羊的瞳孔是横着的长条，视野很宽，能及早发现两侧的敌人。"
+  }
+ ],
+ "intro": [
+  "山羊是最早被驯化的动物之一，大约 1 万年前在伊朗被驯化。",
+  "山羊天生好奇，会去尝各种东西，连纸板、衣服都会咬一口。",
+  "它是“啃食”动物，更喜欢吃树叶和灌木，而不是像牛羊那样吃地上的草。"
+ ],
+ "fact": "一只好的奶山羊每天至少能产 3 kg 奶。",
+ "range": "驯化于伊朗一带；如今遍布世界。",
+ "sources": [
+  "Wikipedia「Goat」"
+ ],
+ "footnote": "体重从小型品种母羊 20–27 kg 到波尔山羊公羊 140 kg 以上；肩高仅为非洲侏儒山羊。"
+}

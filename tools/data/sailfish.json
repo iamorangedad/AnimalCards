@@ -1,0 +1,79 @@
+{
+ "file": "平鳍旗鱼",
+ "no": "599",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "平鳍旗鱼",
+ "name_en": "Indo-Pacific sailfish",
+ "latin": "Istiophorus platypterus",
+ "short": "平鳍旗鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、甲壳类和头足类",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大叉长",
+   "value": "348 cm",
+   "lo": 3.48,
+   "hi": 3.48,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "100.2 kg",
+   "lo": 100.2,
+   "hi": 100.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "13 年",
+   "lo": 13,
+   "hi": 13,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–200 m",
+   "lo": 0,
+   "hi": 200,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大帆背鳍",
+   "icon": "wind",
+   "desc": "第一背鳍特别大，像一面帆。"
+  },
+  {
+   "name": "长矛嘴",
+   "icon": "thorn",
+   "desc": "上颌延长成矛状，用来捕猎。"
+  }
+ ],
+ "intro": [
+  "平鳍旗鱼原产印度洋和太平洋。",
+  "它经苏伊士运河进入了地中海。",
+  "背部深蓝色，常在温跃层以上活动。"
+ ],
+ "fact": "它吃金枪鱼和鲭鱼，而这些是海里最快的鱼之一。",
+ "range": "印度洋、太平洋，并进入大西洋和地中海。",
+ "sources": [
+  "Wikipedia「Indo-Pacific sailfish」",
+  "FishBase「Istiophorus platypterus」"
+ ],
+ "footnote": "体长、体重、寿命、水深和食性来自 FishBase。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "红鳍东方鲀",
+ "no": "598",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "红鳍东方鲀",
+ "name_en": "Japanese puffer",
+ "latin": "Takifugu rubripes",
+ "short": "红鳍东方鲀",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "近海底栖鱼",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "10–135 m",
+   "lo": 10,
+   "hi": 135,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "产卵水深",
+   "value": "约 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "depth",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "河豚毒素",
+   "icon": "toxic",
+   "desc": "肝脏和卵巢含有剧毒的河豚毒素。"
+  },
+  {
+   "name": "小基因组",
+   "icon": "micro",
+   "desc": "基因组非常小，已被完整测序，是研究用的模式生物。"
+  }
+ ],
+ "intro": [
+  "红鳍东方鲀也叫虎河豚（torafugu）。",
+  "它生活在日本海、东海和黄海，往北到库页岛南部。",
+  "3–5 月在海里产卵，把卵粘在约 20 m 深的石头上。"
+ ],
+ "fact": "种名 rubripes 来自拉丁语，意思是“红色的脚”。",
+ "range": "日本海、东海、黄海。",
+ "sources": [
+  "Wikipedia「Takifugu rubripes」",
+  "FishBase「Takifugu rubripes」"
+ ],
+ "footnote": "体长和产卵来自 FishBase。",
+ "warn": "肝脏和卵巢有剧毒，只能吃有资质的厨师处理过的河豚，绝不要自己处理。"
+}

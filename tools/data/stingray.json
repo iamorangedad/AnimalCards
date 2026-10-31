@@ -1,0 +1,79 @@
+{
+ "file": "美洲魟",
+ "no": "581",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "美洲魟",
+ "name_en": "Southern stingray",
+ "latin": "Hypanus americanus",
+ "short": "美洲魟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "夜里吃沙里的小动物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雌性盘宽",
+   "value": "最大 150 cm",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性盘宽",
+   "value": "最大 67 cm",
+   "lo": 0.67,
+   "hi": 0.67,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "135–226 天",
+   "lo": 135,
+   "hi": 226,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每胎",
+   "value": "2–10 条",
+   "lo": 2,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒刺",
+   "icon": "toxic",
+   "desc": "尾巴上的倒刺带锯齿，表面有毒黏液，用来自卫。"
+  },
+  {
+   "name": "吹沙找食",
+   "icon": "wind",
+   "desc": "从嘴里喷水或扇动胸鳍，把藏在沙里的猎物翻出来。"
+  }
+ ],
+ "intro": [
+  "美洲魟生活在西大西洋，从美国新泽西到巴西南部。",
+  "身体是扁平的菱形，背面泥褐色，腹面白色。",
+  "雌性比雄性大很多。"
+ ],
+ "fact": "怀孕期数据来自人工饲养的个体。",
+ "range": "西大西洋热带和亚热带海域。",
+ "sources": [
+  "Wikipedia「Southern stingray」"
+ ],
+ "footnote": "",
+ "warn": "尾刺有毒，潜水时不要踩踏或触摸。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "姥鲨",
+ "no": "583",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "姥鲨",
+ "name_en": "Basking shark",
+ "latin": "Cetorhinus maximus",
+ "short": "姥鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "滤食浮游生物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "7.9 m",
+   "lo": 7.9,
+   "hi": 7.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "超过 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "下潜深度",
+   "value": "至少 910 m",
+   "lo": 910,
+   "hi": 910,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "喜好水温",
+   "value": "8–14.5 °C",
+   "lo": 8,
+   "hi": 14.5,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨嘴滤食",
+   "icon": "food",
+   "desc": "嘴巴特别大，鳃耙发达，边慢慢游边过滤浮游生物。"
+  },
+  {
+   "name": "晒太阳",
+   "icon": "sun",
+   "desc": "常在水面进食，看起来像在晒太阳，因此得名。"
+  }
+ ],
+ "intro": [
+  "姥鲨是第二大的现存鲨鱼和鱼类，仅次于鲸鲨。",
+  "它是三种吃浮游生物的鲨鱼之一。",
+  "它游得很慢，分布在全球温带海洋。"
+ ],
+ "fact": "它也会穿过赤道附近温暖得多的海水。",
+ "range": "全球温带海洋。",
+ "sources": [
+  "Wikipedia「Basking shark」",
+  "IUCN 红色名录（Rigby 2021）"
+ ],
+ "footnote": ""
+}

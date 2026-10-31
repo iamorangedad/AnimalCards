@@ -1,0 +1,78 @@
+{
+ "file": "镰鱼",
+ "no": "596",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "镰鱼",
+ "name_en": "Moorish idol",
+ "latin": "Zanclus cornutus",
+ "short": "镰鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃海绵",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "23 cm",
+   "lo": 0.23,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "21 cm",
+   "lo": 0.21,
+   "hi": 0.21,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "1–180 m",
+   "lo": 1,
+   "hi": 180,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "海绵占比",
+   "value": "约 70%",
+   "lo": 70,
+   "hi": 70,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长长背鳍",
+   "icon": "wind",
+   "desc": "背鳍棘延长成一条长丝。"
+  },
+  {
+   "name": "吃海绵",
+   "icon": "food",
+   "desc": "肠胃里约 70% 的食物是海绵。"
+  }
+ ],
+ "intro": [
+  "镰鱼是镰鱼科唯一的现存物种。",
+  "属名 Zanclus 来自希腊语“镰刀”，指它长长的弯背鳍。",
+  "种名 cornutus 意思是“有角的”。"
+ ],
+ "fact": "它也分布在东太平洋，从加利福尼亚湾南部到秘鲁，包括加拉帕戈斯群岛。",
+ "range": "印度洋-太平洋和东太平洋的珊瑚礁。",
+ "sources": [
+  "Wikipedia「Moorish idol」"
+ ],
+ "footnote": ""
+}

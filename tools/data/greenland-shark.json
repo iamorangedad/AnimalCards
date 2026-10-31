@@ -1,0 +1,79 @@
+{
+ "file": "小头睡鲨",
+ "no": "584",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "小头睡鲨",
+ "name_en": "Greenland shark",
+ "latin": "Somniosus microcephalus",
+ "short": "小头睡鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用锯齿下牙切下大块猎物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "272–510 年",
+   "lo": 272,
+   "hi": 510,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "6.4 m",
+   "lo": 6.4,
+   "hi": 6.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "超过 1000 kg",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 150 岁",
+   "lo": 150,
+   "hi": 150,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长寿",
+   "icon": "clone",
+   "desc": "是已知寿命最长的脊椎动物，估计 272–510 岁。"
+  },
+  {
+   "name": "耐冷",
+   "icon": "cold",
+   "desc": "生活在北大西洋和北冰洋。"
+  }
+ ],
+ "intro": [
+  "小头睡鲨属于睡鲨科。",
+  "它是最大的鲨鱼之一。",
+  "幼鲨直接生出来，估计怀孕 8–18 年。"
+ ],
+ "fact": "它大约 150 岁才成熟。",
+ "range": "北大西洋、北冰洋。",
+ "sources": [
+  "Wikipedia「Greenland shark」",
+  "IUCN 红色名录（Kulka, D.W. 2020）"
+ ],
+ "footnote": ""
+}

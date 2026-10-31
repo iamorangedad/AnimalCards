@@ -1,0 +1,79 @@
+{
+ "file": "大西洋鲱",
+ "no": "589",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大西洋鲱",
+ "name_en": "Atlantic herring",
+ "latin": "Clupea harengus",
+ "short": "大西洋鲱",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃桡足类、磷虾和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 1.1 kg",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "3–5 岁",
+   "lo": 3,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "数量",
+   "value": "最多的鱼之一",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超大鱼群",
+   "icon": "team",
+   "desc": "是世界上数量最多的鱼类之一。"
+  },
+  {
+   "name": "食物链中枢",
+   "icon": "food",
+   "desc": "吃浮游动物，又被海豹、鲸和鳕鱼吃。"
+  }
+ ],
+ "intro": [
+  "大西洋鲱是鲱科鱼类。",
+  "天敌有海豹、鲸、鳕鱼等大鱼。",
+  "波罗的海秋季产卵的鲱鱼大多被春季产卵的种群取代了。"
+ ],
+ "fact": "春季产卵的波罗的海鲱鱼也面临过度捕捞的风险。",
+ "range": "北大西洋两岸。",
+ "sources": [
+  "Wikipedia「Atlantic herring」",
+  "IUCN 红色名录（Herdson, D. 2010）"
+ ],
+ "footnote": "“数量”为定性描述，比例条仅示意。"
+}

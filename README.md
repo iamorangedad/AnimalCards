@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 580 张（动物 580）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
+共 605 张（动物 605）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 75，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -438,6 +438,31 @@
 | 283 | 僧帽水母（Portuguese man o' war） | 动物 · 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%83%A7%E5%B8%BD%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%83%A7%E5%B8%BD%E6%B0%B4%E6%AF%8D.pdf) |
 | 284 | 鹦鹉螺（Chambered nautilus） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B9%A6%E9%B9%89%E8%9E%BA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B9%A6%E9%B9%89%E8%9E%BA.pdf) |
 | 285 | 黄尾副刺尾鱼（Blue tang） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%BB%84%E5%B0%BE%E5%89%AF%E5%88%BA%E5%B0%BE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%BB%84%E5%B0%BE%E5%89%AF%E5%88%BA%E5%B0%BE%E9%B1%BC.pdf) |
+| 581 | 美洲魟（Southern stingray） | 动物 · 海洋 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BE%8E%E6%B4%B2%E9%AD%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BE%8E%E6%B4%B2%E9%AD%9F.pdf) |
+| 582 | 斑点鹞鲼（Spotted eagle ray） | 动物 · 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%96%91%E7%82%B9%E9%B9%9E%E9%B2%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%96%91%E7%82%B9%E9%B9%9E%E9%B2%BC.pdf) |
+| 583 | 姥鲨（Basking shark） | 动物 · 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A7%A5%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A7%A5%E9%B2%A8.pdf) |
+| 584 | 小头睡鲨（Greenland shark） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%8F%E5%A4%B4%E7%9D%A1%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%8F%E5%A4%B4%E7%9D%A1%E9%B2%A8.pdf) |
+| 585 | 尖吻鲭鲨（Shortfin mako shark） | 动物 · 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%96%E5%90%BB%E9%B2%AD%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%96%E5%90%BB%E9%B2%AD%E9%B2%A8.pdf) |
+| 586 | 大青鲨（Blue shark） | 动物 · 海洋 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E9%9D%92%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E9%9D%92%E9%B2%A8.pdf) |
+| 587 | 铰口鲨（Nurse shark） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%93%B0%E5%8F%A3%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%93%B0%E5%8F%A3%E9%B2%A8.pdf) |
+| 588 | 弧形长尾鲨（Common thresher） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BC%A7%E5%BD%A2%E9%95%BF%E5%B0%BE%E9%B2%A8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BC%A7%E5%BD%A2%E9%95%BF%E5%B0%BE%E9%B2%A8.pdf) |
+| 589 | 大西洋鲱（Atlantic herring） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%B1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%B1.pdf) |
+| 590 | 大西洋鲭（Atlantic mackerel） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%AD.pdf) |
+| 591 | 欧洲鳀（European anchovy） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%AC%A7%E6%B4%B2%E9%B3%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%AC%A7%E6%B4%B2%E9%B3%80.pdf) |
+| 592 | 鲣（Skipjack tuna） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B2%A3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B2%A3.pdf) |
+| 593 | 黄鳍金枪鱼（Yellowfin tuna） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%BB%84%E9%B3%8D%E9%87%91%E6%9E%AA%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%BB%84%E9%B3%8D%E9%87%91%E6%9E%AA%E9%B1%BC.pdf) |
+| 594 | 矛尾鱼（West Indian Ocean coelacanth） | 动物 · 海洋 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%9F%9B%E5%B0%BE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%9F%9B%E5%B0%BE%E9%B1%BC.pdf) |
+| 595 | 皇带鱼（Giant oarfish） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%9A%87%E5%B8%A6%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%9A%87%E5%B8%A6%E9%B1%BC.pdf) |
+| 596 | 镰鱼（Moorish idol） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%B0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%B0%E9%B1%BC.pdf) |
+| 597 | 花斑连鳍䲗（Mandarinfish） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%8A%B1%E6%96%91%E8%BF%9E%E9%B3%8D%E4%B2%97.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%8A%B1%E6%96%91%E8%BF%9E%E9%B3%8D%E4%B2%97.pdf) |
+| 598 | 红鳍东方鲀（Japanese puffer） | 动物 · 海洋 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BA%A2%E9%B3%8D%E4%B8%9C%E6%96%B9%E9%B2%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%BA%A2%E9%B3%8D%E4%B8%9C%E6%96%B9%E9%B2%80.pdf) |
+| 599 | 平鳍旗鱼（Indo-Pacific sailfish） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B9%B3%E9%B3%8D%E6%97%97%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B9%B3%E9%B3%8D%E6%97%97%E9%B1%BC.pdf) |
+| 600 | 大西洋蓝枪鱼（Atlantic blue marlin） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E8%93%9D%E6%9E%AA%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E8%93%9D%E6%9E%AA%E9%B1%BC.pdf) |
+| 601 | 大鳞魣（Great barracuda） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E9%B3%9E%E9%AD%A3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E9%B3%9E%E9%AD%A3.pdf) |
+| 602 | 波纹唇鱼（Humphead wrasse） | 动物 · 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B3%A2%E7%BA%B9%E5%94%87%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B3%A2%E7%BA%B9%E5%94%87%E9%B1%BC.pdf) |
+| 603 | 伊氏石斑鱼（Atlantic goliath grouper） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%BC%8A%E6%B0%8F%E7%9F%B3%E6%96%91%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%BC%8A%E6%B0%8F%E7%9F%B3%E6%96%91%E9%B1%BC.pdf) |
+| 604 | 叶海龙（Leafy seadragon） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8F%B6%E6%B5%B7%E9%BE%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8F%B6%E6%B5%B7%E9%BE%99.pdf) |
+| 605 | 澳洲箱水母（Australian box jellyfish） | 动物 · 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%BE%B3%E6%B4%B2%E7%AE%B1%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%BE%B3%E6%B4%B2%E7%AE%B1%E6%B0%B4%E6%AF%8D.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 动物 · 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
 | 072 | 白头海雕（Bald eagle） | 动物 · 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.pdf) |
 | 073 | 仓鸮（Western barn owl） | 动物 · 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.pdf) |

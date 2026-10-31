@@ -1,0 +1,79 @@
+{
+ "file": "鲣",
+ "no": "592",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "鲣",
+ "name_en": "Skipjack tuna",
+ "latin": "Katsuwonus pelamis",
+ "short": "鲣",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、甲壳类和头足类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 1.1 m",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "鱼群",
+   "value": "最多 5 万条",
+   "lo": 50000,
+   "hi": 50000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "2018 年捕捞",
+   "value": "320 万吨",
+   "lo": 3.2,
+   "hi": 3.2,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "最多产",
+   "value": "主要金枪鱼第 1",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超大鱼群",
+   "icon": "team",
+   "desc": "在热带表层水里结成大群，最多 5 万条。"
+  },
+  {
+   "name": "最会生",
+   "icon": "seed",
+   "desc": "是主要商业金枪鱼里繁殖力最强的。"
+  }
+ ],
+ "intro": [
+  "鲣是鲣属唯一的物种，属于金枪鱼科。",
+  "它分布在全世界的热带和暖温带海域。",
+  "它是非常重要的渔业鱼种。"
+ ],
+ "fact": "它被做成新鲜、冷冻、罐头、干制、盐渍和烟熏等各种产品。",
+ "range": "全球热带和暖温带海洋。",
+ "sources": [
+  "Wikipedia「Skipjack tuna」",
+  "IUCN 红色名录（Collette, B. B. 2021）"
+ ],
+ "footnote": "“最多产”为排名，比例条借用数量刻度。"
+}

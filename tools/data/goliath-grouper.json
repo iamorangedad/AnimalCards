@@ -1,0 +1,79 @@
+{
+ "file": "伊氏石斑鱼",
+ "no": "603",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "伊氏石斑鱼",
+ "name_en": "Atlantic goliath grouper",
+ "latin": "Epinephelus itajara",
+ "short": "伊氏石斑鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "大型掠食鱼",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2018",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "363 kg",
+   "lo": 363,
+   "hi": 363,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "37 年",
+   "lo": 37,
+   "hi": 37,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "1–100 m",
+   "lo": 1,
+   "hi": 100,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红树林育儿",
+   "icon": "root",
+   "desc": "幼鱼在红树林里长 5–6 年，长到约 1 m 才去深处的礁石。"
+  },
+  {
+   "name": "巨型硬骨鱼",
+   "icon": "huddle",
+   "desc": "是最大的硬骨鱼之一。"
+  }
+ ],
+ "intro": [
+  "伊氏石斑鱼生活在西大西洋，从美国佛罗里达往南。",
+  "它 6 岁才第一次成熟，世代长度估计 21.5 年。",
+  "委内瑞拉晚中新世地层里发现过它完整的颅骨化石。"
+ ],
+ "fact": "英语里它最常被叫作 jewfish，名字来源有几种说法。",
+ "range": "西大西洋（佛罗里达到巴西）、东太平洋（墨西哥到秘鲁）、东大西洋。",
+ "sources": [
+  "Wikipedia「Atlantic goliath grouper」",
+  "IUCN 红色名录（Bertoncini, A.A. 2018）"
+ ],
+ "footnote": ""
+}

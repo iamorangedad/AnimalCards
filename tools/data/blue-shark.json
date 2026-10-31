@@ -1,0 +1,79 @@
+{
+ "file": "大青鲨",
+ "no": "586",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大青鲨",
+ "name_en": "Blue shark",
+ "latin": "Prionace glauca",
+ "short": "大青鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小鱼和鱿鱼",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2019",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 3.1 m",
+   "lo": 3.1,
+   "hi": 3.1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "每胎",
+   "value": "25–100+ 条",
+   "lo": 25,
+   "hi": 100,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "喜好水温",
+   "value": "12–20 °C",
+   "lo": 12,
+   "hi": 20,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长途迁徙",
+   "icon": "wind",
+   "desc": "能从美国新英格兰一路游到南美洲。"
+  },
+  {
+   "name": "大胎",
+   "icon": "team",
+   "desc": "胎生，一胎有 25 条到 100 多条小鲨。"
+  }
+ ],
+ "intro": [
+  "大青鲨生活在世界温带和热带海洋的深水里。",
+  "它是大青鲨属唯一的物种。",
+  "它看上去懒洋洋，但能游得很快。"
+ ],
+ "fact": "在热带，它均匀分布在北纬 20° 到南纬 20° 之间。",
+ "range": "全球温带和热带海洋。",
+ "sources": [
+  "Wikipedia「Blue shark」",
+  "IUCN 红色名录（Rigby, C.L. 2019）"
+ ],
+ "footnote": ""
+}

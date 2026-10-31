@@ -842,3 +842,72 @@ ART5["serow"] = GOAT("#3a3430", kind="forest", horns="goat", beard=None, belly="
 ART5["vampire-bat"] = _vbat
 ART5["indian-rhino"] = Q("wetland", None, F="#8a8088", bl=340, bd=160, lh=96, lw=48, neck=(0, 0), head=(60, 54), snout=(56, 46), ears="point", horns="rhino",
                          tail="tuft", tail_col="#4a4642", headdown=30, nose=None, extras=P("M-80 -250 C-70 -200 -70 -150 -80 -110 M120 -250 C110 -200 110 -150 120 -110", sw=4, col="#e8b0b8"))
+# ---- p4b9 ocean 581-605
+from art3 import a_seahorse as _a_seahorse
+from art4 import _sea
+def _ray(F, spots=None, belly="#e8eef4", horns=False, box=(.58, 640, 320), diamond=False):
+    def f(w, h):
+        o = []
+        if diamond:
+            body = "M0 -150 L230 -40 L0 70 L-230 -40 Z"
+        else:
+            body = "M0 -120 C80 -130 200 -90 320 -40 C220 -20 120 10 40 20 L0 30 L-40 20 C-120 10 -220 -20 -320 -40 C-200 -90 -80 -130 0 -120 Z"
+        o.append(P(body, F))
+        if spots:
+            import random
+            r = random.Random(7)
+            for _ in range(26):
+                x, y = r.uniform(-200, 200), r.uniform(-90, 0)
+                if abs(x) < 200 - abs(y) * 1.2: o.append(C(x, y, 7, spots, 0))
+        o.append(P("M0 30 C4 90 10 170 0 260", sw=5) + P("M2 150 l-14 26 l26 -6 Z", INK, 1.4))
+        o.append(C(-34, -100, 5, "#fff", 0) + C(34, -100, 5, "#fff", 0))
+        return scene("sea", w, h, G_("".join(o), 0, -60), box=(w / 2, h * box[0], box[1], box[2]))
+    return f
+def _shark(F, L=440, H=130, belly="#eef0f0", extras="", tail="shark", box=(.58, 620, 300), pre="", gills=5, mouth=False):
+    return _sea(pre + fish(F=F, L=L, H=H, tail=tail, belly=belly, gills=gills, eye_r=6, mouth=mouth, fin_col=darker(F, .85), extras=extras), box=box)
+def _fishS(F, L=320, H=120, box=(.58, 600, 280), pre="", **kw):
+    return _sea(pre + fish(F=F, L=L, H=H, **kw), box=box)
+ART5["stingray"] = _ray("#8a7a5a", diamond=True)
+ART5["eagle-ray"] = _ray("#2a3440", spots="#ffffff")
+ART5["basking-shark"] = _shark("#6a6a70", L=480, H=140, belly="#9a9aa0", extras=E(-200, 0, 34, 30, "#3a3a40", 2.4) + "".join(P(f"M{-150+i*22} -50 l0 100", sw=4, col="#4a4a50") for i in range(5)))
+ART5["greenland-shark"] = _shark("#4a4a52", L=460, H=150, belly="#6a6a72", extras=E(-215, -20, 10, 4, "#d8e0a0", 0))
+ART5["mako"] = _shark("#2a4a8a", L=440, H=120, belly="#f2f4f6", mouth=True)
+ART5["blue-shark"] = _shark("#3a6ad0", L=460, H=100, belly="#f2f4f8")
+ART5["nurse-shark"] = _shark("#a8885a", L=440, H=120, belly="#c9b08a", extras=P("M-215 10 l-14 16 M-205 12 l-8 18", sw=3), tail="shark")
+ART5["thresher"] = _sea(P("M190 -10 C300 -60 400 -150 440 -200 C400 -120 320 -40 200 10 Z", "#6a5a7a", 2.6) + fish(F="#6a5a7a", L=300, H=110, tail="none" if False else "shark", belly="#eef0f0", gills=5, eye_r=9, mouth=False, fin_col="#5a4a6a"), box=(.58, 680, 340))
+ART5["herring"] = _fishS("#4a6a8a", 300, 90, tail="fork", belly="#e6ecf2", eye_r=10, fin_col="#3a5a7a")
+ART5["mackerel"] = _fishS("#2a6a5a", 320, 90, tail="fork", belly="#f2f4f4", eye_r=9, fin_col="#2a4a4a", stripes=("#1a2a2a", [.2, .3, .4, .5, .6, .7]))
+ART5["anchovy"] = lambda w, h: scene("sea", w, h, "".join(G_(fish(F="#6a8aa0", L=150, H=40, tail="fork", belly="#e6ecf2", eye_r=6, fin_col="#4a6a80", extras=P("M-60 0 L70 0", sw=4, col="#e8eef4")), x, y) for x, y in [(-150, -120), (60, -160), (-40, -30), (150, -60), (-170, 30), (40, 60)]), box=(w / 2, h * .6, 560, 300))
+ART5["skipjack"] = _fishS("#2a3a6a", 320, 130, tail="fork", belly="#e2e8ee", eye_r=8, fin_col="#2a3a6a", extras="".join(P(f"M-80 {20+i*12} L120 {16+i*12}", sw=3, col="#4a5a7a") for i in range(4)))
+ART5["yellowfin"] = _sea(fish(F="#24456b", L=420, H=140, tail="fork", belly="#e2e8ee", eye_r=8, mouth=True, fin_col="#f2c83a", dorsal_col="#f2c83a",
+                         extras=P("M-140 -10 C-40 -20 60 -20 160 -10", sw=6, col="#f2c83a")))
+ART5["coelacanth"] = _fishS("#3a4a6a", 380, 150, tail="round", belly="#4a5a7a", eye_r=10, fin_col="#3a4a6a", spots="#e8eef4")
+ART5["oarfish"] = lambda w, h: scene("deep", w, h, P("M-300 -60 C-200 -140 -100 20 0 -60 C100 -140 200 20 300 -60", sw=44, col=INK) + P("M-300 -60 C-200 -140 -100 20 0 -60 C100 -140 200 20 300 -60", sw=38, col="#d9dfe8") +
+                                   P("M-300 -84 C-200 -164 -100 -4 0 -84 C100 -164 200 -4 300 -84", sw=8, col="#d83a3a") + P("M-300 -84 l-10 -60 M-290 -84 l10 -50", sw=8, col="#d83a3a") + C(-290, -56, 6, INK, 0), box=(w / 2, h * .55, 640, 260))
+ART5["moorish-idol"] = _fishS("#f6f0e4", 200, 180, tail="fork", tail_col=INK, eye_r=8, fin_col="#2a2a2a", stripes=("#1a1a1a", [.25, .38, .7, .8]), box=(.6, 460, 360),
+                              extras=P("M0 -90 C40 -180 120 -230 200 -250", sw=6, col="#f6f0e4") + E(-80, 40, 20, 12, "#f2a83a", 0))
+ART5["mandarinfish"] = _fishS("#2a6ad0", 220, 100, tail="round", tail_col="#f28a2a", eye_r=10, fin_col="#f28a2a", box=(.62, 440, 260),
+                              extras="".join(P(f"M{-80+i*36} -30 q18 30 0 60", sw=8, col="#f28a2a") for i in range(5)))
+ART5["fugu"] = lambda w, h: scene("sea", w, h, fish(F="#5a5a5a", L=280, H=170, tail="round", belly="#f6f6f2", eye_r=10, fin_col="#e8c23a", mouth=True,
+                                  extras=C(30, -20, 26, "#1a1a1a", 2.4) + "".join(C(x, y, 4, "#3a3a3a", 0) for x, y in [(-40, -50), (0, -60), (60, -55), (90, -30)])), box=(w / 2, h * .6, 460, 320))
+ART5["sailfish"] = _sea(P("M-200 -10 L-380 -2 L-200 8 Z", "#2a3a6a", 2.6) + P("M-150 -40 C-100 -240 100 -240 160 -40 Z", "#3a5aa0", 2.6) + fish(F="#2a3a6a", L=400, H=100, tail="fork", belly="#d9dfe5", eye_r=9, mouth=False, fin_col="#2a3a6a", dorsal=False), box=(.56, 680, 360))
+ART5["blue-marlin"] = _sea(P("M-200 -10 L-380 -2 L-200 8 Z", "#1a3a7a", 2.6) + fish(F="#1a3a7a", L=420, H=130, tail="fork", belly="#e6ecf2", eye_r=9, mouth=False, fin_col="#1a2a5a", tall_dorsal=True,
+                           extras="".join(P(f"M{-60+i*40} -40 l0 70", sw=5, col="#6a9ae0") for i in range(6))), box=(.58, 680, 300))
+ART5["barracuda"] = _fishS("#8a9aa8", 420, 80, tail="fork", belly="#eef2f4", eye_r=8, mouth=True, fin_col="#3a4a5a", spots="#2a3a4a", box=(.58, 660, 240))
+ART5["napoleon"] = _fishS("#3a8a7a", 360, 190, tail="round", belly="#6ab0a0", eye_r=8, mouth=True, fin_col="#2a6a5a", box=(.6, 560, 360),
+                          extras=E(-130, -80, 50, 40, "#3a8a7a", 2.6) + "".join(P(f"M{-150+i*14} {-20+i*2} l20 -6", sw=2, col="#e8c23a") for i in range(4)))
+ART5["goliath-grouper"] = _fishS("#8a7a4a", 400, 190, tail="round", belly="#a8986a", eye_r=8, mouth=True, fin_col="#6a5a3a", spots="#4a3a20", box=(.6, 600, 360))
+def _seadragon(w, h):
+    s = _a_seahorse(w, h).replace("#e8b84a", "#d9a04a").replace("#c99a30", "#b8802a")
+    return s
+ART5["seadragon"] = _seadragon
+def _boxjelly(w, h):
+    o = []
+    for cx in (-90, -30, 30, 90):
+        for k in range(3):
+            x = cx + (k - 1) * 8
+            o.append(P(f"M{x} -40 C{x-20} 60 {x+20} 160 {x-6} 300", sw=2.4, col="#a8c8d8"))
+    o.append(P("M-110 -40 L-100 -230 L100 -230 L110 -40 Q0 -20 -110 -40 Z", "#e6f2f8", 3, extra='fill-opacity=".85"'))
+    o.append(P("M-50 -230 L-56 -40 M50 -230 L56 -40", sw=2, col="#a8c8d8"))
+    return scene("sea", w, h, G_("".join(o), 0, -40), box=(w / 2, h * .56, 360, 420))
+ART5["box-jelly"] = _boxjelly

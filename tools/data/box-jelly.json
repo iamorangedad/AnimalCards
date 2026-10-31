@@ -1,0 +1,79 @@
+{
+ "file": "澳洲箱水母",
+ "no": "605",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "澳洲箱水母",
+ "name_en": "Australian box jellyfish",
+ "latin": "Chironex fleckeri",
+ "short": "澳洲箱水母",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用触手捕猎",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "伞径",
+   "value": "通常约 16 cm",
+   "lo": 0.16,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最大伞径",
+   "value": "35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "狩猎时触手",
+   "value": "约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "毒液可致死",
+   "value": "约 60 人",
+   "lo": 60,
+   "hi": 60,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "剧毒触手",
+   "icon": "toxic",
+   "desc": "被称为“世界上最致命的水母”，未经治疗的人可能 2–5 分钟内死亡。"
+  },
+  {
+   "name": "四角触手",
+   "icon": "web",
+   "desc": "钟形身体的四个角各垂下一束 15 条触手。"
+  }
+ ],
+ "intro": [
+  "澳洲箱水母也叫“海黄蜂”。",
+  "它生活在澳大利亚北部、巴布亚新几内亚到东南亚的沿海。",
+  "1884–2021 年在澳大利亚至少造成 64 人死亡。"
+ ],
+ "fact": "据说一只箱水母的毒液足以杀死 60 个成年人。",
+ "range": "澳大利亚北部、新几内亚、印度尼西亚到东南亚沿海。",
+ "sources": [
+  "Wikipedia「Chironex fleckeri」"
+ ],
+ "footnote": "",
+ "warn": "剧毒！在澳大利亚北部等海域游泳要遵守警示，穿防蛰服；被蛰立即求救。"
+}

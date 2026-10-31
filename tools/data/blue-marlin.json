@@ -1,0 +1,78 @@
+{
+ "file": "大西洋蓝枪鱼",
+ "no": "600",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大西洋蓝枪鱼",
+ "name_en": "Atlantic blue marlin",
+ "latin": "Makaira nigricans",
+ "short": "大西洋蓝枪鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃多种海洋生物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "818 kg",
+   "lo": 818,
+   "hi": 818,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最高速度",
+   "value": "约 72 km/h",
+   "lo": 72,
+   "hi": 72,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "巡游速度",
+   "value": "低于 4.5 km/h",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冲刺高手",
+   "icon": "fire",
+   "desc": "最高速度估计常达 72 km/h。"
+  },
+  {
+   "name": "长矛嘴",
+   "icon": "thorn",
+   "desc": "常用长嘴击晕或刺伤猎物，再回来吃掉。"
+  }
+ ],
+ "intro": [
+  "大西洋蓝枪鱼只生活在大西洋。",
+  "它和印度-太平洋蓝枪鱼关系很近，常被当成同一种。",
+  "大多数时间它慢悠悠地游，时速不到 4.5 km。"
+ ],
+ "fact": "非正式说法中有更长的个体，但未被证实。",
+ "range": "大西洋热带和温带海域。",
+ "sources": [
+  "Wikipedia「Atlantic blue marlin」"
+ ],
+ "footnote": ""
+}

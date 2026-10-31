@@ -1,0 +1,78 @@
+{
+ "file": "叶海龙",
+ "no": "604",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "叶海龙",
+ "name_en": "Leafy seadragon",
+ "latin": "Phycodurus eques",
+ "short": "叶海龙",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃浮游生物和小型甲壳类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "20–24 cm",
+   "lo": 0.2,
+   "hi": 0.24,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "最深 50 m",
+   "lo": 50,
+   "hi": 50,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "约 9 周",
+   "lo": 63,
+   "hi": 63,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "出生过程",
+   "value": "24–48 小时",
+   "lo": 24,
+   "hi": 48,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海藻伪装",
+   "icon": "camo",
+   "desc": "全身长着像叶子的突起，只用来伪装，不用来游泳。"
+  },
+  {
+   "name": "爸爸孵卵",
+   "icon": "huddle",
+   "desc": "由雄性带着卵，约 9 周后开始孵化，雄性摆动尾巴帮小海龙出来。"
+  }
+ ],
+ "intro": [
+  "叶海龙是叶海龙属唯一的物种，和海马、海龙同科。",
+  "它生活在澳大利亚南部和西部沿岸。",
+  "它比大多数海马稍大。"
+ ],
+ "fact": "它靠脖子两侧的一对胸鳍游动。",
+ "range": "澳大利亚南部和西部沿海。",
+ "sources": [
+  "Wikipedia「Leafy seadragon」"
+ ],
+ "footnote": "“出生过程”比例条借用数量刻度（0–100）。"
+}

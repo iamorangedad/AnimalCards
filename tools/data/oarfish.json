@@ -1,0 +1,79 @@
+{
+ "file": "皇带鱼",
+ "no": "595",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "皇带鱼",
+ "name_en": "Giant oarfish",
+ "latin": "Regalecus glesne",
+ "short": "皇带鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "食性所知很少",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "约 7–8 m",
+   "lo": 7,
+   "hi": 8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最重",
+   "value": "272 kg",
+   "lo": 272,
+   "hi": 272,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "20–1000 m",
+   "lo": 20,
+   "hi": 1000,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长硬骨鱼",
+   "icon": "trunk",
+   "desc": "是世界上最长的硬骨鱼，身体像丝带。"
+  },
+  {
+   "name": "海蛇传说",
+   "icon": "wind",
+   "desc": "外形和波动式游泳，可能是许多“海蛇”目击的来源。"
+  }
+ ],
+ "intro": [
+  "皇带鱼分布在除两极外的全球海洋。",
+  "它也被叫作“鲱鱼之王”。",
+  "人们对它的习性了解很少。"
+ ],
+ "fact": "2016 年电视节目《River Monsters》认为海蛇传说最可能来自皇带鱼。",
+ "range": "全球温带和热带海洋。",
+ "sources": [
+  "Wikipedia「Giant oarfish」",
+  "FishBase「Regalecus glesne」"
+ ],
+ "footnote": "最重和水深来自 FishBase。"
+}

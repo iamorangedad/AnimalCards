@@ -1,0 +1,78 @@
+{
+ "file": "波纹唇鱼",
+ "no": "602",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "波纹唇鱼",
+ "name_en": "Humphead wrasse",
+ "latin": "Crassilabrus undulatus",
+ "short": "波纹唇鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "珊瑚礁大型鱼类",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "雄性最长",
+   "value": "229 cm",
+   "lo": 2.29,
+   "hi": 2.29,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "191 kg",
+   "lo": 191,
+   "hi": 191,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "变性年龄",
+   "value": "约 9 岁",
+   "lo": 9,
+   "hi": 9,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "雌转雄",
+   "icon": "flip",
+   "desc": "是雌性先熟的雌雄同体，有的个体约 9 岁时由雌变雄。"
+  },
+  {
+   "name": "长寿慢生",
+   "icon": "huddle",
+   "desc": "能活约 30 岁，但繁殖很慢。"
+  }
+ ],
+ "intro": [
+  "波纹唇鱼（苏眉鱼）是最大的隆头鱼，主要生活在印度-太平洋的珊瑚礁。",
+  "也叫拿破仑鱼。",
+  "平均体长约 60 cm，雌鱼很少超过 1 m。"
+ ],
+ "fact": "它寿命长但繁殖很慢：5–7 岁才成熟。",
+ "range": "印度-太平洋珊瑚礁。",
+ "sources": [
+  "Wikipedia「Humphead wrasse」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "大西洋鲭",
+ "no": "590",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大西洋鲭",
+ "name_en": "Atlantic mackerel",
+ "latin": "Scomber scombrus",
+ "short": "大西洋鲭",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "边游边捕食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "3.4 kg",
+   "lo": 3.4,
+   "hi": 3.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "一次产卵",
+   "value": "最多 45 万粒",
+   "lo": 450000,
+   "hi": 450000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大量产卵",
+   "icon": "seed",
+   "desc": "春夏在近岸产卵，一条雌鱼能产 45 万粒卵。"
+  },
+  {
+   "name": "不停游动",
+   "icon": "fire",
+   "desc": "游得快，而且必须一直游动才能获得足够的氧气。"
+  }
+ ],
+ "intro": [
+  "大西洋鲭生活在地中海、黑海和北大西洋的温带水域。",
+  "也叫波士顿鲭、挪威鲭、苏格兰鲭。",
+  "它是卵生鱼类。"
+ ],
+ "fact": "已发表的最大重量是 3.4 kg。",
+ "range": "北大西洋、地中海、黑海。",
+ "sources": [
+  "Wikipedia「Atlantic mackerel」"
+ ],
+ "footnote": ""
+}

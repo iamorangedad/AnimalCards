@@ -1,0 +1,79 @@
+{
+ "file": "欧洲鳀",
+ "no": "591",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "欧洲鳀",
+ "name_en": "European anchovy",
+ "latin": "Engraulis encrasicolus",
+ "short": "欧洲鳀",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃桡足类和鱼卵、幼体等浮游生物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "13.5 cm",
+   "lo": 0.135,
+   "hi": 0.135,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "21 cm",
+   "lo": 0.21,
+   "hi": 0.21,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "49 g",
+   "lo": 0.049,
+   "hi": 0.049,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "24–65 小时",
+   "lo": 24,
+   "hi": 65,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "饵料鱼",
+   "icon": "food",
+   "desc": "是被许多大鱼吃的“饵料鱼”。"
+  },
+  {
+   "name": "银色条纹",
+   "icon": "camo",
+   "desc": "身侧有一条银色条纹，随年龄变淡。"
+  }
+ ],
+ "intro": [
+  "欧洲鳀是近岸的中上层鱼类。",
+  "夏天它通常在 50 m 以内的浅水；冬天在地中海会到 200 m。",
+  "最深能到 400 m。"
+ ],
+ "fact": "它的卵在水面 50 m 内漂浮约 24–65 小时后孵化。",
+ "range": "东大西洋、地中海、黑海。",
+ "sources": [
+  "Wikipedia「European anchovy」",
+  "IUCN 红色名录（Tous, P. 2015）"
+ ],
+ "footnote": "“卵孵化”比例条借用数量刻度（0–100）。"
+}

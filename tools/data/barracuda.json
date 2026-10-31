@@ -1,0 +1,79 @@
+{
+ "file": "大鳞魣",
+ "no": "601",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大鳞魣",
+ "name_en": "Great barracuda",
+ "latin": "Sphyraena barracuda",
+ "short": "大鳞魣",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "60–100 cm",
+   "lo": 0.6,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体重",
+   "value": "2.5–9 kg",
+   "lo": 2.5,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "钓获纪录",
+   "value": "46.72 kg",
+   "lo": 46.72,
+   "hi": 46.72,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长记录",
+   "value": "2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伏击猎手",
+   "icon": "fire",
+   "desc": "靠突然袭击和短距离冲刺捕猎，最快约 58 km/h。"
+  },
+  {
+   "name": "獠牙",
+   "icon": "thorn",
+   "desc": "有大小不一、像獠牙一样的利齿。"
+  }
+ ],
+ "intro": [
+  "大鳞魣（大梭鱼）分布在全球热带到暖温带海域。",
+  "魣属共有 27 种。",
+  "据说最大的有 3 m 长。"
+ ],
+ "fact": "钓竿钓到的纪录个体重 46.72 kg、长 1.7 m。",
+ "range": "全球热带和亚热带海洋。",
+ "sources": [
+  "Wikipedia「Great barracuda」",
+  "IUCN 红色名录（Aiken, K.A. 2015）"
+ ],
+ "footnote": ""
+}

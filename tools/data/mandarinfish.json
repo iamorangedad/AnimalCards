@@ -1,0 +1,79 @@
+{
+ "file": "花斑连鳍䲗",
+ "no": "597",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "花斑连鳍䲗",
+ "name_en": "Mandarinfish",
+ "latin": "Synchiropus splendidus",
+ "short": "花斑连鳍䲗",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在海底觅食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "1–18 m",
+   "lo": 1,
+   "hi": 18,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "约 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "蓝色素鱼",
+   "value": "全球仅 2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "真正的蓝",
+   "icon": "glow",
+   "desc": "是已知仅有的两种靠细胞色素显出蓝色的脊椎动物之一。"
+  },
+  {
+   "name": "黏液护身",
+   "icon": "toxic",
+   "desc": "身上没有鳞片，有一层又臭又苦的黏液，可能防病又防天敌。"
+  }
+ ],
+ "intro": [
+  "花斑连鳍䲗是色彩鲜艳的小型䲗类，是著名的观赏鱼。",
+  "它分布在太平洋，大约从琉球群岛往南到澳大利亚。",
+  "它生活在浅的潟湖和近岸礁石。"
+ ],
+ "fact": "它在海底觅食、个子小，所以虽然常见却不容易看到。",
+ "range": "西太平洋（琉球群岛到澳大利亚）。",
+ "sources": [
+  "Wikipedia「Synchiropus splendidus」",
+  "FishBase「Synchiropus splendidus」"
+ ],
+ "footnote": "IUCN 状态与体长、水深来自 FishBase。"
+}

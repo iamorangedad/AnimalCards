@@ -1,0 +1,79 @@
+{
+ "file": "弧形长尾鲨",
+ "no": "588",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "弧形长尾鲨",
+ "name_en": "Common thresher",
+ "latin": "Alopias vulpinus",
+ "short": "弧形长尾鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鲱鱼、鳀鱼等成群的小鱼",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2022",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "6 m",
+   "lo": 6,
+   "hi": 6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体重",
+   "value": "230 kg",
+   "lo": 230,
+   "hi": 230,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "下潜深度",
+   "value": "550 m",
+   "lo": 550,
+   "hi": 550,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "甩尾击鱼",
+   "icon": "fire",
+   "desc": "用长长的尾鳍上叶击晕猎物。"
+  },
+  {
+   "name": "一半是尾巴",
+   "icon": "trunk",
+   "desc": "身长的一半是加长的尾鳍上叶。"
+  }
+ ],
+ "intro": [
+  "弧形长尾鲨是最大的长尾鲨。",
+  "它既在近岸，也在大洋里生活。",
+  "它会季节性迁徙，夏天待在低纬度。"
+ ],
+ "fact": "它常被延绳钓的鱼钩钩住尾巴，大概是在用尾巴打鱼饵时被钩住的。",
+ "range": "全球温带和热带海洋。",
+ "sources": [
+  "Wikipedia「Common thresher」",
+  "IUCN 红色名录（Rigby, C.L. 2022）"
+ ],
+ "footnote": ""
+}

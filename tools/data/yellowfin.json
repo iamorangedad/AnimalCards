@@ -1,0 +1,78 @@
+{
+ "file": "黄鳍金枪鱼",
+ "no": "593",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "黄鳍金枪鱼",
+ "name_en": "Yellowfin tuna",
+ "latin": "Thunnus albacares",
+ "short": "黄鳍金枪鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "大洋性掠食鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 2.4 m",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 200 kg",
+   "lo": 200,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "钓鱼纪录",
+   "value": "200.94 kg",
+   "lo": 200.94,
+   "hi": 200.94,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "夜间水深",
+   "value": "90% 浅于 88 m",
+   "lo": 88,
+   "hi": 88,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "名字混乱",
+   "icon": "ear",
+   "desc": "法语里它的正式名是 albacore，而英语的 albacore 是另一种金枪鱼。"
+  },
+  {
+   "name": "深浅洄游",
+   "icon": "dive",
+   "desc": "白天比夜里潜得深：90% 的记录白天浅于 190 m。"
+  }
+ ],
+ "intro": [
+  "黄鳍金枪鱼生活在热带和亚热带的大洋。",
+  "它常以“ahi”的名字出售，这是夏威夷语。",
+  "大多数时候在水面 100 m 以内。"
+ ],
+ "fact": "国际游钓协会纪录是 2024 年在墨西哥卡波圣卢卡斯钓到的 200.94 kg。",
+ "range": "全球热带和亚热带海洋。",
+ "sources": [
+  "Wikipedia「Yellowfin tuna」"
+ ],
+ "footnote": ""
+}

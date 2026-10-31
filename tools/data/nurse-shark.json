@@ -1,0 +1,78 @@
+{
+ "file": "铰口鲨",
+ "no": "587",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "铰口鲨",
+ "name_en": "Nurse shark",
+ "latin": "Ginglymostoma cirratum",
+ "short": "铰口鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吸食海底小动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "3.08 m",
+   "lo": 3.08,
+   "hi": 3.08,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "初生体长",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "夸大记录",
+   "value": "4.5 m",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "吸力",
+   "value": "水生最强之一",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超强吸力",
+   "icon": "food",
+   "desc": "靠吸力进食，吸力是所有水生脊椎动物里最强之一。"
+  },
+  {
+   "name": "白天成群",
+   "icon": "huddle",
+   "desc": "白天常成群静静地待在海底。"
+  }
+ ],
+ "intro": [
+  "铰口鲨属于铰口鲨科。",
+  "小鲨出生时身上有斑点，长大后变淡。",
+  "过去说它能长到 4.5 m、重 330 kg，可能是夸大的。"
+ ],
+ "fact": "它分布在东大西洋、西大西洋和东太平洋的热带、亚热带沿海。",
+ "range": "大西洋两岸、东太平洋沿岸。",
+ "sources": [
+  "Wikipedia「Nurse shark」"
+ ],
+ "footnote": "“吸力”为定性描述，比例条仅示意。"
+}

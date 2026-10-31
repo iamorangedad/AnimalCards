@@ -1,0 +1,78 @@
+{
+ "file": "斑点鹞鲼",
+ "no": "582",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "斑点鹞鲼",
+ "name_en": "Spotted eagle ray",
+ "latin": "Aetobatus narinari",
+ "short": "斑点鹞鲼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃双壳贝、蟹和螺",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "最宽 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 230 kg",
+   "lo": 230,
+   "hi": 230,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "初生盘宽",
+   "value": "17–35 cm",
+   "lo": 0.17,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跃出水面",
+   "icon": "fire",
+   "desc": "常被看到跳出水面。"
+  },
+  {
+   "name": "白点外衣",
+   "icon": "camo",
+   "desc": "深色的背上布满白点或白环。"
+  }
+ ],
+ "intro": [
+  "斑点鹞鲼是鹞鲼科的软骨鱼。",
+  "它分布在大西洋、太平洋和印度洋的热带海域。",
+  "它用吻部在海底沙中找食物。"
+ ],
+ "fact": "鹞鲼 4–6 岁成熟。",
+ "range": "全球热带海域。",
+ "sources": [
+  "Wikipedia「Spotted eagle ray」"
+ ],
+ "footnote": ""
+}

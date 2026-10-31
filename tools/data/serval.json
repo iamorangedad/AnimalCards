@@ -1,0 +1,77 @@
+{
+ "file": "薮猫",
+ "no": "208",
+ "cat": "高原草原",
+ "name_cn": "薮猫",
+ "name_en": "Serval",
+ "latin": "Leptailurus serval",
+ "short": "薮猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃啮齿动物、小鸟、蛙、昆虫等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 9–18 kg",
+   "lo": 9,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "54–62 cm",
+   "lo": 0.54,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "跳跃高度",
+   "value": "超过 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一夜行走",
+   "value": "2–4 km",
+   "lo": 2,
+   "hi": 4,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大耳朵",
+   "icon": "ear",
+   "desc": "它头小耳朵大，靠听觉找到猎物。"
+  },
+  {
+   "name": "扑跳",
+   "icon": "climb",
+   "desc": "它能跳起 2 m 多高，用前脚落在猎物身上。"
+  }
+ ],
+ "intro": [
+  "薮猫是一种身材修长的中型猫科动物，生活在非洲。",
+  "毛色金黄，带黑色斑点和条纹，尾巴末端是黑色。",
+  "小薮猫大约 12 个月大时离开妈妈。"
+ ],
+ "fact": "在乞力马扎罗山，它最高可生活在海拔 3800 m 的地方。",
+ "range": "撒哈拉以南非洲的草原和湿地。",
+ "sources": [
+  "Wikipedia「Serval」",
+  "IUCN 红色名录（Thiel 2019）"
+ ],
+ "footnote": ""
+}

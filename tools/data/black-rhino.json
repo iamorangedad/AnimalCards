@@ -1,0 +1,77 @@
+{
+ "file": "黑犀",
+ "no": "192",
+ "cat": "高原草原",
+ "name_cn": "黑犀",
+ "name_en": "Black rhinoceros",
+ "latin": "Diceros bicornis",
+ "short": "黑犀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃灌木树叶（待核）",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "800–1400 kg",
+   "lo": 800,
+   "hi": 1400,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "前角",
+   "value": "一般约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "15 个月",
+   "lo": 15,
+   "hi": 15,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "35–50 年",
+   "lo": 35,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "尖嘴唇",
+   "icon": "trunk",
+   "desc": "它的上嘴唇是尖钩形的，所以又叫“钩唇犀”；白犀的是方嘴唇。"
+  },
+  {
+   "name": "耐旱",
+   "icon": "huddle",
+   "desc": "干旱时它可以 5 天不喝水。"
+  }
+ ],
+ "intro": [
+  "黑犀原产东非和南部非洲。",
+  "两只角由角蛋白构成，最长的黑犀角接近 1.5 m。",
+  "小犀牛跟妈妈一起生活 2–3 年。"
+ ],
+ "fact": "因为偷猎和栖息地减少，它被列为极危物种。",
+ "range": "东非和南部非洲。",
+ "sources": [
+  "Wikipedia「Black rhinoceros」",
+  "IUCN 红色名录（Emslie 2020）"
+ ],
+ "footnote": "特别大的雄性体重可达 2.9 t。"
+}

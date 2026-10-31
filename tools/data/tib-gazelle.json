@@ -1,0 +1,77 @@
+{
+ "file": "藏原羚",
+ "no": "195",
+ "cat": "高原草原",
+ "name_cn": "藏原羚",
+ "name_en": "Tibetan gazelle",
+ "latin": "Procapra picticaudata",
+ "short": "藏原羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "54–65 cm",
+   "lo": 0.54,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "13–16 kg",
+   "lo": 13,
+   "hi": 16,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "26–32 cm",
+   "lo": 0.26,
+   "hi": 0.32,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "拉达克海拔",
+   "value": "4750–5050 m",
+   "lo": 4750,
+   "hi": 5050,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "细长腿",
+   "icon": "climb",
+   "desc": "又细又长的腿让它跑得很快，能逃脱天敌。"
+  },
+  {
+   "name": "小群生活",
+   "icon": "team",
+   "desc": "大多数群体不超过 10 只，很多是独自生活。"
+  }
+ ],
+ "intro": [
+  "藏原羚又叫“goa”，原产青藏高原。",
+  "只有雄性有又长又细、带棱的角。",
+  "它们大约 18 个月性成熟（推测）。"
+ ],
+ "fact": "印度拉达克的种群已不到 100 只，还在继续减少。",
+ "range": "青藏高原（中国西藏、青海及印度拉达克等）。",
+ "sources": [
+  "Wikipedia「Tibetan gazelle」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": ""
+}

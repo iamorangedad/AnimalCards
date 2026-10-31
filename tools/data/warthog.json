@@ -1,0 +1,77 @@
+{
+ "file": "普通疣猪",
+ "no": "187",
+ "cat": "高原草原",
+ "name_cn": "普通疣猪",
+ "name_en": "Common warthog",
+ "latin": "Phacochoerus africanus",
+ "short": "普通疣猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "60–150 kg",
+   "lo": 60,
+   "hi": 150,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "上獠牙",
+   "value": "可达 25.5 cm",
+   "lo": 0.255,
+   "hi": 0.255,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "可达 48 km/h",
+   "lo": 48,
+   "hi": 48,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "平均 7–11 年",
+   "lo": 7,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "倒退进洞",
+   "icon": "dive",
+   "desc": "常住土豚挖的旧洞；它会倒着退进洞里，獠牙朝外，随时准备冲出来。"
+  },
+  {
+   "name": "泥浴",
+   "icon": "huddle",
+   "desc": "天热时在泥里打滚降温，天冷时挤在一起取暖。"
+  }
+ ],
+ "intro": [
+  "普通疣猪广泛分布在撒哈拉以南的非洲草原。",
+  "雌疣猪 45–75 kg，比雄性小。",
+  "受威胁时会竖着尾巴奔跑。"
+ ],
+ "fact": "1999 年估计南部非洲约有 25 万只普通疣猪。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Common warthog」",
+  "IUCN 红色名录（de Jong 2016）"
+ ],
+ "footnote": "圈养个体平均可活 21 年。"
+}

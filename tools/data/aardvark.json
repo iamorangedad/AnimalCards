@@ -1,0 +1,77 @@
+{
+ "file": "土豚",
+ "no": "207",
+ "cat": "高原草原",
+ "name_cn": "土豚",
+ "name_en": "Aardvark",
+ "latin": "Orycteropus afer",
+ "short": "土豚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蚂蚁和白蚁",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "105–130 cm",
+   "lo": 1.05,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "舌长",
+   "value": "可达 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "洞长",
+   "value": "可达 13 m",
+   "lo": 13,
+   "hi": 13,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "可达 23 年",
+   "lo": 23,
+   "hi": 23,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖掘机",
+   "icon": "dive",
+   "desc": "用锋利的爪和有力的前腿挖开蚁丘，再用长舌头把虫子舔出来。"
+  },
+  {
+   "name": "竖耳听",
+   "icon": "ear",
+   "desc": "挖蚁丘时，它竖起长耳朵听有没有天敌靠近。"
+  }
+ ],
+ "intro": [
+  "土豚生活在撒哈拉以南的非洲，晚上出来觅食。",
+  "它和大象、海牛、蹄兔是远亲（同属非洲兽总目）。",
+  "它的皮很厚，不怕白蚁咬、蚂蚁蜇。"
+ ],
+ "fact": "小土豚两周大就能跟妈妈出洞，九周大开始吃白蚁。",
+ "range": "撒哈拉以南非洲（马达加斯加除外）。",
+ "sources": [
+  "Wikipedia「Aardvark」",
+  "IUCN 红色名录（Taylor 2015）"
+ ],
+ "footnote": "连尾巴全长可达 2.2 m。"
+}

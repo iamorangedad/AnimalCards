@@ -1,0 +1,77 @@
+{
+ "file": "细纹斑马",
+ "no": "193",
+ "cat": "高原草原",
+ "name_cn": "细纹斑马",
+ "name_en": "Grévy's zebra",
+ "latin": "Equus grevyi",
+ "short": "细纹斑马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、豆科植物和金合欢等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "350–450 kg",
+   "lo": 350,
+   "hi": 450,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.45–1.6 m",
+   "lo": 1.45,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 390 天",
+   "lo": 390,
+   "hi": 390,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "耐渴",
+   "value": "可达 5 天",
+   "lo": 5,
+   "hi": 5,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最细条纹",
+   "icon": "camo",
+   "desc": "它是斑马里个子最高的，耳朵像骡子一样大，条纹是所有斑马里最细的。"
+  },
+  {
+   "name": "耐旱",
+   "icon": "huddle",
+   "desc": "住在半干旱草原，最多能 5 天不喝水。"
+  }
+ ],
+ "intro": [
+  "细纹斑马又叫“帝王斑马”，是现存最大的野生马科动物。",
+  "它是三种斑马中最受威胁的一种。",
+  "体长 2.5–2.75 m，尾长 55–75 cm。"
+ ],
+ "fact": "1970 年代约有 1.5 万只，到 21 世纪初已不到 3500 只，减少了 75%。",
+ "range": "肯尼亚和埃塞俄比亚的半干旱草原。",
+ "sources": [
+  "Wikipedia「Grévy's zebra」",
+  "IUCN 红色名录（Rubenstein 2016）"
+ ],
+ "footnote": ""
+}

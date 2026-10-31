@@ -312,3 +312,61 @@ ART4["merino"] = Q("farm", (.75, 560, 360), F="#c9a88a", bl=290, bd=150, lh=96, 
                    snout_col="#f2e8d6", ears="side", horns="ram", tail="short", tail_col="#f6efe0", nose="#c9a88a")
 ART4["border-collie"] = lambda w, h: scene("meadow", w, h, quad(F="#2a2a2e", bl=250, bd=100, lh=100, lw=28, belly="#ffffff", neck=(26, 40), nw=74, head=(54, 46), snout=(48, 32),
                                          snout_col="#ffffff", ears="point", tail="bushy", tail_col="#2a2a2e", front_extras=""), box=(w / 2, h * .76, 560, 380))
+
+# ------------------------------------------------------------------ 高原草原
+ART4["leopard"] = lambda w, h: scene("savanna", w, h, branch(-260, 120, 3, 16) if False else quad(F="#e9c27a", bl=290, bd=96, lh=120, lw=26, belly="#fbf2dc", pattern="spots", pat_col=INK,
+                                     neck=(26, 40), nw=60, head=(40, 34), snout=(24, 26), snout_col="#fbf2dc", ears="round", tail="long", tail_col="#e9c27a"))
+def _meerkat(w, h):
+    F = "#c9a87a"
+    o = P("M30 0 C80 -10 120 10 150 -10", sw=12, col=INK) + P("M30 0 C80 -10 120 10 150 -10", sw=8, col=F)
+    o += E(0, -110, 46, 110, F, 3) + E(4, -100, 28, 80, "#e9d8b8", 0)
+    o += P("M-20 -150 q-20 20 -10 40 M20 -150 q20 20 10 40", sw=10, col=INK) + P("M-20 -150 q-20 20 -10 40 M20 -150 q20 20 10 40", sw=6, col=F)
+    o += E(0, -240, 34, 30, F, 3) + P("M-6 -250 l-40 14 l40 8 Z", F, 2.6) + C(-46, -236, 5, INK, 0)
+    o += E(-12, -250, 9, 7, INK, 0) + C(-14, -252, 2.5, "#ffffff", 0) + C(24, -262, 10, "#5a4a3a", 2.4)
+    o += "".join(P(f"M{-30+i*14} -160 l4 14", sw=2, col="#8a6a42") for i in range(5))
+    return scene("desert", w, h, P("M-120 10 C-100 -30 -40 -30 -20 10 Z", "#b88a5a", 2.6) + o, box=(w / 2, h * .8, 440, 470))
+ART4["meerkat"] = _meerkat
+ART4["warthog"] = Q("savanna", (.75, 560, 340), F="#7a6a5e", bl=280, bd=120, lh=80, lw=28, neck=(0, 0), head=(58, 52), snout=(40, 40), snout_col="#6a5a4e", nose=None,
+                    ears="point", tail="thin", tail_col="#3a2e25", hooves=INK, pig=True, mane="zebra",
+                    extras=P("M-250 -150 q-20 -40 6 -60 M-226 -150 q-6 -36 18 -52", sw=8, col="#f4efe6"))
+ART4["af-buffalo"] = Q("savanna", None, F="#3a3533", bl=330, bd=150, lh=110, lw=38, neck=(10, 60), nw=90, head=(50, 46), snout=(42, 38), snout_col="#4a4543",
+                       ears="side", horns="bison", tail="tuft", tail_col="#1f1c1a", hooves=INK, nose=None)
+ART4["tommy"] = Q("savanna", (.76, 560, 440), F="#d9a868", bl=230, bd=90, lh=140, lw=18, belly="#fbf6ec", neck=(40, 28), nw=46, head=(32, 28), snout=(34, 24),
+                  snout_col="#e9c890", ears="side", horns="chiru", tail="short", tail_col=INK, hooves=INK)
+ART4["impala"] = Q("savanna", (.76, 560, 440), F="#c9864a", bl=250, bd=96, lh=150, lw=18, belly="#fbf6ec", neck=(44, 28), nw=50, head=(34, 30), snout=(36, 26),
+                   snout_col="#e9b07a", ears="side", horns="chiru", tail="short", tail_col="#ffffff", hooves=INK)
+ART4["springbok"] = Q("desert", (.76, 560, 440), F="#c98a4a", bl=240, bd=96, lh=146, lw=18, belly="#ffffff", neck=(42, 28), nw=48, head=(34, 30), snout=(34, 26),
+                      snout_col="#ffffff", ears="side", horns="goat", tail="short", tail_col="#ffffff", hooves=INK)
+ART4["black-rhino"] = Q("savanna", None, F="#8a8580", bl=330, bd=150, lh=95, lw=46, neck=(0, 0), head=(58, 52), snout=(56, 46), ears="point", horns="rhino",
+                        tail="tuft", tail_col="#4a4642", headdown=30, nose=None)
+ART4["grevy"] = Q("savanna", None, F="#ffffff", bl=290, bd=124, lh=156, lw=26, pattern="stripes", pat_col=INK, neck=(70, 32), nw=66, head=(42, 38), snout=(54, 34),
+                  snout_col="#5a4a3e", ears="big", mane="zebra", tail="tuft", tail_col=INK, hooves=INK, belly="#ffffff")
+ART4["przewalski"] = Q("plateau", None, F="#c9a06a", bl=270, bd=124, lh=130, lw=28, belly="#efdcb8", neck=(60, 34), nw=70, head=(44, 40), snout=(54, 36),
+                       snout_col="#efdcb8", ears="point", mane="zebra", tail="horse", tail_col="#3a2a1e", hooves=INK)
+ART4["tib-gazelle"] = Q("plateau", (.76, 560, 440), F="#b8a08a", bl=230, bd=92, lh=130, lw=18, belly="#f4efe6", neck=(40, 28), nw=46, head=(32, 28), snout=(32, 24),
+                        snout_col="#c9b49a", ears="side", horns="chiru", tail="short", tail_col="#ffffff", hooves=INK)
+ART4["kiang"] = Q("plateau", None, F="#a8683a", bl=270, bd=120, lh=140, lw=26, belly="#f4efe6", neck=(60, 34), nw=66, head=(42, 38), snout=(54, 34),
+                  snout_col="#f4efe6", ears="long", mane="zebra", tail="tuft", tail_col="#3a2a1e", hooves=INK)
+ART4["tib-fox"] = Q("plateau", (.75, 540, 320), F="#d98a3a", bl=230, bd=86, lh=80, lw=20, belly="#c9c3ba", neck=(30, 40), nw=60, head=(48, 42), snout=(40, 28),
+                    snout_col="#f4efe6", ears="small", tail="bushy", tail_col="#c9c3ba")
+ART4["pika"] = lambda w, h: scene("plateau", w, h, rodent("#a89078", 200, 150, belly="#e9dccb", ears="round", nose="#5a4a3e"), box=(w / 2, h * .76, 400, 280))
+ART4["marmot"] = lambda w, h: scene("plateau", w, h, rodent("#c9a46a", 280, 170, belly="#e9d4a8", ears="small", tail="bushy", tailcol="#8a6a42", tl=.5, nose="#3a2a1e"), box=(w / 2, h * .76, 520, 300))
+ART4["argali"] = Q("plateau", None, F="#9a7a5a", bl=280, bd=124, lh=130, lw=26, belly="#f4efe6", neck=(30, 50), nw=74, head=(44, 40), snout=(40, 30),
+                   snout_col="#e9dccb", ears="side", horns="ram", tail="short", tail_col="#f4efe6", hooves=INK, neck_wool="#e9dccb")
+ART4["bharal"] = Q("plateau", None, F="#8f969c", bl=260, bd=110, lh=120, lw=24, belly="#f4f2ee", neck=(30, 44), nw=64, head=(40, 36), snout=(38, 28),
+                   snout_col="#6b7075", ears="side", horns="bison", tail="short", tail_col="#3a3f45", hooves=INK)
+ART4["mon-gazelle"] = Q("meadow", (.76, 560, 440), F="#d9b27a", bl=240, bd=96, lh=130, lw=18, belly="#fbf6ec", neck=(40, 30), nw=48, head=(34, 30), snout=(34, 26),
+                        snout_col="#e9cf9a", ears="side", horns="chiru", tail="short", tail_col="#fbf6ec", hooves=INK)
+ART4["saiga"] = Q("desert", (.76, 560, 400), F="#d9c4a0", bl=240, bd=100, lh=110, lw=18, belly="#fbf6ec", neck=(30, 34), nw=54, head=(40, 34), snout=(46, 40),
+                  snout_col="#c9b48e", ears="side", horns="chiru", tail="short", hooves=INK, nose=None)
+ART4["pronghorn"] = Q("meadow", (.76, 560, 440), F="#c98a4a", bl=240, bd=100, lh=140, lw=18, belly="#ffffff", neck=(40, 32), nw=50, head=(36, 30), snout=(36, 26),
+                      snout_col="#3a2a1e", ears="side", horns="goat", tail="short", tail_col="#ffffff", hooves=INK)
+ART4["prairie-dog"] = lambda w, h: scene("meadow", w, h, P("M-200 20 C-170 -30 -90 -30 -60 20 Z", "#b88a5a", 2.6) + rodent("#c9a06a", 210, 150, belly="#efdcb8", ears="small", tail="rope", tl=.3, tailcol="#2a2a2a", nose="#5a4a3a"), box=(w / 2, h * .76, 460, 300))
+ART4["coyote"] = Q("desert", None, F="#b99a72", bl=250, bd=96, lh=130, lw=22, belly="#efe4d2", neck=(40, 36), nw=60, head=(40, 34), snout=(50, 26),
+                   snout_col="#efe4d2", ears="point", tail="bushy", tail_col="#8a6a4a")
+ART4["aardvark"] = Q("savanna", (.75, 560, 320), F="#b8a090", bl=260, bd=120, lh=70, lw=30, neck=(10, 40), nw=70, head=(40, 34), snout=(90, 24), snout_col="#c9b4a4",
+                     nose="#a88a7a", ears="long", tail="thin", tail_col="#b8a090", headdown=30)
+ART4["serval"] = Q("savanna", None, F="#e6b85a", bl=240, bd=86, lh=150, lw=20, belly="#fbf2dc", pattern="spots", pat_col=INK, neck=(34, 34), nw=52, head=(32, 28),
+                   snout=(20, 22), snout_col="#fbf2dc", ears="big", tail="short", tail_col=INK)
+ART4["caracal"] = Q("desert", None, F="#c98a52", bl=250, bd=92, lh=130, lw=22, belly="#f4e6d0", neck=(30, 36), nw=54, head=(36, 32), snout=(22, 24), snout_col="#f4e6d0",
+                    ears="point", tail="short", tail_col="#c98a52")

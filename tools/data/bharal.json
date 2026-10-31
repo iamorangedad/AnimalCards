@@ -1,0 +1,77 @@
+{
+ "file": "岩羊",
+ "no": "201",
+ "cat": "高原草原",
+ "name_cn": "岩羊",
+ "name_en": "Bharal",
+ "latin": "Pseudois nayaur",
+ "short": "岩羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "115–165 cm",
+   "lo": 1.15,
+   "hi": 1.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "35–75 kg",
+   "lo": 35,
+   "hi": 75,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "可达 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "生活海拔",
+   "value": "2200–5500 m",
+   "lo": 2200,
+   "hi": 5500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "岩壁高手",
+   "icon": "climb",
+   "desc": "它生活在喜马拉雅的高山草甸和岩石陡坡上。"
+  },
+  {
+   "name": "蓝羊",
+   "icon": "camo",
+   "desc": "它的英文名又叫“蓝羊”（blue sheep）；喜马拉雅亚种叫喜马拉雅蓝羊。"
+  }
+ ],
+ "intro": [
+  "岩羊分布在不丹、中国、印度、缅甸、尼泊尔和巴基斯坦。",
+  "雌雄都有角，雄羊的角大而弯。",
+  "雌羊的角短而直，最长约 20 cm。"
+ ],
+ "fact": "四川的矮岩羊成年公羊只有约 35 kg。",
+ "range": "喜马拉雅山和青藏高原。",
+ "sources": [
+  "Wikipedia「Bharal」",
+  "IUCN 红色名录（Harris 2014）"
+ ],
+ "footnote": ""
+}

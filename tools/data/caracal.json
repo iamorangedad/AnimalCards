@@ -1,0 +1,77 @@
+{
+ "file": "狞猫",
+ "no": "209",
+ "cat": "高原草原",
+ "name_cn": "狞猫",
+ "name_en": "Caracal",
+ "latin": "Caracal caracal",
+ "short": "狞猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鸟类、啮齿类和其他小型哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "8–19 kg",
+   "lo": 8,
+   "hi": 19,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "40–50 cm",
+   "lo": 0.4,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "跳跃高度",
+   "value": "超过 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "近 16 年",
+   "lo": 16,
+   "hi": 16,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑耳簇毛",
+   "icon": "ear",
+   "desc": "耳尖有 4.5 cm 长的黑色簇毛；名字来自土耳其语“黑耳朵”。"
+  },
+  {
+   "name": "空中抓鸟",
+   "icon": "climb",
+   "desc": "它能跳到 3 m 多高，在半空中抓住飞鸟。"
+  }
+ ],
+ "intro": [
+  "狞猫分布在非洲、中东、中亚和印度。",
+  "它会悄悄靠近到猎物 5 m 以内，再冲上去扑杀。",
+  "犬齿长达 2 cm，非常锋利。"
+ ],
+ "fact": "在埃塞俄比亚高原，它最高可生活在海拔 3000 m 的地方。",
+ "range": "非洲、中东、中亚到印度。",
+ "sources": [
+  "Wikipedia「Caracal」",
+  "IUCN 红色名录（Avgan 2016）"
+ ],
+ "footnote": ""
+}

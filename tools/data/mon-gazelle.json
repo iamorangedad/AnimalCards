@@ -1,0 +1,77 @@
+{
+ "file": "黄羊",
+ "no": "202",
+ "cat": "高原草原",
+ "name_cn": "黄羊",
+ "name_en": "Mongolian gazelle",
+ "latin": "Procapra gutturosa",
+ "short": "黄羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "种群数量",
+   "value": "约 150 万只",
+   "lo": 1500000,
+   "hi": 1500000,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "大群",
+   "value": "可达 5000 只",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "5–6 个月",
+   "lo": 5,
+   "hi": 6,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "初生体重",
+   "value": "约 3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长途迁徙",
+   "icon": "climb",
+   "desc": "春秋两季迁徙，距离和方向随天气和食物变化。"
+  },
+  {
+   "name": "超级大群",
+   "icon": "team",
+   "desc": "2007 年，人们在蒙古草原上看到一个约 25 万只的超大黄羊群。"
+  }
+ ],
+ "intro": [
+  "黄羊又叫蒙原羚，分布在蒙古、中国和俄罗斯的草原。",
+  "它的分布区约 74.6 万 km²，91% 在蒙古。",
+  "夏天一群 20–30 只，冬天约 100 只。"
+ ],
+ "fact": "小黄羊出生几天后就能跟上妈妈奔跑。",
+ "range": "蒙古、中国内蒙古及俄罗斯的草原。",
+ "sources": [
+  "Wikipedia「Mongolian gazelle」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": "来源中缺少成体体重数据（缺口）。"
+}

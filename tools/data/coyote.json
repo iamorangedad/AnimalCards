@@ -1,0 +1,77 @@
+{
+ "file": "郊狼",
+ "no": "206",
+ "cat": "高原草原",
+ "name_cn": "郊狼",
+ "name_en": "Coyote",
+ "latin": "Canis latrans",
+ "short": "郊狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以肉为主，偶尔吃水果蔬菜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "8–20 kg",
+   "lo": 8,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "1.0–1.35 m",
+   "lo": 1.0,
+   "hi": 1.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "约 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最重纪录",
+   "value": "34 kg",
+   "lo": 34,
+   "hi": 34,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "嚎叫",
+   "icon": "ear",
+   "desc": "它标志性的嚎叫声调变化很快。"
+  },
+  {
+   "name": "灵活结群",
+   "icon": "team",
+   "desc": "可以一家子生活，也可以和没有血缘关系的个体松散结群。"
+  }
+ ],
+ "intro": [
+  "郊狼原产北美。",
+  "北方亚种平均 18 kg，比墨西哥的南方亚种（平均 11.5 kg）大。",
+  "密苏里等地的郊狼带有 5–10% 的狼血统。"
+ ],
+ "fact": "1937 年在美国怀俄明州记录到的最大郊狼体长 1.5 m、重 34 kg。",
+ "range": "北美和中美洲。",
+ "sources": [
+  "Wikipedia「Coyote」",
+  "IUCN 红色名录（Kays 2018）"
+ ],
+ "footnote": ""
+}

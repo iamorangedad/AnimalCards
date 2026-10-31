@@ -1,0 +1,77 @@
+{
+ "file": "非洲水牛",
+ "no": "188",
+ "cat": "高原草原",
+ "name_cn": "非洲水牛",
+ "name_en": "African buffalo",
+ "latin": "Syncerus caffer",
+ "short": "非洲水牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草本植物（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "雄牛体重",
+   "value": "650–900 kg",
+   "lo": 650,
+   "hi": 900,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "210–300 cm",
+   "lo": 2.1,
+   "hi": 3.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "340 天",
+   "lo": 340,
+   "hi": 340,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "互相救援",
+   "icon": "team",
+   "desc": "公牛受重伤时会大声吼叫，约 33% 的情况下会引来另一头公牛帮忙对付天敌。"
+  },
+  {
+   "name": "五大兽",
+   "icon": "roar",
+   "desc": "它是非洲“五大兽”之一，伤人事件常有发生。"
+  }
+ ],
+ "intro": [
+  "非洲水牛是非洲大型的野牛。",
+  "最大的亚种是开普水牛；最小的是森林水牛。",
+  "草原水牛群可以稳定维持 50 年以上。"
+ ],
+ "fact": "它喜欢住在 20–40 km 以内有长年水源的地方。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「African buffalo」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2019）"
+ ],
+ "footnote": "体重、体长为开普水牛亚种。"
+}

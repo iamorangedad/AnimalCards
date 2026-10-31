@@ -1,0 +1,77 @@
+{
+ "file": "普氏野马",
+ "no": "194",
+ "cat": "高原草原",
+ "name_cn": "普氏野马",
+ "name_en": "Przewalski's horse",
+ "latin": "Equus ferus przewalskii",
+ "short": "普氏野马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "122–142 cm",
+   "lo": 1.22,
+   "hi": 1.42,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "平均约 300 kg",
+   "lo": 300,
+   "hi": 300,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "11–12 个月",
+   "lo": 11,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "断奶",
+   "value": "8–13 个月",
+   "lo": 8,
+   "hi": 13,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "竖立鬃毛",
+   "icon": "camo",
+   "desc": "它的鬃毛直直竖着，不像家马那样垂下来；尾巴约 90 cm 长。"
+  },
+  {
+   "name": "重返草原",
+   "icon": "team",
+   "desc": "它曾在野外灭绝，1990 年代起被重新放归蒙古等地。"
+  }
+ ],
+ "intro": [
+  "普氏野马又叫蒙古野马，原产中亚草原。",
+  "它有 33 对染色体，家马只有 32 对。",
+  "野马群一般 5–15 匹，由一匹成年公马带领。"
+ ],
+ "fact": "它和家马的祖先早在家马被驯化之前很久就已分开。",
+ "range": "原产中亚草原；现已重新引入蒙古、中国等地。",
+ "sources": [
+  "Wikipedia「Przewalski's horse」",
+  "IUCN 红色名录（King 2015）"
+ ],
+ "footnote": ""
+}

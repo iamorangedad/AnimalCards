@@ -1,0 +1,77 @@
+{
+ "file": "喜马拉雅旱獭",
+ "no": "199",
+ "cat": "高原草原",
+ "name_cn": "喜马拉雅旱獭",
+ "name_en": "Himalayan marmot",
+ "latin": "Marmota himalayana",
+ "short": "喜马拉雅旱獭",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "4–9.2 kg",
+   "lo": 4,
+   "hi": 9.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "45–67 cm",
+   "lo": 0.45,
+   "hi": 0.67,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "洞深",
+   "value": "2–10 m",
+   "lo": 2,
+   "hi": 10,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝",
+   "value": "2–11 只",
+   "lo": 2,
+   "hi": 11,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬眠",
+   "icon": "huddle",
+   "desc": "它要冬眠，春天出洞时最瘦，入冬前最胖，秋天平均超过 7 kg。"
+  },
+  {
+   "name": "大家族",
+   "icon": "team",
+   "desc": "条件好的地方，一个群落可多达 30 个家庭。"
+  }
+ ],
+ "intro": [
+  "喜马拉雅旱獭是世界上最大的旱獭之一，有大家猫那么大。",
+  "它生活在海拔 3000–5500 m 的喜马拉雅山和青藏高原。",
+  "怀孕约一个月。"
+ ],
+ "fact": "在青藏高原，旱獭是雪豹的猎物之一。",
+ "range": "喜马拉雅山和青藏高原。",
+ "sources": [
+  "Wikipedia「Himalayan marmot」",
+  "IUCN 红色名录（Shrestha 2016）"
+ ],
+ "footnote": ""
+}

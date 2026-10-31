@@ -1,0 +1,78 @@
+{
+ "file": "高原鼠兔",
+ "no": "198",
+ "cat": "高原草原",
+ "name_cn": "高原鼠兔",
+ "name_en": "Plateau pika",
+ "latin": "Ochotona curzoniae",
+ "short": "高原鼠兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "约 140 g",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "生活海拔",
+   "value": "3100–5000 m",
+   "lo": 3100,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每年窝数",
+   "value": "2–5 窝",
+   "lo": 2,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每窝",
+   "value": "约 2–7 只",
+   "lo": 2,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "关键物种",
+   "icon": "team",
+   "desc": "它是许多食肉动物的食物，洞穴还给小鸟和爬行动物当窝，被看作关键物种。"
+  },
+  {
+   "name": "松土",
+   "icon": "dive",
+   "desc": "打洞能给草甸的土壤通气，有利于土壤健康。"
+  }
+ ],
+ "intro": [
+  "高原鼠兔主要生活在青藏高原，白天活动，不冬眠。",
+  "繁殖季从 4 月到 8 月，每窝间隔约 3 周。",
+  "它是兔形目里长得最快的类群之一。"
+ ],
+ "fact": "化石证据显示，它的进化史大约有 3700 万年。",
+ "range": "青藏高原及周边（中国、印度、尼泊尔）。",
+ "sources": [
+  "Wikipedia「Plateau pika」",
+  "维基百科「高原鼠兔」",
+  "IUCN 红色名录（Smith 2019）"
+ ],
+ "footnote": "化石年代来自中文维基（待核）。"
+}

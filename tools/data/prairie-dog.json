@@ -1,0 +1,77 @@
+{
+ "file": "黑尾草原犬鼠",
+ "no": "205",
+ "cat": "高原草原",
+ "name_cn": "黑尾草原犬鼠",
+ "name_en": "Black-tailed prairie dog",
+ "latin": "Cynomys ludovicianus",
+ "short": "黑尾草原犬鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "以草为主",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.68–1.36 kg",
+   "lo": 0.68,
+   "hi": 1.36,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "36–43 cm",
+   "lo": 0.36,
+   "hi": 0.43,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "地道深",
+   "value": "1.27–1.52 m",
+   "lo": 1.27,
+   "hi": 1.52,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "夏季食量",
+   "value": "每月约 3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下城镇",
+   "icon": "dive",
+   "desc": "据报道得州一个“草原犬鼠镇”占地 6.4 万 km²，住着约 4 亿只。"
+  },
+  {
+   "name": "瞭望",
+   "icon": "ear",
+   "desc": "草高 8–13 cm、坡度 2–5° 的地方最方便它们发现天敌、互相联络。"
+  }
+ ],
+ "intro": [
+  "黑尾草原犬鼠原产北美大平原。",
+  "夏天它们的食物 75% 以上是草。",
+  "气温超过 38 °C 时，地面活动会减少。"
+ ],
+ "fact": "它的水分大多来自食物；干旱年份它会更多地进入蛰伏状态。",
+ "range": "北美大平原（美国、加拿大南部、墨西哥北部）。",
+ "sources": [
+  "Wikipedia「Black-tailed prairie dog」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": ""
+}

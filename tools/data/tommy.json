@@ -1,0 +1,77 @@
+{
+ "file": "汤氏瞪羚",
+ "no": "189",
+ "cat": "高原草原",
+ "name_cn": "汤氏瞪羚",
+ "name_en": "Thomson's gazelle",
+ "latin": "Eudorcas thomsonii",
+ "short": "汤氏瞪羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "奔跑速度",
+   "value": "可达 80 km/h",
+   "lo": 80,
+   "hi": 80,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "雄体重",
+   "value": "20–35 kg",
+   "lo": 20,
+   "hi": 35,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "25–43 cm",
+   "lo": 0.25,
+   "hi": 0.43,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "急转弯",
+   "icon": "flip",
+   "desc": "它能以约 80 km/h 的速度奔跑并曲折转弯；猎豹虽然更快，但它耐跑、转弯更灵活。"
+  },
+  {
+   "name": "弹跳",
+   "icon": "climb",
+   "desc": "会四脚僵直地向上蹦跳（stotting），用来吓唬天敌、炫耀体力。"
+  }
+ ],
+ "intro": [
+  "汤氏瞪羚是一种小型羚羊，生活在东非草原。",
+  "刚出生的小羚羊体重 2–3 kg。",
+  "它最主要的天敌是猎豹。"
+ ],
+ "fact": "1978–2005 年间，它的数量下降了约 60%。",
+ "range": "肯尼亚、坦桑尼亚和南苏丹的草原。",
+ "sources": [
+  "Wikipedia「Thomson's gazelle」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2018）"
+ ],
+ "footnote": "速度为估计值。"
+}

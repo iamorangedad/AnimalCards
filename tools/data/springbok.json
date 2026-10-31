@@ -1,0 +1,77 @@
+{
+ "file": "跳羚",
+ "no": "191",
+ "cat": "高原草原",
+ "name_cn": "跳羚",
+ "name_en": "Springbok",
+ "latin": "Antidorcas marsupialis",
+ "short": "跳羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃灌木和多汁植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "71–86 cm",
+   "lo": 0.71,
+   "hi": 0.86,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "27–42 kg",
+   "lo": 27,
+   "hi": 42,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "35–50 cm",
+   "lo": 0.35,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "弹跳高度",
+   "value": "可达 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "弹跳",
+   "icon": "climb",
+   "desc": "它会四腿僵直、弓着背连续向上跳，高达 2 m，同时竖起背上的白毛。"
+  },
+  {
+   "name": "不喝水",
+   "icon": "jar",
+   "desc": "它靠吃多汁植物获得水分，可以好几年不喝水。"
+  }
+ ],
+ "intro": [
+  "跳羚是生活在非洲西南部的细长腿羚羊。",
+  "雌雄都有一对向后弯的黑色角。",
+  "从前它们会成群结队大规模迁徙。"
+ ],
+ "fact": "它腿部肌肉中一种无氧代谢酶的活性约是人类的 4 倍。",
+ "range": "非洲南部和西南部（南非、纳米比亚、博茨瓦纳等）。",
+ "sources": [
+  "Wikipedia「Springbok」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": ""
+}

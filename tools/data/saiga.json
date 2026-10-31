@@ -1,0 +1,77 @@
+{
+ "file": "高鼻羚羊",
+ "no": "203",
+ "cat": "高原草原",
+ "name_cn": "高鼻羚羊",
+ "name_en": "Saiga antelope",
+ "latin": "Saiga tatarica",
+ "short": "高鼻羚羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "26–69 kg",
+   "lo": 26,
+   "hi": 69,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "100–140 cm",
+   "lo": 1.0,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "28–38 cm",
+   "lo": 0.28,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "冬毛长",
+   "value": "40–70 mm",
+   "lo": 0.04,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大鼻子",
+   "icon": "trunk",
+   "desc": "它有一个特别的长鼻子（象鼻状的鼻吻）。"
+  },
+  {
+   "name": "草原迁徙",
+   "icon": "climb",
+   "desc": "和黄羊一样，它会在草原上长距离迁徙，躲避自然灾害。"
+  }
+ ],
+ "intro": [
+  "高鼻羚羊约 99% 生活在哈萨克斯坦。",
+  "2000 年代到 2010 年代中期，数量在 15 年里减少了约 95%。",
+  "冬毛可长到 40–70 mm，脖子上还有一圈鬃毛。"
+ ],
+ "fact": "2025 年春，哈萨克斯坦的成年高鼻羚羊已回升到约 390 万只。",
+ "range": "中亚草原（哈萨克斯坦、俄罗斯、蒙古等）。",
+ "sources": [
+  "Wikipedia「Saiga antelope」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2023）"
+ ],
+ "footnote": ""
+}

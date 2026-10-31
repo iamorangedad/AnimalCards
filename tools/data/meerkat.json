@@ -1,0 +1,77 @@
+{
+ "file": "狐獴",
+ "no": "186",
+ "cat": "高原草原",
+ "name_cn": "狐獴",
+ "name_en": "Meerkat",
+ "latin": "Suricata suricatta",
+ "short": "狐獴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫，也吃蛋、两栖动物等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.62–0.97 kg",
+   "lo": 0.62,
+   "hi": 0.97,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "24–35 cm",
+   "lo": 0.24,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "60–70 天",
+   "lo": 60,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "家族成员",
+   "value": "2–30 只",
+   "lo": 2,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "站岗放哨",
+   "icon": "ear",
+   "desc": "研究记录了它们 12 种不同的叫声组合，用于防御天敌、照顾幼崽、挖洞、晒太阳等。"
+  },
+  {
+   "name": "地下城",
+   "icon": "dive",
+   "desc": "洞穴系统直径约 5 m，大约有 15 个出口，深可达 1.5 m。"
+  }
+ ],
+ "intro": [
+  "狐獴生活在非洲南部，是一种小型獴科动物。",
+  "它们是群居动物，一个家族平均占约 5 km² 的地盘。",
+  "白天体温平均 38.3 °C，夜里降到 36.3 °C。"
+ ],
+ "fact": "冬天它会靠晒太阳等办法来减少热量损失。",
+ "range": "非洲南部（博茨瓦纳、纳米比亚、南非等）。",
+ "sources": [
+  "Wikipedia「Meerkat」",
+  "IUCN 红色名录（Jordan 2015）"
+ ],
+ "footnote": ""
+}

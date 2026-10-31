@@ -1,0 +1,77 @@
+{
+ "file": "叉角羚",
+ "no": "204",
+ "cat": "高原草原",
+ "name_cn": "叉角羚",
+ "name_en": "Pronghorn",
+ "latin": "Antilocapra americana",
+ "short": "叉角羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃杂草类植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "最高速度",
+   "value": "88.5 km/h",
+   "lo": 88.5,
+   "hi": 88.5,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "40–65 kg",
+   "lo": 40,
+   "hi": 65,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "82–104 cm",
+   "lo": 0.82,
+   "hi": 1.04,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一步",
+   "value": "近 7.3 m",
+   "lo": 7.3,
+   "hi": 7.3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "美洲最快",
+   "icon": "climb",
+   "desc": "它是美洲跑得最快的陆地哺乳动物，能以 56 km/h 跑 6.5 km。"
+  },
+  {
+   "name": "广角眼",
+   "icon": "ear",
+   "desc": "大眼睛的视野达 320°。"
+  }
+ ],
+ "intro": [
+  "叉角羚生活在北美西部的开阔草原。",
+  "雄性的角鞘带一个分叉，平均约 25 cm 长。",
+  "一项研究中，它的食物 62% 是杂草类，23% 灌木，15% 草。"
+ ],
+ "fact": "它至少有 13 种不同的步态，最大的一步接近 7.3 m。",
+ "range": "北美西部和中部的草原、荒漠。",
+ "sources": [
+  "Wikipedia「Pronghorn」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "黑足鼬",
+ "no": "527",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑足鼬",
+ "name_en": "Black-footed ferret",
+ "latin": "Mustela nigripes",
+ "short": "黑足鼬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃草原犬鼠",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2015",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "650–1400 g",
+   "lo": 0.65,
+   "hi": 1.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "犬鼠占比",
+   "value": "最高 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "冬季不出",
+   "value": "最多 6 天",
+   "lo": 6,
+   "hi": 6,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每晚移动",
+   "value": "约 2.5 km",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "km",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "犬鼠猎人",
+   "icon": "food",
+   "desc": "食物里最多 90% 是草原犬鼠，还住在它们的洞里。"
+  },
+  {
+   "name": "死里逃生",
+   "icon": "huddle",
+   "desc": "1979 年被宣布灭绝，1981 年又在怀俄明州发现了野生种群。"
+  }
+ ],
+ "intro": [
+  "黑足鼬生活在北美中部的草原。",
+  "草原犬鼠减少和鼠疫让它几乎灭绝。",
+  "人工繁殖的个体被放归野外。"
+ ],
+ "fact": "人工繁育的黑足鼬比野生的小，但放归后很快长到原来的体型。",
+ "range": "北美中部大平原（美国、加拿大、墨西哥重引入点）。",
+ "sources": [
+  "Wikipedia「Black-footed ferret」",
+  "IUCN 红色名录（Belant, J. 2015）"
+ ],
+ "footnote": ""
+}

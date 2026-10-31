@@ -1,0 +1,78 @@
+{
+ "file": "冠豪猪",
+ "no": "535",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "冠豪猪",
+ "name_en": "Crested porcupine",
+ "latin": "Hystrix cristata",
+ "short": "冠豪猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树根、球茎和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "60–83 cm",
+   "lo": 0.6,
+   "hi": 0.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "13–27 kg",
+   "lo": 13,
+   "hi": 27,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "长刺",
+   "value": "约 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "最长 28 年",
+   "lo": 28,
+   "hi": 28,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "竖刺防身",
+   "icon": "thorn",
+   "desc": "头、颈和背上的刺能竖成冠，侧面和后背有 35 cm 的粗刺。"
+  },
+  {
+   "name": "摇响尾刺",
+   "icon": "ear",
+   "desc": "短尾巴末端有空心的“响刺”，能摇出警告声。"
+  }
+ ],
+ "intro": [
+  "冠豪猪生活在意大利、北非和撒哈拉以南非洲。",
+  "怀孕约 66 天，小豪猪出生时约 1 kg。",
+  "它是第二长寿的啮齿动物，仅次于裸鼹形鼠。"
+ ],
+ "fact": "它的刺没有牢牢长在身上。",
+ "range": "意大利、北非、撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Crested porcupine」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "白唇鹿",
+ "no": "519",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "白唇鹿",
+ "name_en": "Thorold's deer",
+ "latin": "Cervus albirostris",
+ "short": "白唇鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "115–140 cm",
+   "lo": 1.15,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鹿体重",
+   "value": "180–230 kg",
+   "lo": 180,
+   "hi": 230,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌鹿体重",
+   "value": "90–160 kg",
+   "lo": 90,
+   "hi": 160,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "3500–5100 m",
+   "lo": 3500,
+   "hi": 5100,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白嘴唇",
+   "icon": "camo",
+   "desc": "嘴巴和嘴唇周围的毛是白色的，所以叫白唇鹿。"
+  },
+  {
+   "name": "最高的鹿",
+   "icon": "cold",
+   "desc": "生活海拔是鹿类里最高的之一。"
+  }
+ ],
+ "intro": [
+  "白唇鹿生活在青藏高原东部的高山草原和森林。",
+  "它是体型最大的鹿之一。",
+  "学名 albirostris 意思是“白色的嘴”。"
+ ],
+ "fact": "普尔热瓦尔斯基研究了标本，确定它是一个独立的物种。",
+ "range": "中国青藏高原东部（青海、西藏、四川、甘肃）。",
+ "sources": [
+  "Wikipedia「Thorold's deer」"
+ ],
+ "footnote": ""
+}

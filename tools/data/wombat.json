@@ -1,0 +1,78 @@
+{
+ "file": "袋熊",
+ "no": "522",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "袋熊",
+ "name_en": "Common wombat",
+ "latin": "Vombatus ursinus",
+ "short": "袋熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和树根",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 1.2 m",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "平均 27 kg",
+   "lo": 27,
+   "hi": 27,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "育儿袋期",
+   "value": "5 个月",
+   "lo": 5,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖洞工程师",
+   "icon": "root",
+   "desc": "腿短有力、爪子长，挖洞能翻松土壤，帮植物生长。"
+  },
+  {
+   "name": "夜行",
+   "icon": "ear",
+   "desc": "主要在夜里出来吃草。"
+  }
+ ],
+ "intro": [
+  "袋熊生活在澳大利亚东南部和塔斯马尼亚。",
+  "科学家估计约有 130 万只普通袋熊。",
+  "怀孕约 20–30 天，小袋熊在育儿袋里待 5 个月。"
+ ],
+ "fact": "1926–1966 年维多利亚州曾悬赏每只 1 澳元捕杀袋熊。",
+ "range": "澳大利亚东南部、塔斯马尼亚。",
+ "sources": [
+  "Wikipedia「Common wombat」"
+ ],
+ "footnote": "体重为大陆个体平均值。"
+}

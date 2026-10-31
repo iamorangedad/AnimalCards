@@ -1,0 +1,78 @@
+{
+ "file": "美洲獾",
+ "no": "528",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "美洲獾",
+ "name_en": "American badger",
+ "latin": "Taxidea taxus",
+ "short": "美洲獾",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃地松鼠、囊鼠等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "60–75 cm",
+   "lo": 0.6,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "6.3–7.2 kg",
+   "lo": 6.3,
+   "hi": 7.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "最多 8.6 kg",
+   "lo": 8.6,
+   "hi": 8.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "前爪",
+   "value": "最长 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖掘机",
+   "icon": "root",
+   "desc": "前爪长达 5 cm，能飞快挖开地洞抓猎物。"
+  },
+  {
+   "name": "和郊狼合作",
+   "icon": "team",
+   "desc": "曾被看到和郊狼一起配合打猎，通常是一獾一狼。"
+  }
+ ],
+ "intro": [
+  "美洲獾生活在北美的草原。",
+  "它喜欢沙壤土，更容易挖洞找猎物。",
+  "它的谱系约 1800 万年前就和其他鼬科分开了。"
+ ],
+ "fact": "在墨西哥，人们有时叫它 tlalcoyote。",
+ "range": "北美西部和中部草原（加拿大到墨西哥）。",
+ "sources": [
+  "Wikipedia「American badger」"
+ ],
+ "footnote": ""
+}

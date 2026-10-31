@@ -1,0 +1,79 @@
+{
+ "file": "亚洲野驴",
+ "no": "533",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "亚洲野驴",
+ "name_en": "Onager",
+ "latin": "Equus hemionus",
+ "short": "亚洲野驴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2025",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "200–260 kg",
+   "lo": 200,
+   "hi": 260,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.1–2.5 m",
+   "lo": 2.1,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "64–70 km/h",
+   "lo": 64,
+   "hi": 70,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "已存在",
+   "value": "超过 400 万年",
+   "lo": 4,
+   "hi": 4,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "奔跑健将",
+   "icon": "fire",
+   "desc": "是跑得最快的哺乳动物之一，可达 64–70 km/h。"
+  },
+  {
+   "name": "最早分支",
+   "icon": "clone",
+   "desc": "马属动物里，亚洲野驴是最早分化出去的一支。"
+  }
+ ],
+ "intro": [
+  "亚洲野驴生活在亚洲的荒漠草原。",
+  "20 世纪初它失去了中东和东亚的大部分分布区。",
+  "现在分布在伊朗、中亚、印度、蒙古和中国。"
+ ],
+ "fact": "它在旧大陆的马属动物里已经生活了 400 多万年。",
+ "range": "伊朗、哈萨克斯坦、土库曼斯坦、印度、蒙古、中国。",
+ "sources": [
+  "Wikipedia「Onager」",
+  "IUCN 红色名录（Kaczensky, P. 2025）"
+ ],
+ "footnote": ""
+}

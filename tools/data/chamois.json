@@ -1,0 +1,78 @@
+{
+ "file": "臆羚",
+ "no": "516",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "臆羚",
+ "name_en": "Chamois",
+ "latin": "Rupicapra rupicapra",
+ "short": "臆羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、苔藓和嫩枝",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "70–80 cm",
+   "lo": 0.7,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "30–60 kg",
+   "lo": 30,
+   "hi": 60,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "50 km/h",
+   "lo": 50,
+   "hi": 50,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "15–17 年",
+   "lo": 15,
+   "hi": 17,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳高",
+   "icon": "fire",
+   "desc": "能垂直跳起 2 m，或一跳跃过 6 m 远。"
+  },
+  {
+   "name": "山地逃生",
+   "icon": "climb",
+   "desc": "靠速度和隐蔽躲开捕食者。"
+  }
+ ],
+ "intro": [
+  "岩羚羊（臆羚）生活在欧洲的阿尔卑斯山等山地。",
+  "雄性比雌性略大。",
+  "怀孕 170 天，通常在 5–6 月生一只小羊。"
+ ],
+ "fact": "圈养的岩羚羊能活到 22 岁。",
+ "range": "欧洲山地（阿尔卑斯、喀尔巴阡、巴尔干）和土耳其、高加索。",
+ "sources": [
+  "Wikipedia「Chamois」"
+ ],
+ "footnote": ""
+}

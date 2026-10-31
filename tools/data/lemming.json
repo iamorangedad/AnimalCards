@@ -1,0 +1,78 @@
+{
+ "file": "挪威旅鼠",
+ "no": "532",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "挪威旅鼠",
+ "name_en": "Norway lemming",
+ "latin": "Lemmus lemmus",
+ "short": "挪威旅鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃苔藓和草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "155 mm",
+   "lo": 0.155,
+   "hi": 0.155,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "10–19 mm",
+   "lo": 0.01,
+   "hi": 0.019,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最多 130 g",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "数量周期",
+   "value": "3–4 年",
+   "lo": 3,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "数量暴涨",
+   "icon": "team",
+   "desc": "每 3–4 年数量暴涨一次，然后大量死亡。"
+  },
+  {
+   "name": "雪下生活",
+   "icon": "cold",
+   "desc": "冬天生活在雪层下面；春天积雪融化时要迁移。"
+  }
+ ],
+ "intro": [
+  "挪威旅鼠生活在北欧的苔原和山地。",
+  "毛色鲜明，有黑、黄、白的花纹。",
+  "条件好的年份，数量会成倍增长。"
+ ],
+ "fact": "春天融雪时，它们要搬到雪更结实的高处或已经没雪的低处。",
+ "range": "挪威、瑞典、芬兰北部和俄罗斯科拉半岛。",
+ "sources": [
+  "Wikipedia「Norway lemming」"
+ ],
+ "footnote": "“数量周期”的比例条借用年数刻度。"
+}

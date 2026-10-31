@@ -1,0 +1,78 @@
+{
+ "file": "兔耳袋狸",
+ "no": "524",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "兔耳袋狸",
+ "name_en": "Greater bilby",
+ "latin": "Macrotis lagotis",
+ "short": "兔耳袋狸",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫、果实和真菌",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "1–2.4 kg",
+   "lo": 1,
+   "hi": 2.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "0.8–1.1 kg",
+   "lo": 0.8,
+   "hi": 1.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性觅食",
+   "value": "平均 1.5 km",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "雄性觅食",
+   "value": "最远 5 km",
+   "lo": 5,
+   "hi": 5,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长耳朵",
+   "icon": "ear",
+   "desc": "又长又大的耳朵，听觉灵敏，嗅觉也很好。"
+  },
+  {
+   "name": "挖洞",
+   "icon": "root",
+   "desc": "比袋狸更会挖洞，住在地洞里，晚上出来。"
+  }
+ ],
+ "intro": [
+  "兔耳袋狸生活在澳大利亚的干旱地区。",
+  "过去它分布在澳大利亚 70% 的大陆，现在大多只剩干旱区。",
+  "毛是蓝灰色的，很柔软。"
+ ],
+ "fact": "澳大利亚有人用巧克力“复活节袋狸”代替复活节兔子；一家巧克力店做了 95 万只。",
+ "range": "澳大利亚中部和西部的干旱区。",
+ "sources": [
+  "Wikipedia「Greater bilby」"
+ ],
+ "footnote": ""
+}

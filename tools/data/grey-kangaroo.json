@@ -1,0 +1,78 @@
+{
+ "file": "东部灰袋鼠",
+ "no": "523",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "东部灰袋鼠",
+ "name_en": "Eastern grey kangaroo",
+ "latin": "Macropus giganteus",
+ "short": "东部灰袋鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "50–66 kg",
+   "lo": 50,
+   "hi": 66,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "17–40 kg",
+   "lo": 17,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "超过 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高速度",
+   "value": "64 km/h",
+   "lo": 64,
+   "hi": 64,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳跃冠军",
+   "icon": "fire",
+   "desc": "一只大型雌性东部灰袋鼠创下了袋鼠的最高速度纪录 64 km/h。"
+  },
+  {
+   "name": "尾巴当腿",
+   "icon": "huddle",
+   "desc": "成年雄性有一条超过 1 m 长、非常有力的尾巴。"
+  }
+ ],
+ "intro": [
+  "东部灰袋鼠生活在澳大利亚东部。",
+  "雄性体型远大于雌性。",
+  "已知最大的个体重 91 kg。"
+ ],
+ "fact": "塔斯马尼亚东部曾射到一只重 82 kg 的个体。",
+ "range": "澳大利亚东部和塔斯马尼亚。",
+ "sources": [
+  "Wikipedia「Eastern grey kangaroo」"
+ ],
+ "footnote": ""
+}

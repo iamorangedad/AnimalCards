@@ -1,0 +1,79 @@
+{
+ "file": "捻角山羊",
+ "no": "518",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "捻角山羊",
+ "name_en": "Markhor",
+ "latin": "Capra falconeri",
+ "short": "捻角山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、树叶和嫩枝",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2015",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "65–115 cm",
+   "lo": 0.65,
+   "hi": 1.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "32–110 kg",
+   "lo": 32,
+   "hi": 110,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "最长 160 cm",
+   "lo": 1.6,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "600–3600 m",
+   "lo": 600,
+   "hi": 3600,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "螺旋长角",
+   "icon": "trunk",
+   "desc": "雄性的角像开瓶器一样螺旋，最长 160 cm。"
+  },
+  {
+   "name": "山地攀爬",
+   "icon": "climb",
+   "desc": "适应陡峭的山地环境。"
+  }
+ ],
+ "intro": [
+  "捻角山羊是巴基斯坦的国兽。",
+  "它生活在中亚和南亚的山区。",
+  "怀孕 135–170 天。"
+ ],
+ "fact": "它的名字在波斯语里有“吃蛇者”的意思。",
+ "range": "阿富汗、巴基斯坦、印度北部、塔吉克斯坦、乌兹别克斯坦。",
+ "sources": [
+  "Wikipedia「Markhor」",
+  "IUCN 红色名录（Michel, S. 2015）"
+ ],
+ "footnote": ""
+}

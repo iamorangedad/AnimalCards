@@ -1,0 +1,79 @@
+{
+ "file": "麝牛",
+ "no": "529",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "麝牛",
+ "name_en": "Muskox",
+ "latin": "Ovibos moschatus",
+ "short": "麝牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、苔藓和地衣",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "285 kg",
+   "lo": 285,
+   "hi": 285,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体重范围",
+   "value": "180–410 kg",
+   "lo": 180,
+   "hi": 410,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "60 km/h",
+   "lo": 60,
+   "hi": 60,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "12–20 年",
+   "lo": 12,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "北极绒毛",
+   "icon": "cold",
+   "desc": "底层的绒毛叫“qiviut”，柔软又保暖，十分珍贵。"
+  },
+  {
+   "name": "麝香气味",
+   "icon": "toxic",
+   "desc": "繁殖季雄性发出强烈的麝香味吸引雌性，名字由此而来。"
+  }
+ ],
+ "intro": [
+  "麝牛生活在北极的格陵兰、加拿大北部和阿拉斯加。",
+  "厚毛和大头让它看起来比实际更大。",
+  "它曾分布在欧亚大陆，约 2700 年前才在那里消失。"
+ ],
+ "fact": "动物园里的重个体曾达到 650 kg。",
+ "range": "加拿大北极地区、格陵兰；重引入阿拉斯加、育空、西伯利亚，引入挪威。",
+ "sources": [
+  "Wikipedia「Muskox」",
+  "IUCN 红色名录（Gunn, A. 2022）"
+ ],
+ "footnote": ""
+}

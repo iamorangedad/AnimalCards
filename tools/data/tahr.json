@@ -1,0 +1,78 @@
+{
+ "file": "喜马拉雅塔尔羊",
+ "no": "517",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "喜马拉雅塔尔羊",
+ "name_en": "Himalayan tahr",
+ "latin": "Hemitragus jemlahicus",
+ "short": "喜马拉雅塔尔羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "约 73 kg",
+   "lo": 73,
+   "hi": 73,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雌性体重",
+   "value": "约 36 kg",
+   "lo": 36,
+   "hi": 36,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "角长",
+   "value": "最长 46 cm",
+   "lo": 0.46,
+   "hi": 0.46,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "2500–5000 m",
+   "lo": 2500,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "岩地快走",
+   "icon": "climb",
+   "desc": "身体结构适应岩石地形，能自信又敏捷地移动。"
+  },
+  {
+   "name": "角分雌雄",
+   "icon": "trunk",
+   "desc": "雄性角更大，最长 46 cm；雌性体型和角都较小。"
+  }
+ ],
+ "intro": [
+  "喜马拉雅塔尔羊生活在喜马拉雅山的南坡。",
+  "寿命一般 14–15 岁。",
+  "怀孕 180–242 天，通常只生一只。"
+ ],
+ "fact": "1904 年它被引入新西兰库克山一带，还被引入阿根廷、南非和美国。",
+ "range": "喜马拉雅山区（印度、尼泊尔、中国西藏）；被引入新西兰、南非。",
+ "sources": [
+  "Wikipedia「Himalayan tahr」"
+ ],
+ "footnote": ""
+}

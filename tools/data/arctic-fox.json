@@ -1,0 +1,78 @@
+{
+ "file": "北极狐",
+ "no": "530",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "北极狐",
+ "name_en": "Arctic fox",
+ "latin": "Vulpes lagopus",
+ "short": "北极狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃旅鼠、鸟和腐肉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "46–68 cm",
+   "lo": 0.46,
+   "hi": 0.68,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "平均 3.5 kg",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "临界温度",
+   "value": "−7 °C",
+   "lo": -7,
+   "hi": -7,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "11 年",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬白夏褐",
+   "icon": "camo",
+   "desc": "白色型冬天全身雪白，夏天变成褐色。"
+  },
+  {
+   "name": "不冻脚",
+   "icon": "cold",
+   "desc": "调节脚掌血流，站在冰上也能让脚保持在 −1 °C 以上。"
+  }
+ ],
+ "intro": [
+  "北极狐也叫白狐、雪狐，生活在北极地区。",
+  "身体圆滚滚的，减少热量散失。",
+  "野外大多数活不过第一年。"
+ ],
+ "fact": "它的天敌有金雕、北极狼、北极熊和狼獾。",
+ "range": "北极地区（北美、格陵兰、欧亚大陆北部）。",
+ "sources": [
+  "Wikipedia「Arctic fox」"
+ ],
+ "footnote": ""
+}

@@ -733,3 +733,32 @@ ART5["mole-rat"] = lambda w, h: scene("desert", w, h, rodent("#f2c0b0", 300, 110
 ART5["mtn-goat"] = GOAT("#fbfaf6", kind="snow", horns="goat", beard="#fbfaf6", hooves=INK)
 ART5["bighorn"] = GOAT("#8a6a4a", kind="plateau", horns="ram", beard=None, belly="#efe6d6", snout_col="#efe6d6")
 ART5["ibex"] = GOAT("#8a7a64", kind="plateau", horns="chiru", beard="#5a4a3a", bl=280)
+# ---- p4b6 grassland 516-535
+from art2 import ape, kangaroo
+def _apeS(kind, box=(.76, 430, 400), extra="", **kw):
+    return lambda w, h: scene(kind, w, h, ape(**kw) + extra, box=(w / 2, h * box[0], box[1], box[2]))
+ART5["chamois"] = GOAT("#8a5a34", kind="plateau", horns="chiru", beard=None, belly="#e9dcc4", snout_col="#f4eee2", bl=240)
+ART5["tahr"] = GOAT("#7a5a3e", kind="plateau", horns="goat", beard=None, belly="#a88a6a", neck_wool="#9a7a5a", bl=270)
+ART5["markhor"] = GOAT("#b8a68a", kind="plateau", horns="chiru", beard="#5a4a3a", neck_wool="#e9e1d2", bl=290)
+ART5["wl-deer"] = Q("plateau", None, F="#8a7258", bl=300, bd=130, lh=150, lw=28, belly="#e6d6b4", neck=(50, 36), nw=72, head=(40, 36), snout=(44, 30),
+                    snout_col="#ffffff", ears="side", horns="antler", tail="short", tail_col="#e6d6b4", hooves="#3a3f45")
+ART5["gelada"] = _apeS("plateau", F="#8a6a4a", face="#3a2a24", H=280, ear_col="#8a6a4a", brow=False, hair="#a8865a",
+                       extra=P("M-22 -118 L0 -96 L22 -118 L0 -140 Z", "#d9343a", 3))
+ART5["hamadryas"] = _apeS("desert", F="#b8b4ac", face="#e8a0a0", H=280, cape="#d4d0c8", ear_col="#e8a0a0", brow=False)
+ART5["wombat"] = lambda w, h: scene("meadow", w, h, blob(F="#8a7a6a", L=280, H=170, belly="#a89a8a", ears="small", tail=None, nose="#2a2a2a", whisk=False), box=(w / 2, h * .74, 460, 320))
+ART5["grey-kangaroo"] = lambda w, h: scene("meadow", w, h, kangaroo(F="#9a9088", belly="#e6e0d6"), box=(w / 2, h * .75, 520, 440))
+ART5["bilby"] = lambda w, h: scene("desert", w, h, rodent("#9aa0b0", 230, 110, belly="#f4f0ea", ears="big", tail="rope", tl=.8, tailcol="#2a2a2a", nose="#e8a0a0"), box=(w / 2, h * .74, 420, 260))
+ART5["viscacha"] = lambda w, h: scene("meadow", w, h, rodent("#9a9488", 280, 150, belly="#f2ead6", ears="round", stripe="#2a2a2a", nose="#3a3430"), box=(w / 2, h * .74, 440, 280))
+ART5["mara"] = Q("meadow", None, F="#a88a6a", bl=230, bd=100, lh=130, lw=18, belly="#f4ecdc", neck=(30, 36), nw=50, head=(36, 32), snout=(30, 22), snout_col="#8a6a4a", ears="long", tail="short", tail_col="#2a2a2a")
+ART5["bf-ferret"] = Q("meadow", (.74, 580, 260), F="#e8d6a8", bl=280, bd=70, lh=46, lw=20, belly="#e8d6a8", farleg="#2a2a2a", neck=(30, 50), nw=52, head=(36, 30), snout=(30, 20), snout_col="#f4ecd8",
+                      ears="round", tail="thin", tail_col="#2a2a2a", extras=P("M-196 -128 L-168 -128", sw=12, col=INK))
+ART5["am-badger"] = Q("meadow", (.75, 540, 300), F="#8a7a6a", bl=260, bd=110, lh=46, lw=28, belly="#c9b89a", neck=(10, 40), nw=74, head=(48, 36), snout=(34, 22), snout_col="#f4f4f4",
+                      ears="small", tail="short", tail_col="#8a7a6a", farleg="#2a2a2a", extras=P("M-250 -126 L-120 -140", sw=8, col="#fbfaf6"))
+ART5["muskox"] = Q("snow", None, F="#4a3b30", bl=300, bd=140, lh=100, lw=34, neck=(10, 50), nw=90, head=(48, 46), snout=(40, 38), snout_col="#5a4a3e",
+                   ears="small", horns="cow", tail="short", tail_col="#4a3b30", wool="#5a4a3e", neck_wool="#5a4a3e", hooves="#2a2a2a")
+ART5["arctic-fox"] = CAN("snow", "#f6f6f2", bl=210, bd=90, lh=80, lw=18, ears="round", tail_col="#ffffff", snout_col="#ffffff")
+ART5["arctic-hare"] = lambda w, h: scene("snow", w, h, blob(F="#fbfbf8", L=230, H=170, belly="#ffffff", ears="long", tail="puff", nose="#e8a0a0", whisk=True), box=(w / 2, h * .74, 420, 320))
+ART5["lemming"] = lambda w, h: scene("snow", w, h, rodent("#d9a860", 220, 130, belly="#e9cf9a", ears="small", stripe="#2a2a2a", nose="#3a3430"), box=(w / 2, h * .74, 400, 250))
+ART5["onager"] = HORSE("#d9b888", kind="desert", belly="#fbf6ec")
+ART5["alp-marmot"] = lambda w, h: scene("plateau", w, h, rock(-40, 40, 3) + G_(rodent("#a8865a", 260, 150, belly="#d9c09a", ears="small", tail="rope", tl=.5, tailcol="#5a4030", nose="#3a3430"), 0, -60), box=(w / 2, h * .74, 460, 320))
+ART5["porcupine"] = lambda w, h: scene("savanna", w, h, blob(F="#3a3430", L=270, H=170, belly="#3a3430", ears="small", tail=None, nose="#2a2a2a", whisk=False, spines=True), box=(w / 2, h * .74, 460, 320))

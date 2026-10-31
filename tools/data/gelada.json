@@ -1,0 +1,78 @@
+{
+ "file": "狮尾狒",
+ "no": "520",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "狮尾狒",
+ "name_en": "Gelada",
+ "latin": "Theropithecus gelada",
+ "short": "狮尾狒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "平均 18.5 kg",
+   "lo": 18.5,
+   "hi": 18.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "平均 11 kg",
+   "lo": 11,
+   "hi": 11,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "草占食物",
+   "value": "最高 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "1800–4400 m",
+   "lo": 1800,
+   "hi": 4400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红心胸口",
+   "icon": "camo",
+   "desc": "雄性胸口有一块沙漏形的鲜红皮肤，也叫“流血的心”猴。"
+  },
+  {
+   "name": "吃草的猴",
+   "icon": "food",
+   "desc": "食物里最多 90% 是草，是极少数以草为主食的灵长类。"
+  }
+ ],
+ "intro": [
+  "狮尾狒只生活在埃塞俄比亚高原。",
+  "它大部分时间在地面的草地上觅食。",
+  "社会结构有多层：繁殖单元和雄性单元组成更大的“群”。"
+ ],
+ "fact": "成年雄性背上披着又长又厚的毛。",
+ "range": "埃塞俄比亚高原。",
+ "sources": [
+  "Wikipedia「Gelada」"
+ ],
+ "footnote": ""
+}

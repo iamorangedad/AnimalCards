@@ -1,0 +1,78 @@
+{
+ "file": "平原兔鼠",
+ "no": "525",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "平原兔鼠",
+ "name_en": "Plains viscacha",
+ "latin": "Lagostomus maximus",
+ "short": "平原兔鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最多 9 kg",
+   "lo": 9,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "超过 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "略少于 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "群体",
+   "value": "几只到数百只",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下城",
+   "icon": "root",
+   "desc": "挖出复杂的洞穴系统，一代代住几十年。"
+  },
+  {
+   "name": "强壮后腿",
+   "icon": "fire",
+   "desc": "前肢较短，后肢又长又有力。"
+  }
+ ],
+ "intro": [
+  "平原兔鼠生活在南美洲的潘帕斯草原。",
+  "它是同科里体型最大的物种。",
+  "群体里有一只或几只雄性、几只雌性和幼崽。"
+ ],
+ "fact": "群体大小从几只到上百只不等。",
+ "range": "阿根廷、巴拉圭、玻利维亚。",
+ "sources": [
+  "Wikipedia「Plains viscacha」"
+ ],
+ "footnote": ""
+}

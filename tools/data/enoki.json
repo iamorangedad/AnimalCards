@@ -1,0 +1,79 @@
+{
+ "file": "金针菇",
+ "no": "964",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "金针菇",
+ "name_en": "Enoki",
+ "latin": "Flammulina filiformis",
+ "short": "金针菇",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "最大 4.5 cm",
+   "lo": 0.045,
+   "hi": 0.045,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "采收长",
+   "value": "约 5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "出菇温度",
+   "value": "10–16 °C",
+   "lo": 10,
+   "hi": 16,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "中国年产",
+   "value": "约 157 万吨",
+   "lo": 1.57,
+   "hi": 1.57,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "喜冷出菇",
+   "icon": "cold",
+   "desc": "7–10 °C 触发出菇，最适结实温度 10–16 °C。"
+  },
+  {
+   "name": "成簇生长",
+   "icon": "clone",
+   "desc": "子实体成簇生长（中文维基）。"
+  }
+ ],
+ "intro": [
+  "金针菇是膨瑚菌科的食用菇。",
+  "以前被当成欧洲的毛柄金钱菌，DNA 显示它是另一个种。",
+  "每 100 g 提供约 37 千卡热量。"
+ ],
+ "fact": "2010 年中国年产约 157 万吨，日本另产约 14 万吨。",
+ "range": "东亚；广泛栽培。",
+ "sources": [
+  "Wikipedia「Flammulina filiformis」",
+  "维基百科「金针菇」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

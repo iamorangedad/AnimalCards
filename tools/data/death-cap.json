@@ -1,0 +1,80 @@
+{
+ "file": "毒鹅膏",
+ "no": "979",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "毒鹅膏",
+ "name_en": "Death cap",
+ "latin": "Amanita phalloides",
+ "short": "毒鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄长",
+   "value": "8–15 cm",
+   "lo": 0.08,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄粗",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孢子",
+   "value": "7–12 μm",
+   "lo": 7,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐热毒素",
+   "icon": "toxic",
+   "desc": "鹅膏毒素耐热耐冷，煮熟、冷冻都去不掉毒性。"
+  },
+  {
+   "name": "袋状菌托",
+   "icon": "camo",
+   "desc": "白色菌柄基部有破布似的囊状菌托。"
+  }
+ ],
+ "intro": [
+  "毒鹅膏是已知最毒的蘑菇。",
+  "它造成了大多数蘑菇中毒死亡。",
+  "主要毒素 α-鹅膏蕈碱会让肝、肾衰竭。"
+ ],
+ "fact": "它很像可吃的草菇和凯撒蘑菇，所以容易误食。",
+ "range": "原产欧洲；随树木引种扩散到各地。",
+ "sources": [
+  "Wikipedia「Amanita phalloides」",
+  "维基百科「毒鹅膏」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "剧毒！千万不要采食任何野生蘑菇；误食要立刻就医。"
+}

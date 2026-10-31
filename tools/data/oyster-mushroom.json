@@ -1,0 +1,80 @@
+{
+ "file": "糙皮侧耳",
+ "no": "963",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "糙皮侧耳",
+ "name_en": "Oyster mushroom",
+ "latin": "Pleurotus ostreatus",
+ "short": "糙皮侧耳",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "2–30 cm",
+   "lo": 0.02,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄",
+   "value": "最长约 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "食线虫菇",
+   "value": "700 多种之一",
+   "lo": 700,
+   "hi": 700,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "降解油污",
+   "value": "约 95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕食线虫",
+   "icon": "web",
+   "desc": "菌丝能杀死并消化线虫，据信这样获得氮。"
+  },
+  {
+   "name": "真菌修复",
+   "icon": "micro",
+   "desc": "工业上用来做真菌修复（中文维基）。"
+  }
+ ],
+ "intro": [
+  "平菇是常见的食用菇，广布世界温带和亚热带森林。",
+  "菌盖像扇子或牡蛎。",
+  "最早的栽培记录是一战时期的德国（中文维基）。"
+ ],
+ "fact": "实验中它能把 95% 的油转化成无毒物质；在澳大利亚、北美有外形相似的有毒种。",
+ "range": "全球温带、亚热带森林。",
+ "sources": [
+  "Wikipedia「Pleurotus ostreatus」",
+  "维基百科「平菇」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

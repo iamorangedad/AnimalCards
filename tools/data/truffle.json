@@ -1,0 +1,80 @@
+{
+ "file": "黑孢块菌",
+ "no": "972",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "黑孢块菌",
+ "name_en": "Black truffle",
+ "latin": "Tuber melanosporum",
+ "short": "黑孢块菌",
+ "type": "菌类",
+ "habitat": [
+  "土壤",
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "大小",
+   "value": "最大约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "生长深度",
+   "value": "5–50 cm",
+   "lo": 0.05,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种树后出",
+   "value": "4–10 年",
+   "lo": 4,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "1937 法国",
+   "value": "约 1000 吨",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下生长",
+   "icon": "root",
+   "desc": "在地下 5–50 cm 和树根结菌根，喜欢疏松的石灰质土。"
+  },
+  {
+   "name": "香味引狗",
+   "icon": "food",
+   "desc": "散发的二甲基硫会吸引松露犬、松露猪和松露蝇。"
+  }
+ ],
+ "intro": [
+  "黑松露原产南欧。",
+  "是世界上最贵的食用真菌之一，每公斤约 1000–2000 欧元。",
+  "21 世纪产量下降到每年约 20 吨。"
+ ],
+ "fact": "1937 年法国曾产约 1000 吨黑松露。",
+ "range": "南欧。",
+ "sources": [
+  "Wikipedia「Tuber melanosporum」",
+  "维基百科「黑松露」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

@@ -1,0 +1,83 @@
+{
+ "file": "鸡油菌",
+ "no": "969",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "鸡油菌",
+ "name_en": "Golden chanterelle",
+ "latin": "Cantharellus cibarius",
+ "short": "鸡油菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "宽",
+   "value": "3–15 cm",
+   "lo": 0.03,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "高",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成熟个体",
+   "value": "至少数万",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "同属受威胁",
+   "value": "15–17%*",
+   "lo": 15,
+   "hi": 17,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "菌根",
+   "icon": "root",
+   "desc": "能和多种树木共生，不只长在原始林里（IUCN）。"
+  },
+  {
+   "name": "名副其实",
+   "icon": "food",
+   "desc": "种名 cibarius 意为“可烹饪的”，是很受欢迎的食用菇。"
+  }
+ ],
+ "intro": [
+  "鸡油菌是鸡油菌属的模式种。",
+  "外表黄色，和松露、羊肚菌一样珍贵（中文维基）。",
+  "IUCN 只承认它在欧洲到高加索的分布。"
+ ],
+ "fact": "它可能和有毒的发光类脐菇混淆。",
+ "range": "欧洲至高加索。",
+ "sources": [
+  "Wikipedia「Cantharellus cibarius」",
+  "维基百科「鸡油菌」",
+  "IUCN 红色名录（Dahlberg, A. 2025；经 redlist.info 查询）",
+  "Westrip et al. 2026, Biodiversity and Conservation"
+ ],
+ "footnote": "* 鸡油菌属与喇叭菌属整体评估中受威胁种比例。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

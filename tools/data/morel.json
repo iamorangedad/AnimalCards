@@ -1,0 +1,80 @@
+{
+ "file": "羊肚菌",
+ "no": "971",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "羊肚菌",
+ "name_en": "Common morel",
+ "latin": "Morchella esculenta",
+ "short": "羊肚菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "2–7 cm",
+   "lo": 0.02,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌盖高",
+   "value": "2–10 cm",
+   "lo": 0.02,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄长",
+   "value": "2–9 cm",
+   "lo": 0.02,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每囊孢子",
+   "value": "8 个",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "满身凹坑",
+   "icon": "camo",
+   "desc": "黄褐色菌盖布满深坑和脊，像海绵。"
+  },
+  {
+   "name": "中空",
+   "icon": "drop",
+   "desc": "菌盖和菌柄连成一个空腔。"
+  }
+ ],
+ "intro": [
+  "羊肚菌是子囊菌门羊肚菌科的真菌。",
+  "早春在森林、果园甚至火烧地里出现。",
+  "可能因为能在低温生长、避开竞争而在春天出菇。"
+ ],
+ "fact": "有毒的鹿花菌外形很像它；老而腐烂的羊肚菌也可能有毒。",
+ "range": "北半球温带。",
+ "sources": [
+  "Wikipedia「Morchella esculenta」",
+  "维基百科「美味羊肚菌」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

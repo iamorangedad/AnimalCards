@@ -1,0 +1,80 @@
+{
+ "file": "长裙竹荪",
+ "no": "984",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "长裙竹荪",
+ "name_en": "Veiled lady",
+ "latin": "Phallus indusiatus",
+ "short": "长裙竹荪",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "高",
+   "value": "最高 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌盖宽",
+   "value": "1.5–4 cm",
+   "lo": 0.015,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "1 小时长",
+   "value": "12.5 cm",
+   "lo": 0.125,
+   "hi": 0.125,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "完全长成",
+   "value": "10–15 小时",
+   "lo": 12.5,
+   "hi": 12.5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "臭味招蝇",
+   "icon": "bee",
+   "desc": "菌盖上有恶臭的绿褐色黏液，吸引苍蝇吃孢子、帮它传播。"
+  },
+  {
+   "name": "网纱裙",
+   "icon": "web",
+   "desc": "菌盖下垂着一条网状的“裙子”。"
+  }
+ ],
+ "intro": [
+  "长裙竹荪是鬼笔科的真菌。",
+  "分布在南亚、东南亚、非洲、美洲和澳大利亚的热带。",
+  "菌裙和菌柄是中国的高级素食材料（中文维基）。"
+ ],
+ "fact": "早上 7 点到 8 点之间它一小时能长高 12.5 cm。",
+ "range": "热带亚洲、非洲、美洲、澳大利亚。",
+ "sources": [
+  "Wikipedia「Phallus indusiatus」",
+  "维基百科「长裙竹荪」"
+ ],
+ "footnote": "“完全长成”比例条单位小时。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

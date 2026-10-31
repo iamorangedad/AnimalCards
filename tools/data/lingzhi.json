@@ -1,0 +1,78 @@
+{
+ "file": "灵芝",
+ "no": "967",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "灵芝",
+ "name_en": "Lingzhi",
+ "latin": "Ganoderma sichuanense",
+ "short": "灵芝",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "被推崇",
+   "value": "2000 多年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "孔径",
+   "value": "80–120 μm",
+   "lo": 80,
+   "hi": 120,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "新石器证据",
+   "value": "约 6800 年前",
+   "lo": 6800,
+   "hi": 6800,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "混卖近缘种",
+   "value": "约 7–10 种",
+   "lo": 7,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "漆亮菌盖",
+   "icon": "glow",
+   "desc": "红褐色、像涂了漆的肾形菌盖，带环纹。"
+  },
+  {
+   "name": "孔放孢子",
+   "icon": "spore",
+   "desc": "背面没有菌褶，用细孔释放孢子。"
+  }
+ ],
+ "intro": [
+  "灵芝是原产东亚的多孔菌。",
+  "它是古代的“不老蘑菇”，被推崇 2000 多年。",
+  "可在硬木段、木屑上栽培。"
+ ],
+ "fact": "日文名“万年茸”意思是“一万年的蘑菇”。",
+ "range": "东亚；中国大量栽培。",
+ "sources": [
+  "Wikipedia「Lingzhi (mushroom)」"
+ ],
+ "footnote": "无中文维基链接；“新石器证据”为英文维基所述“有些证据”。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

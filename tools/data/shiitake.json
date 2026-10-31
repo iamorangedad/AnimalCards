@@ -1,0 +1,79 @@
+{
+ "file": "香菇",
+ "no": "961",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "香菇",
+ "name_en": "Shiitake",
+ "latin": "Lentinula edodes",
+ "short": "香菇",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌"
+ },
+ "stats": [
+  {
+   "label": "栽培记载",
+   "value": "1209 年起",
+   "lo": 817,
+   "hi": 817,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "占菇产量",
+   "value": "约 25%",
+   "lo": 25,
+   "hi": 25,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "含水",
+   "value": "约 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "蛋白质",
+   "value": "约 2%",
+   "lo": 2,
+   "hi": 2,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "木头上长",
+   "icon": "food",
+   "desc": "在硬木段木（如栎木）或人工基质上栽培，和野外环境相似。"
+  },
+  {
+   "name": "分解木材",
+   "icon": "micro",
+   "desc": "菌丝分解木头里的养分来生长。"
+  }
+ ],
+ "intro": [
+  "香菇原产东亚和东南亚大陆。",
+  "现在全世界都有栽培和食用。",
+  "它约占全球每年蘑菇总产量的 25%。"
+ ],
+ "fact": "最早的栽培记载见于宋代何澹 1209 年编的《龙泉县志》。",
+ "range": "原产东亚、东南亚；全球栽培。",
+ "sources": [
+  "Wikipedia「Shiitake」",
+  "维基百科「香菇」"
+ ],
+ "footnote": "营养比例为每 100 g 生香菇。",
+ "warn": "少数人生吃或没煮熟的香菇会得“香菇皮炎”，要煮熟再吃。"
+}

@@ -1,0 +1,82 @@
+{
+ "file": "猴头菇",
+ "no": "974",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "猴头菇",
+ "name_en": "Lion's mane",
+ "latin": "Hericium erinaceus",
+ "short": "猴头菇",
+ "type": "菌类",
+ "habitat": [
+  "朽木",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "直径",
+   "value": "5–40 cm",
+   "lo": 0.05,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "刺长",
+   "value": "1–5 cm",
+   "lo": 0.01,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "可活",
+   "value": "约 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "产量/kg料",
+   "value": "约 165 g",
+   "lo": 0.165,
+   "hi": 0.165,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "垂刺",
+   "icon": "thorn",
+   "desc": "一团下垂的刺，孢子在刺上产生。"
+  },
+  {
+   "name": "老树专家",
+   "icon": "food",
+   "desc": "主要长在老的栎树、山毛榉和粗大的枯木上。"
+  }
+ ],
+ "intro": [
+  "猴头菇是猴头菌科的齿菌。",
+  "分布在北美和欧亚的温带森林。",
+  "在欧洲一些国家被列入红色名录。"
+ ],
+ "fact": "有人推测一个猴头菇个体能活约 40 年。",
+ "range": "北美、欧亚温带森林。",
+ "sources": [
+  "Wikipedia「Hericium erinaceus」",
+  "维基百科「猴头菇」",
+  "IUCN 红色名录（Olariaga Ibarguren, I. et al. 2019；经 redlist.info 查询）"
+ ],
+ "footnote": "“可活 40 年”为英文维基所述假说。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

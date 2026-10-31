@@ -1,0 +1,80 @@
+{
+ "file": "发光小菇",
+ "no": "985",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "发光小菇",
+ "name_en": "Glowing mycena",
+ "latin": "Mycena chlorophos",
+ "short": "发光小菇",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "最大 30 mm",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄长",
+   "value": "6–30 mm",
+   "lo": 0.006,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌丝适温",
+   "value": "27 °C",
+   "lo": 27,
+   "hi": 27,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "原基适温",
+   "value": "21 °C",
+   "lo": 21,
+   "hi": 21,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜里发光",
+   "icon": "glow",
+   "desc": "子实体会发出淡绿色的光。"
+  },
+  {
+   "name": "落叶分解者",
+   "icon": "micro",
+   "desc": "长在落叶、枝条和原木上，分解它们（中文维基）。"
+  }
+ ],
+ "intro": [
+  "发光小菇 1860 年被描述。",
+  "分布在亚洲亚热带、波利尼西亚、澳大利亚和巴西。",
+  "小笠原群岛叫它“Green Pepe”。"
+ ],
+ "fact": "实验室里能让它长出子实体，人们研究过影响发光的条件。",
+ "range": "亚洲亚热带、大洋洲、巴西。",
+ "sources": [
+  "Wikipedia「Mycena chlorophos」",
+  "维基百科「发光小菇」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

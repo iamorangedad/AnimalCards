@@ -1,0 +1,81 @@
+{
+ "file": "毒蝇鹅膏",
+ "no": "978",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "毒蝇鹅膏",
+ "name_en": "Fly agaric",
+ "latin": "Amanita muscaria",
+ "short": "毒蝇鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 提议评估中"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "5–30 cm",
+   "lo": 0.05,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄高",
+   "value": "5–20 cm",
+   "lo": 0.05,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄粗",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "近百年死亡",
+   "value": "无可靠记录",
+   "lo": 0,
+   "hi": 0,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红帽白点",
+   "icon": "toxic",
+   "desc": "红色菌盖带白点，含蝇蕈醇、鹅膏蕈氨酸。"
+  },
+  {
+   "name": "菌根",
+   "icon": "root",
+   "desc": "和多种树木共生。"
+  }
+ ],
+ "intro": [
+  "毒蝇伞是鹅膏菌属的担子菌。",
+  "原产北半球温带和寒带森林，现已归化到南半球。",
+  "英格兰和瑞典曾用它来驱虫。"
+ ],
+ "fact": "北美真菌学会称近 100 年没有可靠的致死记录，但它仍然有毒。",
+ "range": "北半球温带、寒带。",
+ "sources": [
+  "Wikipedia「Amanita muscaria」",
+  "维基百科「毒蝇伞」",
+  "redlist.info「Amanita muscaria」"
+ ],
+ "footnote": "",
+ "warn": "有毒！会引起中毒和幻觉，儿童误食尤其危险。千万不要采食野生蘑菇。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "致命鹅膏",
+ "no": "980",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "致命鹅膏",
+ "name_en": "Guangzhou destroying angel",
+ "latin": "Amanita exitialis",
+ "short": "致命鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "最大 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "2000年死亡",
+   "value": "8 人",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "此后死亡",
+   "value": "另 20 人",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "担子孢子",
+   "value": "几乎都 2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "纯白杀手",
+   "icon": "toxic",
+   "desc": "通体白色，属于毒鹅膏组，致命。"
+  },
+  {
+   "name": "双孢担子",
+   "icon": "spore",
+   "desc": "大多数伞菌担子长 4 个孢子，它几乎都只长 2 个。"
+  }
+ ],
+ "intro": [
+  "致命鹅膏又叫“广州毁灭天使”。",
+  "分布在东亚，可能也见于印度。",
+  "和毒鹅膏是近亲。"
+ ],
+ "fact": "2000 年中国有 8 人吃了它中毒死亡，此后又有 20 人死亡。",
+ "range": "东亚（中国南部等）。",
+ "sources": [
+  "Wikipedia「Amanita exitialis」"
+ ],
+ "footnote": "无中文维基链接；未查到 IUCN 全球评估。",
+ "warn": "剧毒！千万不要采食任何野生蘑菇；误食要立刻就医。"
+}

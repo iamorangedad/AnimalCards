@@ -1,0 +1,79 @@
+{
+ "file": "黑木耳",
+ "no": "965",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "黑木耳",
+ "name_en": "Black wood ear",
+ "latin": "Auricularia heimuer",
+ "short": "黑木耳",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌"
+ },
+ "stats": [
+  {
+   "label": "宽",
+   "value": "最大 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "厚",
+   "value": "约 1.5 mm",
+   "lo": 0.0015,
+   "hi": 0.0015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "膳食纤维",
+   "value": "干品 70.1%",
+   "lo": 70.1,
+   "hi": 70.1,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "年产值",
+   "value": "超 40 亿美元",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耳朵形状",
+   "icon": "ear",
+   "desc": "子实体像耳朵，薄而有弹性。"
+  },
+  {
+   "name": "长在木头上",
+   "icon": "food",
+   "desc": "生在木头上，在中国大规模栽培。"
+  }
+ ],
+ "intro": [
+  "黑木耳是木耳目的一种食用菌。",
+  "2014 年研究把东亚的黑木耳定为新种，和欧洲种区分开（中文维基）。",
+  "常用来做韩国杂菜。"
+ ],
+ "fact": "每 100 g 干木耳含 70.1 g 膳食纤维。",
+ "range": "东亚；中国大量栽培。",
+ "sources": [
+  "Wikipedia「Auricularia heimuer」",
+  "维基百科「黑木耳」"
+ ],
+ "footnote": "年产值单位为亿美元。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

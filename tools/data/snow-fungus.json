@@ -1,0 +1,79 @@
+{
+ "file": "银耳",
+ "no": "966",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "银耳",
+ "name_en": "Snow fungus",
+ "latin": "Tremella fuciformis",
+ "short": "银耳",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在其他真菌（炭团菌等）上",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌"
+ },
+ "stats": [
+  {
+   "label": "子实体",
+   "value": "最大约 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孢子长",
+   "value": "5–8 μm",
+   "lo": 5,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "多糖占干重",
+   "value": "60–70%",
+   "lo": 60,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "1997 产量",
+   "value": "约 13 万吨",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "寄生酵母",
+   "icon": "micro",
+   "desc": "它先以黏糊糊的酵母形态生活，遇到炭团菌等宿主才入侵并长成菌丝。"
+  },
+  {
+   "name": "胶质",
+   "icon": "drop",
+   "desc": "子实体是白色半透明的胶质，像海藻一样分枝。"
+  }
+ ],
+ "intro": [
+  "银耳是银耳属的真菌。",
+  "1856 年依据巴西的标本首次描述。",
+  "外形像菊花或鸡冠（中文维基）。"
+ ],
+ "fact": "1997 年中国银耳产量估计约 13 万吨。",
+ "range": "热带、亚热带；中国大量栽培。",
+ "sources": [
+  "Wikipedia「Tremella fuciformis」",
+  "维基百科「银耳」"
+ ],
+ "footnote": "孢子长度条单位 μm（0–100）。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

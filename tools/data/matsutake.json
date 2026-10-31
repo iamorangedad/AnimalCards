@@ -1,0 +1,82 @@
+{
+ "file": "松茸",
+ "no": "973",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "松茸",
+ "name_en": "Matsutake",
+ "latin": "Tricholoma matsutake",
+ "short": "松茸",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "最大 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄长",
+   "value": "最长 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "1600–2600 m",
+   "lo": 1600,
+   "hi": 2600,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "50 年衰退",
+   "value": "超 30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "松树菌根",
+   "icon": "root",
+   "desc": "主要和松树根结菌根共生。"
+  },
+  {
+   "name": "浓香",
+   "icon": "food",
+   "desc": "有独特浓郁的香气（中文维基）。"
+  }
+ ],
+ "intro": [
+  "松茸是口蘑科的食用蕈。",
+  "分布在东亚、北欧、北美等地。",
+  "因松林病害和林地减少，IUCN 列为易危。"
+ ],
+ "fact": "日本市场上国产松茸每公斤可达约 1000 美元。",
+ "range": "东亚、北欧、北美。",
+ "sources": [
+  "Wikipedia「Matsutake」",
+  "维基百科「松茸」",
+  "IUCN 红色名录（Brandrud, T.-E. 2020；经 redlist.info 查询）"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

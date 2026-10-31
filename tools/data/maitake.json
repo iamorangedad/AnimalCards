@@ -1,0 +1,81 @@
+{
+ "file": "灰树花",
+ "no": "975",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "灰树花",
+ "name_en": "Maitake",
+ "latin": "Grifola frondosa",
+ "short": "灰树花",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "初评 NT·未发布"
+ },
+ "stats": [
+  {
+   "label": "菌丛",
+   "value": "可达 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌盖宽",
+   "value": "2–10 cm",
+   "lo": 0.02,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "约 20 kg",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "孔/毫米",
+   "value": "1–3 个",
+   "lo": 1,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "老栎树基部",
+   "icon": "root",
+   "desc": "长在老栎树等大树的树干基部。"
+  },
+  {
+   "name": "层层叠叠",
+   "icon": "clone",
+   "desc": "很多勺形菌盖叠成一大丛，像飞舞的蝴蝶（中文维基）。"
+  }
+ ],
+ "intro": [
+  "灰树花是多孔菌。",
+  "原产中国、欧洲和北美东部。",
+  "日文名“舞茸”意为“跳舞的蘑菇”。"
+ ],
+ "fact": "它被称为“蘑菇之王”（中文维基）。",
+ "range": "中国、欧洲、北美东部。",
+ "sources": [
+  "Wikipedia「Grifola frondosa」",
+  "维基百科「灰树花」",
+  "redlist.info「Grifola frondosa」"
+ ],
+ "footnote": "20 kg 仅见中文维基，待核。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

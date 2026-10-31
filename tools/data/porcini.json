@@ -1,0 +1,82 @@
+{
+ "file": "美味牛肝菌",
+ "no": "970",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "美味牛肝菌",
+ "name_en": "Porcini",
+ "latin": "Boletus edulis",
+ "short": "美味牛肝菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "菌盖径",
+   "value": "8–30 cm",
+   "lo": 0.08,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "约 3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄高",
+   "value": "8–25 cm",
+   "lo": 0.08,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌管深",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "菌管代替褶",
+   "icon": "spore",
+   "desc": "菌盖下面是细管，孢子在里面产生。"
+  },
+  {
+   "name": "菌根共生",
+   "icon": "root",
+   "desc": "和 30 多种阔叶树、针叶树结菌根（IUCN）。"
+  }
+ ],
+ "intro": [
+  "美味牛肝菌是牛肝菌属的模式种。",
+  "被认为是世界上最好吃的蘑菇之一。",
+  "几乎只能野外采集，菌根菌很难人工栽培（IUCN）。"
+ ],
+ "fact": "1998 年估计它和近缘种全球年消费 2–10 万吨。",
+ "range": "北半球温带、寒带。",
+ "sources": [
+  "Wikipedia「Boletus edulis」",
+  "维基百科「美味牛肝菌」",
+  "IUCN 红色名录（Dahlberg, A. 2019；经 redlist.info 查询）"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

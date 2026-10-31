@@ -1,0 +1,81 @@
+{
+ "file": "冬虫夏草",
+ "no": "968",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "冬虫夏草",
+ "name_en": "Caterpillar fungus",
+ "latin": "Ophiocordyceps sinensis",
+ "short": "冬虫夏草",
+ "type": "菌类",
+ "habitat": [
+  "土壤"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在蝙蝠蛾幼虫体内",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "海拔",
+   "value": "3000–5000 m",
+   "lo": 3000,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "子座长",
+   "value": "4–10 cm",
+   "lo": 0.04,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "生长温度",
+   "value": "低于 21 °C",
+   "lo": 21,
+   "hi": 21,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "每公斤价",
+   "value": "3000–18000 美元",
+   "lo": 3000,
+   "hi": 18000,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "寄生幼虫",
+   "icon": "spore",
+   "desc": "寄生在蝙蝠蛾科幼虫体内，最后从虫头长出子座。"
+  },
+  {
+   "name": "高原生活",
+   "icon": "cold",
+   "desc": "只长在青藏高原和喜马拉雅 3000–5000 m 的高山。"
+  }
+ ],
+ "intro": [
+  "冬虫夏草是寄生昆虫的真菌。",
+  "分布在中国青藏高原、尼泊尔、印度、不丹。",
+  "IUCN 因过度采挖列为易危。"
+ ],
+ "fact": "2008 年 1 公斤能卖 3000 至 18000 多美元。",
+ "range": "青藏高原、喜马拉雅。",
+ "sources": [
+  "Wikipedia「Ophiocordyceps sinensis」",
+  "维基百科「冬虫夏草」",
+  "IUCN 红色名录（Yang, Z.-L. 2020；经 redlist.info 查询）"
+ ],
+ "footnote": "",
+ "warn": "野生虫草常含大量砷等重金属，可能有毒。"
+}

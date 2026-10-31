@@ -1,0 +1,79 @@
+{
+ "file": "大秃马勃",
+ "no": "983",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "大秃马勃",
+ "name_en": "Giant puffball",
+ "latin": "Calvatia gigantea",
+ "short": "大秃马勃",
+ "type": "菌类",
+ "habitat": [
+  "陆地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "直径",
+   "value": "可达 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "纪录重量",
+   "value": "超 23 kg",
+   "lo": 23,
+   "hi": 23,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孢子",
+   "value": "3–6 μm",
+   "lo": 3,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "细胞/分钟",
+   "value": "约 6000 万",
+   "lo": 60000000.0,
+   "hi": 60000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "孢子炸弹",
+   "icon": "spore",
+   "desc": "所有孢子都在球体里产生，大个的能有几万亿个。"
+  },
+  {
+   "name": "止血",
+   "icon": "drop",
+   "desc": "马勃一直被用来止血、包扎伤口。"
+  }
+ ],
+ "intro": [
+  "大秃马勃长在草地、田野和阔叶林里。",
+  "分布在全世界温带地区，夏末秋初出现。",
+  "加拿大安大略曾记录一个超过 23 kg 的。"
+ ],
+ "fact": "它很像有毒的橙黄硬皮马勃。",
+ "range": "全球温带。",
+ "sources": [
+  "Wikipedia「Calvatia gigantea」"
+ ],
+ "footnote": "无中文维基链接；未查到 IUCN 全球评估。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

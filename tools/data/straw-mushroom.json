@@ -1,0 +1,79 @@
+{
+ "file": "草菇",
+ "no": "976",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "草菇",
+ "name_en": "Straw mushroom",
+ "latin": "Volvariella volvacea",
+ "short": "草菇",
+ "type": "菌类",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌"
+ },
+ "stats": [
+  {
+   "label": "成熟",
+   "value": "4–5 天",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "消费排名",
+   "value": "第 3 位",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每杯",
+   "value": "182 g",
+   "lo": 0.182,
+   "hi": 0.182,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "热量/杯",
+   "value": "240 kJ",
+   "lo": 240,
+   "hi": 240,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "稻草上长",
+   "icon": "food",
+   "desc": "长在稻草上，因此得名。"
+  },
+  {
+   "name": "长得飞快",
+   "icon": "clone",
+   "desc": "4–5 天就能成熟，喜欢多雨的亚热带。"
+  }
+ ],
+ "intro": [
+  "草菇在东亚和东南亚都有栽培。",
+  "是全球第三大消费量的蘑菇。",
+  "它又叫“包脚菇”“稻草菇”（中文维基）。"
+ ],
+ "fact": "幼菇外形很像剧毒的毒鹅膏，可以靠孢子印区分。",
+ "range": "东亚、东南亚。",
+ "sources": [
+  "Wikipedia「Volvariella volvacea」",
+  "维基百科「草菇」"
+ ],
+ "footnote": "",
+ "warn": "幼草菇和剧毒的毒鹅膏很像，在美国曾有东南亚移民误采中毒：千万不要采野生蘑菇。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "青鱼",
+ "no": "178",
+ "cat": "农场",
+ "name_cn": "青鱼",
+ "name_en": "Black carp",
+ "latin": "Mylopharyngodon piceus",
+ "short": "青鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃螺、蚬、贻贝等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "60–120 cm",
+   "lo": 0.6,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "1.9 m",
+   "lo": 1.9,
+   "hi": 1.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "35 kg 以上",
+   "lo": 35,
+   "hi": 35,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "侧线鳞",
+   "value": "42–43 枚",
+   "lo": 42,
+   "hi": 43,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃螺专家",
+   "icon": "jar",
+   "desc": "它专吃螺、蚬、贻贝等带壳的小动物，美国曾用它来控制养殖池里的螺。"
+  },
+  {
+   "name": "四大家鱼",
+   "icon": "team",
+   "desc": "和鳙鱼、鲢鱼、草鱼一起，是中国的“四大家鱼”。"
+  }
+ ],
+ "intro": [
+  "青鱼是青鱼属唯一现存的物种。",
+  "背部青黑色，长大后全身黝黑。",
+  "据中文维基记载，最大个体可超过 100 kg。"
+ ],
+ "fact": "2007 年它在美国被列为“有害物种”，不允许放生。",
+ "range": "原产东亚；已被引入美国等地。",
+ "sources": [
+  "Wikipedia「Black carp」",
+  "维基百科「青鱼」",
+  "IUCN 红色名录（Bogutskaya 2022）"
+ ],
+ "footnote": "体重 35 kg 为英文维基数据；>100 kg 为中文维基记录（待核）。"
+}

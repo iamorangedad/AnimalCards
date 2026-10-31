@@ -1,0 +1,77 @@
+{
+ "file": "鳙鱼",
+ "no": "177",
+ "cat": "农场",
+ "name_cn": "鳙鱼",
+ "name_en": "Bighead carp",
+ "latin": "Hypophthalmichthys nobilis",
+ "short": "鳙鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃藻类和浮游动物",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "约 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体长",
+   "value": "146 cm",
+   "lo": 1.46,
+   "hi": 1.46,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "40 kg",
+   "lo": 40,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "年养殖量",
+   "value": "约 306 万吨",
+   "lo": 3059555,
+   "hi": 3059555,
+   "scale": "ton",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大头",
+   "icon": "camo",
+   "desc": "它有一个没有鳞片的大头和一张大嘴，所以叫“大头鱼”（花鲢）。"
+  },
+  {
+   "name": "四大家鱼",
+   "icon": "team",
+   "desc": "和青鱼、草鱼、鲢鱼一起，在中国混养了一千多年。"
+  }
+ ],
+ "intro": [
+  "鳙鱼原产东亚的大河和相连的湖泊。",
+  "它是养殖最多的鱼之一，2013 年全球产量约 306 万吨，主要在中国。",
+  "1950 年全球养殖量才约 1.5 万吨。"
+ ],
+ "fact": "它被引入北美后，成了著名的入侵“亚洲鲤鱼”之一。",
+ "range": "原产中国等东亚地区；已被引入北美、欧洲等地。",
+ "sources": [
+  "Wikipedia「Bighead carp」",
+  "IUCN 红色名录（Huckstorf 2012）"
+ ],
+ "footnote": "IUCN 为数据缺乏（DD）。"
+}

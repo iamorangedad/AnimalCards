@@ -1,0 +1,77 @@
+{
+ "file": "日本鳗鲡",
+ "no": "172",
+ "cat": "农场",
+ "name_cn": "日本鳗鲡",
+ "name_en": "Japanese eel",
+ "latin": "Anguilla japonica",
+ "short": "日本鳗鲡",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蠕虫和昆虫等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雌鱼体长",
+   "value": "57–60 cm",
+   "lo": 0.57,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鱼体长",
+   "value": "约 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "变成玻璃鳗",
+   "value": "约 18 个月",
+   "lo": 18,
+   "hi": 18,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "黄鳗期",
+   "value": "5–10 年",
+   "lo": 5,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "千里洄游",
+   "icon": "dive",
+   "desc": "在海里产卵、在淡水里长大；靠身体里储存的油脂，长途游回海里不吃东西。"
+  },
+  {
+   "name": "透明幼鳗",
+   "icon": "camo",
+   "desc": "孵化约 18 个月后变成透明的“玻璃鳗”，再游进河里。"
+  }
+ ],
+ "intro": [
+  "日本鳗鲡分布在日本、朝鲜半岛、中国、越南和菲律宾北部。",
+  "卵受精后约 36 小时就孵出柳叶状的幼体。",
+  "2010 年日本首次实现了完全人工繁殖。"
+ ],
+ "fact": "由于过度捕捞和栖息地变化，它已被列为濒危物种。",
+ "range": "东亚沿海及河流。",
+ "sources": [
+  "Wikipedia「Japanese eel」",
+  "IUCN 红色名录（Pike 2020）"
+ ],
+ "footnote": ""
+}

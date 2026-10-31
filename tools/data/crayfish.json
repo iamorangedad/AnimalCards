@@ -1,0 +1,79 @@
+{
+ "file": "克氏原螯虾",
+ "no": "175",
+ "cat": "农场",
+ "name_cn": "克氏原螯虾",
+ "name_en": "Red swamp crayfish",
+ "latin": "Procambarus clarkii",
+ "short": "克氏原螯虾",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "5.5–12 cm",
+   "lo": 0.055,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可超过 50 g",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "卵直径",
+   "value": "平均 2.4 mm",
+   "lo": 0.0024,
+   "hi": 0.0024,
+   "scale": "len_xs",
+   "approx": true
+  },
+  {
+   "label": "耐旱",
+   "value": "可达 4 个月",
+   "lo": 4,
+   "hi": 4,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "打洞",
+   "icon": "dive",
+   "desc": "它很会挖洞，能在只有季节性积水的地方快速生长。"
+  },
+  {
+   "name": "适应力强",
+   "icon": "huddle",
+   "desc": "能忍受低氧的水，盐度最高可到 35‰，被认为是十足目里适应力最强的物种。"
+  }
+ ],
+ "intro": [
+  "克氏原螯虾在中国大陆俗称“小龙虾”，原产美国东南部。",
+  "中国现在是世界上最大的小龙虾养殖国，多用稻田养殖。",
+  "体形越大的雌虾，产的卵通常越多。"
+ ],
+ "fact": "它挖洞会破坏水渠、田埂和农作物，在许多地方是入侵物种。",
+ "range": "原产美国东南部；已被引入亚洲、欧洲、非洲等地。",
+ "sources": [
+  "Wikipedia「Procambarus clarkii」",
+  "维基百科「克氏原螯虾」",
+  "IUCN 红色名录（Crandall 2010）"
+ ],
+ "footnote": ""
+}

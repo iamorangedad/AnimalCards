@@ -1,0 +1,78 @@
+{
+ "file": "边境牧羊犬",
+ "no": "183",
+ "cat": "农场",
+ "name_cn": "边境牧羊犬",
+ "name_en": "Border Collie (breed)",
+ "latin": "Canis familiaris（品种）",
+ "short": "边境牧羊犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃犬粮（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "48–56 cm",
+   "lo": 0.48,
+   "hi": 0.56,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬肩高",
+   "value": "46–53 cm",
+   "lo": 0.46,
+   "hi": 0.53,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "12.1–13.1 年",
+   "lo": 12.1,
+   "hi": 13.1,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "懂的词",
+   "value": "约 1022 个",
+   "lo": 1022,
+   "hi": 1022,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最聪明",
+   "icon": "ear",
+   "desc": "有人认为它是最聪明的狗；2011 年报道一只边牧能听懂约 1022 个词。"
+  },
+  {
+   "name": "牧羊",
+   "icon": "team",
+   "desc": "它主要被用来放牧羊群，在牧羊犬比赛中成绩出色。"
+  }
+ ],
+ "intro": [
+  "【品种】边境牧羊犬起源于英格兰和苏格兰交界地区。",
+  "“Border Collie”这个名字在 1915 年才第一次被使用。",
+  "著名的“老汉普”一生可能有多达 200 只后代。"
+ ],
+ "fact": "1995 年它才被美国养犬俱乐部正式承认。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Border Collie」",
+  "维基百科「边境牧羊犬」"
+ ],
+ "footnote": "这是狗的一个品种；懂的词数来自中文维基（媒体报道）。"
+}

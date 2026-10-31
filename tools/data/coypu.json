@@ -1,0 +1,78 @@
+{
+ "file": "海狸鼠",
+ "no": "184",
+ "cat": "农场",
+ "name_cn": "海狸鼠",
+ "name_en": "Nutria",
+ "latin": "Myocastor coypus",
+ "short": "海狸鼠",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃水生和岸边植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "4–9 kg",
+   "lo": 4,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "40–60 cm",
+   "lo": 0.4,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "30–45 cm",
+   "lo": 0.3,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "130 天",
+   "lo": 130,
+   "hi": 130,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "橙色门牙",
+   "icon": "camo",
+   "desc": "4 颗大门牙是亮橙黄色的，一辈子都在长。"
+  },
+  {
+   "name": "毛皮",
+   "icon": "huddle",
+   "desc": "它有三层毛，柔软浓密的灰色底绒在毛皮业里也叫“nutria”。"
+  }
+ ],
+ "intro": [
+  "海狸鼠原产南美洲，是现存最大的啮齿动物之一。",
+  "它被毛皮养殖者带到了北美、欧洲和亚洲。",
+  "鼻口部有白斑，后脚有蹼。"
+ ],
+ "fact": "在许多被引入的地方，它啃食湿地植物、挖洞破坏堤岸，被视为入侵物种。",
+ "range": "原产南美洲；已被引入北美、欧洲、亚洲。",
+ "sources": [
+  "Wikipedia「Nutria」",
+  "IUCN 红色名录（Ojeda 2016）"
+ ],
+ "footnote": ""
+}

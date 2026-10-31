@@ -1,0 +1,77 @@
+{
+ "file": "虱目鱼",
+ "no": "182",
+ "cat": "农场",
+ "name_cn": "虱目鱼",
+ "name_en": "Milkfish",
+ "latin": "Chanos chanos",
+ "short": "虱目鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "池塘体重",
+   "value": "约 19 kg",
+   "lo": 19,
+   "hi": 19,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌鱼产卵",
+   "value": "50–600 万粒",
+   "lo": 500000,
+   "hi": 6000000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "国鱼？",
+   "icon": "team",
+   "desc": "在菲律宾叫 bangús，常被叫作“国鱼”，不过官方说其实不是。"
+  },
+  {
+   "name": "近海生活",
+   "icon": "dive",
+   "desc": "常生活在岛屿周围和大陆架的热带海域，水深 1–30 m。"
+  }
+ ],
+ "intro": [
+  "虱目鱼是虱目鱼属唯一现存的物种。",
+  "野生虱目鱼要 3–5 年才成熟。",
+  "大多数个体体长不超过 1 m。"
+ ],
+ "fact": "在菲律宾，捕捉 60 cm 以上的成年虱目鱼是违法的。",
+ "range": "印度洋和太平洋的热带海域；在东南亚、台湾等地大量养殖。",
+ "sources": [
+  "Wikipedia「Milkfish」",
+  "IUCN 红色名录（Freyhof 2019）"
+ ],
+ "footnote": ""
+}

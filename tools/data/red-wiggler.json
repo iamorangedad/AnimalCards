@@ -1,0 +1,76 @@
+{
+ "file": "赤子爱胜蚓",
+ "no": "173",
+ "cat": "农场",
+ "name_cn": "赤子爱胜蚓",
+ "name_en": "Red wiggler",
+ "latin": "Eisenia fetida",
+ "short": "赤子爱胜蚓",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃腐烂的植物和粪肥",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "每周产茧",
+   "value": "约 3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "每茧卵数",
+   "value": "1–9 个",
+   "lo": 1,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 3 周",
+   "lo": 21,
+   "hi": 21,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "适宜温度",
+   "value": "4.5–32 °C",
+   "lo": 4.5,
+   "hi": 32,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "堆肥能手",
+   "icon": "team",
+   "desc": "它爱住在腐烂的植物、堆肥和粪肥里，常被用来做蚯蚓堆肥。"
+  },
+  {
+   "name": "怕热",
+   "icon": "dive",
+   "desc": "夏天会钻到 15 cm 以下更凉的地方去。"
+  }
+ ],
+ "intro": [
+  "赤子爱胜蚓就是常见的“红蚯蚓”，原产欧洲。",
+  "它很少生活在普通土壤里，而是在地表的腐殖质中。",
+  "除南极洲外，它已被带到每一个大洲。"
+ ],
+ "fact": "它的体腔液里有一种叫溶解素（lysenin）的蛋白质，能破坏入侵的外来细胞。",
+ "range": "原产欧洲；现已遍布除南极洲外的各大洲。",
+ "sources": [
+  "Wikipedia「Eisenia fetida」"
+ ],
+ "footnote": ""
+}

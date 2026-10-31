@@ -1,0 +1,77 @@
+{
+ "file": "罗氏沼虾",
+ "no": "180",
+ "cat": "农场",
+ "name_cn": "罗氏沼虾",
+ "name_en": "Giant river prawn",
+ "latin": "Macrobrachium rosenbergii",
+ "short": "罗氏沼虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013"
+ },
+ "stats": [
+  {
+   "label": "雄虾全长",
+   "value": "34 cm",
+   "lo": 0.34,
+   "hi": 0.34,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌虾全长",
+   "value": "26 cm",
+   "lo": 0.26,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "1–5 万粒",
+   "lo": 10000,
+   "hi": 50000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 3 年",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长螯",
+   "icon": "camo",
+   "desc": "第二对步足又大又有力，末端是大螯，雄虾的尤其粗壮。"
+  },
+  {
+   "name": "抱卵",
+   "icon": "jar",
+   "desc": "雌虾一年可产卵多达 5 次，把受精卵抱在身上直到孵化，一般不到 3 周。"
+  }
+ ],
+ "intro": [
+  "罗氏沼虾是一种大型淡水虾，原产印度到东南亚和澳大利亚北部。",
+  "幼体孵化后约 32–35 天变态成小虾。",
+  "它是重要的养殖虾。"
+ ],
+ "fact": "它虽然是淡水虾，幼体阶段却离不开微咸水。",
+ "range": "原产印度-太平洋地区；已在世界许多地方养殖。",
+ "sources": [
+  "Wikipedia「Macrobrachium rosenbergii」",
+  "IUCN 红色名录（De Grave 2013）"
+ ],
+ "footnote": ""
+}

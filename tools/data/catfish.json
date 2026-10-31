@@ -1,0 +1,77 @@
+{
+ "file": "斑点叉尾鮰",
+ "no": "179",
+ "cat": "农场",
+ "name_cn": "斑点叉尾鮰",
+ "name_en": "Channel catfish",
+ "latin": "Ictalurus punctatus",
+ "short": "斑点叉尾鮰",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013"
+ },
+ "stats": [
+  {
+   "label": "成鱼体长",
+   "value": "至少 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成鱼体重",
+   "value": "0.91–1.81 kg",
+   "lo": 0.91,
+   "hi": 1.81,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "26 kg",
+   "lo": 26,
+   "hi": 26,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "触须",
+   "value": "4 对",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "全身味蕾",
+   "icon": "whisker",
+   "desc": "全身表面都有味蕾，嘴边 4 对触须上尤其密集，每平方毫米约 25 个。"
+  },
+  {
+   "name": "会“打鼓”",
+   "icon": "ear",
+   "desc": "很多鲶鱼能发出敲鼓一样的声音，频率可达每秒 300–400 次。"
+  }
+ ],
+ "intro": [
+  "斑点叉尾鮰原产北美，是美国被钓得最多的鲶鱼。",
+  "它是一个古老的物种，已存在近 2000 万年。",
+  "它喜欢把卵产在石缝、洞穴或杂物里。"
+ ],
+ "fact": "它已被引入欧洲、亚洲和南美，许多国家把它视为入侵物种。",
+ "range": "原产北美；已被引入世界许多地方养殖。",
+ "sources": [
+  "Wikipedia「Channel catfish」",
+  "IUCN 红色名录（NatureServe 2013）"
+ ],
+ "footnote": "触须条按 8 根计。"
+}

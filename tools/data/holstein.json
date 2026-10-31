@@ -1,0 +1,77 @@
+{
+ "file": "荷斯坦牛",
+ "no": "174",
+ "cat": "农场",
+ "name_cn": "荷斯坦牛",
+ "name_en": "Holstein Friesian (breed)",
+ "latin": "Bos taurus（品种）",
+ "short": "荷斯坦牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物"
+ },
+ "stats": [
+  {
+   "label": "美国年产奶",
+   "value": "约 1 万 kg",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "yield",
+   "approx": true
+  },
+  {
+   "label": "欧洲年产奶",
+   "value": "7000–8000 升",
+   "lo": 7000,
+   "hi": 8000,
+   "scale": "yield",
+   "approx": true
+  },
+  {
+   "label": "公牛后代",
+   "value": "7 万多头",
+   "lo": 70000,
+   "hi": 70000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "原系母牛",
+   "value": "仅 2113 头",
+   "lo": 2113,
+   "hi": 2113,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "产奶冠军",
+   "icon": "jar",
+   "desc": "美国一头普通的荷斯坦母牛一年能产约 1 万 kg 牛奶。"
+  },
+  {
+   "name": "黑白花",
+   "icon": "camo",
+   "desc": "它就是最常见的黑白花奶牛。"
+  }
+ ],
+ "intro": [
+  "【品种】荷斯坦牛（黑白花牛）原产荷兰，早在 1621 年就被带到了美洲。",
+  "荷兰人通过选育提高了它的产奶量和乳脂含量。",
+  "母牛主要用来产奶，公牛则用来产肉。"
+ ],
+ "fact": "1965 年出生的一头美国公牛通过人工授精，后代超过 7 万头。",
+ "range": "原产荷兰；现已遍布世界。",
+ "sources": [
+  "Wikipedia「Holstein Friesian」",
+  "维基百科「荷斯坦牛」"
+ ],
+ "footnote": "这是家牛的一个品种；原系母牛数为 2019 年荷兰登记数。"
+}

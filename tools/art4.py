@@ -290,3 +290,25 @@ def _worm(w, h):
 ART4["red-wiggler"] = _worm
 ART4["holstein"] = Q("farm", None, F="#ffffff", bl=340, bd=150, lh=140, lw=34, pattern="patches", pat_col=INK, neck=(20, 60), nw=90, head=(52, 50),
                      snout=(44, 40), snout_col="#f6c9c0", nose="#c9857a", ears="side", horns=None, tail="tuft", tail_col=INK, hooves=INK, udder="#f6c9c0")
+
+# farm batch 4
+ART4["crayfish"] = lambda w, h: scene("wetland", w, h, G_(shrimp(F="#c8322a", L=260, H=64, claw=True) + P("M-110 -20 l-60 -40 l-30 10 M-170 -60 l-40 0", sw=14, col="#a82a22"), 20, -10), box=(w / 2, h * .72, 480, 280))
+ART4["giant-prawn"] = lambda w, h: scene("pond", w, h, G_(shrimp(F="#6f8fb0", L=280, H=62, claw=True) + P("M-90 -14 l-80 -10 l-60 -30", sw=8, col="#2f5a9a"), 20, -20), box=(w / 2, h * .7, 500, 280))
+ART4["bighead"] = _pond(fish(F="#6f7a72", L=320, H=120, tail="fork", eye_r=7, fin_col="#5a645c", belly="#dfe2da",
+                             extras="".join(C(-40 + (i * 41) % 180, -30 + (i * 23) % 50, 9, "#4a544c", 0) for i in range(12)) + P("M-150 -40 C-90 -60 -70 30 -150 40", sw=2.4)))
+ART4["black-carp"] = _pond(fish(F="#3a3f45", L=340, H=96, tail="fork", eye_r=7, fin_col="#2a2e33", belly="#7a8088"))
+ART4["catfish"] = _pond(fish(F="#8a9096", L=320, H=90, tail="fork", eye_r=6, fin_col="#6a7076", belly="#e6e8ea",
+                             extras="".join(C(-40 + (i * 37) % 200, -24 + (i * 13) % 30, 4, INK, 0) for i in range(10)) +
+                             "".join(P(f"M-150 {y} q-30 {y/2} -60 {y*1.4}", sw=2.6) for y in (-6, 4, 12))))
+ART4["milkfish"] = lambda w, h: scene("sea", w, h, G_(fish(F="#c9d3da", L=340, H=88, tail="fork", eye_r=7, fin_col="#a9b6c0", belly="#f4f6f8"), 0, -50), box=(w / 2, h * .7, 520, 240))
+def _snail(w, h):
+    body = P("M-200 0 C-200 -30 -120 -40 60 -30 C120 -26 160 -10 170 0 Z", "#b8a48a", 2.8) + P("M-190 -14 l-30 -60 M-170 -18 l-10 -54", sw=4) + C(-220, -76, 6, INK, 0) + C(-180, -74, 6, INK, 0)
+    sh = C(0, -100, 90, "#b9874a", 3) + "".join(P(f"M0 -100 m{r} 0 a{r} {r} 0 1 1 {-2*r} 0", sw=8, col="#6b4a2a") for r in (70, 45, 22)) + C(0, -100, 8, "#6b4a2a", 0)
+    return scene("meadow", w, h, body + sh, box=(w / 2, h * .74, 460, 300))
+ART4["snail"] = _snail
+ART4["coypu"] = Q("wetland", (.74, 560, 280), F="#6b4a32", bl=280, bd=110, lh=44, lw=24, belly="#8a6a4a", neck=(20, 40), nw=70, head=(48, 40), snout=(34, 30),
+                  snout_col="#e9e2d6", ears="small", tail="long", tail_col="#3a2a22", extras=P("M-238 -88 l0 14 M-232 -88 l0 14", sw=5, col="#f08a2a"))
+ART4["merino"] = Q("farm", (.75, 560, 360), F="#c9a88a", bl=290, bd=150, lh=96, lw=24, wool="#f6efe0", neck=(10, 60), nw=74, head=(44, 46), snout=(30, 32),
+                   snout_col="#f2e8d6", ears="side", horns="ram", tail="short", tail_col="#f6efe0", nose="#c9a88a")
+ART4["border-collie"] = lambda w, h: scene("meadow", w, h, quad(F="#2a2a2e", bl=250, bd=100, lh=100, lw=28, belly="#ffffff", neck=(26, 40), nw=74, head=(54, 46), snout=(48, 32),
+                                         snout_col="#ffffff", ears="point", tail="bushy", tail_col="#2a2a2e", front_extras=""), box=(w / 2, h * .76, 560, 380))

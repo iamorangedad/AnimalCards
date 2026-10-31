@@ -1,0 +1,77 @@
+{
+ "file": "美利奴羊",
+ "no": "176",
+ "cat": "农场",
+ "name_cn": "美利奴羊",
+ "name_en": "Merino (breed)",
+ "latin": "Ovis aries（品种）",
+ "short": "美利奴羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "年产原毛",
+   "value": "3–6 kg",
+   "lo": 3,
+   "hi": 6,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "优质公羊",
+   "value": "最多 18 kg",
+   "lo": 18,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "毛纤维直径",
+   "value": "一般 <24 μm",
+   "lo": 2.4e-05,
+   "hi": 2.4e-05,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "毛长",
+   "value": "65–100 mm",
+   "lo": 0.065,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超细羊毛",
+   "icon": "huddle",
+   "desc": "它的羊毛纤维一般细于 24 微米，又软又细。"
+  },
+  {
+   "name": "走遍世界",
+   "icon": "team",
+   "desc": "从西班牙出发，传到了南美、南非、澳大利亚和新西兰。"
+  }
+ ],
+ "intro": [
+  "【品种】美利奴羊起源于西班牙，以细羊毛闻名。",
+  "18 世纪它被送到法国、普鲁士、萨克森、瑞典等国的宫廷。",
+  "澳大利亚无角美利奴是一个没有角的类型。"
+ ],
+ "fact": "1901–1903 年的大旱让澳大利亚的羊从 7200 万只减到 5300 万只。",
+ "range": "原产西班牙；现在澳大利亚等地大量饲养。",
+ "sources": [
+  "Wikipedia「Merino」"
+ ],
+ "footnote": "产毛 3–6 kg 为萨克森美利奴；18 kg 为优质佩平美利奴公羊。羊的品种之一。"
+}

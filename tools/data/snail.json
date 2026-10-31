@@ -1,0 +1,77 @@
+{
+ "file": "散大蜗牛",
+ "no": "181",
+ "cat": "农场",
+ "name_cn": "散大蜗牛",
+ "name_en": "Garden snail",
+ "latin": "Cornu aspersum",
+ "short": "散大蜗牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2026"
+ },
+ "stats": [
+  {
+   "label": "壳直径",
+   "value": "25–40 mm",
+   "lo": 0.025,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝产卵",
+   "value": "平均约 50 粒",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "野外寿命",
+   "value": "多为 2–3 年",
+   "lo": 2,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "比赛速度",
+   "value": "约 2.4 mm/s",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "sec",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "封门过冬",
+   "icon": "huddle",
+   "desc": "天气干冷时，它用干燥的黏液膜把壳口封住；冬天能耐受 −5 °C 的低温。"
+  },
+  {
+   "name": "雌雄同体",
+   "icon": "team",
+   "desc": "每只蜗牛都能同时产生精子和卵子。"
+  }
+ ],
+ "intro": [
+  "散大蜗牛就是常见的花园蜗牛，原产地中海地区。",
+  "在一些地方是美食（法国叫“小灰”），也是花园和农田里的害虫。",
+  "受伤或受刺激时，会分泌泡沫状的黏液自卫。"
+ ],
+ "fact": "流传很广的“最高时速 1.3 cm/s”被质疑过，蜗牛比赛中只测到过 2.4 mm/s。",
+ "range": "原产地中海地区；已被带到世界许多地方。",
+ "sources": [
+  "Wikipedia「Cornu aspersum」",
+  "IUCN 红色名录（Walther 2026）"
+ ],
+ "footnote": "速度条借用 0–20 刻度，单位为 mm/s。"
+}

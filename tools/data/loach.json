@@ -1,0 +1,78 @@
+{
+ "file": "泥鳅",
+ "no": "171",
+ "cat": "农场",
+ "name_cn": "泥鳅",
+ "name_en": "Pond loach",
+ "latin": "Misgurnus anguillicaudatus",
+ "short": "泥鳅",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃蠕虫、小甲壳动物、昆虫等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "多为 10–20 cm",
+   "lo": 0.1,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "约 28 cm",
+   "lo": 0.28,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "触须",
+   "value": "10 根",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "适宜水温",
+   "value": "15–30 °C",
+   "lo": 15,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天气鱼",
+   "icon": "whisker",
+   "desc": "据说暴风雨前它能感觉到气压变化，会疯狂游动或竖起身体，所以又叫“天气鱼”。"
+  },
+  {
+   "name": "钻沙",
+   "icon": "dive",
+   "desc": "喜欢软沙和细砾石的水底，粗糙的石头会伤到它敏感的触须。"
+  }
+ ],
+ "intro": [
+  "泥鳅原产东亚，在河流、湖泊、池塘和水田里生活。",
+  "它也是受欢迎的观赏鱼，已被引入欧洲、美洲和澳大利亚。",
+  "在澳大利亚新南威尔士州被列为有害物种。"
+ ],
+ "fact": "它能在 2–30 °C 的水里生活，但水温太高会让它呼吸困难。",
+ "range": "原产东亚；已被引入世界许多地方。",
+ "sources": [
+  "Wikipedia「Pond loach」",
+  "维基百科「泥鳅」",
+  "IUCN 红色名录（Zhao 2021）"
+ ],
+ "footnote": ""
+}

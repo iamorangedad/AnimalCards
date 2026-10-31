@@ -1,0 +1,77 @@
+{
+ "file": "月光鱼",
+ "no": "141",
+ "cat": "宠物",
+ "name_cn": "月光鱼",
+ "name_en": "Southern platyfish",
+ "latin": "Xiphophorus maculatus",
+ "short": "月光鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物、小型甲壳类、昆虫和蠕虫",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "最大全长",
+   "value": "6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一胎幼鱼",
+   "value": "约 20–40 条",
+   "lo": 20,
+   "hi": 40,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "适宜水温",
+   "value": "18–25 °C",
+   "lo": 18,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "3–4 个月",
+   "lo": 3,
+   "hi": 4,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "直接生小鱼",
+   "icon": "huddle",
+   "desc": "月光鱼是“卵胎生”鱼，鱼宝宝生下来就会游泳，大约 7 mm 长。"
+  },
+  {
+   "name": "能和剑尾鱼杂交",
+   "icon": "team",
+   "desc": "它和红剑尾鱼是近亲，两种鱼能杂交。"
+  }
+ ],
+ "intro": [
+  "月光鱼原产北美洲和中美洲，从墨西哥韦拉克鲁斯到伯利兹北部。",
+  "它们喜欢 pH 7.0–8.0 的偏硬水。",
+  "饲养条件下它很容易繁殖。"
+ ],
+ "fact": "小鱼出生后会躲在掩蔽物里，一边躲避天敌一边找吃的。",
+ "range": "墨西哥东南部到伯利兹北部。",
+ "sources": [
+  "Wikipedia「Southern platyfish」",
+  "IUCN 红色名录（Daniels & Maiz-Tome 2021）"
+ ],
+ "footnote": ""
+}

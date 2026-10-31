@@ -1,0 +1,77 @@
+{
+ "file": "斑马鱼",
+ "no": "140",
+ "cat": "宠物",
+ "name_cn": "斑马鱼",
+ "name_en": "Zebrafish",
+ "latin": "Danio rerio",
+ "short": "斑马鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫等（待核）；成鱼会吃鱼苗",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010"
+ },
+ "stats": [
+  {
+   "label": "野外体长",
+   "value": "1.8–3.7 cm",
+   "lo": 0.018,
+   "hi": 0.037,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一早产卵",
+   "value": "200–300 枚",
+   "lo": 200,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "2–3 年",
+   "lo": 2,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "最高 1795 m",
+   "lo": 1795,
+   "hi": 1795,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "再生能力",
+   "icon": "huddle",
+   "desc": "斑马鱼以强大的再生能力著称，是科学家的重要模式动物。"
+  },
+  {
+   "name": "超快发育",
+   "icon": "flip",
+   "desc": "胚胎发育极快，受精后 36 小时内所有主要器官的雏形就出现了。"
+  }
+ ],
+ "intro": [
+  "斑马鱼原产南亚，身上有蓝色纵纹。",
+  "它很耐寒耐热，野外水温在 12.3–38.6 °C 都见到过健康个体。",
+  "约 3 周大时，小斑马鱼就开始喜欢待在能看到同伴的地方。"
+ ],
+ "fact": "1970–80 年代，美国科学家 George Streisinger 率先把它用作实验动物。",
+ "range": "印度、孟加拉国、尼泊尔等南亚地区的淡水中。",
+ "sources": [
+  "Wikipedia「Zebrafish」",
+  "IUCN 红色名录（Vishwanath 2010）"
+ ],
+ "footnote": ""
+}

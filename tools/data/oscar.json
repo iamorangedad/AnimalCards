@@ -1,0 +1,77 @@
+{
+ "file": "地图鱼",
+ "no": "144",
+ "cat": "宠物",
+ "name_cn": "地图鱼",
+ "name_en": "Oscar",
+ "latin": "Astronotus ocellatus",
+ "short": "地图鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用吸力捕食猎物（具体食物待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "据报约 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体重",
+   "value": "据报约 9 kg",
+   "lo": 9,
+   "hi": 9,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "一次产卵",
+   "value": "300–3000 枚",
+   "lo": 300,
+   "hi": 3000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "致死低温",
+   "value": "12.9 °C",
+   "lo": 12.9,
+   "hi": 12.9,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "装死",
+   "icon": "camo",
+   "desc": "有报道称它会“侧躺装死”，引诱猎物靠近再出击。"
+  },
+  {
+   "name": "快速变色",
+   "icon": "flip",
+   "desc": "它能迅速改变体色，用于宣示领地和打斗。"
+  }
+ ],
+ "intro": [
+  "地图鱼是慈鲷科的鱼，又叫“猪仔鱼”“豹斑鱼”（待核）。",
+  "幼鱼身上有白色和橙色的波浪条纹，和成鱼很不一样。",
+  "在南美洲原产地，它常被当作食用鱼在市场出售。"
+ ],
+ "fact": "它约 1 岁时性成熟，之后能连续繁殖 9–10 年。",
+ "range": "原产南美洲（巴西、秘鲁等）；已被引入中国、印度、澳大利亚和美国。",
+ "sources": [
+  "Wikipedia「Oscar (fish)」",
+  "IUCN 红色名录（Frederico 2023）"
+ ],
+ "footnote": ""
+}

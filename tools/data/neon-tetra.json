@@ -1,0 +1,77 @@
+{
+ "file": "霓虹脂鲤",
+ "no": "136",
+ "cat": "宠物",
+ "name_cn": "霓虹脂鲤",
+ "name_en": "Neon tetra",
+ "latin": "Paracheirodon innesi",
+ "short": "霓虹脂鲤",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小型无脊椎动物等（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "约 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "野外水温",
+   "value": "20–28 °C",
+   "lo": 20,
+   "hi": 28,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "约 12 周",
+   "lo": 84,
+   "hi": 84,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "美国月销量",
+   "value": "约 200 万条",
+   "lo": 2000000.0,
+   "hi": 2000000.0,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "霓虹条纹",
+   "icon": "camo",
+   "desc": "身体两侧有一条闪亮的蓝色条纹，下半身还有一条红色条纹，在黑水河里也很显眼。"
+  },
+  {
+   "name": "会变色",
+   "icon": "flip",
+   "desc": "它的闪光条纹能随光线明暗改变颜色。"
+  }
+ ],
+ "intro": [
+  "霓虹脂鲤又叫“红绿灯”，原产南美洲亚马孙河流域的黑水和清水溪流。",
+  "它是最受欢迎的观赏鱼之一，常成群饲养。",
+  "雌鱼的肚子稍大，蓝色条纹略弯；雄鱼的条纹是直的。"
+ ],
+ "fact": "它不生活在浑浊的“白水”河中。",
+ "range": "南美洲亚马孙河流域。",
+ "sources": [
+  "Wikipedia「Neon tetra」",
+  "IUCN 红色名录（Lima et al. 2023）"
+ ],
+ "footnote": "繁殖需要弱光、软水、pH 约 5.5 和 24 °C 的水温。"
+}

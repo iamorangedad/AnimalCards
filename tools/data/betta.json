@@ -1,0 +1,78 @@
+{
+ "file": "暹罗斗鱼",
+ "no": "137",
+ "cat": "宠物",
+ "name_cn": "暹罗斗鱼",
+ "name_en": "Siamese fighting fish",
+ "latin": "Betta splendens",
+ "short": "暹罗斗鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小虫等（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "常见约 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "一次产卵",
+   "value": "12–492 枚",
+   "lo": 12,
+   "hi": 492,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "24–36 小时",
+   "lo": 1,
+   "hi": 1.5,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外密度",
+   "value": "约 1.7 条/m²",
+   "lo": 1.7,
+   "hi": 1.7,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "迷鳃呼吸",
+   "icon": "dive",
+   "desc": "它有特殊的“迷鳃”器官，可以直接吸空气，所以能忍受缺氧的水。"
+  },
+  {
+   "name": "好斗",
+   "icon": "roar",
+   "desc": "雄鱼领地意识极强，关在一起常常斗到一方死亡。"
+  }
+ ],
+ "intro": [
+  "暹罗斗鱼原产东南亚，是最受欢迎的观赏鱼之一。",
+  "它们在泰国中部平原被驯化，至今已有 1000 多年，是最早被驯化的鱼之一。",
+  "繁殖时，雄鱼会吐泡泡筑成“泡巢”，守护鱼卵（待核）。"
+ ],
+ "fact": "它是斗鱼属 70 多个物种中唯一直接被叫作“betta”的。",
+ "range": "柬埔寨、老挝、缅甸、泰国、越南等地的稻田和沼泽。",
+ "sources": [
+  "Wikipedia「Siamese fighting fish」",
+  "维基百科「暹罗斗鱼」",
+  "IUCN 红色名录（Vidthayanon 2011/2021）"
+ ],
+ "footnote": "体长来自中文维基百科。"
+}

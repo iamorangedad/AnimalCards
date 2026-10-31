@@ -1,0 +1,77 @@
+{
+ "file": "球蟒",
+ "no": "132",
+ "cat": "宠物",
+ "name_cn": "球蟒",
+ "name_en": "Ball python",
+ "latin": "Python regius",
+ "short": "球蟒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食小型哺乳动物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "最大全长",
+   "value": "182 cm",
+   "lo": 1.82,
+   "hi": 1.82,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌最大体重",
+   "value": "1.635 kg",
+   "lo": 1.635,
+   "hi": 1.635,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "55–60 天",
+   "lo": 55,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "饲养纪录",
+   "value": "62 年",
+   "lo": 62,
+   "hi": 62,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "缩成一个球",
+   "icon": "huddle",
+   "desc": "害怕时它会把身体卷成一个紧紧的球，把头藏在中间，因此得名。"
+  },
+  {
+   "name": "无毒缠绕",
+   "icon": "jar",
+   "desc": "它没有毒，靠身体缠绕制服猎物，是非洲最小的蟒蛇。"
+  }
+ ],
+ "intro": [
+  "球蟒又叫“皇家蟒”，原产非洲西部和中部的草原、灌丛和疏林。",
+  "它是最受欢迎的宠物蛇，在宠物爬行动物里排名第二。",
+  "种名 regius 是拉丁语“皇家的”意思。"
+ ],
+ "fact": "最长寿的饲养球蟒活了 62 年，其中 59 年在美国圣路易斯动物园度过。",
+ "range": "非洲西部和中部。",
+ "sources": [
+  "Wikipedia「Ball python」",
+  "IUCN 红色名录（D'Cruze et al. 2022）"
+ ],
+ "footnote": "仅 2019 年，受访猎人就捕捉了 3000 条活球蟒和 5000 枚蛋。"
+}

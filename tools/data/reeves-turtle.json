@@ -1,0 +1,79 @@
+{
+ "file": "中华草龟",
+ "no": "135",
+ "cat": "宠物",
+ "name_cn": "中华草龟",
+ "name_en": "Reeves's turtle",
+ "latin": "Mauremys reevesii",
+ "short": "中华草龟",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物、虾和小鱼；幼龟偏肉食",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2011"
+ },
+ "stats": [
+  {
+   "label": "雌背甲",
+   "value": "一般 12–15 cm",
+   "lo": 0.12,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄背甲",
+   "value": "一般 8–10 cm",
+   "lo": 0.08,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄龟变黑",
+   "value": "7 岁以上",
+   "lo": 7,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "背甲棱",
+   "value": "3 条",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三条棱",
+   "icon": "camo",
+   "desc": "背甲上有三条纵向隆起的棱，所以又叫“三棱草龟”。"
+  },
+  {
+   "name": "古老的龟",
+   "icon": "huddle",
+   "desc": "它和中华鳖是商代遗址中最常见的两种占卜用龟。"
+  }
+ ],
+ "intro": [
+  "中华草龟又叫乌龟、金线龟，头颈两侧有黄色线纹。",
+  "雄龟体型较小、尾巴粗；成年雄龟可能全身变黑，叫“墨龟”。",
+  "野外因过度捕猎而濒危，但市场上的草龟多为人工繁殖。"
+ ],
+ "fact": "它被认为是在 18 世纪末从朝鲜半岛被引入日本的。",
+ "range": "中国、朝鲜半岛；日本和台湾的种群可能是古代引入的。",
+ "sources": [
+  "Wikipedia「Mauremys reevesii」",
+  "维基百科「草龟」",
+  "IUCN 红色名录（van Dijk 2011）"
+ ],
+ "footnote": "背甲长度来自中文维基百科。"
+}

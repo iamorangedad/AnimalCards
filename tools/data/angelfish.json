@@ -1,0 +1,79 @@
+{
+ "file": "神仙鱼",
+ "no": "139",
+ "cat": "宠物",
+ "name_cn": "神仙鱼",
+ "name_en": "Freshwater angelfish",
+ "latin": "Pterophyllum scalare",
+ "short": "神仙鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小鱼、虾、蠕虫和蚊子幼虫等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "体高",
+   "value": "可达 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "原生水温",
+   "value": "26–30 °C",
+   "lo": 26,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "繁殖水温",
+   "value": "27–28 °C",
+   "lo": 27,
+   "hi": 28,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "产卵减少",
+   "value": "约 3 岁后",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "护卵夫妻",
+   "icon": "huddle",
+   "desc": "雌雄鱼一起把卵产在水草叶或石头上，共同照顾。"
+  },
+  {
+   "name": "扁扁的身体",
+   "icon": "camo",
+   "desc": "身体侧扁、鳍又高又长，适合藏在水流平缓的树根缝隙间。"
+  }
+ ],
+ "intro": [
+  "神仙鱼原产南美洲亚马孙河流域的秘鲁、哥伦比亚和巴西。",
+  "它生活在植物茂密的沼泽和淹水地带。",
+  "它是最常见的淡水观赏鱼之一。"
+ ],
+ "fact": "小鱼孵出后容易被大鱼吞食，所以不适合和小鱼混养。",
+ "range": "南美洲亚马孙河流域。",
+ "sources": [
+  "Wikipedia「Pterophyllum scalare」",
+  "Wikipedia「Pterophyllum」",
+  "维基百科「神仙鱼」",
+  "IUCN 红色名录（Frederico 2023）"
+ ],
+ "footnote": "体高和繁殖水温来自中文维基百科。"
+}

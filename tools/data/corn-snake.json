@@ -1,0 +1,77 @@
+{
+ "file": "玉米蛇",
+ "no": "131",
+ "cat": "宠物",
+ "name_cn": "玉米蛇",
+ "name_en": "Corn snake",
+ "latin": "Pantherophis guttatus",
+ "short": "玉米蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食老鼠等，用身体缠绕制服猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "61–182 cm",
+   "lo": 0.61,
+   "hi": 1.82,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "12–24 枚",
+   "lo": 12,
+   "hi": 24,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "饲养纪录",
+   "value": "32 年 3 个月",
+   "lo": 32.25,
+   "hi": 32.25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鼠能手",
+   "icon": "jar",
+   "desc": "它常出现在粮仓附近捕食偷吃玉米的老鼠，帮人类控制鼠害。"
+  },
+  {
+   "name": "冬季休眠",
+   "icon": "huddle",
+   "desc": "冬天它会在 10–16 °C 的安静地方“冬眠”（brumation）。"
+  }
+ ],
+ "intro": [
+  "玉米蛇是北美洲的一种鼠蛇，又叫红鼠蛇，没有毒。",
+  "名字可能来自它常在粮仓出没，也可能因为腹部花纹像玉米粒。",
+  "产蛋约 10 周后，小蛇会用“卵齿”划开蛋壳，出生时约 13 cm 长。"
+ ],
+ "fact": "它的属名意思是“豹子蛇”，指它像豹纹一样的花纹。",
+ "range": "美国东南部和中部。",
+ "sources": [
+  "Wikipedia「Corn snake」",
+  "IUCN 红色名录（Echternacht & Hammerson 2021）"
+ ],
+ "footnote": ""
+}

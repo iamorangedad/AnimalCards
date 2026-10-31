@@ -1,0 +1,76 @@
+{
+ "file": "樱花虾",
+ "no": "143",
+ "cat": "宠物",
+ "name_cn": "樱花虾",
+ "name_en": "Cherry shrimp",
+ "latin": "Neocaridina davidi",
+ "short": "樱花虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃生物膜、藻类和碎屑，不吃水草",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "成年体长",
+   "value": "约 3–4 cm",
+   "lo": 0.03,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次抱卵",
+   "value": "20–30 枚",
+   "lo": 20,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "2–3 周",
+   "lo": 14,
+   "hi": 21,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "1–2 年",
+   "lo": 1,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "直接孵出小虾",
+   "icon": "huddle",
+   "desc": "它没有幼体阶段，孵出来就是约 1 mm 长的迷你小虾。"
+  },
+  {
+   "name": "多彩品种",
+   "icon": "camo",
+   "desc": "野生型是斑驳的褐色，人工选育出了红、橙、黄、绿、蓝、紫等颜色。"
+  }
+ ],
+ "intro": [
+  "樱花虾学名新米虾，原产台湾、中国东部、朝鲜半岛和越南。",
+  "因为红色品种最受欢迎，它被叫作“樱桃虾”。",
+  "它出生约 30 天就能成熟。"
+ ],
+ "fact": "它适应力很强，已在日本、美国等地的温排水水域中成为入侵物种。",
+ "range": "台湾、中国东部、朝鲜半岛和越南的淡水中。",
+ "sources": [
+  "Wikipedia「Neocaridina davidi」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。"
+}

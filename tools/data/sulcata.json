@@ -1,0 +1,77 @@
+{
+ "file": "苏卡达陆龟",
+ "no": "134",
+ "cat": "宠物",
+ "name_cn": "苏卡达陆龟",
+ "name_en": "African spurred tortoise",
+ "latin": "Centrochelys sulcata",
+ "short": "苏卡达陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "平均约 81 kg",
+   "lo": 81,
+   "hi": 81,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雄背甲",
+   "value": "曲线长约 101 cm",
+   "lo": 1.01,
+   "hi": 1.01,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "14–40 枚",
+   "lo": 14,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 70 年",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖洞高手",
+   "icon": "dive",
+   "desc": "野外它能挖出深达 15 m、长 30 m 的地洞。"
+  },
+  {
+   "name": "非洲最大陆龟",
+   "icon": "huddle",
+   "desc": "它是非洲最大的陆龟，个别雄龟超过 120 kg。"
+  }
+ ],
+ "intro": [
+  "苏卡达陆龟又叫非洲盾臂龟，生活在撒哈拉沙漠南缘和萨赫勒地区。",
+  "种名 sulcata 来自拉丁语“沟槽”，指它背甲鳞片上的沟纹。",
+  "它是 Centrochelys 属唯一现存的物种。"
+ ],
+ "fact": "刚孵出的小龟只有约 44 mm 长、40 g 重。",
+ "range": "撒哈拉沙漠南缘与萨赫勒（塞内加尔到苏丹、埃塞俄比亚）。",
+ "sources": [
+  "Wikipedia「African spurred tortoise」",
+  "IUCN 红色名录（Petrozzi et al. 2021）"
+ ],
+ "footnote": "作为宠物要准备照顾它几十年。"
+}

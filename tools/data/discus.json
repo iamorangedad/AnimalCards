@@ -1,0 +1,77 @@
+{
+ "file": "七彩神仙鱼",
+ "no": "142",
+ "cat": "宠物",
+ "name_cn": "七彩神仙鱼",
+ "name_en": "Discus",
+ "latin": "Symphysodon spp.",
+ "short": "七彩神仙鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃藻类、植物碎屑和小型无脊椎动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12.3–15.2 cm",
+   "lo": 0.123,
+   "hi": 0.152,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成鱼体重",
+   "value": "150–250 g",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "平均 10 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "喂“鱼奶”",
+   "value": "前 4 周",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“鱼奶”育儿",
+   "icon": "huddle",
+   "desc": "亲鱼皮肤会分泌一种“鱼奶”，幼鱼出生后头 4 周就靠吃它长大。"
+  },
+  {
+   "name": "圆盘身体",
+   "icon": "camo",
+   "desc": "身体又扁又圆，像一个盘子，英文名 discus 就是“圆盘”。"
+  }
+ ],
+ "intro": [
+  "七彩神仙鱼是原产巴西亚马孙河流域的慈鲷。",
+  "它吸引了大批狂热收藏者，形成了价值数百万美元的国际产业。",
+  "像它这样用皮肤分泌物喂宝宝的慈鲷已知有 30 多种。"
+ ],
+ "fact": "饲养的七彩神仙鱼平均活 10 年，最长可达 15 年。",
+ "range": "南美洲亚马孙河流域（主要在巴西）。",
+ "sources": [
+  "Wikipedia「Symphysodon」"
+ ],
+ "footnote": "七彩神仙鱼属有多个物种，此卡按属介绍；IUCN 评估待核。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "四爪陆龟",
+ "no": "133",
+ "cat": "宠物",
+ "name_cn": "四爪陆龟",
+ "name_en": "Russian tortoise",
+ "latin": "Testudo horsfieldii",
+ "short": "四爪陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 1996"
+ },
+ "stats": [
+  {
+   "label": "雌背甲",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄背甲",
+   "value": "13–20 cm",
+   "lo": 0.13,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最长约 50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "一年休眠",
+   "value": "最长约 9 个月",
+   "lo": 9,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖洞避暑",
+   "icon": "dive",
+   "desc": "它会挖深达 2 m 的地洞，中午太热和夜里都躲在里面。"
+  },
+  {
+   "name": "登月先锋",
+   "icon": "flip",
+   "desc": "1968 年，两只四爪陆龟乘坐苏联“探测器 5 号”绕月飞行，是最早绕月的地球生物。"
+  }
+ ],
+ "intro": [
+  "四爪陆龟又叫中亚陆龟、俄罗斯陆龟，每只脚上有四个爪子。",
+  "它分布在中亚，从里海向东一直到中国新疆。",
+  "它只在黎明和黄昏气温较低时出来觅食。"
+ ],
+ "fact": "宠物名“俄罗斯陆龟”来自当年这些龟是从苏联出口的。",
+ "range": "中亚：伊朗、巴基斯坦、阿富汗、哈萨克斯坦到中国新疆。",
+ "sources": [
+  "Wikipedia「Russian tortoise」",
+  "IUCN 红色名录（Tortoise & Freshwater Turtle Specialist Group 1996）"
+ ],
+ "footnote": "IUCN 评估较旧（1996 年）。"
+}

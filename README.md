@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 130 张（宠物 36，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 144 张（宠物 50，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -44,6 +44,20 @@
 | 128 | 豹纹守宫（Common leopard gecko） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B1%B9%E7%BA%B9%E5%AE%88%E5%AE%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B1%B9%E7%BA%B9%E5%AE%88%E5%AE%AB.pdf) |
 | 129 | 睫角守宫（Crested gecko） | 宠物 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%9D%AB%E8%A7%92%E5%AE%88%E5%AE%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%9D%AB%E8%A7%92%E5%AE%88%E5%AE%AB.pdf) |
 | 130 | 中部鬃狮蜥（Central bearded dragon） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E9%83%A8%E9%AC%83%E7%8B%AE%E8%9C%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E9%83%A8%E9%AC%83%E7%8B%AE%E8%9C%A5.pdf) |
+| 131 | 玉米蛇（Corn snake） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%8E%89%E7%B1%B3%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%8E%89%E7%B1%B3%E8%9B%87.pdf) |
+| 132 | 球蟒（Ball python） | 宠物 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%90%83%E8%9F%92.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%90%83%E8%9F%92.pdf) |
+| 133 | 四爪陆龟（Russian tortoise） | 宠物 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9B%9B%E7%88%AA%E9%99%86%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9B%9B%E7%88%AA%E9%99%86%E9%BE%9F.pdf) |
+| 134 | 苏卡达陆龟（African spurred tortoise） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%8B%8F%E5%8D%A1%E8%BE%BE%E9%99%86%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%8B%8F%E5%8D%A1%E8%BE%BE%E9%99%86%E9%BE%9F.pdf) |
+| 135 | 中华草龟（Reeves's turtle） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E5%8D%8E%E8%8D%89%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E5%8D%8E%E8%8D%89%E9%BE%9F.pdf) |
+| 136 | 霓虹脂鲤（Neon tetra） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9C%93%E8%99%B9%E8%84%82%E9%B2%A4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9C%93%E8%99%B9%E8%84%82%E9%B2%A4.pdf) |
+| 137 | 暹罗斗鱼（Siamese fighting fish） | 宠物 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9A%B9%E7%BD%97%E6%96%97%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9A%B9%E7%BD%97%E6%96%97%E9%B1%BC.pdf) |
+| 138 | 锦鲤（Koi） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%94%A6%E9%B2%A4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%94%A6%E9%B2%A4.pdf) |
+| 139 | 神仙鱼（Freshwater angelfish） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%A5%9E%E4%BB%99%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%A5%9E%E4%BB%99%E9%B1%BC.pdf) |
+| 140 | 斑马鱼（Zebrafish） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%91%E9%A9%AC%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%91%E9%A9%AC%E9%B1%BC.pdf) |
+| 141 | 月光鱼（Southern platyfish） | 宠物 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9C%88%E5%85%89%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9C%88%E5%85%89%E9%B1%BC.pdf) |
+| 142 | 七彩神仙鱼（Discus） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%83%E5%BD%A9%E7%A5%9E%E4%BB%99%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%83%E5%BD%A9%E7%A5%9E%E4%BB%99%E9%B1%BC.pdf) |
+| 143 | 樱花虾（Cherry shrimp） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%A8%B1%E8%8A%B1%E8%99%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%A8%B1%E8%8A%B1%E8%99%BE.pdf) |
+| 144 | 地图鱼（Oscar） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9C%B0%E5%9B%BE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9C%B0%E5%9B%BE%E9%B1%BC.pdf) |
 | 017 | 牛（Cattle） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.pdf) |
 | 018 | 猪（Domestic pig） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.pdf) |
 | 019 | 绵羊（Sheep） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.pdf) |

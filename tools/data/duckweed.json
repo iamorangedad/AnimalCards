@@ -1,0 +1,79 @@
+{
+ "file": "浮萍",
+ "no": "945",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "浮萍",
+ "name_en": "Common duckweed",
+ "latin": "Lemna minor",
+ "short": "浮萍",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶状体",
+   "value": "1–8 mm",
+   "lo": 0.001,
+   "hi": 0.008,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "根长",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "生长温度",
+   "value": "6–33 °C",
+   "lo": 6,
+   "hi": 33,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "适宜 pH",
+   "value": "6.5–8",
+   "lo": 6.5,
+   "hi": 8,
+   "scale": "ph",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "搭鸟便车",
+   "icon": "wind",
+   "desc": "黏黏的根能粘在鸟的羽毛或脚上，被带到新池塘。"
+  },
+  {
+   "name": "长得极快",
+   "icon": "clone",
+   "desc": "生长极快，种多了要控制（中文维基）。"
+  }
+ ],
+ "intro": [
+  "浮萍是天南星科的淡水漂浮植物。",
+  "几乎遍布全世界。",
+  "它可以做饲料、净化水和回收污水里的养分。"
+ ],
+ "fact": "它很少开花，花只有约 1 mm 大。",
+ "range": "几乎全球淡水。",
+ "sources": [
+  "Wikipedia「Lemna minor」",
+  "维基百科「浮萍」"
+ ],
+ "footnote": ""
+}

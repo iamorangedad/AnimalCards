@@ -1,0 +1,79 @@
+{
+ "file": "欧菱",
+ "no": "949",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "欧菱",
+ "name_en": "Water caltrop",
+ "latin": "Trapa natans",
+ "short": "欧菱",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "浮叶丛",
+   "value": "约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "最深 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "栽培史",
+   "value": "3000 年以上",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "果刺",
+   "value": "2–4 根",
+   "lo": 2,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "带角坚果",
+   "icon": "thorn",
+   "desc": "果实有 2–4 根带倒钩的硬刺，像古代的“铁蒺藜”。"
+  },
+  {
+   "name": "菱形浮叶",
+   "icon": "drop",
+   "desc": "水面上的叶子是菱形的，排成莲座状浮着。"
+  }
+ ],
+ "intro": [
+  "欧菱是千屈菜科一年生漂浮水生植物。",
+  "原产欧亚和非洲的暖温带。",
+  "中国和印度为了吃它的种子已栽培至少 3000 年。"
+ ],
+ "fact": "属名 Trapa 来自古代一种四刺武器的拉丁名（中文维基）。",
+ "range": "欧亚、非洲暖温带；北美入侵。",
+ "sources": [
+  "Wikipedia「Trapa natans」",
+  "维基百科「菱属」"
+ ],
+ "footnote": "",
+ "warn": "生吃菱角可能感染姜片虫，一定要煮熟再吃。"
+}

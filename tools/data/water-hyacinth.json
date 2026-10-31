@@ -1,0 +1,77 @@
+{
+ "file": "凤眼莲",
+ "no": "944",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "凤眼莲",
+ "name_en": "Water hyacinth",
+ "latin": "Pontederia crassipes",
+ "short": "凤眼莲",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "NatureServe G5"
+ },
+ "stats": [
+  {
+   "label": "叶宽",
+   "value": "10–20 cm",
+   "lo": 0.1,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "出水高",
+   "value": "最高 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "23 天增殖",
+   "value": "100 倍以上",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "种子寿命",
+   "value": "28 年以上",
+   "lo": 28,
+   "hi": 28,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "充气浮囊",
+   "icon": "drop",
+   "desc": "叶柄基部有像球茎的浮囊，让它漂在水面上。"
+  },
+  {
+   "name": "疯狂繁殖",
+   "icon": "clone",
+   "desc": "株数 23 天就能增加一百多倍。"
+  }
+ ],
+ "intro": [
+  "凤眼莲原产南美，现在遍布全球。",
+  "在原产地以外常常是入侵植物。",
+  "它被称为“孟加拉的恐怖”。"
+ ],
+ "fact": "一株一年能结几千粒种子，种子能存活 28 年以上。",
+ "range": "原产南美；全球热带、亚热带归化。",
+ "sources": [
+  "Wikipedia「Pontederia crassipes」"
+ ],
+ "footnote": "无中文维基链接。"
+}

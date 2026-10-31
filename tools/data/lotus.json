@@ -1,0 +1,78 @@
+{
+ "file": "莲",
+ "no": "941",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "莲",
+ "name_en": "Sacred lotus",
+ "latin": "Nelumbo nucifera",
+ "short": "莲",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "叶径",
+   "value": "80–100 cm",
+   "lo": 0.8,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶柄长",
+   "value": "可达 200 cm",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "可达 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最老种子",
+   "value": "约 1300 年发芽",
+   "lo": 1300,
+   "hi": 1300,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "千年种子",
+   "icon": "seed",
+   "desc": "种子能长期保持活力，最老的发芽记录来自约 1300 年前的种子。"
+  },
+  {
+   "name": "长根状茎",
+   "icon": "root",
+   "desc": "根状茎（藕）一年能长 20 m。"
+  }
+ ],
+ "intro": [
+  "莲是莲科仅有的两个现存物种之一。",
+  "它的分布很广，从东亚经中南半岛到印度。",
+  "人们为了吃莲子已经栽培它约 3000 年。"
+ ],
+ "fact": "叶柄最长约 2 m，所以它能长在 2 m 深的水里。",
+ "range": "东亚、南亚、东南亚至澳大利亚北部。",
+ "sources": [
+  "Wikipedia「Nelumbo nucifera」",
+  "维基百科「莲」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "大叶藻",
+ "no": "954",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "大叶藻",
+ "name_en": "Common eelgrass",
+ "latin": "Zostera marina",
+ "short": "大叶藻",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "可超 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "最宽 1.2 cm",
+   "lo": 0.012,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花序长",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "克隆草场",
+   "value": "约 3000 年",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海底草场",
+   "icon": "root",
+   "desc": "根状茎扎进沙泥，叶子拦住水中碎屑，慢慢堆高海床。"
+  },
+  {
+   "name": "开花的海草",
+   "icon": "seed",
+   "desc": "它是开花植物，不是海藻。"
+  }
+ ],
+ "intro": [
+  "大叶藻是一种海草，广布北美和欧亚沿海。",
+  "它甚至能在北极生存（中文维基）。",
+  "它生活在海湾、潟湖和河口，不会露出水面。"
+ ],
+ "fact": "20 世纪 30 年代一种黏菌引起的“消耗病”让它大面积死亡。",
+ "range": "北半球温带至北极沿海。",
+ "sources": [
+  "Wikipedia「Zostera marina」",
+  "维基百科「大叶藻」",
+  "IUCN 红色名录（Short, F.T. 2010）"
+ ],
+ "footnote": ""
+}

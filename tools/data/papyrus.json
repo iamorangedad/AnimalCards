@@ -1,0 +1,81 @@
+{
+ "file": "纸莎草",
+ "no": "946",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "纸莎草",
+ "name_en": "Papyrus",
+ "latin": "Cyperus papyrus",
+ "short": "纸莎草",
+ "type": "水生",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "4–5 m",
+   "lo": 4,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "顶端丝状枝",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "20–30 °C",
+   "lo": 20,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "最深 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "造纸",
+   "icon": "food",
+   "desc": "古埃及人用它制造纸莎草纸，这是最早的纸之一。"
+  },
+  {
+   "name": "浮岛",
+   "icon": "drop",
+   "desc": "在深沼泽里是浮动植物团“苏德”的主要成分。"
+  }
+ ],
+ "intro": [
+  "纸莎草是莎草科的高大水生植物。",
+  "它原产非洲，也见于马达加斯加和地中海地区。",
+  "茎的横截面是三角形（中文维基）。"
+ ],
+ "fact": "顶端一簇细丝状枝，幼时像鸡毛掸子。",
+ "range": "非洲、马达加斯加、地中海地区。",
+ "sources": [
+  "Wikipedia「Cyperus papyrus」",
+  "维基百科「纸莎草」",
+  "IUCN 红色名录（Beentje, H.J. & Lansdown, R.V. 2018）"
+ ],
+ "footnote": ""
+}

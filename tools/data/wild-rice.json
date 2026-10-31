@@ -1,0 +1,79 @@
+{
+ "file": "菰",
+ "no": "950",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "菰",
+ "name_en": "Manchurian wild rice",
+ "latin": "Zizania latifolia",
+ "short": "菰",
+ "type": "水生",
+ "habitat": [
+  "水中",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1–2.5 m",
+   "lo": 1,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "作蔬菜",
+   "value": "至少 400 年",
+   "lo": 400,
+   "hi": 400,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "亚洲菰属",
+   "value": "唯一 1 种",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "可食部位",
+   "value": "茎和谷粒 2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑粉菌之宝",
+   "icon": "spore",
+   "desc": "栽培的菰茎被菰黑粉菌感染膨大，就是茭白（中文维基）。"
+  },
+  {
+   "name": "根茎繁殖",
+   "icon": "root",
+   "desc": "被感染的植株不能开花，只能靠匍匐根茎繁殖。"
+  }
+ ],
+ "intro": [
+  "菰是菰属在亚洲唯一的原生种。",
+  "它原产东亚、俄罗斯远东、缅甸和印度东北部。",
+  "野生的菰现在很少见了，菰米在亚洲已不再当粮食。"
+ ],
+ "fact": "中国常见姓氏“蒋”就来自这种植物的古名。",
+ "range": "东亚、俄罗斯远东等。",
+ "sources": [
+  "Wikipedia「Zizania latifolia」",
+  "维基百科「菰」"
+ ],
+ "footnote": "“茭白”之名为常见叫法，待核。"
+}

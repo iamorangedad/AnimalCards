@@ -1,0 +1,81 @@
+{
+ "file": "荸荠",
+ "no": "953",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "荸荠",
+ "name_en": "Chinese water chestnut",
+ "latin": "Eleocharis dulcis",
+ "short": "荸荠",
+ "type": "水生",
+ "habitat": [
+  "水中",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶高",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "球茎径",
+   "value": "10–50 mm",
+   "lo": 0.01,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "田间水深",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "发芽温度",
+   "value": "13.6 °C",
+   "lo": 13.6,
+   "hi": 13.6,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "球茎",
+   "icon": "root",
+   "desc": "地下匍匐茎末端膨大成可吃的球茎，就是“马蹄”。"
+  },
+  {
+   "name": "鸟巢材料",
+   "icon": "food",
+   "desc": "在澳大利亚北领地，鹊雁吃它的球茎，雨季还用它的叶子筑浮巢。"
+  }
+ ],
+ "intro": [
+  "荸荠是莎草科植物，原产亚洲、热带非洲和大洋洲。",
+  "它的“叶”是管状的绿色茎状叶。",
+  "许多国家为了吃球茎而种植它。"
+ ],
+ "fact": "生吃时表面可能传播姜片虫病。",
+ "range": "亚洲、热带非洲、大洋洲。",
+ "sources": [
+  "Wikipedia「Eleocharis dulcis」",
+  "维基百科「荸荠」"
+ ],
+ "footnote": "",
+ "warn": "生吃荸荠可能感染姜片虫，要洗净削皮，最好煮熟。"
+}

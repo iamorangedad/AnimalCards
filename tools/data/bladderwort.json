@@ -1,0 +1,81 @@
+{
+ "file": "狸藻",
+ "no": "959",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "狸藻",
+ "name_en": "Greater bladderwort",
+ "latin": "Utricularia vulgaris",
+ "short": "狸藻",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "食虫",
+ "diet_note": "靠光合作用，也捕虫补充氮等养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "捕虫囊",
+   "value": "1.5–5 mm",
+   "lo": 0.0015,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "1.5–6 cm",
+   "lo": 0.015,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花序高",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 3700 m",
+   "lo": 3700,
+   "hi": 3700,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吸虫囊",
+   "icon": "jar",
+   "desc": "囊先把水抽出；小虫一碰门，半毫秒内就被连水吸进去*。"
+  },
+  {
+   "name": "无根漂浮",
+   "icon": "drop",
+   "desc": "自由漂浮，不扎根。"
+  }
+ ],
+ "intro": [
+  "狸藻是狸藻属的水生食虫植物。",
+  "分布在欧洲和亚洲，是狸藻属分布最广的物种（中文维基）。",
+  "开黄色的花。"
+ ],
+ "fact": "狸藻属的吸虫动作只要约 0.5 毫秒，是植物界最快的运动之一*。",
+ "range": "欧洲、亚洲、北非、北美。",
+ "sources": [
+  "Wikipedia「Utricularia vulgaris」",
+  "维基百科「普通狸藻」",
+  "Flora of China「Utricularia vulgaris」",
+  "Poppinga et al. 2016, AoB Plants"
+ ],
+ "footnote": "* 捕虫速度为狸藻属水生种的研究数据。"
+}

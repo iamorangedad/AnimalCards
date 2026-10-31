@@ -1,0 +1,78 @@
+{
+ "file": "细叶满江红",
+ "no": "957",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "细叶满江红",
+ "name_en": "Water fern",
+ "latin": "Azolla filiculoides",
+ "short": "细叶满江红",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；叶里的蓝藻帮它固氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "植株宽",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "类似种出现",
+   "value": "约 5000 万年前",
+   "lo": 50,
+   "hi": 50,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "共生",
+   "value": "蓝藻 1 种",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孢子囊浮膘",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮共生",
+   "icon": "nfix",
+   "desc": "叶里住着能固氮的蓝藻，古老的共生帮蕨类获得氮。"
+  },
+  {
+   "name": "稻田绿肥",
+   "icon": "food",
+   "desc": "1977 年从东德引入亚洲，作为稻田绿肥。"
+  }
+ ],
+ "intro": [
+  "细叶满江红是一种水生蕨类。",
+  "原产美洲暖温带和热带。",
+  "边缘常带粉、橙或红色。"
+ ],
+ "fact": "在富营养的水里它长得很快，会挤掉本地水草。",
+ "range": "原产美洲；欧、亚、非等地引入。",
+ "sources": [
+  "Wikipedia「Azolla filiculoides」",
+  "维基百科「细叶满江红」"
+ ],
+ "footnote": "5000 万年前的类似种可能参与了“满江红事件”全球降温（英文维基，推测）。"
+}

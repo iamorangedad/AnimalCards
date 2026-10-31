@@ -1,0 +1,79 @@
+{
+ "file": "美洲红树",
+ "no": "955",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "美洲红树",
+ "name_en": "Red mangrove",
+ "latin": "Rhizophora mangle",
+ "short": "美洲红树",
+ "type": "水生",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高",
+   "value": "约 24 m",
+   "lo": 24,
+   "hi": 24,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "常见高",
+   "value": "约 6.1 m",
+   "lo": 6.1,
+   "hi": 6.1,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "7.6–12.7 cm",
+   "lo": 0.076,
+   "hi": 0.127,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "分布纬度",
+   "value": "约南北 28°",
+   "lo": 28,
+   "hi": 28,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "支柱根",
+   "icon": "root",
+   "desc": "从树干拱出水面的支柱根撑起整棵树。"
+  },
+  {
+   "name": "胎生",
+   "icon": "seed",
+   "desc": "“种子”在母树上就长成小苗（胎生苗），成熟后才落下。"
+  }
+ ],
+ "intro": [
+  "美洲红树是耐盐的常绿乔木。",
+  "它生长在北美南部、加勒比、中美洲和热带西非的海岸河口。",
+  "在原产地受到巴西胡椒木等入侵物种威胁。"
+ ],
+ "fact": "成片支柱根构成了典型的“红树林”景观。",
+ "range": "美洲热带、西非海岸。",
+ "sources": [
+  "Wikipedia「Rhizophora mangle」"
+ ],
+ "footnote": "无中文维基链接。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "亚马逊王莲",
+ "no": "943",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "亚马逊王莲",
+ "name_en": "Giant water lily",
+ "latin": "Victoria amazonica",
+ "short": "亚马逊王莲",
+ "type": "水生",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "叶径",
+   "value": "可达 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "叶承重纪录",
+   "value": "226 kg",
+   "lo": 226,
+   "hi": 226,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "约 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "根状茎粗",
+   "value": "可达 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨叶承重",
+   "icon": "trunk",
+   "desc": "巨大的浮叶能承重；比利时根特的一片叶子承受过 226 kg。"
+  },
+  {
+   "name": "一夜变色",
+   "icon": "bee",
+   "desc": "刚开的白花香味浓，引来甲虫；过一夜会变成粉色（中文维基）。"
+  }
+ ],
+ "intro": [
+  "亚马逊王莲原产南美热带的圭亚那和亚马孙盆地。",
+  "它被圭亚那定为国花（中文维基）。",
+  "根状茎能活至少 7 年，但常因水位变化只活一年。"
+ ],
+ "fact": "1867 年伦敦有人在一片 168 cm 宽的叶子上放了 194 kg 的重物。",
+ "range": "南美圭亚那、亚马孙盆地。",
+ "sources": [
+  "Wikipedia「Victoria amazonica」",
+  "维基百科「亚马逊王莲」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "油橄榄",
+ "no": "900",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "油橄榄",
+ "name_en": "Olive",
+ "latin": "Olea europaea",
+ "short": "油橄榄",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2011",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "1–2.5 cm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花蕾生长",
+   "value": "4–6 周",
+   "lo": 4,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "种植国",
+   "value": "66 个",
+   "lo": 66,
+   "hi": 66,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最古老果树",
+   "icon": "trunk",
+   "desc": "是最早被驯化的果树之一，公元前 6000–4000 年在东地中海开始栽培。"
+  },
+  {
+   "name": "榨油",
+   "icon": "drop",
+   "desc": "果实是小核果，用来榨橄榄油。"
+  }
+ ],
+ "intro": [
+  "栽培油橄榄是木犀科的常绿乔木。",
+  "现代品种主要来自近东、爱琴海和直布罗陀海峡一带。",
+  "它已传播到 66 个国家。"
+ ],
+ "fact": "迈锡尼时代的线形文字 B 里就有“橄榄”这个词。",
+ "range": "原产地中海；全球地中海气候区种植。",
+ "sources": [
+  "Wikipedia「Olive」"
+ ],
+ "footnote": "无中文维基链接；IUCN 评估为野生种群。"
+}

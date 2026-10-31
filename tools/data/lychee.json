@@ -1,0 +1,79 @@
+{
+ "file": "荔枝",
+ "no": "891",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "荔枝",
+ "name_en": "Lychee",
+ "latin": "Litchi chinensis",
+ "short": "荔枝",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "复叶长",
+   "value": "12.5–20 cm",
+   "lo": 0.125,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花序长",
+   "value": "10–40 cm",
+   "lo": 0.1,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "最长 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "单果重",
+   "value": "约 20 g",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香花满枝",
+   "icon": "bee",
+   "desc": "圆锥花序成簇，开出几百朵很香的小花。"
+  },
+  {
+   "name": "独苗一属",
+   "icon": "clone",
+   "desc": "是荔枝属唯一的物种。"
+  }
+ ],
+ "intro": [
+  "荔枝原产中国南方，是无患子科常绿乔木。",
+  "中国南方的栽培记录可追溯到公元 1059 年。",
+  "中国是最大产地，其次是印度和越南。"
+ ],
+ "fact": "营养不良的儿童空腹大量吃荔枝，曾和低血糖、脑病暴发有关。",
+ "range": "原产中国南方；东南亚、南亚等地种植。",
+ "sources": [
+  "Wikipedia「Lychee」",
+  "维基百科「荔枝」"
+ ],
+ "footnote": "",
+ "warn": "不要空腹一次吃太多荔枝，特别是小孩；种子不要吃。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "甘蓝",
+ "no": "908",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "甘蓝",
+ "name_en": "Cabbage",
+ "latin": "Brassica oleracea (Capitata)",
+ "short": "甘蓝",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "首年株高",
+   "value": "40–60 cm",
+   "lo": 0.4,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "开花株高",
+   "value": "1.5–2 m",
+   "lo": 1.5,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重纪录",
+   "value": "62.71 kg",
+   "lo": 62.71,
+   "hi": 62.71,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "48%",
+   "lo": 48,
+   "hi": 48,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "包心",
+   "icon": "clone",
+   "desc": "先长 7–15 片莲座叶，再长出紧密的叶球。"
+  },
+  {
+   "name": "浅根",
+   "icon": "root",
+   "desc": "约 90% 的根在表层 20–30 cm 土里。"
+  }
+ ],
+ "intro": [
+  "结球甘蓝由野甘蓝培育而来。",
+  "它很可能在公元前 1000 年之前在欧洲被驯化。",
+  "它是二年生植物，通常当一年生蔬菜种。"
+ ],
+ "fact": "吉尼斯世界纪录最重的卷心菜重 62.71 kg。",
+ "range": "起源欧洲；全球种植。",
+ "sources": [
+  "Wikipedia「Cabbage」",
+  "维基百科「结球甘蓝」"
+ ],
+ "footnote": ""
+}

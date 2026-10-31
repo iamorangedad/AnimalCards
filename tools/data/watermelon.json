@@ -1,0 +1,78 @@
+{
+ "file": "西瓜",
+ "no": "895",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "西瓜",
+ "name_en": "Watermelon",
+ "latin": "Citrullus lanatus",
+ "short": "西瓜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "含水",
+   "value": "91%",
+   "lo": 91,
+   "hi": 91,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "野生果径",
+   "value": "最大 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栽培果径",
+   "value": "可超 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "1.05 亿吨（2024）",
+   "lo": 105,
+   "hi": 105,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "满肚子水",
+   "icon": "drop",
+   "desc": "果实 91% 是水，6% 是糖。"
+  },
+  {
+   "name": "匍匐藤",
+   "icon": "climb",
+   "desc": "一年生藤蔓，趴地或攀爬，能铺开 2 m。"
+  }
+ ],
+ "intro": [
+  "现代西瓜起源于苏丹，在那里被驯化。",
+  "公元前 2000 年埃及已经种西瓜。",
+  "中国大陆产量占全球 60%。"
+ ],
+ "fact": "许多品种种下 100 天内就能结出成熟的瓜。",
+ "range": "起源东北非；全球温暖地区种植。",
+ "sources": [
+  "Wikipedia「Watermelon」",
+  "维基百科「西瓜」"
+ ],
+ "footnote": ""
+}

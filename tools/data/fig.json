@@ -1,0 +1,79 @@
+{
+ "file": "无花果",
+ "no": "899",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "无花果",
+ "name_en": "Common fig",
+ "latin": "Ficus carica",
+ "short": "无花果",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "7–10 m",
+   "lo": 7,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "126 万吨（2020）",
+   "lo": 1.26,
+   "hi": 1.26,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "花开在果里",
+   "icon": "bee",
+   "desc": "花藏在“果”里，靠钻进顶端小孔的榕小蜂传粉。"
+  },
+  {
+   "name": "扦插就活",
+   "icon": "clone",
+   "desc": "很好繁殖，最简单的方法就是扦插（中文维基）。"
+  }
+ ],
+ "intro": [
+  "无花果原产地中海地区和西亚、南亚。",
+  "外表“见果不见花”，所以叫无花果（中文维基）。",
+  "土耳其产量最多，占 25%。"
+ ],
+ "fact": "栽培历史已经超过五千年（中文维基）。",
+ "range": "原产地中海、西亚；温暖地区广泛种植。",
+ "sources": [
+  "Wikipedia「Fig」",
+  "维基百科「无花果」"
+ ],
+ "footnote": ""
+}

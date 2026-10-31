@@ -1,0 +1,79 @@
+{
+ "file": "石榴",
+ "no": "896",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "石榴",
+ "name_en": "Pomegranate",
+ "latin": "Punica granatum",
+ "short": "石榴",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1.5–5 m",
+   "lo": 1.5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "每果种子",
+   "value": "200–1400 粒",
+   "lo": 200,
+   "hi": 1400,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "约 −12 °C",
+   "lo": -12,
+   "hi": -12,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "满肚籽",
+   "icon": "seed",
+   "desc": "一个石榴里有 200 到约 1400 粒种子，外层多汁可吃。"
+  },
+  {
+   "name": "长寿",
+   "icon": "trunk",
+   "desc": "法国有些石榴树活了 200 年。"
+  }
+ ],
+ "intro": [
+  "石榴约 5000 年前由古伊朗人在伊朗高原驯化。",
+  "它是千屈菜科的灌木或小乔木。",
+  "它在许多文化里有丰富的象征意义。"
+ ],
+ "fact": "爱尔兰人曾俗称石榴为“酒苹果”。",
+ "range": "原产伊朗一带；地中海、亚洲广泛栽培。",
+ "sources": [
+  "Wikipedia「Pomegranate」",
+  "维基百科「石榴」"
+ ],
+ "footnote": ""
+}

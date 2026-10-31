@@ -1,0 +1,79 @@
+{
+ "file": "南瓜",
+ "no": "907",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "南瓜",
+ "name_en": "Pumpkin",
+ "latin": "Cucurbita moschata",
+ "short": "南瓜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "品种平均重",
+   "value": "10–25 kg",
+   "lo": 10,
+   "hi": 25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "成熟期",
+   "value": "115–130 天",
+   "lo": 115,
+   "hi": 130,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "年产量*",
+   "value": "3460 万吨",
+   "lo": 34.6,
+   "hi": 34.6,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "印度占比*",
+   "value": "27%",
+   "lo": 27,
+   "hi": 27,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐湿热",
+   "icon": "sun",
+   "desc": "比其他驯化南瓜更耐炎热潮湿。"
+  },
+  {
+   "name": "南瓜派",
+   "icon": "food",
+   "desc": "商品南瓜派馅多用这个种。"
+  }
+ ],
+ "intro": [
+  "中国南瓜起源于美洲热带。",
+  "所有南瓜属植物都原产西半球。",
+  "它的果肉、花、嫩叶和种子都能吃。"
+ ],
+ "fact": "倭瓜通常两头粗中间细，比较甜（中文维基）。",
+ "range": "原产美洲热带；全球种植。",
+ "sources": [
+  "Wikipedia「Cucurbita moschata」",
+  "维基百科「中国南瓜」",
+  "Wikipedia「Pumpkin」"
+ ],
+ "footnote": "* 为南瓜类（含西葫芦、葫芦）2024 年合计数据，非本种单独数据。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "柿",
+ "no": "897",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "柿",
+ "name_en": "Oriental persimmon",
+ "latin": "Diospyros kaki",
+ "short": "柿",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 10 m 以上",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可超 300 年",
+   "lo": 300,
+   "hi": 300,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "2.0–2.5 cm",
+   "lo": 0.02,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栽培",
+   "value": "2000 年以上",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "涩味单宁",
+   "icon": "toxic",
+   "desc": "一些果实含单宁，没熟透时很涩。"
+  },
+  {
+   "name": "长寿树",
+   "icon": "trunk",
+   "desc": "老树可近 30 m，寿命能超 300 年（中文维基）。"
+  }
+ ],
+ "intro": [
+  "柿原产中国长江流域。",
+  "7 世纪传入日本，14 世纪传入朝鲜半岛。",
+  "它是柿属里种植最广的物种。"
+ ],
+ "fact": "它的第一份植物学描述直到 1780 年才发表。",
+ "range": "原产中国；东亚等地栽培。",
+ "sources": [
+  "Wikipedia「Diospyros kaki」",
+  "维基百科「柿」"
+ ],
+ "footnote": ""
+}

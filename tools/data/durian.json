@@ -1,0 +1,79 @@
+{
+ "file": "榴梿",
+ "no": "893",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "榴梿",
+ "name_en": "Durian",
+ "latin": "Durio zibethinus",
+ "short": "榴梿",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "野生树高",
+   "value": "约 45 m",
+   "lo": 45,
+   "hi": 45,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最佳树龄",
+   "value": "30–60 年",
+   "lo": 30,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超强气味",
+   "icon": "toxic",
+   "desc": "果肉气味浓烈、穿透力强，种名就来自“麝香猫”。"
+  },
+  {
+   "name": "满身尖刺",
+   "icon": "thorn",
+   "desc": "大果实外面布满硬刺；马来语 duri 就是“刺”。"
+  }
+ ],
+ "intro": [
+  "榴梿原产马来西亚、印尼等东南亚地区。",
+  "它是锦葵科榴梿属的模式种。",
+  "它是新加坡最珍贵的水果。"
+ ],
+ "fact": "树龄 30–60 年时结的榴梿味道最好。",
+ "range": "原产马来半岛、苏门答腊、婆罗洲；东南亚种植。",
+ "sources": [
+  "Wikipedia「Durio zibethinus」",
+  "维基百科「榴梿」"
+ ],
+ "footnote": ""
+}

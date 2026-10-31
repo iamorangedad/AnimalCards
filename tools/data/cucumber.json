@@ -1,0 +1,78 @@
+{
+ "file": "黄瓜",
+ "no": "906",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "黄瓜",
+ "name_en": "Cucumber",
+ "latin": "Cucumis sativus",
+ "short": "黄瓜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "栽培史",
+   "value": "至少 3000 年",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "东亚分化",
+   "value": "约 2500 年前",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "染色体",
+   "value": "14 条",
+   "lo": 14,
+   "hi": 14,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "8800 万吨（2024）",
+   "lo": 88,
+   "hi": 88,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "卷须攀缘",
+   "icon": "climb",
+   "desc": "是一年生攀缘藤本，茎上有卷须（中文维基）。"
+  },
+  {
+   "name": "独特染色体",
+   "icon": "micro",
+   "desc": "是黄瓜属唯一有 14 条染色体的物种。"
+  }
+ ],
+ "intro": [
+  "黄瓜在印度由野生黄瓜驯化。",
+  "罗马皇帝提比略一年四季都吃黄瓜。",
+  "西汉时传入中原，叫“胡瓜”（中文维基）。"
+ ],
+ "fact": "14 世纪初传入英格兰，失传后约 250 年又被重新引入。",
+ "range": "起源印度；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Cucumber」",
+  "维基百科「黄瓜」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "枣",
+ "no": "898",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "枣",
+ "name_en": "Jujube",
+ "latin": "Ziziphus jujuba",
+ "short": "枣",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–10 m",
+   "lo": 5,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "1.5–3 cm",
+   "lo": 0.015,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "约 −15 °C",
+   "lo": -15,
+   "hi": -15,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–7 cm",
+   "lo": 0.02,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "带刺枝",
+   "icon": "thorn",
+   "desc": "枝条通常带刺。"
+  },
+  {
+   "name": "蜜源",
+   "icon": "bee",
+   "desc": "花小但蜜多，是蜜源植物（中文维基）。"
+  }
+ ],
+ "intro": [
+  "枣是鼠李科植物，果实又叫红枣。",
+  "和多数同属物种不同，它很耐寒，北京就常种。",
+  "它至少 3000 年前就遍布地中海地区。"
+ ],
+ "fact": "jujube 和名字相近的荷荷巴（jojoba）毫无关系。",
+ "range": "原产中国等地；温带广泛栽培。",
+ "sources": [
+  "Wikipedia「Jujube」",
+  "维基百科「枣」"
+ ],
+ "footnote": "“可能起源叙利亚”见英文维基，与中文维基说法不同。"
+}

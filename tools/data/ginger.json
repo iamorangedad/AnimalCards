@@ -1,0 +1,78 @@
+{
+ "file": "姜",
+ "no": "914",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "姜",
+ "name_en": "Ginger",
+ "latin": "Zingiber officinale",
+ "short": "姜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "假茎高",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "490 万吨（2023）",
+   "lo": 4.9,
+   "hi": 4.9,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "印度占比",
+   "value": "45%",
+   "lo": 45,
+   "hi": 45,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "适宜海拔",
+   "value": "300–900 m",
+   "lo": 300,
+   "hi": 900,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "根状茎",
+   "icon": "root",
+   "desc": "辛辣的根状茎就是姜，用作香料和民间药物。"
+  },
+  {
+   "name": "假茎",
+   "icon": "trunk",
+   "desc": "每年长出由叶基卷成的假茎。"
+  }
+ ],
+ "intro": [
+  "姜起源于海洋东南亚。",
+  "它很可能最早由南岛语族栽培。",
+  "它在温暖潮湿的环境里长得最好。"
+ ],
+ "fact": "印度是最大的姜生产国，但出口只排第七。",
+ "range": "起源东南亚岛屿；热带亚洲、西非等地种植。",
+ "sources": [
+  "Wikipedia「Ginger」",
+  "维基百科「姜」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "辣椒",
+ "no": "905",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "辣椒",
+ "name_en": "Chili pepper",
+ "latin": "Capsicum annuum",
+ "short": "辣椒",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "驯化至今",
+   "value": "约 6000 年",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "叶长",
+   "value": "可达 7.5 cm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "甜椒果重",
+   "value": "可达 500 g",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "共同祖先",
+   "value": "1900 万年前",
+   "lo": 19,
+   "hi": 19,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "辣椒素",
+   "icon": "fire",
+   "desc": "辣味不是味觉，是辣椒素刺激三叉神经产生的热痛感（中文维基）。"
+  },
+  {
+   "name": "颜色多",
+   "icon": "seed",
+   "desc": "果实有红、绿、黄、橙等多种颜色。"
+  }
+ ],
+ "intro": [
+  "一年生辣椒原产南美北部和北美西南部。",
+  "大约 6000 年前在墨西哥被驯化。",
+  "它是五个栽培辣椒种里种得最广的。"
+ ],
+ "fact": "番茄和辣椒在 1900 万年前有共同的祖先（中文维基）。",
+ "range": "原产美洲；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Capsicum annuum」",
+  "维基百科「一年生辣椒」"
+ ],
+ "footnote": "",
+ "warn": "切辣椒后别揉眼睛，辣椒素会让眼睛和皮肤火辣疼痛。"
+}

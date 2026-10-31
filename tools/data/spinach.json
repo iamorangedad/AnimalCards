@@ -1,0 +1,78 @@
+{
+ "file": "菠菜",
+ "no": "915",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "菠菜",
+ "name_en": "Spinach",
+ "latin": "Spinacia oleracea",
+ "short": "菠菜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "最高约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–30 cm",
+   "lo": 0.02,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "3100 万吨（2024）",
+   "lo": 31,
+   "hi": 31,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "92%",
+   "lo": 92,
+   "hi": 92,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "风媒花",
+   "icon": "wind",
+   "desc": "花小、绿色，靠风传粉。"
+  },
+  {
+   "name": "绿叶菜",
+   "icon": "food",
+   "desc": "叶片柔嫩，富含维生素和矿物质（中文维基）。"
+  }
+ ],
+ "intro": [
+  "菠菜原产中亚和西亚。",
+  "它可能约 2000 年前起源于伊朗和印度次大陆一带。",
+  "之后被引入古代中国。"
+ ],
+ "fact": "法国菜里用菠菜做的菜可以叫“佛罗伦萨式”。",
+ "range": "原产中亚、西亚；全球种植。",
+ "sources": [
+  "Wikipedia「Spinach」",
+  "维基百科「菠菜」"
+ ],
+ "footnote": ""
+}

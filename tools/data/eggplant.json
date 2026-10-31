@@ -1,0 +1,78 @@
+{
+ "file": "茄",
+ "no": "904",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "茄",
+ "name_en": "Eggplant",
+ "latin": "Solanum melongena",
+ "short": "茄",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "40–150 cm",
+   "lo": 0.4,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–20 cm",
+   "lo": 0.1,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "6100 万吨（2023）",
+   "lo": 61,
+   "hi": 61,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中印占比",
+   "value": "85%",
+   "lo": 85,
+   "hi": 85,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "双重驯化",
+   "icon": "clone",
+   "desc": "可能在南亚和东亚分别由野生种驯化。"
+  },
+  {
+   "name": "切开变色",
+   "icon": "drop",
+   "desc": "果肉接触空气中的氧会很快变褐。"
+  }
+ ],
+ "intro": [
+  "茄子是茄科植物，原本是热带多年生草本。",
+  "野生茄果径不到 3 cm。",
+  "它的基因组有 12 条染色体。"
+ ],
+ "fact": "茄子在各地有很多名字，粤语叫“矮瓜”（中文维基）。",
+ "range": "起源南亚、东亚；全球种植。",
+ "sources": [
+  "Wikipedia「Eggplant」",
+  "维基百科「茄」"
+ ],
+ "footnote": ""
+}

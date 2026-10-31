@@ -1,0 +1,79 @@
+{
+ "file": "洋葱",
+ "no": "912",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "洋葱",
+ "name_en": "Onion",
+ "latin": "Allium cepa",
+ "short": "洋葱",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "15–45 cm",
+   "lo": 0.15,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栽培史",
+   "value": "至少 7000 年",
+   "lo": 7000,
+   "hi": 7000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "热量",
+   "value": "40 kcal/100 g",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最古食谱",
+   "value": "约公元前 2000 年",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "辣眼睛",
+   "icon": "toxic",
+   "desc": "生洋葱气味辛辣，切的时候会刺激眼睛。"
+  },
+  {
+   "name": "鳞茎",
+   "icon": "root",
+   "desc": "吃的部分是由肥厚叶鞘组成的鳞茎。"
+  }
+ ],
+ "intro": [
+  "洋葱是葱属里种植最广的物种。",
+  "红葱头是洋葱的一个变种。",
+  "它和大蒜、韭菜、葱是近亲。"
+ ],
+ "fact": "约公元前 2000 年的泥板食谱里就有洋葱，这是已知最古老的食谱。",
+ "range": "全球广泛种植。",
+ "sources": [
+  "Wikipedia「Onion」",
+  "维基百科「洋葱」"
+ ],
+ "footnote": "",
+ "warn": "洋葱对狗等动物有毒，不要喂给宠物。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "龙眼",
+ "no": "892",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "龙眼",
+ "name_en": "Longan",
+ "latin": "Dimocarpus longan",
+ "short": "龙眼",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2022",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "通常 9–12 m",
+   "lo": 9,
+   "hi": 12,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "树干粗",
+   "value": "约 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "约 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "三国占比",
+   "value": "约 95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "龙的眼睛",
+   "icon": "seed",
+   "desc": "剥开后果肉包着黑亮的种子，像眼珠，所以叫“龙眼”。"
+  },
+  {
+   "name": "串串下垂",
+   "icon": "drop",
+   "desc": "球形果实成串下垂。"
+  }
+ ],
+ "intro": [
+  "龙眼原产东南亚和中国南方。",
+  "它和荔枝、红毛丹同属无患子科。",
+  "中国、泰国和越南的产量约占全球 95%。"
+ ],
+ "fact": "成年龙眼树通常高约十米，个别老树更高（中文维基）。",
+ "range": "中国南方、东南亚。",
+ "sources": [
+  "Wikipedia「Longan」",
+  "维基百科「龙眼」",
+  "IUCN 红色名录（Barstow, M. 2022）"
+ ],
+ "footnote": ""
+}

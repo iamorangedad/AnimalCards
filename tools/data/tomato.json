@@ -1,0 +1,78 @@
+{
+ "file": "番茄",
+ "no": "903",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "番茄",
+ "name_en": "Tomato",
+ "latin": "Solanum lycopersicum",
+ "short": "番茄",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "栽培起源",
+   "value": "约 7000 年前",
+   "lo": 7000,
+   "hi": 7000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "樱桃番茄",
+   "value": "约 7.8 万年前",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "年产量",
+   "value": "1.92 亿吨",
+   "lo": 192,
+   "hi": 192,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "36%",
+   "lo": 36,
+   "hi": 36,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "模式植物",
+   "icon": "micro",
+   "desc": "是茄科开花植物的模式生物之一（中文维基）。"
+  },
+  {
+   "name": "番茄碱",
+   "icon": "toxic",
+   "desc": "青番茄含番茄碱，成熟时会转化为无毒、不苦的物质。"
+  }
+ ],
+ "intro": [
+  "番茄起源于南美洲西部。",
+  "它可能在南美西部、墨西哥或中美洲被驯化。",
+  "它是茄科植物，和烟草、马铃薯、辣椒是亲戚。"
+ ],
+ "fact": "大果番茄的祖先很可能是樱桃番茄。",
+ "range": "原产南美西部；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Tomato」",
+  "维基百科「番茄」"
+ ],
+ "footnote": "年代有很大不确定性；樱桃番茄比例条到刻度上限。"
+}

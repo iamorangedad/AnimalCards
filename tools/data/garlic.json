@@ -1,0 +1,79 @@
+{
+ "file": "大蒜",
+ "no": "913",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "大蒜",
+ "name_en": "Garlic",
+ "latin": "Allium sativum",
+ "short": "大蒜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "花茎高",
+   "value": "可达 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "1.25–2.5 cm",
+   "lo": 0.0125,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "3000 万吨（2024）",
+   "lo": 30,
+   "hi": 30,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "73%",
+   "lo": 73,
+   "hi": 73,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "硫化物",
+   "icon": "toxic",
+   "desc": "地下鳞茎味道辛辣，有刺激性气味（中文维基）。"
+  },
+  {
+   "name": "独头蒜",
+   "icon": "clone",
+   "desc": "没经过低温春化的大蒜会长成独头蒜。"
+  }
+ ],
+ "intro": [
+  "大蒜原产中亚、伊朗东北部和喜马拉雅山麓。",
+  "古名“胡蒜”（中文维基）。",
+  "中国产量约占全球 73%。"
+ ],
+ "fact": "美国兽医协会认为大蒜对宠物有毒。",
+ "range": "原产中亚；全球种植。",
+ "sources": [
+  "Wikipedia「Garlic」",
+  "维基百科「蒜」"
+ ],
+ "footnote": "",
+ "warn": "大蒜对猫狗等宠物有毒，不要喂给宠物。"
+}

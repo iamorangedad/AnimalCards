@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 890 张（动物 760；植物 130）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 15。
+共 915 张（动物 760；植物 155）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 40。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -898,6 +898,31 @@
 | 888 | 柑橘（Mandarin orange） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%91%E6%A9%98.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%91%E6%A9%98.pdf) |
 | 889 | 柠檬（Lemon） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%A0%E6%AA%AC.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%A0%E6%AA%AC.pdf) |
 | 890 | 中华猕猴桃（Chinese kiwifruit） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E4%B8%AD%E5%8D%8E%E7%8C%95%E7%8C%B4%E6%A1%83.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E4%B8%AD%E5%8D%8E%E7%8C%95%E7%8C%B4%E6%A1%83.pdf) |
+| 891 | 荔枝（Lychee） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8D%94%E6%9E%9D.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8D%94%E6%9E%9D.pdf) |
+| 892 | 龙眼（Longan） | 植物 · 水果蔬菜 | DD 数据缺乏 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%BE%99%E7%9C%BC.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%BE%99%E7%9C%BC.pdf) |
+| 893 | 榴梿（Durian） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%A6%B4%E6%A2%BF.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%A6%B4%E6%A2%BF.pdf) |
+| 894 | 菠萝蜜（Jackfruit） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%90%9D%E8%9C%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%90%9D%E8%9C%9C.pdf) |
+| 895 | 西瓜（Watermelon） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%A5%BF%E7%93%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%A5%BF%E7%93%9C.pdf) |
+| 896 | 石榴（Pomegranate） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%9F%B3%E6%A6%B4.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%9F%B3%E6%A6%B4.pdf) |
+| 897 | 柿（Oriental persimmon） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%BF.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%BF.pdf) |
+| 898 | 枣（Jujube） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9E%A3.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9E%A3.pdf) |
+| 899 | 无花果（Common fig） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%97%A0%E8%8A%B1%E6%9E%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%97%A0%E8%8A%B1%E6%9E%9C.pdf) |
+| 900 | 油橄榄（Olive） | 植物 · 水果蔬菜 | DD 数据缺乏 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B2%B9%E6%A9%84%E6%A6%84.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B2%B9%E6%A9%84%E6%A6%84.pdf) |
+| 901 | 鳄梨（Avocado） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%B3%84%E6%A2%A8.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%B3%84%E6%A2%A8.pdf) |
+| 902 | 北高丛蓝莓（Highbush blueberry） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%8C%97%E9%AB%98%E4%B8%9B%E8%93%9D%E8%8E%93.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%8C%97%E9%AB%98%E4%B8%9B%E8%93%9D%E8%8E%93.pdf) |
+| 903 | 番茄（Tomato） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%95%AA%E8%8C%84.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%95%AA%E8%8C%84.pdf) |
+| 904 | 茄（Eggplant） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8C%84.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8C%84.pdf) |
+| 905 | 辣椒（Chili pepper） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%BE%A3%E6%A4%92.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%BE%A3%E6%A4%92.pdf) |
+| 906 | 黄瓜（Cucumber） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%BB%84%E7%93%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%BB%84%E7%93%9C.pdf) |
+| 907 | 南瓜（Pumpkin） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%8D%97%E7%93%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%8D%97%E7%93%9C.pdf) |
+| 908 | 甘蓝（Cabbage） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%94%98%E8%93%9D.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%94%98%E8%93%9D.pdf) |
+| 909 | 大白菜（Napa cabbage） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E7%99%BD%E8%8F%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E7%99%BD%E8%8F%9C.pdf) |
+| 910 | 胡萝卜（Carrot） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C.pdf) |
+| 911 | 萝卜（Radish） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%90%9D%E5%8D%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%90%9D%E5%8D%9C.pdf) |
+| 912 | 洋葱（Onion） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B4%8B%E8%91%B1.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B4%8B%E8%91%B1.pdf) |
+| 913 | 大蒜（Garlic） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E8%92%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E8%92%9C.pdf) |
+| 914 | 姜（Ginger） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A7%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A7%9C.pdf) |
+| 915 | 菠菜（Spinach） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%8F%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%8F%9C.pdf) |
 
 ## 说明
 

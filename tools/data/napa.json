@@ -1,0 +1,78 @@
+{
+ "file": "大白菜",
+ "no": "909",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "大白菜",
+ "name_en": "Napa cabbage",
+ "latin": "Brassica rapa subsp. pekinensis",
+ "short": "大白菜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "单棵重",
+   "value": "1–3 kg",
+   "lo": 1,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "13–21 °C",
+   "lo": 13,
+   "hi": 21,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "怕冻",
+   "value": "不耐 −5 °C",
+   "lo": -5,
+   "hi": -5,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "维 C",
+   "value": "26 mg/100 g",
+   "lo": 26,
+   "hi": 26,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "喜凉",
+   "icon": "cold",
+   "desc": "喜欢凉爽气候，13–21 °C 长得最好。"
+  },
+  {
+   "name": "结球要水",
+   "icon": "drop",
+   "desc": "结球期每周需要 25–40 mm 的水。"
+  }
+ ],
+ "intro": [
+  "大白菜起源于中国北京一带。",
+  "它和小白菜是近亲。",
+  "它和结球甘蓝看着像，但不是同一个种。"
+ ],
+ "fact": "20 世纪以来，它在欧洲、美洲等地也成为常见作物。",
+ "range": "起源中国北方；东亚等地广泛种植。",
+ "sources": [
+  "Wikipedia「Napa cabbage」",
+  "维基百科「大白菜」"
+ ],
+ "footnote": ""
+}

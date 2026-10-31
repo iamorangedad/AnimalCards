@@ -1,0 +1,77 @@
+{
+ "file": "戴胜",
+ "no": "300",
+ "cat": "鸟类",
+ "name_cn": "戴胜",
+ "name_en": "Eurasian hoopoe",
+ "latin": "Upupa epops",
+ "short": "戴胜",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃 10–150 mm 的小动物，偏爱 20–30 mm",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "25–32 cm",
+   "lo": 0.25,
+   "hi": 0.32,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "46–89 g",
+   "lo": 0.046,
+   "hi": 0.089,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "44–48 cm",
+   "lo": 0.44,
+   "hi": 0.48,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高记录",
+   "value": "约 6400 m",
+   "lo": 6400,
+   "hi": 6400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "臭臭防身",
+   "icon": "jar",
+   "desc": "孵蛋的雌鸟和雏鸟会分泌像腐肉一样臭的液体，抹在羽毛上吓退天敌和寄生虫。"
+  },
+  {
+   "name": "扇形冠",
+   "icon": "camo",
+   "desc": "头上有能竖起的高冠，英文名来自法语“有冠的”。"
+  }
+ ],
+ "intro": [
+  "戴胜是肉桂色的鸟，翅膀黑白相间，嘴又细又长向下弯。",
+  "孵化期 15–18 天，期间雄鸟喂雌鸟。",
+  "它会张开翅膀晒太阳，过去被误以为是防御姿势。"
+ ],
+ "fact": "第一次珠穆朗玛峰探险队在约 6400 m 处记录到戴胜。",
+ "range": "欧洲、亚洲、北非。",
+ "sources": [
+  "Wikipedia「Eurasian hoopoe」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": "高度条超出 0–6000 刻度时显示到满格。"
+}

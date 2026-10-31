@@ -1,0 +1,78 @@
+{
+ "file": "雪鸮",
+ "no": "292",
+ "cat": "鸟类",
+ "name_cn": "雪鸮",
+ "name_en": "Snowy owl",
+ "latin": "Bubo scandiacus",
+ "short": "雪鸮",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "冰原"
+ ],
+ "diet": "肉食",
+ "diet_note": "繁殖期主要靠旅鼠",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "1.3–2.5 kg",
+   "lo": 1.3,
+   "hi": 2.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "1.33–2.95 kg",
+   "lo": 1.33,
+   "hi": 2.95,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌翼展",
+   "value": "146–183 cm",
+   "lo": 1.46,
+   "hi": 1.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "脚趾羽",
+   "value": "平均 33.3 mm",
+   "lo": 0.0333,
+   "hi": 0.0333,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛脚",
+   "icon": "huddle",
+   "desc": "脚趾上的羽毛平均 33.3 mm，是所有猫头鹰里最长的。"
+  },
+  {
+   "name": "靠旅鼠",
+   "icon": "ear",
+   "desc": "繁殖成功与否和全球数量都和苔原上旅鼠的多少紧密相关。"
+  }
+ ],
+ "intro": [
+  "雪鸮是北极的大型猫头鹰。",
+  "过去估计全球超过 20 万只，现在可能不到 10 万只。",
+  "成鸟要 3–4 岁才长出成年羽毛。"
+ ],
+ "fact": "它的耳羽只有 20–25 mm，由约 10 根小羽毛组成。",
+ "range": "北极苔原；冬季南迁。",
+ "sources": [
+  "Wikipedia「Snowy owl」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

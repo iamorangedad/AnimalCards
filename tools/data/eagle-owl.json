@@ -1,0 +1,77 @@
+{
+ "file": "雕鸮",
+ "no": "293",
+ "cat": "鸟类",
+ "name_cn": "雕鸮",
+ "name_en": "Eurasian eagle-owl",
+ "latin": "Bubo bubo",
+ "short": "雕鸮",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鼠、兔等小兽，也吃鸟和较大的兽",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "56–75 cm",
+   "lo": 0.56,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "1.75–4.6 kg",
+   "lo": 1.75,
+   "hi": 4.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "1.2–3.2 kg",
+   "lo": 1.2,
+   "hi": 3.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "131–188 cm",
+   "lo": 1.31,
+   "hi": 1.88,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大个子",
+   "icon": "roar",
+   "desc": "最大的雕鸮和毛腿渔鸮一样重，达 4.6 kg，是最大的猫头鹰之一。"
+  },
+  {
+   "name": "咬杀",
+   "icon": "ear",
+   "desc": "它常用嘴咬伤猎物，而一般猫头鹰是用脚把猎物抓死。"
+  }
+ ],
+ "intro": [
+  "雕鸮分布在欧洲和亚洲，范围约 5140 万 km²。",
+  "全球数量估计 10–50 万只。",
+  "每窝通常 2–4 枚蛋，分批产下、先后孵化。"
+ ],
+ "fact": "它比金雕小，但比雪鸮大。",
+ "range": "欧洲、亚洲、北非。",
+ "sources": [
+  "Wikipedia「Eurasian eagle-owl」",
+  "IUCN 红色名录（BirdLife International 2017）"
+ ],
+ "footnote": ""
+}

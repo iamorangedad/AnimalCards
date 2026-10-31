@@ -1,0 +1,77 @@
+{
+ "file": "鸸鹋",
+ "no": "303",
+ "cat": "鸟类",
+ "name_cn": "鸸鹋",
+ "name_en": "Emu",
+ "latin": "Dromaius novaehollandiae",
+ "short": "鸸鹋",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃多种植物和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "可达 1.9 m",
+   "lo": 1.9,
+   "hi": 1.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "18–60 kg",
+   "lo": 18,
+   "hi": 60,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "奔跑",
+   "value": "48 km/h",
+   "lo": 48,
+   "hi": 48,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "步幅",
+   "value": "可达 275 cm",
+   "lo": 2.75,
+   "hi": 2.75,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长跑健将",
+   "icon": "flip",
+   "desc": "能走很远，必要时冲刺 48 km/h，全速奔跑时一步可达 275 cm。"
+  },
+  {
+   "name": "小翅膀",
+   "icon": "camo",
+   "desc": "不会飞，但还留着约 20 cm 的小翅膀，翅尖有一个小爪。"
+  }
+ ],
+ "intro": [
+  "鸸鹋是澳大利亚最高的鸟，世界上第三高，仅次于普通鸵鸟和索马里鸵鸟。",
+  "雌鸟平均比雄鸟略大。",
+  "它原产澳大利亚。"
+ ],
+ "fact": "国王岛鸸鹋的 DNA 显示它和大陆鸸鹋关系很近，应算亚种。",
+ "range": "澳大利亚。",
+ "sources": [
+  "Wikipedia「Emu」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

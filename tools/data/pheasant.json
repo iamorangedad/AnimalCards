@@ -1,0 +1,78 @@
+{
+ "file": "环颈雉",
+ "no": "301",
+ "cat": "鸟类",
+ "name_cn": "环颈雉",
+ "name_en": "Common pheasant",
+ "latin": "Phasianus colchicus",
+ "short": "环颈雉",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "60–89 cm",
+   "lo": 0.6,
+   "hi": 0.89,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.5–3 kg",
+   "lo": 0.5,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "56–86 cm",
+   "lo": 0.56,
+   "hi": 0.86,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "逃跑飞行",
+   "value": "可达 90 km/h",
+   "lo": 90,
+   "hi": 90,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长尾巴",
+   "icon": "camo",
+   "desc": "雄雉的尾巴约 50 cm，几乎占体长一半；雌雉朴素的褐色利于隐藏。"
+  },
+  {
+   "name": "地上筑巢",
+   "icon": "jar",
+   "desc": "只在地上刨个浅坑做巢，雏鸟出壳 12–14 天就能飞。"
+  }
+ ],
+ "intro": [
+  "环颈雉原产亚洲，被引入世界很多地方。",
+  "平时飞行 43–61 km/h。",
+  "雄雉平均 1.2 kg，雌雉平均 0.9 kg。"
+ ],
+ "fact": "小雄雉约 10 周大开始长出鲜艳的羽毛。",
+ "range": "原产亚洲；被引入欧洲、北美等地。",
+ "sources": [
+  "Wikipedia「Common pheasant」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

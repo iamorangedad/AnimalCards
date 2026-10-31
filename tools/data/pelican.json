@@ -1,0 +1,78 @@
+{
+ "file": "白鹈鹕",
+ "no": "298",
+ "cat": "鸟类",
+ "name_cn": "白鹈鹕",
+ "name_en": "Great white pelican",
+ "latin": "Pelecanus onocrotalus",
+ "short": "白鹈鹕",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "140–180 cm",
+   "lo": 1.4,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "9–15 kg",
+   "lo": 9,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "28.9–47.1 cm",
+   "lo": 0.289,
+   "hi": 0.471,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "226–360 cm",
+   "lo": 2.26,
+   "hi": 3.6,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大嘴囊",
+   "icon": "jar",
+   "desc": "巨大的粉黄色嘴下面挂着一个淡黄色的喉囊。"
+  },
+  {
+   "name": "翼展巨大",
+   "icon": "flip",
+   "desc": "翼展最大 360 cm，在会飞的动物里仅次于大型信天翁。"
+  }
+ ],
+ "intro": [
+  "白鹈鹕的雄鸟可比雌鸟重 30% 以上，可能是鹈鹕里雌雄差别最大的。",
+  "雌鸟约 148 cm 长、5.4–9 kg 重。",
+  "繁殖期白羽毛会带上粉色。"
+ ],
+ "fact": "学名来自希腊语，意思是“像驴一样叫的鸟”。",
+ "range": "东南欧、亚洲、非洲。",
+ "sources": [
+  "Wikipedia「Great white pelican」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "家燕",
+ "no": "286",
+ "cat": "鸟类",
+ "name_cn": "家燕",
+ "name_en": "Barn swallow",
+ "latin": "Hirundo rustica",
+ "short": "家燕",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "在空中捕虫，繁殖地约 70% 是大型蝇类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "17–19 cm",
+   "lo": 0.17,
+   "hi": 0.19,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "16–22 g",
+   "lo": 0.016,
+   "hi": 0.022,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "年迁徙",
+   "value": "可达 11660 km",
+   "lo": 11660,
+   "hi": 11660,
+   "scale": "km_xl",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "约 40 km/h",
+   "lo": 40,
+   "hi": 40,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "泥巢",
+   "icon": "jar",
+   "desc": "用泥丸、毛发等在屋檐和仓库里筑杯状巢，一对燕子要约 2 周才能建好，所以旧巢很珍贵。"
+  },
+  {
+   "name": "空中捕虫",
+   "icon": "flip",
+   "desc": "常在离水面或地面 7–8 m 的空中捕虫，还会跟着人和农机抓被惊起的虫子。"
+  }
+ ],
+ "intro": [
+  "家燕是奥地利和爱沙尼亚的国鸟。",
+  "它在整个北半球繁殖，从海平面到海拔 2700 m。",
+  "翼展 32–34.5 cm，雄鸟尾羽外侧有长长的“燕尾”。"
+ ],
+ "fact": "最快能飞约 72 km/h，每秒扇翅约 5 次。",
+ "range": "北半球繁殖，冬季飞到南半球。",
+ "sources": [
+  "Wikipedia「Barn swallow」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

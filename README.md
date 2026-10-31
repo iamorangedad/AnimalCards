@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 285 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 14，爬行两栖 11，昆虫 10）。
+共 303 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 32，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -272,6 +272,24 @@
 | 082 | 大天鹅（Whooper swan） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.pdf) |
 | 083 | 蓝黄金刚鹦鹉（Blue-and-yellow macaw） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.pdf) |
 | 084 | 原鸽（Rock dove） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.pdf) |
+| 286 | 家燕（Barn swallow） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%AE%B6%E7%87%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%AE%B6%E7%87%95.pdf) |
+| 287 | 普通翠鸟（Common kingfisher） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%99%AE%E9%80%9A%E7%BF%A0%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%99%AE%E9%80%9A%E7%BF%A0%E9%B8%9F.pdf) |
+| 288 | 鸳鸯（Mandarin duck） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B3%E9%B8%AF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B3%E9%B8%AF.pdf) |
+| 289 | 绿头鸭（Mallard） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BB%BF%E5%A4%B4%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BB%BF%E5%A4%B4%E9%B8%AD.pdf) |
+| 290 | 金雕（Golden eagle） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%87%91%E9%9B%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%87%91%E9%9B%95.pdf) |
+| 291 | 游隼（Peregrine falcon） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%B8%B8%E9%9A%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%B8%B8%E9%9A%BC.pdf) |
+| 292 | 雪鸮（Snowy owl） | 鸟类 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%9B%AA%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%9B%AA%E9%B8%AE.pdf) |
+| 293 | 雕鸮（Eurasian eagle-owl） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%9B%95%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%9B%95%E9%B8%AE.pdf) |
+| 294 | 大白鹭（Great egret） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E7%99%BD%E9%B9%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E7%99%BD%E9%B9%AD.pdf) |
+| 295 | 苍鹭（Grey heron） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%8B%8D%E9%B9%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%8B%8D%E9%B9%AD.pdf) |
+| 296 | 朱鹮（Crested ibis） | 鸟类 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%9C%B1%E9%B9%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%9C%B1%E9%B9%AE.pdf) |
+| 297 | 白鹳（White stork） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E9%B9%B3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E9%B9%B3.pdf) |
+| 298 | 白鹈鹕（Great white pelican） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E9%B9%88%E9%B9%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E9%B9%88%E9%B9%95.pdf) |
+| 299 | 大杜鹃（Common cuckoo） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E6%9D%9C%E9%B9%83.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E6%9D%9C%E9%B9%83.pdf) |
+| 300 | 戴胜（Eurasian hoopoe） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%88%B4%E8%83%9C.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E6%88%B4%E8%83%9C.pdf) |
+| 301 | 环颈雉（Common pheasant） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%8E%AF%E9%A2%88%E9%9B%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%8E%AF%E9%A2%88%E9%9B%89.pdf) |
+| 302 | 红腹锦鸡（Golden pheasant） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BA%A2%E8%85%B9%E9%94%A6%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BA%A2%E8%85%B9%E9%94%A6%E9%B8%A1.pdf) |
+| 303 | 鸸鹋（Emu） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B8%E9%B9%8B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B8%E9%B9%8B.pdf) |
 | 085 | 扬子鳄（Chinese alligator） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%89%AC%E5%AD%90%E9%B3%84.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%89%AC%E5%AD%90%E9%B3%84.pdf) |
 | 086 | 尼罗鳄（Nile crocodile） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B0%BC%E7%BD%97%E9%B3%84.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B0%BC%E7%BD%97%E9%B3%84.pdf) |
 | 087 | 科莫多巨蜥（Komodo dragon） | 爬行两栖 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%B7%A8%E8%9C%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%B7%A8%E8%9C%A5.pdf) |

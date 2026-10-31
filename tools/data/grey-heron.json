@@ -1,0 +1,78 @@
+{
+ "file": "苍鹭",
+ "no": "295",
+ "cat": "鸟类",
+ "name_cn": "苍鹭",
+ "name_en": "Grey heron",
+ "latin": "Ardea cinerea",
+ "short": "苍鹭",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、鳗鱼等，猎物从 1 cm 小鱼到 57 cm 鳗鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "84–102 cm",
+   "lo": 0.84,
+   "hi": 1.02,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.02–2.08 kg",
+   "lo": 1.02,
+   "hi": 2.08,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 25 天",
+   "lo": 25,
+   "hi": 25,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "觅食距离",
+   "value": "可达 20 km",
+   "lo": 20,
+   "hi": 20,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐心等待",
+   "icon": "dive",
+   "desc": "站在浅水里一动不动，等猎物靠近再出击；能抓 30 cm 长的鲤鱼和 57 cm 长的鳗鱼。"
+  },
+  {
+   "name": "集体筑巢",
+   "icon": "team",
+   "desc": "成群繁殖，繁殖地有时离觅食地 8 km 远。"
+  }
+ ],
+ "intro": [
+  "苍鹭站立可高达 1 m。",
+  "雏鸟 7–8 周大离巢。",
+  "很多幼鸟熬不过第一个冬天，熬过的平均能活约 5 年。"
+ ],
+ "fact": "在爱尔兰，人们常把苍鹭俗称为“鹤”。",
+ "range": "欧洲、亚洲和非洲。",
+ "sources": [
+  "Wikipedia「Grey heron」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

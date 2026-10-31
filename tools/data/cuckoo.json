@@ -1,0 +1,77 @@
+{
+ "file": "大杜鹃",
+ "no": "299",
+ "cat": "鸟类",
+ "name_cn": "大杜鹃",
+ "name_en": "Common cuckoo",
+ "latin": "Cuculus canorus",
+ "short": "大杜鹃",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "32–34 cm",
+   "lo": 0.32,
+   "hi": 0.34,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "蛋重",
+   "value": "约 3.2 g",
+   "lo": 0.0032,
+   "hi": 0.0032,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "寄生率",
+   "value": "64%（一地研究）",
+   "lo": 64,
+   "hi": 64,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "英国最长寿",
+   "value": "约 7 年",
+   "lo": 6.9,
+   "hi": 6.9,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "借窝生蛋",
+   "icon": "jar",
+   "desc": "它是巢寄生鸟，把蛋下在别的鸟窝里，而且蛋的样子会模仿宿主的蛋。"
+  },
+  {
+   "name": "扮老鹰",
+   "icon": "camo",
+   "desc": "成鸟长得像雀鹰，宿主害怕时不敢攻击，让它有时间下蛋。"
+  }
+ ],
+ "intro": [
+  "大杜鹃夏天到欧洲和亚洲繁殖，冬天去非洲。",
+  "雌鸟能把蛋在体内多留 24 小时再下到宿主巢里。",
+  "蛋约 22×16 mm。"
+ ],
+ "fact": "匈牙利的大苇莺面对杜鹃蛋：66% 接受，12% 扔掉，20% 弃巢，2% 把蛋埋掉。",
+ "range": "欧洲、亚洲繁殖，非洲越冬。",
+ "sources": [
+  "Wikipedia「Common cuckoo」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

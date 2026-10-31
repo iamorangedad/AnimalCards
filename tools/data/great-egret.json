@@ -1,0 +1,78 @@
+{
+ "file": "大白鹭",
+ "no": "294",
+ "cat": "鸟类",
+ "name_cn": "大白鹭",
+ "name_en": "Great egret",
+ "latin": "Ardea alba",
+ "short": "大白鹭",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼、蛙和其他两栖类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "80–104 cm",
+   "lo": 0.8,
+   "hi": 1.04,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "700–1500 g",
+   "lo": 0.7,
+   "hi": 1.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "131–170 cm",
+   "lo": 1.31,
+   "hi": 1.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "23–26 天",
+   "lo": 23,
+   "hi": 26,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "美丽饰羽",
+   "icon": "camo",
+   "desc": "繁殖期背上长出细长的饰羽；19 世纪末大量大白鹭被杀，只为用饰羽装饰帽子。"
+  },
+  {
+   "name": "浅水捕食",
+   "icon": "dive",
+   "desc": "在浅水或较干的地方觅食。"
+  }
+ ],
+ "intro": [
+  "大白鹭站立可高达 1 m。",
+  "2–3 岁开始繁殖，每季配成一对。",
+  "雏鸟 6–7 周就能飞。"
+ ],
+ "fact": "大白鹭是美国奥杜邦学会的标志。",
+ "range": "全球温带和热带。",
+ "sources": [
+  "Wikipedia「Great egret」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

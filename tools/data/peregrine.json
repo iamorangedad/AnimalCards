@@ -1,0 +1,77 @@
+{
+ "file": "游隼",
+ "no": "291",
+ "cat": "鸟类",
+ "name_cn": "游隼",
+ "name_en": "Peregrine falcon",
+ "latin": "Falco peregrinus",
+ "short": "游隼",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "34–58 cm",
+   "lo": 0.34,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "700–1500 g",
+   "lo": 0.7,
+   "hi": 1.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "330–1000 g",
+   "lo": 0.33,
+   "hi": 1.0,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "可靠测速",
+   "value": "184 km/h",
+   "lo": 184,
+   "hi": 184,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "俯冲",
+   "icon": "dive",
+   "desc": "飞到高处再猛冲下来抓猎物；有说法超过 320 km/h，可靠测得的最高是 184 km/h。"
+  },
+  {
+   "name": "母大于公",
+   "icon": "team",
+   "desc": "雌鸟比雄鸟大可达 30%，常比配偶重 50%。"
+  }
+ ],
+ "intro": [
+  "除了极地、极高的山和大部分热带雨林，地球上几乎到处都有游隼。",
+  "它在很多文明里是宗教、王室或国家的象征。",
+  "翼展 74–120 cm。"
+ ],
+ "fact": "2005 年有电视节目称测到 389 km/h，但雷达追踪从未证实这么快。",
+ "range": "几乎全球（极端极地等地区除外）。",
+ "sources": [
+  "Wikipedia「Peregrine falcon」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "速度条超出 0–120 刻度时显示到满格。"
+}

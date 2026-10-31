@@ -1,0 +1,78 @@
+{
+ "file": "绿头鸭",
+ "no": "289",
+ "cat": "鸟类",
+ "name_cn": "绿头鸭",
+ "name_en": "Mallard",
+ "latin": "Anas platyrhynchos",
+ "short": "绿头鸭",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "50–65 cm",
+   "lo": 0.5,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.7–1.6 kg",
+   "lo": 0.7,
+   "hi": 1.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "81–98 cm",
+   "lo": 0.81,
+   "hi": 0.98,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "27–28 天",
+   "lo": 27,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "绿脑袋",
+   "icon": "camo",
+   "desc": "雄鸭有闪亮的绿色头，6–10 月龄时羽毛才逐渐变成雄鸭的样子。"
+  },
+  {
+   "name": "出壳会飞",
+   "icon": "flip",
+   "desc": "小鸭孵出后 50–60 天就能飞。"
+  }
+ ],
+ "intro": [
+  "绿头鸭比大多数浮水鸭稍重一些。",
+  "嘴长 4.4–6.1 cm。",
+  "身体约占全长的三分之二。"
+ ],
+ "fact": "翅长 25.7–30.6 cm。",
+ "range": "北半球温带和亚热带；被引入很多地区。",
+ "sources": [
+  "Wikipedia「Mallard」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

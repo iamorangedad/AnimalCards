@@ -1,0 +1,78 @@
+{
+ "file": "鸳鸯",
+ "no": "288",
+ "cat": "鸟类",
+ "name_cn": "鸳鸯",
+ "name_en": "Mandarin duck",
+ "latin": "Aix galericulata",
+ "short": "鸳鸯",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "41–49 cm",
+   "lo": 0.41,
+   "hi": 0.49,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "65–75 cm",
+   "lo": 0.65,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "繁殖海拔",
+   "value": "可达 1500 m",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "英国数量",
+   "value": "约 7000 只",
+   "lo": 7000,
+   "hi": 7000,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "树洞筑巢",
+   "icon": "climb",
+   "desc": "它在树洞里筑巢，所以会和同样在树上筑巢的鹊鸭竞争。"
+  },
+  {
+   "name": "借窝下蛋",
+   "icon": "jar",
+   "desc": "在中国东北左家自然保护区，46.1% 的鸳鸯会把蛋下到同类的窝里。"
+  }
+ ],
+ "intro": [
+  "鸳鸯是中等大小的鸭子。",
+  "它原产东亚，多住在低地，也会到海拔 1500 m 的山谷繁殖。",
+  "20 世纪在英国建立了很大的野化种群。"
+ ],
+ "fact": "欧洲大陆最大的野化种群在柏林一带。",
+ "range": "东亚（中国、俄罗斯远东、朝鲜半岛、日本）；英国和西欧有引入种群。",
+ "sources": [
+  "Wikipedia「Mandarin duck」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "英国数量借用对数刻度。"
+}

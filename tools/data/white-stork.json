@@ -1,0 +1,77 @@
+{
+ "file": "白鹳",
+ "no": "297",
+ "cat": "鸟类",
+ "name_cn": "白鹳",
+ "name_en": "White stork",
+ "latin": "Ciconia ciconia",
+ "short": "白鹳",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃多种小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "100–115 cm",
+   "lo": 1.0,
+   "hi": 1.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2.3–4.5 kg",
+   "lo": 2.3,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "155–215 cm",
+   "lo": 1.55,
+   "hi": 2.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "33–34 天",
+   "lo": 33,
+   "hi": 34,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "送子鸟",
+   "icon": "team",
+   "desc": "各地有很多关于它的传说，最有名的是“送子鸟”把婴儿送到家里。"
+  },
+  {
+   "name": "集群迁徙",
+   "icon": "flip",
+   "desc": "迁徙时和猛禽、白鹈鹕组成的鸟群可以绵延 200 km。"
+  }
+ ],
+ "intro": [
+  "白鹳有长长的红腿和红嘴。",
+  "它喜欢在离巢 5 km 内、草比较矮的草地觅食。",
+  "雏鸟出壳 58–64 天离巢。"
+ ],
+ "fact": "2020 年英国有一对白鹳繁殖成功，是 600 多年来第一次。",
+ "range": "欧洲、西亚、北非繁殖，冬季到非洲和南亚。",
+ "sources": [
+  "Wikipedia「White stork」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

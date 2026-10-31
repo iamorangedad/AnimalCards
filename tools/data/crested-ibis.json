@@ -1,0 +1,78 @@
+{
+ "file": "朱鹮",
+ "no": "296",
+ "cat": "鸟类",
+ "name_cn": "朱鹮",
+ "name_en": "Crested ibis",
+ "latin": "Nipponia nippon",
+ "short": "朱鹮",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小鱼、泥鳅、蛙、蟹、虾、螺、蟋蟀等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "55–78.5 cm",
+   "lo": 0.55,
+   "hi": 0.785,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "2–5 枚",
+   "lo": 2,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "28–30 天",
+   "lo": 28,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "17 年以上",
+   "lo": 17,
+   "hi": 17,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "起死回生",
+   "icon": "team",
+   "desc": "20 世纪末野生朱鹮只剩陕西洋县一处；后来通过放归在韩国和日本佐渡岛重建了种群。"
+  },
+  {
+   "name": "双亲育雏",
+   "icon": "jar",
+   "desc": "父母轮流孵蛋，雏鸟出壳后 45–50 天学会飞离巢。"
+  }
+ ],
+ "intro": [
+  "朱鹮曾广泛分布在中国东部、朝鲜半岛和日本。",
+  "约 3 岁性成熟。",
+  "日语叫它 toki（トキ）。"
+ ],
+ "fact": "2012 年 4 月 23 日日本佐渡岛有三只朱鹮雏鸟在野外孵出，是日本 36 年来第一次。",
+ "range": "中国陕西；日本、韩国有放归种群。",
+ "sources": [
+  "Wikipedia「Crested ibis」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

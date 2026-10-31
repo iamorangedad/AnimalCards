@@ -1,0 +1,78 @@
+{
+ "file": "南极大磷虾",
+ "no": "610",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "南极大磷虾",
+ "name_en": "Antarctic krill",
+ "latin": "Euphausia superba",
+ "short": "南极大磷虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "直接吃微小的浮游植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 2 g",
+   "lo": 0.002,
+   "hi": 0.002,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最长 6 年",
+   "lo": 6,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "总生物量",
+   "value": "约 5 亿吨",
+   "lo": 500,
+   "hi": 500,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级虾群",
+   "icon": "team",
+   "desc": "成群生活，每立方米可达 1–3 万只。"
+  },
+  {
+   "name": "会发光",
+   "icon": "glow",
+   "desc": "身上有发光器官，被叫作“光虾”。"
+  }
+ ],
+ "intro": [
+  "南极大磷虾生活在南大洋。",
+  "它是地球上数量最多的动物之一，总生物量约 5 亿吨。",
+  "约每 13–20 天蜕一次壳。"
+ ],
+ "fact": "透过透明的身体，常能看到它发绿的肠胃。",
+ "range": "南大洋（南极周围）。",
+ "sources": [
+  "Wikipedia「Antarctic krill」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "鹿角珊瑚",
+ "no": "611",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "鹿角珊瑚",
+ "name_en": "Staghorn coral",
+ "latin": "Acropora cervicornis",
+ "short": "鹿角珊瑚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "体内共生藻提供营养",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "高度",
+   "value": "超过 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "所在水深",
+   "value": "很少超过 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "年生长",
+   "value": "每 1 cm 长 5 cm",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "佛州现状",
+   "value": "功能性灭绝",
+   "lo": 0,
+   "hi": 0,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长得最快",
+   "icon": "clone",
+   "desc": "每年能在 1 cm 的骨骼上新长出 5 cm，是西大西洋长得最快的珊瑚之一。"
+  },
+  {
+   "name": "断枝繁殖",
+   "icon": "seed",
+   "desc": "断下的枝条能重新长成新的群体，都是原群体的克隆。"
+  }
+ ],
+ "intro": [
+  "鹿角珊瑚是有分枝的石珊瑚，枝条粗壮直立，像鹿角。",
+  "它生活在浅水的前礁、后礁和斑块礁。",
+  "1970 年代末以前，佛罗里达南部和加勒比海遍布大片的鹿角珊瑚。"
+ ],
+ "fact": "由于 2023 年的海洋热浪，佛罗里达珊瑚礁的鹿角珊瑚已经功能性灭绝。",
+ "range": "西大西洋（佛罗里达、加勒比海、墨西哥湾）。",
+ "sources": [
+  "Wikipedia「Staghorn coral」"
+ ],
+ "footnote": "“年生长”比例条借用数量刻度；“佛州现状”为定性描述。"
+}

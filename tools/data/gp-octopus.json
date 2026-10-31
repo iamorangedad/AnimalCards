@@ -1,0 +1,79 @@
+{
+ "file": "北太平洋巨型章鱼",
+ "no": "608",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "北太平洋巨型章鱼",
+ "name_en": "Giant Pacific octopus",
+ "latin": "Enteroctopus dofleini",
+ "short": "北太平洋巨型章鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃虾、蟹、扇贝、鲍鱼、鱼和鱿鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体重",
+   "value": "约 15 kg",
+   "lo": 15,
+   "hi": 15,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "腕展",
+   "value": "最长 4.3 m",
+   "lo": 4.3,
+   "hi": 4.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "3–5 年",
+   "lo": 3,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–2000 m",
+   "lo": 0,
+   "hi": 2000,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨型章鱼",
+   "icon": "huddle",
+   "desc": "据捕到它的渔民说，最大的个体可能有 270 kg、腕展 9.8 m。"
+  },
+  {
+   "name": "护卵",
+   "icon": "huddle",
+   "desc": "雌性会守护卵，但食腐动物仍常来偷吃。"
+  }
+ ],
+ "intro": [
+  "北太平洋巨型章鱼分布在北太平洋沿岸大部分海域。",
+  "它喜欢寒冷、富氧、营养丰富的海水。",
+  "大多数章鱼只活一年，它能活 3–5 年。"
+ ],
+ "fact": "它 1–2 岁达到性成熟。",
+ "range": "北太平洋沿岸（墨西哥下加州到美国西海岸、阿拉斯加、阿留申群岛等）。",
+ "sources": [
+  "Wikipedia「Giant Pacific octopus」",
+  "IUCN 红色名录（Allcock, L. 2018）"
+ ],
+ "footnote": ""
+}

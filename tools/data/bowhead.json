@@ -1,0 +1,79 @@
+{
+ "file": "弓头鲸",
+ "no": "615",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "弓头鲸",
+ "name_en": "Bowhead whale",
+ "latin": "Balaena mysticetus",
+ "short": "弓头鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "边游边滤食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14–18 m",
+   "lo": 14,
+   "hi": 18,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "75–100 吨",
+   "lo": 75000,
+   "hi": 100000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最长须板",
+   "value": "2.97–5.2 m",
+   "lo": 2.97,
+   "hi": 5.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "破冰头",
+   "icon": "cold",
+   "desc": "巨大的三角形头骨能撞破北极的冰。"
+  },
+  {
+   "name": "最大的嘴",
+   "icon": "food",
+   "desc": "嘴是所有动物里最大的，几乎占身长的三分之一。"
+  }
+ ],
+ "intro": [
+  "弓头鲸也叫格陵兰露脊鲸、北极鲸。",
+  "它是弓头鲸属唯一的现存物种。",
+  "它可能是所有哺乳动物里最长寿的，能活 200 多年。"
+ ],
+ "fact": "它的须板是所有鲸里最长的。",
+ "range": "北极和亚北极海域。",
+ "sources": [
+  "Wikipedia「Bowhead whale」",
+  "IUCN 红色名录（Reilly, S.B. 2012）"
+ ],
+ "footnote": ""
+}

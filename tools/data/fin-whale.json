@@ -1,0 +1,78 @@
+{
+ "file": "长须鲸",
+ "no": "612",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "长须鲸",
+ "name_en": "Fin whale",
+ "latin": "Balaenoptera physalus",
+ "short": "长须鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃成群小鱼、小鱿鱼和磷虾等甲壳类",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "26–27.3 m",
+   "lo": 26,
+   "hi": 27.3,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最重估计",
+   "value": "120 吨",
+   "lo": 120000,
+   "hi": 120000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "叫声频率",
+   "value": "16–40 Hz",
+   "lo": 16,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "小群",
+   "value": "6–10 头",
+   "lo": 6,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "低频交流",
+   "icon": "ear",
+   "desc": "用 16–40 赫兹的调频声音和同伴交流。"
+  },
+  {
+   "name": "高速巡游",
+   "icon": "fire",
+   "desc": "虽然比蓝鲸小，巡游和冲刺速度和蓝鲸差不多。"
+  }
+ ],
+ "intro": [
+  "长须鲸是须鲸，是仅次于蓝鲸的第二长的鲸。",
+  "北半球的长须鲸比南半球的小。",
+  "和其他大型鲸一样，它曾是捕鲸业的主要目标。"
+ ],
+ "fact": "1846 年格雷根据福克兰群岛的一具 16.7 m 标本描述过它。",
+ "range": "全球各大洋。",
+ "sources": [
+  "Wikipedia「Fin whale」"
+ ],
+ "footnote": "“叫声频率”比例条借用数量刻度。"
+}

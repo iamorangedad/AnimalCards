@@ -1,0 +1,78 @@
+{
+ "file": "茎柔鱼",
+ "no": "609",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "茎柔鱼",
+ "name_en": "Humboldt squid",
+ "latin": "Dosidicus gigas",
+ "short": "茎柔鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "大型捕食性鱿鱼",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "胴长",
+   "value": "最长 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 50 kg",
+   "lo": 50,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "游速",
+   "value": "最快 24 km/h",
+   "lo": 24,
+   "hi": 24,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "1–2 年",
+   "lo": 1,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红白闪变",
+   "icon": "glow",
+   "desc": "皮肤能快速从红色闪变到白色。"
+  },
+  {
+   "name": "红魔鬼",
+   "icon": "fire",
+   "desc": "是捕食性很强的大型鱿鱼，被叫作“红魔鬼”。"
+  }
+ ],
+ "intro": [
+  "茎柔鱼也叫美洲大赤鱿、红魔鬼，生活在东太平洋。",
+  "它是柔鱼科最大的成员。",
+  "最常见于 200–700 m 深的海水，从火地岛到加利福尼亚。"
+ ],
+ "fact": "雌性平均比雄性在更大的体型时成熟。",
+ "range": "东太平洋（火地岛到加利福尼亚）。",
+ "sources": [
+  "Wikipedia「Humboldt squid」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "长肢领航鲸",
+ "no": "619",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "长肢领航鲸",
+ "name_en": "Long-finned pilot whale",
+ "latin": "Globicephala melas",
+ "short": "长肢领航鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱿鱼、章鱼、甲壳类和鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性最长",
+   "value": "7.6 m",
+   "lo": 7.6,
+   "hi": 7.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性最重",
+   "value": "4500 kg",
+   "lo": 4500,
+   "hi": 4500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性最重",
+   "value": "2500 kg",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "12–16 个月",
+   "lo": 12,
+   "hi": 16,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大型海豚",
+   "icon": "huddle",
+   "desc": "虽然叫“鲸”，其实是一种大型海豚。"
+  },
+  {
+   "name": "多样猎物",
+   "icon": "food",
+   "desc": "吃灯笼鱼、大西洋鲱、银无须鳕、鲭鱼和白斑角鲨等。"
+  }
+ ],
+ "intro": [
+  "长肢领航鲸也叫“罐头鲸”（pothead whale）。",
+  "它和短肢领航鲸同属。",
+  "雄性比雌性大很多。"
+ ],
+ "fact": "雌性约 8 岁成熟，雄性约 12 岁；每 3–6 年生一胎。",
+ "range": "北大西洋等海域。",
+ "sources": [
+  "Wikipedia「Long-finned pilot whale」",
+  "IUCN 红色名录（L. Taylor 2011）"
+ ],
+ "footnote": ""
+}

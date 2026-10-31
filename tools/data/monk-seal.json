@@ -1,0 +1,79 @@
+{
+ "file": "夏威夷僧海豹",
+ "no": "624",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "夏威夷僧海豹",
+ "name_en": "Hawaiian monk seal",
+ "latin": "Neomonachus schauinslandi",
+ "short": "夏威夷僧海豹",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、龙虾、章鱼和鱿鱼",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雌性体重",
+   "value": "180–270 kg",
+   "lo": 180,
+   "hi": 270,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "140–180 kg",
+   "lo": 140,
+   "hi": 180,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体长",
+   "value": "约 2.4 m",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "现存数量",
+   "value": "约 1400 只",
+   "lo": 1400,
+   "hi": 1400,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "雌大于雄",
+   "icon": "huddle",
+   "desc": "和大多数海豹不同，雌性明显比雄性大。"
+  },
+  {
+   "name": "靠人保护",
+   "icon": "team",
+   "desc": "是需要保护才能维持的物种。"
+  }
+ ],
+ "intro": [
+  "夏威夷僧海豹只生活在夏威夷群岛。",
+  "它是现存两种僧海豹之一，另一种是地中海僧海豹。",
+  "小海豹出生时平均 14–18 kg、约 1 m 长。"
+ ],
+ "fact": "小种群约 1400 只，受到人类侵扰和基因多样性低的威胁。",
+ "range": "夏威夷群岛。",
+ "sources": [
+  "Wikipedia「Hawaiian monk seal」"
+ ],
+ "footnote": ""
+}

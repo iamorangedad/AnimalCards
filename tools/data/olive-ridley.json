@@ -1,0 +1,80 @@
+{
+ "file": "太平洋丽龟",
+ "no": "625",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "太平洋丽龟",
+ "name_en": "Olive ridley sea turtle",
+ "latin": "Lepidochelys olivacea",
+ "short": "太平洋丽龟",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "在海底生物群落中觅食",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2008",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "约 61 cm",
+   "lo": 0.61,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "很少超过 50 kg",
+   "lo": 50,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性均重",
+   "value": "35.45 kg",
+   "lo": 35.45,
+   "hi": 35.45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "集体产卵",
+   "icon": "team",
+   "desc": "成千上万只雌龟在同一片海滩上同时上岸产卵，叫“arribada”。"
+  },
+  {
+   "name": "数量最多",
+   "icon": "huddle",
+   "desc": "是世界上数量最多的海龟。"
+  }
+ ],
+ "intro": [
+  "太平洋丽龟是第二小的海龟。",
+  "它属于海龟科。",
+  "刚孵化的小龟背甲只有 37–50 mm。"
+ ],
+ "fact": "墨西哥瓦哈卡研究的成年个体重 25–46 kg。",
+ "range": "主要在太平洋和印度洋，也在大西洋的温暖海域。",
+ "sources": [
+  "Wikipedia「Olive ridley sea turtle」",
+  "IUCN 红色名录（Abreu-Grobois, A. 2008）"
+ ],
+ "footnote": "“杂食”分类未在来源中直接说明。"
+}

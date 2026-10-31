@@ -1,0 +1,78 @@
+{
+ "file": "小须鲸",
+ "no": "613",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "小须鲸",
+ "name_en": "Common minke whale",
+ "latin": "Balaenoptera acutorostrata",
+ "short": "小须鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃成群小鱼、底栖鱼和磷虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性均重",
+   "value": "2.85–4.23 吨",
+   "lo": 2850,
+   "hi": 4230,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "雌性均重",
+   "value": "1.93–3.63 吨",
+   "lo": 1930,
+   "hi": 3630,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "化石最早",
+   "value": "约 470 万年",
+   "lo": 4.7,
+   "hi": 4.7,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "北扩时间",
+   "value": "约 150 万年",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最小的须鲸之一",
+   "icon": "huddle",
+   "desc": "是最小的鳁鲸，也是第二小的须鲸。"
+  },
+  {
+   "name": "杂交",
+   "icon": "clone",
+   "desc": "已确认与南极小须鲸杂交过 2 次。"
+  }
+ ],
+ "intro": [
+  "小须鲸也叫北方小须鲸。",
+  "它的英文名 minke 来源不明。",
+  "约 150 万年前，它在更新世降温时迅速扩散到北半球。"
+ ],
+ "fact": "体重数据来自西北太平洋捕获、用卡车秤整体称重的个体。",
+ "range": "全球各大洋（南极小须鲸为另一种）。",
+ "sources": [
+  "Wikipedia「Common minke whale」"
+ ],
+ "footnote": ""
+}

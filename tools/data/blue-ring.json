@@ -1,0 +1,79 @@
+{
+ "file": "大蓝环章鱼",
+ "no": "607",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大蓝环章鱼",
+ "name_en": "Greater blue-ringed octopus",
+ "latin": "Hapalochlaena lunulata",
+ "short": "大蓝环章鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蟹和虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "不超过 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "80 g",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "蓝环",
+   "value": "约 60 个",
+   "lo": 60,
+   "hi": 60,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "卵孵化",
+   "value": "约 50 天",
+   "lo": 50,
+   "hi": 50,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "警告蓝环",
+   "icon": "glow",
+   "desc": "身上约 60 个蓝环是警告色，告诉天敌它有剧毒。"
+  },
+  {
+   "name": "毒液麻痹",
+   "icon": "toxic",
+   "desc": "用角质喙刺穿蟹或虾的外壳，注入毒液麻痹猎物。"
+  }
+ ],
+ "intro": [
+  "大蓝环章鱼是四种剧毒蓝环章鱼之一。",
+  "它被认为是海洋里毒性最强的动物之一。",
+  "雌性产 50–100 个卵，抱在腕下守护到孵化。"
+ ],
+ "fact": "它的蓝环有 7–8 mm 宽，比其他蓝环章鱼的大。",
+ "range": "印度-西太平洋（斯里兰卡到菲律宾、澳大利亚到巴布亚新几内亚）。",
+ "sources": [
+  "Wikipedia「Greater blue-ringed octopus」"
+ ],
+ "footnote": "",
+ "warn": "剧毒！在潮池或海边看到也千万不要用手碰。"
+}

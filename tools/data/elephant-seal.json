@@ -1,0 +1,80 @@
+{
+ "file": "南象海豹",
+ "no": "621",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "南象海豹",
+ "name_en": "Southern elephant seal",
+ "latin": "Mirounga leonina",
+ "short": "南象海豹",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "冰原"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱿鱼和鱼",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2026",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "3000–3700 kg",
+   "lo": 3000,
+   "hi": 3700,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性体长",
+   "value": "4.6–5.8 m",
+   "lo": 4.6,
+   "hi": 5.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "350–900 kg",
+   "lo": 350,
+   "hi": 900,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每次潜水",
+   "value": "超过 20 分钟",
+   "lo": 20,
+   "hi": 20,
+   "scale": "min",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "象鼻吼叫",
+   "icon": "ear",
+   "desc": "成年雄性有大大的长鼻，用来发出很响的吼声。"
+  },
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "反复深潜，每次 20 多分钟，在 400–1000 m 深处捕食鱿鱼和鱼。"
+  }
+ ],
+ "intro": [
+  "南象海豹是两种象海豹之一。",
+  "它是鳍足类和食肉目里最大的动物。",
+  "它也是除鲸类以外最大的现存海洋哺乳动物。"
+ ],
+ "fact": "卫星追踪显示，它很少待在水面，通常只花几分钟换气。",
+ "range": "南大洋和亚南极岛屿。",
+ "sources": [
+  "Wikipedia「Southern elephant seal」",
+  "IUCN 红色名录（Hofmeyr, G.J.G. 2026）"
+ ],
+ "footnote": ""
+}

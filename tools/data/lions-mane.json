@@ -1,0 +1,79 @@
+{
+ "file": "北极霞水母",
+ "no": "606",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "北极霞水母",
+ "name_en": "Lion's mane jellyfish",
+ "latin": "Cyanea capillata",
+ "short": "北极霞水母",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用带刺细胞的触手捕猎",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大伞径",
+   "value": "210 cm",
+   "lo": 2.1,
+   "hi": 2.1,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "最长触手",
+   "value": "约 36.6 m",
+   "lo": 36.6,
+   "hi": 36.6,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "触手数",
+   "value": "约 1200 条",
+   "lo": 1200,
+   "hi": 1200,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "纪录年份",
+   "value": "1865 年",
+   "lo": 1865,
+   "hi": 1865,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长触手",
+   "icon": "web",
+   "desc": "1865 年在马萨诸塞州记录的最大个体，触手约 36.6 m 长。"
+  },
+  {
+   "name": "刺细胞",
+   "icon": "toxic",
+   "desc": "口腕和黏黏的触手上都有刺细胞。"
+  }
+ ],
+ "intro": [
+  "北极霞水母是已知最大的水母之一。",
+  "它只生活在北极、北大西洋和北太平洋的寒冷海水里。",
+  "嘴巴周围伸出宽大的、褶皱的口腕。"
+ ],
+ "fact": "有些动物学家认为霞水母属的所有物种都应该算作一种。",
+ "range": "北极、北大西洋、北太平洋的冷水海域。",
+ "sources": [
+  "Wikipedia「Lion's mane jellyfish」"
+ ],
+ "footnote": "“纪录年份”只是年份，比例条无意义，仅作示意。",
+ "warn": "触手有刺细胞，看到也不要触摸，即使是冲上岸的水母。"
+}

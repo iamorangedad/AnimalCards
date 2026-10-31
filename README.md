@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 605 张（动物 605）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 75，鸟类 50，爬行两栖 50，昆虫 50。
+共 625 张（动物 625）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -463,6 +463,26 @@
 | 603 | 伊氏石斑鱼（Atlantic goliath grouper） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%BC%8A%E6%B0%8F%E7%9F%B3%E6%96%91%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%BC%8A%E6%B0%8F%E7%9F%B3%E6%96%91%E9%B1%BC.pdf) |
 | 604 | 叶海龙（Leafy seadragon） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8F%B6%E6%B5%B7%E9%BE%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8F%B6%E6%B5%B7%E9%BE%99.pdf) |
 | 605 | 澳洲箱水母（Australian box jellyfish） | 动物 · 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%BE%B3%E6%B4%B2%E7%AE%B1%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%BE%B3%E6%B4%B2%E7%AE%B1%E6%B0%B4%E6%AF%8D.pdf) |
+| 606 | 北极霞水母（Lion's mane jellyfish） | 动物 · 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%9E%81%E9%9C%9E%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%9E%81%E9%9C%9E%E6%B0%B4%E6%AF%8D.pdf) |
+| 607 | 大蓝环章鱼（Greater blue-ringed octopus） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%93%9D%E7%8E%AF%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%A7%E8%93%9D%E7%8E%AF%E7%AB%A0%E9%B1%BC.pdf) |
+| 608 | 北太平洋巨型章鱼（Giant Pacific octopus） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%B7%A8%E5%9E%8B%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%B7%A8%E5%9E%8B%E7%AB%A0%E9%B1%BC.pdf) |
+| 609 | 茎柔鱼（Humboldt squid） | 动物 · 海洋 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%8C%8E%E6%9F%94%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%8C%8E%E6%9F%94%E9%B1%BC.pdf) |
+| 610 | 南极大磷虾（Antarctic krill） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8D%97%E6%9E%81%E5%A4%A7%E7%A3%B7%E8%99%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8D%97%E6%9E%81%E5%A4%A7%E7%A3%B7%E8%99%BE.pdf) |
+| 611 | 鹿角珊瑚（Staghorn coral） | 动物 · 海洋 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B9%BF%E8%A7%92%E7%8F%8A%E7%91%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%B9%BF%E8%A7%92%E7%8F%8A%E7%91%9A.pdf) |
+| 612 | 长须鲸（Fin whale） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E9%A1%BB%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E9%A1%BB%E9%B2%B8.pdf) |
+| 613 | 小须鲸（Common minke whale） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%8F%E9%A1%BB%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%B0%8F%E9%A1%BB%E9%B2%B8.pdf) |
+| 614 | 灰鲸（Gray whale） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%81%B0%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%81%B0%E9%B2%B8.pdf) |
+| 615 | 弓头鲸（Bowhead whale） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BC%93%E5%A4%B4%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BC%93%E5%A4%B4%E9%B2%B8.pdf) |
+| 616 | 北大西洋露脊鲸（North Atlantic right whale） | 动物 · 海洋 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%9C%B2%E8%84%8A%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%9C%B2%E8%84%8A%E9%B2%B8.pdf) |
+| 617 | 加湾鼠海豚（Vaquita） | 动物 · 海洋 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8A%A0%E6%B9%BE%E9%BC%A0%E6%B5%B7%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8A%A0%E6%B9%BE%E9%BC%A0%E6%B5%B7%E8%B1%9A.pdf) |
+| 618 | 长吻原海豚（Spinner dolphin） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E5%90%BB%E5%8E%9F%E6%B5%B7%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E5%90%BB%E5%8E%9F%E6%B5%B7%E8%B1%9A.pdf) |
+| 619 | 长肢领航鲸（Long-finned pilot whale） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E8%82%A2%E9%A2%86%E8%88%AA%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E9%95%BF%E8%82%A2%E9%A2%86%E8%88%AA%E9%B2%B8.pdf) |
+| 620 | 北海狮（Steller sea lion） | 动物 · 海洋 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%B5%B7%E7%8B%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8C%97%E6%B5%B7%E7%8B%AE.pdf) |
+| 621 | 南象海豹（Southern elephant seal） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8D%97%E8%B1%A1%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%8D%97%E8%B1%A1%E6%B5%B7%E8%B1%B9.pdf) |
+| 622 | 威德尔海豹（Weddell seal） | 动物 · 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A8%81%E5%BE%B7%E5%B0%94%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A8%81%E5%BE%B7%E5%B0%94%E6%B5%B7%E8%B1%B9.pdf) |
+| 623 | 竖琴海豹（Harp seal） | 动物 · 海洋 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%96%E7%90%B4%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%96%E7%90%B4%E6%B5%B7%E8%B1%B9.pdf) |
+| 624 | 夏威夷僧海豹（Hawaiian monk seal） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%83%A7%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%83%A7%E6%B5%B7%E8%B1%B9.pdf) |
+| 625 | 太平洋丽龟（Olive ridley sea turtle） | 动物 · 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E4%B8%BD%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E4%B8%BD%E9%BE%9F.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 动物 · 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
 | 072 | 白头海雕（Bald eagle） | 动物 · 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.pdf) |
 | 073 | 仓鸮（Western barn owl） | 动物 · 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.pdf) |

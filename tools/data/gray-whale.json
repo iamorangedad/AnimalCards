@@ -1,0 +1,79 @@
+{
+ "file": "灰鲸",
+ "no": "614",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "灰鲸",
+ "name_en": "Gray whale",
+ "latin": "Eschrichtius robustus",
+ "short": "灰鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "侧身铲起海底泥沙，吃端足类等甲壳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14.9–15.2 m",
+   "lo": 14.9,
+   "hi": 15.2,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 41–45 吨",
+   "lo": 41000,
+   "hi": 45000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "巡游速度",
+   "value": "5–8 km/h",
+   "lo": 5,
+   "hi": 8,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "危险时",
+   "value": "16–17.5 km/h",
+   "lo": 16,
+   "hi": 17.5,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "年年迁徙",
+   "icon": "wind",
+   "desc": "每年在觅食地和繁殖地之间迁徙。"
+  },
+  {
+   "name": "长寿",
+   "icon": "huddle",
+   "desc": "一头 1977 年首次看到的雌鲸，2024 年估计已 53–55 岁。"
+  }
+ ],
+ "intro": [
+  "灰鲸是须鲸，名字来自深色皮肤上的灰斑和白色斑驳。",
+  "刚出生时 4.6–4.9 m，成年后 11–15.2 m。",
+  "雌鲸一般比雄鲸稍大。"
+ ],
+ "fact": "它的须板长 5–40 cm。",
+ "range": "北太平洋。",
+ "sources": [
+  "Wikipedia「Gray whale」",
+  "IUCN 红色名录（Cooke, J.G. 2018）"
+ ],
+ "footnote": ""
+}

@@ -911,3 +911,62 @@ def _boxjelly(w, h):
     o.append(P("M-50 -230 L-56 -40 M50 -230 L56 -40", sw=2, col="#a8c8d8"))
     return scene("sea", w, h, G_("".join(o), 0, -40), box=(w / 2, h * .56, 360, 420))
 ART5["box-jelly"] = _boxjelly
+# ---- p4b10 ocean 606-625
+from art4 import _ceta
+from art3 import pinniped as _pinn, coast as _coast
+from art import octopus_body as _octb
+def _lmjelly(w, h):
+    o = []
+    for i in range(9):
+        x = -120 + i * 30
+        o.append(P(f"M{x} -40 C{x-30} 80 {x+30} 180 {x-10} 320", sw=2.4, col="#e8a06a"))
+    for i in range(4):
+        x = -60 + i * 40
+        o.append(P(f"M{x} -40 C{x-20} 30 {x+20} 90 {x-6} 150", sw=14, col="#c9542a"))
+    o.append(P("M-170 -40 C-170 -230 170 -230 170 -40 Q90 -20 0 -34 Q-90 -20 -170 -40 Z", "#e88a4a", 3, extra='fill-opacity=".92"'))
+    return scene("sea", w, h, G_("".join(o), 0, -40), box=(w / 2, h * .56, 400, 420))
+def _octo(F, rings=None, sc=1.0, kind="sea"):
+    def f(w, h):
+        b = _octb().replace(ORG_L, F)
+        if rings: b += "".join(C(x, y, 12, rings, 3) + C(x, y, 5, "#2a2a2a", 0) for x, y in [(-60, -260), (40, -250), (-10, -310), (80, -190), (-110, -190), (0, -200), (-150, -110), (140, -120)])
+        return scene(kind, w, h, G_(b, 0, 0), box=(w / 2, h * .66, 480, 400))
+    return f
+def _hsquid(w, h):
+    o = P("M140 -100 L300 -130 L320 -100 L300 -70 Z", "#d8484a", 2.8) + E(80, -100, 120, 40, "#e85a5a", 3) + C(-30, -100, 18, "#fff", 2.4) + C(-32, -100, 10, INK, 0)
+    o += "".join(P(f"M-40 {-110+i*8} C-120 {-130+i*16} -170 {-80+i*10} -220 {-110+i*20}", sw=9, col=INK) + P(f"M-40 {-110+i*8} C-120 {-130+i*16} -170 {-80+i*10} -220 {-110+i*20}", sw=5, col="#e85a5a") for i in range(5))
+    return scene("deep", w, h, o, box=(w / 2, h * .62, 600, 260))
+def _krill(w, h):
+    from art4 import shrimp as _sh
+    o = "".join(G_(_sh(F="#f28a6a", L=150, H=34), x, y) for x, y in [(-160, -150), (60, -190), (-40, -60), (160, -90), (-170, 20), (60, 30)])
+    return scene("sea", w, h, o, box=(w / 2, h * .6, 560, 320))
+def _staghorn(w, h):
+    o = []
+    def br(x, y, a, L, d):
+        if d == 0 or L < 20: return
+        x2, y2 = x + L * math.sin(a), y - L * math.cos(a)
+        o.append(P(f"M{x:.0f} {y:.0f} L{x2:.0f} {y2:.0f}", sw=26 - d * 2, col=INK) + P(f"M{x:.0f} {y:.0f} L{x2:.0f} {y2:.0f}", sw=20 - d * 2, col="#d9b88a"))
+        br(x2, y2, a - .45, L * .75, d - 1); br(x2, y2, a + .4, L * .72, d - 1)
+    for x0, a0 in [(-120, -.3), (0, .05), (120, .35)]:
+        br(x0, 0, a0, 110, 4)
+    return scene("sea", w, h, "".join(o) + E(0, 0, 220, 26, "#e8dcc4", 2.4), box=(w / 2, h * .7, 520, 400))
+ART5["lions-mane"] = _lmjelly
+ART5["blue-ring"] = _octo("#e8c05a", rings="#2a6ad0")
+ART5["gp-octopus"] = _octo("#c9542a")
+ART5["humboldt"] = _hsquid
+ART5["krill"] = _krill
+ART5["staghorn"] = _staghorn
+ART5["fin-whale"] = _ceta("#4a5260", 540, 110, belly="#e6eaee", box=None)
+ART5["minke"] = _ceta("#3a424e", 440, 110, belly="#eef2f4", box=None, extras=P("M-80 30 l40 30", sw=10, col="#ffffff"))
+ART5["gray-whale"] = _ceta("#7a8088", 500, 130, dorsal=False, belly="#9aa0a8", box=None, extras="".join(C(x, y, 9, "#e6e8ea", 0) for x, y in [(-160, -40), (-60, -50), (40, -30), (120, -60), (-100, 0), (60, 10)]))
+ART5["bowhead"] = _ceta("#1e2228", 520, 160, dorsal=False, belly="#2a2e34", box=None, extras=P("M-260 20 C-220 60 -160 70 -120 40", sw=10, col="#f4f4f2"))
+ART5["right-whale"] = _ceta("#22262c", 520, 150, dorsal=False, belly="#2a2e34", box=None, extras="".join(E(x, y, 14, 9, "#e8e2d4", 1.6) for x, y in [(-250, -30), (-230, -50), (-210, 10)]))
+ART5["vaquita"] = _ceta("#8a96a2", 300, 100, belly="#e2e8ee", box=None, extras=E(-128, -14, 14, 10, "#2a2a2a", 0) + P("M-150 14 q16 6 30 0", sw=6, col="#2a2a2a"))
+ART5["spinner"] = lambda w, h: scene("sea", w, h, G_(fish(F="#5a6470", L=360, H=90, tail="fluke", belly="#e8ecf0", cetacean=True, eye_r=6, mouth=False, fin_col="#4a5460") +
+                                                    P("M-200 -12 L-250 -4 L-198 10 Z", "#5a6470", 2.6), 0, -60) + P("M-60 -260 a80 30 0 1 1 120 0", sw=4, col="#ffffff"), box=(w / 2, h * .58, 620, 340))
+ART5["pilot-whale"] = _ceta("#2a2e34", 440, 120, belly="#3a3e44", box=None, pre=C(-200, -20, 60, "#2a2e34", 3))
+ART5["steller"] = lambda w, h: _coast(w, h, _pinn("#c9a06a", L=340, up=0.6, ears=True, belly="#b8905a"), (w / 2, h * .66, 560, 320))
+ART5["elephant-seal"] = lambda w, h: _coast(w, h, _pinn("#8a7a6a", L=420, up=0.5, belly="#a89a8a") + E(-210, -150, 30, 22, "#7a6a5a", 2.6), (w / 2, h * .66, 620, 320), rocky=False)
+ART5["weddell"] = lambda w, h: scene("ice", w, h, _pinn("#5a6470", L=360, up=0.1, spots="#c9d0d8", belly="#8a949e"), box=(w / 2, h * .72, 600, 260))
+ART5["harp-seal"] = lambda w, h: scene("ice", w, h, _pinn("#c9ced4", L=320, up=0.2, belly="#e6eaee") + P("M-60 -60 C-20 -110 60 -110 100 -60", sw=12, col="#2a2e34"), box=(w / 2, h * .72, 580, 260))
+ART5["monk-seal"] = lambda w, h: _coast(w, h, _pinn("#8a8a8a", L=320, up=0.2, belly="#c9c4b8"), (w / 2, h * .66, 540, 300), rocky=False)
+ART5["olive-ridley"] = lambda w, h: scene("sea", w, h, turtle(shell="#7a8a4a", skin="#a8b07a", sea=True, scute="#8a9a5a", plastron="#f3e3a6"), box=(w / 2, h * .56, 500, 270))

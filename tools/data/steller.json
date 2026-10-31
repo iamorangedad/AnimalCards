@@ -1,0 +1,79 @@
+{
+ "file": "北海狮",
+ "no": "620",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "北海狮",
+ "name_en": "Steller sea lion",
+ "latin": "Eumetopias jubatus",
+ "short": "北海狮",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "海洋掠食者",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "2.82–3.25 m",
+   "lo": 2.82,
+   "hi": 3.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体长",
+   "value": "2.3–2.9 m",
+   "lo": 2.3,
+   "hi": 2.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "240–350 kg",
+   "lo": 240,
+   "hi": 350,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "初生体重",
+   "value": "约 23 kg",
+   "lo": 23,
+   "hi": 23,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大海狮",
+   "icon": "huddle",
+   "desc": "是海狮科（有耳海豹）里最大的。"
+  },
+  {
+   "name": "长大才显",
+   "icon": "clone",
+   "desc": "雄性要到 5–8 岁才长出成年雄性的特征。"
+  }
+ ],
+ "intro": [
+  "北海狮主要生活在东北太平洋沿岸。",
+  "小海狮出生时几乎是黑色的。",
+  "成年毛色浅黄到黄褐色，有时偏红。"
+ ],
+ "fact": "雌性平均体重 263 kg，平均体长 2.5 m。",
+ "range": "北太平洋沿岸（加利福尼亚中北部到阿拉斯加，向西到日本本州北部）。",
+ "sources": [
+  "Wikipedia「Steller sea lion」"
+ ],
+ "footnote": ""
+}

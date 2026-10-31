@@ -1,0 +1,79 @@
+{
+ "file": "长吻原海豚",
+ "no": "618",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "长吻原海豚",
+ "name_en": "Spinner dolphin",
+ "latin": "Stenella longirostris",
+ "short": "长吻原海豚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小鱼、鱿鱼和樱虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "129–235 cm",
+   "lo": 1.29,
+   "hi": 2.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "23–79 kg",
+   "lo": 23,
+   "hi": 79,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "200–300 m",
+   "lo": 200,
+   "hi": 300,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 20–25 年",
+   "lo": 20,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "空中旋转",
+   "icon": "flip",
+   "desc": "跃出水面时绕身体长轴旋转，以杂技表演闻名。"
+  },
+  {
+   "name": "深潜觅食",
+   "icon": "dive",
+   "desc": "下潜 200–300 m 捕食中层小鱼、鱿鱼和樱虾。"
+  }
+ ],
+ "intro": [
+  "长吻原海豚生活在全世界热带远洋。",
+  "它分布在所有大洋的热带和亚热带海域。",
+  "雌性 4–7 岁成熟，约 3 年生一胎。"
+ ],
+ "fact": "雄性要到 7–10 岁才成熟。",
+ "range": "全球热带和亚热带海洋。",
+ "sources": [
+  "Wikipedia「Spinner dolphin」",
+  "IUCN 红色名录（Braulik, G. 2018）"
+ ],
+ "footnote": ""
+}

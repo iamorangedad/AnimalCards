@@ -1,0 +1,79 @@
+{
+ "file": "威德尔海豹",
+ "no": "622",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "威德尔海豹",
+ "name_en": "Weddell seal",
+ "latin": "Leptonychotes weddellii",
+ "short": "威德尔海豹",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "冰原"
+ ],
+ "diet": "肉食",
+ "diet_note": "潜水捕食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.5–3.5 m",
+   "lo": 2.5,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "400–600 kg",
+   "lo": 400,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最深潜水",
+   "value": "600 m",
+   "lo": 600,
+   "hi": 600,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "最长潜水",
+   "value": "最长约 1 小时",
+   "lo": 60,
+   "hi": 60,
+   "scale": "min_l",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "冰下潜水",
+   "icon": "dive",
+   "desc": "能潜到 600 m 深、待上一个小时。"
+  },
+  {
+   "name": "维护冰洞",
+   "icon": "cold",
+   "desc": "生活在固定冰上，靠维护冰上的呼吸洞换气。"
+  }
+ ],
+ "intro": [
+  "威德尔海豹生活在南极周围。",
+  "1820 年代以英国猎海豹船长詹姆斯·威德尔的名字命名。",
+  "它是威德尔海豹属唯一的物种。"
+ ],
+ "fact": "小海豹出生时有胎毛，3–4 周后换毛。",
+ "range": "南极洲周围的固定冰区。",
+ "sources": [
+  "Wikipedia「Weddell seal」"
+ ],
+ "footnote": ""
+}

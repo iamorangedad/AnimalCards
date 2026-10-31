@@ -1,0 +1,79 @@
+{
+ "file": "北大西洋露脊鲸",
+ "no": "616",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "北大西洋露脊鲸",
+ "name_en": "North Atlantic right whale",
+ "latin": "Eubalaena glacialis",
+ "short": "北大西洋露脊鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在水面慢慢滤食",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2020",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "13–18 m",
+   "lo": 13,
+   "hi": 18,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "40–90 吨",
+   "lo": 40000,
+   "hi": 90000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "现存",
+   "value": "约 380 头",
+   "lo": 380,
+   "hi": 380,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "繁殖雌鲸",
+   "value": "约 70 头",
+   "lo": 70,
+   "hi": 70,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "慢慢滤食",
+   "icon": "food",
+   "desc": "性情温和，在水面慢慢游着滤食。"
+  },
+  {
+   "name": "胸鳍",
+   "icon": "flip",
+   "desc": "胸鳍长 1.7 m。"
+  }
+ ],
+ "intro": [
+  "北大西洋露脊鲸是三种露脊鲸之一。",
+  "温顺、游得慢、死后浮起，让它成了捕鲸者的首选目标。",
+  "截至 2026 年估计只剩约 380 头，其中约 70 头繁殖雌鲸。"
+ ],
+ "fact": "测量过的最大个体长 18.5 m，重 10.6–10.8 万 kg。",
+ "range": "西北大西洋（拉布拉多海到佐治亚、佛罗里达）。",
+ "sources": [
+  "Wikipedia「North Atlantic right whale」",
+  "IUCN 红色名录（Cooke, J.G. 2020）"
+ ],
+ "footnote": ""
+}

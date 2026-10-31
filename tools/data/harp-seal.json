@@ -1,0 +1,79 @@
+{
+ "file": "竖琴海豹",
+ "no": "623",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "竖琴海豹",
+ "name_en": "Harp seal",
+ "latin": "Pagophilus groenlandicus",
+ "short": "竖琴海豹",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "冰原"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃几十种鱼和无脊椎动物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "1.7–2.0 m",
+   "lo": 1.7,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "115–140 kg",
+   "lo": 115,
+   "hi": 140,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "潜水深度",
+   "value": "最深超过 500 m",
+   "lo": 500,
+   "hi": 500,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "潜水时长",
+   "value": "最长约 20 分钟",
+   "lo": 20,
+   "hi": 20,
+   "scale": "min",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色宝宝",
+   "icon": "camo",
+   "desc": "小海豹出生后 2–3 周是全白的，之后换成带黑点的银灰色毛。"
+  },
+  {
+   "name": "潜水高手",
+   "icon": "dive",
+   "desc": "格陵兰海的种群平均每小时潜水 8.3 次。"
+  }
+ ],
+ "intro": [
+  "竖琴海豹也叫鞍背海豹、格陵兰海豹。",
+  "它生活在大西洋最北部和北冰洋。",
+  "白海的种群夏天向北迁到巴伦支海觅食。"
+ ],
+ "fact": "它以前和其他几种海豹一起被放在斑海豹属（Phoca）。",
+ "range": "北大西洋最北部、北冰洋。",
+ "sources": [
+  "Wikipedia「Harp seal」"
+ ],
+ "footnote": ""
+}

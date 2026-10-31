@@ -1,0 +1,79 @@
+{
+ "file": "乌桕大蚕蛾",
+ "no": "369",
+ "cat": "昆虫",
+ "name_cn": "乌桕大蚕蛾",
+ "name_en": "Atlas moth",
+ "latin": "Attacus atlas",
+ "short": "乌桕大蚕蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃柑橘、肉桂、番石榴等的叶",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "250–300 mm",
+   "lo": 0.25,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翅面积",
+   "value": "约 160 cm²",
+   "lo": 160,
+   "hi": 160,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "幼虫长",
+   "value": "可达 11.5 cm",
+   "lo": 0.115,
+   "hi": 0.115,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "茧长",
+   "value": "7–8 cm",
+   "lo": 0.07,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨大翅膀",
+   "icon": "camo",
+   "desc": "它是最大的鳞翅目昆虫之一，前翅尖像蛇头，粤语叫“蛇头蛾”。"
+  },
+  {
+   "name": "结茧",
+   "icon": "jar",
+   "desc": "幼虫用丝把枯叶织进 7–8 cm 长的纸质茧里。"
+  }
+ ],
+ "intro": [
+  "乌桕大蚕蛾生活在亚洲的森林。",
+  "卵约两周后孵出灰绿色幼虫，先吃卵壳再吃叶子。",
+  "约四周后成虫从茧里钻出来。"
+ ],
+ "fact": "中文维基记载，它的翅膀最大可达 400 cm²。",
+ "range": "亚洲森林。",
+ "sources": [
+  "Wikipedia「Atlas moth」",
+  "维基百科「皇蛾」",
+  "未见 IUCN 评估"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；最大翅面积来自中文维基。"
+}

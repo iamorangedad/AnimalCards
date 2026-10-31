@@ -1,0 +1,78 @@
+{
+ "file": "欧洲熊蜂",
+ "no": "374",
+ "cat": "昆虫",
+ "name_cn": "欧洲熊蜂",
+ "name_en": "Buff-tailed bumblebee",
+ "latin": "Bombus terrestris",
+ "short": "欧洲熊蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃花蜜和花粉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "蜂王体长",
+   "value": "20–22 mm",
+   "lo": 0.02,
+   "hi": 0.022,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "工蜂体长",
+   "value": "11–17 mm",
+   "lo": 0.011,
+   "hi": 0.017,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "回巢距离",
+   "value": "可达 9.8 km",
+   "lo": 9.8,
+   "hi": 9.8,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "觅食气温",
+   "value": "约 25 °C",
+   "lo": 25,
+   "hi": 25,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "温室授粉",
+   "icon": "team",
+   "desc": "它是温室授粉的主要蜂种之一，被带到许多国家。"
+  },
+  {
+   "name": "认路高手",
+   "icon": "ear",
+   "desc": "被带离蜂巢 9.8 km 远也能找回家。"
+  }
+ ],
+ "intro": [
+  "欧洲熊蜂被当作温室授粉蜂引入塔斯马尼亚等地。",
+  "工蜂大小差别很大，体重 68–754 mg。",
+  "在引入地逃逸后，在许多地方成了入侵物种。"
+ ],
+ "fact": "研究显示，多达 80% 的雄蜂可能是工蜂产下的。",
+ "range": "欧洲等原生地；塔斯马尼亚等地为引入。",
+ "sources": [
+  "Wikipedia「Bombus terrestris」",
+  "IUCN 红色名录（Ghisbain 2025）"
+ ],
+ "footnote": ""
+}

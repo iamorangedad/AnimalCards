@@ -1,0 +1,77 @@
+{
+ "file": "埃及伊蚊",
+ "no": "362",
+ "cat": "昆虫",
+ "name_cn": "埃及伊蚊",
+ "name_en": "Yellow fever mosquito",
+ "latin": "Aedes aegypti",
+ "short": "埃及伊蚊",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "雌蚊吸血，雄蚊吃果汁",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "4–7 mm",
+   "lo": 0.004,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "2–4 周",
+   "lo": 14,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "吸人血比例",
+   "value": "99%（泰国研究）",
+   "lo": 99,
+   "hi": 99,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "转基因灭蚊",
+   "value": "种群减少 90% 以上",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "传播疾病",
+   "icon": "jar",
+   "desc": "能传播登革热、黄热病和基孔肯雅热等疾病。"
+  },
+  {
+   "name": "闻味找人",
+   "icon": "ear",
+   "desc": "雌蚊靠人呼出的二氧化碳和皮肤的乳酸等气味找到目标。"
+  }
+ ],
+ "intro": [
+  "埃及伊蚊身上有黑白斑纹，胸部背面有琴形白纹。",
+  "它原产北非，现已扩散到热带、亚热带和温带地区。",
+  "只有雌蚊吸血，用来让卵成熟。"
+ ],
+ "fact": "卵在干燥状态下能存活一年以上。",
+ "range": "原产北非，现遍布热带和亚热带。",
+ "sources": [
+  "Wikipedia「Aedes aegypti」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；转基因 OX513A 试验在开曼群岛、巴西、巴拿马进行。"
+}

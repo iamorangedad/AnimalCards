@@ -1,0 +1,77 @@
+{
+ "file": "澳洲刺竹节虫",
+ "no": "367",
+ "cat": "昆虫",
+ "name_cn": "澳洲刺竹节虫",
+ "name_en": "Giant prickly stick insect",
+ "latin": "Extatosoma tiaratum",
+ "short": "澳洲刺竹节虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "原生食物是桉树叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "雄体长",
+   "value": "约 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "雌寿命",
+   "value": "约 18 个月",
+   "lo": 18,
+   "hi": 18,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "单性卵孵化",
+   "value": "可达 9 个月",
+   "lo": 9,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "满身刺",
+   "icon": "camo",
+   "desc": "雌虫身体粗圆、长满尖刺，样子像一团枯叶。"
+  },
+  {
+   "name": "单性生殖",
+   "icon": "jar",
+   "desc": "没有受精的卵也能孵化，但只孵出雌虫，最长要 9 个月。"
+  }
+ ],
+ "intro": [
+  "澳洲刺竹节虫是澳大利亚特有的大型竹节虫。",
+  "主要分布在新南威尔士东部和昆士兰东部的雨林。",
+  "雄虫又小又瘦，只活 6–8 个月。"
+ ],
+ "fact": "卵要保持在 25 °C 以下才容易孵化。",
+ "range": "澳大利亚东部雨林。",
+ "sources": [
+  "Wikipedia「Extatosoma tiaratum」",
+  "IUCN 红色名录（Rudolf 2017）"
+ ],
+ "footnote": "替换原定的印度竹节虫（资料太少）。"
+}

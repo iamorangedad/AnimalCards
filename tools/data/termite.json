@@ -1,0 +1,77 @@
+{
+ "file": "台湾乳白蚁",
+ "no": "378",
+ "cat": "昆虫",
+ "name_cn": "台湾乳白蚁",
+ "name_en": "Formosan subterranean termite",
+ "latin": "Coptotermes formosanus",
+ "short": "台湾乳白蚁",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃木头",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "每天吃木",
+   "value": "可达约 400 g",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "卵孵化需",
+   "value": "约 20 °C 以上",
+   "lo": 20,
+   "hi": 20,
+   "scale": "temp",
+   "approx": true
+  },
+  {
+   "label": "北界",
+   "value": "很少超过北纬 35°",
+   "lo": 35,
+   "hi": 35,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "美国分布",
+   "value": "11 个州",
+   "lo": 11,
+   "hi": 11,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃房子",
+   "icon": "jar",
+   "desc": "成熟蚁群最快三个月就能严重破坏一栋房子。"
+  },
+  {
+   "name": "入侵扩散",
+   "icon": "team",
+   "desc": "1600 年代传到日本，1800 年代后期到夏威夷，被列入世界百大外来入侵种。"
+  }
+ ],
+ "intro": [
+  "台湾乳白蚁可能在 20 世纪中叶从新奥尔良港登陆美国。",
+  "1990 年以来，美国的扩散速度每年 5.3%（密西西比）到 8.1%（得州）。",
+  "美国平均每户损失约 1 万美元。"
+ ],
+ "fact": "因为卵在 20 °C 以下不孵化，它在美国只分布在南方。",
+ "range": "原产中国南部和台湾，已入侵日本、夏威夷、美国南部等。",
+ "sources": [
+  "Wikipedia「Formosan subterranean termite」",
+  "维基百科「臺灣家白蟻」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；扩散历史来自中文维基。"
+}

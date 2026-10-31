@@ -1,0 +1,77 @@
+{
+ "file": "飞蝗",
+ "no": "366",
+ "cat": "昆虫",
+ "name_cn": "飞蝗",
+ "name_en": "Migratory locust",
+ "latin": "Locusta migratoria",
+ "short": "飞蝗",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "群居成虫",
+   "value": "40–60 mm",
+   "lo": 0.04,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "15–20 km/h",
+   "lo": 15,
+   "hi": 20,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "一天迁飞",
+   "value": "5–130 km",
+   "lo": 5,
+   "hi": 130,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "每平方公里",
+   "value": "4000–8000 万只",
+   "lo": 40000000.0,
+   "hi": 80000000.0,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分布最广",
+   "icon": "team",
+   "desc": "它是分布最广的蝗虫，也是飞蝗属唯一的物种。"
+  },
+  {
+   "name": "超大基因组",
+   "icon": "jar",
+   "desc": "基因组有 6.5 Gbp，是已知最大的昆虫基因组之一。"
+  }
+ ],
+ "intro": [
+  "飞蝗分布在非洲、亚洲、澳大利亚和新西兰。",
+  "在干旱地区会大爆发，其他地方多为独居。",
+  "群居成虫比独居成虫小。"
+ ],
+ "fact": "2017 年起，瑞士正式批准飞蝗作为食品。",
+ "range": "非洲、亚洲、大洋洲。",
+ "sources": [
+  "Wikipedia「Migratory locust」"
+ ],
+ "footnote": "IUCN 评估年份待核；蝗群密度超出量程，显示满格。"
+}

@@ -1,0 +1,76 @@
+{
+ "file": "子弹蚁",
+ "no": "376",
+ "cat": "昆虫",
+ "name_cn": "子弹蚁",
+ "name_en": "Bullet ant",
+ "latin": "Paraponera clavata",
+ "short": "子弹蚁",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "工蚁体长",
+   "value": "18–30 mm",
+   "lo": 0.018,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见海拔",
+   "value": "0–750 m",
+   "lo": 0,
+   "hi": 750,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "剧痛持续",
+   "value": "可达 24 小时",
+   "lo": 24,
+   "hi": 24,
+   "scale": "hours",
+   "approx": false
+  },
+  {
+   "label": "仪式手套",
+   "value": "织入 80 只",
+   "lo": 80,
+   "hi": 80,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最疼的蜇",
+   "icon": "jar",
+   "desc": "在施密特蜇痛指数里被评为最高级 4，疼痛像“一波波灼烧”，可持续 24 小时。"
+  },
+  {
+   "name": "成年礼",
+   "icon": "team",
+   "desc": "巴西萨特雷-马维人的成年仪式，要戴上织进 80 只子弹蚁的手套 5–10 分钟或更久。"
+  }
+ ],
+ "intro": [
+  "子弹蚁只生活在中美洲和南美洲。",
+  "它是在地面和灌木、树上觅食的森林蚂蚁。",
+  "一个蚁群有几百只，通常在树根部筑巢。"
+ ],
+ "fact": "在拉阿米斯塔德国际公园，曾在 1500 m 海拔采到过它。",
+ "range": "中美洲、南美洲的低地森林。",
+ "sources": [
+  "Wikipedia「Paraponera clavata」"
+ ],
+ "footnote": "替换原定的黄猄蚁（资料太少）；未见 IUCN 评估（待核）。"
+}

@@ -1,0 +1,76 @@
+{
+ "file": "红火蚁",
+ "no": "377",
+ "cat": "昆虫",
+ "name_cn": "红火蚁",
+ "name_en": "Red imported fire ant",
+ "latin": "Solenopsis invicta",
+ "short": "红火蚁",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "工蚁",
+   "value": "2.4–6.0 mm",
+   "lo": 0.0024,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成熟蚁群",
+   "value": "50 万–200 万只",
+   "lo": 500000.0,
+   "hi": 2000000.0,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "毒液生物碱",
+   "value": "约 95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "严重过敏",
+   "value": "0.6–6.0% 的人",
+   "lo": 0.6,
+   "hi": 6,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "搭蚁筏",
+   "icon": "team",
+   "desc": "感觉水位上涨时，蚂蚁会抱成一团搭成“筏子”漂浮。"
+  },
+  {
+   "name": "火烧一样疼",
+   "icon": "jar",
+   "desc": "被蜇后有灼烧感，“火蚁”的名字由此而来。"
+  }
+ ],
+ "intro": [
+  "红火蚁原产南美洲。",
+  "它会入侵多种农作物，农田里的蚁丘还会妨碍收割。",
+  "工蚁能活几个月，蚁后能活好几年。"
+ ],
+ "fact": "婚飞时，有翅的雌雄蚁交配可长达 30 分钟。",
+ "range": "原产南美洲，已入侵多个大洲。",
+ "sources": [
+  "Wikipedia「Red imported fire ant」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

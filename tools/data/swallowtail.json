@@ -1,0 +1,78 @@
+{
+ "file": "金凤蝶",
+ "no": "370",
+ "cat": "昆虫",
+ "name_cn": "金凤蝶",
+ "name_en": "Old World swallowtail",
+ "latin": "Papilio machaon",
+ "short": "金凤蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃伞形科植物（茴香、胡萝卜等）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "65–86 mm",
+   "lo": 0.065,
+   "hi": 0.086,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最低分布",
+   "value": "约 610 m",
+   "lo": 610,
+   "hi": 610,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "最高分布",
+   "value": "约 4900 m",
+   "lo": 4900,
+   "hi": 4900,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "锡金分布",
+   "value": "2400 m 以上",
+   "lo": 2400,
+   "hi": 2400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄黑翅膀",
+   "icon": "camo",
+   "desc": "成虫翅膀通常黄色，带黑色脉纹。"
+  },
+  {
+   "name": "爱吃伞形科",
+   "icon": "jar",
+   "desc": "幼虫吃野胡萝卜、茴香、莳萝、欧芹等伞形科植物。"
+  }
+ ],
+ "intro": [
+  "金凤蝶广布欧亚大陆，北美也有。",
+  "因为分布广、很常见，作为物种没有受到威胁。",
+  "英国亚种的幼虫几乎只吃一种沼泽植物。"
+ ],
+ "fact": "在克什米尔，它生活在高山草甸上。",
+ "range": "欧亚大陆、北美。",
+ "sources": [
+  "Wikipedia「Papilio machaon」",
+  "NatureServe"
+ ],
+ "footnote": "未见 IUCN 评估（NatureServe 列为 G 级安全，待核）；最低分布为克什米尔谷地、最高为加瓦尔喜马拉雅。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "金环胡蜂",
+ "no": "375",
+ "cat": "昆虫",
+ "name_cn": "金环胡蜂",
+ "name_en": "Asian giant hornet",
+ "latin": "Vespa mandarinia",
+ "short": "金环胡蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 45 mm",
+   "lo": 0.045,
+   "hi": 0.045,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翼展",
+   "value": "约 75 mm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "毒针",
+   "value": "约 6 mm",
+   "lo": 0.006,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "蜂后",
+   "value": "超过 50 mm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大胡蜂",
+   "icon": "roar",
+   "desc": "它是世界上最大的胡蜂。"
+  },
+  {
+   "name": "毒针",
+   "icon": "jar",
+   "desc": "6 mm 长的毒针注射大量毒液；多只同时蜇或过敏时可致人死亡。"
+  }
+ ],
+ "intro": [
+  "金环胡蜂在日本很常见。",
+  "工蜂体长 35–40 mm。",
+  "2019 年底起曾短暂出现在北美西北部，后被清除。"
+ ],
+ "fact": "日本一些媒体称它为“杀人蜂”。",
+ "range": "东亚、南亚、东南亚大陆。",
+ "sources": [
+  "Wikipedia「Asian giant hornet」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

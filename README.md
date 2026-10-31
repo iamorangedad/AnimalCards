@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 360 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 10）。
+共 380 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 30）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -368,6 +368,26 @@
 | 103 | 双叉犀金龟（Japanese rhinoceros beetle） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%8C%E5%8F%89%E7%8A%80%E9%87%91%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%8C%E5%8F%89%E7%8A%80%E9%87%91%E9%BE%9F.pdf) |
 | 104 | 周期蝉（Periodical cicada） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%91%A8%E6%9C%9F%E8%9D%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%91%A8%E6%9C%9F%E8%9D%89.pdf) |
 | 105 | 家蟋蟀（House cricket） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9F%8B%E8%9F%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9F%8B%E8%9F%80.pdf) |
+| 361 | 家蝇（Housefly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9D%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9D%87.pdf) |
+| 362 | 埃及伊蚊（Yellow fever mosquito） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9F%83%E5%8F%8A%E4%BC%8A%E8%9A%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9F%83%E5%8F%8A%E4%BC%8A%E8%9A%8A.pdf) |
+| 363 | 德国小蠊（German cockroach） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%BE%B7%E5%9B%BD%E5%B0%8F%E8%A0%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%BE%B7%E5%9B%BD%E5%B0%8F%E8%A0%8A.pdf) |
+| 364 | 美洲大蠊（American cockroach） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%BE%8E%E6%B4%B2%E5%A4%A7%E8%A0%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%BE%8E%E6%B4%B2%E5%A4%A7%E8%A0%8A.pdf) |
+| 365 | 沙漠蝗（Desert locust） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%B2%99%E6%BC%A0%E8%9D%97.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%B2%99%E6%BC%A0%E8%9D%97.pdf) |
+| 366 | 飞蝗（Migratory locust） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%A3%9E%E8%9D%97.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%A3%9E%E8%9D%97.pdf) |
+| 367 | 澳洲刺竹节虫（Giant prickly stick insect） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%BE%B3%E6%B4%B2%E5%88%BA%E7%AB%B9%E8%8A%82%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%BE%B3%E6%B4%B2%E5%88%BA%E7%AB%B9%E8%8A%82%E8%99%AB.pdf) |
+| 368 | 臭虫（Bed bug） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%87%AD%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%87%AD%E8%99%AB.pdf) |
+| 369 | 乌桕大蚕蛾（Atlas moth） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%B9%8C%E6%A1%95%E5%A4%A7%E8%9A%95%E8%9B%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%B9%8C%E6%A1%95%E5%A4%A7%E8%9A%95%E8%9B%BE.pdf) |
+| 370 | 金凤蝶（Old World swallowtail） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%91%E5%87%A4%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%91%E5%87%A4%E8%9D%B6.pdf) |
+| 371 | 菜粉蝶（Small white） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%8F%9C%E7%B2%89%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%8F%9C%E7%B2%89%E8%9D%B6.pdf) |
+| 372 | 大蓝闪蝶（Peleides blue morpho） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%A4%A7%E8%93%9D%E9%97%AA%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%A4%A7%E8%93%9D%E9%97%AA%E8%9D%B6.pdf) |
+| 373 | 小红蛱蝶（Painted lady） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B0%8F%E7%BA%A2%E8%9B%B1%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B0%8F%E7%BA%A2%E8%9B%B1%E8%9D%B6.pdf) |
+| 374 | 欧洲熊蜂（Buff-tailed bumblebee） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E7%86%8A%E8%9C%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E7%86%8A%E8%9C%82.pdf) |
+| 375 | 金环胡蜂（Asian giant hornet） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%91%E7%8E%AF%E8%83%A1%E8%9C%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%91%E7%8E%AF%E8%83%A1%E8%9C%82.pdf) |
+| 376 | 子弹蚁（Bullet ant） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AD%90%E5%BC%B9%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AD%90%E5%BC%B9%E8%9A%81.pdf) |
+| 377 | 红火蚁（Red imported fire ant） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%BA%A2%E7%81%AB%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%BA%A2%E7%81%AB%E8%9A%81.pdf) |
+| 378 | 台湾乳白蚁（Formosan subterranean termite） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%B0%E6%B9%BE%E4%B9%B3%E7%99%BD%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%B0%E6%B9%BE%E4%B9%B3%E7%99%BD%E8%9A%81.pdf) |
+| 379 | 欧洲深山锹形虫（European stag beetle） | 昆虫 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E6%B7%B1%E5%B1%B1%E9%94%B9%E5%BD%A2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E6%B7%B1%E5%B1%B1%E9%94%B9%E5%BD%A2%E8%99%AB.pdf) |
+| 380 | 圣甲虫（Sacred scarab） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9C%A3%E7%94%B2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9C%A3%E7%94%B2%E8%99%AB.pdf) |
 
 ## 说明
 

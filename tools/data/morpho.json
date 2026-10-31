@@ -1,0 +1,77 @@
+{
+ "file": "大蓝闪蝶",
+ "no": "372",
+ "cat": "昆虫",
+ "name_cn": "大蓝闪蝶",
+ "name_en": "Peleides blue morpho",
+ "latin": "Morpho peleides",
+ "short": "大蓝闪蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "约 12.7–20.3 cm",
+   "lo": 0.127,
+   "hi": 0.203,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "卵期",
+   "value": "7–16 天",
+   "lo": 7,
+   "hi": 16,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "幼虫期",
+   "value": "40–50 天",
+   "lo": 40,
+   "hi": 50,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "蛹期",
+   "value": "约 14 天",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "结构色",
+   "icon": "camo",
+   "desc": "闪亮的蓝色不是色素，而是翅膀上层层鳞片反射、干涉光线形成的。"
+  },
+  {
+   "name": "大蝴蝶",
+   "icon": "flip",
+   "desc": "属于大型蝴蝶，翼展 5–8 英寸。"
+  }
+ ],
+ "intro": [
+  "大蓝闪蝶是热带蝴蝶。",
+  "翅膀正面亮蓝色，雄蝶的蓝色几乎延伸到翅缘 1 cm 以内。",
+  "底层鳞片比覆盖鳞片的闪光更强。"
+ ],
+ "fact": "卵期长短因亚种而异。",
+ "range": "中美洲、墨西哥到巴拉圭。",
+ "sources": [
+  "Wikipedia「Morpho peleides」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；翼展由英寸换算。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "菜粉蝶",
+ "no": "371",
+ "cat": "昆虫",
+ "name_cn": "菜粉蝶",
+ "name_en": "Small white",
+ "latin": "Pieris rapae",
+ "short": "菜粉蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃十字花科蔬菜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "32–47 mm",
+   "lo": 0.032,
+   "hi": 0.047,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次飞行",
+   "value": "可达 12 km",
+   "lo": 12,
+   "hi": 12,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "雌每天飞",
+   "value": "约 0.7 km",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "km",
+   "approx": true
+  },
+  {
+   "label": "雌寿命",
+   "value": "可达 3 周",
+   "lo": 21,
+   "hi": 21,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "菜园害虫",
+   "icon": "jar",
+   "desc": "幼虫叫“菜青虫”，危害卷心菜、羽衣甘蓝、小白菜和西兰花。"
+  },
+  {
+   "name": "全球扩散",
+   "icon": "team",
+   "desc": "被意外带到北美（1860 年代）、夏威夷、新西兰和澳大利亚。"
+  }
+ ],
+ "intro": [
+  "菜粉蝶在欧洲叫小白蝶，在北美叫菜白蝶。",
+  "幼虫在 10–35 °C 之间长得越来越快，超过 35 °C 就迅速变慢。",
+  "雌蝶会在 500 m 到几公里范围内寻找十字花科植物。"
+ ],
+ "fact": "在实验室里，雌蝶约在成虫一周后产卵最多。",
+ "range": "原产欧亚和北非，现遍布各大洲。",
+ "sources": [
+  "Wikipedia「Pieris rapae」",
+  "IUCN 红色名录（van Swaay 2025）"
+ ],
+ "footnote": ""
+}

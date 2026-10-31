@@ -1,0 +1,77 @@
+{
+ "file": "圣甲虫",
+ "no": "380",
+ "cat": "昆虫",
+ "name_cn": "圣甲虫",
+ "name_en": "Sacred scarab",
+ "latin": "Scarabaeus sacer",
+ "short": "圣甲虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以动物粪便为食",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "1.9–4.0 cm",
+   "lo": 0.019,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "拉动体重*",
+   "value": "1141 倍",
+   "lo": 1141,
+   "hi": 1141,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "一夜埋粪*",
+   "value": "自身重 250 倍",
+   "lo": 250,
+   "hi": 250,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "减少灌丛蝇*",
+   "value": "约 90%（澳大利亚）",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "滚粪球",
+   "icon": "jar",
+   "desc": "前足专门用来挖掘和把粪便做成球，然后滚走。"
+  },
+  {
+   "name": "古埃及圣虫",
+   "icon": "team",
+   "desc": "在古埃及受到崇拜。"
+  }
+ ],
+ "intro": [
+  "圣甲虫是一种全身黑色的粗壮甲虫。",
+  "原产南欧、北非和西亚。",
+  "在法国卡马格，它几乎只生活在海岸沙丘和沼泽。"
+ ],
+ "fact": "它属于把粪便做成球滚走的“滚粪型”蜣螂。",
+ "range": "南欧、北非、西亚。",
+ "sources": [
+  "Wikipedia「Scarabaeus sacer」",
+  "Wikipedia「Dung beetle」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；*为蜣螂类群数据（拉力为公牛嗡蜣螂），不是圣甲虫本身。"
+}

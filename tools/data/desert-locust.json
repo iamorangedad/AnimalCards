@@ -1,0 +1,77 @@
+{
+ "file": "沙漠蝗",
+ "no": "365",
+ "cat": "昆虫",
+ "name_cn": "沙漠蝗",
+ "name_en": "Desert locust",
+ "latin": "Schistocerca gregaria",
+ "short": "沙漠蝗",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "独居雌体长",
+   "value": "6–9 cm",
+   "lo": 0.06,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每卵囊",
+   "value": "可达 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "一天飞行",
+   "value": "可达 150 km",
+   "lo": 150,
+   "hi": 150,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "每平方公里",
+   "value": "约 1.5 亿只",
+   "lo": 150000000.0,
+   "hi": 150000000.0,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变身群居",
+   "icon": "team",
+   "desc": "平时是独居、短翅的类型，条件合适时会变成长翅、成群迁飞的类型。"
+  },
+  {
+   "name": "胃口惊人",
+   "icon": "jar",
+   "desc": "一片 1 平方公里的蝗群一天吃掉的食物，约等于 3.5 万人的量。"
+  }
+ ],
+ "intro": [
+  "蝗群会顺着风飞行，一天可达 150 km。",
+  "大爆发时可能影响约 60 个国家、3200 万平方公里，约地球陆地的 20%。",
+  "雌蝗把腹部插进土里，在约 10 cm 深处产卵囊。"
+ ],
+ "fact": "条件合适时 2–4 周就能成熟，否则可能要 6 个月。",
+ "range": "北非、东非、阿拉伯半岛等干旱地区。",
+ "sources": [
+  "Wikipedia「Desert locust」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；蝗群密度超出量程，显示满格。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "欧洲深山锹形虫",
+ "no": "379",
+ "cat": "昆虫",
+ "name_cn": "欧洲深山锹形虫",
+ "name_en": "European stag beetle",
+ "latin": "Lucanus cervus",
+ "short": "欧洲深山锹形虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2010"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "可达 7.5 cm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌体长",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "约 30 枚",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "幼虫期",
+   "value": "3–7 年",
+   "lo": 3,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鹿角大颚",
+   "icon": "trunk",
+   "desc": "雄虫的大颚像雄鹿的角，也像鹿一样用来打架。"
+  },
+  {
+   "name": "纸老虎",
+   "icon": "camo",
+   "desc": "大颚看起来吓人，其实力气太小，伤不了人。"
+  }
+ ],
+ "intro": [
+  "它是欧洲最大的甲虫。",
+  "雌虫把约 30 枚卵产在土里深处的朽木中。",
+  "西班牙、德国和荷兰的个体比比利时和英国的大。"
+ ],
+ "fact": "幼虫要 3–7 年才化蛹，成虫却只活几周。",
+ "range": "欧洲。",
+ "sources": [
+  "Wikipedia「Lucanus cervus」",
+  "IUCN 红色名录（Nieto 2010）"
+ ],
+ "footnote": "IUCN 评估年代较早（2010 年）。"
+}

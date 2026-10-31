@@ -797,3 +797,120 @@ ART4["olm"] = L_("deep", (.6, 520, 200), F="#f2d8d0", L=240, H=30, tail=.7, snou
 ART4["clawed-frog"] = FR_("pond", "#8a8a6a", "#e8e4d0", spots="#5a5a42")
 ART4["goliath-frog"] = FR_("rainforest", "#6a7a3a", "#d8d0a0", spots="#4a5a2a", box=(.76, 480, 280))
 ART4["jp-treefrog"] = FR_("forest", "#6ac04a", "#f2f2e0", pre=branch(-220, 220, 4, 10))
+# ---------------- insects (phase 3)
+from art3 import legs6, antenna, wing
+def _fly(F="#3a3a3a", wcol="#eef6fb", eye="#a83a2a", stripes=None, ab=1.0, legs_long=False, sting=False, wings=2):
+    o = wing(10, -100, 130, 48, -30, wcol) + (wing(0, -96, 100, 36, -12, wcol) if wings > 1 else "")
+    o += legs6([-40, -5, 30], -64, h=80 if legs_long else 50, sw=4)
+    abd = f"M10 -110 C{60*ab} -130 {130*ab} -110 {130*ab} -80 C{130*ab} -50 {60*ab} -40 10 -60 Z"
+    st = "".join(R(26 + i * 26 * ab, -140, 13 * ab, 120, stripes, 0, 0, "none") for i in range(4)) if stripes else ""
+    o += P(abd, F) + (clip(abd, st) + P(abd, "none") if st else "")
+    o += E(-20, -86, 36, 30, darker(F, .85)) + C(-60, -92, 24, eye) + C(-66, -98, 6, "#ffffff", 0)
+    if sting: o += P(f"M{130*ab} -80 l16 0", sw=4)
+    return o
+def FLY_(kind, box=(.68, 420, 300), pre="", post="", s=1.0, **kw):
+    return lambda w, h: scene(kind, w, h, pre + G_(_fly(**kw) + post, 0, 0, s), box=(w / 2, h * box[0], box[1], box[2]))
+def _bfly(F, F2=None, vein=INK, spots="#ffffff", lo=None, tails=False, moth=False):
+    o = ""
+    for s in (-1, 1):
+        up = f"M0 -120 C{s*40} -230 {s*190} -250 {s*200} -190 C{s*200} -140 {s*120} -110 0 -110 Z"
+        lw = f"M0 -100 C{s*60} -110 {s*170} -90 {s*150} -30 C{s*120} 10 {s*40} -20 0 -90 Z"
+        for d, c in ((lw, lo or F2 or F), (up, F)):
+            veins = "".join(P(f"M0 -110 L{s*(60+k*40)} {-240+k*50}", sw=4, col=vein) for k in range(4)) if d == up else "".join(P(f"M0 -95 L{s*(60+k*30)} {-80+k*20}", sw=4, col=vein) for k in range(3))
+            o += P(d, c, 5) + clip(d, veins) + P(d, "none", 5)
+        if spots: o += "".join(C(s * (150 + k * 12), -210 + k * 22, 5, spots, 0) for k in range(3))
+        if tails: o += P(f"M{s*120} -20 l{s*14} 40", sw=8, col=INK)
+    o += E(0, -105, 12 if moth else 10, 50, "#8a6a4a" if moth else INK, 0) + C(0, -160, 12, INK, 0)
+    if moth: o += P("M-4 -168 q-30 -50 -50 -60 M4 -168 q30 -50 50 -60", sw=6, col="#8a6a4a")
+    else: o += antenna(-4, -168, 60, -110, 8, 2.6, club=True) + antenna(4, -168, 60, -70, -8, 2.6, club=True)
+    return o
+def BF_(kind, box=(.66, 460, 320), pre="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _bfly(**kw), box=(w / 2, h * box[0], box[1], box[2]))
+def _beetle(F, shine="#8a6a4a", horn=None, mand=None, L=1.0, spots=None):
+    o = legs6([-40, 10, 60], -40, h=40, sw=7)
+    body = f"M-20 -50 C-20 -150 {160*L} -150 {170*L} -60 C{160*L} -30 0 -20 -20 -50 Z"
+    o += P(body, F) + (clip(body, spots) if spots else "") + P(body, "none")
+    o += P(f"M-20 -96 C30 -100 60 -120 70 -130", sw=2.4, col=shine)
+    o += P("M-20 -50 C-50 -40 -80 -60 -70 -90 C-50 -110 -20 -110 -20 -50 Z", darker(F, .8))
+    if horn == "hercules":
+        o += P("M-60 -100 C-120 -160 -200 -150 -230 -120", sw=16) + P("M-60 -100 C-120 -160 -200 -150 -230 -120", sw=10, col=F)
+        o += P("M-70 -70 C-130 -80 -190 -90 -210 -110", sw=10) + P("M-70 -70 C-130 -80 -190 -90 -210 -110", sw=6, col=darker(F, .7))
+    if mand == "stag":
+        for dy in (-10, 10):
+            o += P(f"M-70 {-70+dy} C-130 {-110+dy} -170 {-80+dy} -180 {-40+dy*2}", sw=12) + P(f"M-70 {-70+dy} C-130 {-110+dy} -170 {-80+dy} -180 {-40+dy*2}", sw=7, col="#8a3a2a")
+    o += C(-62, -80, 4, "#e9d8b8", 0) + antenna(-70, -88, 40, -160, 8, 3)
+    return o
+def BE_(kind, box=(.74, 460, 300), pre="", post="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + G_(_beetle(**kw) + post, 0, -2), box=(w / 2, h * box[0], box[1], box[2]))
+def _ant(F="#2a2422", head=None, wings=False, mand=False):
+    o = legs6([-40, 0, 30], -40, h=40, sw=5)
+    o += E(90, -56, 52, 34, F) + E(10, -50, 30, 18, F) + C(40, -66, 10, F, 2.6)
+    o += C(-56, -60, 28, head or F) + C(-66, -66, 6, "#6a6a6a", 0)
+    o += P("M-70 -84 l-10 -40 l-34 -10", sw=4) + P("M-60 -86 l4 -44 l-28 -16", sw=4)
+    o += P("M-84 -46 l-24 6 M-84 -56 l-24 -6", sw=5 if mand else 3)
+    if wings: o += wing(10, -80, 170, 44, -14, "#eef6fb")
+    return o
+def ANT_(kind, box=(.74, 420, 220), pre="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _ant(**kw), box=(w / 2, h * box[0], box[1], box[2]))
+def _hopper(F, wingc=None, L=1.0, ant_long=False, dig=False):
+    o = P("M60 -70 L160 -150 L190 0", sw=14) + P("M60 -70 L160 -150 L190 0", sw=9, col=F)
+    o += legs6([-40, 0], -50, h=40, sw=5)
+    if dig: o += P("M-50 -60 l-40 20 l-20 30", sw=14) + P("M-50 -60 l-40 20 l-20 30", sw=9, col=darker(F, .8))
+    body = f"M-30 -100 C40 -116 {150*L} -96 {160*L} -66 C{150*L} -40 40 -36 -30 -50 Z"
+    o += P(body, F) + (P(f"M-10 -104 C40 -116 {140*L} -100 {170*L} -76 L{150*L} -70 C100 -84 40 -90 -10 -90 Z", wingc, 2.4) if wingc else "")
+    o += E(-50, -78, 30, 28, darker(F, .85)) + C(-64, -88, 6, INK, 0)
+    o += antenna(-72, -96, 200 if ant_long else 70, -170, 40 if ant_long else 10, 2.4)
+    return o
+def HOP_(kind, box=(.74, 460, 260), pre="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _hopper(**kw), box=(w / 2, h * box[0], box[1], box[2]))
+def _roach(F, L=1.0):
+    o = legs6([-30, 20, 70], -30, h=40, sw=5)
+    o += E(60 * L, -50, 120 * L, 34, F) + P(f"M{-50} -60 L{180*L} -50", sw=2, col=darker(F, .7))
+    o += E(-70, -50, 34, 26, darker(F, .9)) + C(-90, -56, 5, INK, 0)
+    o += antenna(-96, -64, 200, -165, 40, 2.4) + antenna(-96, -60, 180, -150, 50, 2.4) + P(f"M{180*L} -50 l30 -14 M{180*L} -46 l30 10", sw=3)
+    return o
+def ROACH_(kind, box=(.76, 480, 220), pre="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _roach(**kw), box=(w / 2, h * box[0], box[1], box[2]))
+def _shield(F, L=1.0, legs_long=False, wingc=None, beak=False):
+    o = ""
+    if legs_long:
+        for x, dx in ((-40, -170), (10, 160), (40, 200)):
+            o += P(f"M{x} -50 l{dx*.4} -40 l{dx*.6} 70", sw=4)
+    else: o += legs6([-30, 10, 50], -30, h=36, sw=5)
+    o += P(f"M-40 -50 C-40 -120 {150*L} -120 {160*L} -60 L{100*L} -30 L0 -30 Z", F)
+    if wingc: o += P(f"M0 -100 C60 -120 {160*L} -100 {170*L} -60 C120 -70 60 -80 0 -80 Z", wingc, 2.4)
+    o += E(-56, -60, 26, 20, darker(F, .85)) + C(-70, -66, 6, "#a83a2a", 0) + antenna(-76, -70, 80, -150, 16, 2.6)
+    if beak: o += P("M-70 -50 l-10 40", sw=4)
+    return o
+def SH_(kind, box=(.74, 440, 240), pre="", post="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _shield(**kw) + post, box=(w / 2, h * box[0], box[1], box[2]))
+def _stick(F="#8a9a5a", L=1.0, spiky=False):
+    o = P(f"M-180 -60 L{200*L} -60", sw=22) + P(f"M-180 -60 L{200*L} -60", sw=16, col=F)
+    for x, dx in ((-120, -60), (-40, 40), (60, 80)):
+        o += P(f"M{x} -60 l{dx*.5} -50 l{dx*.5} 110", sw=7) + P(f"M{x} -60 l{dx*.5} -50 l{dx*.5} 110", sw=4, col=F)
+    if spiky: o += "".join(poly([(-150 + i * 30, -70), (-140 + i * 30, -90), (-130 + i * 30, -70)], F, 2) for i in range(10))
+    o += C(-190, -62, 16, F) + antenna(-200, -70, 90, -170, 10, 3)
+    return o
+def ST_(kind, box=(.72, 520, 240), pre="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + _stick(**kw), box=(w / 2, h * box[0], box[1], box[2]))
+LEAF = P("M-220 10 C-120 -40 120 -40 240 10 C120 30 -120 30 -220 10 Z", SAGE_L, 2.8) + P("M-220 10 L240 10", sw=2, col=SAGE)
+ART4["housefly"] = FLY_("home", F="#4a4a4a", eye="#a83a2a")
+ART4["mosquito"] = FLY_("home", F="#2a2a2a", stripes="#f2f2f2", ab=1.3, legs_long=True, eye="#2a2a2a", post=P("M-80 -86 l-50 20", sw=4))
+ART4["ger-roach"] = ROACH_("home", F="#b8884a", L=.8)
+ART4["am-roach"] = ROACH_("home", F="#8a4a2a", L=1.1)
+ART4["desert-locust"] = HOP_("desert", F="#e8c84a", wingc="#c9a86a")
+ART4["mig-locust"] = HOP_("meadow", F="#8aa84a", wingc="#a89a6a")
+ART4["prickly-stick"] = ST_("forest", F="#a89a6a", spiky=True, pre=branch(-260, 260, 4, 8))
+ART4["atlas-moth"] = BF_("rainforest", F="#b8542a", F2="#a8442a", vein="#5a2a1a", spots="#f2e8c8", moth=True)
+ART4["swallowtail"] = BF_("meadow", F="#f2d23a", vein=INK, spots="#3a6ac0", tails=True)
+ART4["cabbage-white"] = BF_("farm", F="#f6f6f0", vein="#c9ccd0", spots=INK)
+ART4["morpho"] = BF_("rainforest", F="#2a7ae8", F2="#2a6ad8", vein="#1a2a4a", spots="#ffffff")
+ART4["painted-lady"] = BF_("meadow", F="#f2903a", F2="#e8803a", vein=INK, spots="#ffffff")
+ART4["bumblebee"] = FLY_("meadow", F="#f2c53a", stripes=INK, ab=1.1, eye="#2a2a2a", sting=True)
+ART4["hornet"] = FLY_("forest", F="#e8a02a", stripes="#3a2a1a", ab=1.3, eye="#3a2a1a", sting=True, wcol="#e8dcc0")
+ART4["bullet-ant"] = ANT_("rainforest", F="#3a2220", head="#5a2a20", mand=True)
+ART4["fire-ant"] = ANT_("meadow", F="#a8422a", head="#b84a2a")
+ART4["termite"] = ANT_("forest", F="#f2e8d0", head="#c98a3a", mand=True, pre=R(-200, -2, 420, 24, "#c9a27a", 10, 3))
+ART4["stag-beetle"] = BE_("forest", F="#3a2a22", mand="stag", pre=R(-200, -2, 420, 24, "#c9a27a", 10, 3))
+ART4["scarab"] = BE_("desert", F="#1f1f22", shine="#5a5a6a", post=C(200, -60, 60, "#8a6a4a", 3))
+ART4["bedbug"] = SH_("home", F="#a8542a")

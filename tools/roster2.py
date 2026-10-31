@@ -85,17 +85,17 @@ R3 = [
 ("jp-treefrog","日本雨蛙","Japanese tree frog",Rp,""),
 # 昆虫 40
 ("housefly","家蝇","Housefly",I,""),("mosquito","埃及伊蚊","Aedes aegypti",I,""),("ger-roach","德国小蠊","German cockroach",I,""),("am-roach","美洲大蠊","American cockroach",I,""),
-("desert-locust","沙漠蝗","Desert locust",I,""),("mig-locust","飞蝗","Migratory locust",I,""),("stick-insect","印度竹节虫","Carausius morosus",I,""),("orchid-mantis","兰花螳螂","Hymenopus coronatus",I,""),
+("desert-locust","沙漠蝗","Desert locust",I,""),("mig-locust","飞蝗","Migratory locust",I,""),("prickly-stick","澳洲刺竹节虫","Extatosoma tiaratum",I,""),("bedbug","臭虫","Bed bug",I,""),
 ("atlas-moth","乌桕大蚕蛾","Attacus atlas",I,""),("swallowtail","金凤蝶","Papilio machaon",I,""),("cabbage-white","菜粉蝶","Pieris rapae",I,""),("morpho","大蓝闪蝶","Morpho peleides",I,""),
-("painted-lady","小红蛱蝶","Vanessa cardui",I,""),("bumblebee","欧洲熊蜂","Bombus terrestris",I,""),("hornet","金环胡蜂","Asian giant hornet",I,""),("leafcutter","切叶蚁","Atta cephalotes",I,""),
+("painted-lady","小红蛱蝶","Vanessa cardui",I,""),("bumblebee","欧洲熊蜂","Bombus terrestris",I,""),("hornet","金环胡蜂","Asian giant hornet",I,""),("bullet-ant","子弹蚁","Paraponera clavata",I,""),
 ("fire-ant","红火蚁","Red imported fire ant",I,""),("termite","台湾乳白蚁","Coptotermes formosanus",I,""),("stag-beetle","欧洲深山锹形虫","Lucanus cervus",I,""),
 ("scarab","圣甲虫","Scarabaeus sacer",I,""),("goliath-beetle","歌利亚大角花金龟","Goliathus",I,""),("hercules","长戟大兜虫","Hercules beetle",I,""),
-("potato-beetle","马铃薯甲虫","Colorado potato beetle",I,""),("water-strider","水黾","Gerris lacustris",I,""),("water-bug","田鳖","Lethocerus",I,""),
+("potato-beetle","马铃薯甲虫","Colorado potato beetle",I,""),("water-strider","水黾","Gerris lacustris",I,""),("silkworm","家蚕","Bombyx mori",I,""),
 ("stink-bug","茶翅蝽","Brown marmorated stink bug",I,""),("aphid","豌豆蚜","Pea aphid",I,""),("flea","猫栉首蚤","Cat flea",I,""),("earwig","欧洲蠼螋","Forficula auricularia",I,""),
-("demoiselle","色蟌","Banded demoiselle",I,""),("antlion","蚁狮","Myrmeleon formicarius",I,""),("fruit-fly","黑腹果蝇","Drosophila melanogaster",I,""),
-("mole-cricket","东方蝼蛄","Gryllotalpa orientalis",I,""),("silverfish","衣鱼","Silverfish",I,""),("bsf","亮斑扁角水虻","Black soldier fly",I,""),
-("diving-beetle","黄缘龙虱","Dytiscus marginalis",I,""),("lacewing","普通草蛉","Chrysoperla carnea",I,""),("luna-moth","月形天蚕蛾","Luna moth",I,""),
-("mayfly","丹麦蜉","Ephemera danica",I,""),("katydid","绿丛螽斯","Great green bush-cricket",I,""),
+("tsetse","采采蝇","Tsetse fly",I,""),("antlion-f","蚁蛉","Antlion",I,""),("fruit-fly","黑腹果蝇","Drosophila melanogaster",I,""),
+("eu-mole","欧洲蝼蛄","Gryllotalpa gryllotalpa",I,""),("silverfish","衣鱼","Silverfish",I,""),("bsf","亮斑扁角水虻","Black soldier fly",I,""),
+("jewel-wasp","扁头泥蜂","Emerald cockroach wasp",I,""),("lacewing","普通草蛉","Chrysoperla carnea",I,""),("luna-moth","月形天蚕蛾","Luna moth",I,""),
+("mayfly-o","蜉蝣","Mayfly",I,""),("lanternfly","斑衣蜡蝉","Spotted lanternfly",I,""),
 ]
 if __name__ == "__main__":
     from collections import Counter

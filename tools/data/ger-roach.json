@@ -1,0 +1,76 @@
+{
+ "file": "德国小蠊",
+ "no": "363",
+ "cat": "昆虫",
+ "name_cn": "德国小蠊",
+ "name_en": "German cockroach",
+ "latin": "Blattella germanica",
+ "short": "德国小蠊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "1.1–1.6 cm",
+   "lo": 0.011,
+   "hi": 0.016,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵鞘",
+   "value": "约 6.4 mm",
+   "lo": 0.0064,
+   "hi": 0.0064,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "若虫初生",
+   "value": "约 3 mm",
+   "lo": 0.003,
+   "hi": 0.003,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "若虫龄数",
+   "value": "6–7 龄",
+   "lo": 6,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "繁殖最快",
+   "icon": "team",
+   "desc": "它是家里各种蟑螂中繁殖最快的。"
+  },
+  {
+   "name": "背着卵鞘",
+   "icon": "jar",
+   "desc": "雌虫把卵鞘带在腹部末端，卵鞘 48 小时内从透明变成栗壳般的红褐色。"
+  }
+ ],
+ "intro": [
+  "德国小蠊以前被认为来自欧洲或东非。",
+  "最新证据显示它起源于南亚或东南亚。",
+  "它怕冷，可能和起源于温暖地区有关。"
+ ],
+ "fact": "若虫蜕皮很危险，近一半在成熟前就自然死亡。",
+ "range": "全世界的室内环境。",
+ "sources": [
+  "Wikipedia「German cockroach」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

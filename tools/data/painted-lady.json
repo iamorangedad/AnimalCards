@@ -1,0 +1,77 @@
+{
+ "file": "小红蛱蝶",
+ "no": "373",
+ "cat": "昆虫",
+ "name_cn": "小红蛱蝶",
+ "name_en": "Painted lady",
+ "latin": "Vanessa cardui",
+ "short": "小红蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "有记录的寄主植物超过 300 种",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "往返迁徙",
+   "value": "约 14500 km",
+   "lo": 14500,
+   "hi": 14500,
+   "scale": "km_xl",
+   "approx": false
+  },
+  {
+   "label": "越洋飞行",
+   "value": "约 4200 km",
+   "lo": 4200,
+   "hi": 4200,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "寄主植物",
+   "value": "300 种以上",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "群飞离起点",
+   "value": "通常不超过 4.5 m",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分布最广",
+   "icon": "team",
+   "desc": "它是分布最广的蝴蝶，在北美曾叫“世界蝴蝶”。"
+  },
+  {
+   "name": "长途迁徙",
+   "icon": "flip",
+   "desc": "英国种群秋天分几代接力，往返热带非洲和北极圈之间。"
+  }
+ ],
+ "intro": [
+  "小红蛱蝶分布在除南极洲外的每个大洲。",
+  "2024 年研究首次证明它能从非洲飞越大西洋到南美洲。",
+  "那次飞越约 4200 km，是昆虫最长的旅程之一。"
+ ],
+ "fact": "2019 年春天，大雨让沙漠长满植物，引发了特别大的迁徙。",
+ "range": "除南极洲外的各大洲。",
+ "sources": [
+  "Wikipedia「Vanessa cardui」"
+ ],
+ "footnote": "IUCN 评估年份待核。"
+}

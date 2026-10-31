@@ -1,0 +1,77 @@
+{
+ "file": "家蝇",
+ "no": "361",
+ "cat": "昆虫",
+ "name_cn": "家蝇",
+ "name_en": "Housefly",
+ "latin": "Musca domestica",
+ "short": "家蝇",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃多种食物（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "6–7 mm",
+   "lo": 0.006,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "13–15 mm",
+   "lo": 0.013,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一生产卵",
+   "value": "可达 500 枚",
+   "lo": 500,
+   "hi": 500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "2–4 周",
+   "lo": 14,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色复眼",
+   "icon": "ear",
+   "desc": "一对红色复眼，雌蝇的两眼离得更远一些。"
+  },
+  {
+   "name": "跟着人类",
+   "icon": "team",
+   "desc": "可能起源于中东，随人类扩散到全世界。"
+  }
+ ],
+ "intro": [
+  "家蝇只有一对膜质翅膀，胸部有四条深色纵纹。",
+  "每批约产 100 枚卵，产在腐烂的有机物上。",
+  "蛆在 2–5 天后化成约 8 mm 的红褐色蛹。"
+ ],
+ "fact": "1794 年，诗人威廉·布莱克写过一首诗《苍蝇》，讲生命的短暂。",
+ "range": "全世界与人类共存。",
+ "sources": [
+  "Wikipedia「Housefly」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

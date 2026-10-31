@@ -1,0 +1,76 @@
+{
+ "file": "美洲大蠊",
+ "no": "364",
+ "cat": "昆虫",
+ "name_cn": "美洲大蠊",
+ "name_en": "American cockroach",
+ "latin": "Periplaneta americana",
+ "short": "美洲大蠊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "奔跑速度",
+   "value": "5.4 km/h",
+   "lo": 5.4,
+   "hi": 5.4,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "若虫成熟",
+   "value": "6–12 个月",
+   "lo": 6,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "一生后代",
+   "value": "平均 150 只",
+   "lo": 150,
+   "hi": 150,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞毛腿",
+   "icon": "flip",
+   "desc": "实验中跑出 5.4 km/h，每秒约 50 个身长，相当于人跑 330 km/h。"
+  },
+  {
+   "name": "断肢再生",
+   "icon": "camo",
+   "desc": "若虫的腿断了可以再长出来。"
+  }
+ ],
+ "intro": [
+  "美洲大蠊虽然叫“美洲”，其实原产非洲和中东。",
+  "早在 1625 年就从非洲被带到今天的美国。",
+  "卵鞘约 0.9 cm 长，6–8 周后孵出若虫。"
+ ],
+ "fact": "它的整个繁殖周期可长达 600 天。",
+ "range": "原产非洲和中东，现遍布全球。",
+ "sources": [
+  "Wikipedia「American cockroach」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

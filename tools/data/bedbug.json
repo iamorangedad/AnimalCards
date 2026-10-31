@@ -1,0 +1,76 @@
+{
+ "file": "臭虫",
+ "no": "368",
+ "cat": "昆虫",
+ "name_cn": "臭虫",
+ "name_en": "Bed bug",
+ "latin": "Cimex",
+ "short": "臭虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吸血，通常在夜间",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长*",
+   "value": "1–7 mm",
+   "lo": 0.001,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "不吃也能活*",
+   "value": "约 300 天",
+   "lo": 300,
+   "hi": 300,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "咬痕*",
+   "value": "2–5 mm",
+   "lo": 0.002,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "化石记录*",
+   "value": "至少 3500 年",
+   "lo": 3500,
+   "hi": 3500,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜里吸血",
+   "icon": "jar",
+   "desc": "臭虫是吸血的寄生虫，通常在夜里出来吸血。"
+  },
+  {
+   "name": "难以消灭",
+   "icon": "camo",
+   "desc": "能约 300 天不吃东西，所以很难从家里清除。"
+  }
+ ],
+ "intro": [
+  "臭虫属于臭虫科，主要是臭虫属的种类。",
+  "被咬后 20–70% 的人没有明显反应。",
+  "症状通常 1–2 周不经治疗就会消退。"
+ ],
+ "fact": "埃及的化石显示，臭虫作为人类寄生虫至少已有 3500 年。",
+ "range": "全世界与人类共存。",
+ "sources": [
+  "Wikipedia「Bed bug」"
+ ],
+ "footnote": "替换原定的兰花螳螂（资料太少）；*为臭虫类群数据；未见 IUCN 评估（待核）。"
+}

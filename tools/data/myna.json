@@ -1,0 +1,78 @@
+{
+ "file": "八哥",
+ "no": "115",
+ "cat": "宠物",
+ "name_cn": "八哥",
+ "name_en": "Crested myna",
+ "latin": "Acridotheres cristatellus",
+ "short": "八哥",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃虫子、谷物、果实，甚至垃圾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "每窝产蛋",
+   "value": "4–6 枚",
+   "lo": 4,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 14 天",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "长齐羽毛",
+   "value": "18–20 天",
+   "lo": 18,
+   "hi": 20,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "温哥华种群",
+   "value": "2–3 万只",
+   "lo": 20000,
+   "hi": 30000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "额前冠羽",
+   "icon": "camo",
+   "desc": "它额头上有一簇像小冠子的羽毛，名字就是这样来的。"
+  },
+  {
+   "name": "农民的帮手",
+   "icon": "team",
+   "desc": "它吃害虫而不吃庄稼，对农民很有益。"
+  }
+ ],
+ "intro": [
+  "八哥又叫“中国椋鸟”，原产中国东南部和中南半岛。",
+  "它喜欢在城市和农田附近的开阔地带活动。",
+  "它是常见的笼养鸟，常被带到别的地方。"
+ ],
+ "fact": "1890 年前后它被引入加拿大温哥华，数量一度增长到 2–3 万只。",
+ "range": "中国东南部和中南半岛；曾被引入加拿大、菲律宾等地。",
+ "sources": [
+  "Wikipedia「Crested myna」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

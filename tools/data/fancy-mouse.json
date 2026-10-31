@@ -1,0 +1,77 @@
+{
+ "file": "宠物小鼠",
+ "no": "121",
+ "cat": "宠物",
+ "name_cn": "宠物小鼠",
+ "name_en": "Fancy mouse",
+ "latin": "Mus musculus",
+ "short": "宠物小鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃种子、谷物等（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "29–44 g",
+   "lo": 0.029,
+   "hi": 0.044,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "5–8 cm",
+   "lo": 0.05,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "平均 18–30 个月",
+   "lo": 1.5,
+   "hi": 2.5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "19–23 天",
+   "lo": 19,
+   "hi": 23,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "繁殖飞快",
+   "icon": "huddle",
+   "desc": "一窝通常有 4–12 只宝宝，5–18 只也不少见，最多记录过 30 只。"
+  },
+  {
+   "name": "比美大赛",
+   "icon": "camo",
+   "desc": "世界各地都有小鼠俱乐部举办比赛，按毛色、体形和性格打分。"
+  }
+ ],
+ "intro": [
+  "宠物小鼠是家鼷鼠经过人工选育的类型，有很多种毛色。",
+  "它们体型小、便宜、不需要洗澡，而且可以学会享受被人抚摸。",
+  "小鼠宝宝出生 3–5 天就会睁开耳朵，开始发出叫声。"
+ ],
+ "fact": "宠物小鼠的寿命只有 2–3 年左右。",
+ "range": "家养动物；家鼷鼠遍布全世界。",
+ "sources": [
+  "Wikipedia「Fancy mouse」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "金丝雀",
+ "no": "109",
+ "cat": "宠物",
+ "name_cn": "金丝雀",
+ "name_en": "Domestic canary",
+ "latin": "Serinus canaria domestica",
+ "short": "金丝雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "以种子为主（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "13–15 cm",
+   "lo": 0.13,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "15–20 g",
+   "lo": 0.015,
+   "hi": 0.02,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "7–15 年",
+   "lo": 7,
+   "hi": 15,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "约 14 天",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "唱歌冠军",
+   "icon": "ear",
+   "desc": "人们长期选育会唱歌的金丝雀，像“哈茨滚唱”品种就以歌声出名。"
+  },
+  {
+   "name": "矿井哨兵",
+   "icon": "huddle",
+   "desc": "过去矿工把金丝雀带进煤矿，它出事就说明有一氧化碳等毒气。"
+  }
+ ],
+ "intro": [
+  "家养金丝雀是野生金丝雀的驯化类型，祖先来自大西洋上的加那利群岛等岛屿。",
+  "野生祖先多是灰色或浅绿色，家养品种的颜色就多得多。",
+  "“金丝雀黄”这种颜色就是用它的名字命名的。"
+ ],
+ "fact": "观赏品种大小差别很大：小的约 10 cm，大的可达 23 cm。",
+ "range": "家养鸟；野生祖先分布于加那利群岛、亚速尔群岛和马德拉群岛。",
+ "sources": [
+  "Wikipedia「Domestic canary」"
+ ],
+ "footnote": "寿命来源给出“7–12 年或 10–15 年”两种说法。"
+}

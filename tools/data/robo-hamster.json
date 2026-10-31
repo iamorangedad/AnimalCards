@@ -1,0 +1,77 @@
+{
+ "file": "罗伯罗夫斯基仓鼠",
+ "no": "122",
+ "cat": "宠物",
+ "name_cn": "罗伯罗夫斯基仓鼠",
+ "name_en": "Roborovski dwarf hamster",
+ "latin": "Phodopus roborovskii",
+ "short": "罗伯罗夫斯基仓鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃谷物、蔬果和植物，也吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 16 g",
+   "lo": 0.016,
+   "hi": 0.016,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "约 6.3 cm",
+   "lo": 0.063,
+   "hi": 0.063,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "2–4 年",
+   "lo": 2,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "20–22 天",
+   "lo": 20,
+   "hi": 22,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞毛腿",
+   "icon": "climb",
+   "desc": "它以速度快出名，有说法称它一晚能跑约 6 英里（约 10 km）。"
+  },
+  {
+   "name": "沙漠居民",
+   "icon": "dive",
+   "desc": "它住在松软的沙地，常见于中国鄂尔多斯沙漠的沙丘。"
+  }
+ ],
+ "intro": [
+  "罗伯罗夫斯基仓鼠是侏儒仓鼠属中最小的一种，俗称“老公公仓鼠”。",
+  "名字是为了纪念采集到第一只标本的俄国探险家罗伯罗夫斯基。",
+  "它们生活在海拔约 1200–1450 m 的荒漠地区。"
+ ],
+ "fact": "刚出生时它只有约 1.6 cm 长。",
+ "range": "中国北部、蒙古和哈萨克斯坦的荒漠。",
+ "sources": [
+  "Wikipedia「Roborovski dwarf hamster」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": "“一晚跑 6 英里”为来源中的传闻说法（待核）。"
+}

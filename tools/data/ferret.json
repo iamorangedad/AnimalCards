@@ -1,0 +1,77 @@
+{
+ "file": "雪貂",
+ "no": "106",
+ "cat": "宠物",
+ "name_cn": "雪貂",
+ "name_en": "Ferret",
+ "latin": "Mustela furo",
+ "short": "雪貂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "严格的肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.7–2.0 kg",
+   "lo": 0.7,
+   "hi": 2.0,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长·含尾",
+   "value": "平均约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "每天睡觉",
+   "value": "14–18 小时",
+   "lo": 14,
+   "hi": 18,
+   "scale": "hours",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "平均 7–10 年",
+   "lo": 7,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“咕咕”欢叫",
+   "icon": "ear",
+   "desc": "雪貂兴奋时会发出轻柔的“咯咯”声，主人们叫它“dooking”；害怕时会嘶嘶叫。"
+  },
+  {
+   "name": "钻洞猎手",
+   "icon": "dive",
+   "desc": "人们曾用雪貂钻进兔子洞里把兔子赶出来，这种打猎方式叫“rabbiting”。"
+  }
+ ],
+ "intro": [
+  "雪貂是鼬科的家养动物，很可能是由欧洲鸡貂驯化来的。",
+  "它们在黎明和黄昏最活跃，每天大部分时间都在睡觉。",
+  "雪貂的毛色有黑、褐、白或几种颜色混合。"
+ ],
+ "fact": "DNA 分析显示，雪貂大约在 2500 年前就被驯化了。",
+ "range": "家养动物；祖先欧洲鸡貂分布于欧洲。",
+ "sources": [
+  "Wikipedia「Ferret」"
+ ],
+ "footnote": "英文名来自拉丁语 furittus，意思是“小偷”。"
+}

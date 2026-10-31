@@ -1,0 +1,77 @@
+{
+ "file": "黑线仓鼠",
+ "no": "125",
+ "cat": "宠物",
+ "name_cn": "黑线仓鼠",
+ "name_en": "Chinese hamster",
+ "latin": "Cricetulus griseus",
+ "short": "黑线仓鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃种子等（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN（待核）",
+  "cn": "无危（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "8.2–12.7 cm",
+   "lo": 0.082,
+   "hi": 0.127,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "2–3.3 cm",
+   "lo": 0.02,
+   "hi": 0.033,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成年体重",
+   "value": "30–45 g",
+   "lo": 0.03,
+   "hi": 0.045,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "平均 2–3 年",
+   "lo": 2,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长尾巴",
+   "icon": "camo",
+   "desc": "和尾巴短短的其他仓鼠相比，它的尾巴特别长，身体也显得又长又细。"
+  },
+  {
+   "name": "科研明星",
+   "icon": "team",
+   "desc": "它的卵巢细胞（CHO 细胞）是生物研究和生产药物的常用工具。"
+  }
+ ],
+ "intro": [
+  "黑线仓鼠背上有一条深色纵纹，主要在夜间活动。",
+  "它们天生喜欢独居，笼子太小或和别的仓鼠同住时容易打架。",
+  "刚出生时只有 1.7 g 重。"
+ ],
+ "fact": "美国加州等一些州把它视为可能的害兽，禁止饲养。",
+ "range": "中国北部和蒙古。",
+ "sources": [
+  "Wikipedia「Chinese hamster」"
+ ],
+ "footnote": "有的学者把它和 C. barabensis 合并为同一种；IUCN 评估对象待核。"
+}

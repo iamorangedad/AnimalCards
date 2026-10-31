@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 105 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 130 张（宠物 36，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -19,6 +19,31 @@
 | 014 | 孔雀鱼（Guppy） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AD%94%E9%9B%80%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AD%94%E9%9B%80%E9%B1%BC.pdf) |
 | 015 | 非洲迷你刺猬（Four-toed hedgehog） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E8%BF%B7%E4%BD%A0%E5%88%BA%E7%8C%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E8%BF%B7%E4%BD%A0%E5%88%BA%E7%8C%AC.pdf) |
 | 016 | 龙猫（Long-tailed chinchilla） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BE%99%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BE%99%E7%8C%AB.pdf) |
+| 106 | 雪貂（Ferret） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9B%AA%E8%B2%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9B%AA%E8%B2%82.pdf) |
+| 107 | 玄凤鹦鹉（Cockatiel） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%8E%84%E5%87%A4%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%8E%84%E5%87%A4%E9%B9%A6%E9%B9%89.pdf) |
+| 108 | 桃脸牡丹鹦鹉（Rosy-faced lovebird） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%A1%83%E8%84%B8%E7%89%A1%E4%B8%B9%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%A1%83%E8%84%B8%E7%89%A1%E4%B8%B9%E9%B9%A6%E9%B9%89.pdf) |
+| 109 | 金丝雀（Domestic canary） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%87%91%E4%B8%9D%E9%9B%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%87%91%E4%B8%9D%E9%9B%80.pdf) |
+| 110 | 斑胸草雀（Australian zebra finch） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%91%E8%83%B8%E8%8D%89%E9%9B%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%91%E8%83%B8%E8%8D%89%E9%9B%80.pdf) |
+| 111 | 和尚鹦鹉（Monk parakeet） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%92%8C%E5%B0%9A%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%92%8C%E5%B0%9A%E9%B9%A6%E9%B9%89.pdf) |
+| 112 | 非洲灰鹦鹉（Grey parrot） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E7%81%B0%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%9E%E6%B4%B2%E7%81%B0%E9%B9%A6%E9%B9%89.pdf) |
+| 113 | 葵花凤头鹦鹉（Sulphur-crested cockatoo） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%91%B5%E8%8A%B1%E5%87%A4%E5%A4%B4%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%91%B5%E8%8A%B1%E5%87%A4%E5%A4%B4%E9%B9%A6%E9%B9%89.pdf) |
+| 114 | 金太阳鹦鹉（Sun conure） | 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%87%91%E5%A4%AA%E9%98%B3%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%87%91%E5%A4%AA%E9%98%B3%E9%B9%A6%E9%B9%89.pdf) |
+| 115 | 八哥（Crested myna） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%85%AB%E5%93%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%85%AB%E5%93%A5.pdf) |
+| 116 | 鹩哥（Common hill myna） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%B9%A9%E5%93%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%B9%A9%E5%93%A5.pdf) |
+| 117 | 画眉（Chinese hwamei） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%94%BB%E7%9C%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%94%BB%E7%9C%89.pdf) |
+| 118 | 暗绿绣眼鸟（Swinhoe's white-eye） | 宠物 | LC 无危（待核） | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9A%97%E7%BB%BF%E7%BB%A3%E7%9C%BC%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%9A%97%E7%BB%BF%E7%BB%A3%E7%9C%BC%E9%B8%9F.pdf) |
+| 119 | 长爪沙鼠（Mongolian gerbil） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%95%BF%E7%88%AA%E6%B2%99%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%95%BF%E7%88%AA%E6%B2%99%E9%BC%A0.pdf) |
+| 120 | 宠物大鼠（Fancy rat） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%A0%E7%89%A9%E5%A4%A7%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%A0%E7%89%A9%E5%A4%A7%E9%BC%A0.pdf) |
+| 121 | 宠物小鼠（Fancy mouse） | 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%A0%E7%89%A9%E5%B0%8F%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%A0%E7%89%A9%E5%B0%8F%E9%BC%A0.pdf) |
+| 122 | 罗伯罗夫斯基仓鼠（Roborovski dwarf hamster） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BD%97%E4%BC%AF%E7%BD%97%E5%A4%AB%E6%96%AF%E5%9F%BA%E4%BB%93%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BD%97%E4%BC%AF%E7%BD%97%E5%A4%AB%E6%96%AF%E5%9F%BA%E4%BB%93%E9%BC%A0.pdf) |
+| 123 | 加卡利亚仓鼠（Djungarian hamster） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%8D%A1%E5%88%A9%E4%BA%9A%E4%BB%93%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%8D%A1%E5%88%A9%E4%BA%9A%E4%BB%93%E9%BC%A0.pdf) |
+| 124 | 坎贝尔侏儒仓鼠（Campbell's dwarf hamster） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9D%8E%E8%B4%9D%E5%B0%94%E4%BE%8F%E5%84%92%E4%BB%93%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%9D%8E%E8%B4%9D%E5%B0%94%E4%BE%8F%E5%84%92%E4%BB%93%E9%BC%A0.pdf) |
+| 125 | 黑线仓鼠（Chinese hamster） | 宠物 | LC 无危（待核） | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BB%91%E7%BA%BF%E4%BB%93%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%BB%91%E7%BA%BF%E4%BB%93%E9%BC%A0.pdf) |
+| 126 | 八齿鼠（Common degu） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%85%AB%E9%BD%BF%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%85%AB%E9%BD%BF%E9%BC%A0.pdf) |
+| 127 | 蜜袋鼯（Sugar glider） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%9C%9C%E8%A2%8B%E9%BC%AF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%9C%9C%E8%A2%8B%E9%BC%AF.pdf) |
+| 128 | 豹纹守宫（Common leopard gecko） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B1%B9%E7%BA%B9%E5%AE%88%E5%AE%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B1%B9%E7%BA%B9%E5%AE%88%E5%AE%AB.pdf) |
+| 129 | 睫角守宫（Crested gecko） | 宠物 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%9D%AB%E8%A7%92%E5%AE%88%E5%AE%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%9D%AB%E8%A7%92%E5%AE%88%E5%AE%AB.pdf) |
+| 130 | 中部鬃狮蜥（Central bearded dragon） | 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E9%83%A8%E9%AC%83%E7%8B%AE%E8%9C%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%AD%E9%83%A8%E9%AC%83%E7%8B%AE%E8%9C%A5.pdf) |
 | 017 | 牛（Cattle） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.pdf) |
 | 018 | 猪（Domestic pig） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.pdf) |
 | 019 | 绵羊（Sheep） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.pdf) |

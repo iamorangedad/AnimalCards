@@ -1,0 +1,77 @@
+{
+ "file": "非洲灰鹦鹉",
+ "no": "112",
+ "cat": "宠物",
+ "name_cn": "非洲灰鹦鹉",
+ "name_en": "Grey parrot",
+ "latin": "Psittacus erithacus",
+ "short": "非洲灰鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃果实、坚果和种子",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "418–526 g",
+   "lo": 0.418,
+   "hi": 0.526,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "46–52 cm",
+   "lo": 0.46,
+   "hi": 0.52,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 23 年",
+   "lo": 23,
+   "hi": 23,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "40–60 年",
+   "lo": 40,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "聪明鸟",
+   "icon": "ear",
+   "desc": "它被认为是最聪明的鸟类之一，以会说话出名。"
+  },
+  {
+   "name": "红尾巴",
+   "icon": "camo",
+   "desc": "全身灰色，只有尾羽是鲜红色的，很好认。"
+  }
+ ],
+ "intro": [
+  "非洲灰鹦鹉生活在非洲赤道地区，喜欢茂密的森林。",
+  "雌鸟每窝产 3–5 枚蛋，孵 30 天，期间由雄鸟喂食。",
+  "因为宠物贸易和森林砍伐，它已被列为濒危物种。"
+ ],
+ "fact": "雏鸟出生时只有 12–14 g，约 12 周大才离巢。",
+ "range": "非洲赤道地区（科特迪瓦到肯尼亚、刚果等）。",
+ "sources": [
+  "Wikipedia「Grey parrot」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

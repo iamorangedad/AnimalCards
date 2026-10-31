@@ -11,3 +11,10 @@ def card(id, no, cat, cn, en, latin, typ, hab, diet, note, iucn, sub, stats, ski
     assert len(cn) <= 11 and len(stats) == 4 and len(skills) == 2, id
     (OUT / f"{id}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 DOM = dict(iucn="NE", sub="家养动物", iucn_cn="未评估")
+import sys as _s; _s.path.insert(0, str(OUT.parent))
+from roster2 import R3 as _R3
+N3 = {r[0]: 106 + k for k, r in enumerate(_R3)}
+def c3(id, *a, **k):
+    cat = next(r[3] for r in _R3 if r[0] == id)
+    return card(id, N3[id], cat, *a, **k)
+NE = ("NE", "家养动物")

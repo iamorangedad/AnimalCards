@@ -1,0 +1,77 @@
+{
+ "file": "玄凤鹦鹉",
+ "no": "107",
+ "cat": "宠物",
+ "name_cn": "玄凤鹦鹉",
+ "name_en": "Cockatiel",
+ "latin": "Nymphicus hollandicus",
+ "short": "玄凤鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "野外主要吃金合欢、小麦等的种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–33 cm",
+   "lo": 0.3,
+   "hi": 0.33,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "4–7 枚",
+   "lo": 4,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–23 天",
+   "lo": 17,
+   "hi": 23,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "12–15 年",
+   "lo": 12,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会说话的冠羽",
+   "icon": "camo",
+   "desc": "头顶的冠羽会随着心情竖起或放平，表达它的情绪。"
+  },
+  {
+   "name": "学舌高手",
+   "icon": "ear",
+   "desc": "玄凤鹦鹉很爱叫，能模仿学会许多单词、短句和口哨曲调。"
+  }
+ ],
+ "intro": [
+  "玄凤鹦鹉原产澳大利亚，是凤头鹦鹉家族里最小的成员。",
+  "它是玄凤鹦鹉属唯一的物种。",
+  "它是世界上最常见的宠物鹦鹉之一，仅美国就约有 480 万户家庭饲养。"
+ ],
+ "fact": "有记录的最长寿玄凤鹦鹉活到了 36 岁。",
+ "range": "澳大利亚的湿地、灌丛和疏林。",
+ "sources": [
+  "Wikipedia「Cockatiel」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "人工饲养条件好时寿命可达 16–25 年。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "睫角守宫",
+ "no": "129",
+ "cat": "宠物",
+ "name_cn": "睫角守宫",
+ "name_en": "Crested gecko",
+ "latin": "Correlophus ciliatus",
+ "short": "睫角守宫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、花蜜、花粉和昆虫",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "20–25 cm",
+   "lo": 0.2,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "60–150 天",
+   "lo": 60,
+   "hi": 150,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "15–20 年以上",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“睫毛”",
+   "icon": "camo",
+   "desc": "眼睛上方有一排像睫毛一样的皮肤突起，所以又叫“睫毛守宫”。"
+  },
+  {
+   "name": "断尾逃生",
+   "icon": "flip",
+   "desc": "遇到危险时它会自断尾巴吸引敌人注意；它的尾巴断了不会再长出来（待核）。"
+  }
+ ],
+ "intro": [
+  "睫角守宫原产新喀里多尼亚南部。",
+  "它在 1866 年被描述后一度被认为已经灭绝，直到 1994 年才被重新发现。",
+  "雌守宫交配一次，就能在 8–10 个月里每 4–6 周产 2 枚蛋。"
+ ],
+ "fact": "被重新发现后，它很快成为最受欢迎的宠物守宫之一（待核）。",
+ "range": "新喀里多尼亚南部（南太平洋）。",
+ "sources": [
+  "Wikipedia「Crested gecko」",
+  "IUCN 红色名录（Sadlier et al. 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "桃脸牡丹鹦鹉",
+ "no": "108",
+ "cat": "宠物",
+ "name_cn": "桃脸牡丹鹦鹉",
+ "name_en": "Rosy-faced lovebird",
+ "latin": "Agapornis roseicollis",
+ "short": "桃脸牡丹鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃种子和浆果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "17–18 cm",
+   "lo": 0.17,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "4–6 枚",
+   "lo": 4,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 23 天",
+   "lo": 23,
+   "hi": 23,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "分布海拔",
+   "value": "最高 1600 m",
+   "lo": 1600,
+   "hi": 1600,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "认得镜子里的自己",
+   "icon": "camo",
+   "desc": "它是第一种通过“镜子测试”的鹦鹉科鸟类，能认出镜子里的是自己。"
+  },
+  {
+   "name": "耐热",
+   "icon": "huddle",
+   "desc": "在气温常超过 40 °C 的美国亚利桑那州，野化的牡丹鹦鹉会成群蹲在空调出风口乘凉。"
+  }
+ ],
+ "intro": [
+  "桃脸牡丹鹦鹉原产非洲西南部纳米比亚一带的稀树林地。",
+  "雌雄长得几乎一样，很难从外表区分。",
+  "它有时会到田里吃小米等庄稼，被当作害鸟。"
+ ],
+ "fact": "雏鸟孵出后大约 43 天才离巢。",
+ "range": "非洲西南部（安哥拉、纳米比亚、博茨瓦纳、南非）。",
+ "sources": [
+  "Wikipedia「Rosy-faced lovebird」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

@@ -10,4 +10,4 @@ for j, f in enumerate(fs):
     pg = subprocess.run(["pdfinfo", f"out/{f}.pdf"], capture_output=True, text=True).stdout
     n = [l for l in pg.splitlines() if l.startswith("Pages")][0].split()[-1]
     if n != "1": print("PDF PAGES", f, n)
-p = f"/tmp/ac_contact_{tag}_{int(time.time())}.png"; im.save(p); print(p)
+p = f"/workspace/animalcards/sheets/ac_contact_{tag}_{int(time.time())}.png"; im.save(p); print(p)

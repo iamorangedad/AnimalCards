@@ -1,0 +1,78 @@
+{
+ "file": "宠物大鼠",
+ "no": "120",
+ "cat": "宠物",
+ "name_cn": "宠物大鼠",
+ "name_en": "Fancy rat",
+ "latin": "Rattus norvegicus domestica",
+ "short": "宠物大鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "什么都吃（褐家鼠资料，待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "通常 2–3 年",
+   "lo": 2,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "140–500 g",
+   "lo": 0.14,
+   "hi": 0.5,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长*",
+   "value": "15–28 cm",
+   "lo": 0.15,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "侏儒雄鼠",
+   "value": "100–130 g",
+   "lo": 0.1,
+   "hi": 0.13,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超声波交流",
+   "icon": "ear",
+   "desc": "大鼠能发出人耳听不到的超声波，小鼠宝宝用它呼唤妈妈。"
+  },
+  {
+   "name": "温顺聪明",
+   "icon": "team",
+   "desc": "经过许多代饲养繁殖，宠物大鼠变得很温顺，可以和人亲近。"
+  }
+ ],
+ "intro": [
+  "宠物大鼠是褐家鼠的驯化类型，是最常见的宠物鼠。",
+  "早期的捕鼠人会把颜色特别的大鼠驯服，系上丝带当宠物卖。",
+  "“fancy”在英语里指爱好，就像“动物爱好”一样。"
+ ],
+ "fact": "侏儒品种的雄鼠只有 100–130 g，普通雄鼠则有 300 g 以上。",
+ "range": "家养动物；祖先褐家鼠遍布全世界。",
+ "sources": [
+  "Wikipedia「Fancy rat」",
+  "Wikipedia「Brown rat」"
+ ],
+ "footnote": "*体重、体长为野生褐家鼠数据。"
+}

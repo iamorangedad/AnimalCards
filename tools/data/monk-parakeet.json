@@ -1,0 +1,77 @@
+{
+ "file": "和尚鹦鹉",
+ "no": "111",
+ "cat": "宠物",
+ "name_cn": "和尚鹦鹉",
+ "name_en": "Monk parakeet",
+ "latin": "Myiopsitta monachus",
+ "short": "和尚鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃种子、果实（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "平均约 29 cm",
+   "lo": 0.29,
+   "hi": 0.29,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翼展",
+   "value": "约 48 cm",
+   "lo": 0.48,
+   "hi": 0.48,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均 6 年",
+   "lo": 6,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树枝大公寓",
+   "icon": "team",
+   "desc": "它会用树枝搭建巨大的巢，一个巢里住好几对，每对都有自己的入口。"
+  },
+  {
+   "name": "城市移民",
+   "icon": "climb",
+   "desc": "被放出的个体在许多城市安了家，西班牙塞维利亚的数量 8 年里从 1200 只涨到 6300 只。"
+  }
+ ],
+ "intro": [
+  "和尚鹦鹉原产南美洲，额头和胸口是灰色的，像穿了僧袍。",
+  "它是极少数自己筑巢、而不是住在树洞里的鹦鹉。",
+  "它的属名意思是“老鼠鹦鹉”，指它鼠灰色的脸和腹部。"
+ ],
+ "fact": "它的巢常搭在树上或电线杆等人造建筑上。",
+ "range": "原产南美洲南部；在北美、欧洲许多城市形成了野化种群。",
+ "sources": [
+  "Wikipedia「Monk parakeet」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "坎贝尔侏儒仓鼠",
+ "no": "124",
+ "cat": "宠物",
+ "name_cn": "坎贝尔侏儒仓鼠",
+ "name_en": "Campbell's dwarf hamster",
+ "latin": "Phodopus campbelli",
+ "short": "坎贝尔侏儒仓鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "平均约 8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "初生体重",
+   "value": "约 1.5 g",
+   "lo": 0.0015,
+   "hi": 0.0015,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "18–20 天",
+   "lo": 18,
+   "hi": 20,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "地洞深度",
+   "value": "通常 20–30 cm",
+   "lo": 0.2,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爸爸也带娃",
+   "icon": "huddle",
+   "desc": "和加卡利亚仓鼠不同，坎贝尔仓鼠的爸爸也会帮忙照顾宝宝。"
+  },
+  {
+   "name": "颊囊",
+   "icon": "jar",
+   "desc": "出生 11 天时颊囊就长好了，能塞进一颗葵花籽那么大的东西。"
+  }
+ ],
+ "intro": [
+  "坎贝尔侏儒仓鼠背上有一条深色纵纹，从颈部延伸到尾巴附近。",
+  "它的名字纪念 1902 年在蒙古采到第一只标本的 C. W. Campbell。",
+  "它冬天不会变白，这是和加卡利亚仓鼠的区别之一。"
+ ],
+ "fact": "实验中它能耐受低到 −31.8 °C 的低温。",
+ "range": "中国北部、哈萨克斯坦、蒙古和俄罗斯。",
+ "sources": [
+  "Wikipedia「Campbell's dwarf hamster」",
+  "IUCN 红色名录（2016）"
+ ],
+ "footnote": "地洞最深可达 1 m。"
+}

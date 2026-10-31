@@ -1,0 +1,77 @@
+{
+ "file": "八齿鼠",
+ "no": "126",
+ "cat": "宠物",
+ "name_cn": "八齿鼠",
+ "name_en": "Common degu",
+ "latin": "Octodon degus",
+ "short": "八齿鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、树叶和种子（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "170–400 g",
+   "lo": 0.17,
+   "hi": 0.4,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "25–31 cm",
+   "lo": 0.25,
+   "hi": 0.31,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 90 天",
+   "lo": 90,
+   "hi": 90,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "平均 5–6 年",
+   "lo": 5,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "15 种叫声",
+   "icon": "ear",
+   "desc": "八齿鼠非常社会化，能发出多达 15 种不同的声音来交流。"
+  },
+  {
+   "name": "白天活动",
+   "icon": "climb",
+   "desc": "和多数宠物鼠不同，它白天活跃，还有一条带毛的尾巴。"
+  }
+ ],
+ "intro": [
+  "八齿鼠是智利中部特有的啮齿动物。",
+  "它的颊齿横截面像数字“8”，属名 Octodon 就是这么来的。",
+  "作为宠物，它比金仓鼠大，比宠物大鼠小。"
+ ],
+ "fact": "一窝平均 6 只宝宝，少则 1–2 只，多则 12 只。",
+ "range": "智利中部的灌丛（马托拉尔）地区。",
+ "sources": [
+  "Wikipedia「Common degu」",
+  "IUCN 红色名录（Roach 2021）"
+ ],
+ "footnote": ""
+}

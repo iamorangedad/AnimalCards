@@ -1,0 +1,77 @@
+{
+ "file": "中部鬃狮蜥",
+ "no": "130",
+ "cat": "宠物",
+ "name_cn": "中部鬃狮蜥",
+ "name_en": "Central bearded dragon",
+ "latin": "Pogona vitticeps",
+ "short": "中部鬃狮蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "野外食物中植物约占 54%",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "最长约 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 550 g",
+   "lo": 0.55,
+   "hi": 0.55,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "60–80 天",
+   "lo": 60,
+   "hi": 80,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "夏季白蚁",
+   "value": "约 26%",
+   "lo": 26,
+   "hi": 26,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑胡子",
+   "icon": "roar",
+   "desc": "受威胁时它会张大嘴、鼓起喉囊“胡子”并让它变黑，吓唬对手。"
+  },
+  {
+   "name": "温度定性别",
+   "icon": "huddle",
+   "desc": "蛋在 32 °C 以上孵化时，遗传上的雄性会发育成雌性。"
+  }
+ ],
+ "intro": [
+  "中部鬃狮蜥原产澳大利亚东部和中部。",
+  "它的身体通常是褐色、黄褐色、黄色或红色。",
+  "它并不爱群居，但常常在好的觅食或晒太阳地点聚在一起。"
+ ],
+ "fact": "1926 年，德国动物学家 Ernst Ahl 首次描述了这个物种。",
+ "range": "澳大利亚东部和中部的干旱林地与荒漠。",
+ "sources": [
+  "Wikipedia「Central bearded dragon」",
+  "IUCN 红色名录（Melville et al. 2021）"
+ ],
+ "footnote": "白蚁比例为野生成体夏季食物的体积百分比。"
+}

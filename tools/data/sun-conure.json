@@ -1,0 +1,77 @@
+{
+ "file": "金太阳鹦鹉",
+ "no": "114",
+ "cat": "宠物",
+ "name_cn": "金太阳鹦鹉",
+ "name_en": "Sun conure",
+ "latin": "Aratinga solstitialis",
+ "short": "金太阳鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、花、种子、坚果和昆虫",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 110 g",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "23–27 天",
+   "lo": 23,
+   "hi": 27,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "成群结队",
+   "icon": "team",
+   "desc": "它非常喜欢社交，通常 15–30 只结成一大群活动。"
+  },
+  {
+   "name": "金色羽毛",
+   "icon": "camo",
+   "desc": "全身主要是金黄色，脸和腹部是橙色，翅膀带绿色和蓝色。"
+  }
+ ],
+ "intro": [
+  "金太阳鹦鹉原产南美洲东北部，是中型鹦鹉。",
+  "幼鸟大约 4–5 个月大时就结成固定的伴侣。",
+  "过度捕捉卖作宠物让野外数量急剧下降。"
+ ],
+ "fact": "2021 年估计，野外只剩不到 2500 只金太阳鹦鹉。",
+ "range": "南美洲东北部，主要在海拔 1200 m 以下的森林边缘。",
+ "sources": [
+  "Wikipedia「Sun parakeet」",
+  "IUCN 红色名录（BirdLife International 2022）"
+ ],
+ "footnote": ""
+}

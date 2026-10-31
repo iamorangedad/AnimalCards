@@ -1,0 +1,78 @@
+{
+ "file": "鹩哥",
+ "no": "116",
+ "cat": "宠物",
+ "name_cn": "鹩哥",
+ "name_en": "Common hill myna",
+ "latin": "Gracula religiosa",
+ "short": "鹩哥",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃水果，也吃昆虫、蜥蜴和花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 29–30 cm",
+   "lo": 0.29,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "体重·平均",
+   "value": "约 192 g",
+   "lo": 0.192,
+   "hi": 0.192,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "约 7.8 cm",
+   "lo": 0.078,
+   "hi": 0.078,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "分布海拔",
+   "value": "300–2000 m",
+   "lo": 300,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "模仿人声",
+   "icon": "ear",
+   "desc": "它能惟妙惟肖地模仿各种日常声音，尤其是人说话的声音和口哨曲调。"
+  },
+  {
+   "name": "黄色肉垂",
+   "icon": "camo",
+   "desc": "它通体黑色带金属光泽，眼睛下方到后颈有两条醒目的黄色肉垂。"
+  }
+ ],
+ "intro": [
+  "鹩哥是生活在南亚和东南亚山地森林的大型椋鸟，台湾叫它“九官鸟”。",
+  "黎明和黄昏时它最爱叫，常在林间空地的高处成小群活动。",
+  "它是亚洲最常见的笼养鸟之一。"
+ ],
+ "fact": "它的“方言”变化很快：相距 15 km 以上的鹩哥，叫声类型完全不同。",
+ "range": "印度、斯里兰卡、中南半岛、婆罗洲、苏门答腊和爪哇等地；中国南部也有分布。",
+ "sources": [
+  "Wikipedia「Common hill myna」",
+  "维基百科「鹩哥」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "体重、尾长来自中文维基百科的测量平均值。"
+}

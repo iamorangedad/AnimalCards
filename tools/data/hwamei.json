@@ -1,0 +1,79 @@
+{
+ "file": "画眉",
+ "no": "117",
+ "cat": "宠物",
+ "name_cn": "画眉",
+ "name_en": "Chinese hwamei",
+ "latin": "Garrulax canorus",
+ "short": "画眉",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃昆虫，秋天也吃野果和庄稼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "49–75 g",
+   "lo": 0.049,
+   "hi": 0.075,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "21–24 cm",
+   "lo": 0.21,
+   "hi": 0.24,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵卵",
+   "value": "约 12–18 天",
+   "lo": 12,
+   "hi": 18,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "可达 15–20 年",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "婉转歌喉",
+   "icon": "ear",
+   "desc": "繁殖期的雄鸟特别爱唱歌，声音婉转高亢、富于变化，还会模仿别的声音。"
+  },
+  {
+   "name": "“画”出来的眉",
+   "icon": "camo",
+   "desc": "白色眼圈向后延伸成一条“眉毛”，名字“画眉”就是这么来的。"
+  }
+ ],
+ "intro": [
+  "画眉全身棕褐色，是中国传统的“四大笼养鸟”之一，北宋时就有人饲养。",
+  "它性格羞怯，常在落叶间穿行觅食。",
+  "由于大量野外捕捉，2021 年它被列为中国国家二级保护动物。"
+ ],
+ "fact": "1985 年，广州市选定画眉为市鸟。",
+ "range": "中国华南、华东、华中、西南及老挝、越南北部；海拔 1800 m 以下。",
+ "sources": [
+  "Wikipedia「Chinese hwamei」",
+  "维基百科「大陆画眉」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "体重、体长、孵卵期和饲养寿命来自中文维基百科。"
+}

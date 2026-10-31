@@ -1,0 +1,77 @@
+{
+ "file": "豹纹守宫",
+ "no": "128",
+ "cat": "宠物",
+ "name_cn": "豹纹守宫",
+ "name_en": "Common leopard gecko",
+ "latin": "Eublepharis macularius",
+ "short": "豹纹守宫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食昆虫等小动物（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN（年份待核）"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "20–28 cm",
+   "lo": 0.2,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "50–70 g",
+   "lo": 0.05,
+   "hi": 0.07,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "35–89 天",
+   "lo": 35,
+   "hi": 89,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均 4.9 年",
+   "lo": 4.9,
+   "hi": 4.9,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "脂肪尾巴",
+   "icon": "jar",
+   "desc": "粗粗的尾巴里储存着脂肪，就像骆驼的驼峰，是它的“能量仓库”。"
+  },
+  {
+   "name": "会眨眼",
+   "icon": "camo",
+   "desc": "和多数壁虎不同，它有能活动的上下眼皮，属名意思就是“好眼皮”。"
+  }
+ ],
+ "intro": [
+  "豹纹守宫是生活在地面上的壁虎，原产阿富汗、伊朗、巴基斯坦和印度等地。",
+  "它的身上有豹纹一样的斑点，种名意思是“斑点”。",
+  "蛋的孵化温度决定性别：较冷或很热时孵出雌性。"
+ ],
+ "fact": "它的 100 颗牙齿每 3–4 个月就能全部换一次。",
+ "range": "南亚和西亚的干旱草原、荒漠和岩石地带。",
+ "sources": [
+  "Wikipedia「Common leopard gecko」",
+  "IUCN 红色名录"
+ ],
+ "footnote": "饲养条件好时寿命可超过 20 年。"
+}

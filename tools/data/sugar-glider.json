@@ -1,0 +1,78 @@
+{
+ "file": "蜜袋鼯",
+ "no": "127",
+ "cat": "宠物",
+ "name_cn": "蜜袋鼯",
+ "name_en": "Sugar glider",
+ "latin": "Petaurus breviceps",
+ "short": "蜜袋鼯",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "爱吃树汁、花蜜等甜食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长·含尾",
+   "value": "24–30 cm",
+   "lo": 0.24,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "约 140 g",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "滑翔距离",
+   "value": "50 m 以上",
+   "lo": 50,
+   "hi": 50,
+   "scale": "len_xs",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "通常可达 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "滑翔飞行",
+   "icon": "flip",
+   "desc": "前后肢之间的皮膜张开就像翅膀，能一次滑翔 50 m 以上。"
+  },
+  {
+   "name": "省电模式",
+   "icon": "huddle",
+   "desc": "食物不够时，它会进入每天 2–23 小时的“蛰伏”，体温降到 10–20 °C 左右。"
+  }
+ ],
+ "intro": [
+  "蜜袋鼯是一种夜行的小型有袋动物，住在树上。",
+  "名字来自它喜欢甜食，并且能像鼯鼠一样滑翔。",
+  "怀孕只有 15–17 天，只有 0.2 g 的宝宝会爬进妈妈的育儿袋继续长大。"
+ ],
+ "fact": "滑翔时，它每水平前进 1.82 m 只下降 1 m。",
+ "range": "澳大利亚东南部（按最新分类，仅昆士兰南部和新南威尔士州）。",
+ "sources": [
+  "Wikipedia「Sugar glider」",
+  "IUCN 红色名录（Salas et al. 2016）"
+ ],
+ "footnote": "雌体重约 115 g；最长寿纪录 17.8 年。"
+}

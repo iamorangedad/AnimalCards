@@ -1,0 +1,78 @@
+{
+ "file": "加卡利亚仓鼠",
+ "no": "123",
+ "cat": "宠物",
+ "name_cn": "加卡利亚仓鼠",
+ "name_en": "Djungarian hamster",
+ "latin": "Phodopus sungorus",
+ "short": "加卡利亚仓鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃种子和昆虫（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "7–9 cm",
+   "lo": 0.07,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "0.5–1.5 cm",
+   "lo": 0.005,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄鼠体重",
+   "value": "19–45 g",
+   "lo": 0.019,
+   "hi": 0.045,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "洞内温度",
+   "value": "约 16.7 °C",
+   "lo": 16.7,
+   "hi": 16.7,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬天变白",
+   "icon": "camo",
+   "desc": "白天变短时，它会换上白色的冬毛，所以又叫“冬白仓鼠”。"
+  },
+  {
+   "name": "全年繁殖",
+   "icon": "huddle",
+   "desc": "它没有固定的繁殖季节，一年到头都能生宝宝，比金仓鼠生得还勤。"
+  }
+ ],
+ "intro": [
+  "加卡利亚仓鼠又叫冬白侏儒仓鼠，是欧洲和北美常见的宠物。",
+  "它和坎贝尔仓鼠长得几乎一样，常常被混淆。",
+  "同性仓鼠关在一起可能会打架，甚至有生命危险。"
+ ],
+ "fact": "实验发现，它能耐受低到 −44.7 °C 的严寒。",
+ "range": "哈萨克斯坦东部和西伯利亚西南部的草原。",
+ "sources": [
+  "Wikipedia「Djungarian hamster」",
+  "Wikipedia「Campbell's dwarf hamster」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": "耐寒数据来自坎贝尔仓鼠条目中的对比实验。雌鼠体重 19–36 g。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "暗绿绣眼鸟",
+ "no": "118",
+ "cat": "宠物",
+ "name_cn": "暗绿绣眼鸟",
+ "name_en": "Swinhoe's white-eye",
+ "latin": "Zosterops simplex",
+ "short": "暗绿绣眼鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃花蜜、果实和小虫（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "BirdLife（待核）",
+  "cn": "无危（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长*",
+   "value": "10–11 cm",
+   "lo": 0.1,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "9.75–12.75 g",
+   "lo": 0.00975,
+   "hi": 0.01275,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "筑巢*",
+   "value": "平均 7–10 天",
+   "lo": 7,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "巢直径*",
+   "value": "约 56 mm",
+   "lo": 0.056,
+   "hi": 0.056,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白眼圈",
+   "icon": "camo",
+   "desc": "眼睛周围有一圈白色羽毛，属名 Zosterops 的意思就是“腰带眼睛”。"
+  },
+  {
+   "name": "编织小巢",
+   "icon": "team",
+   "desc": "它用蛛丝、苔藓、地衣和兽毛编出小小的杯状巢。"
+  }
+ ],
+ "intro": [
+  "暗绿绣眼鸟是绿色的小鸟，台湾叫“绿绣眼”，香港叫“相思”。",
+  "它分布在中国东部、台湾、越南北部、马来半岛、苏门答腊和婆罗洲。",
+  "2018 年以前，它被当作日菲绣眼鸟的亚种。"
+ ],
+ "fact": "它已被引入美国南加州，那里的数量正在快速增长。",
+ "range": "中国东部和南部、台湾、越南北部至婆罗洲；北方种群会迁徙。",
+ "sources": [
+  "Wikipedia「Swinhoe's white-eye」",
+  "Wikipedia「Warbling white-eye」",
+  "维基百科「斯氏绣眼」"
+ ],
+ "footnote": "*数据来自原同种的日菲绣眼鸟（2018 年拆分）。IUCN 对拆分后物种的评估待核。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "长爪沙鼠",
+ "no": "119",
+ "cat": "宠物",
+ "name_cn": "长爪沙鼠",
+ "name_en": "Mongolian gerbil",
+ "latin": "Meriones unguiculatus",
+ "short": "长爪沙鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "以种子、植物为主（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "60–130 g",
+   "lo": 0.06,
+   "hi": 0.13,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "11–13.5 cm",
+   "lo": 0.11,
+   "hi": 0.135,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "9.5–12 cm",
+   "lo": 0.095,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "地洞出口",
+   "value": "10–20 个",
+   "lo": 10,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "家族地洞",
+   "icon": "team",
+   "desc": "野外的沙鼠一家住在一个大地洞里，地洞有 10–20 个出口。"
+  },
+  {
+   "name": "耐热耐旱",
+   "icon": "huddle",
+   "desc": "它的家乡夏天能热到 50 °C，但一年中大部分时间平均气温约 20 °C。"
+  }
+ ],
+ "intro": [
+  "长爪沙鼠又叫蒙古沙鼠，生活在中国、蒙古和俄罗斯的草原、灌丛和荒漠。",
+  "它的尾巴几乎和身体一样长，末端有一簇毛。",
+  "1954 年它被带到美国后，才在英语国家流行成为宠物。"
+ ],
+ "fact": "学名的意思大致是“长爪的大腿”，并不是来自希腊神话中的武士。",
+ "range": "中国北部、蒙古和俄罗斯的草原、半荒漠。",
+ "sources": [
+  "Wikipedia「Mongolian gerbil」",
+  "IUCN 红色名录（Batsaikhan et al. 2016）"
+ ],
+ "footnote": ""
+}

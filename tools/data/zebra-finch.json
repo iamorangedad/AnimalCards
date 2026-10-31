@@ -1,0 +1,78 @@
+{
+ "file": "斑胸草雀",
+ "no": "110",
+ "cat": "宠物",
+ "name_cn": "斑胸草雀",
+ "name_en": "Australian zebra finch",
+ "latin": "Taeniopygia castanotis",
+ "short": "斑胸草雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草籽",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "每窝产蛋",
+   "value": "通常 5 枚",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "14–16 天",
+   "lo": 14,
+   "hi": 16,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "5–9 年",
+   "lo": 5,
+   "hi": 9,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每天喝水",
+   "value": "体重的 24–28%",
+   "lo": 24,
+   "hi": 28,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跟爸爸学唱歌",
+   "icon": "ear",
+   "desc": "雄鸟小时候跟着成年雄鸟学歌，长到约 90 天时歌声就“定型”不再改变。"
+  },
+  {
+   "name": "超级耐旱",
+   "icon": "huddle",
+   "desc": "在一项断水实验中，超过一半的斑胸草雀坚持了 513 天。"
+  }
+ ],
+ "intro": [
+  "斑胸草雀是澳大利亚分布最广的小型雀鸟之一。",
+  "雄鸟脸颊有橙色斑块、嘴是红色；雌鸟的嘴是橙色。",
+  "它是科学家研究“鸟类怎样学会鸣唱”的明星物种。"
+ ],
+ "fact": "在一处研究地点，它 15 个月里吃下的种子有 74% 来自同一种草。",
+ "range": "澳大利亚大陆大部分地区的干旱草原和疏林。",
+ "sources": [
+  "Wikipedia「Australian zebra finch」",
+  "Wikipedia「Zebra finch」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

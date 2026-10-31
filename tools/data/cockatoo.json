@@ -1,0 +1,77 @@
+{
+ "file": "葵花凤头鹦鹉",
+ "no": "113",
+ "cat": "宠物",
+ "name_cn": "葵花凤头鹦鹉",
+ "name_en": "Sulphur-crested cockatoo",
+ "latin": "Cacatua galerita",
+ "short": "葵花凤头鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃种子等，还会吃黏土解毒",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "44–55 cm",
+   "lo": 0.44,
+   "hi": 0.55,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 20–40 年",
+   "lo": 20,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "70 年以上",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "25–27 天",
+   "lo": 25,
+   "hi": 27,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跟着节拍跳舞",
+   "icon": "flip",
+   "desc": "2009 年的研究发现，一只叫 Snowball 的凤头鹦鹉能跟着音乐节拍摆动身体。"
+  },
+  {
+   "name": "黄色冠羽",
+   "icon": "camo",
+   "desc": "白色身体配上醒目的黄色冠羽，它还会用羽毛做“表情”表达开心。"
+  }
+ ],
+ "intro": [
+  "葵花凤头鹦鹉是生活在澳大利亚、新几内亚和印尼部分岛屿的大型白色鹦鹉。",
+  "它们有时数量很多，被当成害鸟。",
+  "它们很聪明，但作为宠物要求很高。"
+ ],
+ "fact": "悉尼有一只叫“Cocky Bennett”的凤头鹦鹉，据说活到了 100 岁以上。",
+ "range": "澳大利亚北部和东部、新几内亚及印尼部分岛屿的林地。",
+ "sources": [
+  "Wikipedia「Sulphur-crested cockatoo」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "每窝产蛋 2–3 枚。"
+}

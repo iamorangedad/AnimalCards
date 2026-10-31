@@ -1,0 +1,77 @@
+{
+ "file": "周期蝉",
+ "no": "104",
+ "cat": "昆虫",
+ "name_cn": "周期蝉",
+ "name_en": "Periodical cicada",
+ "latin": "Magicicada spp.",
+ "short": "周期蝉",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "若虫在地下吸树根汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "2.4–3.3 cm",
+   "lo": 0.024,
+   "hi": 0.033,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "地下生活",
+   "value": "13 或 17 年",
+   "lo": 13,
+   "hi": 17,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "600 枚以上",
+   "lo": 600,
+   "hi": 600,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "出土地温",
+   "value": "17.9 °C 以上",
+   "lo": 17.9,
+   "hi": 17.9,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "质数年出土",
+   "icon": "huddle",
+   "desc": "它在地下生活 13 或 17 年（都是质数），有人认为这能避开周期较短的天敌。"
+  },
+  {
+   "name": "合唱",
+   "icon": "ear",
+   "desc": "雄蝉聚在一起大合唱来吸引雌蝉，不同种类的歌声不一样。"
+  }
+ ],
+ "intro": [
+  "周期蝉是北美洲东部蝉属的 7 个物种，分为 13 年蝉和 17 年蝉。",
+  "同一地方的周期蝉几乎在同一年一起出土。",
+  "成虫有一对红色复眼，翅膀透明、翅脉是橙色的。"
+ ],
+ "fact": "2024 年，两个最大的蝉群——17 年的第 XIII 群和 13 年的第 XIX 群——自 1803 年以来首次同年出土。",
+ "range": "北美洲东部。",
+ "sources": [
+  "Wikipedia「Periodical cicada」"
+ ],
+ "footnote": "是一个属（7 种），未找到 IUCN 评估（待核）。"
+}

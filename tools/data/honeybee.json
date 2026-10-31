@@ -1,0 +1,78 @@
+{
+ "file": "西方蜜蜂",
+ "no": "096",
+ "cat": "昆虫",
+ "name_cn": "西方蜜蜂",
+ "name_en": "Western honey bee",
+ "latin": "Apis mellifera",
+ "short": "西方蜜蜂",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃花蜜、花粉和“蜂粮”",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "蜂王日产卵",
+   "value": "旺季 2500 枚以上",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "飞行体温",
+   "value": "35 °C",
+   "lo": 35,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "觅食气温",
+   "value": "22–25 °C",
+   "lo": 22,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "一冬吃蜜*",
+   "value": "15–50 kg",
+   "lo": 15,
+   "hi": 50,
+   "scale": "food",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "摇摆舞",
+   "icon": "team",
+   "desc": "工蜂用“舞蹈”告诉同伴食物在哪里；圆圈舞表示食物在蜂巢 50 m 以内。"
+  },
+  {
+   "name": "空调高手",
+   "icon": "huddle",
+   "desc": "天热时蜂群扇风、蒸发水分降温；冬天抱成一团取暖。"
+  }
+ ],
+ "intro": [
+  "西方蜜蜂是世界上最常见的蜜蜂，学名意思是“带蜜的蜂”。",
+  "一个蜂群里有一只蜂王、许多工蜂和少量雄蜂。",
+  "它是最早被驯养的昆虫之一，人类养蜂至少已有 7000 年。"
+ ],
+ "fact": "美国每年的杏树授粉，要用掉全国三分之一以上的养殖蜜蜂。",
+ "range": "可能起源于非洲或亚洲，自然扩散到中东和欧洲；现被引入世界各地养殖。",
+ "sources": [
+  "Wikipedia「Western honey bee」",
+  "Wikipedia「Honey bee」",
+  "IUCN 红色名录（Moro et al. 2025）"
+ ],
+ "footnote": "IUCN 评为“数据缺乏”（DD）。*一冬吃蜜为温带蜂群数据（蜜蜂属整体）。"
+}

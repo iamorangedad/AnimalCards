@@ -1,0 +1,78 @@
+{
+ "file": "薄翅螳螂",
+ "no": "101",
+ "cat": "昆虫",
+ "name_cn": "薄翅螳螂",
+ "name_en": "European mantis",
+ "latin": "Mantis religiosa",
+ "short": "薄翅螳螂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "只吃活的、会动的猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雌虫体长",
+   "value": "6–8 cm",
+   "lo": 0.06,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一个卵鞘",
+   "value": "约 100–200 枚卵",
+   "lo": 100,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "雌虫寿命",
+   "value": "11–12 个月",
+   "lo": 11,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "孵化温度",
+   "value": "至少 17 °C",
+   "lo": 17,
+   "hi": 17,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕捉前足",
+   "icon": "trunk",
+   "desc": "它的一对前足特别发达，专门用来抓住和夹紧飞得很快的猎物。"
+  },
+  {
+   "name": "灵活转头",
+   "icon": "camo",
+   "desc": "螳螂的三角形头部非常灵活，有些种类的头能转动近 180°。"
+  }
+ ],
+ "intro": [
+  "薄翅螳螂是欧洲最常见的“祈祷螳螂”，因前足折起像在祈祷而得名。",
+  "它能很好地发现会动的东西，但几乎看不见静止的物体。",
+  "它有黄、褐、绿，有时甚至是黑色的个体。"
+ ],
+ "fact": "螳螂雌虫有时会在交配后吃掉雄虫。",
+ "range": "欧洲、非洲、亚洲多地（多个亚种）。",
+ "sources": [
+  "Wikipedia「Mantis religiosa」",
+  "Wikipedia「Mantis」",
+  "IUCN 红色名录（Battiston 2016）"
+ ],
+ "footnote": "转头和吃雄虫为螳螂整体资料。雄虫寿命 7–8 个月。"
+}

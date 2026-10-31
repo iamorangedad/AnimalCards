@@ -1,0 +1,78 @@
+{
+ "file": "双叉犀金龟",
+ "no": "103",
+ "cat": "昆虫",
+ "name_cn": "双叉犀金龟",
+ "name_en": "Japanese rhinoceros beetle",
+ "latin": "Trypoxylus dichotomus",
+ "short": "双叉犀金龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸树汁，幼虫吃腐殖质",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "雄虫体长",
+   "value": "40–80 mm",
+   "lo": 0.04,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌虫体长",
+   "value": "35–60 mm",
+   "lo": 0.035,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫角长",
+   "value": "7–32 mm",
+   "lo": 0.007,
+   "hi": 0.032,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵到成虫",
+   "value": "约 1 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "角力对决",
+   "icon": "roar",
+   "desc": "雄虫用头上的大角和别的雄虫争地盘：先推、再撬，最后把对手掀翻或赶跑。"
+  },
+  {
+   "name": "大力士*",
+   "icon": "flip",
+   "desc": "有说法称某些犀金龟能举起自身体重 850 倍的东西（只是传闻）。"
+  }
+ ],
+ "intro": [
+  "双叉犀金龟就是俗称的“独角仙”，日本叫它“兜虫”。",
+  "它分布在中国、朝鲜半岛、日本、越南、泰国和台湾等地。",
+  "成虫在 6–8 月从土里钻出来，啃开树皮吸树汁。"
+ ],
+ "fact": "在中国，独角仙入药已有近 2000 年历史。",
+ "range": "东亚和东南亚的阔叶林。",
+ "sources": [
+  "Wikipedia「Japanese rhinoceros beetle」",
+  "Wikipedia「Dynastinae」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。*850 倍为犀金龟亚科的传闻性说法。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 95 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11）。
+共 105 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -103,6 +103,16 @@
 | 093 | 美洲牛蛙（American bullfrog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E6%B4%B2%E7%89%9B%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E6%B4%B2%E7%89%9B%E8%9B%99.pdf) |
 | 094 | 中国大鲵（Chinese giant salamander） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%B2%B5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%B2%B5.pdf) |
 | 095 | 美西钝口螈（Axolotl） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E8%A5%BF%E9%92%9D%E5%8F%A3%E8%9E%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E8%A5%BF%E9%92%9D%E5%8F%A3%E8%9E%88.pdf) |
+| 096 | 西方蜜蜂（Western honey bee） | 昆虫 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A5%BF%E6%96%B9%E8%9C%9C%E8%9C%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A5%BF%E6%96%B9%E8%9C%9C%E8%9C%82.pdf) |
+| 097 | 黑毛蚁（Black garden ant） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E6%AF%9B%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E6%AF%9B%E8%9A%81.pdf) |
+| 098 | 帝王蝶（Monarch butterfly） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E8%9D%B6.pdf) |
+| 099 | 七星瓢虫（Seven-spot ladybird） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%B8%83%E6%98%9F%E7%93%A2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%B8%83%E6%98%9F%E7%93%A2%E8%99%AB.pdf) |
+| 100 | 帝王伟蜓（Emperor dragonfly） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E4%BC%9F%E8%9C%93.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E4%BC%9F%E8%9C%93.pdf) |
+| 101 | 薄翅螳螂（European mantis） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%96%84%E7%BF%85%E8%9E%B3%E8%9E%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%96%84%E7%BF%85%E8%9E%B3%E8%9E%82.pdf) |
+| 102 | 北美萤火虫（Common eastern firefly） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8C%97%E7%BE%8E%E8%90%A4%E7%81%AB%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8C%97%E7%BE%8E%E8%90%A4%E7%81%AB%E8%99%AB.pdf) |
+| 103 | 双叉犀金龟（Japanese rhinoceros beetle） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%8C%E5%8F%89%E7%8A%80%E9%87%91%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%8C%E5%8F%89%E7%8A%80%E9%87%91%E9%BE%9F.pdf) |
+| 104 | 周期蝉（Periodical cicada） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%91%A8%E6%9C%9F%E8%9D%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%91%A8%E6%9C%9F%E8%9D%89.pdf) |
+| 105 | 家蟋蟀（House cricket） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9F%8B%E8%9F%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%AE%B6%E8%9F%8B%E8%9F%80.pdf) |
 
 ## 说明
 

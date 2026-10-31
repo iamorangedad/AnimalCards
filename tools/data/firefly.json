@@ -1,0 +1,79 @@
+{
+ "file": "北美萤火虫",
+ "no": "102",
+ "cat": "昆虫",
+ "name_cn": "北美萤火虫",
+ "name_en": "Common eastern firefly",
+ "latin": "Photinus pyralis",
+ "short": "北美萤火虫",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫吃小虫（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "9–19 mm",
+   "lo": 0.009,
+   "hi": 0.019,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "闪光间隔",
+   "value": "5–7 秒",
+   "lo": 5,
+   "hi": 7,
+   "scale": "sec",
+   "approx": false
+  },
+  {
+   "label": "雌虫回应",
+   "value": "延迟 1–2 秒",
+   "lo": 1,
+   "hi": 2,
+   "scale": "sec",
+   "approx": false
+  },
+  {
+   "label": "萤科种类*",
+   "value": "2400 种以上",
+   "lo": 2400,
+   "hi": 2400,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "J 形闪光",
+   "icon": "flip",
+   "desc": "雄虫飞行时划出“J”字形轨迹，在向上时发光，所以又叫“北斗七星萤火虫”。"
+  },
+  {
+   "name": "灯光对话",
+   "icon": "ear",
+   "desc": "雌虫停在草叶上，看到中意的雄虫闪光后，隔 1–2 秒闪光回应。"
+  }
+ ],
+ "intro": [
+  "北美萤火虫是北美最常见的萤火虫，其实是一种会飞的甲虫。",
+  "它腹部有一个发光器官，鞘翅边缘是黄色的。",
+  "萤火虫的光最初可能是幼虫在警告天敌：我不好吃。"
+ ],
+ "fact": "所有萤火虫的幼虫都会发光，但只有部分种类的成虫会发光。",
+ "range": "北美洲，主要在落基山脉以东。",
+ "sources": [
+  "Wikipedia「Photinus pyralis」",
+  "Wikipedia「Firefly」",
+  "IUCN 红色名录（Walker 2021）"
+ ],
+ "footnote": "*种类数和幼虫发光为萤科整体资料。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "七星瓢虫",
+ "no": "099",
+ "cat": "昆虫",
+ "name_cn": "七星瓢虫",
+ "name_en": "Seven-spot ladybird",
+ "latin": "Coccinella septempunctata",
+ "short": "七星瓢虫",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "最爱吃蚜虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "6.5–7.8 mm",
+   "lo": 0.0065,
+   "hi": 0.0078,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一生产卵",
+   "value": "250–500 枚",
+   "lo": 250,
+   "hi": 500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "飞行距离",
+   "value": "可达 120 km",
+   "lo": 120,
+   "hi": 120,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "0–1500 m",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃蚜虫",
+   "icon": "jar",
+   "desc": "成虫和幼虫都吃蚜虫，它们靠蚜虫才能发育和繁殖，是农业益虫。"
+  },
+  {
+   "name": "警戒色",
+   "icon": "camo",
+   "desc": "红底黑点的鲜艳颜色是在警告天敌：我很难吃、有毒。"
+  }
+ ],
+ "intro": [
+  "七星瓢虫橙红色的鞘翅上有七个黑点。",
+  "它原产欧洲、亚洲大部分地区和北非。",
+  "冬眠时，成虫会聚成一团取暖；蚜虫少时也吃花粉和花蜜。"
+ ],
+ "fact": "七星瓢虫能在约 1000 m 的高空飞行，最远可飞 120 km。",
+ "range": "原产欧洲、亚洲大部分地区和北非；已被引入北美用于防治蚜虫。",
+ "sources": [
+  "Wikipedia「Coccinella septempunctata」",
+  "Wikipedia「Coccinellidae」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。"
+}

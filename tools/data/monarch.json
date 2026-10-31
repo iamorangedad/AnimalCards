@@ -1,0 +1,77 @@
+{
+ "file": "帝王蝶",
+ "no": "098",
+ "cat": "昆虫",
+ "name_cn": "帝王蝶",
+ "name_en": "Monarch butterfly",
+ "latin": "Danaus plexippus",
+ "short": "帝王蝶",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃马利筋，成虫吸花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "8.9–10.2 cm",
+   "lo": 0.089,
+   "hi": 0.102,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "约 9 km/h",
+   "lo": 9,
+   "hi": 9,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "一生产卵",
+   "value": "300–500 枚",
+   "lo": 300,
+   "hi": 500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "卵到成虫",
+   "value": "25 天–7 周",
+   "lo": 25,
+   "hi": 49,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长途迁徙",
+   "icon": "dive",
+   "desc": "北美东部的帝王蝶每年夏末秋初从美国北部和加拿大南部向南飞到佛罗里达和墨西哥。"
+  },
+  {
+   "name": "有毒防身",
+   "icon": "camo",
+   "desc": "幼虫吃有毒的马利筋，这能帮它们防御天敌；橙黑白的花纹很好认。"
+  }
+ ],
+ "intro": [
+  "帝王蝶是北美最常见、最有代表性的蝴蝶之一。",
+  "体温低于 30 °C 时它飞不起来，要先晒太阳暖身。",
+  "野外通常不到 10% 的卵和毛毛虫能活下来。"
+ ],
+ "fact": "1990 年代以来，落基山以东越冬的帝王蝶数量下降了 90% 以上。",
+ "range": "北美洲到南美洲北部；也见于夏威夷、澳大利亚、新西兰、西班牙等地。",
+ "sources": [
+  "Wikipedia「Monarch butterfly」",
+  "IUCN 红色名录（Walker et al. 2022）"
+ ],
+ "footnote": ""
+}

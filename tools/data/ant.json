@@ -1,0 +1,77 @@
+{
+ "file": "黑毛蚁",
+ "no": "097",
+ "cat": "昆虫",
+ "name_cn": "黑毛蚁",
+ "name_en": "Black garden ant",
+ "latin": "Lasius niger",
+ "short": "黑毛蚁",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃蚜虫分泌的蜜露等（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "一窝工蚁",
+   "value": "通常 4000–7000 只",
+   "lo": 4000,
+   "hi": 7000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "蚁后寿命",
+   "value": "通常近 15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "蚁后最长",
+   "value": "29 年",
+   "lo": 29,
+   "hi": 29,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "卵到成虫",
+   "value": "8–10 周",
+   "lo": 56,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长寿蚁后",
+   "icon": "huddle",
+   "desc": "工蚁只活几个月，蚁后却能活近 15 年，最长 29 年，是社会性昆虫中最长寿的纪录。"
+  },
+  {
+   "name": "放牧蚜虫",
+   "icon": "team",
+   "desc": "它会照顾蚜虫：有蚜虫加蚂蚁的蚕豆，每株只结约 8 粒种子。"
+  }
+ ],
+ "intro": [
+  "黑毛蚁又叫黑色花园蚁，是欧洲最常见的蚂蚁之一。",
+  "一个蚁巢通常只有一只蚁后，偶尔可达 4 万只工蚁。",
+  "建巢初期，一个巢里可能同时有 2–3 只蚁后。"
+ ],
+ "fact": "蚁后建巢期间不吃东西，体重会减少约 50%。",
+ "range": "欧洲各地，北美和亚洲部分地区。",
+ "sources": [
+  "Wikipedia「Lasius niger」",
+  "Wikipedia「Ant」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。"
+}

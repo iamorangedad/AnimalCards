@@ -1,0 +1,77 @@
+{
+ "file": "家蟋蟀",
+ "no": "105",
+ "cat": "昆虫",
+ "name_cn": "家蟋蟀",
+ "name_en": "House cricket",
+ "latin": "Acheta domesticus",
+ "short": "家蟋蟀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "植物和动物都吃",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见 IUCN 评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "16–21 mm",
+   "lo": 0.016,
+   "hi": 0.021,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "生命周期",
+   "value": "2–3 个月",
+   "lo": 2,
+   "hi": 3,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "适宜温度",
+   "value": "26–32 °C",
+   "lo": 26,
+   "hi": 32,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "同地种数*",
+   "value": "88 种",
+   "lo": 88,
+   "hi": 88,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "摩擦鸣叫",
+   "icon": "ear",
+   "desc": "蟋蟀雄虫摩擦坚硬的前翅发出响亮的鸣声来吸引雌虫；耳朵长在前腿上。"
+  },
+  {
+   "name": "跳跃高手",
+   "icon": "flip",
+   "desc": "和很多直翅目昆虫一样，它的后腿腿节很粗，能用力跳跃。"
+  }
+ ],
+ "intro": [
+  "家蟋蟀是灰色或褐色的，很可能原产西南亚。",
+  "1950–2000 年间，它成为宠物和科研行业的标准饲料昆虫，传遍全世界。",
+  "在中国，人们会把蟋蟀养在笼子或特制的葫芦里，有时用来斗蟋蟀。"
+ ],
+ "fact": "雌虫尾部有一根针状产卵器，雌雄因此很好分辨。",
+ "range": "可能原产西南亚，现已遍布全世界。",
+ "sources": [
+  "Wikipedia「House cricket」",
+  "Wikipedia「Cricket (insect)」"
+ ],
+ "footnote": "未找到 IUCN 评估（待核）。*88 种为马来西亚一处地点同时听到的蟋蟀种数。"
+}

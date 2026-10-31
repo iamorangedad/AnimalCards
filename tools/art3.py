@@ -468,3 +468,158 @@ def a_axolotl(w, h):
 
 ART3.update({"cn-alligator": a_cnalligator, "nile-croc": a_nilecroc, "komodo": a_komodo, "chameleon": a_chameleon, "king-cobra": a_kingcobra,
              "python": a_python, "tortoise": a_tortoise, "iguana": a_iguana, "bullfrog": a_bullfrog, "giant-salamander": a_giantsal, "axolotl": a_axolotl})
+
+
+# ---------------------------------------------------------------- insects (side view, facing left, ground y=0)
+def legs6(xs, top, col=INK, h=60, sw=5, bend=1):
+    o = ""
+    for i, x in enumerate(xs):
+        dx = -30 if i == 0 else (10 if i == 1 else 40)
+        o += P(f"M{x} {top} l{dx*.6} {-h*.3*bend} l{dx*.4} {h*1.3}", sw=sw, col=col)
+    return o
+
+
+def antenna(x, y, L=70, ang=-150, curve=20, sw=3, club=False, col=INK):
+    a = math.radians(ang)
+    ex, ey = x + math.cos(a) * L, y + math.sin(a) * L
+    o = P(f"M{x} {y} Q{(x+ex)/2:.0f} {(y+ey)/2-curve:.0f} {ex:.0f} {ey:.0f}", sw=sw, col=col)
+    if club:
+        o += C(ex, ey, 6, col, 0)
+    return o
+
+
+def wing(x, y, L, W, ang, fill="#eef6fb", veins=BLUE_M, op=".75"):
+    return (f'<g transform="rotate({ang} {x} {y})">' + E(x + L / 2, y, L / 2, W / 2, fill, 2.4, extra=f'fill-opacity="{op}"') +
+            P(f"M{x} {y} L{x+L*.95} {y} M{x+L*.2} {y} l{L*.3} {-W*.3} M{x+L*.3} {y} l{L*.4} {W*.3}", sw=1.4, col=veins) + "</g>")
+
+
+def a_honeybee(w, h):
+    o = []
+    o.append(wing(10, -100, 110, 44, -35) + wing(0, -96, 80, 32, -15))
+    o.append(legs6([-50, -10, 30], -64, h=50, sw=5))
+    ab = "M10 -110 C60 -130 130 -110 130 -80 C130 -50 60 -40 10 -60 Z"
+    stripes = "".join(R(26 + i * 26, -140, 13, 120, INK, 0, 0, "none") for i in range(4))
+    o.append(P(ab, "#f2c53a") + clip(ab, stripes) + P(ab, "none"))
+    o.append(E(-20, -86, 36, 30, "#c99a3a") + P("M-40 -100 q10 -6 20 0 M-30 -80 q10 -6 20 0", sw=1.6, col="#8a6a2a"))
+    o.append(C(-66, -92, 22, "#3a3020") + E(-74, -98, 8, 11, "#1a1a1a", 0))
+    o.append(antenna(-74, -110, 50, -120, 10))
+    o.append(P("M130 -80 l12 0", sw=3))
+    fl = G_(flower(0, 0, "#f6d0e0", 3.0), 0, 200)
+    return scene("meadow", w, h, G_("".join(o), 0, 0), box=(w / 2, h * .66, 420, 300))
+
+
+def a_ant(w, h):
+    o = []
+    o.append(legs6([-40, 0, 30], -40, h=40, sw=5))
+    o.append(E(90, -56, 52, 34, "#2a2422") + E(10, -50, 30, 18, "#2a2422") + C(40, -66, 10, "#2a2422", 2.6))
+    o.append(C(-56, -60, 28, "#2a2422") + C(-66, -66, 6, "#6a6a6a", 0))
+    o.append(P("M-70 -84 l-10 -40 l-34 -10", sw=4) + P("M-60 -86 l4 -44 l-28 -16", sw=4))
+    o.append(P("M-84 -46 l-16 4 M-84 -52 l-16 -4", sw=3))
+    crumb = poly([(-170, 0), (-150, -24), (-126, -20), (-120, 0)], "#f3e2c4", 2.6)
+    return scene("meadow", w, h, crumb + "".join(o), box=(w / 2, h * .74, 420, 220))
+
+
+def a_monarch(w, h):
+    o = []
+    for s in (-1, 1):
+        up = f"M0 -120 C{s*40} -230 {s*190} -250 {s*200} -190 C{s*200} -140 {s*120} -110 0 -110 Z"
+        lo = f"M0 -100 C{s*60} -110 {s*170} -90 {s*150} -30 C{s*120} 10 {s*40} -20 0 -90 Z"
+        for d in (lo, up):
+            veins = "".join(P(f"M0 -110 L{s*(60+k*40)} {-240+k*50}", sw=5, col=INK) for k in range(4)) if d == up else "".join(P(f"M0 -95 L{s*(60+k*30)} {-80+k*20}", sw=5, col=INK) for k in range(3))
+            o.append(P(d, "#f08a2a", 6) + clip(d, veins) + P(d, "none", 6))
+        o.append("".join(C(s * (150 + k * 12), -210 + k * 22, 5, "#fff", 0) for k in range(3)))
+    o.append(E(0, -105, 10, 50, INK, 0) + C(0, -160, 12, INK, 0))
+    o.append(antenna(-4, -168, 60, -110, 8, 2.6, club=True) + antenna(4, -168, 60, -70, -8, 2.6, club=True))
+    return scene("meadow", w, h, "".join(o), box=(w / 2, h * .66, 460, 320))
+
+
+def a_ladybird(w, h):
+    o = []
+    o.append(legs6([-40, 0, 40], -30, h=30, sw=5))
+    dome = "M-90 -30 C-90 -150 110 -150 110 -30 Z"
+    spots = "".join(C(x, y, 14, INK, 0) for x, y in ((-10, -112), (-50, -80), (30, -90), (70, -60), (-20, -55), (10, -60), (60, -100)))
+    o.append(P(dome, "#e2483c") + clip(dome, spots) + P(dome, "none") + P("M-60 -100 C-20 -80 10 -80 60 -110", sw=0))
+    o.append(P("M-90 -30 C-120 -30 -132 -60 -110 -80 C-96 -90 -84 -60 -84 -40 Z", INK, 0) + C(-118, -60, 6, "#fff", 0))
+    o.append(antenna(-120, -76, 30, -140, 6, 2.4, club=True))
+    leaf = P("M-220 10 C-120 -40 120 -40 240 10 C120 30 -120 30 -220 10 Z", SAGE_L, 2.8) + P("M-220 10 L240 10", sw=2, col=SAGE)
+    aph = "".join(E(160 + i * 18, -8, 6, 4, "#b8d88a", 1.6) for i in range(3))
+    return scene("leaf", w, h, leaf + aph + G_("".join(o), 0, -6), box=(w / 2, h * .74, 480, 260))
+
+
+def a_dragonfly(w, h):
+    o = []
+    o.append(wing(-20, -130, 170, 40, -100, "#eef6fb") + wing(-10, -130, 170, 40, -80, "#eef6fb"))
+    o.append(wing(0, -122, 160, 40, -150, "#eef6fb") + wing(10, -122, 160, 40, -30, "#eef6fb"))
+    o.append(R(-8, -130, 16, 220, "#4f8fd8", 8, 3))
+    o.append("".join(P(f"M-8 {-100+i*28} H8", sw=3, col="#1f2f5a") for i in range(7)))
+    o.append(E(0, -140, 22, 26, "#7fc06a"))
+    o.append(C(-14, -170, 16, "#5fa8e8") + C(14, -170, 16, "#5fa8e8"))
+    g = f'<g transform="rotate(-90 0 -40)">{"".join(o)}</g>'
+    return scene("pond", w, h, G_(g, 0, -60), box=(w / 2, h * .62, 440, 300))
+
+
+def a_mantis(w, h):
+    F = "#8fc86a"
+    o = []
+    o.append(wing(20, -110, 170, 40, 6, "#d9efc8", SAGE, ".9"))
+    o.append(P("M40 -100 C100 -110 200 -100 210 -80 C190 -60 100 -70 40 -80 Z", F))
+    o.append(P("M60 -86 l-10 40 l-10 46 M120 -84 l20 40 l20 44 M160 -84 l40 30 l30 54", sw=5, col=darker(F, .7)))
+    o.append(P("M40 -96 L-40 -150", sw=18) + P("M40 -96 L-40 -150", sw=12, col=F))
+    o.append(P("M-30 -140 l-30 30 l-26 -40 M-22 -136 l-20 36 l-30 -34", sw=10) + P("M-30 -140 l-30 30 l-26 -40 M-22 -136 l-20 36 l-30 -34", sw=6, col=F))
+    o.append(poly([(-40, -150), (-80, -184), (-50, -196), (-30, -170)], F, 2.8) + C(-70, -186, 7, "#5a8a3a", 0) + C(-46, -192, 7, "#5a8a3a", 0))
+    o.append(antenna(-66, -194, 80, -150, 10, 2.4))
+    return scene("leaf", w, h, "".join(o), box=(w / 2, h * .74, 440, 340))
+
+
+def a_firefly(w, h):
+    o = []
+    glow = C(120, -60, 60, "#fff6a8", 0, extra='fill-opacity=".55"') if False else E(130, -70, 70, 50, "#fff6a8", 0, "none", extra='fill-opacity=".6"')
+    o.append(glow)
+    o.append(legs6([-30, 10, 50], -50, h=40, sw=4))
+    o.append(P("M-20 -100 C40 -120 150 -110 160 -80 C150 -50 40 -40 -20 -60 Z", "#4a3e30"))
+    o.append(P("M110 -96 C140 -100 160 -90 160 -80 C156 -64 130 -60 110 -64 Z", "#f6e66a", 2.4))
+    o.append(P("M-20 -100 C40 -120 150 -110 160 -80", sw=4, col="#e9d86a"))
+    o.append(E(-36, -82, 26, 22, "#e9a0a0") + E(-30, -82, 10, 18, INK, 0) + C(-56, -80, 10, INK, 0))
+    o.append(antenna(-60, -88, 50, -160, 10, 2.6))
+    sparks = "".join(C(x, y, r, "#f6e66a", 0) for x, y, r in ((-200, -200, 8), (220, -230, 6), (260, -150, 5), (-160, -120, 5)))
+    return scene("meadow", w, h, sparks + "".join(o), box=(w / 2, h * .7, 440, 260))
+
+
+def a_beetle(w, h):
+    F = "#5a3a22"
+    o = []
+    o.append(legs6([-40, 10, 60], -40, h=40, sw=7))
+    o.append(P("M-20 -50 C-20 -150 160 -150 170 -60 C160 -30 0 -20 -20 -50 Z", F))
+    o.append(P("M-20 -96 C30 -100 60 -120 70 -130", sw=2.4, col="#8a6a4a") + E(70, -100, 40, 14, "#8a6a4a", 0, extra='fill-opacity=".5"'))
+    o.append(P("M-20 -50 C-50 -40 -80 -60 -70 -90 C-50 -110 -20 -110 -20 -50 Z", "#4a2e1a"))
+    o.append(P("M-70 -80 C-120 -100 -150 -160 -140 -200 l-12 -8 M-140 -200 l14 -4", sw=10) + P("M-70 -80 C-120 -100 -150 -160 -140 -200", sw=6, col="#4a2e1a"))
+    o.append(P("M-40 -106 C-30 -130 -50 -150 -60 -146", sw=8) + P("M-40 -106 C-30 -130 -50 -150 -60 -146", sw=4, col="#4a2e1a"))
+    o.append(C(-62, -80, 4, "#e9d8b8", 0))
+    log = R(-200, -2, 420, 24, "#c9a27a", 10, 3)
+    return scene("forest", w, h, log + G_("".join(o), 0, -2), box=(w / 2, h * .76, 460, 300))
+
+
+def a_cicada(w, h):
+    o = []
+    o.append(wing(-10, -110, 220, 60, 8, "#f2f6f8", ORG, ".8"))
+    o.append(legs6([-40, -10, 20], -60, h=50, sw=5))
+    o.append(P("M-20 -110 C40 -120 120 -100 130 -80 C120 -60 40 -50 -20 -64 Z", "#2a2422"))
+    o.append(E(-40, -90, 30, 28, "#2a2422") + C(-66, -104, 12, "#e2483c") + P("M-64 -66 l-30 30", sw=4))
+    tree = R(-40, -400, 70, 420, "#c9a27a", 6, 3) if False else ""
+    return scene("forest", w, h, branch(-200, 220, 4, 14) + G_("".join(o), 0, -10), box=(w / 2, h * .66, 460, 260))
+
+
+def a_cricket(w, h):
+    F = "#8a6a44"
+    o = []
+    o.append(P("M60 -70 L160 -150 L190 0", sw=14) + P("M60 -70 L160 -150 L190 0", sw=9, col=F))
+    o.append(legs6([-40, 0], -50, h=40, sw=5) if True else "")
+    o.append(P("M-30 -100 C40 -116 150 -96 160 -66 C150 -40 40 -36 -30 -50 Z", F))
+    o.append(P("M-10 -100 C40 -110 130 -96 150 -76", sw=2.4, col="#5a4a30") + P("M150 -60 l50 -10 M150 -56 l50 6", sw=3))
+    o.append(E(-50, -78, 30, 28, "#6a5034") + C(-64, -88, 6, INK, 0))
+    o.append(antenna(-72, -96, 200, -170, 40, 2.4) + antenna(-70, -100, 180, -155, 50, 2.4))
+    return scene("meadow", w, h, "".join(o), box=(w / 2, h * .74, 460, 260))
+
+
+ART3.update({"honeybee": a_honeybee, "ant": a_ant, "monarch": a_monarch, "ladybird": a_ladybird, "dragonfly": a_dragonfly, "mantis": a_mantis,
+             "firefly": a_firefly, "beetle": a_beetle, "cicada": a_cicada, "cricket": a_cricket})

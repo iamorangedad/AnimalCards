@@ -1,0 +1,79 @@
+{
+ "file": "帝王伟蜓",
+ "no": "100",
+ "cat": "昆虫",
+ "name_cn": "帝王伟蜓",
+ "name_en": "Emperor dragonfly",
+ "latin": "Anax imperator",
+ "short": "帝王伟蜓",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食蝴蝶、其他蜻蜓和蝌蚪",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "73–82 mm",
+   "lo": 0.073,
+   "hi": 0.082,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展·平均",
+   "value": "约 104 mm",
+   "lo": 0.104,
+   "hi": 0.104,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "幼虫体长",
+   "value": "约 46 mm",
+   "lo": 0.046,
+   "hi": 0.046,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "复眼小眼*",
+   "value": "每只近 24000 个",
+   "lo": 24000,
+   "hi": 24000,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "空中捕猎",
+   "icon": "dive",
+   "desc": "它常飞到高空寻找猎物，捉到小猎物就在飞行中吃掉。"
+  },
+  {
+   "name": "巨大复眼",
+   "icon": "camo",
+   "desc": "蜻蜓有一对巨大的复眼，每只由近 24000 个小眼组成。"
+  }
+ ],
+ "intro": [
+  "帝王伟蜓是欧洲大部分地区最大的蜻蜓。",
+  "雌蜓独自把卵产在眼子菜等水生植物上。",
+  "它的幼虫生活在水里，非常凶猛。"
+ ],
+ "fact": "自 1990 年代以来，它在欧洲的分布不断向北、向高海拔扩展。",
+ "range": "非洲全境、欧洲大部、阿拉伯半岛及西南亚和中亚。",
+ "sources": [
+  "Wikipedia「Emperor dragonfly」",
+  "Wikipedia「Dragonfly」",
+  "IUCN 红色名录（Mitra 2016）"
+ ],
+ "footnote": "*复眼数据为蜻蜓整体资料。"
+}

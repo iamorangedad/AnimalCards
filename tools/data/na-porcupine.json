@@ -1,0 +1,79 @@
+{
+ "file": "北美豪猪",
+ "no": "558",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "北美豪猪",
+ "name_en": "North American porcupine",
+ "latin": "Erethizon dorsatum",
+ "short": "北美豪猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃果实、树叶；冬天主要吃针叶和树皮",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "刺的数量",
+   "value": "约 3 万根",
+   "lo": 30000,
+   "hi": 30000,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "怀孕期",
+   "value": "平均 202 天",
+   "lo": 202,
+   "hi": 202,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "天敌渔貂",
+   "value": "最重 5.5 kg",
+   "lo": 5.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "北美啮齿",
+   "value": "第 2 大",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "3 万根刺",
+   "icon": "thorn",
+   "desc": "除了肚子，全身约有 3 万根刺。"
+  },
+  {
+   "name": "爬树",
+   "icon": "climb",
+   "desc": "会爬树；天敌渔貂也会爬树追它。"
+  }
+ ],
+ "intro": [
+  "北美豪猪也叫加拿大豪猪。",
+  "它是北美第二大的啮齿动物，仅次于北美河狸。",
+  "它的天敌渔貂很会爬树，能把它从树上赶下来。"
+ ],
+ "fact": "它的怀孕期在啮齿动物里很长；体型相近的河狸只要 128 天。",
+ "range": "加拿大、美国、墨西哥北部。",
+ "sources": [
+  "Wikipedia「North American porcupine」",
+  "IUCN 红色名录（Emmons 2016）"
+ ],
+ "footnote": "“北美啮齿”为排名，比例条借用数量刻度。"
+}

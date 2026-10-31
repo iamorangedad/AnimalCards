@@ -1,0 +1,78 @@
+{
+ "file": "蜜熊",
+ "no": "555",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "蜜熊",
+ "name_en": "Kinkajou",
+ "latin": "Potos flavus",
+ "short": "蜜熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "约 90% 是果实，尤其是无花果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "82–133 cm",
+   "lo": 0.82,
+   "hi": 1.33,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "39–57 cm",
+   "lo": 0.39,
+   "hi": 0.57,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.4–4.6 kg",
+   "lo": 1.4,
+   "hi": 4.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "最长 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长舌头",
+   "icon": "food",
+   "desc": "又长又粗的舌头能伸得很长。"
+  },
+  {
+   "name": "抓握尾巴",
+   "icon": "climb",
+   "desc": "长长的尾巴能卷住树枝。"
+  }
+ ],
+ "intro": [
+  "蜜熊是浣熊科动物，英文也叫 honey bear。",
+  "它是蜜熊属唯一的物种。",
+  "它的眼睛在光下反射绿色或亮黄色。"
+ ],
+ "fact": "它的祖先约 2400–2160 万年前就和浣熊科其他成员分开了。",
+ "range": "墨西哥南部到巴西。",
+ "sources": [
+  "Wikipedia「Kinkajou」"
+ ],
+ "footnote": ""
+}

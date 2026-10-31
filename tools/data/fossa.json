@@ -1,0 +1,79 @@
+{
+ "file": "马岛獴",
+ "no": "536",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "马岛獴",
+ "name_en": "Fossa",
+ "latin": "Cryptoprocta ferox",
+ "short": "马岛獴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "一半以上的食物是狐猴",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "70–80 cm",
+   "lo": 0.7,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "5.5–8.6 kg",
+   "lo": 5.5,
+   "hi": 8.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "断奶",
+   "value": "4.5 个月",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "头朝下爬树",
+   "icon": "climb",
+   "desc": "脚踝很灵活，能头朝下爬上爬下，还能在树间跳跃。"
+  },
+  {
+   "name": "半伸缩爪",
+   "icon": "thorn",
+   "desc": "爪子能伸出，但不能完全缩回。"
+  }
+ ],
+ "intro": [
+  "马岛獴只生活在马达加斯加，长得像猫，尾巴很长。",
+  "它是马达加斯加最大的食肉哺乳动物，属于食蚁狸科（Eupleridae）。",
+  "雄性比雌性大。"
+ ],
+ "fact": "它已灭绝的亲戚 Cryptoprocta spelea 体重估计有 10–20 kg。",
+ "range": "马达加斯加全岛的森林。",
+ "sources": [
+  "Wikipedia「Fossa (animal)」",
+  "IUCN 红色名录（Hawkins, F. 2016）"
+ ],
+ "footnote": ""
+}

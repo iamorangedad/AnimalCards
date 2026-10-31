@@ -1,0 +1,78 @@
+{
+ "file": "紫羚",
+ "no": "548",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "紫羚",
+ "name_en": "Bongo",
+ "latin": "Tragelaphus eurycerus",
+ "short": "紫羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树叶、灌木、藤、树皮和果实",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2016",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.15–3.15 m",
+   "lo": 2.15,
+   "hi": 3.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "220–405 kg",
+   "lo": 220,
+   "hi": 405,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "75–99 cm",
+   "lo": 0.75,
+   "hi": 0.99,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "约 285 天",
+   "lo": 285,
+   "hi": 285,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白条纹伪装",
+   "icon": "camo",
+   "desc": "深栗色的身上有白色条纹，帮它在森林里隐身。"
+  },
+  {
+   "name": "螺旋角",
+   "icon": "trunk",
+   "desc": "长长的、略带螺旋的角，长 75–99 cm。"
+  }
+ ],
+ "intro": [
+  "紫羚（邦戈羚）生活在撒哈拉以南非洲的森林，大多在夜里活动。",
+  "它是最大的森林羚羊之一。",
+  "很少见到超过 20 只的群。"
+ ],
+ "fact": "小紫羚的角长得很快，3.5 个月就能看到。",
+ "range": "西非、中非森林；东部亚种只在肯尼亚山区。",
+ "sources": [
+  "Wikipedia「Bongo (antelope)」"
+ ],
+ "footnote": ""
+}

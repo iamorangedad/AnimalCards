@@ -1,0 +1,78 @@
+{
+ "file": "红腿白臀叶猴",
+ "no": "545",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "红腿白臀叶猴",
+ "name_en": "Red-shanked douc",
+ "latin": "Pygathrix nemaeus",
+ "short": "红腿白臀叶猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃树叶",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "8.6–11.4 kg",
+   "lo": 8.6,
+   "hi": 11.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "6.6–10.5 kg",
+   "lo": 6.6,
+   "hi": 10.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "165–210 天",
+   "lo": 165,
+   "hi": 210,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "最长 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "灵长类女王",
+   "icon": "camo",
+   "desc": "身上颜色最鲜艳，被称为“灵长类女王”：红腿、白臂、橙色项圈、黄脸。"
+  },
+  {
+   "name": "吃叶",
+   "icon": "food",
+   "desc": "以树叶为主食。"
+  }
+ ],
+ "intro": [
+  "红腿白臀叶猴只生活在老挝、越南和柬埔寨。",
+  "雄性比雌性大。",
+  "成年雄性有约 12 cm 长的白胡须。"
+ ],
+ "fact": "小叶猴长大时身体变深、脸变浅，10 个月时变成成年的颜色。",
+ "range": "老挝、越南、柬埔寨。",
+ "sources": [
+  "Wikipedia「Red-shanked douc」"
+ ],
+ "footnote": ""
+}

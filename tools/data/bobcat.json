@@ -1,0 +1,78 @@
+{
+ "file": "短尾猫",
+ "no": "554",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "短尾猫",
+ "name_en": "Bobcat",
+ "latin": "Lynx rufus",
+ "short": "短尾猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃兔子、啮齿动物和鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "30–60 cm",
+   "lo": 0.3,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "平均 9.6 kg",
+   "lo": 9.6,
+   "hi": 9.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "平均 6.8 kg",
+   "lo": 6.8,
+   "hi": 6.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最重记录",
+   "value": "22.2 kg",
+   "lo": 22.2,
+   "hi": 22.2,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "适应力强",
+   "icon": "wind",
+   "desc": "能在树林、半荒漠、城市边缘和沼泽生活。"
+  },
+  {
+   "name": "短尾巴",
+   "icon": "camo",
+   "desc": "尾巴短短的、尖端黑色，名字由此而来；前腿有黑横纹。"
+  }
+ ],
+ "intro": [
+  "短尾猫是猞猁属的一种，生活在北美洲。",
+  "它从加拿大南部分布到墨西哥瓦哈卡。",
+  "总长（含尾巴）最多 125 cm。"
+ ],
+ "fact": "最大的短尾猫出现在加拿大东部和美国北部。",
+ "range": "加拿大南部到墨西哥。",
+ "sources": [
+  "Wikipedia「Bobcat」"
+ ],
+ "footnote": ""
+}

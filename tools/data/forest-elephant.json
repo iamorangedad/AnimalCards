@@ -1,0 +1,79 @@
+{
+ "file": "非洲森林象",
+ "no": "549",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "非洲森林象",
+ "name_en": "African forest elephant",
+ "latin": "Loxodonta cyclotis",
+ "short": "非洲森林象",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃至少 96 种植物的叶、种子、果实和树皮",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2021",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "平均肩高",
+   "value": "2.16 m",
+   "lo": 2.16,
+   "hi": 2.16,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄象体重",
+   "value": "平均约 2 t",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "种子传播",
+   "value": "至少 5 km",
+   "lo": 5,
+   "hi": 5,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "物种分化",
+   "value": "至少 190 万年",
+   "lo": 1.9,
+   "hi": 1.9,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "森林园丁",
+   "icon": "seed",
+   "desc": "把吃下的种子带到至少 5 km 外，随粪便播种，维护森林多样性。"
+  },
+  {
+   "name": "直象牙",
+   "icon": "trunk",
+   "desc": "雌雄的象牙都直直地朝下长。"
+  }
+ ],
+ "intro": [
+  "非洲森林象生活在西非和刚果盆地的潮湿热带森林。",
+  "它是现存三种象里最小的。",
+  "灰色皮肤在泥地打滚后看起来偏黄或偏红。"
+ ],
+ "fact": "它和非洲草原象至少在 190 万年前就分开了，是两个不同的物种。",
+ "range": "西非、刚果盆地。",
+ "sources": [
+  "Wikipedia「African forest elephant」",
+  "IUCN 红色名录（Gobush 2021）"
+ ],
+ "footnote": ""
+}

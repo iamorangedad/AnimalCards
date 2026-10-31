@@ -1,0 +1,79 @@
+{
+ "file": "黑掌蜘蛛猴",
+ "no": "542",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "黑掌蜘蛛猴",
+ "name_en": "Geoffroy's spider monkey",
+ "latin": "Ateles geoffroyi",
+ "short": "黑掌蜘蛛猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃成熟果实",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最多约 9 kg",
+   "lo": 9,
+   "hi": 9,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "30–63 cm",
+   "lo": 0.3,
+   "hi": 0.63,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "分化时间",
+   "value": "约 359 万年",
+   "lo": 3.59,
+   "hi": 3.59,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "吼猴分出",
+   "value": "超过 1000 万年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "第五只手",
+   "icon": "climb",
+   "desc": "能抓握的尾巴可以撑起全身重量，像多了一条腿。"
+  },
+  {
+   "name": "长手臂",
+   "icon": "trunk",
+   "desc": "手臂比腿长很多，在树上荡来荡去。"
+  }
+ ],
+ "intro": [
+  "黑掌蜘蛛猴生活在中美洲和墨西哥部分地区。",
+  "它是体型最大的新大陆猴之一。",
+  "也叫中美洲蜘蛛猴。"
+ ],
+ "fact": "研究认为蜘蛛猴约 359 万年前和绒毛猴分开。",
+ "range": "墨西哥南部到巴拿马，可能到哥伦比亚一小块。",
+ "sources": [
+  "Wikipedia「Geoffroy's spider monkey」",
+  "IUCN 红色名录（Cortes-Ortíz, L. 2021）"
+ ],
+ "footnote": ""
+}

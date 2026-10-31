@@ -1,0 +1,79 @@
+{
+ "file": "北美马鹿",
+ "no": "560",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "北美马鹿",
+ "name_en": "Elk",
+ "latin": "Cervus canadensis",
+ "short": "北美马鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、树叶和树皮",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "0.75–1.5 m",
+   "lo": 0.75,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "178–497 kg",
+   "lo": 178,
+   "hi": 497,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角每天长",
+   "value": "2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "群体",
+   "value": "最多 400 只",
+   "lo": 400,
+   "hi": 400,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长得最快的角",
+   "icon": "trunk",
+   "desc": "鹿角由骨头构成，每天能长 2.5 cm。"
+  },
+  {
+   "name": "求偶长鸣",
+   "icon": "ear",
+   "desc": "繁殖季雄鹿发出响亮的口哨、吼叫和尖叫。"
+  }
+ ],
+ "intro": [
+  "马鹿（北美马鹿）是鹿科第二大的物种。",
+  "它生活在北美洲和中亚、东亚。",
+  "罗斯福马鹿是最大的亚种，雄鹿的角能重 18 kg。"
+ ],
+ "fact": "一年大部分时间，雄鹿和雌鹿分开成群生活。",
+ "range": "北美洲西部、中亚、东亚；被引入新西兰、阿根廷。",
+ "sources": [
+  "Wikipedia「Elk」",
+  "IUCN 红色名录（Brook, S.M. 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "美洲狮",
+ "no": "553",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "美洲狮",
+ "name_en": "Cougar",
+ "latin": "Puma concolor",
+ "short": "美洲狮",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鹿和其他哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "53–72 kg",
+   "lo": 53,
+   "hi": 72,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "34–48 kg",
+   "lo": 34,
+   "hi": 48,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "63–95 cm",
+   "lo": 0.63,
+   "hi": 0.95,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重记录",
+   "value": "105.2 kg",
+   "lo": 105.2,
+   "hi": 105.2,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分布最广",
+   "icon": "wind",
+   "desc": "从北美到南美都有，是西半球分布最广的大型野生陆地哺乳动物。"
+  },
+  {
+   "name": "名字最多",
+   "icon": "ear",
+   "desc": "也叫美洲狮、山狮、黑豹（panther）等。"
+  }
+ ],
+ "intro": [
+  "美洲狮是一种“大型的小型猫”。",
+  "它在赤道附近个体小，越靠近两极越大。",
+  "最大的记录是 1901 年射杀的一只，重 105.2 kg。"
+ ],
+ "fact": "有研究认为，北美原来的美洲狮约 1 万年前在更新世大灭绝中消失了。",
+ "range": "加拿大西部到南美洲南端。",
+ "sources": [
+  "Wikipedia「Cougar」",
+  "IUCN 红色名录（Nielsen, C. 2015）"
+ ],
+ "footnote": ""
+}

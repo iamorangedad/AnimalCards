@@ -1,0 +1,78 @@
+{
+ "file": "普通狨",
+ "no": "540",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "普通狨",
+ "name_en": "Common marmoset",
+ "latin": "Callithrix jacchus",
+ "short": "普通狨",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃树胶、树汁和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体高",
+   "value": "平均 188 mm",
+   "lo": 0.188,
+   "hi": 0.188,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "平均 256 g",
+   "lo": 0.256,
+   "hi": 0.256,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "5 个月",
+   "lo": 5,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "断奶",
+   "value": "3 个月",
+   "lo": 3,
+   "hi": 3,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "啃树吃胶",
+   "icon": "food",
+   "desc": "用指甲扒住树干，吃树胶、树汁、乳胶和树脂。"
+  },
+  {
+   "name": "常生双胞胎",
+   "icon": "team",
+   "desc": "常生异卵双胞胎，全家一起照顾。"
+  }
+ ],
+ "intro": [
+  "普通狨也叫白耳狨，原产巴西东北部沿海。",
+  "雄性比雌性略大。",
+  "雌性生完约 10 天后就能再次繁殖，一年可以生两次。"
+ ],
+ "fact": "繁殖的雄性（通常是父亲）会帮忙抱双胞胎。",
+ "range": "巴西中东部；被引入里约热内卢、布宜诺斯艾利斯等城市。",
+ "sources": [
+  "Wikipedia「Common marmoset」"
+ ],
+ "footnote": ""
+}

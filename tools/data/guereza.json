@@ -1,0 +1,78 @@
+{
+ "file": "东黑白疣猴",
+ "no": "547",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "东黑白疣猴",
+ "name_en": "Mantled guereza",
+ "latin": "Colobus guereza",
+ "short": "东黑白疣猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树叶、种子、果实和节肢动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "9.3–13.5 kg",
+   "lo": 9.3,
+   "hi": 13.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "7.8–9.2 kg",
+   "lo": 7.8,
+   "hi": 9.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "158 天",
+   "lo": 158,
+   "hi": 158,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "最高 3300 m",
+   "lo": 3300,
+   "hi": 3300,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色披风",
+   "icon": "camo",
+   "desc": "黑色身体两侧有长长的白毛“披风”，尾巴末端是大白毛簇。"
+  },
+  {
+   "name": "特殊胃",
+   "icon": "food",
+   "desc": "特化的胃能消化纤维很多的植物。"
+  }
+ ],
+ "intro": [
+  "东黑白疣猴生活在非洲中西部和东部的森林。",
+  "它白天活动，住在树上。",
+  "以前人们以为它只吃叶子，其实也吃种子、果实和节肢动物。"
+ ],
+ "fact": "它喜欢靠近河流湖泊的次生林。",
+ "range": "非洲中西部和东部（埃塞俄比亚、肯尼亚、乌干达、喀麦隆等）。",
+ "sources": [
+  "Wikipedia「Mantled guereza」"
+ ],
+ "footnote": ""
+}

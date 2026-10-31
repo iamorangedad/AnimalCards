@@ -1,0 +1,78 @@
+{
+ "file": "南美浣熊",
+ "no": "556",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "南美浣熊",
+ "name_en": "South American coati",
+ "latin": "Nasua nasua",
+ "short": "南美浣熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃果实、无脊椎动物、小动物和鸟蛋",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2–7.2 kg",
+   "lo": 2,
+   "hi": 7.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "85–113 cm",
+   "lo": 0.85,
+   "hi": 1.13,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "74–77 天",
+   "lo": 74,
+   "hi": 77,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "最长 7 年",
+   "lo": 7,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "环纹长尾",
+   "icon": "camo",
+   "desc": "尾巴约占全长一半，上面有环纹。"
+  },
+  {
+   "name": "树上育儿",
+   "icon": "climb",
+   "desc": "雌性离群在树上做窝生小孩，5–6 周后再带回群里。"
+  }
+ ],
+ "intro": [
+  "南美浣熊也叫环尾浣熊，生活在南美洲。",
+  "它在安第斯山以东的低地森林，最高到 2500 m。",
+  "圈养能活到 14 年。"
+ ],
+ "fact": "1766 年林奈给它起了学名。",
+ "range": "哥伦比亚、圭亚那地区到乌拉圭和阿根廷北部。",
+ "sources": [
+  "Wikipedia「South American coati」"
+ ],
+ "footnote": ""
+}

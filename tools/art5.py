@@ -762,3 +762,45 @@ ART5["lemming"] = lambda w, h: scene("snow", w, h, rodent("#d9a860", 220, 130, b
 ART5["onager"] = HORSE("#d9b888", kind="desert", belly="#fbf6ec")
 ART5["alp-marmot"] = lambda w, h: scene("plateau", w, h, rock(-40, 40, 3) + G_(rodent("#a8865a", 260, 150, belly="#d9c09a", ears="small", tail="rope", tl=.5, tailcol="#5a4030", nose="#3a3430"), 0, -60), box=(w / 2, h * .74, 460, 320))
 ART5["porcupine"] = lambda w, h: scene("savanna", w, h, blob(F="#3a3430", L=270, H=170, belly="#3a3430", ears="small", tail=None, nose="#2a2a2a", whisk=False, spines=True), box=(w / 2, h * .74, 460, 320))
+# ---- p4b7 forest 536-560
+from art3 import branch as _branch
+from art2 import a_asianel as _asianel, a_hippo as _a_hippo
+def _ringtail(col, ring=INK, n=14, x0=70, amp=20):
+    pts = [(x0 + amp * math.sin(i / 3), -60 - i * 24) for i in range(n)]
+    d = "M" + " L".join(f"{x:.0f} {y:.0f}" for x, y in pts)
+    rings = "".join(P(f"M{x-14:.0f} {y:.0f} L{x+14:.0f} {y:.0f}", sw=10, col=ring) for x, y in pts[::2]) if ring else ""
+    return P(d, sw=30, col=INK) + P(d, sw=24, col=col) + rings
+def _treeape(kind, tail=None, box=(.76, 440, 440), extra="", **kw):
+    return lambda w, h: scene(kind, w, h, (tail or "") + ape(**kw) + extra, box=(w / 2, h * box[0], box[1], box[2]))
+ART5["fossa"] = Q("rainforest", (.75, 580, 300), F="#a8743e", bl=280, bd=84, lh=70, lw=22, belly="#c9a06a", neck=(22, 40), nw=56, head=(38, 32), snout=(30, 24), snout_col="#8a5a2e", ears="round", tail="long", tail_col="#a8743e")
+ART5["aye-aye"] = _treeape("rainforest", _ringtail("#3a3430", None, 12), F="#3a3430", face="#8a7a6a", H=240, ear_col="#2a2420", brow=False,
+                           extra=P("M-60 -150 l-40 -40", sw=4, col=INK) + E(0, -300, 40, 40, "none", 0))
+ART5["sifaka"] = _treeape("forest", _ringtail("#f6f4ee", None), F="#f6f4ee", face="#2a2a2a", H=270, ear_col="#f6f4ee", brow=False, hair="#8a5a3a")
+ART5["lion-tamarin"] = _treeape("rainforest", _ringtail("#e8902a", None, 12), (.76, 400, 400), F="#e8902a", face="#5a3a2a", H=220, cape="#f0a83a", ear_col="#e8902a", brow=False, snub=True)
+ART5["marmoset"] = _treeape("rainforest", _ringtail("#8a8478", "#e9e4da", 12), (.76, 400, 400), F="#8a8478", face="#e9d8c4", H=210, ear_col="#ffffff", brow=False, snub=True, hair="#ffffff")
+ART5["howler"] = _treeape("rainforest", _ringtail("#2a2420", None), F="#2a2420", face="#3a3430", H=290, ear_col="#2a2420", cape="#a8743e", brow=False)
+ART5["spider-monkey"] = _treeape("rainforest", _ringtail("#8a6a4a", None, 16, 90, 30), F="#8a6a4a", face="#e9c8a8", H=300, arms=1.4, ear_col="#2a2420", brow=False)
+ART5["capuchin"] = _treeape("rainforest", _ringtail("#2a2420", None), F="#2a2420", face="#f2c8b8", H=260, cape="#f4efe6", ear_col="#f4efe6", brow=False)
+ART5["squirrel-monkey"] = _treeape("rainforest", _ringtail("#c9a04a", None), (.76, 400, 400), F="#c9a04a", face="#ffffff", H=220, ear_col="#ffffff", brow=False, snub=True, hair="#8a8a7a")
+ART5["douc"] = _treeape("rainforest", _ringtail("#ffffff", None), F="#7a7a80", face="#e8c05a", H=280, cape="#ffffff", ear_col="#e8c05a", brow=False,
+                        extra=P("M-50 -40 L-50 40 M50 -40 L50 40", sw=26, col="#b8402a"))
+ART5["hainan-gibbon"] = _treeape("rainforest", None, F="#2a2a2e", face="#3a3a3e", H=300, arms=1.4, ear_col="#2a2a2e", brow=False)
+ART5["guereza"] = _treeape("forest", _ringtail("#ffffff", None), F="#2a2a2e", face="#4a4a4e", H=280, cape="#ffffff", ear_col="#2a2a2e", brow=False, hair="#ffffff")
+ART5["bongo"] = ANT("rainforest", "#a8482a", horns="chiru", bl=300, bd=130, lh=140, lw=24, ears="big", head=(42, 36), pattern="stripes", pat_col="#ffffff")
+ART5["forest-elephant"] = _asianel
+ART5["pygmy-hippo"] = lambda w, h: scene("wetland", w, h, quad(F="#5a5258", bl=280, bd=140, lh=64, lw=44, belly="#c9a0a4", neck=(0, 0), head=(62, 54), snout=(64, 54), snout_col="#8a7a80",
+                                          ears="small", tail="short", nose=INK, headdown=30), box=(w / 2, h * .76, 560, 300))
+ART5["river-hog"] = Q("rainforest", (.75, 560, 340), F="#c9542a", bl=280, bd=120, lh=76, lw=26, neck=(0, 0), head=(60, 50), snout=(44, 34), snout_col="#2a2a2a", nose=None,
+                      ears="long", tail="thin", tail_col="#2a2a2a", hooves=INK, pig=True, mane="zebra", mask="#ffffff")
+ART5["ocelot"] = Q("rainforest", None, F="#e0b06a", bl=270, bd=90, lh=100, lw=22, belly="#fbf2dc", pattern="rosettes", pat_col=INK, neck=(26, 38), nw=56, head=(38, 32), snout=(22, 24), snout_col="#fbf2dc", ears="round", tail="long", tail_col="#e0b06a")
+ART5["cougar"] = Q("forest", None, F="#c9a070", bl=300, bd=100, lh=130, lw=26, belly="#f4ead8", neck=(26, 40), nw=60, head=(40, 34), snout=(24, 26), snout_col="#f4ead8", ears="round", tail="long", tail_col="#8a6a4a")
+ART5["bobcat"] = Q("forest", None, F="#b8946a", bl=240, bd=96, lh=120, lw=24, belly="#efe4d2", pattern="spots", pat_col="#5a4030", neck=(28, 36), nw=58, head=(40, 34), snout=(22, 24), snout_col="#efe4d2", ears="point", tail="short", tail_col="#2a2a2a")
+ART5["kinkajou"] = Q("rainforest", (.75, 580, 280), F="#c98a4a", bl=240, bd=86, lh=56, lw=20, belly="#e9b878", neck=(20, 40), nw=56, head=(40, 34), snout=(22, 22), snout_col="#5a3a2a", ears="small", tail="long", tail_col="#c98a4a")
+ART5["coati"] = Q("rainforest", (.75, 580, 300), F="#a8743e", bl=250, bd=86, lh=66, lw=20, belly="#d9b88a", neck=(20, 40), nw=56, head=(36, 30), snout=(50, 18), snout_col="#3a2a1e", ears="small", tail="long", tail_col="#a8743e",
+                  extras="".join(P(f"M{150+i*16} {-150+i*10} l14 -10", sw=8, col="#3a2a1e") for i in range(5)))
+ART5["opossum"] = Q("forest", (.75, 560, 280), F="#a9a9a4", bl=230, bd=90, lh=50, lw=18, belly="#d9d9d4", farleg="#2a2a2a", neck=(14, 46), nw=56, head=(40, 30), snout=(44, 20), snout_col="#ffffff", nose="#e8a0a0", ears="round", tail="thin", tail_col="#f2d8d0")
+ART5["na-porcupine"] = lambda w, h: scene("forest", w, h, blob(F="#5a4a3e", L=260, H=170, belly="#5a4a3e", ears="small", tail=None, nose="#2a2a2a", whisk=False, spines=True), box=(w / 2, h * .74, 460, 320))
+ART5["grey-squirrel"] = lambda w, h: scene("forest", w, h, blob(F="#9a9a98", L=200, H=170, belly="#f4f4f0", ears="round", tail="bushy", nose=INK)
+                 + G_(E(0, 0, 14, 18, "#a07040", 2.4) + P("M-14 -6 h28", sw=2.4), -150, -40), box=(w / 2, h * .74, 400, 340))
+ART5["elk"] = Q("forest", (.78, 580, 470), F="#a8784a", bl=300, bd=124, lh=150, lw=24, belly="#5a3a26", neck=(60, 36), nw=66, head=(42, 36), snout=(46, 30),
+                ears="side", horns="antler", tail="short", tail_col="#e9dcc4", hooves="#3a3f45", neck_wool="#5a3a26")

@@ -1,0 +1,79 @@
+{
+ "file": "红河猪",
+ "no": "551",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "红河猪",
+ "name_en": "Red river hog",
+ "latin": "Potamochoerus porcus",
+ "short": "红河猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃根、球茎和块茎",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "45–115 kg",
+   "lo": 45,
+   "hi": 115,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "100–145 cm",
+   "lo": 1.0,
+   "hi": 1.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "耳尖毛",
+   "value": "最长 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "120 天",
+   "lo": 120,
+   "hi": 120,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耳朵流苏",
+   "icon": "ear",
+   "desc": "长长的耳朵末端有白色或黑色的毛簇。"
+  },
+  {
+   "name": "小家族",
+   "icon": "team",
+   "desc": "通常 6–10 只一群：一只成年公猪、几只母猪和小猪。"
+  }
+ ],
+ "intro": [
+  "红河猪生活在非洲几内亚和刚果的森林。",
+  "它很少离开雨林和河流附近。",
+  "小猪出生时 650–900 g，深褐色带黄色条纹和斑点。"
+ ],
+ "fact": "下巴上有一个约 2 cm 的腺体，可能用来触摸感觉。",
+ "range": "西非和中非的森林。",
+ "sources": [
+  "Wikipedia「Red river hog」",
+  "IUCN 红色名录（Reyna, R. 2016）"
+ ],
+ "footnote": ""
+}

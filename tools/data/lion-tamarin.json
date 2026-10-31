@@ -1,0 +1,79 @@
+{
+ "file": "金狮狨",
+ "no": "539",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "金狮狨",
+ "name_en": "Golden lion tamarin",
+ "latin": "Leontopithecus rosalia",
+ "short": "金狮狨",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、昆虫和小动物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 26 cm",
+   "lo": 0.261,
+   "hi": 0.261,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "约 620 g",
+   "lo": 0.62,
+   "hi": 0.62,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "每日移动",
+   "value": "1.3–2.1 km",
+   "lo": 1.339,
+   "hi": 2.135,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "圈养数量",
+   "value": "约 490 只",
+   "lo": 490,
+   "hi": 490,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "金色鬃毛",
+   "icon": "camo",
+   "desc": "红橙色的毛，脸和耳朵周围的长毛像狮子的鬃毛。"
+  },
+  {
+   "name": "过夜地点",
+   "icon": "huddle",
+   "desc": "一天一大半时间待在过夜的睡觉地点。"
+  }
+ ],
+ "intro": [
+  "金狮狨只生活在巴西大西洋沿岸森林。",
+  "雄性和雌性几乎一样大。",
+  "1990–1992 年第一次全面调查只数到约 560 只野生个体。"
+ ],
+ "fact": "约 490 只金狮狨生活在约 150 家动物园里。",
+ "range": "巴西里约热内卢州的大西洋沿岸森林。",
+ "sources": [
+  "Wikipedia「Golden lion tamarin」",
+  "IUCN 红色名录（Ruiz-Miranda, C.R. 2021）"
+ ],
+ "footnote": ""
+}

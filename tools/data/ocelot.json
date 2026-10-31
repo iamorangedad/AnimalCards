@@ -1,0 +1,79 @@
+{
+ "file": "虎猫",
+ "no": "552",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "虎猫",
+ "name_en": "Ocelot",
+ "latin": "Leopardus pardalis",
+ "short": "虎猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小型哺乳动物、负鼠和兔子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "40–50 cm",
+   "lo": 0.4,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "7–15.5 kg",
+   "lo": 7,
+   "hi": 15.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "55–100 cm",
+   "lo": 0.55,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性领地",
+   "value": "3.5–46 km²",
+   "lo": 3.5,
+   "hi": 46,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜行猎手",
+   "icon": "camo",
+   "desc": "在黄昏和夜里活动，喜欢独居。"
+  },
+  {
+   "name": "会游泳",
+   "icon": "dive",
+   "desc": "会爬树躲避天敌，也很会游泳。"
+  }
+ ],
+ "intro": [
+  "虎猫是中等大小的斑点野猫。",
+  "它生活在美国西南部、墨西哥、中美洲和南美洲。",
+  "它是豹猫属（Leopardus）里最大的。"
+ ],
+ "fact": "它用喷尿来标记领地。",
+ "range": "美国得克萨斯南部到阿根廷北部。",
+ "sources": [
+  "Wikipedia「Ocelot」",
+  "IUCN 红色名录（Paviolo, A. 2015）"
+ ],
+ "footnote": "“领地”的比例条借用距离刻度。"
+}

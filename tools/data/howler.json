@@ -1,0 +1,78 @@
+{
+ "file": "鬃毛吼猴",
+ "no": "541",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "鬃毛吼猴",
+ "name_en": "Mantled howler",
+ "latin": "Alouatta palliata",
+ "short": "鬃毛吼猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃树叶",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "508–675 mm",
+   "lo": 0.508,
+   "hi": 0.675,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "545–655 mm",
+   "lo": 0.545,
+   "hi": 0.655,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "4.5–9.8 kg",
+   "lo": 4.5,
+   "hi": 9.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "3.1–7.6 kg",
+   "lo": 3.1,
+   "hi": 7.6,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃叶专家",
+   "icon": "food",
+   "desc": "是中美洲唯一大量吃树叶的猴子，身体有许多适应。"
+  },
+  {
+   "name": "抓握尾巴",
+   "icon": "climb",
+   "desc": "尾巴能卷住树枝。"
+  }
+ ],
+ "intro": [
+  "鬃毛吼猴生活在中美洲和南美洲。",
+  "名字里的“鬃毛”来自身体两侧的长护毛。",
+  "它是中美洲最大的猴子之一。"
+ ],
+ "fact": "它是中美洲野外最常被看到和听到的猴子之一。",
+ "range": "中美洲到哥伦比亚、厄瓜多尔和秘鲁。",
+ "sources": [
+  "Wikipedia「Mantled howler」"
+ ],
+ "footnote": ""
+}

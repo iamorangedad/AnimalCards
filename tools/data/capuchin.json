@@ -1,0 +1,78 @@
+{
+ "file": "白面卷尾猴",
+ "no": "543",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "白面卷尾猴",
+ "name_en": "Panamanian white-faced capuchin",
+ "latin": "Cebus imitator",
+ "short": "白面卷尾猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、无脊椎动物和小型脊椎动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最多 3.9 kg",
+   "lo": 3.9,
+   "hi": 3.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "超过 54 年",
+   "lo": 54,
+   "hi": 54,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "生育间隔",
+   "value": "约 27 个月",
+   "lo": 27,
+   "hi": 27,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "物种分化",
+   "value": "约 200 万年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "myr",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白脸黑身",
+   "icon": "camo",
+   "desc": "身体大多是黑色，脸粉色，前半身大片白色。"
+  },
+  {
+   "name": "长寿猴",
+   "icon": "huddle",
+   "desc": "记录到的最长寿命超过 54 年。"
+  }
+ ],
+ "intro": [
+  "巴拿马白面卷尾猴生活在中美洲的森林。",
+  "以前它被当作白面卷尾猴的一个亚种。",
+  "2012 年的研究发现两者大约 200 万年前就分开了。"
+ ],
+ "fact": "雌性一年四季都能交配，但平均每 27 个月才生一胎。",
+ "range": "中美洲的多种森林。",
+ "sources": [
+  "Wikipedia「Panamanian white-faced capuchin」"
+ ],
+ "footnote": ""
+}

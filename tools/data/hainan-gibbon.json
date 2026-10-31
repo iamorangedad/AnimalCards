@@ -1,0 +1,79 @@
+{
+ "file": "海南长臂猿",
+ "no": "546",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "海南长臂猿",
+ "name_en": "Hainan black-crested gibbon",
+ "latin": "Nomascus hainanus",
+ "short": "海南长臂猿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃无花果等果实，也吃叶子和昆虫",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "1950 年代",
+   "value": "超过 2000 只",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "2003 年调查",
+   "value": "13 只",
+   "lo": 13,
+   "hi": 13,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "2021 年",
+   "value": "5 群 35 只",
+   "lo": 35,
+   "hi": 35,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "原栖息地剩",
+   "value": "4%（1999）",
+   "lo": 4,
+   "hi": 4,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树冠生活",
+   "icon": "climb",
+   "desc": "生活在阔叶林和半落叶季风林里。"
+  },
+  {
+   "name": "家庭群",
+   "icon": "team",
+   "desc": "以家庭为单位生活，2021 年共 5 群。"
+  }
+ ],
+ "intro": [
+  "海南长臂猿只生活在中国海南岛。",
+  "它是所有现存长臂猿里数量最少的。",
+  "现在只分布在海南霸王岭国家级自然保护区。"
+ ],
+ "fact": "它是中国国家一级保护野生动物。",
+ "range": "中国海南岛霸王岭。",
+ "sources": [
+  "Wikipedia「Hainan black crested gibbon」",
+  "维基百科「海南长臂猿」"
+ ],
+ "footnote": ""
+}

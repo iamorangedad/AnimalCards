@@ -1,0 +1,79 @@
+{
+ "file": "粉红琵鹭",
+ "no": "651",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "粉红琵鹭",
+ "name_en": "Roseate spoonbill",
+ "latin": "Platalea ajaja",
+ "short": "粉红琵鹭",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃甲壳动物、水生昆虫、软体动物和小鱼，也吃少量植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "71–86 cm",
+   "lo": 0.71,
+   "hi": 0.86,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "120–133 cm",
+   "lo": 1.2,
+   "hi": 1.33,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.2–1.8 kg",
+   "lo": 1.2,
+   "hi": 1.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "喙长",
+   "value": "14.5–18 cm",
+   "lo": 0.145,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "左右扫水",
+   "icon": "drop",
+   "desc": "一边在浅水里走，一边把勺子一样的喙左右扫动找食物。"
+  },
+  {
+   "name": "吃出粉色",
+   "icon": "food",
+   "desc": "粉色来自食物里的类胡萝卜素（角黄素），和美洲红鹳一样。"
+  }
+ ],
+ "intro": [
+  "粉红琵鹭是鹮科的群居涉禽。",
+  "它在北美洲和南美洲都有繁殖。",
+  "勺子形的喙能轻松筛过泥巴。"
+ ],
+ "fact": "它吃的很多小鱼，是大型涉禽看不上的“米诺鱼”。",
+ "range": "南美洲（安第斯以东）、加勒比、中美洲、墨西哥和美国墨西哥湾沿岸。",
+ "sources": [
+  "Wikipedia「Roseate spoonbill」"
+ ],
+ "footnote": ""
+}

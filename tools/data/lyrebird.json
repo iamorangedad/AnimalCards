@@ -1,0 +1,78 @@
+{
+ "file": "华丽琴鸟",
+ "no": "662",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "华丽琴鸟",
+ "name_en": "Superb lyrebird",
+ "latin": "Menura novaehollandiae",
+ "short": "华丽琴鸟",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃林地上的蚯蚓和昆虫等无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鸟尾长",
+   "value": "最长 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾羽",
+   "value": "16 根",
+   "lo": 16,
+   "hi": 16,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "化石",
+   "value": "约 1500 万年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "能搬树枝",
+   "value": "粗 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "模仿大师",
+   "icon": "ear",
+   "desc": "以高超的模仿能力出名，会把别的鸟的叫声编进自己的歌里。"
+  },
+  {
+   "name": "琴形尾巴",
+   "icon": "flip",
+   "desc": "雄鸟有华丽的长尾巴，用来求偶表演。"
+  }
+ ],
+ "intro": [
+  "华丽琴鸟是澳大利亚特有的鸣禽。",
+  "它是世界上最大的鸣禽之一。",
+  "翅膀短而圆，很少飞。"
+ ],
+ "fact": "它的脚很有力，能挪动直径 10 cm 的树枝。",
+ "range": "澳大利亚东南部森林。",
+ "sources": [
+  "Wikipedia「Superb lyrebird」"
+ ],
+ "footnote": ""
+}

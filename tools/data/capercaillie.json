@@ -1,0 +1,79 @@
+{
+ "file": "西方松鸡",
+ "no": "667",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "西方松鸡",
+ "name_en": "Western capercaillie",
+ "latin": "Tetrao urogallus",
+ "short": "西方松鸡",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃芽、叶、浆果、草，也吃虫；冬天主要吃针叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鸟均重",
+   "value": "4.1 kg",
+   "lo": 4.1,
+   "hi": 4.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大雄鸟",
+   "value": "6.7 kg",
+   "lo": 6.7,
+   "hi": 6.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄鸟翼展",
+   "value": "90–125 cm",
+   "lo": 0.9,
+   "hi": 1.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体长",
+   "value": "54–64 cm",
+   "lo": 0.54,
+   "hi": 0.64,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃松针",
+   "icon": "thorn",
+   "desc": "冬天主要靠针叶树的针叶过活。"
+  },
+  {
+   "name": "求偶表演",
+   "icon": "roar",
+   "desc": "雄鸟以壮观的求偶表演出名。"
+  }
+ ],
+ "intro": [
+  "西方松鸡是现存最大的松鸡。",
+  "雄鸟体型几乎是雌鸟的两倍。",
+  "它生活在欧洲和古北界北部的老针叶林里。"
+ ],
+ "fact": "从粪便里能看到它吃过的食物残渣。",
+ "range": "欧洲到西伯利亚的针叶林。",
+ "sources": [
+  "Wikipedia「Western capercaillie」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

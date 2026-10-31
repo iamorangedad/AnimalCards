@@ -1,0 +1,78 @@
+{
+ "file": "华丽细尾鹩莺",
+ "no": "665",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "华丽细尾鹩莺",
+ "name_en": "Superb fairywren",
+ "latin": "Malurus cyaneus",
+ "short": "华丽细尾鹩莺",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃昆虫，也吃种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14 cm",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "8–13 g",
+   "lo": 0.008,
+   "hi": 0.013,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "5.9 cm",
+   "lo": 0.059,
+   "hi": 0.059,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "帮手群",
+   "value": "3–5 只",
+   "lo": 3,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "送花瓣",
+   "icon": "bee",
+   "desc": "雄鸟会摘黄色花瓣送给雌鸟，作为求偶表演。"
+  },
+  {
+   "name": "合作育雏",
+   "icon": "team",
+   "desc": "以 3–5 只的小群守护领地，帮手一起养育雏鸟。"
+  }
+ ],
+ "intro": [
+  "华丽细尾鹩莺常见于澳大利亚东南部。",
+  "繁殖期的雄鸟头、耳、背和尾巴是亮蓝色的。",
+  "雌鸟和非繁殖期的雄鸟主要是灰褐色。"
+ ],
+ "fact": "袋鼠岛上的亚种已经和大陆种群分开了大约 9000 年。",
+ "range": "澳大利亚东南部。",
+ "sources": [
+  "Wikipedia「Superb fairywren」"
+ ],
+ "footnote": ""
+}

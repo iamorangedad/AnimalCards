@@ -1,0 +1,78 @@
+{
+ "file": "走鹃",
+ "no": "666",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "走鹃",
+ "name_en": "Greater roadrunner",
+ "latin": "Geococcyx californianus",
+ "short": "走鹃",
+ "type": "陆地",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃小动物：昆虫、蜘蛛、蝎子、老鼠、蜥蜴和小响尾蛇",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "52–62 cm",
+   "lo": 0.52,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "221–538 g",
+   "lo": 0.221,
+   "hi": 0.538,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "32 km/h",
+   "lo": 32,
+   "hi": 32,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "最快报道",
+   "value": "42 km/h",
+   "lo": 42,
+   "hi": 42,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞毛腿",
+   "icon": "wind",
+   "desc": "大部分时间在地上跑，最快报道 42 km/h，是会飞的鸟里跑得最快的。"
+  },
+  {
+   "name": "捕蛇者",
+   "icon": "fire",
+   "desc": "也叫“捕蛇者”，会吃小响尾蛇。"
+  }
+ ],
+ "intro": [
+  "走鹃是杜鹃科的长腿鸟。",
+  "学名意思是“加利福尼亚的地杜鹃”。",
+  "它是美洲最大的杜鹃。"
+ ],
+ "fact": "8000 年前它还生活在稀疏的森林里，后来才适应了干旱的荒漠。",
+ "range": "美国西南部和墨西哥。",
+ "sources": [
+  "Wikipedia「Greater roadrunner」"
+ ],
+ "footnote": ""
+}

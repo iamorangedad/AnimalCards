@@ -1,0 +1,79 @@
+{
+ "file": "阿德利企鹅",
+ "no": "657",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "阿德利企鹅",
+ "name_en": "Adélie penguin",
+ "latin": "Pygoscelis adeliae",
+ "short": "阿德利企鹅",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃磷虾和鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "70–73 cm",
+   "lo": 0.7,
+   "hi": 0.73,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3.8–8.2 kg",
+   "lo": 3.8,
+   "hi": 8.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵卵期",
+   "value": "32–34 天",
+   "lo": 32,
+   "hi": 34,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "跃出水面",
+   "value": "约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "石头窝",
+   "icon": "jar",
+   "desc": "用石头堆成粗糙的巢。"
+  },
+  {
+   "name": "跳上岸",
+   "icon": "flip",
+   "desc": "能从水里跃起约 3 m，跳到岩石上。"
+  }
+ ],
+ "intro": [
+  "阿德利企鹅遍布南极大陆整个海岸。",
+  "它和帝企鹅是分布最靠南的企鹅。",
+  "它通常以约 8 km/h 的速度游泳。"
+ ],
+ "fact": "海冰减少后，南极半岛一些种群在 25 年里下降了 65%。",
+ "range": "南极大陆沿岸。",
+ "sources": [
+  "Wikipedia「Adélie penguin」"
+ ],
+ "footnote": "“下降 65%”是局部地区数据。"
+}

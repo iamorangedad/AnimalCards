@@ -1,0 +1,79 @@
+{
+ "file": "绯红金刚鹦鹉",
+ "no": "661",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "绯红金刚鹦鹉",
+ "name_en": "Scarlet macaw",
+ "latin": "Ara macao",
+ "short": "绯红金刚鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "在树冠找食物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "约 1 kg",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "中美亚种",
+   "value": "平均 89 cm",
+   "lo": 0.89,
+   "hi": 0.89,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见寿命",
+   "value": "40–50 年",
+   "lo": 40,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "可达 75–90 年",
+   "lo": 75,
+   "hi": 90,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃黏土",
+   "icon": "food",
+   "desc": "它们常聚集在“黏土舔食地”。"
+  },
+  {
+   "name": "大嗓门",
+   "icon": "ear",
+   "desc": "主要靠响亮刺耳的叫声交流。"
+  }
+ ],
+ "intro": [
+  "绯红金刚鹦鹉是美洲热带的大型鹦鹉。",
+  "羽毛大部分是鲜红色，翅膀有黄色和蓝色。",
+  "它是洪都拉斯的国鸟。"
+ ],
+ "fact": "眼睛周围到喙有一块白色的裸皮。",
+ "range": "墨西哥东南部到南美洲的湿润常绿森林。",
+ "sources": [
+  "Wikipedia「Scarlet macaw」"
+ ],
+ "footnote": "【待核：具体食性（种子、果实等）】"
+}

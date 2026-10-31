@@ -1,0 +1,78 @@
+{
+ "file": "黄喉蜂虎",
+ "no": "668",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黄喉蜂虎",
+ "name_en": "European bee-eater",
+ "latin": "Merops apiaster",
+ "short": "黄喉蜂虎",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蜜蜂、黄蜂和胡蜂等昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "27–29 cm",
+   "lo": 0.27,
+   "hi": 0.29,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "44–78 g",
+   "lo": 0.044,
+   "hi": 0.078,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每天吃蜂",
+   "value": "约 250 只",
+   "lo": 250,
+   "hi": 250,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "觅食半径",
+   "value": "12 km",
+   "lo": 12,
+   "hi": 12,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "去掉毒刺",
+   "icon": "thorn",
+   "desc": "吃蜜蜂前会把它在硬东西上反复敲打，去掉毒刺。"
+  },
+  {
+   "name": "空中捕虫",
+   "icon": "wind",
+   "desc": "从开阔的栖枝出发，在空中抓飞虫。"
+  }
+ ],
+ "intro": [
+  "黄喉蜂虎是分布最广的蜂虎。",
+  "它在南欧和中欧、非洲北部和南部、西亚繁殖。",
+  "它们成群在沙岸上挖长长的隧道筑巢。"
+ ],
+ "fact": "学名 Merops 是希腊语“吃蜂者”，apiaster 是拉丁语“吃蜂者”。",
+ "range": "南欧和中欧、非洲、西亚。",
+ "sources": [
+  "Wikipedia「European bee-eater」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

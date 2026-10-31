@@ -1,0 +1,80 @@
+{
+ "file": "普通鸬鹚",
+ "no": "652",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "普通鸬鹚",
+ "name_en": "Great cormorant",
+ "latin": "Phalacrocorax carbo",
+ "short": "普通鸬鹚",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "潜水捕鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "70–102 cm",
+   "lo": 0.7,
+   "hi": 1.02,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "121–160 cm",
+   "lo": 1.21,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.5–5.3 kg",
+   "lo": 1.5,
+   "hi": 5.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "潜水深度",
+   "value": "最深 9.5 m",
+   "lo": 9.5,
+   "hi": 9.5,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "潜水捕鱼",
+   "icon": "dive",
+   "desc": "用脚划水潜下去，用嘴抓猎物；每次潜 1–3 分钟。"
+  },
+  {
+   "name": "鸬鹚捕鱼",
+   "icon": "team",
+   "desc": "在中国、日本等地，渔民用鸬鹚帮忙捕鱼。"
+  }
+ ],
+ "intro": [
+  "普通鸬鹚分布很广，在英国就叫 cormorant。",
+  "羽毛大部分是黑色，带有青铜色、绿色和紫色的光泽。",
+  "雄鸟通常比雌鸟大。"
+ ],
+ "fact": "约 60% 的潜水是潜到水底去找食物。",
+ "range": "旧大陆大部、澳大拉西亚和北美大西洋沿岸。",
+ "sources": [
+  "Wikipedia「Great cormorant」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

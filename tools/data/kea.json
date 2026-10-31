@@ -1,0 +1,79 @@
+{
+ "file": "啄羊鹦鹉",
+ "no": "660",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "啄羊鹦鹉",
+ "name_en": "Kea",
+ "latin": "Nestor notabilis",
+ "short": "啄羊鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "林地",
+  "冰原"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃根、叶、浆果、花蜜和昆虫，也吃腐肉",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "46–50 cm",
+   "lo": 0.46,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "750–1000 g",
+   "lo": 0.75,
+   "hi": 1.0,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "巢穴隧道",
+   "value": "1–6 m",
+   "lo": 1,
+   "hi": 6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄比雌长",
+   "value": "约 5%",
+   "lo": 5,
+   "hi": 5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "解谜高手",
+   "icon": "micro",
+   "desc": "很聪明、很好奇，能按顺序推拉东西来解开机关拿到食物。"
+  },
+  {
+   "name": "高山鹦鹉",
+   "icon": "cold",
+   "desc": "生活在新西兰南岛的森林和高山地带。"
+  }
+ ],
+ "intro": [
+  "啄羊鹦鹉是一种大型鹦鹉，身体大多是橄榄绿色。",
+  "翅膀下面是鲜艳的橙色。",
+  "它有一张又长又弯的灰褐色上喙。"
+ ],
+ "fact": "养羊人以为它会攻击羊，所以它曾被悬赏猎杀；1986 年起受到完全保护。",
+ "range": "新西兰南岛。",
+ "sources": [
+  "Wikipedia「Kea」"
+ ],
+ "footnote": ""
+}

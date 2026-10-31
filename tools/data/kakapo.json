@@ -1,0 +1,79 @@
+{
+ "file": "鸮鹦鹉",
+ "no": "659",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "鸮鹦鹉",
+ "name_en": "Kākāpō",
+ "latin": "Strigops habroptilus",
+ "short": "鸮鹦鹉",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "夜里吃植物",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2018",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 64 cm",
+   "lo": 0.64,
+   "hi": 0.64,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸟体重",
+   "value": "1.5–3 kg",
+   "lo": 1.5,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可能达 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": true
+  },
+  {
+   "label": "现存数量",
+   "value": "325 只（2026）",
+   "lo": 325,
+   "hi": 325,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不会飞",
+   "icon": "huddle",
+   "desc": "是世界上唯一不会飞的鹦鹉，也是最重的鹦鹉。"
+  },
+  {
+   "name": "低沉轰鸣",
+   "icon": "ear",
+   "desc": "繁殖年里，雄鸟每晚“轰鸣”6–8 小时，持续四个多月。"
+  }
+ ],
+ "intro": [
+  "鸮鹦鹉是新西兰特有的大型夜行鹦鹉，也叫“猫头鹰鹦鹉”。",
+  "它是唯一采用“求偶场”繁殖的鹦鹉。",
+  "现存的每一只都有名字，被标记和监测。"
+ ],
+ "fact": "大约每 2–4 年，在陆均松（rimu）结果特别多的年份才繁殖。",
+ "range": "新西兰（现存个体在 4 个无天敌的小岛上）。",
+ "sources": [
+  "Wikipedia「Kākāpō」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "“寿命”为报道值。"
+}

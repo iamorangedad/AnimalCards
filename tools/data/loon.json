@@ -1,0 +1,79 @@
+{
+ "file": "普通潜鸟",
+ "no": "656",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "普通潜鸟",
+ "name_en": "Common loon",
+ "latin": "Gavia immer",
+ "short": "普通潜鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、甲壳动物、昆虫幼虫和软体动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "66–91 cm",
+   "lo": 0.66,
+   "hi": 0.91,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "127–147 cm",
+   "lo": 1.27,
+   "hi": 1.47,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2.2–7.6 kg",
+   "lo": 2.2,
+   "hi": 7.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "潜水深度",
+   "value": "最深 60 m",
+   "lo": 60,
+   "hi": 60,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "潜水能手",
+   "icon": "dive",
+   "desc": "能潜到 60 m 深的水下抓鱼。"
+  },
+  {
+   "name": "大蹼脚",
+   "icon": "drop",
+   "desc": "大大的蹼脚让它成为游泳高手。"
+  }
+ ],
+ "intro": [
+  "普通潜鸟在欧亚大陆叫“大北方潜鸟”。",
+  "蛋由双亲一起孵约 28 天。",
+  "雏鸟 70–77 天后学会飞。"
+ ],
+ "fact": "1961 年它成为美国明尼苏达州的州鸟。",
+ "range": "北美洲北部、格陵兰、冰岛繁殖；冬季到北美和欧洲海岸。",
+ "sources": [
+  "Wikipedia「Common loon」"
+ ],
+ "footnote": ""
+}

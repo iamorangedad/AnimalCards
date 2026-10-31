@@ -1,0 +1,79 @@
+{
+ "file": "非洲企鹅",
+ "no": "658",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "非洲企鹅",
+ "name_en": "African penguin",
+ "latin": "Spheniscus demersus",
+ "short": "非洲企鹅",
+ "type": "水中",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "追着鱼和鱿鱼潜水捕食",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2.2–3.5 kg",
+   "lo": 2.2,
+   "hi": 3.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "身高",
+   "value": "60–70 cm",
+   "lo": 0.6,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "下降幅度",
+   "value": "95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "2010 数量",
+   "value": "约 5.5 万只",
+   "lo": 55000,
+   "hi": 55000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "驴叫声",
+   "icon": "ear",
+   "desc": "叫声又大又像驴，所以也叫“公驴企鹅”。"
+  },
+  {
+   "name": "粉色眼斑",
+   "icon": "camo",
+   "desc": "眼睛上方有粉色的裸皮斑块，脸上有黑色面罩。"
+  }
+ ],
+ "intro": [
+  "非洲企鹅只生活在非洲南部的海域。",
+  "它是旧大陆唯一的企鹅。",
+  "它曾经数量极多，现在是最稀有的企鹅。"
+ ],
+ "fact": "从工业化前到现在，纳米比亚和南非的非洲企鹅种群下降了 95%。",
+ "range": "南非和纳米比亚沿岸。",
+ "sources": [
+  "Wikipedia「African penguin」"
+ ],
+ "footnote": "“2010 数量”为当年估计。"
+}

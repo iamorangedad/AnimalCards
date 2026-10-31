@@ -1,0 +1,79 @@
+{
+ "file": "双角犀鸟",
+ "no": "663",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "双角犀鸟",
+ "name_en": "Great hornbill",
+ "latin": "Buceros bicornis",
+ "short": "双角犀鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃果实，尤其是无花果",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "95–130 cm",
+   "lo": 0.95,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "约 152 cm",
+   "lo": 1.52,
+   "hi": 1.52,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "2–4 kg",
+   "lo": 2,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "近 50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "盔突",
+   "icon": "camo",
+   "desc": "大嘴上有黄黑色的盔突，是空心的，用途不明。"
+  },
+  {
+   "name": "种树功臣",
+   "icon": "seed",
+   "desc": "是许多森林树种的重要种子传播者。"
+  }
+ ],
+ "intro": [
+  "双角犀鸟分布在印度次大陆和东南亚。",
+  "它的水分完全来自吃的果实。",
+  "种名 bicornis 意思是“两只角”。"
+ ],
+ "fact": "雌鸟每窝下 1–2 个蛋，孵 38–40 天。",
+ "range": "印度次大陆和东南亚。",
+ "sources": [
+  "Wikipedia「Great hornbill」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "华丽军舰鸟",
+ "no": "655",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "华丽军舰鸟",
+ "name_en": "Magnificent frigatebird",
+ "latin": "Fregata magnificens",
+ "short": "华丽军舰鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "从海面抓鱼（常是飞鱼），也抢别的鸟的食物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "89–114 cm",
+   "lo": 0.89,
+   "hi": 1.14,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2.17–2.44 m",
+   "lo": 2.17,
+   "hi": 2.44,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.1–1.59 kg",
+   "lo": 1.1,
+   "hi": 1.59,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "最高 153 km/h",
+   "lo": 153,
+   "hi": 153,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色气球",
+   "icon": "flip",
+   "desc": "雄鸟繁殖季会把红色的喉囊鼓得像气球一样，吸引雌鸟。"
+  },
+  {
+   "name": "空中强盗",
+   "icon": "fire",
+   "desc": "会追赶别的鸟，逼它们把食物吐出来再抢走。"
+  }
+ ],
+ "intro": [
+  "华丽军舰鸟是最大的军舰鸟。",
+  "它是世界上飞得最快的鸟之一。",
+  "它不在海面降落。"
+ ],
+ "fact": "它可以几天几夜一直在天上飞。",
+ "range": "美洲热带海域：太平洋岸墨西哥北部到秘鲁，大西洋岸佛罗里达到巴西南部。",
+ "sources": [
+  "Wikipedia「Magnificent frigatebird」"
+ ],
+ "footnote": ""
+}

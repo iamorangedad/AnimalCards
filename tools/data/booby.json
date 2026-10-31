@@ -1,0 +1,79 @@
+{
+ "file": "蓝脚鲣鸟",
+ "no": "654",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "蓝脚鲣鸟",
+ "name_en": "Blue-footed booby",
+ "latin": "Sula nebouxii",
+ "short": "蓝脚鲣鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，靠潜水捕捉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌鸟体长",
+   "value": "最长 90 cm",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "最大 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "俯冲高度",
+   "value": "10–30.5 m",
+   "lo": 10,
+   "hi": 30.5,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "入水速度",
+   "value": "约 97 km/h",
+   "lo": 97,
+   "hi": 97,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "蓝脚舞",
+   "icon": "flip",
+   "desc": "雄鸟求偶时会高高抬起蓝色的脚，昂首阔步地“跳舞”。"
+  },
+  {
+   "name": "箭一样俯冲",
+   "icon": "dive",
+   "desc": "从 10–30.5 m（甚至 100 m）高处像箭一样扎进海里。"
+  }
+ ],
+ "intro": [
+  "蓝脚鲣鸟生活在东太平洋的热带和亚热带。",
+  "鲜蓝色的脚是性选择的结果，也和它吃的食物有关。",
+  "约一半的繁殖对在加拉帕戈斯群岛筑巢。"
+ ],
+ "fact": "booby 这个名字来自西班牙语 bobo，意思是“傻瓜”或“小丑”。",
+ "range": "东太平洋：加利福尼亚湾到秘鲁。",
+ "sources": [
+  "Wikipedia「Blue-footed booby」"
+ ],
+ "footnote": ""
+}

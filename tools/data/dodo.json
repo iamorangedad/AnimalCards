@@ -1,0 +1,78 @@
+{
+ "file": "渡渡鸟",
+ "no": "670",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "渡渡鸟",
+ "name_en": "Dodo",
+ "latin": "Raphus cucullatus",
+ "short": "渡渡鸟",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "可能吃果实，靠吞石头帮助消化",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 红色名录",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "62.6–75 cm",
+   "lo": 0.626,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "10.6–17.5 kg",
+   "lo": 10.6,
+   "hi": 17.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "首次记录",
+   "value": "1598 年",
+   "lo": 1598,
+   "hi": 1598,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "最后目击",
+   "value": "1662 年",
+   "lo": 1662,
+   "hi": 1662,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "不会飞",
+   "icon": "huddle",
+   "desc": "是不会飞的鸟，和鸽子是亲戚。"
+  },
+  {
+   "name": "吞石助消化",
+   "icon": "food",
+   "desc": "会吞下硬石头帮助消化食物。"
+  }
+ ],
+ "intro": [
+  "渡渡鸟是毛里求斯特有的、已经灭绝的鸟。",
+  "1598 年荷兰水手第一次记录了它。",
+  "后来它被水手和外来物种捕杀，栖息地也被破坏。"
+ ],
+ "fact": "它因《爱丽丝梦游仙境》而家喻户晓。",
+ "range": "毛里求斯（已灭绝）。",
+ "sources": [
+  "Wikipedia「Dodo」"
+ ],
+ "footnote": "体重为野外估计值。“首次记录”“最后目击”比例条仅示意。"
+}

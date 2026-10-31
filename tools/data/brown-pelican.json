@@ -1,0 +1,79 @@
+{
+ "file": "褐鹈鹕",
+ "no": "653",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "褐鹈鹕",
+ "name_en": "Brown pelican",
+ "latin": "Pelecanus occidentalis",
+ "short": "褐鹈鹕",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "孵卵期",
+   "value": "28–30 天",
+   "lo": 28,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "离巢",
+   "value": "约 63 天",
+   "lo": 63,
+   "hi": 63,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "雏鸟变色",
+   "value": "4–14 天",
+   "lo": 4,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "国鸟",
+   "value": "4 地",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "从空中扎水",
+   "icon": "dive",
+   "desc": "看到鱼群后头朝下扎进水里，像翠鸟一样，常整个没入水中。"
+  },
+  {
+   "name": "夫妻轮流",
+   "icon": "huddle",
+   "desc": "孵蛋由雌雄轮流完成。"
+  }
+ ],
+ "intro": [
+  "褐鹈鹕是美洲的三种鹈鹕之一。",
+  "它是只有两种会潜水捕鱼的鹈鹕之一。",
+  "刚孵出的雏鸟是粉色的，4–14 天后变成灰色或黑色。"
+ ],
+ "fact": "它是圣马丁、巴巴多斯、圣基茨和尼维斯、特克斯和凯科斯群岛的国鸟，也是美国路易斯安那州的州鸟。",
+ "range": "美洲海岸：大西洋岸从新泽西到亚马孙河口等。",
+ "sources": [
+  "Wikipedia「Brown pelican」"
+ ],
+ "footnote": "“国鸟”比例条仅示意。"
+}

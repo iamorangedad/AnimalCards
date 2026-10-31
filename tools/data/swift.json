@@ -1,0 +1,78 @@
+{
+ "file": "普通雨燕",
+ "no": "669",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "普通雨燕",
+ "name_en": "Common swift",
+ "latin": "Apus apus",
+ "short": "普通雨燕",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "在空中吃飞虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "16–17 cm",
+   "lo": 0.16,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "38–40 cm",
+   "lo": 0.38,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "不落地",
+   "value": "最长 10 个月",
+   "lo": 10,
+   "hi": 10,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "最快平飞",
+   "value": "111.6 km/h",
+   "lo": 111.6,
+   "hi": 111.6,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "空中生活",
+   "icon": "wind",
+   "desc": "除了筑巢，一生都在空中：在飞行中喝水、吃东西、甚至睡觉。"
+  },
+  {
+   "name": "唾液筑巢",
+   "icon": "jar",
+   "desc": "用空中抓来的材料加唾液粘成巢。"
+  }
+ ],
+ "intro": [
+  "普通雨燕看起来像燕子，但不是近亲。",
+  "相似之处是趋同演化的结果。",
+  "全身黑褐色，只有下巴有一小块白斑。"
+ ],
+ "fact": "夏天傍晚，10–20 只雨燕会组成“尖叫派对”绕着巢区飞。",
+ "range": "欧亚大陆繁殖，冬季到非洲。",
+ "sources": [
+  "Wikipedia「Common swift」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

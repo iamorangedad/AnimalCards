@@ -1,0 +1,80 @@
+{
+ "file": "凤尾绿咬鹃",
+ "no": "664",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "凤尾绿咬鹃",
+ "name_en": "Resplendent quetzal",
+ "latin": "Pharomachrus mocinno",
+ "short": "凤尾绿咬鹃",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃樟科果实，偶尔吃昆虫、蜥蜴、蛙和蜗牛",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2023",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "36–40 cm",
+   "lo": 0.36,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾羽",
+   "value": "31–100.5 cm",
+   "lo": 0.31,
+   "hi": 1.005,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–19 天",
+   "lo": 17,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每窝",
+   "value": "1–3 个蛋",
+   "lo": 1,
+   "hi": 3,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长尾羽",
+   "icon": "wind",
+   "desc": "雄鸟的尾羽能长到 1 m 左右，中位数 75 cm。"
+  },
+  {
+   "name": "国鸟",
+   "icon": "sun",
+   "desc": "是危地马拉的国兽，国旗上有它，货币也叫“格查尔”。"
+  }
+ ],
+ "intro": [
+  "凤尾绿咬鹃生活在中美洲和墨西哥南部的热带森林，尤其是云雾林。",
+  "它属于咬鹃科，有两个亚种。",
+  "在中美洲神话里它和羽蛇神有关。"
+ ],
+ "fact": "种名 mocinno 来自墨西哥博物学家莫西尼奥。",
+ "range": "墨西哥南部到中美洲的山地云雾林。",
+ "sources": [
+  "Wikipedia「Resplendent quetzal」",
+  "IUCN 红色名录（BirdLife International 2023）"
+ ],
+ "footnote": ""
+}

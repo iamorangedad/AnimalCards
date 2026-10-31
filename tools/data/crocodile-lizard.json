@@ -1,0 +1,80 @@
+{
+ "file": "鳄蜥",
+ "no": "689",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "鳄蜥",
+ "name_en": "Chinese crocodile lizard",
+ "latin": "Shinisaurus crocodilurus",
+ "short": "鳄蜥",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫、蜗牛、蝌蚪和蠕虫",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "40–46 cm",
+   "lo": 0.4,
+   "hi": 0.46,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "最长 9 个月",
+   "lo": 9,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "化石记录",
+   "value": "超过 1.2 亿年",
+   "lo": 120,
+   "hi": 120,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "现存",
+   "value": "唯一 1 种",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "守株待兔",
+   "icon": "camo",
+   "desc": "趴在溪边的树枝上，等猎物出现再出击。"
+  },
+  {
+   "name": "鳄鱼背",
+   "icon": "thorn",
+   "desc": "背和尾巴上有一排排骨质鳞片，像鳄鱼一样。"
+  }
+ ],
+ "intro": [
+  "鳄蜥只生活在中国东南部和越南东北部凉爽的森林里。",
+  "它半水栖，常待在浅水里或溪边的树枝上。",
+  "它是鳄蜥类唯一现存的成员。"
+ ],
+ "fact": "鳄蜥类的化石可以追溯到 1.2 亿多年前的早白垩世。",
+ "range": "中国东南部、越南东北部。",
+ "sources": [
+  "Wikipedia「Chinese crocodile lizard」",
+  "IUCN 红色名录（Nguyen 2022）"
+ ],
+ "footnote": ""
+}

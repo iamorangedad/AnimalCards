@@ -1,0 +1,78 @@
+{
+ "file": "国王变色龙",
+ "no": "679",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "国王变色龙",
+ "name_en": "Parson's chameleon",
+ "latin": "Calumma parsonii",
+ "short": "国王变色龙",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫等无脊椎动物，有时吃小蜥蜴和小鸟",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "500–700 g",
+   "lo": 0.5,
+   "hi": 0.7,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "最长 65 cm",
+   "lo": 0.65,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "400–660 天",
+   "lo": 400,
+   "hi": 660,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "20–60 个",
+   "lo": 20,
+   "hi": 60,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最慢孵化",
+   "icon": "seed",
+   "desc": "蛋要 400–660 天才孵化，是已知爬行动物里最长的；有一次用了 781 天。"
+  },
+  {
+   "name": "夜里变白",
+   "icon": "camo",
+   "desc": "晚上睡觉时颜色会变浅。"
+  }
+ ],
+ "intro": [
+  "国王变色龙是马达加斯加东部和北部特有的变色龙。",
+  "雄性头上有盔和两只疣状“角”。",
+  "雌性比雄性小。"
+ ],
+ "fact": "有只雌性只交配一次，却连续几年下蛋，说明它能长期储存精子。",
+ "range": "马达加斯加东部和北部。",
+ "sources": [
+  "Wikipedia「Parson's chameleon」"
+ ],
+ "footnote": ""
+}

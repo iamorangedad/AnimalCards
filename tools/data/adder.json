@@ -1,0 +1,81 @@
+{
+ "file": "极北蝰",
+ "no": "691",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "极北蝰",
+ "name_en": "Common European adder",
+ "latin": "Vipera berus",
+ "short": "极北蝰",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小型哺乳动物、鸟、蜥蜴和两栖动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "60–90 cm",
+   "lo": 0.6,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "50–180 g",
+   "lo": 0.05,
+   "hi": 0.18,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "平均全长",
+   "value": "55 cm",
+   "lo": 0.55,
+   "hi": 0.55,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒牙",
+   "icon": "toxic",
+   "desc": "有毒，但不算特别危险；不太好斗，一般被踩或被抓才咬人。"
+  },
+  {
+   "name": "之字花纹",
+   "icon": "camo",
+   "desc": "大多数个体背上有贯穿全身的“之”字形花纹。"
+  }
+ ],
+ "intro": [
+  "极北蝰分布极广，遍布欧洲，东到东亚。",
+  "在欧洲好几个国家，它是唯一的本土毒蛇。",
+  "和大多数蛇不同，它的雌雄常能靠颜色区分。"
+ ],
+ "fact": "雌蛇每 2–3 年才繁殖一次。",
+ "range": "欧洲到东亚。",
+ "sources": [
+  "Wikipedia「Vipera berus」",
+  "IUCN 红色名录（Munkhbayar, K. 2021）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇！野外看到不要靠近、不要抓；被咬后保持冷静、尽量少动，立刻送医。"
+}

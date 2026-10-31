@@ -1,0 +1,78 @@
+{
+ "file": "草原巨蜥",
+ "no": "682",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "草原巨蜥",
+ "name_en": "Savannah monitor",
+ "latin": "Varanus exanthematicus",
+ "short": "草原巨蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蜗牛、蟹、蝎子、马陆、昆虫等，也吃蛙",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "很少超过 100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "换牙",
+   "value": "约每 109 天",
+   "lo": 109,
+   "hi": 109,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "每窝蛋",
+   "value": "40 个以上",
+   "lo": 40,
+   "hi": 40,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "156–160 天",
+   "lo": 156,
+   "hi": 160,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "碾碎蜗牛",
+   "icon": "fire",
+   "desc": "下颌后部力量最大，钝钉状的牙能压碎蜗牛壳。"
+  },
+  {
+   "name": "挖洞",
+   "icon": "root",
+   "desc": "四肢有力，善于挖掘，常住在洞里。"
+  }
+ ],
+ "intro": [
+  "草原巨蜥是原产非洲的中型巨蜥。",
+  "在欧洲叫“博斯克巨蜥”，因为法国科学家博斯克最先描述了它。",
+  "它的食性比其他非洲巨蜥窄得多。"
+ ],
+ "fact": "在塞内加尔，成年草原巨蜥最常吃的是马陆。",
+ "range": "非洲。",
+ "sources": [
+  "Wikipedia「Savannah monitor」"
+ ],
+ "footnote": "【待核：具体分布】"
+}

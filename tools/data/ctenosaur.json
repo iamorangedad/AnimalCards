@@ -1,0 +1,78 @@
+{
+ "file": "黑栉尾蜥",
+ "no": "685",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "黑栉尾蜥",
+ "name_en": "Black spiny-tailed iguana",
+ "latin": "Ctenosaura similis",
+ "short": "黑栉尾蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃花、叶、茎和果实，也吃小动物和蛋",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "最长 1.3 m",
+   "lo": 1.3,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体长",
+   "value": "0.8–1 m",
+   "lo": 0.8,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "最多 30 个",
+   "lo": 30,
+   "hi": 30,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "90 天",
+   "lo": 90,
+   "hi": 90,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "梳子尾巴",
+   "icon": "thorn",
+   "desc": "背和尾巴上有梳子一样的刺，属名意思就是“梳子蜥蜴”。"
+  },
+  {
+   "name": "爬树快跑",
+   "icon": "climb",
+   "desc": "很会爬树，跑得很快，靠速度逃避天敌。"
+  }
+ ],
+ "intro": [
+  "黑栉尾蜥原产墨西哥和中美洲。",
+  "它被引入美国佛罗里达南部，并在野外繁殖。",
+  "幼体主要吃虫，长大后越来越偏吃植物。"
+ ],
+ "fact": "在佛罗里达，它可能会吃刚孵化的海龟，威胁当地的濒危物种。",
+ "range": "墨西哥南部到巴拿马；被引入佛罗里达。",
+ "sources": [
+  "Wikipedia「Ctenosaura similis」"
+ ],
+ "footnote": ""
+}

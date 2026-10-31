@@ -1,0 +1,79 @@
+{
+ "file": "红尾蚺",
+ "no": "690",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "红尾蚺",
+ "name_en": "Boa constrictor",
+ "latin": "Boa constrictor",
+ "short": "红尾蚺",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "缠绕捕杀猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌性体长",
+   "value": "2.1–3.0 m",
+   "lo": 2.1,
+   "hi": 3.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体长",
+   "value": "1.8–2.4 m",
+   "lo": 1.8,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "常见 10–15 kg",
+   "lo": 10,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "可达 27 kg",
+   "lo": 27,
+   "hi": 27,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "缠绕绞杀",
+   "icon": "huddle",
+   "desc": "所有蚺都靠缠绕绞杀猎物，它没有毒。"
+  },
+  {
+   "name": "学名当俗名",
+   "icon": "micro",
+   "desc": "是唯一一种英语俗名直接用学名的现生动物。"
+  }
+ ],
+ "intro": [
+  "红尾蚺是体型大、身体粗壮的无毒蛇。",
+  "它常被人饲养繁殖。",
+  "雌性通常比雄性更长更粗。"
+ ],
+ "fact": "宠物圈里它被叫做“BCC”，以区别其他蚺。",
+ "range": "南美洲热带。",
+ "sources": [
+  "Wikipedia「Boa constrictor」",
+  "IUCN 红色名录（Arzamendia, V. 2021）"
+ ],
+ "footnote": ""
+}

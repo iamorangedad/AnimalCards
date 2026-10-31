@@ -1,0 +1,79 @@
+{
+ "file": "鼓腹咝蝰",
+ "no": "693",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "鼓腹咝蝰",
+ "name_en": "Puff adder",
+ "latin": "Bitis arietans",
+ "short": "鼓腹咝蝰",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "很少主动觅食，喜欢埋伏，猎物包括啮齿类等哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见全长",
+   "value": "约 1.0 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "大个体",
+   "value": "190 cm",
+   "lo": 1.9,
+   "hi": 1.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大个体重",
+   "value": "超过 6 kg",
+   "lo": 6,
+   "hi": 6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "背上横纹",
+   "value": "18–22 条",
+   "lo": 18,
+   "hi": 22,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高速猛击",
+   "icon": "toxic",
+   "desc": "出击力量极大、毒牙很深，猎物常常光被撞击就死了。"
+  },
+  {
+   "name": "鼓气嘶叫",
+   "icon": "roar",
+   "desc": "受到打扰时会大声不停地嘶嘶叫，摆出 S 形防御姿势。"
+  }
+ ],
+ "intro": [
+  "鼓腹咝蝰是剧毒的蝰蛇。",
+  "从摩洛哥、阿拉伯西部到整个非洲（撒哈拉和雨林除外）都有它。",
+  "它平时行动迟缓，靠伪装保护自己。"
+ ],
+ "fact": "它是非洲造成蛇咬死亡最多的蛇。",
+ "range": "非洲（撒哈拉和雨林除外）、阿拉伯西部。",
+ "sources": [
+  "Wikipedia「Puff adder」"
+ ],
+ "footnote": "",
+ "warn": "毒蛇！野外看到不要靠近、不要抓；被咬后保持冷静、尽量少动，立刻送医。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "豹纹陆龟",
+ "no": "676",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "豹纹陆龟",
+ "name_en": "Leopard tortoise",
+ "latin": "Stigmochelys pardalis",
+ "short": "豹纹陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃杂草、蓟、草和多肉植物；会啃骨头补钙",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "可达 80–100 年",
+   "lo": 80,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "0–2900 m",
+   "lo": 0,
+   "hi": 2900,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "8–15 个月",
+   "lo": 8,
+   "hi": 15,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "5–30 个",
+   "lo": 5,
+   "hi": 30,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "啃骨补钙",
+   "icon": "food",
+   "desc": "有时会啃骨头、木灰甚至鬣狗粪便来获取钙。"
+  },
+  {
+   "name": "借洞避暑",
+   "icon": "huddle",
+   "desc": "太热或太冷时，会住进狐狸、胡狼或土豚废弃的洞。"
+  }
+ ],
+ "intro": [
+  "豹纹陆龟是一种大型、花纹漂亮的陆龟。",
+  "它生活在从苏丹到南非开普省的东非和南非稀树草原。",
+  "它是豹纹陆龟属唯一现存的物种。"
+ ],
+ "fact": "它的栖息地类型是非洲所有陆龟里最多样的。",
+ "range": "东非和南部非洲。",
+ "sources": [
+  "Wikipedia「Leopard tortoise」"
+ ],
+ "footnote": ""
+}

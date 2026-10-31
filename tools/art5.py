@@ -1073,3 +1073,43 @@ ART5["swift"] = lambda w, h: scene("meadow", w, h, P("M0 -100 C-60 -150 -160 -19
     + E(0, -90, 56, 20, "#2a2622", 2.6) + P("M50 -90 L110 -70 L80 -90 L110 -110 Z", "#2a2622", 2.4) + C(-52, -94, 16, "#2a2622", 2.4) + C(-58, -86, 6, "#e8e4dc", 0) + C(-58, -98, 3, "#fff", 0) + P("M-68 -94 L-78 -92 L-68 -90 Z", INK, 1), box=(w / 2, h * .42, 600, 220))
 ART5["dodo"] = _B("forest", (.8, 500, 400), F="#8a8e94", wing="#6a6e74", rx=110, ry=84, tilt=-4, neck=40, nw=48, hr=40, beak="hook", beak_col="#c9c08a", leg_len=60, leg_col="#e8c86a", legw=12, tail="up", tail_col="#e8e4dc",
     head_col="#9a9ea4", front_fn=lambda x, y, r: P(f"M{x-r*.7} {y-r*.3} C{x-r*2.2} {y-r*.5} {x-r*2.6} {y+r*.4} {x-r*2.2} {y+r*.9} C{x-r*1.6} {y+r*.6} {x-r*1.0} {y+r*.5} {x-r*.6} {y+r*.4} Z", "#c9c08a", 2.4))
+# ---------------- reptiles p4b13
+from art4 import L_ as _L, S_ as _S, C_ as _Cc, TU_ as _TU, FR_ as _FR
+from art3 import lizard as _liz, snake_coil as _coil
+ART5["box-turtle"] = _TU("forest", (.76, 480, 280), shell="#5a3a1a", skin="#8a5a3a", L=240, H=140, scute="#e8a83a", neck=36, plastron="#c9a050",
+    post="".join(C(-60 + i * 40, -90 - (i % 2) * 20, 6, "#f2c83a", 0) for i in range(4)))
+ART5["common-snapper"] = _TU("pond", (.76, 540, 260), shell="#4a4a38", skin="#5a5a48", L=320, H=120, scute="#3a3a2a", neck=70, plastron="#b8b090",
+    post=P("M150 -20 l40 10 l-40 10 l30 0" if False else "", sw=1))
+ART5["bighead-turtle"] = _TU("pond", (.76, 520, 240), shell="#6a5030", skin="#8a7050", L=220, H=70, scute="#5a4020", neck=20, plastron="#c9b080",
+    post=E(-150, -50, 46, 36, "#8a7050", 2.8) + C(-170, -60, 5, INK, 0) + P("M150 -30 C220 -20 260 -40 280 -10", sw=12, col="#8a7050"))
+ART5["golden-coin"] = _TU("pond", (.76, 500, 240), shell="#7a4a2a", skin="#e8c84a", L=240, H=100, scute="#6a3a1a", neck=40, plastron="#f2c84a",
+    post=P("M-60 -100 L60 -100 M-80 -76 L80 -76 M-40 -124 L40 -124", sw=8, col=INK))
+ART5["star-tortoise"] = _TU("desert", (.76, 500, 260), shell="#2a2420", skin="#c9a86a", L=260, H=140, scute="#f2d23a", neck=40, plastron="#e8d8a0",
+    post="".join(P(f"M{cx} -110 l{dx} {dy}", sw=4, col="#f2d23a") for cx in (-60, 0, 60) for dx, dy in ((-16, -16), (16, -16), (0, 22), (-20, 6), (20, 6))))
+ART5["leopard-tortoise"] = _TU("savanna", (.76, 540, 300), shell="#e8c88a", skin="#c9a870", L=300, H=170, scute="#5a3a1a", neck=60, plastron="#e8d8a8",
+    post="".join(C(-80 + (i * 37) % 160, -150 + (i * 23) % 80, 6, "#3a2a1a", 0) for i in range(14)))
+ART5["gopher"] = _TU("desert", (.76, 520, 280), shell="#7a6a4a", skin="#8a7a5a", L=280, H=130, scute="#5a4a30", neck=40, plastron="#c9b890",
+    post=P("M200 0 C220 -60 300 -60 320 0 Z", "#8a6a3a", 2.6))
+ART5["jacksons"] = lambda w, h: scene("rainforest", w, h, _branch(-180, 200, 4, 12) + _liz("#5ac04a", L=170, H=66, tail=1.1, snout=40, sh=40, casque=30, curl=True, legs=14, legh=46, eye_top=True, toes=False)
+    + "".join(P(f"M{-118 + dx} {-120 + dy} l-34 {-6 + dy}", sw=6, col="#c9d88a") for dx, dy in ((0, 0), (8, -18), (8, 18))), box=(w / 2, h * .66, 440, 360))
+ART5["parsons"] = lambda w, h: scene("rainforest", w, h, _branch(-200, 220, 4, 12) + _liz("#3a9aa0", L=210, H=86, tail=1.0, snout=44, sh=46, casque=50, curl=True, legs=16, legh=50, eye_top=True, toes=False, spots="#e8c84a"), box=(w / 2, h * .66, 480, 380))
+ART5["day-gecko"] = _L("rainforest", (.7, 460, 280), pre=_branch(-220, 220, 4, 10), F="#5ad04a", L=150, H=36, tail=1.1, snout=30, sh=26, spots="#e8403a", legs=14, legh=26, eye_col="#3a6ad8",
+    post="".join(C(-30 + i * 16, -64 + (i % 2) * 6, 3, "#f2d23a", 0) for i in range(6)))
+ART5["horned-lizard"] = _L("desert", (.78, 460, 240), F="#c9a06a", L=200, H=56, tail=.4, snout=30, sh=36, spots="#7a4a2a", legs=20, legh=28,
+    post="".join(poly([(-150 + i * 12, -84), (-160 + i * 12, -112), (-140 + i * 12, -86)], "#e8d8b0", 2) for i in range(4)))
+ART5["savannah-mon"] = _L("savanna", (.78, 600, 260), F="#8a7a5a", L=280, H=62, tail=1.0, snout=56, sh=34, spots="#c9b88a", legs=24, legh=36)
+ART5["perentie"] = _L("desert", (.78, 660, 260), F="#6a4a2a", L=340, H=60, tail=1.3, snout=70, sh=30, spots="#e8c87a", legs=24, legh=40)
+ART5["rhino-iguana"] = _L("plateau", (.78, 600, 280), pre=G_(rock(0, 30, 2.2), 0, 0), F="#6a6a6a", L=260, H=66, tail=1.2, snout=50, sh=42, crest="#5a5a5a", dewlap="#7a7a7a", legs=22, legh=38,
+    post=poly([(-300, -104), (-296, -132), (-286, -104)], "#9a9a9a", 2))
+ART5["ctenosaur"] = _L("plateau", (.78, 620, 280), pre=G_(rock(0, 30, 2.0), 0, 0), F="#4a4a42", L=240, H=56, tail=1.5, snout=46, sh=36, crest="#2a2a22", legs=22, legh=38, spots="#9a9a7a")
+ART5["slowworm"] = _S("forest", F="#b8864a", L=.55, head_col="#b8864a", belly="#5a3a1a")
+ART5["sand-lizard"] = _L("meadow", (.78, 500, 240), F="#6aa04a", L=200, H=42, tail=1.4, snout=36, sh=28, spots="#5a4a2a", belly="#d8e0a0", legs=16, legh=26)
+ART5["tegu"] = _L("savanna", (.78, 640, 260), F="#1f1f22", L=300, H=60, tail=1.2, snout=60, sh=34, spots="#f2f2ee", legs=24, legh=36)
+ART5["crocodile-lizard"] = _L("pond", (.74, 540, 260), pre=_branch(-240, 240, 4, 10), F="#5a6a3a", L=200, H=46, tail=1.4, snout=40, sh=32, scutes="#3a4a2a", belly="#e8603a", legs=18, legh=28)
+ART5["boa"] = _S("rainforest", F="#c9b08a", pat="#6a3a2a", L=1.2, head_col="#c9b08a", post=P("M180 -20 C220 -30 250 -24 260 -20", sw=48, col="#a8402a"))
+ART5["adder"] = _S("meadow", F="#a8a08a", pat="#1f1f22", L=.7, head_col="#a8a08a")
+ART5["brown-snake"] = _S("savanna", F="#8a6a3a", L=.75, head_col="#7a5a2a")
+ART5["puff-adder"] = _S("savanna", F="#c9a86a", pat="#4a3018", L=1.3, head_col="#b8985a")
+ART5["sidewinder"] = lambda w, h: scene("desert", w, h, _coil("#e0c898", pat="#a8885a", L=.8) + P("M-90 -150 l-10 -16 M-60 -150 l10 -16", sw=6, col="#c9a878"), box=(w / 2, h * .76, 400, 380))
+ART5["gt-python"] = lambda w, h: scene("rainforest", w, h, _branch(-240, 240, 4, 14) + "".join(E(0, -40 - i * 4, 120 - i * 18, 26, "#3ac04a", 3) for i in range(4))
+    + "".join(C(-100 + i * 40, -40, 4, "#ffffff", 0) for i in range(6)) + E(-150, -120, 30, 18, "#3ac04a", 3) + C(-165, -126, 4, INK, 0) + P("M-120 -110 C-100 -90 -110 -60 -100 -44", sw=22, col="#3ac04a"), box=(w / 2, h * .62, 480, 300))

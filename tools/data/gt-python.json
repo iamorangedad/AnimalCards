@@ -1,0 +1,79 @@
+{
+ "file": "绿树蟒",
+ "no": "695",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "绿树蟒",
+ "name_en": "Green tree python",
+ "latin": "Morelia viridis",
+ "short": "绿树蟒",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小型哺乳动物和小爬行动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见全长",
+   "value": "150–180 cm",
+   "lo": 1.5,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大全长",
+   "value": "2 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 1.6 kg",
+   "lo": 1.6,
+   "hi": 1.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾巴占比",
+   "value": "约 14%",
+   "lo": 14,
+   "hi": 14,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "尾巴挂树",
+   "icon": "climb",
+   "desc": "用能缠绕的尾巴挂在树枝上，摆成 S 形出击再绞杀。"
+  },
+  {
+   "name": "鲜绿色",
+   "icon": "camo",
+   "desc": "身体是鲜艳的绿色，在树上很好隐藏。"
+  }
+ ],
+ "intro": [
+  "绿树蟒原产新几内亚、印尼部分岛屿和澳大利亚约克角半岛。",
+  "雌性比雄性略大。",
+  "它主要生活在树上。"
+ ],
+ "fact": "检查了 1000 多条蛇的胃，没有发现吃鸟的证据。",
+ "range": "新几内亚、印尼部分岛屿、澳大利亚约克角。",
+ "sources": [
+  "Wikipedia「Green tree python」",
+  "IUCN 红色名录（Tallowin, O. 2018）"
+ ],
+ "footnote": ""
+}

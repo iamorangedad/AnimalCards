@@ -1,0 +1,79 @@
+{
+ "file": "阿根廷黑白泰加蜥",
+ "no": "688",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "阿根廷黑白泰加蜥",
+ "name_en": "Argentine black and white tegu",
+ "latin": "Salvator merianae",
+ "short": "阿根廷黑白泰加蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性全长",
+   "value": "超过 120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性全长",
+   "value": "最长 100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "12–15 年",
+   "lo": 12,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "被混淆",
+   "value": "154 年",
+   "lo": 154,
+   "hi": 154,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "尾巴武器",
+   "icon": "fire",
+   "desc": "遇到攻击可以断尾分散注意力，也会用尾巴抽打敌人。"
+  },
+  {
+   "name": "冬眠",
+   "icon": "cold",
+   "desc": "秋天气温下降后会进入冬眠。"
+  }
+ ],
+ "intro": [
+  "阿根廷黑白泰加蜥是最大的泰加蜥。",
+  "它生活在南美洲东部和中部的雨林、草原和半荒漠。",
+  "只要能挖洞，它几乎不挑栖息地。"
+ ],
+ "fact": "从 1845 年起，它被误当成另一种泰加蜥长达 154 年。",
+ "range": "南美洲东部和中部。",
+ "sources": [
+  "Wikipedia「Argentine black and white tegu」",
+  "IUCN 红色名录（Scott 2016）"
+ ],
+ "footnote": ""
+}

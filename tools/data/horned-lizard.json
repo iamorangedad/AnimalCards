@@ -1,0 +1,79 @@
+{
+ "file": "德州角蜥",
+ "no": "681",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "德州角蜥",
+ "name_en": "Texas horned lizard",
+ "latin": "Phrynosoma cornutum",
+ "short": "德州角蜥",
+ "type": "陆地",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "约 70% 吃收获蚁，也吃白蚁、甲虫和蚱蜢",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌性体长",
+   "value": "约 13 cm",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最高海拔",
+   "value": "约 1830 m",
+   "lo": 1830,
+   "hi": 1830,
+   "scale": "alt",
+   "approx": true
+  },
+  {
+   "label": "同属物种",
+   "value": "约 21 种",
+   "lo": 21,
+   "hi": 21,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "稳定种群",
+   "value": "已知 50 多年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "真骨头角",
+   "icon": "thorn",
+   "desc": "头上的角是头骨长出来的，里面是真正的骨头。"
+  },
+  {
+   "name": "满身尖刺",
+   "icon": "camo",
+   "desc": "身体两侧和背上有一排排尖刺。"
+  }
+ ],
+ "intro": [
+  "德州角蜥是北美约 21 种角蜥之一。",
+  "它常被叫做“角蛙”，但既不是蛙也不是蟾蜍。",
+  "属名意思是“蟾蜍身体”，种名意思是“有角的”。"
+ ],
+ "fact": "在得克萨斯州它是受威胁物种，抓、摸或饲养都是违法的。",
+ "range": "美国中南部和墨西哥东北部。",
+ "sources": [
+  "Wikipedia「Texas horned lizard」",
+  "IUCN 红色名录（Hammerson, G.A. 2007）"
+ ],
+ "footnote": ""
+}

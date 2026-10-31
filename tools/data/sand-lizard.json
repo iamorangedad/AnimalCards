@@ -1,0 +1,79 @@
+{
+ "file": "捷蜥蜴",
+ "no": "687",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "捷蜥蜴",
+ "name_en": "Sand lizard",
+ "latin": "Lacerta agilis",
+ "short": "捷蜥蜴",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫等小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性全长",
+   "value": "最长 19.3 cm",
+   "lo": 0.193,
+   "hi": 0.193,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌性全长",
+   "value": "最长 18.5 cm",
+   "lo": 0.185,
+   "hi": 0.185,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "5–6 年",
+   "lo": 5,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "雌性领地",
+   "value": "通常 <100 m²",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "晒沙取暖",
+   "icon": "sun",
+   "desc": "靠温暖的沙子调节体温，也靠沙子孵蛋。"
+  },
+  {
+   "name": "断尾",
+   "icon": "flip",
+   "desc": "遇到危险会自断尾巴逃生。"
+  }
+ ],
+ "intro": [
+  "捷蜥蜴是一种蜥蜴科的蜥蜴。",
+  "背上和两侧有眼睛一样的斑纹。",
+  "雌性一般一年只下一窝蛋。"
+ ],
+ "fact": "在英国这样较冷的地方，它要靠沙子孵蛋，所以只住在海边。",
+ "range": "欧洲到中亚。",
+ "sources": [
+  "Wikipedia「Sand lizard」"
+ ],
+ "footnote": "【待核：食性、分布】"
+}

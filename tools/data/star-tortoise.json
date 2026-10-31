@@ -1,0 +1,79 @@
+{
+ "file": "印度星龟",
+ "no": "675",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "印度星龟",
+ "name_en": "Indian star tortoise",
+ "latin": "Geochelone elegans",
+ "short": "印度星龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "沙漠"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草、落果、花和多肉植物的叶，偶尔吃腐肉",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雌性成熟",
+   "value": "8–12 岁",
+   "lo": 8,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "1–10 个",
+   "lo": 1,
+   "hi": 10,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "50–180 天",
+   "lo": 50,
+   "hi": 180,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "雄性温度",
+   "value": "28–30 °C",
+   "lo": 28,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "星星花纹",
+   "icon": "camo",
+   "desc": "背甲和腹甲上有黑黄相间的放射状条纹。"
+  },
+  {
+   "name": "温度定性别",
+   "icon": "sun",
+   "desc": "孵化温度在 28–30 °C 时，大多孵出雄龟。"
+  }
+ ],
+ "intro": [
+  "印度星龟原产印度、巴基斯坦和斯里兰卡的干燥地区和灌丛林。",
+  "雌龟每年下 1–9 窝蛋。",
+  "2019 年被列入 CITES 附录 I。"
+ ],
+ "fact": "刚下的蛋是半透明的粉色，2–3 周后才变白。",
+ "range": "印度、巴基斯坦、斯里兰卡。",
+ "sources": [
+  "Wikipedia「Indian star tortoise」"
+ ],
+ "footnote": ""
+}

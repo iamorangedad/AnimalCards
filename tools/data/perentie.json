@@ -1,0 +1,78 @@
+{
+ "file": "眼斑巨蜥",
+ "no": "683",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "眼斑巨蜥",
+ "name_en": "Perentie",
+ "latin": "Varanus giganteus",
+ "short": "眼斑巨蜥",
+ "type": "陆地",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃爬行动物和小型哺乳动物，也吃腐肉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 20 kg",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "可能最大",
+   "value": "3 m / 40 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体型排名",
+   "value": "第 4 大蜥蜴",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "站起来看",
+   "icon": "flip",
+   "desc": "常用后腿和尾巴撑起身体，眺望四周。"
+  },
+  {
+   "name": "鞭尾",
+   "icon": "fire",
+   "desc": "被逼急时会鼓起喉咙嘶嘶叫，用有力的尾巴抽打对手。"
+  }
+ ],
+ "intro": [
+  "眼斑巨蜥是现存第四大的蜥蜴。",
+  "比它大的只有科莫多龙、圆鼻巨蜥和鳄鱼巨蜥。",
+  "它是挖洞能手，几分钟就能挖好藏身洞。"
+ ],
+ "fact": "有记录一只 2 m 长的眼斑巨蜥吃掉了一只 1.5 m 长的同类。",
+ "range": "澳大利亚西澳、南澳、北领地和昆士兰的干旱荒漠。",
+ "sources": [
+  "Wikipedia「Perentie」"
+ ],
+ "footnote": "“体型排名”比例条仅示意。"
+}

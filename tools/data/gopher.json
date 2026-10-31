@@ -1,0 +1,79 @@
+{
+ "file": "穴居地鼠龟",
+ "no": "677",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "穴居地鼠龟",
+ "name_en": "Gopher tortoise",
+ "latin": "Gopherus polyphemus",
+ "short": "穴居地鼠龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "土壤"
+ ],
+ "diet": "草食",
+ "diet_note": "吃 300 多种植物，也偶尔吃真菌、腐肉和昆虫",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 1996",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "15–28 cm",
+   "lo": 0.15,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2–6 kg",
+   "lo": 2,
+   "hi": 6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "洞里时间",
+   "value": "最多 80%",
+   "lo": 80,
+   "hi": 80,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "食物植物",
+   "value": "300 多种",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖洞房东",
+   "icon": "root",
+   "desc": "挖的洞穴给至少 360 种其他动物提供藏身处。"
+  },
+  {
+   "name": "铲子前脚",
+   "icon": "climb",
+   "desc": "前脚非常适合挖洞，还有鳞片保护。"
+  }
+ ],
+ "intro": [
+  "穴居地鼠龟原产美国东南部。",
+  "它是密西西比河以东唯一的 Gopherus 属陆龟。",
+  "洞里能挡住夏天的高温、冬天的寒冷、火灾和天敌。"
+ ],
+ "fact": "它被看作“关键种”，因为很多动物都靠它的洞生活。",
+ "range": "美国东南部。",
+ "sources": [
+  "Wikipedia「Gopher tortoise」"
+ ],
+ "footnote": "IUCN 名录上为“易危”（1996 年评估，未更新）；维基百科信息框另记为极危，此处按 IUCN 正式记录。"
+}

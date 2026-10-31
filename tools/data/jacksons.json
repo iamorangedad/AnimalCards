@@ -1,0 +1,79 @@
+{
+ "file": "杰克森变色龙",
+ "no": "678",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "杰克森变色龙",
+ "name_en": "Jackson's chameleon",
+ "latin": "Trioceros jacksonii",
+ "short": "杰克森变色龙",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小昆虫，也吃蜈蚣、蜘蛛、蜗牛等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "最长 38 cm",
+   "lo": 0.38,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "1600–2440 m",
+   "lo": 1600,
+   "hi": 2440,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "白天气温",
+   "value": "16–27 °C",
+   "lo": 16,
+   "hi": 27,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "5 个月",
+   "lo": 5,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三只角",
+   "icon": "thorn",
+   "desc": "雄性头上有三只角，属名就是“三只角”的意思。"
+  },
+  {
+   "name": "快速变色",
+   "icon": "camo",
+   "desc": "像所有变色龙一样，会随心情、健康和温度很快变色。"
+  }
+ ],
+ "intro": [
+  "杰克森变色龙原产东非。",
+  "它生活在肯尼亚中南部和坦桑尼亚北部的林地和湿润森林。",
+  "雌性一般没有角。"
+ ],
+ "fact": "它被引入夏威夷，在那里会吃当地的陆地蜗牛。",
+ "range": "肯尼亚、坦桑尼亚；被引入夏威夷。",
+ "sources": [
+  "Wikipedia「Jackson's chameleon」",
+  "IUCN 红色名录（Tolley, K. 2014）"
+ ],
+ "footnote": ""
+}

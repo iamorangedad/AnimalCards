@@ -1,0 +1,79 @@
+{
+ "file": "金粉守宫",
+ "no": "680",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "金粉守宫",
+ "name_en": "Gold dust day gecko",
+ "latin": "Phelsuma laticauda",
+ "short": "金粉守宫",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫、无脊椎动物和花蜜，也吃小蜥蜴",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "10–13 cm",
+   "lo": 0.1,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "40–45 天",
+   "lo": 40,
+   "hi": 45,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "幼体",
+   "value": "55–60 mm",
+   "lo": 0.055,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "可达 15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白天活动",
+   "icon": "sun",
+   "desc": "是一种在白天活动的壁虎。"
+  },
+  {
+   "name": "爱喝花蜜",
+   "icon": "bee",
+   "desc": "除了虫子，还吃花蜜。"
+  }
+ ],
+ "intro": [
+  "金粉守宫生活在马达加斯加北部、科摩罗和马斯克林群岛。",
+  "它被引入夏威夷等太平洋岛屿。",
+  "雌性每次下 1–2 个蛋。"
+ ],
+ "fact": "幼体还很小就很好斗，所以饲养时要分开。",
+ "range": "马达加斯加北部、科摩罗；被引入夏威夷。",
+ "sources": [
+  "Wikipedia「Gold dust day gecko」",
+  "维基百科「马达加斯加金粉守宫」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "平胸龟",
+ "no": "673",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "平胸龟",
+ "name_en": "Big-headed turtle",
+ "latin": "Platysternon megacephalum",
+ "short": "平胸龟",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃润楠果实等植物，也吃昆虫、甲壳类、两栖类、鱼和虾",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "日活动",
+   "value": "最多 89.6 m",
+   "lo": 89.6,
+   "hi": 89.6,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "5 个",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "命名年份",
+   "value": "1831 年",
+   "lo": 1831,
+   "hi": 1831,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "香港罚款",
+   "value": "最高 500 万港元",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "会爬障碍",
+   "icon": "climb",
+   "desc": "能用尾巴做支撑，用强壮的爪子翻过河里的障碍物。"
+  },
+  {
+   "name": "大头",
+   "icon": "fire",
+   "desc": "头很大，必要时会用有力的嘴自卫。"
+  }
+ ],
+ "intro": [
+  "平胸龟（大头龟）分布在东南亚和中国南部。",
+  "它游泳不太好，有时会像蝎子一样翘起尾巴。",
+  "2013 年被列入 CITES 附录 I。"
+ ],
+ "fact": "它曾被放进鳄龟科，DNA 研究后自成平胸龟科。",
+ "range": "中国南部、东南亚。",
+ "sources": [
+  "Wikipedia「Big-headed turtle」",
+  "维基百科「大头龟」"
+ ],
+ "footnote": "“命名年份”“香港罚款（单位：百万港元）”比例条仅示意。"
+}

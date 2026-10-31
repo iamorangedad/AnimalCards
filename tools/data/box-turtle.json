@@ -1,0 +1,79 @@
+{
+ "file": "卡罗莱纳箱龟",
+ "no": "671",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "卡罗莱纳箱龟",
+ "name_en": "Eastern box turtle",
+ "latin": "Terrapene carolina carolina",
+ "short": "卡罗莱纳箱龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "机会主义杂食者，动物和植物都吃",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2011*",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "11–20 cm",
+   "lo": 0.11,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "南部海拔",
+   "value": "最高 1830 m",
+   "lo": 1830,
+   "hi": 1830,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "守一地",
+   "value": "超过 32 年",
+   "lo": 32,
+   "hi": 32,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "超过 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "关上盒子",
+   "icon": "huddle",
+   "desc": "腹甲有活动的铰链，遇到危险能把身体完全关进壳里，像个盒子。"
+  },
+  {
+   "name": "冬眠",
+   "icon": "cold",
+   "desc": "冬天钻进土里休眠，等天气变暖。"
+  }
+ ],
+ "intro": [
+  "卡罗莱纳箱龟是箱龟的一个亚种，原产美国东部。",
+  "它的背甲高高隆起，像个圆顶。",
+  "有的个体在同一个地方生活了 32 年以上。"
+ ],
+ "fact": "它的颜色很像北美鹅掌楸冬天的落叶。",
+ "range": "美国东部。",
+ "sources": [
+  "Wikipedia「Eastern box turtle」",
+  "IUCN 红色名录（van Dijk, P.P. 2011）"
+ ],
+ "footnote": "* IUCN 评估对象是整个卡罗莱纳箱龟种（T. carolina）。"
+}

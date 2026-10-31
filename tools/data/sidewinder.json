@@ -1,0 +1,79 @@
+{
+ "file": "角响尾蛇",
+ "no": "694",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "角响尾蛇",
+ "name_en": "Sidewinder",
+ "latin": "Crotalus cerastes",
+ "short": "角响尾蛇",
+ "type": "陆地",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼蛇用尾巴引诱蜥蜴",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "43–80 cm",
+   "lo": 0.43,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "雌比雄",
+   "value": "雌性更大",
+   "lo": 60,
+   "hi": 60,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "沙坡",
+   "value": "可爬最陡沙坡",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "侧身前进",
+   "icon": "wind",
+   "desc": "用独特的“侧进”方式在松软的沙子上前进，能爬上最陡的沙坡而不打滑。"
+  },
+  {
+   "name": "尾巴诱饵",
+   "icon": "camo",
+   "desc": "幼蛇会摇动尾巴引诱蜥蜴靠近，叫“尾部诱捕”。"
+  }
+ ],
+ "intro": [
+  "角响尾蛇是生活在北美西南部荒漠的蝮蛇。",
+  "眼睛上方翘起的鳞像角，所以也叫“角响尾蛇”。",
+  "它是美国唯一雌性比雄性大的响尾蛇。"
+ ],
+ "fact": "机器蛇模仿它的侧进方式后，也学会了在沙子上前进。",
+ "range": "美国西南部和墨西哥西北部的荒漠。",
+ "sources": [
+  "Wikipedia「Crotalus cerastes」"
+ ],
+ "footnote": "“雌比雄”“沙坡”比例条仅示意。",
+ "warn": "毒蛇！野外看到不要靠近、不要抓；被咬后保持冷静、尽量少动，立刻送医。"
+}

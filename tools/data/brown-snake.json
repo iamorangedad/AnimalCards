@@ -1,0 +1,81 @@
+{
+ "file": "东部拟眼镜蛇",
+ "no": "692",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "东部拟眼镜蛇",
+ "name_en": "Eastern brown snake",
+ "latin": "Pseudonaja textilis",
+ "short": "东部拟眼镜蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "肉食",
+ "diet_note": "几乎只吃脊椎动物，主要是家鼠等哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "可达 2 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "毒牙长",
+   "value": "平均 2.8 mm",
+   "lo": 0.0028,
+   "hi": 0.0028,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "毒性排名",
+   "value": "陆蛇第 2",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "描述年份",
+   "value": "1854 年",
+   "lo": 1854,
+   "hi": 1854,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "剧毒",
+   "icon": "toxic",
+   "desc": "按小鼠半数致死量，是世界第二毒的陆地蛇，仅次于内陆太攀蛇。"
+  },
+  {
+   "name": "住在农场边",
+   "icon": "food",
+   "desc": "主要吃家鼠，所以常出现在农田和城郊。"
+  }
+ ],
+ "intro": [
+  "东部拟眼镜蛇是眼镜蛇科的剧毒蛇。",
+  "原产澳大利亚东部和中部，以及新几内亚南部。",
+  "毒液主要破坏血液凝固和循环系统。"
+ ],
+ "fact": "和别的澳洲毒蛇比，它的毒牙很小，平均只有 2.8 mm。",
+ "range": "澳大利亚东部和中部、新几内亚南部。",
+ "sources": [
+  "Wikipedia「Eastern brown snake」",
+  "IUCN 红色名录（Tallowin, O. 2018）"
+ ],
+ "footnote": "“毒性排名”“描述年份”比例条仅示意。",
+ "warn": "毒蛇！野外看到不要靠近、不要抓；被咬后保持冷静、尽量少动，立刻送医。"
+}

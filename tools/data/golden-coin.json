@@ -1,0 +1,80 @@
+{
+ "file": "三线闭壳龟",
+ "no": "674",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "三线闭壳龟",
+ "name_en": "Golden coin turtle",
+ "latin": "Cuora trifasciata",
+ "short": "三线闭壳龟",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃鱼、蛙和腐肉，也吃蟹、螺和昆虫",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "最长 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 2–2.5 kg",
+   "lo": 2,
+   "hi": 2.5,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "性成熟",
+   "value": "6–8 年",
+   "lo": 6,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "养殖单价",
+   "value": "约 1800 美元",
+   "lo": 1800,
+   "hi": 1800,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "温度定性别",
+   "icon": "sun",
+   "desc": "孵化温度决定性别；低地温暖的养殖场只孵出了雌龟。"
+  },
+  {
+   "name": "三条黑线",
+   "icon": "camo",
+   "desc": "棕色背甲上有三条黑色纵纹，所以叫“三线”。"
+  }
+ ],
+ "intro": [
+  "三线闭壳龟原产中国南部。",
+  "它也叫金钱龟。",
+  "它被用来做龟苓膏等，因此遭到大量捕捉。"
+ ],
+ "fact": "养殖的三线闭壳龟一只约值 1800 美元，是调查中最贵的龟。",
+ "range": "中国南部。",
+ "sources": [
+  "Wikipedia「Golden coin turtle」",
+  "维基百科「三线闭壳龟」"
+ ],
+ "footnote": "体重、性成熟来自中文维基。"
+}

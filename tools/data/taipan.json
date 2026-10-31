@@ -1,0 +1,77 @@
+{
+ "file": "内陆太攀蛇",
+ "no": "337",
+ "cat": "爬行两栖",
+ "name_cn": "内陆太攀蛇",
+ "name_en": "Inland taipan",
+ "latin": "Oxyuranus microlepidotus",
+ "short": "内陆太攀蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "专门捕食哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最长",
+   "value": "可达 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "毒牙",
+   "value": "3.5–6.2 mm",
+   "lo": 0.0035,
+   "hi": 0.0062,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最毒的蛇",
+   "icon": "jar",
+   "desc": "按小鼠半数致死量计，它被普遍认为是世界上最毒的蛇，毒性比任何测过的海蛇都强。"
+  },
+  {
+   "name": "季节换装",
+   "icon": "camo",
+   "desc": "冬天颜色变深吸收阳光，夏天变浅减少吸热。"
+  }
+ ],
+ "intro": [
+  "内陆太攀蛇只生活在澳大利亚中东部的半干旱地区。",
+  "近 90 年里科学界对它几乎一无所知。",
+  "澳大利亚动物园有一条活了 20 多年。"
+ ],
+ "fact": "它的毒牙比海岸太攀蛇稍短。",
+ "range": "澳大利亚中东部。",
+ "sources": [
+  "Wikipedia「Inland taipan」",
+  "IUCN 红色名录（Wilson 2018）"
+ ],
+ "footnote": ""
+}

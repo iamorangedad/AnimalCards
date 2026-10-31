@@ -1,0 +1,77 @@
+{
+ "file": "黑曼巴蛇",
+ "no": "336",
+ "cat": "爬行两栖",
+ "name_cn": "黑曼巴蛇",
+ "name_en": "Black mamba",
+ "latin": "Dendroaspis polylepis",
+ "short": "黑曼巴蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2–3 m",
+   "lo": 2,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 1.03–1.6 kg",
+   "lo": 1.03,
+   "hi": 1.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "爬行速度",
+   "value": "可达 16 km/h",
+   "lo": 16,
+   "hi": 16,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "毒牙",
+   "value": "可达 6.5 mm",
+   "lo": 0.0065,
+   "hi": 0.0065,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑嘴巴",
+   "icon": "roar",
+   "desc": "它的身体并不黑，“黑”说的是嘴巴里面的颜色，受威胁时会张嘴展示。"
+  },
+  {
+   "name": "速度快",
+   "icon": "flip",
+   "desc": "在合适的地面上，短距离能爬到 16 km/h。"
+  }
+ ],
+ "intro": [
+  "黑曼巴是第二长的毒蛇，仅次于眼镜王蛇。",
+  "颜色从灰色到深棕色，小蛇颜色更浅。",
+  "有报告称长到 4.3–4.5 m。"
+ ],
+ "fact": "1864 年由阿尔伯特·京特正式描述。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Black mamba」",
+  "IUCN 红色名录（Branch 2021）"
+ ],
+ "footnote": ""
+}

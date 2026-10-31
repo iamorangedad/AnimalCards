@@ -733,3 +733,41 @@ ART4["kookaburra"] = BP("savanna", F="#f2ece0", wing="#7a5a3a", rx=66, ry=50, ti
                         front_fn=lambda x, y, r: P(f"M{x-r*.1} {y-r*.1} l{r*1.0} {r*.2}", sw=7, col="#5a3a20"))
 ART4["arctic-tern"] = B("sea", (.56, 560, 260), pre="", F="#ffffff", wing="#c9ccd0", rx=70, ry=30, tilt=-6, neck=10, nw=30, hr=24, beak="long", beak_col="#e8282a", leg_len=0, sit=True, tail="fork", tail_col="#ffffff", head_col="#1f1f22",
                         post=P("M-10 -60 C60 -140 160 -160 240 -140 C160 -120 80 -90 20 -50 Z", "#dfe3e8", 2.6))
+# ---------------- reptiles (phase 3)
+def L_(kind, box=(.78, 620, 260), pre="", post="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + lizard(**kw) + post, box=(w / 2, h * box[0], box[1], box[2]))
+def snake_s(F, pat=None, band=None, L=1.0, belly=None, head_col=None):
+    d = "M260 -20 C180 -40 140 20 60 0 C-20 -20 -40 -80 -120 -60 C-180 -46 -200 -20 -250 -30"
+    o = P(d, sw=40 * L + 6) + P(d, sw=40 * L, col=F)
+    if pat: o += P(d, sw=34 * L, col=pat, extra='stroke-dasharray="14 30"')
+    if band: o += P(d, sw=40 * L, col=band, extra='stroke-dasharray="16 22"')
+    hc = head_col or F
+    o += E(-270, -34, 34 * L, 20 * L, hc) + C(-288, -40, 4, INK, 0) + P("M-300 -30 l-24 2 l-8 -6 M-324 -28 l-8 6", sw=2.6, col="#e2483c")
+    return o
+def S_(kind, box=(.76, 640, 220), pre="", post="", **kw):
+    return lambda w, h: scene(kind, w, h, pre + snake_s(**kw) + post, box=(w / 2, h * box[0], box[1], box[2]))
+def C_(kind, F, pat=None, hood=False, L=1.0, post=""):
+    return lambda w, h: scene(kind, w, h, snake_coil(F, pat=pat, hood=hood, L=L) + post, box=(w / 2, h * .76, 440, 420))
+ART4["am-alligator"] = L_("wetland", F="#3f463a", L=320, H=58, tail=.95, snout=88, sh=26, belly="#c9c6a6", scutes="#2f352a", legs=22, legh=30)
+ART4["saltie"] = L_("wetland", (.78, 660, 260), F="#7a7a52", L=360, H=64, tail=1.0, snout=100, sh=26, belly="#e8e2b8", scutes="#5a5a3a", legs=24, legh=30)
+ART4["gharial"] = L_("wetland", (.78, 660, 240), F="#7a8a6a", L=340, H=54, tail=1.0, snout=150, sh=18, belly="#e8e6c8", scutes="#5a6a4a", legs=22, legh=28,
+                     post=C(-170 - 150 + 6, -70, 12, "#6a7a5a", 2.4))
+ART4["gila"] = L_("desert", F="#2a2420", L=240, H=56, tail=.6, snout=50, sh=36, spots="#f2a06a", legs=20, legh=30)
+ART4["frilled"] = L_("savanna", (.78, 560, 320), F="#a8784a", L=220, H=52, tail=1.4, snout=50, sh=30, legs=20, legh=48,
+                     post=P("M-120 -170 C-170 -260 -60 -280 -80 -170 C-40 -260 40 -220 -60 -140 Z", "#e8803a", 2.6))
+ART4["marine-iguana"] = L_("plateau", (.78, 560, 280), pre=G_(rock(0, 30, 2.2), 0, 0), F="#2a2a2e", L=240, H=58, tail=1.2, snout=46, sh=36, crest="#3a3a3e", legs=20, legh=36, spots="#7a6a5a")
+ART4["thorny-devil"] = L_("desert", (.78, 460, 240), F="#c9884a", L=200, H=56, tail=.6, snout=34, sh=34, spots="#7a3a1a", legs=20, legh=30,
+                          post="".join(poly([(-80 + i * 18, -96 - (i % 2) * 4), (-74 + i * 18, -118), (-68 + i * 18, -96)], "#c9884a", 2) for i in range(9)))
+ART4["tokay"] = L_("rainforest", (.74, 520, 260), F="#8a9ab8", L=220, H=50, tail=1.0, snout=44, sh=40, spots="#e8703a", legs=20, legh=30, eye_col="#e8c83a")
+ART4["water-dragon"] = L_("rainforest", (.7, 620, 300), pre=branch(-260, 260, 4, 12), F="#5aa05a", L=200, H=52, tail=1.8, snout=50, sh=36, crest="#4a8a4a", belly="#e8e8c0", legs=18, legh=40)
+ART4["panther-cham"] = lambda w, h: scene("rainforest", w, h, branch(-180, 200, 4, 12) + lizard("#3aa0a0", L=170, H=74, tail=1.1, snout=40, sh=40, casque=60, curl=True, legs=14, legh=46,
+                                          spots="#e8403a", eye_top=True, toes=False), box=(w / 2, h * .66, 440, 360))
+ART4["anole"] = L_("rainforest", (.7, 480, 280), pre=branch(-220, 220, 4, 10), F="#6ac04a", L=160, H=40, tail=1.6, snout=40, sh=26, dewlap="#f25a5a", legs=14, legh=30)
+ART4["basilisk"] = L_("pond", (.78, 560, 320), F="#5ab04a", L=200, H=54, tail=1.8, snout=40, sh=34, crest="#4a9a3a", casque=50, legs=18, legh=50, belly="#c9e8a0")
+ART4["tuatara"] = L_("forest", (.78, 560, 260), F="#6a7050", L=240, H=54, tail=1.0, snout=44, sh=36, crest="#e8e0c0", spots="#9aa080", legs=22, legh=32)
+ART4["water-monitor"] = L_("wetland", (.78, 640, 260), F="#3a3a30", L=300, H=58, tail=1.2, snout=70, sh=30, spots="#e8d88a", legs=24, legh=40)
+ART4["black-mamba"] = S_("savanna", F="#6a6a62", L=.8, head_col="#6a6a62", post=P("M-300 -30 C-310 -14 -296 -6 -282 -18 Z", INK, 2))
+ART4["taipan"] = S_("desert", F="#b8884a", L=.9, head_col="#3a2a20")
+ART4["rattlesnake"] = lambda w, h: scene("desert", w, h, snake_coil("#b8a07a", pat="#6a5038") + "".join(E(150 + i * 12, -20 - i * 10, 10, 8, "#e8d8b8", 2.2) for i in range(4)), box=(w / 2, h * .76, 440, 420))
+ART4["anaconda"] = S_("wetland", F="#5a6a3a", pat="#2a2a1a", L=1.4)
+ART4["burmese-python"] = S_("rainforest", F="#d9c38a", pat="#8a6a3a", L=1.3)

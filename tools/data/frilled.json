@@ -1,0 +1,77 @@
+{
+ "file": "伞蜥",
+ "no": "326",
+ "cat": "爬行两栖",
+ "name_cn": "伞蜥",
+ "name_en": "Frilled-neck lizard",
+ "latin": "Chlamydosaurus kingii",
+ "short": "伞蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "约 90 cm",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "可达 600 g",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "伞膜直径",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体温",
+   "value": "接近 40 °C",
+   "lo": 40,
+   "hi": 40,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "撑开大伞",
+   "icon": "camo",
+   "desc": "颈部的伞膜平时贴在身上，完全张开时像圆盘，直径约 30 cm。"
+  },
+  {
+   "name": "两脚跑",
+   "icon": "flip",
+   "desc": "捕猎或逃跑时能用两条后腿跑。"
+  }
+ ],
+ "intro": [
+  "伞蜥生活在澳大利亚北部和新几内亚南部。",
+  "在卡卡杜国家公园，雄蜥平均一天走 69 m，雌蜥 23 m。",
+  "它白天活动，早晚垂直趴在树干上晒太阳。"
+ ],
+ "fact": "约 1.7 万年前海平面较低时，它经陆桥进入新几内亚南部。",
+ "range": "澳大利亚北部、新几内亚南部。",
+ "sources": [
+  "Wikipedia「Frilled-neck lizard」",
+  "IUCN 红色名录（O'Shea 2017）"
+ ],
+ "footnote": ""
+}

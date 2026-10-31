@@ -1,0 +1,78 @@
+{
+ "file": "海鬣蜥",
+ "no": "327",
+ "cat": "爬行两栖",
+ "name_cn": "海鬣蜥",
+ "name_en": "Marine iguana",
+ "latin": "Amblyrhynchus cristatus",
+ "short": "海鬣蜥",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "几乎只吃海藻",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2004"
+ },
+ "stats": [
+  {
+   "label": "下潜",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "憋气",
+   "value": "可达 1 小时",
+   "lo": 60,
+   "hi": 60,
+   "scale": "min_l",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "1–12 kg",
+   "lo": 1,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "约 19–35 cm",
+   "lo": 0.19,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会潜水的蜥蜴",
+   "icon": "dive",
+   "desc": "它是唯一会下海觅食的现存蜥蜴，大雄蜥能潜到 30 m 深吃海藻。"
+  },
+  {
+   "name": "黑色伪装",
+   "icon": "camo",
+   "desc": "黑色身体和熔岩礁石融为一体。"
+  }
+ ],
+ "intro": [
+  "海鬣蜥只生活在厄瓜多尔的加拉帕戈斯群岛。",
+  "不同岛上的大小差别很大：最大雄蜥从南伊莎贝拉岛的 12 kg 到赫诺韦萨岛的 1 kg。",
+  "只有约 5% 的海鬣蜥会到远处潜水吃海藻。"
+ ],
+ "fact": "1835 年达尔文来到群岛时，觉得它的样子很难看。",
+ "range": "加拉帕戈斯群岛。",
+ "sources": [
+  "Wikipedia「Marine iguana」",
+  "IUCN 红色名录（2004）"
+ ],
+ "footnote": "IUCN 评估年代较早（2004 年）；头身长为不同岛屿平均值。"
+}

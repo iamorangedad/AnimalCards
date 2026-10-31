@@ -1,0 +1,78 @@
+{
+ "file": "大壁虎",
+ "no": "329",
+ "cat": "爬行两栖",
+ "name_cn": "大壁虎",
+ "name_en": "Tokay gecko",
+ "latin": "Gekko gecko",
+ "short": "大壁虎",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "平均全长",
+   "value": "25–30 cm",
+   "lo": 0.25,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "可达 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "15–20 年",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "栖身洞宽",
+   "value": "15–30 cm",
+   "lo": 0.15,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大嗓门",
+   "icon": "ear",
+   "desc": "叫声很响，像 token、gekk-gekk，名字就是模仿它的叫声。"
+  },
+  {
+   "name": "夜猫子",
+   "icon": "camo",
+   "desc": "它是夜行性的大壁虎，常住在悬崖石缝和树洞里。"
+  }
+ ],
+ "intro": [
+  "大壁虎又叫蛤蚧，是第三大的壁虎。",
+  "原产亚洲和一些太平洋岛屿。",
+  "在菲律宾，无证捕捉和买卖壁虎最高可判 12 年。"
+ ],
+ "fact": "它住的石缝宽 15–30 cm、高 3–6 cm，有的深达几米。",
+ "range": "南亚、东南亚和中国南部。",
+ "sources": [
+  "Wikipedia「Tokay gecko」",
+  "维基百科「大壁虎」",
+  "IUCN 红色名录（Lwin 2019）"
+ ],
+ "footnote": "洞宽来自中文维基。"
+}

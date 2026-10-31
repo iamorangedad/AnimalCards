@@ -1,0 +1,77 @@
+{
+ "file": "绿安乐蜥",
+ "no": "332",
+ "cat": "爬行两栖",
+ "name_cn": "绿安乐蜥",
+ "name_en": "Green anole",
+ "latin": "Anolis carolinensis",
+ "short": "绿安乐蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄全长",
+   "value": "12.5–20.3 cm",
+   "lo": 0.125,
+   "hi": 0.203,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3–7 g",
+   "lo": 0.003,
+   "hi": 0.007,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每季产卵",
+   "value": "约 10 枚",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "30–45 天",
+   "lo": 30,
+   "hi": 45,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变色",
+   "icon": "camo",
+   "desc": "能在棕色和绿色之间变换几种深浅，宠物市场叫它“美洲变色龙”，但它不是真正的变色龙。"
+  },
+  {
+   "name": "红喉扇",
+   "icon": "ear",
+   "desc": "雄蜥的喉扇是雌蜥的三倍大，颜色橙到红。"
+  }
+ ],
+ "intro": [
+  "绿安乐蜥原产美国东南部，也被引入其他地方。",
+  "尾巴占全长的 60–70%。",
+  "雌蜥繁殖季每两周产一枚蛋，直到产约 10 枚。"
+ ],
+ "fact": "蛋平均 12.5×9.3 mm，靠太阳的热量孵化。",
+ "range": "美国东南部。",
+ "sources": [
+  "Wikipedia「Green anole」",
+  "IUCN 红色名录（Frost 2020）"
+ ],
+ "footnote": ""
+}

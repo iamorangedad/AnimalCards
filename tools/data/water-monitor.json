@@ -1,0 +1,78 @@
+{
+ "file": "圆鼻巨蜥",
+ "no": "335",
+ "cat": "爬行两栖",
+ "name_cn": "圆鼻巨蜥",
+ "name_en": "Asian water monitor",
+ "latin": "Varanus salvator",
+ "short": "圆鼻巨蜥",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、蛙、无脊椎动物、水鸟等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "常见全长",
+   "value": "1.5–2 m",
+   "lo": 1.5,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "3.21 m",
+   "lo": 3.21,
+   "hi": 3.21,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2–32 kg",
+   "lo": 2,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常见体重",
+   "value": "约 19.5 kg",
+   "lo": 19.5,
+   "hi": 19.5,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳健将",
+   "icon": "dive",
+   "desc": "它是游泳高手，用尾巴上的鳍掌握方向。"
+  },
+  {
+   "name": "城市居民",
+   "icon": "camo",
+   "desc": "能住在下水道、城市公园和城市水道里。"
+  }
+ ],
+ "intro": [
+  "圆鼻巨蜥被普遍认为是第二大的蜥蜴，仅次于科莫多巨蜥。",
+  "雄性比雌性大。",
+  "分布在南亚和东南亚。"
+ ],
+ "fact": "斯里兰卡记录的最大个体长 3.21 m。",
+ "range": "南亚、东南亚。",
+ "sources": [
+  "Wikipedia「Asian water monitor」",
+  "IUCN 红色名录（Quah 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "缅甸蟒",
+ "no": "340",
+ "cat": "爬行两栖",
+ "name_cn": "缅甸蟒",
+ "name_en": "Burmese python",
+ "latin": "Python bivittatus",
+ "short": "缅甸蟒",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "野外体长",
+   "value": "一般约 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最长纪录",
+   "value": "5.79 m",
+   "lo": 5.79,
+   "hi": 5.79,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重纪录",
+   "value": "182.8 kg",
+   "lo": 182.8,
+   "hi": 182.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "3 m 雄蟒",
+   "value": "约 12–15 kg",
+   "lo": 12,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "缠绕",
+   "icon": "huddle",
+   "desc": "咬住猎物后用身体缠绕把它勒死，再整个吞下。"
+  },
+  {
+   "name": "入侵者",
+   "icon": "roar",
+   "desc": "因宠物贸易被放生，它在美国佛罗里达成了入侵物种。"
+  }
+ ],
+ "intro": [
+  "缅甸蟒在野外一般长到 5 m，超过 5 m 的很少。",
+  "2023 年 7 月在佛罗里达大柏树国家保护区捕到一条 5.79 m 的，是最长纪录。",
+  "以前被当作印度蟒的亚种，现在是独立物种。"
+ ],
+ "fact": "一条叫“Baby”的圈养缅甸蟒重 182.8 kg，当时是世界上最重的蛇。",
+ "range": "东南亚和中国南部；已入侵美国佛罗里达。",
+ "sources": [
+  "Wikipedia「Burmese python」",
+  "IUCN 红色名录（Stuart 2012）"
+ ],
+ "footnote": ""
+}

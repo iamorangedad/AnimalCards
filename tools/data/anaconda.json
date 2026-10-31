@@ -1,0 +1,78 @@
+{
+ "file": "绿森蚺",
+ "no": "339",
+ "cat": "爬行两栖",
+ "name_cn": "绿森蚺",
+ "name_en": "Green anaconda",
+ "latin": "Eunectes murinus",
+ "short": "绿森蚺",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "平均约 4.6 m",
+   "lo": 4.6,
+   "hi": 4.6,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "30–80 kg",
+   "lo": 30,
+   "hi": 80,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最重证实",
+   "value": "97.5 kg",
+   "lo": 97.5,
+   "hi": 97.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体长",
+   "value": "平均约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最重的蛇",
+   "icon": "roar",
+   "desc": "它是世界上最重的蛇，也是最长的蛇之一。"
+  },
+  {
+   "name": "缠绕",
+   "icon": "huddle",
+   "desc": "像所有蚺一样无毒，靠缠绕制服猎物。"
+  }
+ ],
+ "intro": [
+  "绿森蚺原产南美洲北部。",
+  "雌蛇比雄蛇大得多。",
+  "11–12 m 长的说法从未有标本证实。"
+ ],
+ "fact": "研究过 900 多条森蚺的学者见过最大的一条是雌蛇，长 5.21 m、重 97.5 kg。",
+ "range": "南美洲北部（亚马孙和奥里诺科河流域）。",
+ "sources": [
+  "Wikipedia「Green anaconda」",
+  "IUCN 红色名录（Calderón 2021）"
+ ],
+ "footnote": ""
+}

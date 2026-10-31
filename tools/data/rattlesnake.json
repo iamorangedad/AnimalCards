@@ -1,0 +1,77 @@
+{
+ "file": "西部菱斑响尾蛇",
+ "no": "338",
+ "cat": "爬行两栖",
+ "name_cn": "西部菱斑响尾蛇",
+ "name_en": "Western diamondback rattlesnake",
+ "latin": "Crotalus atrox",
+ "short": "西部菱斑响尾蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007"
+ },
+ "stats": [
+  {
+   "label": "最长可靠",
+   "value": "213 cm",
+   "lo": 2.13,
+   "hi": 2.13,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "中型体重",
+   "value": "1.23–2.7 kg",
+   "lo": 1.23,
+   "hi": 2.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "可达 2000 m",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "饿时省能",
+   "value": "约 80%",
+   "lo": 80,
+   "hi": 80,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "外号多",
+   "icon": "ear",
+   "desc": "它的俗名很多，比如“浣熊尾”“沙尾”“嗡嗡尾”“得州菱斑蛇”等。"
+  },
+  {
+   "name": "耐饿",
+   "icon": "huddle",
+   "desc": "一项 5.5 个月的饥饿研究中，它把能量消耗平均降低了 80%。"
+  }
+ ],
+ "intro": [
+  "西部菱斑响尾蛇生活在美国西南部和墨西哥。",
+  "超过 150 cm 的不常见，超过 180 cm 的很罕见。",
+  "在墨西哥北部，它可能造成了大多数毒蛇咬伤死亡。"
+ ],
+ "fact": "它甚至能在菲尼克斯、图森等城市里生活。",
+ "range": "美国西南部、墨西哥北部。",
+ "sources": [
+  "Wikipedia「Western diamondback rattlesnake」",
+  "IUCN 红色名录（Frost 2007）"
+ ],
+ "footnote": ""
+}

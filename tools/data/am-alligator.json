@@ -1,0 +1,78 @@
+{
+ "file": "密西西比鳄",
+ "no": "322",
+ "cat": "爬行两栖",
+ "name_cn": "密西西比鳄",
+ "name_en": "American alligator",
+ "latin": "Alligator mississippiensis",
+ "short": "密西西比鳄",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "3.4–4.8 m",
+   "lo": 3.4,
+   "hi": 4.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "可达 450 kg",
+   "lo": 450,
+   "hi": 450,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌体长",
+   "value": "2.6–3.35 m",
+   "lo": 2.6,
+   "hi": 3.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "照顾幼鳄",
+   "value": "可达 3 年",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "好妈妈",
+   "icon": "team",
+   "desc": "密西西比鳄会照顾孩子长达 3 年。"
+  },
+  {
+   "name": "大块头",
+   "icon": "roar",
+   "desc": "和同样长的其他鳄鱼比，大个子的密西西比鳄更粗壮更重。"
+  }
+ ],
+ "intro": [
+  "密西西比鳄又叫美洲短吻鳄，原产美国东南部。",
+  "曾因捕猎数量锐减，1987 年被移出濒危名单。",
+  "它是佛罗里达、路易斯安那和密西西比三州的州爬行动物。"
+ ],
+ "fact": "野外最大的雌鳄长 3.35 m、重 147 kg。",
+ "range": "美国东南部。",
+ "sources": [
+  "Wikipedia「American alligator」",
+  "IUCN 红色名录（Elsey 2019）"
+ ],
+ "footnote": ""
+}

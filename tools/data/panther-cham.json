@@ -1,0 +1,77 @@
+{
+ "file": "豹纹变色龙",
+ "no": "331",
+ "cat": "爬行两栖",
+ "name_cn": "豹纹变色龙",
+ "name_en": "Panther chameleon",
+ "latin": "Furcifer pardalis",
+ "short": "豹纹变色龙",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "40–51 cm",
+   "lo": 0.4,
+   "hi": 0.51,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "10–40 枚",
+   "lo": 10,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 240 天",
+   "lo": 240,
+   "hi": 240,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "雄饲养寿命",
+   "value": "5–7 年",
+   "lo": 5,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变色",
+   "icon": "camo",
+   "desc": "颜色多变，不同地方的种群颜色差别很大。"
+  },
+  {
+   "name": "可能是多个种",
+   "icon": "team",
+   "desc": "遗传研究显示它也许应分成好几个物种。"
+  }
+ ],
+ "intro": [
+  "豹纹变色龙原产马达加斯加东部和北部的热带森林。",
+  "雌性一般比雄性小。",
+  "因颜色漂亮、个头大、容易繁殖，在国际宠物市场很受欢迎。"
+ ],
+ "fact": "饲养条件好时，雌性能活 3 年，雄性 5–7 年。",
+ "range": "马达加斯加。",
+ "sources": [
+  "Wikipedia「Panther chameleon」",
+  "IUCN 红色名录（Jenkins 2011）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "澳洲魔蜥",
+ "no": "328",
+ "cat": "爬行两栖",
+ "name_cn": "澳洲魔蜥",
+ "name_en": "Thorny devil",
+ "latin": "Moloch horridus",
+ "short": "澳洲魔蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蚂蚁",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "可达 21 cm",
+   "lo": 0.21,
+   "hi": 0.21,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "15–20 年",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "吃蚂蚁",
+   "value": "每分钟 24–45 只",
+   "lo": 24,
+   "hi": 45,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "3–10 枚",
+   "lo": 3,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮肤喝水",
+   "icon": "jar",
+   "desc": "鳞片上有沟，身体任何部位碰到水，水都会沿皮肤沟靠毛细作用流到嘴里。"
+  },
+  {
+   "name": "满身刺",
+   "icon": "camo",
+   "desc": "全身长满尖刺，又叫“刺魔”“角蜥”。"
+  }
+ ],
+ "intro": [
+  "澳洲魔蜥只生活在澳大利亚。",
+  "雌蜥比雄蜥大。",
+  "卵产在约 30 cm 深的地下巢穴里，三到四个月后孵化。"
+ ],
+ "fact": "人工孵化的小魔蜥每只只有 2 g，一出生就完全独立。",
+ "range": "澳大利亚中西部的沙漠和灌丛。",
+ "sources": [
+  "Wikipedia「Thorny devil」",
+  "维基百科「澳洲魔蜥」",
+  "IUCN 红色名录（Doughty 2017）"
+ ],
+ "footnote": "吃蚂蚁速度、蛋数和幼蜥体重来自中文维基。"
+}

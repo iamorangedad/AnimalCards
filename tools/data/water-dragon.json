@@ -1,0 +1,78 @@
+{
+ "file": "长鬣蜥",
+ "no": "330",
+ "cat": "爬行两栖",
+ "name_cn": "长鬣蜥",
+ "name_en": "Chinese water dragon",
+ "latin": "Physignathus cocincinus",
+ "short": "长鬣蜥",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "雄头身长",
+   "value": "约 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "雄体重",
+   "value": "可达 0.6 kg",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾巴占比",
+   "value": "超过 70%",
+   "lo": 70,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "水下躲藏",
+   "value": "可达 90 分钟",
+   "lo": 90,
+   "hi": 90,
+   "scale": "min_l",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳水逃生",
+   "icon": "dive",
+   "desc": "受威胁时会跳进或跑进最近的溪流，游走或在水下躲长达 90 分钟。"
+  },
+  {
+   "name": "长尾巴",
+   "icon": "flip",
+   "desc": "尾巴超过全长的 70%。"
+  }
+ ],
+ "intro": [
+  "长鬣蜥原产中国南部和东南亚大陆。",
+  "雄蜥比雌蜥重，有更明显的头冠。",
+  "它喜欢湿度 40–80%、气温 27–32 °C 的环境。"
+ ],
+ "fact": "雌蜥最重约 0.25 kg。",
+ "range": "中国南部、东南亚大陆。",
+ "sources": [
+  "Wikipedia「Chinese water dragon」",
+  "IUCN 红色名录（Stuart 2019）"
+ ],
+ "footnote": ""
+}

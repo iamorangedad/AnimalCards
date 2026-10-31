@@ -1,0 +1,77 @@
+{
+ "file": "喙头蜥",
+ "no": "334",
+ "cat": "爬行两栖",
+ "name_cn": "喙头蜥",
+ "name_en": "Tuatara",
+ "latin": "Sphenodon punctatus",
+ "short": "喙头蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "可达 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体长",
+   "value": "约 61 cm",
+   "lo": 0.61,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "雄体重",
+   "value": "可达 1 kg",
+   "lo": 1,
+   "hi": 1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "可达 0.5 kg",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "第三只眼",
+   "icon": "ear",
+   "desc": "头顶有一只“顶眼”，有晶状体和视网膜，在现存四足动物里它的顶眼最明显。"
+  },
+  {
+   "name": "活化石",
+   "icon": "team",
+   "desc": "它是喙头目唯一幸存的物种，这一类在中生代曾非常多样。"
+  }
+ ],
+ "intro": [
+  "喙头蜥只生活在新西兰。",
+  "名字来自毛利语，意思是“背上的尖峰”。",
+  "身体是绿褐色和灰色，背上有一排刺冠。"
+ ],
+ "fact": "2008 年末在惠灵顿的西兰蒂亚保护区发现巢，次年秋天找到幼蜥，被认为是 200 多年来北岛野外首次成功繁殖。",
+ "range": "新西兰（主要在近海小岛）。",
+ "sources": [
+  "Wikipedia「Tuatara」",
+  "IUCN 红色名录（Hitchmough 2019）"
+ ],
+ "footnote": ""
+}

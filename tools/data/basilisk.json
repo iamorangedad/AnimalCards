@@ -1,0 +1,78 @@
+{
+ "file": "双冠蜥",
+ "no": "333",
+ "cat": "爬行两栖",
+ "name_cn": "双冠蜥",
+ "name_en": "Plumed basilisk",
+ "latin": "Basiliscus plumifrons",
+ "short": "双冠蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "可达 91 cm",
+   "lo": 0.91,
+   "hi": 0.91,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "水面奔跑",
+   "value": "约 2.14 m/s",
+   "lo": 7.7,
+   "hi": 7.7,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "喜好体温",
+   "value": "约 31.7 °C",
+   "lo": 31.7,
+   "hi": 31.7,
+   "scale": "temp",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "8–10 周",
+   "lo": 56,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "水上漂",
+   "icon": "flip",
+   "desc": "它能在水面上奔跑，成年蜥速度约 2.14 m/s，所以又叫“耶稣蜥蜴”。"
+  },
+  {
+   "name": "双冠",
+   "icon": "camo",
+   "desc": "头和背上有冠，是最大的双冠蜥属物种。"
+  }
+ ],
+ "intro": [
+  "双冠蜥生活在有溪流和河流的湿热雨林。",
+  "小蜥蜴孵出后就完全独立。",
+  "分布从墨西哥南部到哥伦比亚北部。"
+ ],
+ "fact": "属名来自传说中的怪物“巴西利斯克”。",
+ "range": "墨西哥南部到哥伦比亚北部。",
+ "sources": [
+  "Wikipedia「Plumed basilisk」",
+  "IUCN 红色名录"
+ ],
+ "footnote": "水面速度 2.14 m/s 约合 7.7 km/h；IUCN 年份未在来源注明。"
+}

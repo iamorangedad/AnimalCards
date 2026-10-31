@@ -1,0 +1,77 @@
+{
+ "file": "蜜獾",
+ "no": "215",
+ "cat": "高原草原",
+ "name_cn": "蜜獾",
+ "name_en": "Honey badger",
+ "latin": "Mellivora capensis",
+ "short": "蜜獾",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "9–16 kg",
+   "lo": 9,
+   "hi": 16,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "55–77 cm",
+   "lo": 0.55,
+   "hi": 0.77,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "颈部皮厚",
+   "value": "约 6 mm",
+   "lo": 0.006,
+   "hi": 0.006,
+   "scale": "len_xs",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "50–70 天",
+   "lo": 50,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "松皮",
+   "icon": "flip",
+   "desc": "它的皮特别松，被咬住时能在皮里转身反击。"
+  },
+  {
+   "name": "天不怕",
+   "icon": "roar",
+   "desc": "在流行文化里，它以凶猛、聪明、天不怕地不怕出名。"
+  }
+ ],
+ "intro": [
+  "蜜獾又叫“平头哥”，广泛分布在非洲、西南亚和印度次大陆。",
+  "它是非洲最大的陆生鼬科动物。",
+  "它独居，根据地点不同，白天黑夜都可能活动。"
+ ],
+ "fact": "小蜜獾会跟着妈妈生活 1–1.25 年。",
+ "range": "非洲、西南亚和印度次大陆。",
+ "sources": [
+  "Wikipedia「Honey badger」",
+  "IUCN 红色名录（Do Linh San 2016）"
+ ],
+ "footnote": "“平头哥”为中文网络昵称。"
+}

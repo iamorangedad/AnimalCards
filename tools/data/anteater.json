@@ -1,0 +1,77 @@
+{
+ "file": "大食蚁兽",
+ "no": "216",
+ "cat": "高原草原",
+ "name_cn": "大食蚁兽",
+ "name_en": "Giant anteater",
+ "latin": "Myrmecophaga tridactyla",
+ "short": "大食蚁兽",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蚂蚁和白蚁",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "182–217 cm",
+   "lo": 1.82,
+   "hi": 2.17,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "33–50 kg",
+   "lo": 33,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "舌长",
+   "value": "可达 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每天行走",
+   "value": "平均约 3.7 km",
+   "lo": 3.7,
+   "hi": 3.7,
+   "scale": "km",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "快舌头",
+   "icon": "jar",
+   "desc": "舌头伸出可达 45 cm，每分钟能伸缩约 160 次。"
+  },
+  {
+   "name": "长爪",
+   "icon": "dive",
+   "desc": "用长长的前爪挖开蚁巢，再用黏黏的舌头把蚂蚁粘出来。"
+  }
+ ],
+ "intro": [
+  "大食蚁兽生活在中美洲和南美洲。",
+  "它的头长约 30 cm，非常细长。",
+  "它的体温只有约 33 °C，比大多数哺乳动物低。"
+ ],
+ "fact": "有人看到它在 17 °C 的早晨侧躺、摊开尾巴晒太阳取暖。",
+ "range": "中美洲和南美洲的草原、森林。",
+ "sources": [
+  "Wikipedia「Giant anteater」",
+  "IUCN 红色名录（Miranda 2014）"
+ ],
+ "footnote": ""
+}

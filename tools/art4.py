@@ -370,3 +370,17 @@ ART4["serval"] = Q("savanna", None, F="#e6b85a", bl=240, bd=86, lh=150, lw=20, b
                    snout=(20, 22), snout_col="#fbf2dc", ears="big", tail="short", tail_col=INK)
 ART4["caracal"] = Q("desert", None, F="#c98a52", bl=250, bd=92, lh=130, lw=22, belly="#f4e6d0", neck=(30, 36), nw=54, head=(36, 32), snout=(22, 24), snout_col="#f4e6d0",
                     ears="point", tail="short", tail_col="#c98a52")
+ART4["manul"] = Q("plateau", (.75, 520, 320), F="#b9b2a8", bl=230, bd=104, lh=60, lw=24, belly="#e6e0d6", neck=(20, 40), nw=70, head=(50, 42), snout=(24, 24), snout_col="#efe9e0",
+                  ears="small", tail="bushy", tail_col="#8a847a", pattern="stripes", pat_col="#6b655c")
+ART4["guanaco"] = Q("plateau", (.76, 500, 440), F="#c98a4a", bl=240, bd=110, lh=150, lw=24, belly="#f4efe6", neck=(150, 6), nw=46, head=(34, 32), snout=(32, 24),
+                    snout_col="#6b6b6b", ears="big", tail="short", hooves="#5a5048", nose="#5a5048")
+ART4["vicuna"] = Q("plateau", (.76, 500, 440), F="#d9a868", bl=220, bd=96, lh=150, lw=20, belly="#ffffff", neck=(140, 6), nw=40, head=(30, 28), snout=(28, 22),
+                   snout_col="#d9a868", ears="big", tail="short", hooves="#5a5048", nose="#5a5048")
+ART4["gemsbok"] = Q("desert", (.76, 560, 460), F="#b9aa98", bl=280, bd=120, lh=140, lw=26, belly="#ffffff", neck=(40, 36), nw=60, head=(40, 36), snout=(40, 30),
+                    snout_col="#ffffff", ears="side", horns="chiru", tail="horse", tail_col=INK, hooves=INK, mask=INK)
+ART4["eland"] = Q("savanna", None, F="#c9a07a", bl=320, bd=150, lh=130, lw=30, belly="#e9dccb", pattern="stripes", pat_col="#f4efe6", neck=(30, 50), nw=80, head=(42, 40), snout=(40, 32),
+                  snout_col="#8a6a4a", ears="side", horns="chiru", tail="tuft", tail_col=INK, hooves=INK, hump=True)
+ART4["honey-badger"] = Q("savanna", (.75, 540, 300), F="#2a2a2e", bl=250, bd=96, lh=56, lw=26, belly="#2a2a2e", neck=(10, 40), nw=70, head=(42, 36), snout=(30, 26), snout_col="#2a2a2e",
+                         ears="small", tail="short", tail_col="#2a2a2e", extras=P("M-220 -150 C-100 -190 80 -190 150 -120", sw=40, col="#e9e6df"))
+ART4["anteater"] = Q("savanna", (.75, 580, 340), F="#8a7560", bl=280, bd=110, lh=80, lw=26, belly="#5a4a3a", neck=(10, 40), nw=70, head=(30, 26), snout=(120, 16), snout_col="#8a7560",
+                     ears="small", tail="bushy", tail_col="#5a4a3a", headdown=40, extras=P("M-160 -160 L60 -110", sw=22, col=INK) + P("M-150 -140 L60 -100", sw=8, col="#f4efe6"))

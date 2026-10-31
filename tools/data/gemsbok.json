@@ -1,0 +1,77 @@
+{
+ "file": "南非剑羚",
+ "no": "213",
+ "cat": "高原草原",
+ "name_cn": "南非剑羚",
+ "name_en": "Gemsbok",
+ "latin": "Oryx gazella",
+ "short": "南非剑羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草，旱季也吃灌木",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "180–240 kg",
+   "lo": 180,
+   "hi": 240,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "约 1.2 m",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "角长",
+   "value": "平均 85 cm",
+   "lo": 0.85,
+   "hi": 0.85,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "奔跑速度",
+   "value": "可达 60 km/h",
+   "lo": 60,
+   "hi": 60,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不喝水",
+   "icon": "jar",
+   "desc": "它主要生活在沙漠，不靠喝水；挖根、吃野瓜就能得到所需的水分。"
+  },
+  {
+   "name": "长剑角",
+   "icon": "camo",
+   "desc": "一对又直又长的角平均 85 cm，像两把长剑。"
+  }
+ ],
+ "intro": [
+  "南非剑羚是一种大型羚羊，生活在非洲南部的沙漠和草原。",
+  "怀孕约 270 天，每胎 1–2 只。",
+  "小羚羊出生后要藏 6 周，才跟妈妈回到群里。"
+ ],
+ "fact": "它可以挖到约 1 m 深去找植物的根和块茎。",
+ "range": "非洲南部（纳米比亚、博茨瓦纳、南非等）；也被引入美国新墨西哥州。",
+ "sources": [
+  "Wikipedia「Gemsbok」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2020）"
+ ],
+ "footnote": ""
+}

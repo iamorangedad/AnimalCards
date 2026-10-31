@@ -1,0 +1,77 @@
+{
+ "file": "兔狲",
+ "no": "210",
+ "cat": "高原草原",
+ "name_cn": "兔狲",
+ "name_en": "Pallas's cat",
+ "latin": "Otocolobus manul",
+ "short": "兔狲",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "46–65 cm",
+   "lo": 0.46,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2.5–4.5 kg",
+   "lo": 2.5,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "21–31 cm",
+   "lo": 0.21,
+   "hi": 0.31,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "底绒长",
+   "value": "约 40 mm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超厚毛",
+   "icon": "huddle",
+   "desc": "长而浓密的浅灰色毛，底绒约 40 mm 长，帮它在冬天 −50 °C 的严寒里生存。"
+  },
+  {
+   "name": "低耳朵",
+   "icon": "camo",
+   "desc": "圆圆的耳朵长在头的两侧偏下方，趴在岩石后面不容易被发现。"
+  }
+ ],
+ "intro": [
+  "兔狲是一种小型野猫，生活在中亚的山地草原和灌丛。",
+  "它喜欢积雪不超过 15–20 cm 的岩石地带。",
+  "1776 年帕拉斯在贝加尔湖附近首次描述了它。"
+ ],
+ "fact": "它生活的地区一年中最高和最低气温可相差 80 °C。",
+ "range": "中亚山地草原（蒙古、中国、俄罗斯、哈萨克斯坦、伊朗等）。",
+ "sources": [
+  "Wikipedia「Pallas's cat」",
+  "IUCN 红色名录（Ross 2020）"
+ ],
+ "footnote": ""
+}

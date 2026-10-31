@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 209 张（宠物 50，农场 50，高原草原 43，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 216 张（宠物 50，农场 50，高原草原 50，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -151,6 +151,13 @@
 | 207 | 土豚（Aardvark） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9C%9F%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9C%9F%E8%B1%9A.pdf) |
 | 208 | 薮猫（Serval） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%96%AE%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%96%AE%E7%8C%AB.pdf) |
 | 209 | 狞猫（Caracal） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%9E%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%9E%E7%8C%AB.pdf) |
+| 210 | 兔狲（Pallas's cat） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%85%94%E7%8B%B2.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%85%94%E7%8B%B2.pdf) |
+| 211 | 原驼（Guanaco） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8E%9F%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8E%9F%E9%A9%BC.pdf) |
+| 212 | 小羊驼（Vicuña） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%B0%8F%E7%BE%8A%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%B0%8F%E7%BE%8A%E9%A9%BC.pdf) |
+| 213 | 南非剑羚（Gemsbok） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8D%97%E9%9D%9E%E5%89%91%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8D%97%E9%9D%9E%E5%89%91%E7%BE%9A.pdf) |
+| 214 | 大羚羊（Common eland） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E7%BE%9A%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E7%BE%9A%E7%BE%8A.pdf) |
+| 215 | 蜜獾（Honey badger） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%9C%9C%E7%8D%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%9C%9C%E7%8D%BE.pdf) |
+| 216 | 大食蚁兽（Giant anteater） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E9%A3%9F%E8%9A%81%E5%85%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E9%A3%9F%E8%9A%81%E5%85%BD.pdf) |
 | 001 | 大熊猫（Giant panda） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.pdf) |
 | 043 | 老虎（Tiger） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.pdf) |
 | 044 | 棕熊（Brown bear） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.pdf) |

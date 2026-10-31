@@ -1,0 +1,77 @@
+{
+ "file": "大羚羊",
+ "no": "214",
+ "cat": "高原草原",
+ "name_cn": "大羚羊",
+ "name_en": "Common eland",
+ "latin": "Taurotragus oryx",
+ "short": "大羚羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "公体重",
+   "value": "400–942 kg",
+   "lo": 400,
+   "hi": 942,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公肩高",
+   "value": "150–183 cm",
+   "lo": 1.5,
+   "hi": 1.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高速度",
+   "value": "40 km/h",
+   "lo": 40,
+   "hi": 40,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "原地跳高",
+   "value": "可达 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "慢但耐跑",
+   "icon": "climb",
+   "desc": "它是最慢的羚羊，最快只有 40 km/h，但能一直以 22 km/h 小跑。"
+  },
+  {
+   "name": "跳高",
+   "icon": "flip",
+   "desc": "受惊时能原地跳起 2.5 m，小羚羊可跳 3 m。"
+  }
+ ],
+ "intro": [
+  "大羚羊是非洲东部和南部草原上体形最大的羚羊之一。",
+  "雌雄都有螺旋形的角。",
+  "雄性的角比雌性的更粗更短，螺旋更紧。"
+ ],
+ "fact": "雄性大羚羊体重最高可达 1000 kg。",
+ "range": "东非和南部非洲的草原和林地。",
+ "sources": [
+  "Wikipedia「Common eland」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": ""
+}

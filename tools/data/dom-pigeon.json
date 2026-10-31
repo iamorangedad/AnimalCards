@@ -1,0 +1,78 @@
+{
+ "file": "家鸽",
+ "no": "155",
+ "cat": "农场",
+ "name_cn": "家鸽",
+ "name_en": "Domestic pigeon",
+ "latin": "Columba livia domestica",
+ "short": "家鸽",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "以谷物种子为主（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "每窝产蛋",
+   "value": "2 枚",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–19 天",
+   "lo": 17,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "归巢距离",
+   "value": "可达 1000 km",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "驯化历史",
+   "value": "5000 年以上",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "认路回家",
+   "icon": "ear",
+   "desc": "信鸽被带到从没去过、远达 1000 km 的地方放飞，也能飞回自己的鸽舍。"
+  },
+  {
+   "name": "空中翻身",
+   "icon": "flip",
+   "desc": "野鸽会在空中翻跟头躲避俯冲的猎隼；有些家鸽品种就是按这种翻飞本领选育的。"
+  }
+ ],
+ "intro": [
+  "家鸽是由原鸽驯化来的，是人类最早驯化的鸟类之一。",
+  "美索不达米亚的楔形文字泥板早在 5000 多年前就提到了驯养鸽子。",
+  "两次世界大战中，信鸽都被用来送信。"
+ ],
+ "fact": "长期选育让家鸽的羽色变化极大，同一窝的两只小鸽子颜色都可能不同。",
+ "range": "家养动物，世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Domestic pigeon」"
+ ],
+ "footnote": "驯化年数用对数刻度；也有研究认为可早到约 1 万年前。"
+}

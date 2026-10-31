@@ -1,0 +1,77 @@
+{
+ "file": "虹鳟",
+ "no": "166",
+ "cat": "农场",
+ "name_cn": "虹鳟",
+ "name_en": "Rainbow trout",
+ "latin": "Oncorhynchus mykiss",
+ "short": "虹鳟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "河流成鱼",
+   "value": "0.5–2.5 kg",
+   "lo": 0.5,
+   "hi": 2.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "湖泊/海洋型",
+   "value": "可达 9 kg",
+   "lo": 9,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "11 年",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "养殖产量",
+   "value": "约 60 万吨",
+   "lo": 604695,
+   "hi": 604695,
+   "scale": "ton",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "降海型",
+   "icon": "dive",
+   "desc": "有一种会游到海里生活、再回河里产卵的类型，叫硬头鳟。"
+  },
+  {
+   "name": "冷水鱼",
+   "icon": "huddle",
+   "desc": "原产太平洋沿岸的冷水溪流，需要清凉、含氧量高的水。"
+  }
+ ],
+ "intro": [
+  "虹鳟原产北美和亚洲太平洋沿岸的冷水河流。",
+  "它被引入世界各地，形成了许多著名的钓鱼地点。",
+  "硬头鳟是美国华盛顿州的州鱼。"
+ ],
+ "fact": "2007 年全球养殖虹鳟约 60.5 万吨，价值约 26 亿美元。",
+ "range": "原产北美西部和亚洲东北部；已引入世界各地。",
+ "sources": [
+  "Wikipedia「Rainbow trout」",
+  "IUCN 红色名录（Hammerson 2024）"
+ ],
+ "footnote": "养殖产量为 2007 年全球数据。"
+}

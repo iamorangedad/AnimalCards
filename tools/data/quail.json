@@ -1,0 +1,77 @@
+{
+ "file": "鹌鹑",
+ "no": "149",
+ "cat": "农场",
+ "name_cn": "鹌鹑",
+ "name_en": "Japanese quail",
+ "latin": "Coturnix japonica",
+ "short": "鹌鹑",
+ "type": "天空",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "野生体重",
+   "value": "90–100 g",
+   "lo": 0.09,
+   "hi": 0.1,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "一年产蛋",
+   "value": "最多约 300 枚",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "蛋重",
+   "value": "平均约 10 g",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "平均 16.5 天",
+   "lo": 16.5,
+   "hi": 16.5,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "产蛋机器",
+   "icon": "jar",
+   "desc": "家养品系的鹌鹑一年能下约 300 枚蛋，饲料转化效率很高。"
+  },
+  {
+   "name": "太空孵化",
+   "icon": "flip",
+   "desc": "1990 年 3 月，鹌鹑蛋在“和平号”空间站上成功孵出了小鹌鹑。"
+  }
+ ],
+ "intro": [
+  "日本鹌鹑又叫家鹌鹑，原产东亚。",
+  "它的喉部、胸部花纹和羽色深浅变化很大。",
+  "肉用品系的鹌鹑可重达 300 g。"
+ ],
+ "fact": "母鹌鹑下完最后一枚蛋才开始孵，所以小鹌鹑几乎同时出壳。",
+ "range": "东亚（繁殖于蒙古、中国东北、朝鲜半岛和日本）；家养遍布世界。",
+ "sources": [
+  "Wikipedia「Japanese quail」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "最后一句为孵化规律的推论（待核）。"
+}

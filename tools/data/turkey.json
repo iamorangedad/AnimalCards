@@ -1,0 +1,77 @@
+{
+ "file": "火鸡",
+ "no": "147",
+ "cat": "农场",
+ "name_cn": "火鸡",
+ "name_en": "Domestic turkey",
+ "latin": "Meleagris gallopavo",
+ "short": "火鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "饲料（野火鸡食性待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "出栏雄火鸡",
+   "value": "20 kg 以上",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野生雄鸟",
+   "value": "约 10.8 kg",
+   "lo": 10.8,
+   "hi": 10.8,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "28 天",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "驯化历史",
+   "value": "至少 2000 年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "咯咯叫",
+   "icon": "ear",
+   "desc": "求偶时雄火鸡弓着脖子、挺起胸膛慢慢走，发出特有的“咯咯”叫声。"
+  },
+  {
+   "name": "认生",
+   "icon": "team",
+   "desc": "成年火鸡认得陌生面孔，把外来火鸡放进群里，它很可能被围攻。"
+  }
+ ],
+ "intro": [
+  "家火鸡由墨西哥南部的野火鸡亚种驯化而来，是第八大的鸟类（按体重）。",
+  "种名 gallopavo 意思是“鸡孔雀”。",
+  "大个体的家火鸡已经完全不会飞了。"
+ ],
+ "fact": "英文名 turkey 可能来自早期把它和从土耳其进口的珍珠鸡搞混了。",
+ "range": "驯化于中美洲；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Domestic turkey」"
+ ],
+ "footnote": "驯化年数用对数刻度表示。"
+}

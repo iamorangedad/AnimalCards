@@ -1,0 +1,77 @@
+{
+ "file": "驯鹿",
+ "no": "154",
+ "cat": "农场",
+ "name_cn": "驯鹿",
+ "name_en": "Reindeer",
+ "latin": "Rangifer tarandus",
+ "short": "驯鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "最爱吃驯鹿地衣",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄鹿体长",
+   "value": "180–214 cm",
+   "lo": 1.8,
+   "hi": 2.14,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "85–150 cm",
+   "lo": 0.85,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "游泳",
+   "value": "常速约 6.5 km/h",
+   "lo": 6.5,
+   "hi": 10,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "雌鹿寿命",
+   "value": "最长约 17 年",
+   "lo": 17,
+   "hi": 17,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刨雪找吃的",
+   "icon": "dive",
+   "desc": "它能用蹄子在雪地里刨坑，挖出下面的驯鹿地衣来吃。"
+  },
+  {
+   "name": "游泳健将",
+   "icon": "flip",
+   "desc": "它游得又轻松又快，迁徙的鹿群会毫不犹豫地游过大湖和宽河。"
+  }
+ ],
+ "intro": [
+  "驯鹿在北美叫北美驯鹿（caribou），分布在北极、亚北极和苔原地区。",
+  "它是驯鹿属唯一的物种，雌雄都长角。",
+  "许多地区的人们半驯养驯鹿，用于拉雪橇、取肉和奶（待核）。"
+ ],
+ "fact": "最大亚种的雄鹿，鹿角可宽达 100 cm、长达 135 cm。",
+ "range": "环北极：欧洲北部、西伯利亚、北美洲北部。",
+ "sources": [
+  "Wikipedia「Reindeer」",
+  "IUCN 红色名录（Gunn 2016）"
+ ],
+ "footnote": "IUCN 评估的是整个物种（含野生种群）。游泳速度必要时可达 10 km/h。"
+}

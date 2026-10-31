@@ -1,0 +1,76 @@
+{
+ "file": "长牡蛎",
+ "no": "165",
+ "cat": "农场",
+ "name_cn": "长牡蛎",
+ "name_en": "Pacific oyster",
+ "latin": "Magallana gigas",
+ "short": "长牡蛎",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食水中的浮游生物等（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "成体长度",
+   "value": "80–400 mm",
+   "lo": 0.08,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次产卵",
+   "value": "5000–8000 万粒",
+   "lo": 5000000.0,
+   "hi": 10000000.0,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "上市生长",
+   "value": "18–30 个月",
+   "lo": 18,
+   "hi": 24,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变性",
+   "icon": "flip",
+   "desc": "雌雄异体，但性别可以逐年改变，通常在冬天转换。"
+  },
+  {
+   "name": "耐温",
+   "icon": "huddle",
+   "desc": "能忍受 −1.8 到 35 °C 的水温。"
+  }
+ ],
+ "intro": [
+  "长牡蛎又叫太平洋牡蛎、日本牡蛎，原产亚洲太平洋沿岸。",
+  "它已被引入北美、澳大利亚、欧洲和新西兰。",
+  "喜欢附着在 40 m 以内浅水区的坚硬岩石上。"
+ ],
+ "fact": "70–100 g 的雌牡蛎一次就能排出 5000–8000 万粒卵。",
+ "range": "原产亚洲太平洋沿岸；现已在世界许多海岸养殖。",
+ "sources": [
+  "Wikipedia「Pacific oyster」"
+ ],
+ "footnote": "产卵量超出刻度上限，条形到顶；上市生长条以 24 个月为上限。"
+}

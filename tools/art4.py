@@ -169,3 +169,124 @@ def shrimp(F="#e2483c", L=260, H=60, claw=False, strip=None):
 ART4["cherry-shrimp"] = tank(shrimp() + G_(shrimp(L=160, H=38), 60, 90), box=(None, 340, 360, 240))
 ART4["oscar"] = tank(fish(F="#5a5048", L=240, H=140, tail="round", eye_r=9, fin_col="#5a5048", extras=P(wavy(20, -10, 50, 30, 7, 6), "#e8702c", 0) + P(wavy(-60, 20, 40, 20, 6, 5), "#e8702c", 0) + C(90, -10, 12, "#e8702c", 3, INK)),
                      box=(None, 320, 360, 240))
+
+# ------------------------------------------------------------------ 农场
+def Q(kind, box=None, **kw):
+    return lambda w, h: scene(kind, w, h, quad(**kw), box=box and (w / 2, h * box[0], box[1], box[2]))
+
+ART4["water-buffalo"] = Q("wetland", F="#4a4a4e", bl=320, bd=150, lh=110, lw=36, neck=(10, 60), nw=90, head=(48, 44), snout=(42, 36), snout_col="#5a5a5e",
+                          ears="side", horns="yak", tail="tuft", tail_col="#2a2a2e", hooves=INK, nose=None, headdown=10)
+ART4["dom-yak"] = Q("plateau", F="#3a2e25", bl=300, bd=140, lh=110, lw=34, pattern="patches", pat_col="#f4efe6", neck=(10, 50), nw=90, head=(48, 46), snout=(40, 38),
+                    snout_col="#f4efe6", ears="side", horns="yak", tail="horse", tail_col="#f4efe6", skirt="#2e241d", hooves=INK, nose=None)
+
+def _turkey(w, h):
+    k = dict(F="#6b4a32", wing="#4a3222", rx=96, ry=74, tilt=-6, neck=40, nw=34, hr=26, beak="short", beak_col="#e9d8b8", leg_len=80, leg_col="#e8a0a0", legw=7,
+             tail="fan", tail_col="#8a6a44", head_col="#9ab8d8", wattle=True)
+    hx, hy = headparts(k)
+    fan = "".join(P(f"M60 -170 L{60+math.cos(math.radians(a))*190:.0f} {-170+math.sin(math.radians(a))*190:.0f}", sw=26, col=INK) +
+                  P(f"M60 -170 L{60+math.cos(math.radians(a))*186:.0f} {-170+math.sin(math.radians(a))*186:.0f}", sw=20, col="#8a6a44" if i % 2 else "#a8865a") for i, a in enumerate(range(-160, -10, 18)))
+    b = fan + bird(**k) + P(f"M{hx-26} {hy-8} q-6 30 4 50", sw=7, col="#e2483c")
+    return scene("farm", w, h, b, box=(w / 2, h * .78, 520, 420))
+ART4["turkey"] = _turkey
+ART4["muscovy"] = mk_bird(dict(F="#2a2e33", wing="#ffffff", rx=96, ry=52, tilt=-6, neck=22, nw=40, hr=30, beak="duck", beak_col="#e9c9b8", leg_len=34, leg_col="#e8a06a", legw=6,
+                               tail="short", tail_col="#2a2e33", head_col="#ffffff", webbed=True), kind="pond", perch=False,
+                          front_fn=lambda x, y, r: E(x - r * .3, y - r * .05, r * .45, r * .32, "#d9482c", 0) + C(x - r * .2, y - r * .15, 4, INK, 0), box=None)
+ART4["quail"] = mk_bird(dict(F="#b9875a", wing="#8a6a44", rx=66, ry=50, tilt=-4, neck=4, nw=40, hr=26, beak="short", beak_col="#5a4a3a", leg_len=28, leg_col="#e8b8a0", legw=4,
+                             tail="short", tail_col="#7a5a3a", belly="#e9cfa8"), kind="farm", perch=False,
+                        extra_fn=lambda x, y, r: "".join(E(130 + i * 26, -12, 11, 14, "#f2e8d0", 2.2) + C(128 + i * 26, -14, 3, "#6b5038", 0) for i in range(3)))
+ART4["guineafowl"] = mk_bird(dict(F="#5a6068", wing="#4a5058", rx=84, ry=60, tilt=-6, neck=26, nw=30, hr=22, beak="short", beak_col="#e9c9b8", leg_len=60, leg_col="#6b6b6b",
+                                  tail="short", tail_col="#4a5058", head_col="#7ab0d8", wattle=True,
+                                  extras="".join(C(-60 + (i * 31) % 150, -150 + (i * 17) % 90, 4, "#ffffff", 0) for i in range(30))), kind="farm", perch=False,
+                             front_fn=lambda x, y, r: poly([(x - r * .3, y - r * .8), (x - r * .05, y - r * 1.7), (x + r * .3, y - r * .8)], "#c9a27a", 2.4))
+ART4["mule"] = Q("farm", F="#8a5a3a", bl=300, bd=124, lh=150, lw=28, neck=(70, 30), nw=66, head=(42, 38), snout=(58, 36), snout_col="#c9a88a",
+                 ears="long", mane="zebra", tail="horse", tail_col="#3a2a1e", hooves="#3a3f45", belly="#c9a88a")
+ART4["llama"] = Q("plateau", (.76, 500, 440), F="#f1ece2", bl=240, bd=110, lh=150, lw=24, pattern="patches", pat_col="#8a5a3a", neck=(150, 6), nw=46, head=(34, 32),
+                  snout=(32, 24), ears="big", tail="short", hooves="#5a5048", nose="#5a5048")
+ART4["dromedary"] = Q("desert", (.75, 560, 440), F="#d8b27a", bl=280, bd=120, lh=190, lw=26, neck=(110, 52), nw=50, head=(38, 30), snout=(44, 30),
+                      ears="small", tail="tuft", tail_col="#8a6a42", extras=P("M-50 -304 C-30 -372 50 -372 70 -304", "#d8b27a", 3))
+ART4["reindeer"] = Q("snow", None, F="#8a6a4a", bl=280, bd=120, lh=130, lw=26, belly="#e9e1d2", neck=(50, 34), nw=70, head=(40, 36), snout=(44, 30),
+                     snout_col="#c9b49a", ears="side", horns="antler", tail="short", tail_col="#f4efe6", hooves="#3a3f45", neck_wool="#e9e1d2")
+
+# farm batch 2
+def _dpigeon(w, h):
+    b = bird(F="#f4f2ee", wing="#e4e2dc", rx=72, ry=48, tilt=-12, neck=20, nw=46, hr=28, beak="short", beak_col="#e9c9b8", leg_len=40, leg_col="#d96a6a", legw=5,
+             tail="short", tail_col="#dcdad4", head_col="#f4f2ee")
+    loft = P("M120 -40 L120 -150 L200 -200 L280 -150 L280 -40 Z", "#d9b27a", 2.6) + P("M170 -90 h60 v40 h-60 Z", "#5a4a3a", 2.2)
+    return scene("farm", w, h, loft + b, box=(w / 2, h * .76, 520, 330))
+ART4["dom-pigeon"] = _dpigeon
+ART4["highland"] = Q("plateau", None, F="#b8642e", bl=300, bd=140, lh=100, lw=34, neck=(10, 50), nw=90, head=(50, 46), snout=(40, 38),
+                     snout_col="#c9784a", ears="side", horns="ram" if False else "cow", tail="horse", tail_col="#8a4a22", hooves=INK, nose=None, skirt="#a8582a")
+ART4["hereford"] = Q("farm", None, F="#9a3a22", bl=330, bd=150, lh=120, lw=36, belly="#f6f2ea", neck=(20, 60), nw=90, head=(52, 50), snout=(44, 40),
+                     snout_col="#f6f2ea", ears="side", horns=None, tail="tuft", tail_col="#f6f2ea", hooves=INK, nose="#e8b0a8", mask="#f6f2ea")
+
+def _silkworm(w, h):
+    leaf = P("M-260 40 C-160 -120 120 -120 240 30 C120 110 -160 120 -260 40 Z", "#8fc06a", 2.8) + P("M-250 40 C-80 10 80 10 230 30", sw=2.4)
+    body = "".join(E(-120 + i * 34, -10 - math.sin(i / 2) * 18, 26, 30 - abs(i - 3) * 1.5, "#f4f1e6", 2.6) for i in range(8))
+    head = E(-150, -6, 22, 24, "#e9e2cf", 2.6) + C(-160, -10, 4, INK, 0)
+    legs_ = "".join(P(f"M{-120+i*34} 18 l0 12", sw=3) for i in range(8))
+    marks = P("M-60 -40 q8 -10 16 0 M-26 -46 q8 -10 16 0", sw=2.4, col="#a99f8a")
+    coc = E(200, -40, 40, 26, "#fbf7e8", 2.6) + P("M170 -40 q30 -12 60 0 M172 -30 q28 -10 56 2", sw=1.6, col="#c9c0a8")
+    return scene("leaf", w, h, leaf + legs_ + body + head + marks + coc, box=(w / 2, h * .66, 560, 280))
+ART4["silkworm"] = _silkworm
+_pond = lambda f, b=(.68, 520, 260): (lambda w, h: scene("pond", w, h, f, box=(w / 2, h * b[0], b[1], b[2])))
+ART4["carp"] = _pond(fish(F="#b9963a", L=320, H=120, tail="fork", eye_r=8, fin_col="#9a7a2a", belly="#e9d9a0",
+                          extras=P("M-155 8 q-14 10 -6 24", sw=3) + P("M-150 -2 q-16 0 -18 10", sw=2.4)))
+ART4["grass-carp"] = _pond(fish(F="#8a9a6a", L=340, H=100, tail="fork", eye_r=8, fin_col="#6f7f52", belly="#e6e2c4"))
+ART4["silver-carp"] = lambda w, h: scene("pond", w, h, G_(fish(F="#c9d0d6", L=320, H=110, tail="fork", eye_r=8, fin_col="#a9b2ba", belly="#f2f4f6"), 0, -90) +
+                                         P("M-200 40 q20 -20 40 0 M160 30 q20 -20 40 0", sw=3, col="#7fb7d8"), box=(w / 2, h * .7, 520, 300))
+ART4["tilapia"] = _pond(fish(F="#8a8f86", L=280, H=130, tail="round", eye_r=8, fin_col="#c95a4a", belly="#d9dcd2",
+                             stripes=("#6b706a", [.3, .45, .6, .75])))
+
+def _crab(w, h):
+    F = "#5a6a4a"
+    o = []
+    for s in (-1, 1):
+        for i in range(4):
+            x = s * (60 + i * 22)
+            o.append(P(f"M{s*50} {-40+i*10} L{x+s*50} {-70+i*6} L{x+s*80} {10+i*4}", sw=8, col=INK) + P(f"M{s*50} {-40+i*10} L{x+s*50} {-70+i*6} L{x+s*80} {10+i*4}", sw=5, col=F))
+        cx = s * 120
+        o.append(P(f"M{s*40} -70 L{cx} -130", sw=12, col=INK) + P(f"M{s*40} -70 L{cx} -130", sw=8, col=F))
+        o.append(E(cx, -150, 34, 26, "#e9dcc0", 2.6) + E(cx, -134, 30, 16, "#6b5a3a", 0, extra='fill-opacity=".85"'))
+    o.append(E(0, -50, 90, 62, F, 3) + C(-22, -112, 8, INK, 0) + C(22, -112, 8, INK, 0) + P("M-22 -104 v-6 M22 -104 v-6", sw=3))
+    return scene("wetland", w, h, "".join(o), box=(w / 2, h * .72, 520, 300))
+ART4["mitten-crab"] = _crab
+ART4["whiteleg-shrimp"] = lambda w, h: scene("pond", w, h, G_(shrimp(F="#e6dccf", L=300, H=66), 0, -40) + G_(shrimp(F="#e6dccf", L=180, H=40), 80, 70), box=(w / 2, h * .7, 480, 300))
+
+# farm batch 3
+def _oyster(w, h):
+    o = ""
+    for dx, dy, s in ((-90, 0, 1), (110, 20, .8)):
+        o += G_(P(f"M{-120*s} 0 C{-110*s} {-90*s} {60*s} {-110*s} {130*s} {-30*s} C{100*s} {30*s} {-60*s} {40*s} {-120*s} 0 Z", "#b9b3a6", 2.8) +
+                "".join(P(f"M{-100*s+i*40*s} {-10*s} q{20*s} {-40*s} {50*s} {-60*s}", sw=2, col="#8a8478") for i in range(5)), dx, dy)
+    o += G_(P("M-70 0 C-60 -50 50 -60 80 -20 C50 10 -40 20 -70 0 Z", "#f2ece0", 2.4) + E(0, -18, 40, 18, "#e6dcc8", 2), 0, 120)
+    return scene("sea", w, h, o, box=(w / 2, h * .7, 440, 260))
+ART4["oyster"] = _oyster
+ART4["rainbow-trout"] = lambda w, h: scene("pond", w, h, G_(fish(F="#b9c2a6", L=320, H=96, tail="fork", eye_r=8, fin_col="#9aa486", belly="#eef0e6",
+                                             extras=P("M-120 8 C-40 0 60 0 140 4", sw=16, col="#e88aa0") + "".join(C(-80 + (i * 37) % 220, -30 + (i * 13) % 18, 3.5, INK, 0) for i in range(18))), 0, -50), box=(w / 2, h * .7, 520, 260))
+ART4["salmon"] = lambda w, h: scene("sea", w, h, G_(fish(F="#9aa8b6", L=340, H=100, tail="fork", eye_r=8, fin_col="#7a8898", belly="#eef2f6",
+                                      extras="".join(P(f"M{-100+i*30} {-30+(i%3)*8} l6 6 m0 -6 l-6 6", sw=2.4) for i in range(8))), 0, -60), box=(w / 2, h * .7, 520, 260))
+ART4["softshell"] = lambda w, h: scene("pond", w, h, turtle(shell="#7a8060", skin="#8a9070", L=300, H=70, scute=None, neck=70, plastron="#e9e2c8"), box=(w / 2, h * .76, 560, 220))
+ART4["mink"] = Q("wetland", (.74, 600, 260), F="#3a2a22", bl=300, bd=76, lh=46, lw=22, neck=(30, 56), nw=54, head=(38, 30), snout=(32, 22), snout_col="#3a2a22",
+                 ears="round", tail="bushy", tail_col="#2a1e18", extras=C(-196, -126, 6, "#ffffff", 0))
+def _eel(F, L=420, H=34, belly=None, spots=None, fins=False):
+    pts = [(-L / 2 + i * L / 20, -H - 40 * math.sin(i / 3.2)) for i in range(21)]
+    d = "M" + " L".join(f"{x:.0f} {y:.0f}" for x, y in pts)
+    o = P(d, sw=H + 6, col=INK) + P(d, sw=H, col=F)
+    if belly: o += P(d, sw=H * .3, col=belly, extra=f'transform="translate(0 {H*.28:.0f})"')
+    if spots: o += "".join(C(x, y - 4, 3.5, spots, 0) for x, y in pts[3::2])
+    x, y = pts[0]
+    o += C(x + 10, y - 6, 5, INK, 0) + P(f"M{x-14} {y+4} l10 0", sw=2.4)
+    return o
+ART4["swamp-eel"] = lambda w, h: scene("wetland", w, h, _eel("#9a7a3a", belly="#d9c48a", spots="#5a4a2a"), box=(w / 2, h * .72, 520, 220))
+ART4["loach"] = lambda w, h: scene("pond", w, h, G_(_eel("#b99a5a", L=320, H=40, belly="#ece0c0", spots="#5a4a2a") + P("M-178 -40 l-14 -10 M-178 -34 l-16 2 M-178 -28 l-12 10", sw=2.4), 0, -40), box=(w / 2, h * .7, 480, 220))
+ART4["jp-eel"] = lambda w, h: scene("pond", w, h, G_(_eel("#4a5a4a", L=460, H=38, belly="#e6e8d8"), 0, -40), box=(w / 2, h * .7, 540, 220))
+def _worm(w, h):
+    soil = P("M-280 40 Q0 0 280 40 L280 120 L-280 120 Z", "#6b4f3a", 2.6) + "".join(C(-240 + i * 44, 70 + (i % 3) * 14, 5, "#4a3626", 0) for i in range(12))
+    pts = [(-200 + i * 20, -20 - 30 * math.sin(i / 2.5)) for i in range(21)]
+    d = "M" + " L".join(f"{x:.0f} {y:.0f}" for x, y in pts)
+    o = P(d, sw=30, col=INK) + P(d, sw=24, col="#c8504a") + "".join(P(f"M{x} {y-10} l0 20", sw=1.6, col="#e9c86a") for x, y in pts[2::2])
+    o += E(-40, -38, 18, 15, "#e08a6a", 2.4)
+    return scene("meadow", w, h, soil + o, box=(w / 2, h * .7, 560, 260))
+ART4["red-wiggler"] = _worm
+ART4["holstein"] = Q("farm", None, F="#ffffff", bl=340, bd=150, lh=140, lw=34, pattern="patches", pat_col=INK, neck=(20, 60), nw=90, head=(52, 50),
+                     snout=(44, 40), snout_col="#f6c9c0", nose="#c9857a", ears="side", horns=None, tail="tuft", tail_col=INK, hooves=INK, udder="#f6c9c0")

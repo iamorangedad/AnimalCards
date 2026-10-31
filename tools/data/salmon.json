@@ -1,0 +1,77 @@
+{
+ "file": "大西洋鲑",
+ "no": "167",
+ "cat": "农场",
+ "name_cn": "大西洋鲑",
+ "name_en": "Atlantic salmon",
+ "latin": "Salmo salar",
+ "short": "大西洋鲑",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "海里两年",
+   "value": "71–76 cm",
+   "lo": 0.71,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3.6–5.4 kg",
+   "lo": 3.6,
+   "hi": 5.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最重纪录",
+   "value": "49.44 kg",
+   "lo": 49.44,
+   "hi": 49.44,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "160.65 cm",
+   "lo": 1.6065,
+   "hi": 1.6065,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳跃者",
+   "icon": "flip",
+   "desc": "种名 salar 在拉丁语里意思是“跳跃者”，它能逆流跃过障碍。"
+  },
+  {
+   "name": "洄游",
+   "icon": "dive",
+   "desc": "在河里出生，到海里长大，再回到河里产卵。"
+  }
+ ],
+ "intro": [
+  "大西洋鲑生活在北大西洋和流入它的河流里。",
+  "有些种群只洄游到大湖，一辈子都在淡水里。",
+  "现在许多国家大量养殖，挪威的养殖量占世界一半以上。"
+ ],
+ "fact": "它是鲑科中第三大的鱼，仅次于哲罗鲑和奇努克鲑。",
+ "range": "北大西洋及周边河流。",
+ "sources": [
+  "Wikipedia「Atlantic salmon」",
+  "IUCN 红色名录（Darwall 2023）"
+ ],
+ "footnote": ""
+}

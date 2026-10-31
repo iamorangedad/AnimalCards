@@ -1,0 +1,77 @@
+{
+ "file": "骡",
+ "no": "151",
+ "cat": "农场",
+ "name_cn": "骡",
+ "name_en": "Mule",
+ "latin": "Equus asinus × E. caballus",
+ "short": "骡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草料（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "多为 370–460 kg",
+   "lo": 370,
+   "hi": 460,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "驮货",
+   "value": "一般约 90 kg",
+   "lo": 90,
+   "hi": 90,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "肩高",
+   "value": "<1.25–1.8 m",
+   "lo": 1.25,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "驮重行军",
+   "value": "72 kg 走 26 km",
+   "lo": 26,
+   "hi": 26,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "杂交优势",
+   "icon": "team",
+   "desc": "骡是公驴和母马的后代，既有驴的耐力，又有马的力气。"
+  },
+  {
+   "name": "稳健驮夫",
+   "icon": "climb",
+   "desc": "巴基斯坦军队训练的骡子能驮 72 kg 连续走 26 km 不休息。"
+  }
+ ],
+ "intro": [
+  "骡由公驴和母马杂交产生，用来配种的公驴叫“骡种驴”。",
+  "古代赫梯人很看重骡子，一头骡的价格是一匹好马的三倍。",
+  "美国独立战争后，乔治·华盛顿在自己的庄园里繁育骡子。"
+ ],
+ "fact": "个别骡子能驮起约 160 kg 的活重。",
+ "range": "家养动物，世界各地都有。",
+ "sources": [
+  "Wikipedia「Mule」"
+ ],
+ "footnote": "骡通常不能生育（待核）。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 144 张（宠物 50，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 169 张（宠物 50，农场 35，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -68,6 +68,31 @@
 | 024 | 家鸭（Domestic duck） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%AD.pdf) |
 | 025 | 家鹅（Domestic goose） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B9%85.pdf) |
 | 026 | 羊驼（Alpaca） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.pdf) |
+| 145 | 水牛（Water buffalo） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B0%B4%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B0%B4%E7%89%9B.pdf) |
+| 146 | 家牦牛（Domestic yak） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E7%89%A6%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E7%89%A6%E7%89%9B.pdf) |
+| 147 | 火鸡（Domestic turkey） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%81%AB%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%81%AB%E9%B8%A1.pdf) |
+| 148 | 番鸭（Muscovy duck） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%95%AA%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%95%AA%E9%B8%AD.pdf) |
+| 149 | 鹌鹑（Japanese quail） | 农场 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B9%8C%E9%B9%91.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B9%8C%E9%B9%91.pdf) |
+| 150 | 珍珠鸡（Helmeted guineafowl） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8F%8D%E7%8F%A0%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8F%8D%E7%8F%A0%E9%B8%A1.pdf) |
+| 151 | 骡（Mule） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%AA%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%AA%A1.pdf) |
+| 152 | 大羊驼（Llama） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%BE%8A%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%BE%8A%E9%A9%BC.pdf) |
+| 153 | 单峰驼（Dromedary） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%95%E5%B3%B0%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%95%E5%B3%B0%E9%A9%BC.pdf) |
+| 154 | 驯鹿（Reindeer） | 农场 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%AF%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%A9%AF%E9%B9%BF.pdf) |
+| 155 | 家鸽（Domestic pigeon） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E9%B8%BD.pdf) |
+| 156 | 高地牛（Highland cattle (breed)） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%AB%98%E5%9C%B0%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%AB%98%E5%9C%B0%E7%89%9B.pdf) |
+| 157 | 海福特牛（Hereford cattle (breed)） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B5%B7%E7%A6%8F%E7%89%B9%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B5%B7%E7%A6%8F%E7%89%B9%E7%89%9B.pdf) |
+| 158 | 家蚕（Domestic silk moth） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E8%9A%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%B6%E8%9A%95.pdf) |
+| 159 | 鲤鱼（Common carp） | 农场 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B2%A4%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B2%A4%E9%B1%BC.pdf) |
+| 160 | 草鱼（Grass carp） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%8D%89%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%8D%89%E9%B1%BC.pdf) |
+| 161 | 鲢鱼（Silver carp） | 农场 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B2%A2%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B2%A2%E9%B1%BC.pdf) |
+| 162 | 尼罗罗非鱼（Nile tilapia） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B0%BC%E7%BD%97%E7%BD%97%E9%9D%9E%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B0%BC%E7%BD%97%E7%BD%97%E9%9D%9E%E9%B1%BC.pdf) |
+| 163 | 中华绒螯蟹（Chinese mitten crab） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%AD%E5%8D%8E%E7%BB%92%E8%9E%AF%E8%9F%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%AD%E5%8D%8E%E7%BB%92%E8%9E%AF%E8%9F%B9.pdf) |
+| 164 | 南美白对虾（Whiteleg shrimp） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%97%E7%BE%8E%E7%99%BD%E5%AF%B9%E8%99%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%97%E7%BE%8E%E7%99%BD%E5%AF%B9%E8%99%BE.pdf) |
+| 165 | 长牡蛎（Pacific oyster） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%95%BF%E7%89%A1%E8%9B%8E.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%95%BF%E7%89%A1%E8%9B%8E.pdf) |
+| 166 | 虹鳟（Rainbow trout） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%B9%E9%B3%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%B9%E9%B3%9F.pdf) |
+| 167 | 大西洋鲑（Atlantic salmon） | 农场 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%91.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%B2%91.pdf) |
+| 168 | 中华鳖（Chinese softshell turtle） | 农场 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%AD%E5%8D%8E%E9%B3%96.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%AD%E5%8D%8E%E9%B3%96.pdf) |
+| 169 | 美洲水貂（American mink） | 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8E%E6%B4%B2%E6%B0%B4%E8%B2%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8E%E6%B4%B2%E6%B0%B4%E8%B2%82.pdf) |
 | 003 | 非洲象（African bush elephant） | 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.pdf) |
 | 006 | 狮子（Lion） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.pdf) |
 | 027 | 长颈鹿（Giraffe） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.pdf) |

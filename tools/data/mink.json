@@ -1,0 +1,78 @@
+{
+ "file": "美洲水貂",
+ "no": "169",
+ "cat": "农场",
+ "name_cn": "美洲水貂",
+ "name_en": "American mink",
+ "latin": "Neogale vison",
+ "short": "美洲水貂",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "34–45 cm",
+   "lo": 0.34,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄冬季体重",
+   "value": "500–1580 g",
+   "lo": 0.5,
+   "hi": 1.58,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "陆上速度",
+   "value": "可达 6.5 km/h",
+   "lo": 6.5,
+   "hi": 6.5,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "每窝",
+   "value": "平均 4 只",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳",
+   "icon": "dive",
+   "desc": "在 24 °C 的温水里能连续游 3 小时；潜水一般只有 30 cm 深、10 秒左右。"
+  },
+  {
+   "name": "毛皮",
+   "icon": "huddle",
+   "desc": "冬毛又密又长又软；它是人工养殖最多的毛皮动物。"
+  }
+ ],
+ "intro": [
+  "美洲水貂原产北美，后被人带到欧洲、亚洲和南美。",
+  "毛皮养殖场里选育出了许多不同的毛色。",
+  "养殖水貂的脑比野生水貂小约 19.6%。"
+ ],
+ "fact": "刚出生的小水貂看不见东西，只有约 6 g 重。",
+ "range": "原产北美；已被引入欧洲、亚洲和南美。",
+ "sources": [
+  "Wikipedia「American mink」",
+  "IUCN 红色名录（Reid 2016）"
+ ],
+ "footnote": ""
+}

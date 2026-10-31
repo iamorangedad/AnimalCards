@@ -1,0 +1,77 @@
+{
+ "file": "家牦牛",
+ "no": "146",
+ "cat": "农场",
+ "name_cn": "家牦牛",
+ "name_en": "Domestic yak",
+ "latin": "Bos grunniens",
+ "short": "家牦牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃高原上的草（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "350–585 kg",
+   "lo": 350,
+   "hi": 585,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母牛体重",
+   "value": "225–255 kg",
+   "lo": 225,
+   "hi": 255,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公牛角长",
+   "value": "48–99 cm",
+   "lo": 0.48,
+   "hi": 0.99,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "257–270 天",
+   "lo": 257,
+   "hi": 270,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "牦牛赛跑",
+   "icon": "climb",
+   "desc": "在西藏和喀喇昆仑的部分地区，牦牛赛跑是传统节日里的娱乐活动。"
+  },
+  {
+   "name": "厚毛裙",
+   "icon": "huddle",
+   "desc": "长长的毛垂到身体下面像一条“裙子”，帮它抵御高原的严寒（待核）。"
+  }
+ ],
+ "intro": [
+  "家牦牛是由野牦牛驯化来的，学名意思是“哼哼叫的牛”。",
+  "最早的牦牛驯化证据距今约 2500 年。",
+  "中国文献记载牦牛和黄牛杂交至少已有 2000 年。"
+ ],
+ "fact": "家牦牛每胎只生一头小牛，多在 5–6 月出生。",
+ "range": "青藏高原及周边的高海拔地区。",
+ "sources": [
+  "Wikipedia「Domestic yak」"
+ ],
+ "footnote": "野化牦牛公牛可重达 1000 kg。"
+}

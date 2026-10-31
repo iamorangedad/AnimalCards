@@ -1,0 +1,78 @@
+{
+ "file": "家蚕",
+ "no": "158",
+ "cat": "农场",
+ "name_cn": "家蚕",
+ "name_en": "Domestic silk moth",
+ "latin": "Bombyx mori",
+ "short": "家蚕",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫只吃桑叶",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "一根茧丝",
+   "value": "300–900 m",
+   "lo": 300,
+   "hi": 900,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "蚕卵孵化",
+   "value": "9–12 天",
+   "lo": 9,
+   "hi": 12,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "吃桑叶",
+   "value": "约 20–25 g",
+   "lo": 0.02,
+   "hi": 0.025,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吐丝结茧",
+   "icon": "jar",
+   "desc": "一个蚕茧是由一根长 300–900 m 的生丝绕成的。"
+  },
+  {
+   "name": "五龄",
+   "icon": "flip",
+   "desc": "幼虫化蛹前要经历五个龄期，蜕四次皮后身体会变得微黄。"
+  }
+ ],
+ "intro": [
+  "家蚕由野桑蚕驯化而来，驯养历史在中国已超过 5000 年。",
+  "成虫身体白色、毛茸茸，已经失去了颜色和飞行能力。",
+  "一只幼虫从孵化到结茧约吃 20–25 g 桑叶，其中约 88% 在五龄期。"
+ ],
+ "fact": "家蚕和野桑蚕至今仍能交配，有时会产生杂交后代。",
+ "range": "家养昆虫，原产中国，后传到印度、日本、朝鲜半岛等地。",
+ "sources": [
+  "Wikipedia「Bombyx mori」",
+  "维基百科「家蚕」"
+ ],
+ "footnote": "吃桑叶的量来自中文维基。"
+}

@@ -1,0 +1,76 @@
+{
+ "file": "南美白对虾",
+ "no": "164",
+ "cat": "农场",
+ "name_cn": "南美白对虾",
+ "name_en": "Whiteleg shrimp",
+ "latin": "Penaeus vannamei",
+ "short": "南美白对虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "23 cm",
+   "lo": 0.23,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虾水深",
+   "value": "可达 72 m",
+   "lo": 72,
+   "hi": 72,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "适宜水温",
+   "value": "22–35 °C",
+   "lo": 22,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "盐度",
+   "value": "0–40‰",
+   "lo": 0,
+   "hi": 40,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "广盐",
+   "icon": "dive",
+   "desc": "从淡水到 40‰ 的咸水都能生长，最适宜的盐度是 15–25‰。"
+  },
+  {
+   "name": "养殖明星",
+   "icon": "jar",
+   "desc": "2018 年全球产量约 500 万吨，产值约 300 亿美元。"
+  }
+ ],
+ "intro": [
+  "南美白对虾原产东太平洋。",
+  "成虾生活在海里，幼虾生活在河口。",
+  "它只能生活在全年水温高于 20 °C 的地方。"
+ ],
+ "fact": "它是全世界养殖最多的虾之一。",
+ "range": "原产墨西哥到秘鲁的东太平洋沿岸；现在世界各地养殖。",
+ "sources": [
+  "Wikipedia「Whiteleg shrimp」"
+ ],
+ "footnote": "盐度条借用 0–50 刻度表示。"
+}

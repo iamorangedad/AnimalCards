@@ -1,0 +1,77 @@
+{
+ "file": "鲤鱼",
+ "no": "159",
+ "cat": "农场",
+ "name_cn": "鲤鱼",
+ "name_en": "Common carp",
+ "latin": "Cyprinus carpio",
+ "short": "鲤鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "约 120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体重",
+   "value": "40 kg 以上",
+   "lo": 40,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "一次产卵",
+   "value": "约 30 万粒",
+   "lo": 300000,
+   "hi": 300000,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "最长寿命",
+   "value": "64 年",
+   "lo": 64,
+   "hi": 64,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "胡须",
+   "icon": "whisker",
+   "desc": "原始的鲤鱼有两对触须，身上是网格状的鳞片。"
+  },
+  {
+   "name": "耐冻",
+   "icon": "huddle",
+   "desc": "能在 3–35 °C 的水里生活，池塘冰封时只要还有一点水不冻，它就能熬过冬天。"
+  }
+ ],
+ "intro": [
+  "鲤鱼原产欧洲和亚洲，现在被引入世界各地养殖。",
+  "它没有胃，肠子的长度会因吃的东西而不同。",
+  "最重的鲤鱼纪录是 2013 年在法国钓到的 45.59 kg。"
+ ],
+ "fact": "IUCN 评估的是原生野生种群（易危）；养殖和引入的鲤鱼数量其实非常多。",
+ "range": "原产欧洲（多瑙河、伏尔加河）和亚洲；现已遍布世界。",
+ "sources": [
+  "Wikipedia「Common carp」",
+  "IUCN 红色名录（Freyhof 2021）"
+ ],
+ "footnote": "体长、体重为家养鲤鱼的最大值。"
+}

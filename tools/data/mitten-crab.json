@@ -1,0 +1,77 @@
+{
+ "file": "中华绒螯蟹",
+ "no": "163",
+ "cat": "农场",
+ "name_cn": "中华绒螯蟹",
+ "name_en": "Chinese mitten crab",
+ "latin": "Eriocheir sinensis",
+ "short": "中华绒螯蟹",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "什么都吃",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "背甲宽",
+   "value": "3–10 cm",
+   "lo": 0.03,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵个体",
+   "value": "平均约 5.5 cm",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "逆流而上",
+   "value": "可达 1400 km",
+   "lo": 1400,
+   "hi": 1400,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "储藏温度",
+   "value": "5 °C",
+   "lo": 5,
+   "hi": 5,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛手套",
+   "icon": "camo",
+   "desc": "螯上长着浓密的绒毛，像戴了一副毛手套，所以叫绒螯蟹（大闸蟹）。"
+  },
+  {
+   "name": "洄游",
+   "icon": "dive",
+   "desc": "一生大部分时间在淡水里，到了繁殖时才游回海里。"
+  }
+ ],
+ "intro": [
+  "中华绒螯蟹就是著名的大闸蟹，原产东亚。",
+  "身体有手掌大，腿长约为背甲宽的两倍。",
+  "在长江里，人们在离海 1400 km 的上游也发现过它。"
+ ],
+ "fact": "在欧洲和北美它是入侵物种；美国禁止进口和持有活的中华绒螯蟹。",
+ "range": "原产朝鲜半岛到福建的河流和河口；已入侵欧洲、北美。",
+ "sources": [
+  "Wikipedia「Chinese mitten crab」"
+ ],
+ "footnote": "储藏温度指上市前冷藏（让蟹进入休眠状态）。"
+}

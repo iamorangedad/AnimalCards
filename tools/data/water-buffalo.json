@@ -1,0 +1,78 @@
+{
+ "file": "水牛",
+ "no": "145",
+ "cat": "农场",
+ "name_cn": "水牛",
+ "name_en": "Water buffalo",
+ "latin": "Bubalus bubalis",
+ "short": "水牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草等植物（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "300–550 kg",
+   "lo": 300,
+   "hi": 550,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.4–3 m",
+   "lo": 2.4,
+   "hi": 3.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "多为 300–320 天",
+   "lo": 300,
+   "hi": 320,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "干活年限",
+   "value": "有的可达 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "泥浴降温",
+   "icon": "dive",
+   "desc": "水牛爱在泥坑里打滚，身上裹一层厚泥，帮助在炎热天气里降温。"
+  },
+  {
+   "name": "耕田能手",
+   "icon": "team",
+   "desc": "水牛特别适合耕种水稻田；30 岁还在干活的水牛并不少见。"
+  }
+ ],
+ "intro": [
+  "家水牛分为“河流型”和“沼泽型”两类。",
+  "河流型水牛大约 6300 年前在印度西部被驯化。",
+  "水牛奶的脂肪和蛋白质比奶牛奶还多。"
+ ],
+ "fact": "沼泽型水牛会用角挖出泥坑来打滚。",
+ "range": "家养动物，主要分布在南亚、东南亚和中国南方，也见于欧洲、南美等地。",
+ "sources": [
+  "Wikipedia「Water buffalo」"
+ ],
+ "footnote": "体重个别可超过 1000 kg。"
+}

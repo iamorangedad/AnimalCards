@@ -1,0 +1,78 @@
+{
+ "file": "海福特牛",
+ "no": "157",
+ "cat": "农场",
+ "name_cn": "海福特牛",
+ "name_en": "Hereford cattle (breed)",
+ "latin": "Bos taurus（品种）",
+ "short": "海福特牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "900–1100 kg",
+   "lo": 900,
+   "hi": 1100,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母牛体重",
+   "value": "520–620 kg",
+   "lo": 520,
+   "hi": 620,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "初生犊牛",
+   "value": "28–34 kg",
+   "lo": 28,
+   "hi": 34,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "屠宰率",
+   "value": "60%–65%",
+   "lo": 60,
+   "hi": 65,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白脸红身",
+   "icon": "camo",
+   "desc": "红褐色的身体配一张白脸，18 世纪末这种白脸特征就已经稳定下来。"
+  },
+  {
+   "name": "耐寒耐热",
+   "icon": "huddle",
+   "desc": "据记载它在 −48 °C 的严冬和 38–40 °C 的酷暑里都能放牧生活。"
+  }
+ ],
+ "intro": [
+  "【品种】海福特牛原产英国赫里福德郡，是著名的肉牛品种。",
+  "2023 年，62 个国家报告的海福特牛总数超过 700 万头。",
+  "中国在 1913 年和 1965 年先后从美国引进过它。"
+ ],
+ "fact": "它在 1817 年左右被带到美国肯塔基州，现在乌拉圭、巴西、智利都有 10 万头以上。",
+ "range": "原产英国；现已遍布世界许多国家。",
+ "sources": [
+  "Wikipedia「Hereford cattle」",
+  "维基百科「海福特牛」"
+ ],
+ "footnote": "这是家牛的一个品种；体重等数据来自中文维基（待核）。"
+}

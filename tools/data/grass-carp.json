@@ -1,0 +1,77 @@
+{
+ "file": "草鱼",
+ "no": "160",
+ "cat": "农场",
+ "name_cn": "草鱼",
+ "name_en": "Grass carp",
+ "latin": "Ctenopharyngodon idella",
+ "short": "草鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃水草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "60–100 cm",
+   "lo": 0.6,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "2 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "45 kg",
+   "lo": 45,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "5–9 年",
+   "lo": 5,
+   "hi": 9,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "除草工",
+   "icon": "team",
+   "desc": "它爱吃水草，有些地方专门放养草鱼来清除有害的杂草。"
+  },
+  {
+   "name": "四大家鱼",
+   "icon": "jar",
+   "desc": "在中国已经养了好几百年，是“四大家鱼”之一。"
+  }
+ ],
+ "intro": [
+  "草鱼是一种大型吃草的淡水鱼，原产远东。",
+  "它是草鱼属唯一的物种。",
+  "繁殖水温为 20–30 °C。"
+ ],
+ "fact": "一项研究中最老的草鱼活到了 11 岁；美国一个湖里的种群已超过 15 年。",
+ "range": "原产中国、俄罗斯远东等地的大河；现已引入世界许多国家。",
+ "sources": [
+  "Wikipedia「Grass carp」",
+  "IUCN 红色名录（Bogutskaya 2022）"
+ ],
+ "footnote": ""
+}

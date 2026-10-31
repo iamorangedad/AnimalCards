@@ -1,0 +1,77 @@
+{
+ "file": "珍珠鸡",
+ "no": "150",
+ "cat": "农场",
+ "name_cn": "珍珠鸡",
+ "name_en": "Helmeted guineafowl",
+ "latin": "Numida meleagris",
+ "short": "珍珠鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 1.3 kg",
+   "lo": 1.3,
+   "hi": 1.3,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "6–12 枚",
+   "lo": 6,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "26–28 天",
+   "lo": 26,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "最长约 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "能走远路",
+   "icon": "climb",
+   "desc": "珍珠鸡一天能走 10 km 以上。"
+  },
+  {
+   "name": "头盔",
+   "icon": "camo",
+   "desc": "头顶有一个骨质的“头盔”，身上布满白色小点，像撒了珍珠。"
+  }
+ ],
+ "intro": [
+  "珍珠鸡是珍珠鸡科最有名的成员，原产撒哈拉以南的非洲。",
+  "它已作为家禽被引入西印度群岛、北美、巴西、澳大利亚等地。",
+  "属名 Numida 是拉丁语“北非的”。"
+ ],
+ "fact": "火鸡的属名 Meleagris 和珍珠鸡的种名是同一个希腊词，意思都是“珍珠鸡”。",
+ "range": "撒哈拉以南非洲；家养种群遍布世界。",
+ "sources": [
+  "Wikipedia「Helmeted guineafowl」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

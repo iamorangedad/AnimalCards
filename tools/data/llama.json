@@ -1,0 +1,77 @@
+{
+ "file": "大羊驼",
+ "no": "152",
+ "cat": "农场",
+ "name_cn": "大羊驼",
+ "name_en": "Llama",
+ "latin": "Lama glama",
+ "short": "大羊驼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "1.7–1.8 m",
+   "lo": 1.7,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "15–25 年",
+   "lo": 15,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "平均约 350 天",
+   "lo": 350,
+   "hi": 350,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "驮行距离",
+   "value": "8–13 km",
+   "lo": 8,
+   "hi": 13,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "驮运好手",
+   "icon": "team",
+   "desc": "驮东西时，大羊驼能背负自身体重 25–30% 的重量走 8–13 km。"
+  },
+  {
+   "name": "学得快",
+   "icon": "flip",
+   "desc": "大羊驼只需重复几次就能学会简单的任务。"
+  }
+ ],
+ "intro": [
+  "大羊驼是南美洲的家养骆驼科动物，安第斯人很早就用它驮货和吃肉。",
+  "刚出生的小羊驼叫“cria”，重 9–14 kg。",
+  "它的毛柔软，油脂（羊毛脂）很少。"
+ ],
+ "fact": "约 2.5 万年前，类似羊驼的动物在今天的美国加州、得州等地很常见。",
+ "range": "家养动物，原产南美安第斯山区。",
+ "sources": [
+  "Wikipedia「Llama」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "高地牛",
+ "no": "156",
+ "cat": "农场",
+ "name_cn": "高地牛",
+ "name_en": "Highland cattle (breed)",
+ "latin": "Bos taurus（品种）",
+ "short": "高地牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "可达 800 kg",
+   "lo": 800,
+   "hi": 800,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母牛体重",
+   "value": "可达 500 kg",
+   "lo": 500,
+   "hi": 500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公牛肩高",
+   "value": "106–120 cm",
+   "lo": 1.06,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长毛防寒",
+   "icon": "huddle",
+   "desc": "长长的双层毛让它不怕苏格兰高地的风雪，是出了名的“粗放耐寒”品种。"
+  },
+  {
+   "name": "长寿母牛",
+   "icon": "team",
+   "desc": "它比大多数牛品种寿命都长，可达 20 年。"
+  }
+ ],
+ "intro": [
+  "【品种】高地牛是苏格兰的一个古老家牛品种。",
+  "母牛肩高 90–106 cm，怀孕约 277–290 天。",
+  "母牛一般 2–3 岁第一次产犊。"
+ ],
+ "fact": "高地牛的肉比大多数牛肉更瘦，因为它主要靠长毛而不是脂肪保暖。",
+ "range": "原产苏格兰高地；现在加拿大东部等地也有很多。",
+ "sources": [
+  "Wikipedia「Highland cattle」"
+ ],
+ "footnote": "这是家牛的一个品种，不是独立物种。"
+}

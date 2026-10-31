@@ -1,0 +1,77 @@
+{
+ "file": "鲢鱼",
+ "no": "161",
+ "cat": "农场",
+ "name_cn": "鲢鱼",
+ "name_en": "Silver carp",
+ "latin": "Hypophthalmichthys molitrix",
+ "short": "鲢鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "滤食浮游生物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "60–100 cm",
+   "lo": 0.6,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "140 cm",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "50 kg",
+   "lo": 50,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "跃出水面",
+   "value": "最高约 3 m",
+   "lo": 3.0,
+   "hi": 3.0,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞鱼",
+   "icon": "flip",
+   "desc": "受惊时会跳出水面，最高可达约 3 m，所以又被叫作“飞鲤”。"
+  },
+  {
+   "name": "滤网鳃",
+   "icon": "jar",
+   "desc": "鳃耙连成海绵一样的滤网，把水里的浮游生物过滤出来吃。"
+  }
+ ],
+ "intro": [
+  "鲢鱼原产中国和东西伯利亚，从黑龙江流域一直到南方。",
+  "按养殖重量算，它的全球产量仅次于草鱼。",
+  "因为吃浮游生物，有时被用来控制水里的蓝藻。"
+ ],
+ "fact": "在一些被引入的地方，它被视为入侵物种。",
+ "range": "原产中国及东西伯利亚；已被引入许多国家养殖。",
+ "sources": [
+  "Wikipedia「Silver carp」",
+  "IUCN 红色名录（Zhao 2021）"
+ ],
+ "footnote": ""
+}

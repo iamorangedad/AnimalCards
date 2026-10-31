@@ -1,0 +1,78 @@
+{
+ "file": "番鸭",
+ "no": "148",
+ "cat": "农场",
+ "name_cn": "番鸭",
+ "name_en": "Muscovy duck",
+ "latin": "Cairina moschata",
+ "short": "番鸭",
+ "type": "天空",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雄鸭体长",
+   "value": "76–84 cm",
+   "lo": 0.76,
+   "hi": 0.84,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸭体重",
+   "value": "3–4 kg",
+   "lo": 3,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每窝产蛋",
+   "value": "8–15 枚",
+   "lo": 8,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "30–31 天",
+   "lo": 30,
+   "hi": 31,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色肉瘤",
+   "icon": "camo",
+   "desc": "脸上有裸露的红色皮肤，嘴基部有黑色或暗红色的肉瘤。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "huddle",
+   "desc": "虽然是热带鸟，它在 −12 °C 的天气里也能过得很好。"
+  }
+ ],
+ "intro": [
+  "番鸭原产美洲，从美国得州一直分布到阿根廷和乌拉圭。",
+  "它已被驯化，世界许多地方有野化种群。",
+  "母鸭常把蛋下在树洞里。"
+ ],
+ "fact": "雄鸭的体重大约是雌鸭的两倍。",
+ "range": "原产墨西哥到南美洲；家养番鸭遍布世界。",
+ "sources": [
+  "Wikipedia「Muscovy duck」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "翼展 137–152 cm。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "中华鳖",
+ "no": "168",
+ "cat": "农场",
+ "name_cn": "中华鳖",
+ "name_en": "Chinese softshell turtle",
+ "latin": "Pelodiscus sinensis",
+ "short": "中华鳖",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2000"
+ },
+ "stats": [
+  {
+   "label": "每窝产蛋",
+   "value": "8–30 枚",
+   "lo": 8,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每年窝数",
+   "value": "2–5 窝",
+   "lo": 2,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 60 天",
+   "lo": 60,
+   "hi": 60,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "性成熟背甲",
+   "value": "18–19 cm",
+   "lo": 0.18,
+   "hi": 0.19,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "软壳",
+   "icon": "camo",
+   "desc": "背甲没有坚硬的角质盾片，摸起来是软的，所以叫“软壳龟”（甲鱼）。"
+  },
+  {
+   "name": "嘴里排尿素",
+   "icon": "jar",
+   "desc": "它有一种特殊的基因，能从嘴里排出尿素。"
+  }
+ ],
+ "intro": [
+  "中华鳖原产中国大陆和台湾。",
+  "如今中国大量养殖，它是世界上经济价值最高的龟。",
+  "蛋是圆的，直径平均约 20 mm。"
+ ],
+ "fact": "刚孵出的小鳖背甲只有约 25 mm 长。",
+ "range": "中国大陆（内蒙古到广西）和台湾；也有逃逸野化记录。",
+ "sources": [
+  "Wikipedia「Chinese softshell turtle」",
+  "IUCN 红色名录（Asian Turtle Trade Working Group 2000）"
+ ],
+ "footnote": "IUCN 评估年代较早（2000 年）。"
+}

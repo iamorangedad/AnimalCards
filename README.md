@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 42 张（宠物 11，农场 10，高原草原 18，森林 1，海洋 1，鸟类 1）。
+共 56 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 1，鸟类 1）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -48,6 +48,20 @@
 | 041 | 赤狐（Red fox） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%B5%A4%E7%8B%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%B5%A4%E7%8B%90.pdf) |
 | 042 | 美洲野牛（American bison） | 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B.pdf) |
 | 001 | 大熊猫（Giant panda） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.pdf) |
+| 043 | 老虎（Tiger） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.pdf) |
+| 044 | 棕熊（Brown bear） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.pdf) |
+| 045 | 小熊猫（Red panda） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B0%8F%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B0%8F%E7%86%8A%E7%8C%AB.pdf) |
+| 046 | 川金丝猴（Golden snub-nosed monkey） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B7%9D%E9%87%91%E4%B8%9D%E7%8C%B4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B7%9D%E9%87%91%E4%B8%9D%E7%8C%B4.pdf) |
+| 047 | 黑猩猩（Chimpanzee） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%BB%91%E7%8C%A9%E7%8C%A9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%BB%91%E7%8C%A9%E7%8C%A9.pdf) |
+| 048 | 西部大猩猩（Western gorilla） | 森林 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A5%BF%E9%83%A8%E5%A4%A7%E7%8C%A9%E7%8C%A9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A5%BF%E9%83%A8%E5%A4%A7%E7%8C%A9%E7%8C%A9.pdf) |
+| 049 | 婆罗洲猩猩（Bornean orangutan） | 森林 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A9%86%E7%BD%97%E6%B4%B2%E7%8C%A9%E7%8C%A9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A9%86%E7%BD%97%E6%B4%B2%E7%8C%A9%E7%8C%A9.pdf) |
+| 050 | 考拉（Koala） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%83%E6%8B%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%83%E6%8B%89.pdf) |
+| 051 | 梅花鹿（Sika deer） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A2%85%E8%8A%B1%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A2%85%E8%8A%B1%E9%B9%BF.pdf) |
+| 052 | 红松鼠（Red squirrel） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BA%A2%E6%9D%BE%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BA%A2%E6%9D%BE%E9%BC%A0.pdf) |
+| 053 | 浣熊（Raccoon） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%B5%A3%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%B5%A3%E7%86%8A.pdf) |
+| 054 | 褐喉树懒（Brown-throated sloth） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A4%90%E5%96%89%E6%A0%91%E6%87%92.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A4%90%E5%96%89%E6%A0%91%E6%87%92.pdf) |
+| 055 | 美洲豹（Jaguar） | 森林 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.pdf) |
+| 056 | 亚洲象（Asian elephant） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.pdf) |
 | 005 | 章鱼（Common octopus） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
 

@@ -1,0 +1,77 @@
+{
+ "file": "黑猩猩",
+ "no": "047",
+ "cat": "森林",
+ "name_cn": "黑猩猩",
+ "name_en": "Chimpanzee",
+ "latin": "Pan troglodytes",
+ "short": "黑猩猩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、昆虫等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重·平均",
+   "value": "30–40 kg",
+   "lo": 30,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "站高·平均",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "手臂长",
+   "value": "约 83 cm",
+   "lo": 0.83,
+   "hi": 0.83,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "饲养寿命",
+   "value": "60 年以上",
+   "lo": 60,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会用工具",
+   "icon": "trunk",
+   "desc": "几乎所有黑猩猩群都会用树枝、石头、草和叶子当工具，掏白蚁、取蜂蜜、敲坚果、喝水。"
+  },
+  {
+   "name": "社群生活",
+   "icon": "team",
+   "desc": "它们生活在社群里，领地直径平均约 4 km。"
+  }
+ ],
+ "intro": [
+  "黑猩猩和倭黑猩猩是人类现存最近的亲戚。",
+  "它们生活在赤道非洲的森林和稀树草原里。",
+  "黑猩猩的手臂比腿长，平均臂长约 83 cm。"
+ ],
+ "fact": "条件好时，野生黑猩猩的平均预期寿命接近 33 年，和人类狩猎采集者相当。",
+ "range": "赤道非洲的森林和稀树草原。",
+ "sources": [
+  "Wikipedia「Chimpanzee」",
+  "IUCN 红色名录（Humle et al. 2016）"
+ ],
+ "footnote": "体重为野生雌（30 kg）雄（40 kg）平均值。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "考拉",
+ "no": "050",
+ "cat": "森林",
+ "name_cn": "考拉",
+ "name_en": "Koala",
+ "latin": "Phascolarctos cinereus",
+ "short": "考拉",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "几乎只吃桉树叶",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "4–15 kg",
+   "lo": 4,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "60–85 cm",
+   "lo": 0.6,
+   "hi": 0.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "13–18 年",
+   "lo": 13,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每天睡觉",
+   "value": "最多约 20 小时",
+   "lo": 20,
+   "hi": 20,
+   "scale": "hours",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃毒叶子",
+   "icon": "bamboo",
+   "desc": "桉树叶营养少还有毒，大多数动物都不吃；考拉有约 200 cm 长的盲肠帮助消化。"
+  },
+  {
+   "name": "超级睡神",
+   "icon": "huddle",
+   "desc": "考拉很少移动，每天最多要睡约 20 个小时。"
+  }
+ ],
+ "intro": [
+  "考拉是澳大利亚特有的树栖有袋类，常被误叫成“考拉熊”。",
+  "它是树袋熊科唯一现存的成员。",
+  "考拉宝宝刚出生时不到 0.5 g，要在育儿袋里待六七个月。"
+ ],
+ "fact": "考拉怀孕只有 33–35 天，大多数时候一胎只生一只。",
+ "range": "澳大利亚东部和南部沿海的桉树林。",
+ "sources": [
+  "Wikipedia「Koala」",
+  "IUCN 红色名录（Woinarski & Burbidge 2020）"
+ ],
+ "footnote": ""
+}

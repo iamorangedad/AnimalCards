@@ -1,0 +1,77 @@
+{
+ "file": "美洲豹",
+ "no": "055",
+ "cat": "森林",
+ "name_cn": "美洲豹",
+ "name_en": "Jaguar",
+ "latin": "Panthera onca",
+ "short": "美洲豹",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "爱吃水豚、大食蚁兽",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "56–96 kg",
+   "lo": 56,
+   "hi": 96,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "1.12–1.85 m",
+   "lo": 1.12,
+   "hi": 1.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "57–81 cm",
+   "lo": 0.57,
+   "hi": 0.81,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "最长约 22 年",
+   "lo": 22,
+   "hi": 22,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "咬穿头骨",
+   "icon": "roar",
+   "desc": "咬合力极强，能咬穿龟壳，还会直接咬穿猎物两耳之间的头骨。"
+  },
+  {
+   "name": "游泳高手",
+   "icon": "dive",
+   "desc": "美洲豹很会游泳，是独居的伏击型顶级捕食者。"
+  }
+ ],
+ "intro": [
+  "美洲豹是美洲最大的猫科动物，世界第三大，仅次于老虎和狮子。",
+  "它是豹属里唯一原产美洲的种类。",
+  "生活在森林里的美洲豹往往颜色更深、体型更小。"
+ ],
+ "fact": "美洲豹的尾巴只有 45–75 cm，是大型猫科动物里最短的。",
+ "range": "美洲，从墨西哥到南美洲。",
+ "sources": [
+  "Wikipedia「Jaguar」",
+  "IUCN 红色名录（Quigley et al. 2017）"
+ ],
+ "footnote": "体重为多数地区常见范围，最重可达 158 kg；野外很少活过 11 岁。"
+}

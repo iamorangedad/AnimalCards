@@ -1,0 +1,77 @@
+{
+ "file": "褐喉树懒",
+ "no": "054",
+ "cat": "森林",
+ "name_cn": "褐喉树懒",
+ "name_en": "Brown-throated sloth",
+ "latin": "Bradypus variegatus",
+ "short": "褐喉树懒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃号角树叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2.25–6.3 kg",
+   "lo": 2.25,
+   "hi": 6.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "42–80 cm",
+   "lo": 0.42,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "30–40 年",
+   "lo": 30,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每天睡觉",
+   "value": "15–18 小时",
+   "lo": 15,
+   "hi": 18,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "倒挂",
+   "icon": "climb",
+   "desc": "它的内脏被纤维连在肋骨上，所以能长时间倒挂在树上也不难受。"
+  },
+  {
+   "name": "绿色毛衣",
+   "icon": "camo",
+   "desc": "外层毛上常常长着藻类，让它看起来带点绿色。"
+  }
+ ],
+ "intro": [
+  "褐喉树懒是最常见的三趾树懒，生活在中美洲和南美洲的森林里。",
+  "每只脚有三个趾，前脚的爪子长 7–8 cm。",
+  "它们像牛一样有好几个胃室，靠微生物帮忙消化树叶。"
+ ],
+ "fact": "树懒宝宝出生时不到 1 kg，会紧紧抱在妈妈肚子上。",
+ "range": "中美洲和南美洲的森林，海拔一般在 1200 m 以下。",
+ "sources": [
+  "Wikipedia「Brown-throated sloth」",
+  "IUCN 红色名录（Moraes-Barros et al. 2014）"
+ ],
+ "footnote": ""
+}

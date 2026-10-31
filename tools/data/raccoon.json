@@ -1,0 +1,77 @@
+{
+ "file": "浣熊",
+ "no": "053",
+ "cat": "森林",
+ "name_cn": "浣熊",
+ "name_en": "Raccoon",
+ "latin": "Procyon lotor",
+ "short": "浣熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "虫、植物、小动物都吃",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "5–26 kg",
+   "lo": 5,
+   "hi": 26,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "40–70 cm",
+   "lo": 0.4,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "1.8–3.1 年",
+   "lo": 1.8,
+   "hi": 3.1,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "63–65 天",
+   "lo": 63,
+   "hi": 65,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "灵巧的手",
+   "icon": "trunk",
+   "desc": "前爪非常灵巧，触觉灵敏；拉丁名的意思是“洗东西的狗”。"
+  },
+  {
+   "name": "好记性",
+   "icon": "camo",
+   "desc": "浣熊很聪明，研究显示它能把解题方法记住至少三年。"
+  }
+ ],
+ "intro": [
+  "浣熊原产北美洲，脸上有黑色“面罩”，尾巴上有环纹。",
+  "它通常夜间活动，食物中约 40% 是无脊椎动物、33% 是植物、27% 是脊椎动物。",
+  "浣熊会游泳，平均速度约 5 km/h，能在水里待好几个小时。"
+ ],
+ "fact": "野外浣熊平均只活 1.8–3.1 年，但饲养的浣熊能活 20 多年。",
+ "range": "原产北美洲；也被引入欧洲和日本等地（待核）。",
+ "sources": [
+  "Wikipedia「Raccoon」",
+  "IUCN 红色名录（Timm et al. 2016）"
+ ],
+ "footnote": ""
+}

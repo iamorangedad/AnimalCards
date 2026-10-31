@@ -1,0 +1,77 @@
+{
+ "file": "红松鼠",
+ "no": "052",
+ "cat": "森林",
+ "name_cn": "红松鼠",
+ "name_en": "Red squirrel",
+ "latin": "Sciurus vulgaris",
+ "short": "红松鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃树木种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "250–340 g",
+   "lo": 0.25,
+   "hi": 0.34,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "19–23 cm",
+   "lo": 0.19,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "15–20 cm",
+   "lo": 0.15,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "38–39 天",
+   "lo": 38,
+   "hi": 39,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "剥松果",
+   "icon": "bamboo",
+   "desc": "红松鼠最爱吃针叶树的种子，会把松果一片片剥开取出种子，也吃橡子和坚果。"
+  },
+  {
+   "name": "头朝下下树",
+   "icon": "climb",
+   "desc": "下树时它头朝下，一边爬一边不时停下来张望。"
+  }
+ ],
+ "intro": [
+  "红松鼠是欧亚大陆常见的树栖啮齿动物。",
+  "它用树枝在树杈上搭一个直径 25–30 cm 的圆顶窝。",
+  "熬过第一个冬天的红松鼠，平均能活约 3 年。"
+ ],
+ "fact": "在英国，红松鼠受到外来灰松鼠的威胁，2013 年估计只剩不到 14 万只。",
+ "range": "欧亚大陆的针叶林和温带阔叶林。",
+ "sources": [
+  "Wikipedia「Red squirrel」",
+  "IUCN 红色名录（Gazzard 2023）"
+ ],
+ "footnote": "野外最长约 7 年，饲养可到 10 年。"
+}

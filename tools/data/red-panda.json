@@ -1,0 +1,77 @@
+{
+ "file": "小熊猫",
+ "no": "045",
+ "cat": "森林",
+ "name_cn": "小熊猫",
+ "name_en": "Red panda",
+ "latin": "Ailurus fulgens",
+ "short": "小熊猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃竹笋和竹叶",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "3.2–15 kg",
+   "lo": 3.2,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "51–63.5 cm",
+   "lo": 0.51,
+   "hi": 0.635,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "28–48.5 cm",
+   "lo": 0.28,
+   "hi": 0.485,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 131 天",
+   "lo": 131,
+   "hi": 131,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "爬树",
+   "icon": "climb",
+   "desc": "小熊猫腕部有一块延长的骨头，像“假拇指”；化石研究认为它最初是为了爬树而演化的。"
+  },
+  {
+   "name": "环纹大尾巴",
+   "icon": "huddle",
+   "desc": "它有一条带环纹的蓬松大尾巴，长 28–48.5 cm。"
+  }
+ ],
+ "intro": [
+  "小熊猫生活在喜马拉雅山东部和中国西南部的森林里。",
+  "它有红棕色的厚毛、黑色的肚子和腿、白边耳朵和白色的口鼻。",
+  "它和大熊猫不是近亲，基因研究认为它更接近浣熊、鼬和臭鼬。"
+ ],
+ "fact": "过去 50 年里，中国的小熊猫数量据报道减少了约 40%。",
+ "range": "喜马拉雅山东部和中国西南部的竹林。",
+ "sources": [
+  "Wikipedia「Red panda」",
+  "IUCN 红色名录（Glatston et al. 2015）"
+ ],
+ "footnote": "饲养条件下寿命可达 14 年。"
+}

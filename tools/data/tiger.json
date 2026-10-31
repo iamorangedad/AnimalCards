@@ -1,0 +1,77 @@
+{
+ "file": "老虎",
+ "no": "043",
+ "cat": "森林",
+ "name_cn": "老虎",
+ "name_en": "Tiger",
+ "latin": "Panthera tigris",
+ "short": "老虎",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食水鹿、野猪等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "100–260 kg",
+   "lo": 100,
+   "hi": 260,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "1.4–2.8 m",
+   "lo": 1.4,
+   "hi": 2.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "0.8–1.1 m",
+   "lo": 0.8,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "冲刺速度",
+   "value": "56 km/h",
+   "lo": 56,
+   "hi": 56,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳健将",
+   "icon": "dive",
+   "desc": "老虎很会游泳，能轻松游过 8 km 宽的河，天热时喜欢泡在水里。"
+  },
+  {
+   "name": "一跃十米",
+   "icon": "flip",
+   "desc": "老虎一跳能跳 10 m 远；它是伏击型猎手，不擅长长跑，追不上就放弃。"
+  }
+ ],
+ "intro": [
+  "老虎是亚洲特有的大型猫科动物，西伯利亚虎和孟加拉虎体型最大。",
+  "每只老虎身上的条纹都不一样，就像人的指纹。",
+  "它们常常吼叫，让远处的同类知道自己在哪里。"
+ ],
+ "fact": "老虎的犬齿长 6.4–7.6 cm，是猫科动物里最长的。",
+ "range": "亚洲；印度的老虎栖息地面积最大，其次是俄罗斯。",
+ "sources": [
+  "Wikipedia「Tiger」",
+  "IUCN 红色名录（Goodrich et al. 2022）"
+ ],
+ "footnote": "体重为孟加拉虎（雌 100–160 kg，雄 200–260 kg）；岛屿上的苏门答腊虎更小。"
+}

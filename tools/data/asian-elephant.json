@@ -1,0 +1,77 @@
+{
+ "file": "亚洲象",
+ "no": "056",
+ "cat": "森林",
+ "name_cn": "亚洲象",
+ "name_en": "Asian elephant",
+ "latin": "Elephas maximus",
+ "short": "亚洲象",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "每天吃约 150 kg 植物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重·平均",
+   "value": "2.7–4 t",
+   "lo": 2700,
+   "hi": 4000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高·平均",
+   "value": "2.4–2.75 m",
+   "lo": 2.4,
+   "hi": 2.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 60 年",
+   "lo": 60,
+   "hi": 60,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "每天吃",
+   "value": "约 150 kg",
+   "lo": 150,
+   "hi": 150,
+   "scale": "food",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "一指长鼻",
+   "icon": "trunk",
+   "desc": "亚洲象的鼻尖只有一个像手指的突起（非洲象有两个）。"
+  },
+  {
+   "name": "聪明有情感",
+   "icon": "huddle",
+   "desc": "它们非常聪明、有自我意识，会表现出悲伤、学习和打招呼等行为。"
+  }
+ ],
+ "intro": [
+  "亚洲象是亚洲最大的陆地动物，也是世界第二大的象。",
+  "它的耳朵比非洲象小，向侧面折着；只有雄象有大象牙。",
+  "它们至少吃 112 种植物，其中锦葵目植物最常见。"
+ ],
+ "fact": "过去三代象（约 60–75 年）里，亚洲象数量至少减少了 50%，自 1986 年起被列为濒危。",
+ "range": "南亚和东南亚，包括斯里兰卡、印度、苏门答腊等地。",
+ "sources": [
+  "Wikipedia「Asian elephant」",
+  "IUCN 红色名录（Williams et al. 2020）"
+ ],
+ "footnote": "体重、肩高为雌（2.7 t、2.40 m）与雄（4 t、2.75 m）平均值。"
+}

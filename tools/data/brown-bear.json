@@ -1,0 +1,77 @@
+{
+ "file": "棕熊",
+ "no": "044",
+ "cat": "森林",
+ "name_cn": "棕熊",
+ "name_en": "Brown bear",
+ "latin": "Ursus arctos",
+ "short": "棕熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "约 90% 的食物是植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "80–600 kg",
+   "lo": 80,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "1–2.8 m",
+   "lo": 1.0,
+   "hi": 2.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均约 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "肩高",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖掘高手",
+   "icon": "climb",
+   "desc": "肩上有发达的“驼峰”肌肉，熊掌宽可达 21 cm、长可达 36 cm，挖土非常厉害。"
+  },
+  {
+   "name": "抓三文鱼",
+   "icon": "dive",
+   "desc": "在阿拉斯加沿海，棕熊主要靠捕捉洄游产卵的三文鱼为食。"
+  }
+ ],
+ "intro": [
+  "棕熊分布在欧亚大陆和北美洲，全世界约有 20 万只，其中俄罗斯约 13 万只。",
+  "和很多人想的不一样，棕熊约 90% 的食物其实是植物。",
+  "它的冬毛又厚又长，肩部的毛可长达 11–12 cm。"
+ ],
+ "fact": "沿海地区的棕熊体重大约是内陆棕熊的两倍。",
+ "range": "欧亚大陆和北美洲。",
+ "sources": [
+  "Wikipedia「Brown bear」",
+  "IUCN 红色名录（McLellan et al. 2017）"
+ ],
+ "footnote": "体重范围包括不同地区和雌雄个体。"
+}

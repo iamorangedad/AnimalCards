@@ -1,0 +1,77 @@
+{
+ "file": "川金丝猴",
+ "no": "046",
+ "cat": "森林",
+ "name_cn": "川金丝猴",
+ "name_en": "Golden snub-nosed monkey",
+ "latin": "Rhinopithecus roxellana",
+ "short": "川金丝猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "地衣是主要食物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "约 16.4 kg",
+   "lo": 16.4,
+   "hi": 16.4,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雄性体长",
+   "value": "58–68 cm",
+   "lo": 0.58,
+   "hi": 0.68,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "6–7 个月",
+   "lo": 6,
+   "hi": 7,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "栖息海拔",
+   "value": "1500–3400 m",
+   "lo": 1500,
+   "hi": 3400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大家庭",
+   "icon": "team",
+   "desc": "金丝猴群从 5–10 只的小群到约 600 只的大群都有，社会分好几层。"
+  },
+  {
+   "name": "吃地衣",
+   "icon": "bamboo",
+   "desc": "按季节换着吃，地衣吃得最多，其次是嫩叶、果实、种子和芽。"
+  }
+ ],
+ "intro": [
+  "川金丝猴是中国特有的猴子，生活在中部和西南部的温带山林里。",
+  "它的中文全名是“四川金丝猴”，也叫川仰鼻猴。",
+  "在中国的三种仰鼻猴里，它的分布范围最广。"
+ ],
+ "fact": "刚出生的小金丝猴是深灰到浅灰色的，大约两个月后才变成浅棕灰色。",
+ "range": "中国中部和西南部山区，如四川盆地西缘和北缘。",
+ "sources": [
+  "Wikipedia「Golden snub-nosed monkey」",
+  "IUCN 红色名录（Yongcheng & Richardson 2021）"
+ ],
+ "footnote": "雌性约 9.4 kg、体长 47–52 cm，约为雄性的一半。"
+}

@@ -167,7 +167,7 @@ def scene(kind, w, h, animal, box=None, extra=""):
 # ====================================================================== quadruped
 def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, neck=(40, 30), nw=None, head=(62, 52), snout=(46, 34),
          snout_col=None, ears="point", tail="thin", tail_col=None, pattern=None, pat_col=INK, horns=None, hooves=None, mane=None, hump=None,
-         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0, wool=None, beard=None, udder=None, pig=False, neck_wool=None, skirt=None, tear=False):
+         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0, wool=None, beard=None, udder=None, pig=False, neck_wool=None, skirt=None, tear=False, mask=None):
     farleg = farleg or darker(F)
     snout_col = snout_col or F
     x0, x1, yt, yb = -bl / 2, bl / 2, -(lh + bd), -lh
@@ -276,6 +276,8 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
     if neck_wool:
         o.append(P(wavy((nx0 + hx) / 2 + 6, (ny0 + hy_) / 2, nw * .62, abs(ny0 - hy_) * .62 + 10, 10, 7), neck_wool, 2.8))
     o.append(head_(hx, hy_, F, head, snout, snout_col, ears, horns, nose, eye, pig))
+    if mask:
+        o.append(E(hx - head[0] * .35, hy_ - head[1] * .2, head[0] * .62, head[1] * .26, mask, 0) + C(hx - head[0] * .25, hy_ - head[1] * .22, 5.5, "#fff", 0) + C(hx - head[0] * .25, hy_ - head[1] * .22, 3.2, INK, 0))
     if tear:
         o.append(P(f"M{hx-head[0]*.25} {hy_-head[1]*.1} C{hx-head[0]*.45} {hy_+head[1]*.4} {hx-head[0]*.8} {hy_+head[1]*.5} {hx-head[0]*1.1} {hy_+head[1]*.6}", sw=3.4))
     if beard:
@@ -621,6 +623,151 @@ def a_chinchilla(w, h):
                  box=(w / 2 + 10, h * .74, 480, 330))
 
 
+
+# ====================================================================== primates & tree dwellers
+def ape(F="#3a3530", face="#d9c2a8", H=300, arms=1.0, crest=False, cape=None, snub=False, ear_col=None, brow=True, cheekpads=False, hair=None):
+    o = []
+    W = H * .72
+    # back arm (far)
+    o.append(P(f"M{W*.22} {-H*.62} C{W*.5} {-H*.45} {W*.48} {-H*.2*arms} {W*.42} -4", sw=H * .13 + 6) + P(f"M{W*.22} {-H*.62} C{W*.5} {-H*.45} {W*.48} {-H*.2*arms} {W*.42} -4", sw=H * .13, col=darker(F, .85)))
+    body = f"M{-W*.45} -10 C{-W*.6} {-H*.4} {-W*.35} {-H*.78} 0 {-H*.78} C{W*.35} {-H*.78} {W*.6} {-H*.4} {W*.45} -10 Z"
+    o.append(P(body, F))
+    if cape:
+        o.append(P(f"M{-W*.42} {-H*.62} C{-W*.6} {-H*.3} {-W*.5} {-H*.1} {-W*.55} {-H*.05} L{-W*.3} {-H*.3} L{W*.3} {-H*.3} L{W*.55} {-H*.05} C{W*.5} {-H*.1} {W*.6} {-H*.3} {W*.42} {-H*.62} Z", cape, 2.6))
+    o.append(E(0, -H * .32, W * .28, H * .22, face if hair is None else darker(F, 1.1), 0))
+    # legs folded
+    o.append(E(-W * .28, -H * .08, W * .2, H * .1, F) + E(W * .28, -H * .08, W * .2, H * .1, F))
+    o.append(E(-W * .4, -6, W * .12, H * .03 + 4, face) + E(W * .4, -6, W * .12, H * .03 + 4, face))
+    # near arm
+    o.append(P(f"M{-W*.3} {-H*.62} C{-W*.62} {-H*.45} {-W*.62} {-H*.2*arms} {-W*.56} -4", sw=H * .13 + 6) + P(f"M{-W*.3} {-H*.62} C{-W*.62} {-H*.45} {-W*.62} {-H*.2*arms} {-W*.56} -4", sw=H * .13, col=F))
+    o.append(E(-W * .56, -6, H * .07, H * .04, face))
+    # head
+    hy = -H * .9
+    hr = H * .2
+    ec = ear_col or face
+    o.append(C(-hr * 1.05, hy, hr * .3, ec, 2.6) + C(hr * 1.05, hy, hr * .3, ec, 2.6))
+    if crest:
+        o.append(P(f"M{-hr*.8} {hy-hr*.5} Q0 {hy-hr*1.6} {hr*.8} {hy-hr*.5} Z", F, 2.8))
+    if hair:
+        o.append(P(wavy(0, hy, hr * 1.25, hr * 1.15, 10, 8), hair, 2.8))
+    o.append(C(0, hy, hr, F))
+    if cheekpads:
+        o.append(E(-hr * 1.1, hy + hr * .2, hr * .45, hr * .8, face, 2.6) + E(hr * 1.1, hy + hr * .2, hr * .45, hr * .8, face, 2.6))
+    o.append(P(f"M{-hr*.7} {hy-hr*.15} C{-hr*.8} {hy+hr*.9} {hr*.8} {hy+hr*.9} {hr*.7} {hy-hr*.15} C{hr*.4} {hy-hr*.55} {-hr*.4} {hy-hr*.55} {-hr*.7} {hy-hr*.15} Z", face, 2.4))
+    if brow:
+        o.append(P(f"M{-hr*.6} {hy-hr*.2} Q0 {hy-hr*.42} {hr*.6} {hy-hr*.2}", sw=3.2))
+    o.append(C(-hr * .3, hy - hr * .05, 4.5, INK, 0) + C(hr * .3, hy - hr * .05, 4.5, INK, 0))
+    if snub:
+        o.append(E(0, hy + hr * .25, hr * .16, hr * .1, "#7fb3e0", 0) + C(-4, hy + hr * .25, 2, INK, 0) + C(4, hy + hr * .25, 2, INK, 0))
+    else:
+        o.append(C(-4, hy + hr * .3, 2.4, INK, 0) + C(4, hy + hr * .3, 2.4, INK, 0))
+    o.append(P(f"M{-hr*.3} {hy+hr*.55} Q0 {hy+hr*.68} {hr*.3} {hy+hr*.55}", sw=2.4))
+    return "".join(o)
+
+
+def koala():
+    F = "#a9adb2"
+    o = [R(-30, -420, 60, 440, "#d9c3a0", 20, 3)]
+    o.append(P("M-20 -300 l-60 -40 M10 -200 l70 -50", sw=8) + P("M-20 -300 l-60 -40 M10 -200 l70 -50", sw=4, col="#d9c3a0"))
+    o.append(leafb(-80, -340, 200, 50) + leafb(-80, -340, 240, 46) + leafb(80, -250, -20, 50) + leafb(80, -250, 20, 46))
+    o.append(E(-40, -170, 66, 90, F))
+    o.append(E(-50, -150, 36, 54, "#eceef0", 0))
+    o.append(P("M-90 -230 C-40 -250 10 -230 20 -210", sw=26) + P("M-90 -230 C-40 -250 10 -230 20 -210", sw=20, col=F))
+    o.append(P("M-90 -100 C-40 -110 10 -100 20 -90", sw=26) + P("M-90 -100 C-40 -110 10 -100 20 -90", sw=20, col=F))
+    o.append(C(-140, -300, 34, F) + C(-30, -300, 34, F) + C(-140, -300, 20, "#eceef0", 0) + C(-30, -300, 20, "#eceef0", 0))
+    o.append(C(-85, -270, 56, F))
+    o.append(E(-85, -258, 15, 22, INK, 0) + C(-108, -282, 5, INK, 0) + C(-62, -282, 5, INK, 0))
+    return "".join(o)
+
+
+def sloth():
+    F = "#b39c80"
+    o = [P("M-260 -330 C-100 -350 100 -320 260 -340", sw=18) + P("M-260 -330 C-100 -350 100 -320 260 -340", sw=12, col="#d9c3a0")]
+    o.append(leafb(200, -336, 60, 60) + leafb(-210, -334, 120, 56) + leafb(230, -338, 20, 50))
+    o.append(P("M-120 -180 C-130 -260 -110 -320 -96 -340 M120 -180 C130 -260 112 -320 96 -340", sw=30) + P("M-120 -180 C-130 -260 -110 -320 -96 -340 M120 -180 C130 -260 112 -320 96 -340", sw=24, col=F))
+    o.append(P("M-60 -160 C-90 -240 -60 -320 -40 -338 M60 -160 C90 -240 60 -320 40 -338", sw=30) + P("M-60 -160 C-90 -240 -60 -320 -40 -338", sw=24, col=darker(F, .9)) + P("M60 -160 C90 -240 60 -320 40 -338", sw=24, col=darker(F, .9)))
+    o.append(E(0, -150, 150, 80, F))
+    o.append(clip(f"M-150 -150 a150 80 0 1 0 300 0 a150 80 0 1 0 -300 0 Z", "".join(C(-120 + i * 37, -190 + (i % 3) * 30, 12, "#a9c49a", 0) for i in range(8))) + E(0, -150, 150, 80))
+    for x in (-100, -42, 42, 100):
+        o.append(P(f"M{x-6} -346 q6 -12 14 0", sw=3))
+    o.append(C(-150, -110, 50, "#e8dccb"))
+    o.append(E(-150, -112, 34, 14, "#4a3b30", 0) + C(-162, -112, 4.5, "#fff", 0) + C(-138, -112, 4.5, "#fff", 0))
+    o.append(E(-150, -92, 8, 5, INK, 0) + P("M-162 -80 q12 8 24 0", sw=2.4))
+    return "".join(o)
+
+
+def a_tiger(w, h):
+    return scene("forest", w, h, quad(F="#ec8a3a", bl=320, bd=120, lh=120, lw=32, belly="#fff4e6", pattern="stripes", pat_col=INK, neck=(30, 40), nw=74,
+                 head=(52, 46), snout=(30, 30), snout_col="#fff4e6", ears="round", tail="long", tail_col="#ec8a3a"))
+
+
+def a_brownbear(w, h):
+    return scene("forest", w, h, quad(F="#8a6038", bl=320, bd=150, lh=110, lw=44, neck=(10, 50), nw=100, head=(56, 50), snout=(40, 34), snout_col="#b8916a",
+                 ears="round", tail="short", shoulder=30))
+
+
+def a_redpanda(w, h):
+    rings = "".join(P(f"M{150+i*16} {-150+i*8} l10 -20", sw=6, col="#8a3a1a") for i in range(4))
+    return scene("forest", w, h, quad(F="#c9572a", bl=220, bd=86, lh=70, lw=24, farleg=INK, belly=None, neck=(10, 50), nw=60, head=(44, 40), snout=(24, 22),
+                 snout_col="#ffffff", ears="point", tail="bushy", tail_col="#c9572a", mask="#8a3a1a"), box=(w / 2, h * .75, 520, 300))
+
+
+def a_snub(w, h):
+    return scene("forest", w, h, ape(F="#e8a23a", face="#f3e3c8", H=300, cape="#f0b84a", snub=True, brow=False, ear_col="#f3e3c8"), box=(w / 2, h * .76, 440, 400))
+
+
+def a_chimp(w, h):
+    return scene("rainforest", w, h, ape(F="#3a3530", face="#d9c2a8", H=320, arms=1.2, ear_col="#d9c2a8"), box=(w / 2, h * .76, 440, 400))
+
+
+def a_gorilla(w, h):
+    return scene("rainforest", w, h, ape(F="#2c2c2e", face="#5a5a5e", H=340, arms=1.3, crest=True, ear_col="#2c2c2e"), box=(w / 2, h * .76, 460, 410))
+
+
+def a_orangutan(w, h):
+    return scene("rainforest", w, h, ape(F="#c2622a", face="#9a7a64", H=320, arms=1.4, cheekpads=True, hair="#c2622a", ear_col="#9a7a64"), box=(w / 2, h * .76, 460, 410))
+
+
+def a_koala(w, h):
+    return scene("forest", w, h, koala(), box=(w / 2, h * .8, 440, 440))
+
+
+def a_sika(w, h):
+    spots = "".join(C(-120 + (i * 41) % 250, -245 + (i * 23) % 70, 5, "#fff", 0) for i in range(30))
+    return scene("forest", w, h, quad(F="#b7773e", bl=260, bd=100, lh=150, lw=20, belly="#f3e3c8", neck=(60, 30), nw=50, head=(36, 30), snout=(40, 26), ears="side",
+                 horns="antler", tail="short", tail_col="#fff", hooves="#3a3f45", pattern="spots", pat_col="#fff"), box=(w / 2, h * .78, 560, 440))
+
+
+def a_squirrel(w, h):
+    return scene("forest", w, h, blob(F="#c9692e", L=200, H=170, belly="#fff4e6", ears="round", tail="bushy", nose=INK)
+                 + G_(E(0, 0, 14, 18, "#a07040", 2.4) + P("M-14 -6 h28", sw=2.4), -150, -40), box=(w / 2, h * .74, 400, 340))
+
+
+def a_raccoon(w, h):
+    mask = ""
+    rings = "".join(P(f"M{140+i*14} {-150+i*12} l14 -10", sw=8, col=INK) for i in range(5))
+    return scene("forest", w, h, quad(F="#9a9a9e", bl=230, bd=96, lh=70, lw=22, farleg="#4a4a4e", belly="#d9d9dc", neck=(10, 50), nw=60, head=(46, 40),
+                 snout=(30, 24), snout_col="#ffffff", ears="point", tail="long", tail_col="#9a9a9e", mask=INK), box=(w / 2, h * .75, 500, 300))
+
+
+def a_sloth(w, h):
+    return scene("rainforest", w, h, sloth(), box=(w / 2, h * .68, 560, 360))
+
+
+def a_jaguar(w, h):
+    return scene("rainforest", w, h, quad(F="#e9b55a", bl=300, bd=116, lh=110, lw=32, belly="#fff4e6", pattern="rosettes", pat_col=INK, neck=(26, 44), nw=74,
+                 head=(52, 46), snout=(28, 30), snout_col="#fff4e6", ears="round", tail="long", tail_col="#e9b55a"))
+
+
+def a_asianel(w, h):
+    from art import elephant_body
+    body = elephant_body()
+    body = body.replace("M-150 -336 C-60 -370 -10 -300 -24 -220 C-34 -160 -80 -130 -116 -160 C-140 -180 -128 -210 -150 -230 C-170 -260 -176 -310 -150 -336 Z",
+                        "M-150 -322 C-100 -340 -76 -290 -88 -244 C-96 -214 -116 -200 -134 -208 C-150 -218 -146 -240 -156 -262 C-164 -292 -164 -312 -150 -322 Z")
+    body = body.replace("M-130 -300 C-80 -310 -60 -260 -66 -210", "M-140 -300 C-110 -306 -100 -270 -104 -240")
+    return scene("rainforest", w, h, f'<g transform="scale(1)">{body}</g>', box=(w / 2, h * .78, 600, 420))
+
+
 # ====================================================================== kangaroo (upright)
 def kangaroo(F="#c9744a", belly="#f3dcc4"):
     o = []
@@ -772,7 +919,10 @@ def a_alpaca(w, h):
                  ears="big", tail="short", hooves="#5a5048", neck_wool="#f6ead6", nose="#5a5048"), box=(w / 2, h * .75, 500, 420))
 
 
-ART2 = {"giraffe": a_giraffe, "zebra": a_zebra, "hippo": a_hippo, "rhino": a_rhino, "cheetah": a_cheetah, "hyena": a_hyena, "wild-dog": a_wilddog,
+ART2 = {"tiger": a_tiger, "brown-bear": a_brownbear, "red-panda": a_redpanda, "snub-monkey": a_snub, "chimp": a_chimp, "gorilla": a_gorilla,
+        "orangutan": a_orangutan, "koala": a_koala, "sika": a_sika, "squirrel": a_squirrel, "raccoon": a_raccoon, "sloth": a_sloth, "jaguar": a_jaguar,
+        "asian-elephant": a_asianel,
+        "giraffe": a_giraffe, "zebra": a_zebra, "hippo": a_hippo, "rhino": a_rhino, "cheetah": a_cheetah, "hyena": a_hyena, "wild-dog": a_wilddog,
         "wildebeest": a_wildebeest, "camel": a_camel, "kangaroo": a_kangaroo, "yak": a_yak, "chiru": a_chiru, "snow-leopard": a_snowleopard, "wolf": a_wolf,
         "red-fox": a_redfox, "bison": a_bison,
         "cattle": a_cattle, "pig": a_pig, "sheep": a_sheep, "goat": a_goat, "horse": a_horse, "donkey": a_donkey, "chicken": a_chicken, "duck": a_duck,

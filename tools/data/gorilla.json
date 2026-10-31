@@ -1,0 +1,77 @@
+{
+ "file": "西部大猩猩",
+ "no": "048",
+ "cat": "森林",
+ "name_cn": "西部大猩猩",
+ "name_en": "Western gorilla",
+ "latin": "Gorilla gorilla",
+ "short": "西部大猩猩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃叶、茎、果实，也吃少量虫子",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "145–191 kg",
+   "lo": 145,
+   "hi": 191,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "58–72 kg",
+   "lo": 58,
+   "hi": 72,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性身高",
+   "value": "约 1.67 m",
+   "lo": 1.67,
+   "hi": 1.67,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命·野外",
+   "value": "最长约 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "家庭群",
+   "icon": "team",
+   "desc": "西部大猩猩生活在 2–20 只的家庭群里，至少有一只雄性、几只雌性和它们的孩子。"
+  },
+  {
+   "name": "高纤维食谱",
+   "icon": "bamboo",
+   "desc": "它们吃叶子、茎、蕨类、果实、树皮，甚至土；果子多时以果实为主。"
+  }
+ ],
+ "intro": [
+  "西部大猩猩生活在非洲中西部，是体型第二大的灵长类。",
+  "它分为西部低地大猩猩和克罗斯河大猩猩两个亚种，都极度濒危。",
+  "埃博拉病毒和偷猎让它们的数量大幅减少。"
+ ],
+ "fact": "大猩猩繁殖很慢，就算情况乐观，种群恢复也需要将近 75 年。",
+ "range": "非洲中西部的森林。",
+ "sources": [
+  "Wikipedia「Western gorilla」",
+  "IUCN 红色名录（Maisels et al. 2018）"
+ ],
+ "footnote": ""
+}

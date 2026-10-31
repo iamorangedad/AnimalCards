@@ -1,0 +1,77 @@
+{
+ "file": "梅花鹿",
+ "no": "051",
+ "cat": "森林",
+ "name_cn": "梅花鹿",
+ "name_en": "Sika deer",
+ "latin": "Cervus nippon",
+ "short": "梅花鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "50–110 cm",
+   "lo": 0.5,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "95–180 cm",
+   "lo": 0.95,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "15–18 年",
+   "lo": 15,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "鹿角长",
+   "value": "28–80 cm 以上",
+   "lo": 0.28,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "梅花斑点",
+   "icon": "camo",
+   "desc": "背上的白色斑点像梅花，所以中文叫“梅花鹿”；大陆亚种的斑点更明显。"
+  },
+  {
+   "name": "季节迁移",
+   "icon": "climb",
+   "desc": "在日本等山区，梅花鹿冬天会迁到比夏天低多达 700 m 的地方。"
+  }
+ ],
+ "intro": [
+  "梅花鹿原产东亚，日本的野生梅花鹿数量最多。",
+  "雄鹿比雌鹿大得多，只有雄鹿长角。",
+  "中国曾是梅花鹿最多的地方，但因狩猎和栖息地丧失，如今野外不到 1000 只。"
+ ],
+ "fact": "有记录的一只梅花鹿活了 25 年零 5 个月。",
+ "range": "东亚的温带和亚热带森林；也被引入世界其他地方。",
+ "sources": [
+  "Wikipedia「Sika deer」",
+  "IUCN 红色名录（Harris 2015）"
+ ],
+ "footnote": "体型随亚种差别很大。"
+}

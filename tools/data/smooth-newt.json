@@ -1,0 +1,80 @@
+{
+ "file": "普通欧螈",
+ "no": "705",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "普通欧螈",
+ "name_en": "Smooth newt",
+ "latin": "Lissotriton vulgaris",
+ "short": "普通欧螈",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫和蚯蚓等无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2009",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "8–11 cm",
+   "lo": 0.08,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最长 14 年",
+   "lo": 14,
+   "hi": 14,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "10–20 天",
+   "lo": 10,
+   "hi": 20,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "2–3 年",
+   "lo": 2,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "繁殖冠",
+   "icon": "flip",
+   "desc": "繁殖季雄性背上和尾巴上会长出连续的皮肤冠。"
+  },
+  {
+   "name": "换皮肤",
+   "icon": "drop",
+   "desc": "陆上皮肤干而像天鹅绒，下水后变光滑；会定期蜕皮。"
+  }
+ ],
+ "intro": [
+  "普通欧螈广泛分布于欧洲和亚洲部分地区。",
+  "它被引入澳大利亚。",
+  "幼体约三个月后变态，上岸生活。"
+ ],
+ "fact": "雌螈把卵产在水草上。",
+ "range": "欧洲和亚洲部分地区；被引入澳大利亚。",
+ "sources": [
+  "Wikipedia「Smooth newt」",
+  "IUCN 红色名录（Arntzen 2009）"
+ ],
+ "footnote": ""
+}

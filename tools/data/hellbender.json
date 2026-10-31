@@ -1,0 +1,80 @@
+{
+ "file": "美洲大鲵",
+ "no": "703",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "美洲大鲵",
+ "name_en": "Hellbender",
+ "latin": "Cryptobranchus alleganiensis",
+ "short": "美洲大鲵",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食者（具体猎物来源未列）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2022",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "成体长",
+   "value": "24–40 cm",
+   "lo": 0.24,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "可达",
+   "value": "74 cm",
+   "lo": 0.74,
+   "hi": 0.74,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 5 岁",
+   "lo": 5,
+   "hi": 5,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "圈养寿命",
+   "value": "约 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮褶呼吸",
+   "icon": "drop",
+   "desc": "靠身体两侧皮褶里的毛细血管从水里吸氧。"
+  },
+  {
+   "name": "古老的生态位",
+   "icon": "micro",
+   "desc": "它或它的祖先占据这个生态位约 6500 万年了。"
+  }
+ ],
+ "intro": [
+  "美洲大鲵是北美最大的蝾螈之一。",
+  "它身体和头都很扁，眼睛小，皮肤黏滑。",
+  "属名意思是“藏起来的鳃”。"
+ ],
+ "fact": "它有能用的肺，但很少离开水，几乎不用肺。",
+ "range": "美国东部（含阿巴拉契亚和欧扎克地区）。",
+ "sources": [
+  "Wikipedia「Hellbender」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "【待核：具体食性、分布】"
+}

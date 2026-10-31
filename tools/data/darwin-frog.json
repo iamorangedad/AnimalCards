@@ -1,0 +1,79 @@
+{
+ "file": "达尔文蛙",
+ "no": "712",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "达尔文蛙",
+ "name_en": "Darwin's frog",
+ "latin": "Rhinoderma darwinii",
+ "short": "达尔文蛙",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "两栖"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃无脊椎动物，以植食性和腐食性小虫为主",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "最高海拔",
+   "value": "约 1100 m",
+   "lo": 1100,
+   "hi": 1100,
+   "scale": "alt",
+   "approx": true
+  },
+  {
+   "label": "吞卵时间",
+   "value": "3–4 周后",
+   "lo": 3,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 3 天后",
+   "lo": 3,
+   "hi": 3,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "描述年份",
+   "value": "1841 年",
+   "lo": 1841,
+   "hi": 1841,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "嘴里育儿",
+   "icon": "huddle",
+   "desc": "雄蛙把快孵化的卵吞进声囊，蝌蚪在里面长大直到变成小蛙。"
+  },
+  {
+   "name": "特殊叫声",
+   "icon": "ear",
+   "desc": "用非线性的叫声吸引配偶、交流。"
+  }
+ ],
+ "intro": [
+  "达尔文蛙是达尔文乘“小猎犬号”到智利时发现的。",
+  "1841 年由杜梅里和比布龙描述。",
+  "它生活在智利和阿根廷的林间空地和森林。"
+ ],
+ "fact": "蝌蚪在爸爸的声囊里吃卵黄和声囊壁分泌的物质长大。",
+ "range": "智利、阿根廷。",
+ "sources": [
+  "Wikipedia「Darwin's frog」"
+ ],
+ "footnote": "“吞卵时间（周）”借用 n100 刻度；“描述年份”比例条仅示意。"
+}

@@ -1,0 +1,81 @@
+{
+ "file": "虎纹钝口螈",
+ "no": "704",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "虎纹钝口螈",
+ "name_en": "Tiger salamander",
+ "latin": "Ambystoma tigrinum",
+ "short": "虎纹钝口螈",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "土壤"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小昆虫、螺、蛞蝓、蛙、蠕虫等，有时吃同类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "15–20 cm",
+   "lo": 0.15,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "33 cm",
+   "lo": 0.33,
+   "hi": 0.33,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "12–15 年",
+   "lo": 12,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "12–15 天",
+   "lo": 12,
+   "hi": 15,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒液警告",
+   "icon": "toxic",
+   "desc": "受威胁时会亮出尾巴，从皮肤腺体分泌浓稠的白色毒液。"
+  },
+  {
+   "name": "永远长不大",
+   "icon": "micro",
+   "desc": "有的个体保留幼体的鳃，一直留在水里，叫“幼态延续”。"
+  }
+ ],
+ "intro": [
+  "虎纹钝口螈是北美最大的陆栖蝾螈之一。",
+  "它是北美分布最广的蝾螈。",
+  "它会挖洞，有的洞深 60 cm 以上。"
+ ],
+ "fact": "背上有棕黄到绿黄色的斑纹，其余部分是黑色或深褐色。",
+ "range": "美国、墨西哥东部、加拿大南部。",
+ "sources": [
+  "Wikipedia「Tiger salamander」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "",
+ "warn": "皮肤有毒！不要用手摸，摸过两栖动物后一定要洗手。"
+}

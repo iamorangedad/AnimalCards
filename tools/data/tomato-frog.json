@@ -1,0 +1,80 @@
+{
+ "file": "番茄蛙",
+ "no": "708",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "番茄蛙",
+ "name_en": "Madagascar tomato frog",
+ "latin": "Dyscophus antongilii",
+ "short": "番茄蛙",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "伏击甲虫、蚊子和苍蝇等小型无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌性体长",
+   "value": "可达 10.5 cm",
+   "lo": 0.105,
+   "hi": 0.105,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "可达 230 g",
+   "lo": 0.23,
+   "hi": 0.23,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "约 41 g",
+   "lo": 0.041,
+   "hi": 0.041,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "变态",
+   "value": "约 45 天",
+   "lo": 45,
+   "hi": 45,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "番茄红",
+   "icon": "camo",
+   "desc": "雌蛙背上是鲜艳的红色或橙色。"
+  },
+  {
+   "name": "快速孵化",
+   "icon": "drop",
+   "desc": "蝌蚪约 36 小时孵出，靠滤食生长。"
+  }
+ ],
+ "intro": [
+  "番茄蛙是姬蛙科的蛙。",
+  "它是马达加斯加特有种，生活在东北部的安通吉尔湾附近。",
+  "雌蛙比雄蛙大得多。"
+ ],
+ "fact": "人们对它所知很少，急需更多研究。",
+ "range": "马达加斯加东北部。",
+ "sources": [
+  "Wikipedia「Dyscophus antongilii」"
+ ],
+ "footnote": "",
+ "warn": "皮肤分泌物可能让人过敏，不要用手摸。"
+}

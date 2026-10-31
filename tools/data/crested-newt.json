@@ -1,0 +1,80 @@
+{
+ "file": "欧洲冠欧螈",
+ "no": "706",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "欧洲冠欧螈",
+ "name_en": "Northern crested newt",
+ "latin": "Triturus cristatus",
+ "short": "欧洲冠欧螈",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼体和成体主要吃各种无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌性",
+   "value": "最长 16 cm",
+   "lo": 0.16,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄性冠高",
+   "value": "最高 1.5 cm",
+   "lo": 0.015,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "7–9 年，最长 17 年",
+   "lo": 7,
+   "hi": 17,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "1750 m",
+   "lo": 1750,
+   "hi": 1750,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "锯齿冠",
+   "icon": "flip",
+   "desc": "繁殖季雄性背上长出锯齿状的高冠。"
+  },
+  {
+   "name": "橙色肚子",
+   "icon": "camo",
+   "desc": "背和两侧深褐色，肚子黄到橙色带黑斑。"
+  }
+ ],
+ "intro": [
+  "欧洲冠欧螈原产英国、欧洲北部和中部及西西伯利亚部分地区。",
+  "它是一种大型欧螈，皮肤粗糙。",
+  "它喜欢没有鱼的静水池塘繁殖。"
+ ],
+ "fact": "春天气温稳定在 4–5 °C 以上时，它们开始迁往繁殖池。",
+ "range": "英国、欧洲北部和中部、西西伯利亚部分地区。",
+ "sources": [
+  "Wikipedia「Northern crested newt」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2023）"
+ ],
+ "footnote": ""
+}

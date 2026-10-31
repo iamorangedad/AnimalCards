@@ -1,0 +1,79 @@
+{
+ "file": "草莓箭毒蛙",
+ "no": "714",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "草莓箭毒蛙",
+ "name_en": "Strawberry poison dart frog",
+ "latin": "Oophaga pumilio",
+ "short": "草莓箭毒蛙",
+ "type": "两栖",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃螨虫和蚂蚁等小节肢动物，并从中获得毒素",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "颜色型",
+   "value": "约 15–30 种",
+   "lo": 15,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "雌比雄",
+   "value": "生物碱多 53%",
+   "lo": 53,
+   "hi": 53,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "毒素",
+   "value": "pumiliotoxin 251D",
+   "lo": 251,
+   "hi": 251,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "分布国家",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃出毒性",
+   "icon": "toxic",
+   "desc": "吃下含毒的螨虫和蚂蚁后，皮肤就变得有毒。"
+  },
+  {
+   "name": "警戒色",
+   "icon": "camo",
+   "desc": "有大约 15–30 种颜色型，常见的是“蓝牛仔裤”配草莓红。"
+  }
+ ],
+ "intro": [
+  "草莓箭毒蛙是中美洲的小型箭毒蛙。",
+  "它分布在尼加拉瓜中东部、哥斯达黎加和巴拿马西北部。",
+  "它不是箭毒蛙里最毒的，但是本属里最毒的。"
+ ],
+ "fact": "雌蛙皮肤里的生物碱比雄蛙多约 53%。",
+ "range": "尼加拉瓜、哥斯达黎加、巴拿马。",
+ "sources": [
+  "Wikipedia「Strawberry poison-dart frog」"
+ ],
+ "footnote": "“毒素”比例条仅示意。",
+ "warn": "皮肤有毒！不要用手摸，摸过两栖动物后一定要洗手。"
+}

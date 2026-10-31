@@ -1,0 +1,80 @@
+{
+ "file": "黑蹼树蛙",
+ "no": "711",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "黑蹼树蛙",
+ "name_en": "Wallace's flying frog",
+ "latin": "Rhacophorus nigropalmatus",
+ "short": "黑蹼树蛙",
+ "type": "两栖",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "80–100 mm",
+   "lo": 0.08,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "滑翔",
+   "value": "15 m 以上",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "树上时间",
+   "value": "几乎一生",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "采集者",
+   "value": "华莱士",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "滑翔蛙",
+   "icon": "wind",
+   "desc": "张开四只大蹼脚和身体两侧的皮瓣，能滑翔 15 m 以上。"
+  },
+  {
+   "name": "树上生活",
+   "icon": "climb",
+   "desc": "几乎一辈子住在树上，只有交配产卵时才下来。"
+  }
+ ],
+ "intro": [
+  "黑蹼树蛙是树蛙属最大的物种之一。",
+  "它分布在马来半岛、泰国南部、婆罗洲和苏门答腊。",
+  "背部是亮绿色，肚子白到淡黄色。"
+ ],
+ "fact": "博物学家华莱士首次采集到它的标本，所以叫华莱士飞蛙。",
+ "range": "马来半岛、泰国南部、婆罗洲、苏门答腊。",
+ "sources": [
+  "Wikipedia「Wallace's flying frog」",
+  "维基百科「黑蹼树蛙」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "“树上时间”“采集者”比例条仅示意。"
+}

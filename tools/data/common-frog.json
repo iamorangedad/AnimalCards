@@ -1,0 +1,79 @@
+{
+ "file": "林蛙",
+ "no": "707",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "林蛙",
+ "name_en": "Common frog",
+ "latin": "Rana temporaria",
+ "short": "林蛙",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "机会主义捕食者，什么好抓吃什么；蝌蚪吃藻类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "22.7 g",
+   "lo": 0.0227,
+   "hi": 0.0227,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "生命阶段",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "化石",
+   "value": "早更新世",
+   "lo": 1,
+   "hi": 1,
+   "scale": "myr",
+   "approx": true
+  },
+  {
+   "label": "颜色",
+   "value": "能变深浅",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮肤呼吸",
+   "icon": "drop",
+   "desc": "冬眠时，靠皮肤吸收的氧气就够了。"
+  },
+  {
+   "name": "变色",
+   "icon": "camo",
+   "desc": "能把皮肤调深或调浅来配合环境。"
+  }
+ ],
+ "intro": [
+  "林蛙（欧洲林蛙）是欧洲常见的蛙。",
+  "它腿长、会跳、皮肤湿润，和腿短、爬行、皮肤干的蟾蜍不一样。",
+  "颈后常有一个“人”字形斑。"
+ ],
+ "fact": "在苏格兰发现过黑色和红色的个体。",
+ "range": "欧洲大部（北到斯堪的纳维亚、东到乌拉尔），亚洲东到日本。",
+ "sources": [
+  "Wikipedia「Common frog」"
+ ],
+ "footnote": "“化石（百万年）”“颜色”比例条仅示意。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "日本大鲵",
+ "no": "702",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "日本大鲵",
+ "name_en": "Japanese giant salamander",
+ "latin": "Andrias japonicus",
+ "short": "日本大鲵",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃淡水蟹、甲壳类、蠕虫、昆虫、蛙、鱼，甚至小型哺乳动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2022",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 25 kg",
+   "lo": 25,
+   "hi": 25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外最重",
+   "value": "26.3 kg",
+   "lo": 26.3,
+   "hi": 26.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "世界排名",
+   "value": "第 3 大鲵",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮肤呼吸",
+   "icon": "drop",
+   "desc": "身体两侧有大皮褶，增加皮肤面积，靠皮肤吸收氧气。"
+  },
+  {
+   "name": "侧线感觉",
+   "icon": "micro",
+   "desc": "视力很差，但全身有侧线感觉细胞帮它找猎物。"
+  }
+ ],
+ "intro": [
+  "日本大鲵是日本特有的巨型蝾螈。",
+  "它分布在本州西部、四国和九州北部。",
+  "它没有鳃，只能住在氧气充足的流水里。"
+ ],
+ "fact": "它的嘴能张得和身体一样宽。",
+ "range": "日本本州西部、四国、九州北部。",
+ "sources": [
+  "Wikipedia「Japanese giant salamander」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "“世界排名”比例条仅示意。"
+}

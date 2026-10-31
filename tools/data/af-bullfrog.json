@@ -1,0 +1,79 @@
+{
+ "file": "非洲牛蛙",
+ "no": "709",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "非洲牛蛙",
+ "name_en": "African bullfrog",
+ "latin": "Pyxicephalus adspersus",
+ "short": "非洲牛蛙",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "贪吃的捕食者：昆虫、小鼠、爬行动物、小鸟、鱼和其他两栖动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "可达 1.4 kg",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性体长",
+   "value": "可达 24.5 cm",
+   "lo": 0.245,
+   "hi": 0.245,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "变态",
+   "value": "3 周内",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "可达 35 年",
+   "lo": 35,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "护崽老爸",
+   "icon": "huddle",
+   "desc": "雄蛙守护蝌蚪，会扑咬任何它认为有威胁的东西。"
+  },
+  {
+   "name": "大胃王",
+   "icon": "food",
+   "desc": "能塞进嘴里的动物它都吃。"
+  }
+ ],
+ "intro": [
+  "非洲牛蛙也叫巨型牛蛙、南非穴蛙。",
+  "它分布在安哥拉、博茨瓦纳、肯尼亚、南非等许多非洲国家。",
+  "幼蛙是亮绿色的，背上有黄色条纹。"
+ ],
+ "fact": "蝌蚪孵出两天后就开始吃植物、小鱼、无脊椎动物，甚至互相吃。",
+ "range": "非洲东部和南部。",
+ "sources": [
+  "Wikipedia「African bullfrog」"
+ ],
+ "footnote": "“变态（周）”借用 n100 刻度。"
+}

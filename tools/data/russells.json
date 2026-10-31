@@ -1,0 +1,80 @@
+{
+ "file": "圆斑蝰",
+ "no": "697",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "圆斑蝰",
+ "name_en": "Russell's viper",
+ "latin": "Daboia russelii",
+ "short": "圆斑蝰",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃啮齿类，也吃小爬行动物、陆蟹、蝎子等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均全长",
+   "value": "约 120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大全长",
+   "value": "166 cm",
+   "lo": 1.66,
+   "hi": 1.66,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "毒牙长",
+   "value": "16.5 mm",
+   "lo": 0.0165,
+   "hi": 0.0165,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最高记录",
+   "value": "2300–3000 m",
+   "lo": 2300,
+   "hi": 3000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "剧毒",
+   "icon": "toxic",
+   "desc": "咬伤极其疼痛，在它分布的地区被列为“四大毒蛇”之一。"
+  },
+  {
+   "name": "热感应",
+   "icon": "micro",
+   "desc": "鼻上囊里的神经末梢很像其他蛇的热感受器，可能能感知热量。"
+  }
+ ],
+ "intro": [
+  "圆斑蝰是剧毒的蝰蛇。",
+  "它分布在印度、斯里兰卡、孟加拉国、尼泊尔和巴基斯坦。",
+  "幼蛇在黄昏活动，主动捕食蜥蜴。"
+ ],
+ "fact": "它以帕特里克·拉塞尔的名字命名，他曾用鸡和狗做实验证明它有剧毒。",
+ "range": "印度、斯里兰卡、孟加拉国、尼泊尔、巴基斯坦。",
+ "sources": [
+  "Wikipedia「Russell's viper」"
+ ],
+ "footnote": "",
+ "warn": "毒蛇！野外看到不要靠近、不要抓；被咬后保持冷静、尽量少动，立刻送医。"
+}

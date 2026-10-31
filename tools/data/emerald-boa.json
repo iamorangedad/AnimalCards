@@ -1,0 +1,79 @@
+{
+ "file": "翡翠树蚺",
+ "no": "696",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "翡翠树蚺",
+ "name_en": "Emerald tree boa",
+ "latin": "Corallus caninus",
+ "short": "翡翠树蚺",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃啮齿类和有袋类等小型哺乳动物，也吃小鸟、蜥蜴和蛙",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成体长",
+   "value": "约 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "亚马孙个体",
+   "value": "2.1–2.7 m",
+   "lo": 2.1,
+   "hi": 2.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "幼蛇变绿",
+   "value": "9–12 个月",
+   "lo": 9,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "两餐间隔",
+   "value": "可达几个月",
+   "lo": 3,
+   "hi": 3,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "闪电花纹",
+   "icon": "camo",
+   "desc": "翠绿色身体，背上有白色不连续的“闪电”纹，肚子黄色。"
+  },
+  {
+   "name": "超大门牙",
+   "icon": "fire",
+   "desc": "前牙非常发达，按比例可能比任何无毒蛇都大。"
+  }
+ ],
+ "intro": [
+  "翡翠树蚺是生活在南美洲雨林里的蚺，没有毒。",
+  "刚出生的幼蛇是橙色或砖红色的，一年左右才慢慢变绿。",
+  "它代谢很慢，比地上的蛇吃得少。"
+ ],
+ "fact": "以前人们以为它主要吃鸟，后来检查胃内容物才发现主要吃小型哺乳动物。",
+ "range": "南美洲雨林。",
+ "sources": [
+  "Wikipedia「Emerald tree boa」",
+  "维基百科「翡翠树蚺」"
+ ],
+ "footnote": "“两餐间隔”比例条取 3 个月示意。"
+}

@@ -1,0 +1,81 @@
+{
+ "file": "中华蟾蜍",
+ "no": "713",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "中华蟾蜍",
+ "name_en": "Asiatic toad",
+ "latin": "Bufo gargarizans",
+ "short": "中华蟾蜍",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "指名亚种",
+   "value": "海拔 ≤1500 m",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "华西亚种",
+   "value": "750–2700 m",
+   "lo": 750,
+   "hi": 2700,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "命名",
+   "value": "1842 年",
+   "lo": 1842,
+   "hi": 1842,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "蟾酥",
+   "icon": "toxic",
+   "desc": "分泌的毒素提取物叫“蟾酥”，长期被用作药材。"
+  },
+  {
+   "name": "躲在阴湿处",
+   "icon": "huddle",
+   "desc": "常躲在阴湿的草丛、土洞和砖石下。"
+  }
+ ],
+ "intro": [
+  "中华蟾蜍是蟾蜍科的两栖动物，俗名癞蛤蟆。",
+  "它分布在中国大部分地区，也见于日本宫古岛和俄罗斯远东。",
+  "模式产地在浙江舟山群岛。"
+ ],
+ "fact": "2023 年它被列入“三有”保护动物名录。",
+ "range": "中国大部、俄罗斯远东、日本宫古岛。",
+ "sources": [
+  "Wikipedia「Asiatic toad」",
+  "维基百科「中华蟾蜍」"
+ ],
+ "footnote": "“命名”比例条仅示意。【待核：体长、具体食性（来源未给出）】",
+ "warn": "皮肤和耳后腺分泌毒液，不要用手摸，更不能吃。"
+}

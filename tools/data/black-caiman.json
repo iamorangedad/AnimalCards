@@ -1,0 +1,81 @@
+{
+ "file": "黑凯门鳄",
+ "no": "700",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "黑凯门鳄",
+ "name_en": "Black caiman",
+ "latin": "Melanosuchus niger",
+ "short": "黑凯门鳄",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、爬行动物、鸟和哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "约 5–6.5 m",
+   "lo": 5,
+   "hi": 6.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大雄性",
+   "value": "最重 750 kg",
+   "lo": 750,
+   "hi": 750,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "巢边雌性",
+   "value": "平均 2.8 m",
+   "lo": 2.8,
+   "hi": 2.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "新热带排名",
+   "value": "第 3 大鳄",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的短吻鳄",
+   "icon": "fire",
+   "desc": "是短吻鳄科现存最大的物种。"
+  },
+  {
+   "name": "夜间伪装",
+   "icon": "camo",
+   "desc": "深色皮肤帮它在夜里捕猎时伪装，也可能帮助吸热。"
+  }
+ ],
+ "intro": [
+  "黑凯门鳄主要生活在亚马孙地区的河流、沼泽和湖泊。",
+  "它曾因珍贵的皮被捕猎到几乎灭绝，现在正在恢复。",
+  "雌鳄会筑巢堆，保护蛋不被吃掉。"
+ ],
+ "fact": "幼鳄会组成“小队”，由妈妈守护。",
+ "range": "亚马孙地区：巴西、厄瓜多尔东部、秘鲁、玻利维亚北部等。",
+ "sources": [
+  "Wikipedia「Black caiman」",
+  "IUCN 红色名录（Botero-Arias, R. 2025）"
+ ],
+ "footnote": "“新热带排名”比例条仅示意。",
+ "warn": "大型鳄类危险！在它生活的水边要远离水岸，遵守当地警示。"
+}

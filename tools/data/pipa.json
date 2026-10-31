@@ -1,0 +1,80 @@
+{
+ "file": "负子蟾",
+ "no": "710",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "负子蟾",
+ "name_en": "Common Surinam toad",
+ "latin": "Pipa pipa",
+ "short": "负子蟾",
+ "type": "两栖",
+ "habitat": [
+  "两栖",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "伏击猎手，主要吃蠕虫、昆虫、甲壳类和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性",
+   "value": "最长 154 mm",
+   "lo": 0.154,
+   "hi": 0.154,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌性",
+   "value": "最长 171 mm",
+   "lo": 0.171,
+   "hi": 0.171,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "背上育儿",
+   "value": "4–5 个月",
+   "lo": 4,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "吸食速度",
+   "value": "12–24 毫秒",
+   "lo": 12,
+   "hi": 24,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "背上孵蛋",
+   "icon": "huddle",
+   "desc": "雌蟾把卵嵌在背部皮肤的蜂窝状小坑里，4–5 个月后直接钻出小蟾蜍。"
+  },
+  {
+   "name": "超快吸食",
+   "icon": "drop",
+   "desc": "没有舌头，靠瞬间张大嘴腔把猎物连水一起吸进去。"
+  }
+ ],
+ "intro": [
+  "负子蟾生活在南美洲热带大部分地区和特立尼达岛。",
+  "它的眼睛很小，没有鼓膜。",
+  "侧线系统帮它找到猎物。"
+ ],
+ "fact": "它的内脏能往后挪动约身体长度的三分之一，给嘴腔腾出空间。",
+ "range": "南美洲热带、特立尼达岛。",
+ "sources": [
+  "Wikipedia「Common Surinam toad」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2023）"
+ ],
+ "footnote": "“吸食速度（毫秒）”借用 n100 刻度。"
+}

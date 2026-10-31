@@ -1,0 +1,80 @@
+{
+ "file": "泽鳄",
+ "no": "701",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "泽鳄",
+ "name_en": "Mugger crocodile",
+ "latin": "Crocodylus palustris",
+ "short": "泽鳄",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、蛇、龟、鸟和猴子、松鼠、水獭等哺乳动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "3–3.5 m",
+   "lo": 3,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌性体长",
+   "value": "2–2.5 m",
+   "lo": 2,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "咬合力",
+   "value": "7295 N",
+   "lo": 7295,
+   "hi": 7295,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "挖洞温度",
+   "value": "<5 °C 或 >38 °C",
+   "lo": 5,
+   "hi": 38,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会用工具",
+   "icon": "micro",
+   "desc": "会在头上顶着树枝，引诱找筑巢材料的鸟靠近，是最早被记录使用工具的爬行动物之一。"
+  },
+  {
+   "name": "躲进洞里",
+   "icon": "root",
+   "desc": "气温低于 5 °C 或高于 38 °C 时会躲进自己挖的洞里。"
+  }
+ ],
+ "intro": [
+  "泽鳄是中等体型、宽吻的鳄鱼，也叫沼泽鳄。",
+  "它生活在伊朗东南部到印度次大陆的淡水里。",
+  "旱季它会在陆地上走好几公里找水。"
+ ],
+ "fact": "一条重 207 kg 的泽鳄，咬合力测到 7295 牛顿。",
+ "range": "伊朗东南部、巴基斯坦、尼泊尔、印度、斯里兰卡。",
+ "sources": [
+  "Wikipedia「Mugger crocodile」"
+ ],
+ "footnote": "“咬合力”比例条借用 cnt 对数刻度。",
+ "warn": "大型鳄类危险！在它生活的水边要远离水岸，遵守当地警示。"
+}

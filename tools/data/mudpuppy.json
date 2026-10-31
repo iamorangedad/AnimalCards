@@ -1,0 +1,78 @@
+{
+ "file": "泥螈",
+ "no": "715",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "泥螈",
+ "name_en": "Common mudpuppy",
+ "latin": "Necturus maculosus",
+ "short": "泥螈",
+ "type": "两栖",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃能塞进嘴里的东西：昆虫、软体动物和蚯蚓",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均全长",
+   "value": "33 cm",
+   "lo": 0.33,
+   "hi": 0.33,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "43.5 cm",
+   "lo": 0.435,
+   "hi": 0.435,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成熟体长",
+   "value": "20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "平均 11 年",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "外鳃",
+   "icon": "drop",
+   "desc": "一辈子保留像鸵鸟羽毛一样的外鳃；水里氧气越少，鳃越大。"
+  },
+  {
+   "name": "变色",
+   "icon": "camo",
+   "desc": "清水里皮肤变深，浑水里皮肤变浅。"
+  }
+ ],
+ "intro": [
+  "泥螈是北美东部的水栖蝾螈。",
+  "它不经过变态，终生保留幼体特征。",
+  "白天它躲在石头和木头下面。"
+ ],
+ "fact": "它的牙用来防止猎物逃脱，而不是用来咬碎。",
+ "range": "加拿大南部到美国佐治亚州、中西部到北卡罗来纳。",
+ "sources": [
+  "Wikipedia「Common mudpuppy」"
+ ],
+ "footnote": ""
+}

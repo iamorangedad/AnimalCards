@@ -1,0 +1,80 @@
+{
+ "file": "眼镜凯门鳄",
+ "no": "699",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "眼镜凯门鳄",
+ "name_en": "Spectacled caiman",
+ "latin": "Caiman crocodilus",
+ "short": "眼镜凯门鳄",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "随季节变：雨季吃螺和蟹，旱季主要吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "1.4–2.5 m",
+   "lo": 1.4,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "7–40 kg",
+   "lo": 7,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大记录",
+   "value": "2.64 m",
+   "lo": 2.64,
+   "hi": 2.64,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 800 m",
+   "lo": 800,
+   "hi": 800,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“眼镜”",
+   "icon": "camo",
+   "desc": "两眼之间有一条骨脊，像戴了眼镜，所以叫眼镜凯门鳄。"
+  },
+  {
+   "name": "季节变色",
+   "icon": "cold",
+   "desc": "天冷时皮肤里的黑色素扩散，看起来更黑。"
+  }
+ ],
+ "intro": [
+  "眼镜凯门鳄原产拉丁美洲大部分地区。",
+  "它被引入美国、古巴和波多黎各。",
+  "它通常在夜里捕猎。"
+ ],
+ "fact": "天气太干时，它会停止进食，甚至有吃同类的记录。",
+ "range": "墨西哥到南美洲；被引入美国、古巴、波多黎各。",
+ "sources": [
+  "Wikipedia「Spectacled caiman」"
+ ],
+ "footnote": "",
+ "warn": "大型鳄类危险！在它生活的水边要远离水岸，遵守当地警示。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "欧洲蝼蛄",
+ "no": "393",
+ "cat": "昆虫",
+ "name_cn": "欧洲蝼蛄",
+ "name_en": "European mole cricket",
+ "latin": "Gryllotalpa gryllotalpa",
+ "short": "欧洲蝼蛄",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "约 50 mm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "雌体长",
+   "value": "约 70 mm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每窝卵",
+   "value": "100–350 枚",
+   "lo": 100,
+   "hi": 350,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "爱尔兰记录",
+   "value": "仅 1920 年一次",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鼹鼠前足",
+   "icon": "climb",
+   "desc": "前足强壮，像鼹鼠一样适合挖掘，是趋同演化的好例子。"
+  },
+  {
+   "name": "地下歌手",
+   "icon": "ear",
+   "desc": "雄虫偶尔在地道里专门建的小室中发出轻柔的“嘟嘟”声。"
+  }
+ ],
+ "intro": [
+  "欧洲蝼蛄广布欧洲，被引入美国东部。",
+  "雌虫春天在地下小室里产 100–350 枚卵。",
+  "蝼蛄科有好几种相似的种类。"
+ ],
+ "fact": "爱尔兰只有 1920 年的一次记录，可能已经消失。",
+ "range": "欧洲；美国东部有引入。",
+ "sources": [
+  "Wikipedia「Gryllotalpa gryllotalpa」",
+  "IUCN 红色名录（Hochkirch 2016）"
+ ],
+ "footnote": "替换原定的东方蝼蛄（资料太少）。"
+}

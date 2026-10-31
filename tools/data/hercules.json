@@ -1,0 +1,76 @@
+{
+ "file": "长戟大兜虫",
+ "no": "382",
+ "cat": "昆虫",
+ "name_cn": "长戟大兜虫",
+ "name_en": "Hercules beetle",
+ "latin": "Dynastes hercules",
+ "short": "长戟大兜虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃朽木",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "雄全长",
+   "value": "可达 173 mm",
+   "lo": 0.173,
+   "hi": 0.173,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "幼虫体长",
+   "value": "可达 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "幼虫体重",
+   "value": "超过 100 g",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "三龄幼虫期",
+   "value": "平均 450 天",
+   "lo": 450,
+   "hi": 450,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长甲虫",
+   "icon": "roar",
+   "desc": "算上角，雄虫可达 173 mm，是世界上最长的甲虫。"
+  },
+  {
+   "name": "变色鞘翅",
+   "icon": "camo",
+   "desc": "空气干燥时鞘翅是橄榄绿或黄色，潮湿时会变黑。"
+  }
+ ],
+ "intro": [
+  "长戟大兜虫生活在墨西哥南部、中美洲、南美洲和小安的列斯群岛的热带森林。",
+  "雌虫最多产 100 枚卵，约 27.7 天孵化。",
+  "幼虫吃朽木，帮助分解和养分循环。"
+ ],
+ "fact": "日本 Be-Kuwa 纪录：指名亚种雄虫 184.3 mm（2025 年）。",
+ "range": "墨西哥南部到南美洲。",
+ "sources": [
+  "Wikipedia「Dynastes hercules」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；三龄幼虫期为 25 °C 实验室数据，超出量程显示满格。"
+}

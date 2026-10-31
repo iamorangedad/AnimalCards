@@ -1,0 +1,77 @@
+{
+ "file": "斑衣蜡蝉",
+ "no": "400",
+ "cat": "昆虫",
+ "name_cn": "斑衣蜡蝉",
+ "name_en": "Spotted lanternfly",
+ "latin": "Lycorma delicatula",
+ "short": "斑衣蜡蝉",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "最爱吸臭椿等植物汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "20–27 mm",
+   "lo": 0.02,
+   "hi": 0.027,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄体长",
+   "value": "21–22 mm",
+   "lo": 0.021,
+   "hi": 0.022,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每块卵",
+   "value": "30–50 枚",
+   "lo": 30,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "交配",
+   "value": "可达 4 小时",
+   "lo": 4,
+   "hi": 4,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最爱臭椿",
+   "icon": "jar",
+   "desc": "最喜欢的寄主是同样入侵的臭椿，也吃大豆、葡萄、核果和苹果等作物。"
+  },
+  {
+   "name": "入侵扩散",
+   "icon": "team",
+   "desc": "意外传入韩国，扩散到日本、美国 21 个州和加拿大等地。"
+  }
+ ],
+ "intro": [
+  "斑衣蜡蝉原产中国部分地区和越南。",
+  "2014 年 9 月，美国宾夕法尼亚州首次确认发现它。",
+  "1845 年被命名，最早的标本采自南京附近。"
+ ],
+ "fact": "研究认为，约 −25 °C 时卵完全不能孵化。",
+ "range": "原产中国、越南，已入侵韩国、美国等。",
+ "sources": [
+  "Wikipedia「Spotted lanternfly」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

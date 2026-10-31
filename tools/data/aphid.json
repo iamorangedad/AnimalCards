@@ -1,0 +1,76 @@
+{
+ "file": "豌豆蚜",
+ "no": "387",
+ "cat": "昆虫",
+ "name_cn": "豌豆蚜",
+ "name_en": "Pea aphid",
+ "latin": "Acyrthosiphon pisum",
+ "short": "豌豆蚜",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吸植物汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "每天产若虫",
+   "value": "4–12 只",
+   "lo": 4,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "一生后代",
+   "value": "约 100 只",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "成熟",
+   "value": "7–10 天",
+   "lo": 7,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "约 30 天",
+   "lo": 30,
+   "hi": 30,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "孤雌胎生",
+   "icon": "jar",
+   "desc": "像多数蚜虫一样，雌蚜不交配就直接生出雌性若虫。"
+  },
+  {
+   "name": "超快繁殖",
+   "icon": "team",
+   "desc": "每只雌蚜每天生 4–12 只若虫，若虫 7–10 天就成熟。"
+  }
+ ],
+ "intro": [
+  "豌豆蚜是吸食植物汁液的昆虫，俗称“绿海豚”。",
+  "卵孵出的若虫全是雌性，蜕皮四次后成熟。",
+  "它的基因组约 464 MB。"
+ ],
+ "fact": "基因组中约 20% 是蚜虫特有的“孤儿基因”。",
+ "range": "世界各地（待核）。",
+ "sources": [
+  "Wikipedia「Pea aphid」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；分布范围待核。"
+}

@@ -1,0 +1,76 @@
+{
+ "file": "欧洲蠼螋",
+ "no": "389",
+ "cat": "昆虫",
+ "name_cn": "欧洲蠼螋",
+ "name_en": "European earwig",
+ "latin": "Forficula auricularia",
+ "short": "欧洲蠼螋",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12–15 mm",
+   "lo": 0.012,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌尾铗",
+   "value": "约 3 mm",
+   "lo": 0.003,
+   "hi": 0.003,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每窝卵",
+   "value": "约 50 枚",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "越冬深度",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "尾巴夹子",
+   "icon": "trunk",
+   "desc": "尾端有一对夹子，雌虫的又直又细。"
+  },
+  {
+   "name": "好妈妈",
+   "icon": "team",
+   "desc": "雌虫秋天在地下巢里产约 50 枚卵并照顾它们，甚至会照顾别家的卵。"
+  }
+ ],
+ "intro": [
+  "欧洲蠼螋原产欧洲、西亚，可能还有北非。",
+  "20 世纪初被带到北美，现在是常见的家居昆虫。",
+  "英文名来自后翅展开的样子像人的耳朵。"
+ ],
+ "fact": "它在地表下约 5 mm 处越冬。",
+ "range": "原产欧洲、西亚，已引入北美。",
+ "sources": [
+  "Wikipedia「European earwig」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

@@ -1,0 +1,76 @@
+{
+ "file": "水黾",
+ "no": "384",
+ "cat": "昆虫",
+ "name_cn": "水黾",
+ "name_en": "Common pond skater",
+ "latin": "Gerris lacustris",
+ "short": "水黾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "8–10 mm",
+   "lo": 0.008,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "划水速度",
+   "value": "1.5 m/秒",
+   "lo": 5.4,
+   "hi": 5.4,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "卵发育",
+   "value": "12–14 天",
+   "lo": 12,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "若虫变成虫",
+   "value": "24–30 天",
+   "lo": 24,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "水上漂",
+   "icon": "flip",
+   "desc": "中间一对长腿划水，像在水面上“行走”。"
+  },
+  {
+   "name": "三对分工",
+   "icon": "trunk",
+   "desc": "前腿短，用来抓猎物；中腿划水；后腿掌方向。"
+  }
+ ],
+ "intro": [
+  "水黾在欧洲各地都能见到。",
+  "它是不完全变态的昆虫。",
+  "每秒能划 1.5 m。"
+ ],
+ "fact": "雌虫产下的卵 12–14 天后孵化。",
+ "range": "欧洲。",
+ "sources": [
+  "Wikipedia「Gerris lacustris」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；1.5 m/秒约合 5.4 km/h。"
+}

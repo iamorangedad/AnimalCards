@@ -1,0 +1,76 @@
+{
+ "file": "马铃薯甲虫",
+ "no": "383",
+ "cat": "昆虫",
+ "name_cn": "马铃薯甲虫",
+ "name_en": "Colorado potato beetle",
+ "latin": "Leptinotarsa decemlineata",
+ "short": "马铃薯甲虫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃马铃薯等茄科植物叶子",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "6–11 mm",
+   "lo": 0.006,
+   "hi": 0.011,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 1 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每批卵",
+   "value": "约 30 枚",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "向东扩散",
+   "value": "平均每年 140 km",
+   "lo": 140,
+   "hi": 140,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "十条纹",
+   "icon": "camo",
+   "desc": "黄橙色身体，每片鞘翅上有五条粗的棕色纵纹，又叫“十线叶甲”。"
+  },
+  {
+   "name": "马铃薯大害虫",
+   "icon": "jar",
+   "desc": "1859 年起在美国马铃薯田里迅速扩散，后来传到欧洲。"
+  }
+ ],
+ "intro": [
+  "马铃薯甲虫最早在落基山脉被采集，当时吃的是野生的刺茄。",
+  "1811 年首次被记录。",
+  "雌虫把卵产在寄主叶片背面。"
+ ],
+ "fact": "风有时会把成虫从俄罗斯吹到芬兰。",
+ "range": "原产北美，已传到欧洲和亚洲。",
+ "sources": [
+  "Wikipedia「Colorado potato beetle」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

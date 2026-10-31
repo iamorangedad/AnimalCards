@@ -1,0 +1,76 @@
+{
+ "file": "歌利亚大角花金龟",
+ "no": "381",
+ "cat": "昆虫",
+ "name_cn": "歌利亚大角花金龟",
+ "name_en": "Goliath beetle",
+ "latin": "Goliathus",
+ "short": "歌利亚大角花金龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃树汁和水果",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "雄成虫*",
+   "value": "6–11 cm",
+   "lo": 0.06,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌成虫*",
+   "value": "5–8 cm",
+   "lo": 0.05,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫体重*",
+   "value": "可达 80–100 g",
+   "lo": 0.08,
+   "hi": 0.1,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "成虫体重*",
+   "value": "约为幼虫一半",
+   "lo": 0.04,
+   "hi": 0.05,
+   "scale": "mass_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级大甲虫",
+   "icon": "roar",
+   "desc": "按体型和体重算，它们是地球上最大的昆虫之一。"
+  },
+  {
+   "name": "吃树汁",
+   "icon": "jar",
+   "desc": "在非洲热带森林里主要吃树汁和水果。"
+  }
+ ],
+ "intro": [
+  "歌利亚大角花金龟是一个属，生活在非洲的热带森林。",
+  "幼虫比成虫还重，可达 80–100 g。",
+  "因栖息地丧失和为国际收藏市场过度采集，面临越来越大的保护压力。"
+ ],
+ "fact": "成虫体重只有幼虫的一半左右。",
+ "range": "非洲热带森林。",
+ "sources": [
+  "Wikipedia「Goliath beetle」"
+ ],
+ "footnote": "*为歌利亚花金龟属整体数据；成虫体重条按“约为幼虫一半”估算显示。"
+}

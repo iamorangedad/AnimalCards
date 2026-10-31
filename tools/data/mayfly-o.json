@@ -1,0 +1,77 @@
+{
+ "file": "蜉蝣",
+ "no": "399",
+ "cat": "昆虫",
+ "name_cn": "蜉蝣",
+ "name_en": "Mayfly",
+ "latin": "Ephemeroptera",
+ "short": "蜉蝣",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "若虫多吃藻类和碎屑（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "目级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "若虫体长*",
+   "value": "3–30 mm",
+   "lo": 0.003,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "亚成虫*",
+   "value": "很少超过 24 小时",
+   "lo": 24,
+   "hi": 24,
+   "scale": "hours",
+   "approx": false
+  },
+  {
+   "label": "蒂萨蜉蝣",
+   "value": "12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "污染杀卵*",
+   "value": "约 80%（英格兰）",
+   "lo": 80,
+   "hi": 80,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "朝生暮死",
+   "icon": "jar",
+   "desc": "从水里羽化出的亚成虫很少能活过 24 小时。"
+  },
+  {
+   "name": "水下长大",
+   "icon": "dive",
+   "desc": "若虫在水底泥沙里生活两三年。"
+  }
+ ],
+ "intro": [
+  "蜉蝣是一个目，若虫生活在水里。",
+  "欧洲最大的蒂萨蜉蝣长 12 cm，雌虫会往上游飞 3 km 再产卵。",
+  "卵沉到水底，45 天后孵化。"
+ ],
+ "fact": "钓鱼人模仿“三月棕蜉蝣”做假饵钓鳟鱼，已有 500 多年。",
+ "range": "除南极洲外的淡水（待核）。",
+ "sources": [
+  "Wikipedia「Mayfly」"
+ ],
+ "footnote": "替换原定的丹麦蜉（资料太少）；*为蜉蝣目整体数据；食性与分布待核。"
+}

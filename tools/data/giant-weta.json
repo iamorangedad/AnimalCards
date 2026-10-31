@@ -1,0 +1,76 @@
+{
+ "file": "巨沙螽",
+ "no": "385",
+ "cat": "昆虫",
+ "name_cn": "巨沙螽",
+ "name_en": "Giant wētā",
+ "latin": "Deinacrida",
+ "short": "巨沙螽",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "体长*",
+   "value": "可达 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "通常不超过 35 g",
+   "lo": 0.035,
+   "hi": 0.035,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "怀卵雌虫",
+   "value": "约 70 g",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "碎石种海拔",
+   "value": "约 1200 m",
+   "lo": 1200,
+   "hi": 1200,
+   "scale": "alt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "比麻雀还重",
+   "icon": "roar",
+   "desc": "一只怀卵的饲养雌虫重约 70 g，是世界上最重的昆虫之一，比麻雀还重。"
+  },
+  {
+   "name": "冻成冰块",
+   "icon": "huddle",
+   "desc": "碎石巨沙螽在气温低于 −5 °C 时会整个冻住。"
+  }
+ ],
+ "intro": [
+  "巨沙螽是新西兰特有的一个属，共 11 种。",
+  "除一种外都受法律保护，被认为面临灭绝风险。",
+  "最大的是小屏障岛巨沙螽（wētāpunga）。"
+ ],
+ "fact": "大多数巨沙螽比其他沙螽都大。",
+ "range": "新西兰。",
+ "sources": [
+  "Wikipedia「Giant wētā」"
+ ],
+ "footnote": "替换原定的田鳖（资料太少；家蚕已是农场卡）；*为属级数据；IUCN 按种分别评估。"
+}

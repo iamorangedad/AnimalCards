@@ -1,0 +1,77 @@
+{
+ "file": "黑腹果蝇",
+ "no": "392",
+ "cat": "昆虫",
+ "name_cn": "黑腹果蝇",
+ "name_en": "Common fruit fly",
+ "latin": "Drosophila melanogaster",
+ "short": "黑腹果蝇",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "约 2.5 mm",
+   "lo": 0.0025,
+   "hi": 0.0025,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翅展",
+   "value": "约 4 mm",
+   "lo": 0.004,
+   "hi": 0.004,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最快发育",
+   "value": "7 天（28 °C）",
+   "lo": 7,
+   "hi": 7,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "12 °C 发育",
+   "value": "超过 50 天",
+   "lo": 50,
+   "hi": 50,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "科学明星",
+   "icon": "team",
+   "desc": "1901 年被提议作为模式生物；到 2017 年，研究果蝇的科学家拿过 6 次诺贝尔奖。"
+  },
+  {
+   "name": "简单基因",
+   "icon": "jar",
+   "desc": "只有 4 对染色体，生活周期短、后代多。"
+  }
+ ],
+ "intro": [
+  "黑腹果蝇雌雄外形不同，雌蝇比雄蝇大，体型可大 30%。",
+  "翅膀透明，能看到细细的翅脉。",
+  "25 °C 时从卵到成虫约 8.5 天。"
+ ],
+ "fact": "温度超过 30 °C 时，发育反而变慢到 11 天。",
+ "range": "世界各地。",
+ "sources": [
+  "Wikipedia「Drosophila melanogaster」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

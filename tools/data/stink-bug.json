@@ -1,0 +1,76 @@
+{
+ "file": "茶翅蝽",
+ "no": "386",
+ "cat": "昆虫",
+ "name_cn": "茶翅蝽",
+ "name_en": "Brown marmorated stink bug",
+ "latin": "Halyomorpha halys",
+ "short": "茶翅蝽",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "约 1.7 cm",
+   "lo": 0.017,
+   "hi": 0.017,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每块卵",
+   "value": "约 28 枚",
+   "lo": 28,
+   "hi": 28,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "一生产卵",
+   "value": "约 400 枚",
+   "lo": 400,
+   "hi": 400,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "发育为成虫",
+   "value": "35–45 天",
+   "lo": 35,
+   "hi": 45,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "放臭气",
+   "icon": "jar",
+   "desc": "胸部下面的腺体能放出臭味防御捕食者，被碰或受伤时也会放。"
+  },
+  {
+   "name": "农业害虫",
+   "icon": "team",
+   "desc": "2010 年美国中大西洋地区苹果损失 3700 万美元，有些核果种植者损失超过 90%。"
+  }
+ ],
+ "intro": [
+  "茶翅蝽原产中国、日本、韩国等亚洲地区。",
+  "现已在北美很多地方定居，最近也到了欧洲和南美洲。",
+  "卵刚产下时浅绿色，后来变白。"
+ ],
+ "fact": "到 2012 年，美国已有 40 个州发现它。",
+ "range": "原产东亚，已入侵北美、欧洲、南美。",
+ "sources": [
+  "Wikipedia「Brown marmorated stink bug」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

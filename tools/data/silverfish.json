@@ -1,0 +1,76 @@
+{
+ "file": "衣鱼",
+ "no": "394",
+ "cat": "昆虫",
+ "name_cn": "衣鱼",
+ "name_en": "Silverfish",
+ "latin": "Lepisma saccharinum",
+ "short": "衣鱼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃糖、淀粉等碳水化合物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "约 2–8 年",
+   "lo": 2,
+   "hi": 8,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "所需湿度",
+   "value": "75–95%",
+   "lo": 75,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "一生产卵",
+   "value": "通常不到 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 0.8 mm",
+   "lo": 0.0008,
+   "hi": 0.0008,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "银色小鱼",
+   "icon": "camo",
+   "desc": "银灰色身体，爬起来像鱼游，名字由此而来。"
+  },
+  {
+   "name": "成年还蜕皮",
+   "icon": "jar",
+   "desc": "它是少数成虫后还继续蜕皮的昆虫之一。"
+  }
+ ],
+ "intro": [
+  "衣鱼是没有翅膀的原始昆虫。",
+  "喜欢潮湿的地方。",
+  "卵 2 周到 2 个月孵化。"
+ ],
+ "fact": "它能消化纤维素。",
+ "range": "世界各地的室内。",
+ "sources": [
+  "Wikipedia「Silverfish」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）。"
+}

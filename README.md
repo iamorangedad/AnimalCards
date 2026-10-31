@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 380 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 30）。
+共 400 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -388,6 +388,26 @@
 | 378 | 台湾乳白蚁（Formosan subterranean termite） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%B0%E6%B9%BE%E4%B9%B3%E7%99%BD%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%8F%B0%E6%B9%BE%E4%B9%B3%E7%99%BD%E8%9A%81.pdf) |
 | 379 | 欧洲深山锹形虫（European stag beetle） | 昆虫 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E6%B7%B1%E5%B1%B1%E9%94%B9%E5%BD%A2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E6%B7%B1%E5%B1%B1%E9%94%B9%E5%BD%A2%E8%99%AB.pdf) |
 | 380 | 圣甲虫（Sacred scarab） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9C%A3%E7%94%B2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%9C%A3%E7%94%B2%E8%99%AB.pdf) |
+| 381 | 歌利亚大角花金龟（Goliath beetle） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AD%8C%E5%88%A9%E4%BA%9A%E5%A4%A7%E8%A7%92%E8%8A%B1%E9%87%91%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AD%8C%E5%88%A9%E4%BA%9A%E5%A4%A7%E8%A7%92%E8%8A%B1%E9%87%91%E9%BE%9F.pdf) |
+| 382 | 长戟大兜虫（Hercules beetle） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%95%BF%E6%88%9F%E5%A4%A7%E5%85%9C%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%95%BF%E6%88%9F%E5%A4%A7%E5%85%9C%E8%99%AB.pdf) |
+| 383 | 马铃薯甲虫（Colorado potato beetle） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%A9%AC%E9%93%83%E8%96%AF%E7%94%B2%E8%99%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%A9%AC%E9%93%83%E8%96%AF%E7%94%B2%E8%99%AB.pdf) |
+| 384 | 水黾（Common pond skater） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%B0%B4%E9%BB%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%B0%B4%E9%BB%BE.pdf) |
+| 385 | 巨沙螽（Giant wētā） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B7%A8%E6%B2%99%E8%9E%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B7%A8%E6%B2%99%E8%9E%BD.pdf) |
+| 386 | 茶翅蝽（Brown marmorated stink bug） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%8C%B6%E7%BF%85%E8%9D%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%8C%B6%E7%BF%85%E8%9D%BD.pdf) |
+| 387 | 豌豆蚜（Pea aphid） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%B1%8C%E8%B1%86%E8%9A%9C.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%B1%8C%E8%B1%86%E8%9A%9C.pdf) |
+| 388 | 猫栉首蚤（Cat flea） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%8C%AB%E6%A0%89%E9%A6%96%E8%9A%A4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E7%8C%AB%E6%A0%89%E9%A6%96%E8%9A%A4.pdf) |
+| 389 | 欧洲蠼螋（European earwig） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E8%A0%BC%E8%9E%8B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E8%A0%BC%E8%9E%8B.pdf) |
+| 390 | 采采蝇（Tsetse fly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%87%E9%87%87%E8%9D%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%87%87%E9%87%87%E8%9D%87.pdf) |
+| 391 | 蚁蛉（Antlion） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%9A%81%E8%9B%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%9A%81%E8%9B%89.pdf) |
+| 392 | 黑腹果蝇（Common fruit fly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E8%85%B9%E6%9E%9C%E8%9D%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E8%85%B9%E6%9E%9C%E8%9D%87.pdf) |
+| 393 | 欧洲蝼蛄（European mole cricket） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E8%9D%BC%E8%9B%84.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%AC%A7%E6%B4%B2%E8%9D%BC%E8%9B%84.pdf) |
+| 394 | 衣鱼（Silverfish） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A1%A3%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A1%A3%E9%B1%BC.pdf) |
+| 395 | 亮斑扁角水虻（Black soldier fly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%BA%AE%E6%96%91%E6%89%81%E8%A7%92%E6%B0%B4%E8%99%BB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E4%BA%AE%E6%96%91%E6%89%81%E8%A7%92%E6%B0%B4%E8%99%BB.pdf) |
+| 396 | 扁头泥蜂（Emerald cockroach wasp） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%89%81%E5%A4%B4%E6%B3%A5%E8%9C%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%89%81%E5%A4%B4%E6%B3%A5%E8%9C%82.pdf) |
+| 397 | 普通草蛉（Common green lacewing） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%99%AE%E9%80%9A%E8%8D%89%E8%9B%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%99%AE%E9%80%9A%E8%8D%89%E8%9B%89.pdf) |
+| 398 | 月形天蚕蛾（Luna moth） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%9C%88%E5%BD%A2%E5%A4%A9%E8%9A%95%E8%9B%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%9C%88%E5%BD%A2%E5%A4%A9%E8%9A%95%E8%9B%BE.pdf) |
+| 399 | 蜉蝣（Mayfly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%9C%89%E8%9D%A3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%9C%89%E8%9D%A3.pdf) |
+| 400 | 斑衣蜡蝉（Spotted lanternfly） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%96%91%E8%A1%A3%E8%9C%A1%E8%9D%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E6%96%91%E8%A1%A3%E8%9C%A1%E8%9D%89.pdf) |
 
 ## 说明
 

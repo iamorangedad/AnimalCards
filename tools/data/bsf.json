@@ -1,0 +1,77 @@
+{
+ "file": "亮斑扁角水虻",
+ "no": "395",
+ "cat": "昆虫",
+ "name_cn": "亮斑扁角水虻",
+ "name_en": "Black soldier fly",
+ "latin": "Hermetia illucens",
+ "short": "亮斑扁角水虻",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "幼虫吃腐烂有机物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "一次产卵",
+   "value": "200–600 枚",
+   "lo": 200,
+   "hi": 600,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "幼虫期",
+   "value": "18–36 天",
+   "lo": 18,
+   "hi": 36,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "47–73 天（有食物）",
+   "lo": 47,
+   "hi": 73,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "堆肥减量",
+   "value": "约 50%",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "垃圾分解者",
+   "icon": "jar",
+   "desc": "幼虫能快速分解厨余垃圾，用在堆肥里可让体积减少约一半。"
+  },
+  {
+   "name": "富含蛋白",
+   "icon": "team",
+   "desc": "幼虫吃可再生的废料，积累大量蛋白质和脂肪。"
+  }
+ ],
+ "intro": [
+  "卵通常产在粪肥或堆肥旁的缝隙里，约 4 天孵化。",
+  "蛹期 1–2 周。",
+  "成虫没有食物时，靠幼虫期储存的脂肪也能活 8–10 天。"
+ ],
+ "fact": "24 小时内，它能大大减少或清除粪肥中的 9 种有机化学污染物。",
+ "range": "世界各地（待核）。",
+ "sources": [
+  "Wikipedia「Black soldier fly」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；分布待核。"
+}

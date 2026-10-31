@@ -1,0 +1,77 @@
+{
+ "file": "蚁蛉",
+ "no": "391",
+ "cat": "昆虫",
+ "name_cn": "蚁蛉",
+ "name_en": "Antlion",
+ "latin": "Myrmeleontidae",
+ "short": "蚁蛉",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫主要吃蚂蚁",
+ "iucn": {
+  "code": "NE",
+  "sub": "科级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "翼展*",
+   "value": "2–15 cm",
+   "lo": 0.02,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命*",
+   "value": "约 25 天",
+   "lo": 25,
+   "hi": 45,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "陷阱深*",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "陷阱宽*",
+   "value": "约 7.5 cm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "沙坑陷阱",
+   "icon": "jar",
+   "desc": "幼虫“蚁狮”在沙里挖漏斗形陷阱，等蚂蚁滑进来。"
+  },
+  {
+   "name": "黄昏飞行",
+   "icon": "flip",
+   "desc": "成虫多在黄昏或天黑后飞行，常被误认为蜻蜓或豆娘。"
+  }
+ ],
+ "intro": [
+  "蚁蛉是脉翅目的一个科，幼虫叫蚁狮。",
+  "在大多数欧洲和中东语言里，幼虫的名字都是“蚁狮”。",
+  "成虫一般活约 25 天，有的长达 45 天。"
+ ],
+ "fact": "欧洲最大的种是 Acanthaclisis occitanica，翼展 11 cm。",
+ "range": "世界各地，多在干燥沙地。",
+ "sources": [
+  "Wikipedia「Antlion」"
+ ],
+ "footnote": "替换原定的 Myrmeleon formicarius（资料太少）；*为蚁蛉科整体数据；分布待核。"
+}

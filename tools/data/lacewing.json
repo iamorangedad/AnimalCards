@@ -1,0 +1,77 @@
+{
+ "file": "普通草蛉",
+ "no": "397",
+ "cat": "昆虫",
+ "name_cn": "普通草蛉",
+ "name_en": "Common green lacewing",
+ "latin": "Chrysoperla carnea",
+ "short": "普通草蛉",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫吃蚜虫等小昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "约 11–12 mm",
+   "lo": 0.011,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫初孵",
+   "value": "约 1 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "幼虫最大",
+   "value": "约 8 mm",
+   "lo": 0.008,
+   "hi": 0.008,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "夏季生活史",
+   "value": "不到 4 周",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蚜虫杀手",
+   "icon": "jar",
+   "desc": "幼虫是活跃的捕食者，向猎物注入消化酶后吸食。"
+  },
+  {
+   "name": "生物防治",
+   "icon": "team",
+   "desc": "常被用来控制农业害虫。"
+  }
+ ],
+ "intro": [
+  "成虫浅绿色，有细长的丝状触角。",
+  "成虫吃花蜜、花粉和蚜虫蜜露。",
+  "条件好时一年可以繁殖好几代。"
+ ],
+ "fact": "幼虫长到约 8 mm 后结圆形的茧化蛹。",
+ "range": "欧洲、亚洲等地（待核）。",
+ "sources": [
+  "Wikipedia「Chrysoperla carnea」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；分布待核。"
+}

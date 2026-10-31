@@ -90,7 +90,7 @@ R3 = [
 ("painted-lady","小红蛱蝶","Vanessa cardui",I,""),("bumblebee","欧洲熊蜂","Bombus terrestris",I,""),("hornet","金环胡蜂","Asian giant hornet",I,""),("bullet-ant","子弹蚁","Paraponera clavata",I,""),
 ("fire-ant","红火蚁","Red imported fire ant",I,""),("termite","台湾乳白蚁","Coptotermes formosanus",I,""),("stag-beetle","欧洲深山锹形虫","Lucanus cervus",I,""),
 ("scarab","圣甲虫","Scarabaeus sacer",I,""),("goliath-beetle","歌利亚大角花金龟","Goliathus",I,""),("hercules","长戟大兜虫","Hercules beetle",I,""),
-("potato-beetle","马铃薯甲虫","Colorado potato beetle",I,""),("water-strider","水黾","Gerris lacustris",I,""),("silkworm","家蚕","Bombyx mori",I,""),
+("potato-beetle","马铃薯甲虫","Colorado potato beetle",I,""),("water-strider","水黾","Gerris lacustris",I,""),("giant-weta","巨沙螽","Giant wētā",I,""),
 ("stink-bug","茶翅蝽","Brown marmorated stink bug",I,""),("aphid","豌豆蚜","Pea aphid",I,""),("flea","猫栉首蚤","Cat flea",I,""),("earwig","欧洲蠼螋","Forficula auricularia",I,""),
 ("tsetse","采采蝇","Tsetse fly",I,""),("antlion-f","蚁蛉","Antlion",I,""),("fruit-fly","黑腹果蝇","Drosophila melanogaster",I,""),
 ("eu-mole","欧洲蝼蛄","Gryllotalpa gryllotalpa",I,""),("silverfish","衣鱼","Silverfish",I,""),("bsf","亮斑扁角水虻","Black soldier fly",I,""),

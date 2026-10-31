@@ -1,0 +1,77 @@
+{
+ "file": "扁头泥蜂",
+ "no": "396",
+ "cat": "昆虫",
+ "name_cn": "扁头泥蜂",
+ "name_en": "Emerald cockroach wasp",
+ "latin": "Ampulex compressa",
+ "short": "扁头泥蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫寄生蟑螂",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "约 22 mm",
+   "lo": 0.022,
+   "hi": 0.022,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "卵长",
+   "value": "约 2 mm",
+   "lo": 0.002,
+   "hi": 0.002,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "卵孵化",
+   "value": "约 3 天",
+   "lo": 3,
+   "hi": 3,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "蟑螂失控",
+   "value": "约 72 小时",
+   "lo": 72,
+   "hi": 72,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "控制蟑螂",
+   "icon": "jar",
+   "desc": "先蜇胸部让前腿暂时麻痹，再精准蜇进蟑螂脑部，让它失去逃跑本能。"
+  },
+  {
+   "name": "寄生育儿",
+   "icon": "team",
+   "desc": "把蟑螂领进洞里，在它腿间产卵，幼虫在蟑螂体内长大。"
+  }
+ ],
+ "intro": [
+  "扁头泥蜂又叫翡翠蟑螂蜂。",
+  "主要分布在非洲、南亚、东南亚和太平洋岛屿的热带地区。",
+  "雄蜂比雌蜂小，没有螫针。"
+ ],
+ "fact": "被蜇的蟑螂仍然能飞、能翻身，只是不想逃跑。",
+ "range": "非洲、南亚、东南亚和太平洋岛屿的热带。",
+ "sources": [
+  "Wikipedia「Ampulex compressa」"
+ ],
+ "footnote": "未见 IUCN 评估（待核）；“蟑螂失控”条为小时数。"
+}

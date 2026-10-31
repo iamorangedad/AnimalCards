@@ -1,0 +1,77 @@
+{
+ "file": "采采蝇",
+ "no": "390",
+ "cat": "昆虫",
+ "name_cn": "采采蝇",
+ "name_en": "Tsetse fly",
+ "latin": "Glossina",
+ "short": "采采蝇",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吸血",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "现存种数*",
+   "value": "23 种",
+   "lo": 23,
+   "hi": 23,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "发育到成虫*",
+   "value": "约 35 天",
+   "lo": 35,
+   "hi": 35,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "蛹长*",
+   "value": "不到 1 cm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每年牛死亡*",
+   "value": "约 300 万头",
+   "lo": 3000000.0,
+   "hi": 3000000.0,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "传播昏睡病",
+   "icon": "jar",
+   "desc": "它传播锥虫，在人身上引起昏睡病，也让大量家畜生病。"
+  },
+  {
+   "name": "母体喂养",
+   "icon": "team",
+   "desc": "幼虫在母体内靠母亲提供的营养发育，三龄幼虫才离开母体。"
+  }
+ ],
+ "intro": [
+  "采采蝇是舌蝇属所有种的统称。",
+  "已知 23 个现存种，分布在非洲大陆和阿拉伯半岛。",
+  "锥虫病每年让牛的产值减少 6 亿–12 亿美元。"
+ ],
+ "fact": "家里有一个病人，全家损失约一年收入的 25%。",
+ "range": "撒哈拉以南非洲、阿拉伯半岛。",
+ "sources": [
+  "Wikipedia「Tsetse fly」"
+ ],
+ "footnote": "替换原定的色蟌（资料太少）；*为舌蝇属整体数据。"
+}

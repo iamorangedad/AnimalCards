@@ -1,0 +1,76 @@
+{
+ "file": "猫栉首蚤",
+ "no": "388",
+ "cat": "昆虫",
+ "name_cn": "猫栉首蚤",
+ "name_en": "Cat flea",
+ "latin": "Ctenocephalides felis",
+ "short": "猫栉首蚤",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "成虫吸血",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "1–2 mm",
+   "lo": 0.001,
+   "hi": 0.002,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 0.5 mm",
+   "lo": 0.0005,
+   "hi": 0.0005,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最长寿命",
+   "value": "可达 2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "种群里成虫",
+   "value": "约 5%",
+   "lo": 5,
+   "hi": 5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "侧扁身体",
+   "icon": "camo",
+   "desc": "身体左右扁，能在宿主浓密的毛之间钻来钻去。"
+  },
+  {
+   "name": "秒跳上身",
+   "icon": "flip",
+   "desc": "破茧后靠光影、温度和二氧化碳感知宿主，几秒内就能跳上去。"
+  }
+ ],
+ "intro": [
+  "猫狗身上 90% 以上的跳蚤都是猫栉首蚤。",
+  "跳蚤种群中约 50% 是卵、35% 幼虫、10% 蛹、只有 5% 是成虫。",
+  "卵不黏，头 8 小时就有 70% 从宿主身上掉落。"
+ ],
+ "fact": "气温 27 °C、湿度 50% 以上时卵孵化最多。",
+ "range": "世界各地。",
+ "sources": [
+  "Wikipedia「Cat flea」"
+ ],
+ "footnote": "IUCN 状态与年份待核。"
+}

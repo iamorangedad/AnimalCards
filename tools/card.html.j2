@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>{{ d.name_cn }}</title>
+<style>
+:root{ --ink:#1f2328; --grey:#5d6268; --line:#d9dbdf; --paper:#f7f6f1; --acc:{{ acc }}; --accl:{{ accl }}; --org:#e8692e; --yel:#f6c343; }
+*{ box-sizing:border-box; margin:0; padding:0; }
+body{ width:1080px; height:1920px; overflow:hidden; color:var(--ink); background:#e9e7e0;
+  font-family:"Noto Sans CJK SC","Noto Sans SC",sans-serif; }
+.mono{ font-family:"Noto Sans Mono CJK SC","IBM Plex Mono",monospace; }
+.frame{ position:absolute; inset:22px; border-radius:34px; background:var(--acc); padding:16px; }
+.poster{ width:100%; height:100%; border-radius:22px; overflow:hidden; display:flex; flex-direction:column; padding:26px 30px 18px;
+  background-color:var(--paper);
+  background-image:linear-gradient(rgba(31,35,40,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(31,35,40,.055) 1px,transparent 1px);
+  background-size:36px 36px; background-position:-1px -1px; }
+.card{ background:#fff; border:2px solid #cfd2d6; border-radius:8px; position:relative; }
+/* header */
+.head{ flex:none; display:flex; align-items:center; gap:22px; }
+.htxt{ flex:1; min-width:0; }
+.kick{ display:flex; align-items:center; gap:14px; font-size:23px; color:var(--grey); }
+.no{ background:var(--ink); color:#fff; font-weight:700; padding:1px 14px; border-radius:4px; letter-spacing:1px; }
+h1{ font-size:76px; line-height:1.2; font-weight:900; letter-spacing:-1px; white-space:nowrap; margin-top:4px; }
+.en{ font-size:27px; color:var(--grey); white-space:nowrap; margin-top:2px; }
+.en i{ font-family:"Noto Serif CJK SC",serif; color:var(--ink); }
+.iucn{ flex:none; width:168px; text-align:center; }
+.iucn .ring{ width:118px; height:118px; margin:0 auto; border-radius:50%; border:5px solid var(--ink); display:flex; align-items:center; justify-content:center;
+  font:900 44px/1 "IBM Plex Mono","Noto Sans Mono CJK SC",monospace; }
+.iucn .cn{ margin-top:8px; font-size:24px; font-weight:900; white-space:nowrap; }
+.iucn .sub{ font-size:17px; color:var(--grey); white-space:nowrap; }
+/* tags */
+.tags{ flex:none; display:flex; gap:12px; margin-top:16px; align-items:center; }
+.chip{ display:flex; align-items:center; gap:8px; padding:5px 16px 5px 10px; border-radius:30px; font-size:25px; font-weight:900; border:2.5px solid var(--ink); background:#fff; white-space:nowrap; }
+.chip.hab{ background:var(--accl); border-color:var(--acc); }
+.chip.diet{ background:#fde3d3; border-color:var(--org); }
+.chip svg{ display:block; }
+.tags .note{ margin-left:auto; font-size:21px; color:var(--grey); white-space:nowrap; }
+/* art */
+.art{ flex:none; margin-top:16px; height:{{ art_h }}px; overflow:hidden; border:2px solid #cfd2d6; border-radius:10px; position:relative;
+  background-color:#fff; background-image:linear-gradient(rgba(31,35,40,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(31,35,40,.06) 1px,transparent 1px);
+  background-size:24px 24px; }
+.art svg{ display:block; }
+.art .ex{ position:absolute; right:12px; top:10px; font-size:18px; color:#fff; background:var(--org); border-radius:4px; padding:1px 10px; font-weight:700; }
+/* section title */
+.sec{ display:flex; align-items:center; gap:12px; font-size:27px; font-weight:900; }
+.sec .bar{ width:8px; height:26px; background:var(--acc); border-radius:2px; }
+.sec small{ font-size:18px; font-weight:400; color:var(--grey); }
+/* stats */
+.stats{ flex:none; margin-top:14px; padding:14px 22px 10px; }
+.st{ display:grid; grid-template-columns:150px 1fr 236px; align-items:center; gap:16px; height:52px; }
+.st .k{ font-size:27px; font-weight:900; white-space:nowrap; }
+.st .v{ font-size:24px; font-weight:700; white-space:nowrap; text-align:right; }
+.st .v em{ font-style:normal; font-size:17px; color:#fff; background:var(--grey); border-radius:3px; padding:0 6px; margin-left:6px; vertical-align:3px; }
+.track{ position:relative; height:20px; border-radius:10px; background:#eceef1; border:1.5px solid #cfd2d6; }
+.track .tick{ position:absolute; top:-1px; bottom:-1px; width:1.5px; background:#fff; }
+.track .lo{ position:absolute; top:-1.5px; bottom:-1.5px; left:-1.5px; border-radius:10px; background:var(--acc); }
+.track .fill{ position:absolute; top:-1.5px; bottom:-1.5px; border-radius:10px; background:repeating-linear-gradient(135deg,var(--accl) 0 6px,#fff 6px 10px); border:2px solid var(--acc); }
+.scale{ font-size:16px; color:var(--grey); margin-top:2px; }
+/* skills */
+.skills{ flex:none; margin-top:14px; display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.sk{ padding:14px 16px; display:flex; gap:14px; align-items:flex-start; }
+.sk .ic{ flex:none; width:58px; height:58px; border-radius:50%; background:var(--accl); border:2.5px solid var(--acc); display:flex; align-items:center; justify-content:center; }
+.sk .nm{ font-size:28px; font-weight:900; white-space:nowrap; }
+.sk .ds{ font-size:21px; color:var(--grey); line-height:1.38; margin-top:3px; }
+/* intro + fact */
+.intro{ flex:none; margin-top:14px; padding:14px 22px 14px; }
+.intro p{ font-size:25px; line-height:1.55; margin-top:6px; }
+.fact{ flex:none; margin-top:14px; border:2.5px solid var(--org); border-radius:8px; background:#fff; padding:12px 20px; display:flex; gap:16px; align-items:center; }
+.pill{ flex:none; background:var(--org); color:#fff; font-size:25px; font-weight:900; padding:4px 14px; border-radius:6px; letter-spacing:2px; }
+.fact p{ font-size:23px; line-height:1.5; }
+.range{ flex:none; margin-top:12px; font-size:22px; display:flex; gap:10px; align-items:baseline; }
+.range b{ white-space:nowrap; }
+.foot{ margin-top:auto; padding-top:10px; font-size:17px; color:var(--grey); line-height:1.45; border-top:1.5px dashed #cfd2d6; }
+</style></head><body>
+<div class="frame"><div class="poster">
+  <section class="head">
+    <div class="htxt">
+      <div class="kick mono"><span class="no">No.{{ d.no }}</span>{{ d.cat }}</div>
+      <h1>{{ d.name_cn }}</h1>
+      <div class="en">{{ d.name_en }} · <i>{{ d.latin }}</i></div>
+    </div>
+    <div class="iucn"><div class="ring" style="border-color:{{ iucn_col }};color:{{ iucn_col }};background:{{ iucn_bg }}">{{ d.iucn.code }}</div>
+      <div class="cn" style="color:{{ iucn_col }}">{{ d.iucn.cn }}</div><div class="sub mono">{{ d.iucn.sub }}</div></div>
+  </section>
+  <section class="tags">
+    {% for h in d.habitat %}<span class="chip hab">{{ chipicon(h) }}{{ h }}</span>{% endfor %}
+    <span class="chip diet">{{ chipicon(d.diet) }}{{ d.diet }}</span>
+    {% if d.diet_note %}<span class="note">{{ d.diet_note }}</span>{% endif %}
+  </section>
+  <section class="art">{{ art }}<span class="ex">示意图</span></section>
+  <section class="stats card">
+    <div class="sec"><span class="bar"></span>身体数据<small>（真实数据；区间 = 常见范围）</small></div>
+    {% for s in stats %}
+    <div class="st"><span class="k">{{ s.label }}</span>
+      <div class="track">{% for tk in s.ticks %}<span class="tick" style="left:{{ tk }}%"></span>{% endfor %}<span class="lo" style="width:{{ s.b }}%"></span><span class="fill" style="left:{{ s.a }}%;width:{{ s.w }}%"></span></div>
+      <span class="v">{{ s.value }}{% if s.approx %}<em>约</em>{% endif %}</span></div>
+    {% endfor %}
+    <div class="scale mono">{{ scale_note }}</div>
+  </section>
+  <section class="skills">
+    {% for k in d.skills %}<div class="sk card"><span class="ic">{{ skillicon(k.icon) }}</span><div><div class="nm">技能 · {{ k.name }}</div><div class="ds">{{ k.desc }}</div></div></div>{% endfor %}
+  </section>
+  <section class="intro card"><div class="sec"><span class="bar"></span>认识{{ d.short or d.name_cn }}</div>{% for p in d.intro %}<p>{{ p }}</p>{% endfor %}</section>
+  <section class="fact"><span class="pill">冷知识</span><p>{{ d.fact }}</p></section>
+  <section class="range"><b>分布：</b><span>{{ d.range }}</span></section>
+  <section class="foot mono">资料来源：{{ d.sources | join('；') }}。{{ d.footnote }} AI 辅助制作，需人工审核。</section>
+</div></div>
+</body></html>

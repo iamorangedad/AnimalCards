@@ -1,0 +1,76 @@
+{
+ "file": "帝企鹅",
+ "no": "004",
+ "cat": "鸟类",
+ "name_cn": "帝企鹅",
+ "name_en": "Emperor penguin",
+ "latin": "Aptenodytes forsteri",
+ "short": "帝企鹅",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "冰原"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、磷虾和乌贼",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "22–45 kg",
+   "lo": 22,
+   "hi": 45,
+   "scale": "mass"
+  },
+  {
+   "label": "身高",
+   "value": "1.0–1.2 m",
+   "lo": 1.0,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "潜水纪录",
+   "value": "535–564 m",
+   "lo": 535,
+   "hi": 564,
+   "scale": "depth"
+  }
+ ],
+ "skills": [
+  {
+   "name": "抱团取暖",
+   "icon": "huddle",
+   "desc": "几十到几百只企鹅紧紧挤在一起，轮流到中间取暖，扛过极地寒风。"
+  },
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "能潜到 500 m 以下，一口气在水下待约 20 分钟。"
+  }
+ ],
+ "intro": [
+  "帝企鹅是个子最高、体重最大的企鹅，只生活在南极。",
+  "它是唯一在南极冬季繁殖的企鹅，气温可低到 −40 °C，风速可达 144 km/h。",
+  "爸爸把蛋放在脚上孵两个多月，这期间不吃东西，体重要掉约 12 kg。"
+ ],
+ "fact": "为了去繁殖地，帝企鹅要在冰面上走 50–120 km，有时会趴下用肚子滑行。",
+ "range": "南极洲沿岸及周围海冰，是南极特有种。",
+ "sources": [
+  "Wikipedia「Emperor penguin」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": "身高约 100 cm，另有测量为 110–120 cm；潜水 535 m 为常引用值，1994 年记录 564 m。"
+}

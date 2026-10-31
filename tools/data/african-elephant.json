@@ -1,0 +1,74 @@
+{
+ "file": "非洲象",
+ "no": "003",
+ "cat": "高原草原",
+ "name_cn": "非洲象",
+ "name_en": "African bush elephant",
+ "latin": "Loxodonta africana",
+ "short": "非洲象",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、树叶、树皮和果实",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2.6–6.9 t",
+   "lo": 2600,
+   "hi": 6900,
+   "scale": "mass"
+  },
+  {
+   "label": "肩高",
+   "value": "2.5–3.4 m",
+   "lo": 2.47,
+   "hi": 3.36,
+   "scale": "len"
+  },
+  {
+   "label": "最长寿命",
+   "value": "70–75 年",
+   "lo": 70,
+   "hi": 75,
+   "scale": "life"
+  },
+  {
+   "label": "每天吃",
+   "value": "约 150 kg",
+   "lo": 150,
+   "hi": 150,
+   "scale": "food",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "万能长鼻",
+   "icon": "trunk",
+   "desc": "鼻子末端有两个像手指的突起，能捡起小东西、拔草、吸水和闻气味。"
+  },
+  {
+   "name": "大耳扇风",
+   "icon": "ear",
+   "desc": "耳朵最大约 2 m × 1.5 m，扇动耳朵可以帮身体散热。"
+  }
+ ],
+ "intro": [
+  "非洲草原象是现在陆地上最大的动物。",
+  "它每天要吃约 150 kg 植物，喝约 230 L 水，几乎一整天都在找吃的。",
+  "大象会发出人耳听不到的低沉“次声”，传得很远，用来和远处的同伴联络。"
+ ],
+ "fact": "有记录的最大公象肩高 3.96 m、体重约 10.4 t；刚出生的小象就有 100–120 kg。",
+ "range": "撒哈拉以南非洲的草原、灌木丛和森林。",
+ "sources": [
+  "Wikipedia「African bush elephant」",
+  "IUCN 红色名录（Gobush et al. 2021）"
+ ],
+ "footnote": "体重、肩高区间合并雌雄成年个体（雌 2.6–3.5 t，雄 5.2–6.9 t）。"
+}

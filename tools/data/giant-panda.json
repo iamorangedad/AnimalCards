@@ -1,0 +1,75 @@
+{
+ "file": "大熊猫",
+ "no": "001",
+ "cat": "森林",
+ "name_cn": "大熊猫",
+ "name_en": "Giant panda",
+ "latin": "Ailuropoda melanoleuca",
+ "short": "大熊猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "食物约 99% 是竹子",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "70–160 kg",
+   "lo": 70,
+   "hi": 160,
+   "scale": "mass"
+  },
+  {
+   "label": "体长",
+   "value": "1.2–1.9 m",
+   "lo": 1.2,
+   "hi": 1.9,
+   "scale": "len"
+  },
+  {
+   "label": "寿命·野外",
+   "value": "15–20 年",
+   "lo": 15,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "每天吃饭",
+   "value": "10–16 小时",
+   "lo": 10,
+   "hi": 16,
+   "scale": "hours"
+  }
+ ],
+ "skills": [
+  {
+   "name": "抓竹神手",
+   "icon": "bamboo",
+   "desc": "手腕上有一块变长的籽骨，像“第六根手指”，能牢牢握住竹子。"
+  },
+  {
+   "name": "爬树",
+   "icon": "climb",
+   "desc": "别看它圆滚滚，大熊猫很会爬树，可以爬上树躲避危险或休息。"
+  }
+ ],
+ "intro": [
+  "大熊猫是中国特有的熊，黑白相间的毛色让人一眼就能认出它。",
+  "它属于食肉目，却几乎只吃竹子，每天要吃 9–14 kg 竹笋。",
+  "因为竹子营养少，它要花很多时间吃饭，剩下的时间多半在休息。"
+ ],
+ "fact": "大熊猫宝宝刚出生只有 90–130 g，大约是妈妈体重的 1/800，粉红色、几乎没有毛。",
+ "range": "中国四川、陕西、甘肃的 6 片山区，海拔可达约 3000 m；第四次全国调查（2011–2014）野外约 1864 只。",
+ "sources": [
+  "Wikipedia「Giant panda」",
+  "IUCN 红色名录（Swaisgood et al. 2016）",
+  "Smithsonian's National Zoo「Giant panda」"
+ ],
+ "footnote": "体重区间合并雌雄（雌 70–125 kg，雄可达 160 kg）；圈养寿命约 30 年。"
+}

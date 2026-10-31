@@ -1,0 +1,74 @@
+{
+ "file": "章鱼",
+ "no": "005",
+ "cat": "海洋",
+ "name_cn": "章鱼",
+ "name_en": "Common octopus",
+ "latin": "Octopus vulgaris",
+ "short": "章鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "爱吃螃蟹、龙虾和贝类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "最重",
+   "value": "可达 9 kg",
+   "lo": 9,
+   "hi": 9,
+   "scale": "mass"
+  },
+  {
+   "label": "腕长",
+   "value": "可达 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len"
+  },
+  {
+   "label": "寿命",
+   "value": "1–2 年",
+   "lo": 1,
+   "hi": 2,
+   "scale": "life"
+  },
+  {
+   "label": "常见水深",
+   "value": "约 200 m 内",
+   "lo": 200,
+   "hi": 200,
+   "scale": "depth",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "变色伪装",
+   "icon": "camo",
+   "desc": "皮肤能快速改变颜色，和岩石、海藻融为一体，躲开敌人也方便偷袭猎物。"
+  },
+  {
+   "name": "拧开罐子",
+   "icon": "jar",
+   "desc": "章鱼很聪明，能学会拧开罐子拿食物，还能认出不同的人。"
+  }
+ ],
+ "intro": [
+  "普通章鱼有 8 条腕，身体软软的，能钻进很小的石缝。",
+  "它大约有 5 亿个神经元，是最聪明的无脊椎动物之一。",
+  "它常在黄昏出来捕猎，用毒液和坚硬的“喙”对付有壳的猎物。"
+ ],
+ "fact": "章鱼有 3 颗心脏，血液里含铜的血蓝蛋白，所以血是蓝色的。",
+ "range": "东大西洋、地中海，向南到南非沿岸的浅海岩礁区。",
+ "sources": [
+  "Wikipedia「Common octopus」",
+  "IUCN 红色名录（Allcock et al. 2018）"
+ ],
+ "footnote": "外套膜（身体）长可达 25 cm；该物种可能是多个相近物种组成的复合种。"
+}

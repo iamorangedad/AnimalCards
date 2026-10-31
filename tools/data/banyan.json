@@ -1,0 +1,81 @@
+{
+ "file": "孟加拉榕",
+ "no": "807",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "孟加拉榕",
+ "name_en": "Indian banyan",
+ "latin": "Ficus benghalensis",
+ "short": "孟加拉榕",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2026",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "10–15 m",
+   "lo": 10,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最大树冠",
+   "value": "19,107 m²",
+   "lo": 19107,
+   "hi": 19107,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "树冠周长",
+   "value": "846 m",
+   "lo": 846,
+   "hi": 846,
+   "scale": "km",
+   "approx": true
+  },
+  {
+   "label": "大榕树",
+   "value": "约 250 岁",
+   "lo": 250,
+   "hi": 250,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "绞杀榕",
+   "icon": "climb",
+   "desc": "像许多榕树一样从附生开始，最后包裹住宿主树。"
+  },
+  {
+   "name": "专属小蜂",
+   "icon": "bee",
+   "desc": "要靠特定的榕小蜂传粉；夏威夷缺这种蜂，所以不能自然繁殖。"
+  }
+ ],
+ "intro": [
+  "孟加拉榕原产印度次大陆。",
+  "它的树冠直径通常比树高还大。",
+  "它是印度的国树。"
+ ],
+ "fact": "印度的“蒂玛玛榕树”树冠覆盖 19,107 m²，是已知树冠面积最大的树。",
+ "range": "印度次大陆；各地栽培。",
+ "sources": [
+  "Wikipedia「Ficus benghalensis」",
+  "维基百科「孟加拉榕」",
+  "IUCN 红色名录（GTSG 2026）"
+ ],
+ "footnote": "树冠面积借用对数数量刻度；周长 846 m 按 km 刻度画（0.846 km 画在 1 km 处）。"
+}

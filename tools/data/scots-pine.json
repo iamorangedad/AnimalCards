@@ -1,0 +1,79 @@
+{
+ "file": "欧洲赤松",
+ "no": "815",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲赤松",
+ "name_en": "Scots pine",
+ "latin": "Pinus sylvestris",
+ "short": "欧洲赤松",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 35 m",
+   "lo": 35,
+   "hi": 35,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "纪录",
+   "value": "46.6 m",
+   "lo": 46.6,
+   "hi": 46.6,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "760 年以上",
+   "lo": 760,
+   "hi": 760,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "针叶长",
+   "value": "2.5–5 cm",
+   "lo": 0.025,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "两年球果",
+   "icon": "seed",
+   "desc": "授粉 22–24 个月后，球果春天张开释放种子。"
+  },
+  {
+   "name": "一对针叶",
+   "icon": "cold",
+   "desc": "成树针叶两根一束。"
+  }
+ ],
+ "intro": [
+  "欧洲赤松原产欧亚大陆。",
+  "它的分布西起不列颠、东到东西伯利亚。",
+  "在英国，只有苏格兰还有原生的欧洲赤松。"
+ ],
+ "fact": "爱沙尼亚有一棵 210 多岁的欧洲赤松高 46.6 m，是纪录最高的。",
+ "range": "欧亚大陆北部（不列颠到东西伯利亚）。",
+ "sources": [
+  "Wikipedia「Pinus sylvestris」",
+  "维基百科「欧洲赤松」"
+ ],
+ "footnote": ""
+}

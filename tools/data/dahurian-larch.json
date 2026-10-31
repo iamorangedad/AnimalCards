@@ -1,0 +1,80 @@
+{
+ "file": "兴安落叶松",
+ "no": "818",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "兴安落叶松",
+ "name_en": "Dahurian larch",
+ "latin": "Larix gmelinii",
+ "short": "兴安落叶松",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "冰原"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "10–30 m",
+   "lo": 10,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "针叶长",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最北",
+   "value": "北纬 73°",
+   "lo": 73,
+   "hi": 73,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "919 年",
+   "lo": 919,
+   "hi": 919,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最北的树",
+   "icon": "cold",
+   "desc": "是世界上分布最北的树，在泰梅尔半岛苔原上长成匍匐状。"
+  },
+  {
+   "name": "秋天落叶",
+   "icon": "seed",
+   "desc": "针叶秋天变成亮黄到橙色后脱落。"
+  }
+ ],
+ "intro": [
+  "兴安落叶松原产东西伯利亚、蒙古东北、中国东北和朝鲜半岛。",
+  "它最喜光、耐寒。",
+  "它的根能和牛肝菌等真菌形成菌根。"
+ ],
+ "fact": "雅库特一棵落叶松被记录为 919 岁。",
+ "range": "东西伯利亚、蒙古东北、中国黑龙江、朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Larix gmelinii」",
+  "维基百科「落叶松」"
+ ],
+ "footnote": "“最北”比例条只作示意。"
+}

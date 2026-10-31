@@ -1,0 +1,81 @@
+{
+ "file": "欧洲水青冈",
+ "no": "814",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲水青冈",
+ "name_en": "European beech",
+ "latin": "Fagus sylvatica",
+ "short": "欧洲水青冈",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 50 m",
+   "lo": 50,
+   "hi": 50,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "胸径",
+   "value": "最粗 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 300 年",
+   "lo": 300,
+   "hi": 300,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "看地长形",
+   "icon": "trunk",
+   "desc": "林中长到 30 m 以上；空地上较矮但树冠更宽。"
+  },
+  {
+   "name": "银灰树皮",
+   "icon": "camo",
+   "desc": "树皮光滑、银灰色。"
+  }
+ ],
+ "intro": [
+  "欧洲山毛榉原产欧洲大部分地区。",
+  "木材用来做家具等。",
+  "意大利一棵山毛榉超过 500 岁，是北半球已知最老的。"
+ ],
+ "fact": "它的坚果含单宁和生物碱，有轻微毒性，但动物和人都会吃。",
+ "range": "欧洲（瑞典南部到意大利中部）。",
+ "sources": [
+  "Wikipedia「Fagus sylvatica」",
+  "维基百科「欧洲山毛榉」",
+  "IUCN 红色名录（Barstow, M. 2018）"
+ ],
+ "footnote": "",
+ "warn": "山毛榉坚果有轻微毒性，不要大量生吃。"
+}

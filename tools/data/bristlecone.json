@@ -1,0 +1,80 @@
+{
+ "file": "长寿松",
+ "no": "805",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "长寿松",
+ "name_en": "Great Basin bristlecone pine",
+ "latin": "Pinus longaeva",
+ "short": "长寿松",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最老",
+   "value": "4858 年",
+   "lo": 4858,
+   "hi": 4858,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "树高",
+   "value": "5–15 m",
+   "lo": 5,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "针叶常绿",
+   "value": "最长 45 年",
+   "lo": 45,
+   "hi": 45,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "球果成熟",
+   "value": "16 个月",
+   "lo": 16,
+   "hi": 16,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长寿",
+   "icon": "clone",
+   "desc": "“玛土撒拉”4858 岁，是已知最老的非克隆生物。"
+  },
+  {
+   "name": "长命叶子",
+   "icon": "cold",
+   "desc": "针叶能保持绿色长达 45 年，是植物中最久的之一。"
+  }
+ ],
+ "intro": [
+  "大盆地刺果松生长在加州、内华达和犹他的高山上。",
+  "它的针叶每 5 根一束。",
+  "种子主要靠风传播，也有些由星鸦带走。"
+ ],
+ "fact": "野火在它生长的高山上很少见。",
+ "range": "美国加州、内华达州、犹他州高山。",
+ "sources": [
+  "Wikipedia「Pinus longaeva」",
+  "维基百科「大盆地刺果松」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "菩提树",
+ "no": "808",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "菩提树",
+ "name_en": "Sacred fig",
+ "latin": "Ficus religiosa",
+ "short": "菩提树",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–17 cm",
+   "lo": 0.1,
+   "hi": 0.17,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "2250 年以上",
+   "lo": 2250,
+   "hi": 2250,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "0–35 °C",
+   "lo": 1,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "滴水叶尖",
+   "icon": "drop",
+   "desc": "心形叶有一个长长的尾尖，是热带植物排水的特征。"
+  },
+  {
+   "name": "榕小蜂",
+   "icon": "bee",
+   "desc": "靠一种榕小蜂传粉，小蜂在它的果里产卵。"
+  }
+ ],
+ "intro": [
+  "菩提树原产印度次大陆和中南半岛。",
+  "它是佛教三大圣树之一。",
+  "它是印度奥里萨、比哈尔、哈里亚纳等邦的邦树。"
+ ],
+ "fact": "斯里兰卡阿努拉德普勒的圣菩提树估计已有 2250 多年。",
+ "range": "印度次大陆、中南半岛、中国西南。",
+ "sources": [
+  "Wikipedia「Ficus religiosa」",
+  "维基百科「菩提树」"
+ ],
+ "footnote": "适温下限 0 °C，比例条从 1 °C 起画。"
+}

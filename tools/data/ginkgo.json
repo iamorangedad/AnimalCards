@@ -1,0 +1,81 @@
+{
+ "file": "银杏",
+ "no": "801",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "银杏",
+ "name_en": "Ginkgo",
+ "latin": "Ginkgo biloba",
+ "short": "银杏",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "20–35 m",
+   "lo": 20,
+   "hi": 35,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最老估计",
+   "value": "3500 年以上",
+   "lo": 3500,
+   "hi": 3500,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "目的历史",
+   "value": "2.9 亿年以上",
+   "lo": 290,
+   "hi": 290,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "活化石",
+   "icon": "clone",
+   "desc": "银杏目唯一现存的物种，同门其他物种都已灭绝。"
+  },
+  {
+   "name": "游动精子",
+   "icon": "wind",
+   "desc": "靠风传粉，再由会游动的精子受精，和苏铁、蕨类一样。"
+  }
+ ],
+ "intro": [
+  "银杏原产中国，现在全世界广泛种植。",
+  "它的种子叫“白果”。",
+  "2020 年的研究发现，667 岁的银杏几乎看不出衰老迹象。"
+ ],
+ "fact": "种子外层果肉含丁酸，闻起来很臭。",
+ "range": "原产中国；世界各地栽种。",
+ "sources": [
+  "Wikipedia「Ginkgo biloba」",
+  "维基百科「银杏」"
+ ],
+ "footnote": "野生种群为濒危；栽培树极多。",
+ "warn": "白果（种子）有中毒等健康风险，不要生吃、不要多吃；捡果子最好戴手套。"
+}

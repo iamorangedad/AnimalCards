@@ -1,0 +1,79 @@
+{
+ "file": "水杉",
+ "no": "802",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "水杉",
+ "name_en": "Dawn redwood",
+ "latin": "Metasequoia glyptostroboides",
+ "short": "水杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "最高",
+   "value": "约 51 m",
+   "lo": 51,
+   "hi": 51,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "50 岁时",
+   "value": "超过 35 m",
+   "lo": 35,
+   "hi": 35,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "球果",
+   "value": "1.5–2.5 cm",
+   "lo": 0.015,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种鳞",
+   "value": "16–28 片",
+   "lo": 16,
+   "hi": 28,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "落叶针叶树",
+   "icon": "cold",
+   "desc": "是会落叶的针叶树，冬天叶子掉光。"
+  },
+  {
+   "name": "冰期幸存",
+   "icon": "clone",
+   "desc": "冰期后同属其他种都灭绝了，只在川鄂湘交界留存下来。"
+  }
+ ],
+ "intro": [
+  "水杉是水杉属唯一现存的种。",
+  "它原生于中国重庆、湖北和湖南。",
+  "它是第一批中国国家一级保护植物。"
+ ],
+ "fact": "1939 年三木茂先描述了水杉属化石，后来人们才在中国找到活的水杉。",
+ "range": "中国重庆、湖北、湖南交界；世界各地栽培。",
+ "sources": [
+  "Wikipedia「Metasequoia glyptostroboides」",
+  "维基百科「水杉」"
+ ],
+ "footnote": ""
+}

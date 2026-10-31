@@ -1,0 +1,81 @@
+{
+ "file": "樟",
+ "no": "820",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "樟",
+ "name_en": "Camphor tree",
+ "latin": "Camphora officinarum",
+ "short": "樟",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "巨树",
+   "value": "约 46.4 m",
+   "lo": 46.4,
+   "hi": 46.4,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "最大树围",
+   "value": "24.22 m",
+   "lo": 24.22,
+   "hi": 24.22,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "约 1 cm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "全株芳香",
+   "icon": "sun",
+   "desc": "各部分都含挥发性精油，木头和叶子蒸馏可得樟脑。"
+  },
+  {
+   "name": "驱虫",
+   "icon": "toxic",
+   "desc": "木材能驱虫；樟脑也能杀跳蚤。"
+  }
+ ],
+ "intro": [
+  "樟树原产东亚温暖地区。",
+  "过去是熬制樟脑的经济树种。",
+  "名字可能来自木纹多“纹章”。"
+ ],
+ "fact": "日本的“蒲生大楠”树围达 24.22 m。",
+ "range": "日本、朝鲜半岛、琉球、台湾等东亚地区。",
+ "sources": [
+  "Wikipedia「Camphora officinarum」",
+  "维基百科「樟树」",
+  "IUCN 红色名录（de Kok, R. 2021）"
+ ],
+ "footnote": "原产范围中英文维基说法不同（英文维基称中国长江以南为引入）。"
+}

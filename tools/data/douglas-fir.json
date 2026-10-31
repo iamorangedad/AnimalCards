@@ -1,0 +1,79 @@
+{
+ "file": "花旗松",
+ "no": "817",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "花旗松",
+ "name_en": "Douglas fir",
+ "latin": "Pseudotsuga menziesii",
+ "short": "花旗松",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "20–100 m",
+   "lo": 20,
+   "hi": 100,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "1300 年以上",
+   "lo": 1300,
+   "hi": 1300,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "针叶长",
+   "value": "1.5–4 cm",
+   "lo": 0.015,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "历史纪录",
+   "value": "超过 120 m",
+   "lo": 120,
+   "hi": 120,
+   "scale": "len_xxl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高处才长枝",
+   "icon": "trunk",
+   "desc": "在密林里下部枝条脱落，叶子可能从 34 m 高处才开始长。"
+  },
+  {
+   "name": "长寿",
+   "icon": "clone",
+   "desc": "沿海的大树常活 500 年以上。"
+  }
+ ],
+ "intro": [
+  "花旗松原产北美西部。",
+  "它是松科里最高的树。",
+  "属名 Pseudotsuga 的意思是“假铁杉”。"
+ ],
+ "fact": "历史上曾有超过 120 m 的花旗松，若还活着就是地球最高的树种。",
+ "range": "北美西部（加拿大不列颠哥伦比亚到美国加州、落基山）。",
+ "sources": [
+  "Wikipedia「Douglas fir」",
+  "维基百科「花旗松」"
+ ],
+ "footnote": ""
+}

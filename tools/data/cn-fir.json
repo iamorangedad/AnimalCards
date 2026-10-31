@@ -1,0 +1,80 @@
+{
+ "file": "杉木",
+ "no": "819",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "杉木",
+ "name_en": "Chinese fir",
+ "latin": "Cunninghamia lanceolata",
+ "short": "杉木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 46 m",
+   "lo": 46,
+   "hi": 46,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "人工林",
+   "value": "9.1–21.3 m",
+   "lo": 9.1,
+   "hi": 21.3,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "针叶长",
+   "value": "2.5–6 cm",
+   "lo": 0.025,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每鳞种子",
+   "value": "3 粒",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺手叶",
+   "icon": "thorn",
+   "desc": "线状披针形的叶子革质、稍硬，摸着刺手。"
+  },
+  {
+   "name": "速生造林",
+   "icon": "sun",
+   "desc": "过去 70 年里人工林面积扩大了两倍。"
+  }
+ ],
+ "intro": [
+  "杉木原产中国中南部和东南部。",
+  "它的球果当年 10 月下旬成熟。",
+  "1000 多年来它一直出现在中国民间传说里。"
+ ],
+ "fact": "根、枝、叶、树皮曾被用来止痛。",
+ "range": "中国秦岭、淮河以南；越南、老挝北部。",
+ "sources": [
+  "Wikipedia「Cunninghamia lanceolata」",
+  "维基百科「杉木」",
+  "IUCN 红色名录（Zhang, D. 2013）"
+ ],
+ "footnote": ""
+}

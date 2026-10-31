@@ -1,0 +1,79 @@
+{
+ "file": "夏栎",
+ "no": "809",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "夏栎",
+ "name_en": "English oak",
+ "latin": "Quercus robur",
+ "short": "夏栎",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "常见 20 m",
+   "lo": 20,
+   "hi": 40,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "常超过 500 年",
+   "lo": 500,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–12 cm",
+   "lo": 0.1,
+   "hi": 0.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄花序",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "养活万物",
+   "icon": "team",
+   "desc": "支撑大量食草昆虫、吃橡子的鸟兽和真菌。"
+  },
+  {
+   "name": "风媒花",
+   "icon": "wind",
+   "desc": "春天开花，靠风传粉。"
+  }
+ ],
+ "intro": [
+  "夏栎原产欧洲和西亚。",
+  "它是栎属的模式种。",
+  "它的橡子有长柄，叶柄却很短。"
+ ],
+ "fact": "有些夏栎被认为已经超过 1000 岁。",
+ "range": "欧洲、西亚；温带地区广泛栽培。",
+ "sources": [
+  "Wikipedia「Quercus robur」",
+  "维基百科「夏栎」"
+ ],
+ "footnote": "树高最高可达 40 m。"
+}

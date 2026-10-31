@@ -1,0 +1,79 @@
+{
+ "file": "垂枝桦",
+ "no": "813",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "垂枝桦",
+ "name_en": "Silver birch",
+ "latin": "Betula pendula",
+ "short": "垂枝桦",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "15–25 m",
+   "lo": 15,
+   "hi": 25,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–7 cm",
+   "lo": 0.03,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种子",
+   "value": "1–2 mm",
+   "lo": 0.001,
+   "hi": 0.002,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "500–2000 m",
+   "lo": 500,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白树皮",
+   "icon": "camo",
+   "desc": "白色树皮会定期脱落。"
+  },
+  {
+   "name": "风媒传粉",
+   "icon": "wind",
+   "desc": "仲夏雄花序散粉，靠风传粉。"
+  }
+ ],
+ "intro": [
+  "垂枝桦原产欧洲、摩洛哥、温带亚洲、加拿大和阿拉斯加。",
+  "它是芬兰的国树。",
+  "它的轻荫能让灌木在树下生长。"
+ ],
+ "fact": "树皮含有三萜类物质，被研究具有药用作用。",
+ "range": "欧洲、温带亚洲、北美北部。",
+ "sources": [
+  "Wikipedia「Betula pendula」",
+  "维基百科「垂枝桦」"
+ ],
+ "footnote": "海拔为中国新疆的数据（中文维基）。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "染井吉野樱",
+ "no": "811",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "染井吉野樱",
+ "name_en": "Yoshino cherry",
+ "latin": "Prunus × yedoensis",
+ "short": "染井吉野樱",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–12 m",
+   "lo": 5,
+   "hi": 12,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "3–3.5 cm",
+   "lo": 0.03,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "8–10 mm",
+   "lo": 0.008,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "祖先分化",
+   "value": "552 万年前",
+   "lo": 5.52,
+   "hi": 5.52,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先花后叶",
+   "icon": "sun",
+   "desc": "早春先开花后长叶，花有香味。"
+  },
+  {
+   "name": "果子喂鸟",
+   "icon": "food",
+   "desc": "小樱桃是许多小鸟和小兽的重要食物。"
+  }
+ ],
+ "intro": [
+  "染井吉野樱是大岛樱和江户彼岸樱的杂交种。",
+  "它约 100 多年前诞生于江户染井村。",
+  "它是日本种植最广的樱花。"
+ ],
+ "fact": "2007 年研究认为，日本的染井吉野樱和韩国的王樱是不同的物种。",
+ "range": "日本；中国、韩国等地移植。",
+ "sources": [
+  "Wikipedia「Prunus × yedoensis」",
+  "维基百科「染井吉野樱」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "欧洲云杉",
+ "no": "816",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲云杉",
+ "name_en": "Norway spruce",
+ "latin": "Picea abies",
+ "short": "欧洲云杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "35–55 m",
+   "lo": 35,
+   "hi": 55,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "球果",
+   "value": "9–20 cm",
+   "lo": 0.09,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "62.71 m",
+   "lo": 62.71,
+   "hi": 62.71,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "克隆树龄",
+   "value": "9550 年",
+   "lo": 9550,
+   "hi": 9550,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长得快",
+   "icon": "sun",
+   "desc": "条件好时，头 25 年每年能长 1 m。"
+  },
+  {
+   "name": "最长球果",
+   "icon": "seed",
+   "desc": "球果长 9–20 cm，是云杉属里最长的。"
+  }
+ ],
+ "intro": [
+  "欧洲云杉原产欧洲北部、中部和东部。",
+  "它是欧洲经济上最重要的针叶树之一。",
+  "它是第一个完成基因组测序的裸子植物。"
+ ],
+ "fact": "瑞典一株叫“老 Tjikko”的欧洲云杉经测定根系已有 9550 岁（中文维基）。",
+ "range": "欧洲北部、中部、东部。",
+ "sources": [
+  "Wikipedia「Picea abies」",
+  "维基百科「欧洲云杉」"
+ ],
+ "footnote": "“克隆树龄”指同一根系不断长出新树干的年龄。"
+}

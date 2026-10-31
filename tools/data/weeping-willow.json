@@ -1,0 +1,80 @@
+{
+ "file": "垂柳",
+ "no": "812",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "垂柳",
+ "name_en": "Weeping willow",
+ "latin": "Salix babylonica",
+ "short": "垂柳",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 18 m",
+   "lo": 18,
+   "hi": 18,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "胸径",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "dia",
+   "approx": true
+  },
+  {
+   "label": "叶长",
+   "value": "4–16 cm",
+   "lo": 0.04,
+   "hi": 0.16,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "0.5–2 cm",
+   "lo": 0.005,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "垂枝",
+   "icon": "wind",
+   "desc": "小枝细长下垂。"
+  },
+  {
+   "name": "先花后叶",
+   "icon": "seed",
+   "desc": "早春先开花；种子带白色丝状长毛，随风飘。"
+  }
+ ],
+ "intro": [
+  "垂柳原产中国北方。",
+  "它沿着丝绸之路传到西南亚和欧洲。",
+  "它多生在路边和水边。"
+ ],
+ "fact": "叶子秋天变成金黄色。",
+ "range": "原产中国北部、朝鲜、蒙古、日本、西伯利亚；各地栽培。",
+ "sources": [
+  "Wikipedia「Salix babylonica」",
+  "维基百科「垂柳」"
+ ],
+ "footnote": ""
+}

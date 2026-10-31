@@ -1,6 +1,8 @@
 # BuildKit 会优先使用与 Dockerfile 同名的 .dockerignore（构建上下文为仓库根）
 .git
 动物
+植物
+真菌
 tools
 **/__pycache__
 webapp/.venv

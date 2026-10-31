@@ -106,3 +106,6 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
   .note{ font-size:11px; bottom:6px; left:8px; right:8px; }
   .mk{ width:26px; height:26px; }
 }
+.chips .kg{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; width:100%; }
+.kchip{ font:inherit; font-size:12px; font-weight:700; padding:3px 8px; border-radius:6px; cursor:pointer; border:1px solid var(--grey,#888); background:#fff; color:inherit; }
+.kchip .n{ font-family:var(--mono); font-size:11px; color:var(--grey); margin-left:4px; }

@@ -1,5 +1,5 @@
 # AnimalCards Globe —— 构建上下文为仓库根目录：docker build -f webapp/Dockerfile .
-# 镜像里只放代码；卡片 PNG/PDF（动物/）通过 volume 挂载，不重复打包。
+# 镜像里只放代码；卡片 PNG/PDF（动物/、植物/、真菌/）通过 volume 挂载，不重复打包。
 FROM python:3.12-slim
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
     ANIMALCARDS_ROOT=/repo WEBAPP_DIR=/app/webapp HOST=0.0.0.0 PORT=8000

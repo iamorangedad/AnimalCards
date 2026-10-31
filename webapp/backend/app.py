@@ -1,6 +1,6 @@
 """AnimalCards Globe 后端（FastAPI）。
 - 提供前端静态页面、/api/animals、/api/animals/{id}、/api/meta、/healthz
-- /cards/... 直接读取仓库里的 动物/ 文件夹（PNG/PDF，不复制）
+- /cards/、/plants/、/fungi/ 直接读取仓库里的 动物/、植物/、真菌/ 文件夹（PNG/PDF，不复制）
 - /thumbs/... 预生成的 WebP 缩略图
 环境变量见 .env.example。"""
 import json, os, time
@@ -14,6 +14,15 @@ from fastapi.staticfiles import StaticFiles
 WEBAPP = Path(os.environ.get("WEBAPP_DIR", Path(__file__).resolve().parent.parent))
 REPO = Path(os.environ.get("ANIMALCARDS_ROOT", WEBAPP.parent))
 CARDS_DIR = Path(os.environ.get("CARDS_DIR", REPO / "动物"))
+PLANTS_DIR = Path(os.environ.get("PLANTS_DIR", REPO / "植物"))
+FUNGI_DIR = Path(os.environ.get("FUNGI_DIR", REPO / "真菌"))
+# 卡片文件夹前缀 → URL 前缀（/cards/ 保持原样给动物用，兼容旧链接）
+URL_PREFIX = {"动物/": "/cards/", "植物/": "/plants/", "真菌/": "/fungi/"}
+
+def _card_url(p: str) -> str:
+    for k, u in URL_PREFIX.items():
+        if p.startswith(k): return u + _enc(p.removeprefix(k))
+    return "/cards/" + _enc(p)
 DATA_FILE = Path(os.environ.get("DATA_FILE", WEBAPP / "data" / "animals.json"))
 THUMBS_DIR = Path(os.environ.get("THUMBS_DIR", WEBAPP / "thumbs"))
 FRONTEND = WEBAPP / "frontend"
@@ -29,8 +38,8 @@ def load_data():
     items = []
     for a in raw["animals"]:
         a = dict(a)
-        a["card_png_url"] = "/cards/" + _enc(a["card_png"].removeprefix("动物/"))
-        a["card_pdf_url"] = "/cards/" + _enc(a["card_pdf"].removeprefix("动物/"))
+        a["card_png_url"] = _card_url(a["card_png"])
+        a["card_pdf_url"] = _card_url(a["card_pdf"])
         a["thumb_url"] = "/" + a["thumb"]; a["avatar_url"] = "/" + a["avatar"]
         items.append(a)
     return raw["meta"], items, {a["id"]: a for a in items}
@@ -62,8 +71,8 @@ def _in_bbox(a, bbox):
 
 @app.get("/healthz")
 def healthz():
-    ok = CARDS_DIR.is_dir() and THUMBS_DIR.is_dir()
-    return JSONResponse({"status": "ok" if ok else "degraded", "animals": len(ITEMS), "cards_dir": CARDS_DIR.is_dir(),
+    ok = CARDS_DIR.is_dir() and PLANTS_DIR.is_dir() and FUNGI_DIR.is_dir() and THUMBS_DIR.is_dir()
+    return JSONResponse({"status": "ok" if ok else "degraded", "animals": len(ITEMS), "cards_dir": CARDS_DIR.is_dir(), "plants_dir": PLANTS_DIR.is_dir(), "fungi_dir": FUNGI_DIR.is_dir(),
                          "thumbs_dir": THUMBS_DIR.is_dir(), "uptime_s": round(time.time() - STARTED)}, status_code=200 if ok else 503,
                         headers={"Cache-Control": "no-store"})
 
@@ -101,6 +110,8 @@ def animal(aid: str):
     return a
 
 app.mount("/cards", StaticFiles(directory=CARDS_DIR, check_dir=False), name="cards")
+app.mount("/plants", StaticFiles(directory=PLANTS_DIR, check_dir=False), name="plants")
+app.mount("/fungi", StaticFiles(directory=FUNGI_DIR, check_dir=False), name="fungi")
 app.mount("/thumbs", StaticFiles(directory=THUMBS_DIR, check_dir=False), name="thumbs")
 app.mount("/data", StaticFiles(directory=WEBAPP / "data"), name="data")
 app.mount("/", StaticFiles(directory=FRONTEND, html=True), name="frontend")

@@ -110,5 +110,26 @@
   ],
   "range_note": "宠物鼠起源：18–19 世纪欧洲的捕鼠人奠定了宠物大鼠饲养；18 世纪日本也有饲养手册。祖先褐家鼠遍布全世界。",
   "source": "https://en.wikipedia.org/wiki/Fancy_rat"
+ },
+ "eelgrass": {
+  "points": [
+   [
+    50,
+    -5,
+    "东北大西洋沿岸（欧洲）"
+   ],
+   [
+    42,
+    -68,
+    "西北大西洋沿岸（北美）"
+   ],
+   [
+    45,
+    142,
+    "西北太平洋沿岸（东亚）"
+   ]
+  ],
+  "range_note": "广泛分布于北美洲和欧亚大陆沿海，北半球温带至北极（取 3 个沿海代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Zostera_marina"
  }
 }

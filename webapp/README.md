@@ -1,6 +1,6 @@
 # 动物卡片地球（AnimalCards Globe）
 
-把仓库里的 400 张动物卡片放到一个可拖拽、可缩放的 3D 地球上：每种动物在分布地有 1–3 个标注，点击标注会打开卡片预览，可以查看高清 PNG、下载 PDF。
+把仓库里的 1000 张卡片（动物 760、植物 200、真菌 40）放到一个可拖拽、可缩放的 3D 地球上：每个物种在分布地有 1–3 个标注，点击标注会打开卡片预览，可以查看高清 PNG、下载 PDF。
 
 > ⚠️ **数据说明**：标注位置是根据卡片“分布”文字匹配到的国家/区域代表点，**全部是近似位置**，不是真实分布范围。数据由 AI 辅助整理，**需要人工复核**。页面底部和“数据来源”面板里也有同样的说明。
 
@@ -9,7 +9,7 @@
 - 3D 地球：自动旋转，可拖动、缩放；NASA Blue Marble 贴图，带地形凹凸
 - 标注按类别着色，用卡片头像做图标；离得近的标注会自动聚合成气泡，放大后再展开；同一地点的多种动物错开显示，放大后点击气泡会列出这里的全部动物
 - 悬停显示名字，点击打开侧栏（手机上是底部抽屉）：卡片缩略图、点开看高清 PNG、下载 PDF、IUCN 等级、分布、标注依据、来源
-- 类别筛选、IUCN 等级筛选（Shift/Alt + 点击 = 只看这一项）、搜索（中文/英文/学名），选中后地球会飞到这个动物
+- 按界筛选（点“动物 / 植物 / 真菌”= 只看这一界，再点恢复全部）、16 个类别各有颜色和筛选按钮（植物 6 类、真菌 2 类）、IUCN 等级筛选（Shift/Alt + 点击 = 只看这一项）、搜索（中文/英文/学名），选中后地球会飞到这个动物
 - 链接分享：`/#a=giant-panda` 直接打开大熊猫
 - 界面全中文，适配手机
 
@@ -22,14 +22,14 @@ webapp/
 ├── data/animals.json       由脚本生成的动物+坐标数据（不要手改，改脚本或 locations_manual.json）
 ├── data/locations_manual.json   人工指定的标注点（附来源）
 ├── data/gazetteer_ne.json  由 Natural Earth 生成的国家代表点
-├── thumbs/                 WebP 缩略图（400px 卡片预览 + 120px 头像），约 12MB
+├── thumbs/                 WebP 缩略图（400px 卡片预览 + 120px 头像，共 2000 个），约 30MB
 ├── scripts/                生成数据和缩略图的脚本
 ├── tests/                  URL 检查和截图脚本
 ├── Dockerfile / docker-compose.yml / .env.example
 └── deploy/                 nginx 和 systemd 示例
 ```
 
-卡片原图 PNG/PDF **不复制**，服务直接读取仓库里的 `动物/` 文件夹。
+卡片原图 PNG/PDF **不复制**，服务直接读取仓库里的 `动物/`、`植物/`、`真菌/` 文件夹（URL 前缀分别是 `/cards/`、`/plants/`、`/fungi/`；环境变量 `CARDS_DIR`、`PLANTS_DIR`、`FUNGI_DIR` 可改路径）。
 
 ## 本地运行
 
@@ -50,7 +50,7 @@ cd backend
 cd webapp
 .venv/bin/pip install -r scripts/requirements-build.txt   # Pillow
 python3 scripts/build_data.py            # 读取 ../tools/data/*.json → data/animals.json
-.venv/bin/python scripts/build_thumbs.py # 读取 ../动物/**/*.png → thumbs/*.webp（已存在的跳过，--force 全部重做）
+.venv/bin/python scripts/build_thumbs.py # 读取 ../动物|植物|真菌/**/*.png → thumbs/*.webp（已存在的跳过，--force 全部重做）
 # 国家代表点一般不用重做；如需：下载 Natural Earth 1:50m admin0 geojson 后
 # python3 scripts/build_gazetteer.py ne_50m_admin_0_countries.geojson
 ```
@@ -58,7 +58,7 @@ python3 scripts/build_data.py            # 读取 ../tools/data/*.json → data/
 ### 检查
 
 ```bash
-.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API 是否 400 条、所有 PNG/PDF/缩略图是否可访问
+.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API 是否 1000 条、所有 PNG/PDF/缩略图是否可访问
 # 截图（需要 playwright 和 Chromium）
 python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [chrome 路径]
 ```
@@ -67,11 +67,13 @@ python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [chrome 路径]
 
 | 路径 | 说明 |
 |---|---|
-| `GET /api/animals` | 动物列表。参数：`category`（如 `海洋`，多个用逗号）、`iucn`（如 `CR,EN`）、`q`（名称搜索）、`bbox`（`minLon,minLat,maxLon,maxLat`，支持跨日界线）、`limit`、`offset`。返回 `{count, items}` |
+| `GET /api/animals` | 卡片列表（动物、植物、真菌；接口名保持不变）。参数：`category`（如 `海洋`、`蘑菇`，多个用逗号）、`iucn`（如 `CR,EN`）、`q`（名称搜索）、`bbox`（`minLon,minLat,maxLon,maxLat`，支持跨日界线）、`limit`、`offset`。返回 `{count, items}` |
 | `GET /api/animals/{id}` | 单个动物，如 `/api/animals/giant-panda` |
 | `GET /api/meta` | 数量统计、类别、数据说明 |
 | `GET /healthz` | 健康检查 |
-| `GET /cards/<类别>/<名字>.png\|.pdf` | 卡片原图 / PDF（来自 `动物/`） |
+| `GET /cards/<类别>/<名字>.png\|.pdf` | 动物卡片原图 / PDF（来自 `动物/`） |
+| `GET /plants/<类别>/<名字>.png\|.pdf` | 植物卡片（来自 `植物/`） |
+| `GET /fungi/<类别>/<名字>.png\|.pdf` | 真菌卡片（来自 `真菌/`） |
 | `GET /thumbs/<id>_400.webp`、`<id>_120.webp` | 缩略图 |
 | `GET /api/docs` | 自动生成的接口文档 |
 
@@ -122,16 +124,18 @@ sudo certbot --nginx -d 你的域名
 
 1. 按标点切分句子，丢掉“引入 / 养殖 / 入侵 / 已被带到…”这类非原生分布的句子，去掉“…除外”；
 2. 在句子里找国家名（Natural Earth 中文名）、大洲/地区、省份、海域等关键词，取最长匹配；国家后面跟“北部/东南部”等方位时，按国界范围推算一个点；
-3. 海洋动物优先放海里，陆地动物优先放陆地；相距不到 400km 的点合并；每种最多 3 个点；
+3. 海洋动物和海草（大叶藻、大洋波喜荡草）优先放海里，其余优先放陆地；相距不到 400km 的点合并；每种最多 3 个点；
 4. 文字里只有“全球 / 广泛分布 / 除南极洲外”的，放 3 个代表点并标“广泛分布”；
-5. 家养动物标在**驯化起源地**；有 7 种（北极熊、雪鸮、狗、马、骡、家鸽、花枝鼠）用了人工点位，写在 `data/locations_manual.json`，每条都附维基百科来源。
+5. 家养动物标在**驯化起源地**，栽培植物 / 栽培食用菌（共 72 种，数据里 `cultivated: true`）标在**原产地 / 起源地**，不是全部种植区；
+6. 只写“热带 / 亚热带”的物种放 3 个热带代表点（南美、非洲、东南亚）；括号里的“重引入点”不影响原生地名匹配；
+7. 有 8 种（北极熊、雪鸮、狗、马、骡、家鸽、宠物大鼠、大叶藻）用了人工点位，写在 `data/locations_manual.json`，每条都附维基百科来源。
 
-当前结果：400 种全部有标注，共 822 个点，**全部 `approx: true`**；
-- 361 种由分布文字自动匹配，7 种人工点位，32 种只有“广泛分布”代表点；
-- `宠物小鼠` 的驯化起源没有找到可靠来源，标为“驯化起源待核”；
-- 另有 9 种卡片的分布文字本身含“待核”（狗、红袋鼠、赤狐、浣熊、宠物小鼠、豌豆蚜、亮斑扁角水虻、普通草蛉、蜉蝣）。
+当前结果：1000 种全部有标注，共 2037 个点，**全部 `approx: true`**；
+- 911 种由分布文字自动匹配，8 种人工点位，81 种只有“广泛分布”代表点（多为海洋鱼类、霉菌酵母等全球分布的物种）；
+- 10 种标为“位置待核”（`location_pending: true`）：`宠物小鼠` 的驯化起源，以及 9 种栽培物种卡片上没写原产地（朱槿、欧洲油菜、芝麻、椰子、紫花苜蓿、草莓、萝卜、洋葱、银耳），只放了广泛分布代表点；
+- 另有 7 种卡片的分布文字本身含“待核”（红袋鼠、赤狐、浣熊、豌豆蚜、亮斑扁角水虻、普通草蛉、蜉蝣）。
 
-每个点在数据里都带 `kind`（标注依据）、`label`，每种动物带 `range_note`、`source`（维基百科条目）和 `location_method`，页面侧栏会显示这些信息和复核提示。
+每个点在数据里都带 `kind`（标注依据）、`label`，每个物种带 `kingdom`、`category`、`range_note`、`source`（维基百科条目）和 `location_method`，页面侧栏会显示这些信息和复核提示。
 
 ## 第三方资源和许可证
 

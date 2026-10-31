@@ -3,10 +3,16 @@
 "use strict";
 const CATS = [
   ["宠物", "#f08a24", "#fdebd8"], ["农场", "#9a6a3a", "#f1e6da"], ["高原草原", "#c9a400", "#faf3cc"], ["森林", "#2e9e5b", "#dcf2e4"],
-  ["海洋", "#1f6fd6", "#dceafb"], ["鸟类", "#8e5cd9", "#ece2fa"], ["爬行两栖", "#13a3a3", "#d6f3f3"], ["昆虫", "#e0457b", "#fbe0ea"]];
+  ["海洋", "#1f6fd6", "#dceafb"], ["鸟类", "#8e5cd9", "#ece2fa"], ["爬行两栖", "#13a3a3", "#d6f3f3"], ["昆虫", "#e0457b", "#fbe0ea"],
+  // 植物（绿色系）
+  ["花卉", "#d6409f", "#fbe1f1"], ["树木", "#2f7d32", "#dcefdc"], ["农作物", "#b5892a", "#f6ecd2"], ["水果蔬菜", "#e8572c", "#fde3d9"],
+  ["沙漠植物", "#a8733a", "#f3e6d6"], ["水生植物", "#1894b8", "#d5eef6"],
+  // 真菌
+  ["蘑菇", "#7a4f2f", "#eee2d8"], ["霉菌酵母", "#6a7d3c", "#e6ecd6"]];
+const KINGDOMS = [["动物", CATS.slice(0, 8).map(c => c[0])], ["植物", CATS.slice(8, 14).map(c => c[0])], ["真菌", CATS.slice(14).map(c => c[0])]];
 const CAT = Object.fromEntries(CATS.map(([n, c, l]) => [n, { c, l }]));
 const IUCN = { CR: ["#d81e05", "极危"], EN: ["#fc7f3f", "濒危"], VU: ["#e0a800", "易危"], NT: ["#9aa83b", "近危"], LC: ["#60c659", "无危"],
-  DD: ["#6b7075", "数据缺乏"], NE: ["#6b7075", "未评估/家养"], EX: ["#000", "灭绝"], EW: ["#542344", "野外灭绝"] };
+  DD: ["#6b7075", "数据缺乏"], NE: ["#6b7075", "未评估/家养/栽培"], EX: ["#000", "灭绝"], EW: ["#542344", "野外灭绝"] };
 const $ = s => document.querySelector(s);
 const state = { animals: [], byId: {}, cats: new Set(CATS.map(c => c[0])), iucn: new Set(), alt: 2.4, markers: [], rotate: true, idleTimer: null };
 let world;
@@ -14,8 +20,9 @@ let world;
 const enc = p => p.split("/").map(encodeURIComponent).join("/");
 function urls(a) {
   if (a.card_png_url) return a;
-  const rel = a.card_png.replace(/^动物\//, ""), relPdf = a.card_pdf.replace(/^动物\//, "");
-  return Object.assign(a, { card_png_url: "cards/" + enc(rel), card_pdf_url: "cards/" + enc(relPdf), thumb_url: a.thumb, avatar_url: a.avatar });
+  const PRE = { "动物": "cards/", "植物": "plants/", "真菌": "fungi/" };  // 与后端 /cards /plants /fungi 对应
+  const u = p => { const [k, ...rest] = p.split("/"); return (PRE[k] || "cards/") + enc(PRE[k] ? rest.join("/") : p); };
+  return Object.assign(a, { card_png_url: u(a.card_png), card_pdf_url: u(a.card_pdf), thumb_url: a.thumb, avatar_url: a.avatar });
 }
 async function load() {
   try {
@@ -83,7 +90,7 @@ function clusterEl(c) {
   const top = Object.entries(cats).sort((x, y) => y[1] - x[1]).slice(0, 3);
   el.innerHTML = top.map(([k]) => `<span class="ring" style="background:${CAT[k].c}"></span>`).join("") + `<span>${c.items.length}</span>`;
   const names = [...new Set(c.items.map(m => m.a.name_zh))];
-  el.addEventListener("mouseenter", ev => tip(ev, `<b>${names.length} 种动物</b><br><small>${names.slice(0, 6).join("、")}${names.length > 6 ? "…" : ""}</small>`));
+  el.addEventListener("mouseenter", ev => tip(ev, `<b>${names.length} 种</b><br><small>${names.slice(0, 6).join("、")}${names.length > 6 ? "…" : ""}</small>`));
   el.addEventListener("mousemove", moveTip); el.addEventListener("mouseleave", hideTip);
   el.addEventListener("click", ev => {
     ev.stopPropagation(); hideTip();
@@ -117,6 +124,7 @@ function openAnimal(a, loc) {
   if (a.location_pending) review.push("位置待核");
   if (/待核/.test(a.range_text)) review.push("分布文字含待核");
   if (a.domestic) review.push("家养动物：标注为原产/驯化起源地");
+  if (a.cultivated) review.push("栽培种：标注为原产地/起源地，不是全部种植区");
   openPanel(`
     <div class="p-head"><span class="p-no">No.${String(a.number).padStart(3, "0")}</span>
       <span class="p-cat" style="--c:${c.c};--cl:${c.l}">${esc(a.category)}</span></div>
@@ -139,7 +147,7 @@ function openAnimal(a, loc) {
 }
 function openList(c) {
   const seen = new Set(), items = c.items.filter(m => !seen.has(m.a.id) && seen.add(m.a.id));
-  openPanel(`<div class="p-list"><h3>这里有 ${items.length} 种动物</h3>${items.map(m => `
+  openPanel(`<div class="p-list"><h3>这里有 ${items.length} 种</h3>${items.map(m => `
     <div class="item" data-id="${m.a.id}"><img src="${m.a.avatar_url}" style="--c:${CAT[m.a.category].c}" alt="">
     <div><b>${esc(m.a.name_zh)}</b><br><small>${esc(m.a.category)} · ${esc(m.l.label)}</small></div></div>`).join("")}</div>`);
   document.querySelectorAll(".p-list .item").forEach(el => el.addEventListener("click", () => openAnimal(state.byId[el.dataset.id])));
@@ -147,9 +155,9 @@ function openList(c) {
 function openAbout(ev) {
   ev && ev.preventDefault();
   openPanel(`<h3 style="margin:4px 0 8px">数据与来源</h3><div class="facts" style="padding:8px 10px;line-height:1.7">
-   <p>• 卡片内容来自本仓库 400 张动物卡（维基百科、IUCN 红色名录等，见每张卡的来源脚注）。</p>
+   <p>• 卡片内容来自本仓库 1000 张卡片（动物 760、植物 200、真菌 40；维基百科、IUCN 红色名录等，见每张卡的来源脚注）。</p>
    <p>• 标注位置由脚本根据卡片“分布”文字自动匹配：国家用 Natural Earth（公有领域）的国家标注点或按方位推算的国内点；大洲、海域、地理区用人工设定的大致中心点；少数（${state.animals.filter(a => a.location_method === "manual").length} 种）为人工补充并附来源。</p>
-   <p>• 所有标注都是<b>近似代表点</b>，不代表精确分布范围；家养动物标注的是原产地或驯化起源地；广泛分布的物种只放了几个代表点。</p>
+   <p>• 所有标注都是<b>近似代表点</b>，不代表精确分布范围；家养动物、栽培植物和栽培食用菌标注的是原产地或起源地；广泛分布的物种只放了几个代表点。</p>
    <p>• 数据由 AI 辅助整理，<b>需人工复核</b>。</p>
    <p>• 地球贴图：NASA Blue Marble（公有领域，取自 three-globe 示例）；3D 引擎：globe.gl / three.js（MIT）。</p></div>`);
 }
@@ -158,7 +166,14 @@ function openAbout(ev) {
 function chips() {
   const cc = {}, ic = {};
   state.animals.forEach(a => { cc[a.category] = (cc[a.category] || 0) + 1; ic[a.iucn] = (ic[a.iucn] || 0) + 1; });
-  $("#catChips").innerHTML = CATS.map(([n, c, l]) => `<button class="chip on" data-cat="${n}" style="--c:${c};--cl:${l}"><span class="dot"></span>${n}<span class="n">${cc[n] || 0}</span></button>`).join("");
+  const chip = ([n, c, l]) => `<button class="chip on" data-cat="${n}" style="--c:${c};--cl:${l}"><span class="dot"></span>${n}<span class="n">${cc[n] || 0}</span></button>`;
+  $("#catChips").innerHTML = KINGDOMS.map(([k, cs]) => `<div class="kg"><button class="kchip" data-kingdom="${k}" title="点击：只看${k}；再点：全部显示">${k}<span class="n">${cs.reduce((s, n) => s + (cc[n] || 0), 0)}</span></button>${CATS.filter(c => cs.includes(c[0])).map(chip).join("")}</div>`).join("");
+  document.querySelectorAll(".kchip").forEach(b => b.addEventListener("click", () => {
+    const cs = KINGDOMS.find(k => k[0] === b.dataset.kingdom)[1];
+    const only = cs.every(n => state.cats.has(n)) && state.cats.size === cs.length;
+    state.cats.clear(); (only ? CATS.map(c => c[0]) : cs).forEach(n => state.cats.add(n));
+    syncChips(); buildMarkers(); render();
+  }));
   const codes = Object.keys(IUCN).filter(k => ic[k]);
   codes.forEach(k => state.iucn.add(k));
   $("#iucnChips").innerHTML = codes.map(k => `<button class="chip on" data-iucn="${k}" style="--c:${IUCN[k][0]};--cl:#fff" title="${IUCN[k][1]}"><span class="dot"></span>${k}<span class="n">${ic[k]}</span></button>`).join("");

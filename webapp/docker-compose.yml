@@ -10,7 +10,7 @@ services:
     ports:
       - "${PUBLISH_PORT:-8000}:8000"
     volumes:
-      # 整个仓库只读挂载：卡片 PNG/PDF 直接从 动物/ 读取
+      # 整个仓库只读挂载：卡片 PNG/PDF 直接从 动物/、植物/、真菌/ 读取
       - ..:/repo:ro
       # 用挂载的最新数据/缩略图/前端覆盖镜像内的副本（git pull 后重启即可生效）
       - ./data:/app/webapp/data:ro

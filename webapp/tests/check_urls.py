@@ -1,4 +1,4 @@
-"""检查 API 返回 400 种动物，且每个卡片 PNG / PDF / 缩略图 URL 都能访问（HEAD 200）。
+"""检查 API 返回 1000 张卡片（动物+植物+真菌），且每个卡片 PNG / PDF / 缩略图 URL 都能访问（HEAD 200）。
 用法: python tests/check_urls.py [http://127.0.0.1:8000]"""
 import json, sys, urllib.request, concurrent.futures as cf
 base = (sys.argv[1] if len(sys.argv) > 1 else "http://127.0.0.1:8000").rstrip("/")
@@ -15,5 +15,5 @@ with cf.ThreadPoolExecutor(16) as ex:
 nloc = sum(len(a["locations"]) for a in items)
 print("urls checked:", len(urls), "bad:", len(bad), "| animals with markers:", sum(1 for a in items if a["locations"]), "markers:", nloc)
 for b in bad[:20]: print("BAD", b)
-assert d["count"] == 400 and not bad
+assert d["count"] == 1000 and not bad
 print("OK")

@@ -8,10 +8,13 @@
 import json, glob, os, re, math, sys, urllib.parse
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 sys.path.insert(0, HERE)
-from regions_manual import R, ALIAS, WIDE, WIDE_LAND, WIDE_SEA
+from regions_manual import R, ALIAS, WIDE, WIDE_LAND, WIDE_SEA, WIDE_TROPIC
 GAZ = json.load(open(os.path.join(HERE, "..", "data", "gazetteer_ne.json"), encoding="utf-8"))
 MANUAL = json.load(open(os.path.join(HERE, "..", "data", "locations_manual.json"), encoding="utf-8"))
-CATS = ["宠物", "农场", "高原草原", "森林", "海洋", "鸟类", "爬行两栖", "昆虫"]
+CATS = ["宠物", "农场", "高原草原", "森林", "海洋", "鸟类", "爬行两栖", "昆虫",
+        "花卉", "树木", "农作物", "水果蔬菜", "沙漠植物", "水生植物", "蘑菇", "霉菌酵母"]
+KINGDOMS = {"动物": CATS[:8], "植物": CATS[8:14], "真菌": CATS[14:]}
+SEAGRASS = {"eelgrass", "posidonia"}  # 海草：按海域定位
 NONNATIVE = re.compile(r"引入|引种|养殖|入侵|传到|遍布|已被|现已|饲养|栽培|驯化后|随人类|带到|扩散到")
 names = {}
 for k, v in GAZ.items(): names[k] = (v["lat"], v["lon"], "land", "Natural Earth 国家标注点")
@@ -55,8 +58,10 @@ def wiki_url(sources):
 out, stats = [], {"total": 0, "from_range_text": 0, "manual": 0, "wide": 0, "pending": 0}
 for f in sorted(glob.glob(os.path.join(ROOT, "tools", "data", "*.json"))):
     d = json.load(open(f, encoding="utf-8")); aid = os.path.basename(f)[:-5]
-    rng = d.get("range", ""); cat = d["cat"]; marine = cat == "海洋" or d.get("type") == "水中" and cat == "海洋"
-    segs = [s for s in re.split(r"[；;。，,]", rng) if s.strip()]
+    rng = d.get("range", ""); cat = d["cat"]; marine = cat == "海洋" or aid in SEAGRASS
+    kingdom = d.get("kingdom", "动物")
+    rng_n = re.sub(r"（[^）]*引入[^）]*）", "", rng)  # 括号里的“重引入点”不影响原生地名
+    segs = [s for s in re.split(r"[；;。，,]", rng_n) if s.strip()]
     native = [s for s in segs if not NONNATIVE.search(s)] or []
     locs, method, note = [], None, ""
     if aid in MANUAL:
@@ -78,29 +83,39 @@ for f in sorted(glob.glob(os.path.join(ROOT, "tools", "data", "*.json"))):
             locs.append({"lat": la, "lon": lo, "label": label, "approx": True, "kind": basis})
             if len(locs) == 3: break
         if locs: method = "range_text"; note = rng
+        elif not marine and "热带" in rng and "温带" not in rng:
+            method = "wide"; note = "热带广泛分布：" + rng
+            for la, lo, lab in WIDE_TROPIC:
+                locs.append({"lat": la, "lon": lo, "label": lab, "approx": True, "kind": "热带广泛分布代表点"})
         elif any(w in rng for w in WIDE):
             method = "wide"; note = "广泛分布：" + rng
             for la, lo, lab in (WIDE_SEA if marine else WIDE_LAND):
                 locs.append({"lat": la, "lon": lo, "label": lab, "approx": True, "kind": "广泛分布代表点"})
-    domestic = "家养" in d["iucn"].get("sub", "")
+    sub = d["iucn"].get("sub", "")
+    domestic = "家养" in sub
+    cultivated = "栽培" in sub  # 栽培植物 / 栽培食用菌：点位表示原产地或起源，不是全部种植区
     if domestic and method == "wide":  # 家养动物不能用“全世界”代替驯化起源
         note = "驯化起源待核；" + rng
     if domestic and method == "range_text":
         note = "原产地/驯化起源（据卡片分布文字）：" + rng
-    pending = method is None or (domestic and method == "wide")
+    if cultivated and method == "range_text":
+        note = "原产地/起源（据卡片分布文字；现已广泛栽培）：" + rng
+    if cultivated and method == "wide":
+        note = "广泛栽培，原产地待核；" + rng
+    pending = method is None or ((domestic or cultivated) and method == "wide")
     stats["total"] += 1; stats[{"range_text": "from_range_text", "manual": "manual", "wide": "wide", None: "pending"}[method]] += 1
-    stats["pending_flag"] = stats.get("pending_flag", 0) + (1 if (method is None or (domestic and method == "wide")) else 0)
-    folder = f"动物/{cat}/{d['file']}"
+    stats["pending_flag"] = stats.get("pending_flag", 0) + (1 if pending else 0)
+    folder = f"{kingdom}/{cat}/{d['file']}"
     out.append({"id": aid, "number": int(d["no"]), "name_zh": d["name_cn"], "name_en": d["name_en"], "latin": d["latin"],
-                "category": cat, "iucn": d["iucn"]["code"], "iucn_note": d["iucn"].get("sub", ""), "range_text": rng,
+                "kingdom": kingdom, "category": cat, "iucn": d["iucn"]["code"], "iucn_note": d["iucn"].get("sub", ""), "range_text": rng,
                 "diet": d.get("diet", ""), "intro": d.get("intro", []), "fact": d.get("fact", ""),
                 "locations": locs, "range_note": note or "待核：卡片分布文字中没有可定位的地名", "location_method": method or "pending",
-                "location_pending": pending, "domestic": domestic, "source": src, "sources_card": d.get("sources", []),
+                "location_pending": pending, "domestic": domestic, "cultivated": cultivated, "source": src, "sources_card": d.get("sources", []),
                 "card_png": folder + ".png", "card_pdf": folder + ".pdf",
                 "thumb": f"thumbs/{aid}_400.webp", "avatar": f"thumbs/{aid}_120.webp"})
 out.sort(key=lambda a: a["number"])
-meta = {"generated_by": "webapp/scripts/build_data.py", "count": len(out), "stats": stats, "categories": CATS,
-        "note": "位置为根据卡片分布文字匹配的国家/区域代表点（近似），由 AI 辅助生成，需人工复核。"}
+meta = {"generated_by": "webapp/scripts/build_data.py", "count": len(out), "stats": stats, "categories": CATS, "kingdoms": KINGDOMS,
+        "note": "位置为根据卡片分布文字匹配的国家/区域代表点（近似）；栽培植物/食用菌标的是原产地或起源，微生物多为“广泛分布”代表点，由 AI 辅助生成，需人工复核。"}
 json.dump({"meta": meta, "animals": out}, open(os.path.join(HERE, "..", "data", "animals.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(stats)
 for a in out:

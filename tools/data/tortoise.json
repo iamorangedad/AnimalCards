@@ -1,0 +1,77 @@
+{
+ "file": "加拉帕戈斯象龟",
+ "no": "091",
+ "cat": "爬行两栖",
+ "name_cn": "加拉帕戈斯象龟",
+ "name_en": "Galápagos tortoise",
+ "latin": "Chelonoidis niger",
+ "short": "加拉帕戈斯象龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、低矮植物和仙人掌",
+ "iucn": {
+  "code": "VU",
+  "sub": "各亚种≥VU",
+  "cn": "至少易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "272–317 kg",
+   "lo": 272,
+   "hi": 317,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "1.87 m",
+   "lo": 1.87,
+   "hi": 1.87,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "100 年以上",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "步行速度",
+   "value": "约 0.3 km/h",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级长寿",
+   "icon": "huddle",
+   "desc": "野外能活 100 多年，饲养的最长 177 年。"
+  },
+  {
+   "name": "马鞍形壳",
+   "icon": "climb",
+   "desc": "干旱岛上的象龟背甲呈马鞍形、脖子长，能伸高吃仙人掌。"
+  }
+ ],
+ "intro": [
+  "加拉帕戈斯象龟是现存最大的陆龟，也是最大的现存冷血陆地动物。",
+  "它原产加拉帕戈斯群岛的七个岛屿，不同岛上的象龟长得不一样。",
+  "它代谢很慢，早上先晒 1–2 小时太阳再去觅食。"
+ ],
+ "fact": "平塔岛亚种的最后一只“孤独的乔治”2012 年死去，该亚种灭绝。",
+ "range": "厄瓜多尔加拉帕戈斯群岛。",
+ "sources": [
+  "Wikipedia「Galápagos tortoise」"
+ ],
+ "footnote": "IUCN 按亚种分别评估，存活亚种均至少易危，故标 VU（待核）。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "科莫多巨蜥",
+ "no": "087",
+ "cat": "爬行两栖",
+ "name_cn": "科莫多巨蜥",
+ "name_en": "Komodo dragon",
+ "latin": "Varanus komodoensis",
+ "short": "科莫多巨蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "爱吃鹿和野猪，也吃腐肉",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "野外体重",
+   "value": "约 70 kg",
+   "lo": 70,
+   "hi": 70,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雄性最长",
+   "value": "3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "冲刺速度",
+   "value": "20 km/h",
+   "lo": 20,
+   "hi": 20,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级嗅觉",
+   "icon": "whisker",
+   "desc": "借着顺风、边走边左右摆头，它可能在 4–9.5 km 外闻到腐肉的气味。"
+  },
+  {
+   "name": "锯齿牙",
+   "icon": "roar",
+   "desc": "它有约 60 颗经常更换的锯齿状牙齿，最长 2.5 cm，每 40 天就换一次。"
+  }
+ ],
+ "intro": [
+  "科莫多巨蜥是现存最大的蜥蜴，只生活在印度尼西亚的几个岛上。",
+  "小巨蜥会爬树，吃昆虫、鸟蛋和小爬行动物；长大后改吃鹿、野猪甚至水牛。",
+  "它白天视力很好，能看到 300 m 外的东西，但夜视能力差。"
+ ],
+ "fact": "动物园里的雌性科莫多巨蜥曾在没有雄性的情况下产下能孵化的蛋。",
+ "range": "印度尼西亚的科莫多岛、林卡岛、弗洛勒斯岛等岛屿。",
+ "sources": [
+  "Wikipedia「Komodo dragon」",
+  "IUCN 红色名录（Jessop et al. 2021）"
+ ],
+ "footnote": "也有估计认为它能活到 62 年。"
+}

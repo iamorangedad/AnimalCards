@@ -1,0 +1,77 @@
+{
+ "file": "眼镜王蛇",
+ "no": "089",
+ "cat": "爬行两栖",
+ "name_cn": "眼镜王蛇",
+ "name_en": "King cobra",
+ "latin": "Ophiophagus hannah",
+ "short": "眼镜王蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃其他蛇和蜥蜴",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "成年体长",
+   "value": "3.18–4 m",
+   "lo": 3.18,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "5.85 m",
+   "lo": 5.85,
+   "hi": 5.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "66–105 天",
+   "lo": 66,
+   "hi": 105,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会筑巢的蛇",
+   "icon": "huddle",
+   "desc": "它是唯一在地面上筑巢产卵的蛇，雌蛇会守护巢穴整个孵化期。"
+  },
+  {
+   "name": "竖身警告",
+   "icon": "roar",
+   "desc": "受威胁时会张开颈部皮褶、抬高头部、发出嘶嘶声，有时还会冲过来。"
+  }
+ ],
+ "intro": [
+  "眼镜王蛇是世界上最长的毒蛇，也是最重的毒蛇之一。",
+  "虽然叫“眼镜王蛇”，它其实不是真正的眼镜蛇属。",
+  "它是顶级捕食者，除了大蟒蛇，比其他蛇都厉害。"
+ ],
+ "fact": "它的巢通常筑在树根旁，中间高可达 55 cm，底部宽 140 cm。",
+ "range": "亚洲：从印度、尼泊尔到中国南方、东南亚和菲律宾。",
+ "sources": [
+  "Wikipedia「King cobra」",
+  "IUCN 红色名录（Stuart et al. 2012）"
+ ],
+ "footnote": ""
+}

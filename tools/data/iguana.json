@@ -1,0 +1,77 @@
+{
+ "file": "绿鬣蜥",
+ "no": "092",
+ "cat": "爬行两栖",
+ "name_cn": "绿鬣蜥",
+ "name_en": "Green iguana",
+ "latin": "Iguana iguana",
+ "short": "绿鬣蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "1.2–1.7 m",
+   "lo": 1.2,
+   "hi": 1.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "约 4 kg",
+   "lo": 4,
+   "hi": 4,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "产卵",
+   "value": "20–71 枚",
+   "lo": 20,
+   "hi": 71,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "适宜温度",
+   "value": "26–35 °C",
+   "lo": 26,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高处跳落",
+   "icon": "flip",
+   "desc": "它是爬树高手，能从 15 m 高处掉下而不受伤，落下时用后爪抓树叶树枝减速。"
+  },
+  {
+   "name": "喉垂",
+   "icon": "camo",
+   "desc": "它有发达的喉垂，能帮助调节体温，也用于求偶和宣示领地。"
+  }
+ ],
+ "intro": [
+  "绿鬣蜥是大型树栖蜥蜴，可能是鬣蜥科里最大的种类。",
+  "尾巴占了身体的大部分，头到臀只有 30–42 cm。",
+  "它也很会挖洞，洞深 0.3–2.4 m。"
+ ],
+ "fact": "曾有绿鬣蜥抱着倒下的树，在海上漂了 320 km，从瓜德罗普漂到另一个岛。",
+ "range": "美洲：从墨西哥到巴西南部和巴拉圭。",
+ "sources": [
+  "Wikipedia「Green iguana」",
+  "IUCN 红色名录（Bock et al. 2022）"
+ ],
+ "footnote": "适宜温度为饲养建议。"
+}

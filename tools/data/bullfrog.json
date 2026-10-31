@@ -1,0 +1,78 @@
+{
+ "file": "美洲牛蛙",
+ "no": "093",
+ "cat": "爬行两栖",
+ "name_cn": "美洲牛蛙",
+ "name_en": "American bullfrog",
+ "latin": "Aquarana catesbeiana",
+ "short": "美洲牛蛙",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "什么动物都能吃",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "9–15 cm",
+   "lo": 0.09,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "约 500 g",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "产卵",
+   "value": "1000–40000 枚",
+   "lo": 1000,
+   "hi": 40000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "最长约 8–10 年",
+   "lo": 8,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "牛叫声",
+   "icon": "roar",
+   "desc": "繁殖季节雄蛙的叫声像牛叫，所以叫“牛蛙”。"
+  },
+  {
+   "name": "大胃王",
+   "icon": "jar",
+   "desc": "它是什么都吃的捕食者，舌头一弹、强有力的嘴一咬，能抓住又大又壮的猎物。"
+  }
+ ],
+ "intro": [
+  "美洲牛蛙原产北美洲东部，是北美最大的真蛙。",
+  "它被引入中国、日本、韩国、南美等地。",
+  "在引入地，它因为能吃、产卵多，被视为危害本地动物的入侵物种。"
+ ],
+ "fact": "蝌蚪变成蛙的时间，在南方只要几个月，在寒冷的北方可长达 3 年。",
+ "range": "原产北美洲东部；已被引入世界多地。",
+ "sources": [
+  "Wikipedia「American bullfrog」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "饲养条件下曾活近 16 年。"
+}

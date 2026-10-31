@@ -1,0 +1,78 @@
+{
+ "file": "网纹蟒",
+ "no": "090",
+ "cat": "爬行两栖",
+ "name_cn": "网纹蟒",
+ "name_en": "Reticulated python",
+ "latin": "Malayopython reticulatus",
+ "short": "网纹蟒",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃哺乳动物，偶尔吃鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "野外体长",
+   "value": "1.5–6.5 m",
+   "lo": 1.5,
+   "hi": 6.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外体重",
+   "value": "1–75 kg",
+   "lo": 1,
+   "hi": 75,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "15–80 枚",
+   "lo": 15,
+   "hi": 80,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "平均 88 天",
+   "lo": 88,
+   "hi": 88,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "缠绕绞杀",
+   "icon": "huddle",
+   "desc": "它没有毒，靠缠绕绞杀猎物，能吞下和自己一样重的猎物。"
+  },
+  {
+   "name": "游泳健将",
+   "icon": "dive",
+   "desc": "它是游泳高手，曾在远离海岸的海上被发现。"
+  }
+ ],
+ "intro": [
+  "网纹蟒是亚洲最大的蛇，原产南亚和东南亚。",
+  "它是唯一经常超过 6 m 长的现存蛇类。",
+  "拉丁名 reticulatus 意思是“网状的”，指它身上复杂的花纹。"
+ ],
+ "fact": "一条 6.95 m 长的网纹蟒吞下一只 23 kg 的马来熊，消化了约 10 周。",
+ "range": "南亚和东南亚，常在河流、湖泊附近。",
+ "sources": [
+  "Wikipedia「Reticulated python」",
+  "IUCN 红色名录（Stuart et al. 2018）"
+ ],
+ "footnote": "体长、体重为苏门答腊南部野生个体范围。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 84 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14）。
+共 95 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14，爬行两栖 11）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -92,6 +92,17 @@
 | 082 | 大天鹅（Whooper swan） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.pdf) |
 | 083 | 蓝黄金刚鹦鹉（Blue-and-yellow macaw） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.pdf) |
 | 084 | 原鸽（Rock dove） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.pdf) |
+| 085 | 扬子鳄（Chinese alligator） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%89%AC%E5%AD%90%E9%B3%84.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%89%AC%E5%AD%90%E9%B3%84.pdf) |
+| 086 | 尼罗鳄（Nile crocodile） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B0%BC%E7%BD%97%E9%B3%84.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B0%BC%E7%BD%97%E9%B3%84.pdf) |
+| 087 | 科莫多巨蜥（Komodo dragon） | 爬行两栖 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%B7%A8%E8%9C%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%B7%A8%E8%9C%A5.pdf) |
+| 088 | 高冠变色龙（Veiled chameleon） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%AB%98%E5%86%A0%E5%8F%98%E8%89%B2%E9%BE%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%AB%98%E5%86%A0%E5%8F%98%E8%89%B2%E9%BE%99.pdf) |
+| 089 | 眼镜王蛇（King cobra） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%9C%BC%E9%95%9C%E7%8E%8B%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%9C%BC%E9%95%9C%E7%8E%8B%E8%9B%87.pdf) |
+| 090 | 网纹蟒（Reticulated python） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BD%91%E7%BA%B9%E8%9F%92.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BD%91%E7%BA%B9%E8%9F%92.pdf) |
+| 091 | 加拉帕戈斯象龟（Galápagos tortoise） | 爬行两栖 | VU 至少易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%8A%A0%E6%8B%89%E5%B8%95%E6%88%88%E6%96%AF%E8%B1%A1%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%8A%A0%E6%8B%89%E5%B8%95%E6%88%88%E6%96%AF%E8%B1%A1%E9%BE%9F.pdf) |
+| 092 | 绿鬣蜥（Green iguana） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BB%BF%E9%AC%A3%E8%9C%A5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BB%BF%E9%AC%A3%E8%9C%A5.pdf) |
+| 093 | 美洲牛蛙（American bullfrog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E6%B4%B2%E7%89%9B%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E6%B4%B2%E7%89%9B%E8%9B%99.pdf) |
+| 094 | 中国大鲵（Chinese giant salamander） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%B2%B5.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%B2%B5.pdf) |
+| 095 | 美西钝口螈（Axolotl） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E8%A5%BF%E9%92%9D%E5%8F%A3%E8%9E%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BE%8E%E8%A5%BF%E9%92%9D%E5%8F%A3%E8%9E%88.pdf) |
 
 ## 说明
 

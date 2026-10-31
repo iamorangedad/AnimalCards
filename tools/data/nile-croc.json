@@ -1,0 +1,78 @@
+{
+ "file": "尼罗鳄",
+ "no": "086",
+ "cat": "爬行两栖",
+ "name_cn": "尼罗鳄",
+ "name_en": "Nile crocodile",
+ "latin": "Crocodylus niloticus",
+ "short": "尼罗鳄",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、爬行动物、鸟和哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "雄性体长",
+   "value": "3.5–5 m",
+   "lo": 3.5,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "225–750 kg",
+   "lo": 225,
+   "hi": 750,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "游泳速度",
+   "value": "最快 30–35 km/h",
+   "lo": 30,
+   "hi": 35,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "牙齿",
+   "value": "64–68 颗",
+   "lo": 64,
+   "hi": 68,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "死亡之咬",
+   "icon": "roar",
+   "desc": "和其他鳄一样，它的咬合力极强，圆锥形尖牙一咬住几乎不可能挣脱。"
+  },
+  {
+   "name": "换牙",
+   "icon": "flip",
+   "desc": "在一生大部分时间里，断掉的牙都能重新长出来。"
+  }
+ ],
+ "intro": [
+  "尼罗鳄是非洲淡水中的大型鳄，分布在 26 个国家。",
+  "它是非洲最大的捕食者，可能是世界第二大的爬行动物，仅次于湾鳄。",
+  "肯尼亚的图尔卡纳湖有最大的未受干扰的尼罗鳄种群之一。"
+ ],
+ "fact": "精确测量过的最大雄性尼罗鳄长 6.45 m，重约 1043–1089 kg。",
+ "range": "非洲的河流、湖泊和沼泽。",
+ "sources": [
+  "Wikipedia「Nile crocodile」",
+  "IUCN 红色名录（Isberg et al. 2019）"
+ ],
+ "footnote": "雌性体长 2.2–3.8 m、体重 40–250 kg。"
+}

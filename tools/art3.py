@@ -309,3 +309,162 @@ def a_pigeon(w, h):
 
 ART3.update({"bald-eagle": a_baldeagle, "barn-owl": a_barnowl, "ostrich": a_ostrich, "flamingo": a_flamingo, "peafowl": a_peafowl, "crane": a_crane,
              "hummingbird": a_hummingbird, "magpie": a_magpie, "sparrow": a_sparrow, "woodpecker": a_woodpecker, "swan": a_swan, "macaw": a_macaw, "pigeon": a_pigeon})
+
+
+# ---------------------------------------------------------------- reptiles & amphibians
+def lizard(F, L=300, H=60, tail=1.0, snout=70, sh=34, belly=None, scutes=None, crest=None, dewlap=None, casque=None, eye_top=False, legs=26, legh=40,
+           spots=None, gills=None, flat=False, fin=None, curl=False, toes=True, eye_col=INK, smile=False):
+    o = []
+    x0, x1 = -L / 2, L / 2
+    yb = -legh * .6
+    yt = yb - H
+    tl = L * tail
+    farc = darker(F, .85)
+    # far legs
+    for x in (x0 + L * .22, x1 - L * .18):
+        o.append(P(f"M{x+10} {yb-H*.3} l-14 {legh*.5} l-14 {legh*.5}", sw=legs * .8 + 5) + P(f"M{x+10} {yb-H*.3} l-14 {legh*.5} l-14 {legh*.5}", sw=legs * .8, col=farc))
+    # tail
+    if curl:
+        td = f"M{x1-10} {yt+H*.2} C{x1+tl*.6} {yt} {x1+tl*.7} {yb+H*.6} {x1+tl*.4} {yb+H*.2} C{x1+tl*.25} {yb} {x1+tl*.4} {yb-H*.5} {x1+tl*.5} {yb-H*.2}"
+        o.append(P(td, sw=H * .5 + 5) + P(td, sw=H * .5, col=F))
+    else:
+        o.append(P(f"M{x1-20} {yt+H*.1} C{x1+tl*.4} {yt+H*.4} {x1+tl*.8} {yb} {x1+tl} {yb+H*.2} C{x1+tl*.7} {yb+H*.3} {x1+tl*.3} {yb+H*.2} {x1-20} {yb} Z", F))
+        if fin:
+            o.append(P(f"M{x0+L*.1} {yt+4} C{x1} {yt-H*.6} {x1+tl*.6} {yb-H*.2} {x1+tl} {yb+H*.2} C{x1+tl*.5} {yb+H*.6} {x1} {yb+H*.5} {x0+L*.3} {yb+4}", fin, 2.4, extra='fill-opacity=".7"'))
+    # body
+    body = f"M{x0} {yt+H*.2} C{x0+L*.1} {yt-H*.1} {x1-L*.1} {yt-H*.1} {x1} {yt+H*.2} C{x1+6} {yb-H*.2} {x1-L*.1} {yb+4} {x1-L*.3} {yb+4} L{x0+L*.2} {yb+4} C{x0} {yb} {x0-6} {yb-H*.3} {x0} {yt+H*.2} Z"
+    inner = ""
+    if belly:
+        inner += R(x0 - 20, yb - H * .25, L + 40, H * .5, belly, 0, 0, "none")
+    if spots:
+        inner += "".join(E(x0 + 20 + (i * 41) % int(L - 30), yt + 10 + (i * 17) % int(H * .6), 9, 6, spots, 0) for i in range(18))
+    if scutes:
+        inner += "".join(P(f"M{x0+20+i*26} {yt-4} l8 -10 l8 10", scutes, 2) for i in range(int(L / 26) - 1))
+        inner += "".join(P(f"M{x0+10} {yt+12+j*12} H{x1}", sw=1.6, col=darker(F, .7)) for j in range(3))
+    o.append(P(body, F) + (clip(body, inner) if inner else "") + P(body, "none"))
+    if scutes:
+        o.append("".join(poly([(x0 + 24 + i * 26, yt + 2), (x0 + 32 + i * 26, yt - 10), (x0 + 40 + i * 26, yt + 2)], scutes, 2.2) for i in range(int(L / 26) - 1)))
+    if crest:
+        o.append("".join(poly([(x0 + 10 + i * 18, yt + 4), (x0 + 18 + i * 18, yt - 18 + (i % 2) * 6), (x0 + 26 + i * 18, yt + 4)], crest, 2.2) for i in range(int(L / 18))))
+    # head
+    hx, hy = x0 - snout * .35, yt + H * .45
+    hd = f"M{x0+20} {yt+H*.05} C{x0-10} {yt-sh*.3} {x0-snout*.6} {hy-sh*.6} {x0-snout} {hy-sh*.2} L{x0-snout} {hy+sh*.35} C{x0-snout*.6} {hy+sh*.6} {x0} {yb} {x0+20} {yb}"
+    if casque:
+        o.append(P(f"M{x0+20} {yt+H*.1} C{x0+10} {yt-casque} {x0-snout*.2} {yt-casque*1.1} {x0-snout*.45} {hy-sh*.5} Z", F, 2.8))
+    o.append(P(hd + " Z", F))
+    if dewlap:
+        o.append(P(f"M{x0-snout*.3} {hy+sh*.45} C{x0-snout*.2} {hy+sh*1.6} {x0+10} {hy+sh*1.5} {x0+20} {yb-4} Z", dewlap, 2.6))
+    if gills:
+        for k, a in enumerate((-50, -20, 10)):
+            gx, gy = x0 + 6, yt + 6 + k * 10
+            d = f"M{gx} {gy} q{-6+k*4} -30 {10+k*6} -50"
+            o.append(P(d, sw=12) + P(d, sw=7, col=gills))
+    ey = (yt - 4) if eye_top else (hy - sh * .25)
+    ex = x0 - snout * .25
+    if eye_top:
+        o.append(E(ex, ey, 14, 11, F))
+    o.append(C(ex, ey, 7, "#f2e28a" if eye_col == INK else "#fff", 2) + C(ex, ey, 3.5, INK, 0))
+    if smile:
+        o.append(P(f"M{x0-snout+4} {hy+sh*.15} C{x0-snout*.5} {hy+sh*.45} {x0-snout*.2} {hy+sh*.4} {x0+2} {hy+sh*.1}", sw=2.6))
+    else:
+        o.append(P(f"M{x0-snout+4} {hy+sh*.12} L{x0+6} {hy+sh*.15}", sw=2.4))
+    # near legs
+    for x in (x0 + L * .18, x1 - L * .22):
+        d = f"M{x} {yb-H*.3} l-18 {legh*.5} l-12 {legh*.5}"
+        o.append(P(d, sw=legs + 5) + P(d, sw=legs, col=F))
+        if toes:
+            o.append(P(f"M{x-30} 0 l-14 0 M{x-30} 0 l-10 -8 M{x-30} 0 l6 0", sw=3))
+    return "".join(o)
+
+
+def a_cnalligator(w, h):
+    a = lizard("#5f6650", L=300, H=56, tail=.95, snout=86, sh=26, belly="#c9c6a6", scutes="#4a5040", legs=22, legh=30)
+    return scene("wetland", w, h, a, box=(w / 2, h * .78, 620, 260))
+
+
+def a_nilecroc(w, h):
+    a = lizard("#7f8a5a", L=340, H=62, tail=1.0, snout=110, sh=26, belly="#e1dcb0", scutes="#5f6a44", legs=24, legh=30)
+    teeth = "".join(poly([(-170 - 110 + 14 + i * 14, -76 + 2), (-170 - 110 + 20 + i * 14, -70), (-170 - 110 + 26 + i * 14, -76 + 2)], "#fff", 1.4) for i in range(5))
+    return scene("wetland", w, h, a + teeth, box=(w / 2, h * .78, 640, 260))
+
+
+def a_komodo(w, h):
+    a = lizard("#8a7a60", L=300, H=70, tail=.9, snout=80, sh=34, belly="#b8a98a", legs=28, legh=50)
+    return scene("savanna", w, h, a, box=(w / 2, h * .78, 620, 280))
+
+
+def a_chameleon(w, h):
+    a = lizard("#7cbf5a", L=160, H=70, tail=1.1, snout=40, sh=40, casque=70, curl=True, legs=14, legh=46, spots="#e9d86a", eye_top=True, toes=False)
+    return scene("rainforest", w, h, branch(-180, 200, 4, 12) + a, box=(w / 2, h * .66, 440, 360))
+
+
+def snake_coil(F, pat=None, hood=False, L=1.0):
+    o = []
+    for r, y in ((150, -30), (120, -60)):
+        o.append(E(0, y, r * L, 34 * L, F, 3))
+        if pat:
+            o.append("".join(P(f"M{math.cos(a)*r*L:.0f} {y+math.sin(a)*34*L:.0f} l4 -8", sw=6, col=pat) for a in [i * .5 for i in range(13)]))
+    neck = f"M-60 -80 C-80 -160 -40 -220 -70 -280"
+    o.append(P(neck, sw=50 * L + 6) + P(neck, sw=50 * L, col=F))
+    if hood:
+        o.append(P("M-70 -300 C-150 -300 -150 -200 -76 -170 C-0 -200 10 -300 -70 -300 Z", F, 3) + P("M-70 -290 C-110 -280 -110 -220 -74 -196 C-40 -220 -36 -280 -70 -290 Z", darker(F, .85), 0))
+    o.append(E(-80, -300, 40, 26, F) + C(-100, -306, 5, INK, 0) + P("M-118 -296 l-26 2 l-8 -6 M-144 -294 l-8 6", sw=2.6, col="#e2483c"))
+    return "".join(o)
+
+
+def a_kingcobra(w, h):
+    return scene("rainforest", w, h, snake_coil("#6a6a3a", pat="#e9d86a", hood=True), box=(w / 2, h * .76, 440, 420))
+
+
+def a_python(w, h):
+    F = "#a68a4a"
+    d = "M260 -20 C180 -40 140 20 60 0 C-20 -20 -40 -80 -120 -60 C-180 -46 -200 -20 -250 -30"
+    o = P(d, sw=58) + P(d, sw=52, col=F)
+    o += "".join(P(d, sw=46, col="#5a4a2a", extra=f'stroke-dasharray="14 40" stroke-dashoffset="{k}"') for k in (0,))
+    o += P(d, sw=10, col="#d9c38a", extra='stroke-dasharray="20 34"')
+    o += E(-270, -34, 40, 22, F) + C(-290, -42, 5, INK, 0) + P("M-306 -30 l-24 2 l-8 -6 M-330 -28 l-8 6", sw=2.6, col="#e2483c")
+    return scene("rainforest", w, h, o, box=(w / 2, h * .76, 640, 220))
+
+
+def a_tortoise(w, h):
+    t = turtle(shell="#6b6a5a", skin="#9a9480", L=320, H=170, scute="#5a594a", neck=70, plastron="#8a8470")
+    return scene("savanna", w, h, t, box=(w / 2, h * .76, 560, 300))
+
+
+def a_iguana(w, h):
+    a = lizard("#6fae5a", L=220, H=60, tail=1.6, snout=60, sh=34, crest="#5a9a4a", dewlap="#8fc86a", legs=18, legh=40, belly="#a9d48a")
+    return scene("rainforest", w, h, branch(-260, 260, 4, 12) + a, box=(w / 2, h * .66, 620, 300))
+
+
+def frog(F, belly, spots=None):
+    o = []
+    o.append(P("M100 -10 C160 -10 170 -60 120 -80 C90 -90 60 -50 60 -20 Z", darker(F, .9)))  # hind leg thigh
+    o.append(P("M120 -8 l60 4 l-50 -12", sw=8, col=INK) + P("M110 -4 l70 4", sw=10, col=darker(F, .9)))
+    body = "M-140 -60 C-140 -150 60 -160 120 -80 C150 -40 110 0 40 0 L-90 0 C-130 0 -140 -30 -140 -60 Z"
+    inner = E(-40, -10, 120, 30, belly, 0)
+    if spots:
+        inner += "".join(E(-80 + (i * 47) % 200, -110 + (i * 23) % 60, 12, 8, spots, 0) for i in range(8))
+    o.append(P(body, F) + clip(body, inner) + P(body, "none"))
+    o.append(C(-100, -130, 26, F) + C(-100, -130, 15, "#f2e28a", 2) + E(-100, -130, 9, 5, INK, 0))
+    o.append(C(-40, -108, 22, darker(F, .85), 2.6) + C(-40, -108, 10, darker(F, .7), 0))  # eardrum
+    o.append(P("M-136 -70 C-100 -50 -60 -56 -30 -70", sw=2.6))
+    o.append(P("M-60 -20 l-14 20 M-74 0 l-14 0 M-74 0 l-4 -6 M-74 0 l8 0", sw=8, col=F) + P("M-88 0 l-12 0 M-74 0 l10 0", sw=3))
+    return "".join(o)
+
+
+def a_bullfrog(w, h):
+    return scene("pond", w, h, frog("#6f9a4a", "#efe8c8", spots="#4f7a3a"), box=(w / 2 - 20, h * .76, 420, 240))
+
+
+def a_giantsal(w, h):
+    a = lizard("#6a5a44", L=300, H=46, tail=.8, snout=50, sh=34, spots="#4a3e30", legs=20, legh=22, fin="#6a5a44", smile=True)
+    return scene("pond", w, h, a, box=(w / 2, h * .76, 600, 220))
+
+
+def a_axolotl(w, h):
+    a = lizard("#f6c3cf", L=200, H=54, tail=.9, snout=34, sh=40, gills="#e86a8a", legs=12, legh=26, fin="#fbe1e7", smile=True, eye_col="k", toes=False)
+    return scene("tank", w, h, a, box=(w / 2, 400, 440, 220))
+
+
+ART3.update({"cn-alligator": a_cnalligator, "nile-croc": a_nilecroc, "komodo": a_komodo, "chameleon": a_chameleon, "king-cobra": a_kingcobra,
+             "python": a_python, "tortoise": a_tortoise, "iguana": a_iguana, "bullfrog": a_bullfrog, "giant-salamander": a_giantsal, "axolotl": a_axolotl})

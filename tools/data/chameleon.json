@@ -1,0 +1,77 @@
+{
+ "file": "高冠变色龙",
+ "no": "088",
+ "cat": "爬行两栖",
+ "name_cn": "高冠变色龙",
+ "name_en": "Veiled chameleon",
+ "latin": "Chamaeleo calyptratus",
+ "short": "高冠变色龙",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "雄性全长",
+   "value": "43–61 cm",
+   "lo": 0.43,
+   "hi": 0.61,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "4–8 年",
+   "lo": 4,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "每次 30–95 枚",
+   "lo": 30,
+   "hi": 95,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "适宜温度",
+   "value": "24–35 °C",
+   "lo": 24,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变色",
+   "icon": "camo",
+   "desc": "它会因攻击、社会地位、繁殖和紧张等原因改变体色。"
+  },
+  {
+   "name": "高高头冠",
+   "icon": "climb",
+   "desc": "雌雄头上都有“盔冠”，随年龄长大，最大可达约 5 cm 高。"
+  }
+ ],
+ "intro": [
+  "高冠变色龙原产阿拉伯半岛西南部的也门和沙特阿拉伯。",
+  "刚孵出的小变色龙是淡绿色的，长大后才出现条纹和其他颜色。",
+  "受惊的小变色龙会掉到地上，变成鲜红色。"
+ ],
+ "fact": "它的胚胎会在蛋里“休眠” 60–75 天，等土壤温度升高才开始发育。",
+ "range": "阿拉伯半岛西南部（也门、沙特阿拉伯）。",
+ "sources": [
+  "Wikipedia「Veiled chameleon」",
+  "IUCN 红色名录（Wilms et al. 2012）"
+ ],
+ "footnote": "雌性较短，不超过约 35 cm；一年可产卵三次。"
+}

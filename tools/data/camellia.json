@@ -1,0 +1,79 @@
+{
+ "file": "山茶",
+ "no": "772",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "山茶",
+ "name_en": "Common camellia",
+ "latin": "Camellia japonica",
+ "short": "山茶",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "6–10 cm",
+   "lo": 0.06,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花瓣",
+   "value": "6–7 片",
+   "lo": 6,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "300–1100 m",
+   "lo": 300,
+   "hi": 1100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "宋代品种",
+   "value": "15 个",
+   "lo": 15,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鸟来传粉",
+   "icon": "bee",
+   "desc": "日本绣眼鸟会为山茶传粉。"
+  },
+  {
+   "name": "冬天开花",
+   "icon": "cold",
+   "desc": "别名“耐冬”；冬季到早春开花。"
+  }
+ ],
+ "intro": [
+  "山茶原产中国和日本。",
+  "它是东亚传统观赏花，在“十大名花”中排第七。",
+  "种子可以榨油。"
+ ],
+ "fact": "它是重庆、青岛、昆明、宁波等许多城市的市花。",
+ "range": "中国、日本、朝鲜半岛南部。",
+ "sources": [
+  "Wikipedia「Camellia japonica」",
+  "维基百科「山茶」"
+ ],
+ "footnote": "“冬天开花”据中文维基别名“耐冬”及开花记载，待核。"
+}

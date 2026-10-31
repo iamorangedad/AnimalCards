@@ -1,0 +1,79 @@
+{
+ "file": "映山红",
+ "no": "773",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "映山红",
+ "name_en": "Sims's azalea",
+ "latin": "Rhododendron simsii",
+ "short": "映山红",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "最高 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "500–2700 m",
+   "lo": 500,
+   "hi": 2700,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每簇花",
+   "value": "2–4 朵",
+   "lo": 2,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "花期",
+   "value": "3–4 月",
+   "lo": 2,
+   "hi": 2,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "满山红",
+   "icon": "sun",
+   "desc": "春天开红、粉或白色漏斗形花，能持续数周。"
+  },
+  {
+   "name": "有毒",
+   "icon": "toxic",
+   "desc": "叶子和花蜜含梫木毒素，连用它花蜜酿的蜂蜜也有毒。"
+  }
+ ],
+ "intro": [
+  "映山红是一种杜鹃花，原产东亚。",
+  "它在中国南方分布很广。",
+  "它多见于山地疏灌丛或松林下。"
+ ],
+ "fact": "它在香港很常见。",
+ "range": "中国南方、台湾、香港、越南、泰国。",
+ "sources": [
+  "Wikipedia「Rhododendron simsii」",
+  "维基百科「映山红」"
+ ],
+ "footnote": "“花期”比例条按约 2 个月示意。",
+ "warn": "全株有毒（梫木毒素）！不要吃花、吸花蜜，也不要吃来路不明的杜鹃花蜜。"
+}

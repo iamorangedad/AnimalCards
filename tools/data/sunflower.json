@@ -1,0 +1,81 @@
+{
+ "file": "向日葵",
+ "no": "768",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "向日葵",
+ "name_en": "Common sunflower",
+ "latin": "Helianthus annuus",
+ "short": "向日葵",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高纪录",
+   "value": "10.9 m",
+   "lo": 10.9,
+   "hi": 10.9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "花盘",
+   "value": "7.5–12.5 cm",
+   "lo": 0.075,
+   "hi": 0.125,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "螺旋线",
+   "value": "34 / 55 条",
+   "lo": 55,
+   "hi": 55,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "驯化",
+   "value": "约 4000–5000 年前",
+   "lo": 4000,
+   "hi": 5000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跟着太阳",
+   "icon": "sun",
+   "desc": "幼年时会追着太阳转；成熟后就一直朝向东方。"
+  },
+  {
+   "name": "朝东取暖",
+   "icon": "bee",
+   "desc": "朝东能让花盘早上更快变暖，吸引更多传粉昆虫。"
+  }
+ ],
+ "intro": [
+  "向日葵原产美国中西部、加拿大南部和墨西哥北部。",
+  "一个“花盘”其实由许多小花组成。",
+  "截至 2020 年，俄罗斯和乌克兰的葵花籽产量占全球一半以上。"
+ ],
+ "fact": "常有人以为开花的向日葵一直追着太阳，其实成熟后就不转了。",
+ "range": "原产北美；世界各地栽培。",
+ "sources": [
+  "Wikipedia「Common sunflower」",
+  "维基百科「向日葵」",
+  "IUCN 红色名录（Contreras, A. 2016）"
+ ],
+ "footnote": ""
+}

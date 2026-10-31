@@ -1,0 +1,78 @@
+{
+ "file": "雏菊",
+ "no": "780",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "雏菊",
+ "name_en": "Common daisy",
+ "latin": "Bellis perennis",
+ "short": "雏菊",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–5 cm",
+   "lo": 0.02,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花茎",
+   "value": "2–10 cm",
+   "lo": 0.02,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−35 °C 以上",
+   "lo": -35,
+   "hi": -35,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "贴地生长",
+   "icon": "root",
+   "desc": "小叶排成莲座状，贴着地面生长。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "最低温度高于 −35 °C 的地方一般都能种。"
+  }
+ ],
+ "intro": [
+  "雏菊原产欧洲西部、中部和北部。",
+  "一朵“花”其实是白色舌状花和黄色管状花组成的头状花序。",
+  "它在许多地方已成为归化植物。"
+ ],
+ "fact": "它几乎没有严重的病虫害，多数排水好的土都能长。",
+ "range": "原产欧洲；已归化世界多地。",
+ "sources": [
+  "Wikipedia「Bellis perennis」",
+  "维基百科「雏菊」"
+ ],
+ "footnote": ""
+}

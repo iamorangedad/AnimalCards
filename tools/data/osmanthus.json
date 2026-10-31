@@ -1,0 +1,80 @@
+{
+ "file": "桂花",
+ "no": "774",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "桂花",
+ "name_en": "Sweet osmanthus",
+ "latin": "Osmanthus fragrans",
+ "short": "桂花",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "3–12 m",
+   "lo": 3,
+   "hi": 12,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "7–15 cm",
+   "lo": 0.07,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花长",
+   "value": "约 1 cm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果熟",
+   "value": "花后约 6 个月",
+   "lo": 6,
+   "hi": 6,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "浓香",
+   "icon": "sun",
+   "desc": "花很小，却有非常浓的香气，种加词 fragrans 就是“芳香”。"
+  },
+  {
+   "name": "常绿",
+   "icon": "cold",
+   "desc": "四季常绿的灌木或小乔木。"
+  }
+ ],
+ "intro": [
+  "桂花原产亚洲。",
+  "黄色的丹桂主要做甜点，白色的银桂主要观赏和增香。",
+  "中国有 20 多个城市以桂花为市花。"
+ ],
+ "fact": "中国神话说月亮上长着一棵桂树，吴刚一直在砍它。",
+ "range": "中国、喜马拉雅、日本南部、东南亚北部。",
+ "sources": [
+  "Wikipedia「Osmanthus fragrans」",
+  "维基百科「桂花」"
+ ],
+ "footnote": ""
+}

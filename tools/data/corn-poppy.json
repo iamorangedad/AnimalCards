@@ -1,0 +1,80 @@
+{
+ "file": "虞美人",
+ "no": "782",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "虞美人",
+ "name_en": "Corn poppy",
+ "latin": "Papaver rhoeas",
+ "short": "虞美人",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "花径",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一季开花",
+   "value": "最多 400 朵",
+   "lo": 400,
+   "hi": 400,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "花寿命",
+   "value": "1 天",
+   "lo": 1,
+   "hi": 1,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "花粉大户",
+   "icon": "bee",
+   "desc": "英国研究中，按单朵花算它产花粉最多；但几乎不产花蜜。"
+  },
+  {
+   "name": "农田杂草",
+   "icon": "seed",
+   "desc": "繁殖力强，常长在麦田里，被当作杂草。"
+  }
+ ],
+ "intro": [
+  "虞美人原产北非和温带欧亚大陆。",
+  "它是比利时国花。",
+  "英国和加拿大人佩戴虞美人纪念一战阵亡士兵。"
+ ],
+ "fact": "中文名来自项羽的宠妃虞姬的传说。",
+ "range": "北非、温带欧亚；引入各温带地区。",
+ "sources": [
+  "Wikipedia「Papaver rhoeas」",
+  "维基百科「虞美人 (植物)」"
+ ],
+ "footnote": "",
+ "warn": "叶子和乳汁对放牧动物有轻微毒性；不要随便采来吃。"
+}

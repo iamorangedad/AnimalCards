@@ -1,0 +1,79 @@
+{
+ "file": "香石竹",
+ "no": "779",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "香石竹",
+ "name_en": "Carnation",
+ "latin": "Dianthus caryophyllus",
+ "short": "香石竹",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "最长 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每簇花",
+   "value": "最多 5 朵",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "栽培史",
+   "value": "约 2000 年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "温室常开",
+   "icon": "sun",
+   "desc": "在温室里几乎可以连续不断地开花。"
+  },
+  {
+   "name": "香甜",
+   "icon": "bee",
+   "desc": "花有甜甜的香气，又叫“麝香石竹”。"
+  }
+ ],
+ "intro": [
+  "香石竹原产地中海地区。",
+  "1907 年起，它成为母亲节的象征。",
+  "它是西班牙的国花。"
+ ],
+ "fact": "1974 年葡萄牙的不流血政变被称为“康乃馨革命”。",
+ "range": "原产地中海；哥伦比亚、肯尼亚等地大量出口。",
+ "sources": [
+  "Wikipedia「Dianthus caryophyllus」",
+  "维基百科「香石竹」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "春兰",
+ "no": "766",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "春兰",
+ "name_en": "Chun lan",
+ "latin": "Cymbidium goeringii",
+ "short": "春兰",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "20–40 cm",
+   "lo": 0.2,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶片",
+   "value": "4–7 片",
+   "lo": 4,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "萼片长",
+   "value": "25–40 mm",
+   "lo": 0.025,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "300–2200 m",
+   "lo": 300,
+   "hi": 2200,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "地生兰",
+   "icon": "root",
+   "desc": "长在地上而不是树上，喜欢排水好、腐殖质多的微酸性土。"
+  },
+  {
+   "name": "幽香",
+   "icon": "sun",
+   "desc": "花有香气，通常一枝只开一朵。"
+  }
+ ],
+ "intro": [
+  "春兰是“国兰”之一。",
+  "它分布于中国多地以及日本、朝鲜半岛和印度东北部。",
+  "它常见于多石山坡、林缘和林中透光处。"
+ ],
+ "fact": "春兰忌酷热、干燥和阳光直射，适合温暖、湿润、半阴的环境。",
+ "range": "中国、日本、朝鲜半岛、不丹、印度西北部。",
+ "sources": [
+  "Wikipedia「Cymbidium goeringii」",
+  "维基百科「春兰」",
+  "Flora of China「Cymbidium goeringii」"
+ ],
+ "footnote": "列入 CITES 附录（兰科）。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "万寿菊",
+ "no": "784",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "万寿菊",
+ "name_en": "Aztec marigold",
+ "latin": "Tagetes erecta",
+ "short": "万寿菊",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "20–90 cm",
+   "lo": 0.2,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "最长 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "盘花",
+   "value": "150–250 朵",
+   "lo": 150,
+   "hi": 250,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "22–30 °C",
+   "lo": 22,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "异味防身",
+   "icon": "toxic",
+   "desc": "叶缘有腺点，会放出异味，所以又叫“臭菊”。"
+  },
+  {
+   "name": "天然色素",
+   "icon": "fire",
+   "desc": "可提炼食用色素 E161b；喂鸡能让蛋黄更金黄。"
+  }
+ ],
+ "intro": [
+  "万寿菊原产墨西哥和中美洲。",
+  "虽然原产美洲，英文却常叫它“非洲万寿菊”。",
+  "它耐旱、耐瘠、耐风。"
+ ],
+ "fact": "墨西哥人把它叫作 cempasúchil。",
+ "range": "原产墨西哥、中美洲；各地栽培。",
+ "sources": [
+  "Wikipedia「Tagetes erecta」",
+  "维基百科「万寿菊」"
+ ],
+ "footnote": ""
+}

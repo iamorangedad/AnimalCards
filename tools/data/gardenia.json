@@ -1,0 +1,78 @@
+{
+ "file": "栀子",
+ "no": "776",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "栀子",
+ "name_en": "Gardenia",
+ "latin": "Gardenia jasminoides",
+ "short": "栀子",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "30 cm–3 m",
+   "lo": 0.3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "最大 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–25 cm",
+   "lo": 0.03,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栽培史",
+   "value": "至少 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香花",
+   "icon": "sun",
+   "desc": "花香清雅甜美，是中国典型的香花植物之一。"
+  },
+  {
+   "name": "果实染色",
+   "icon": "fire",
+   "desc": "汉代种栀子多用来染色，是珍贵的经济作物。"
+  }
+ ],
+ "intro": [
+  "栀子原产东亚南部、东南亚大陆和南亚东北部。",
+  "它属于茜草科，和咖啡是一科。",
+  "重瓣品种大多不结果。"
+ ],
+ "fact": "名字来自果实形状像古代酒器“卮”。",
+ "range": "东亚南部、东南亚、南亚东北部。",
+ "sources": [
+  "Wikipedia「Gardenia jasminoides」",
+  "维基百科「栀子」"
+ ],
+ "footnote": ""
+}

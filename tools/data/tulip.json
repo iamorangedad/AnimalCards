@@ -1,0 +1,80 @@
+{
+ "file": "郁金香",
+ "no": "769",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "郁金香",
+ "name_en": "Garden tulip",
+ "latin": "Tulipa gesneriana",
+ "short": "郁金香",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "雄蕊",
+   "value": "6 枚",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "心皮",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "1574 年订购",
+   "value": "5 万个球茎",
+   "lo": 50000.0,
+   "hi": 50000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "传入西欧",
+   "value": "1554 年",
+   "lo": 1554,
+   "hi": 1554,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "鳞茎",
+   "icon": "root",
+   "desc": "地下有鳞茎，鳞茎侧面还会长出小鳞茎。"
+  },
+  {
+   "name": "病毒花纹",
+   "icon": "micro",
+   "desc": "花叶病毒会让花瓣出现奇特条纹，但也会削弱鳞茎。"
+  }
+ ],
+ "intro": [
+  "郁金香是栽培起源的复合种，原种来源仍未完全清楚。",
+  "1554 年它从君士坦丁堡传入西欧。",
+  "17 世纪 30 年代荷兰出现过“郁金香狂热”。"
+ ],
+ "fact": "一个名叫“永远的奥古斯都”的鳞茎曾卖到 6000 弗罗林。",
+ "range": "起源于中亚到东南欧；荷兰等地大量栽培。",
+ "sources": [
+  "Wikipedia「Tulipa gesneriana」",
+  "维基百科「郁金香」"
+ ],
+ "footnote": "“传入西欧”比例条借用年数刻度只作示意。",
+ "warn": "花和鳞茎含郁金香苷，可能引起皮炎；处理鳞茎时最好戴手套。"
+}

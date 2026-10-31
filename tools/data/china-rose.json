@@ -1,0 +1,79 @@
+{
+ "file": "月季",
+ "no": "761",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "月季",
+ "name_en": "China rose",
+ "latin": "Rosa chinensis",
+ "short": "月季",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "小叶",
+   "value": "3–5 片",
+   "lo": 3,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "小叶长",
+   "value": "2.5–6 cm",
+   "lo": 0.025,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "1.5–2 cm",
+   "lo": 0.015,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "四季开花",
+   "icon": "sun",
+   "desc": "给现代月季带来了花期长、四季开花的特性。"
+  },
+  {
+   "name": "皮刺",
+   "icon": "thorn",
+   "desc": "小枝常有粗壮、略带钩状的皮刺，也有无刺的。"
+  }
+ ],
+ "intro": [
+  "月季原产中国贵州、湖北、四川一带。",
+  "1768 年由雅坎首次正式发表。",
+  "它是许多现代园艺月季（如茶香月季）的亲本。"
+ ],
+ "fact": "英文里它被叫作“中国玫瑰”（Chinese rose）。",
+ "range": "原产中国西南；世界各地广泛栽培。",
+ "sources": [
+  "Wikipedia「Rosa chinensis」",
+  "维基百科「月季」"
+ ],
+ "footnote": ""
+}

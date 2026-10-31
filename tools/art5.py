@@ -1211,3 +1211,48 @@ ART5["tiger-mosquito"] = _FLY("home", F="#1f1f22", stripes="#ffffff", ab=1.3, le
 ART5["greenbottle"] = _FLY("farm", F="#2aa06a", eye="#a83a2a", ab=1.0, post=E(30, -100, 50, 20, "#5ad0a0", 0))
 ART5["cn-mantis"] = _mant("#8fb85a", "#d9e8c0", "leaf", s=1.05)
 ART5["bogong"] = _BF("plateau", F="#5a3a22", F2="#7a5a3a", vein="#3a2210", spots="#c9a07a", moth=True)
+# ---------------- flowers p4b17
+def _shr(W, H, col, fl, n=7, trunk_h=30):
+    o = shrub(W, H, col, trunk_h=trunk_h)
+    for i in range(n):
+        t = i * 2.4; rr = math.sqrt((i + .5) / n) * .78
+        o += fl(math.cos(t) * W / 2 * rr, -trunk_h - H * .5 + math.sin(t) * H / 2 * rr)
+    return o
+def _tree_fl(H, rx, ry, col, fl, n=9, bark=BARK, bare=False):
+    o = trunk(H, 36, 22, bark)
+    if bare:
+        for dx, dy in ((-120, -60), (110, -70), (-60, -130), (70, -140)):
+            o += line(f"M0 {-H+10} Q{dx*.4} {-H+dy*.3} {dx} {-H+dy}", 9, bark)
+    else: o += crown_round(0, -H - ry * .55, rx, ry, col)
+    for i in range(n):
+        t = i * 2.4; rr = math.sqrt((i + .5) / n) * .85
+        o += fl(math.cos(t) * rx * rr, -H - ry * .55 + math.sin(t) * ry * rr)
+    return o
+ART5["china-rose"] = PL("meadow", _shr(300, 200, "#8fbf6a", lambda x, y: rose(x, y, 22, "#e8485a"), 7))
+ART5["tree-peony"] = PL("meadow", _shr(320, 190, "#9cc98a", lambda x, y: rose(x, y, 34, "#f08aa8"), 4))
+ART5["herb-peony"] = PL("meadow", herb(lambda x, y: rose(x, y, 34, "#f6c0d0"), H=230, stems=((-80, -20), (0, 20), (90, 0)), leafL=70))
+ART5["chrysanthemum"] = PL("meadow", potted(herb(lambda x, y: pompom(x, y, 34, "#f6c83a"), H=170, stems=((-60, 0), (10, 30), (70, -10)), leafL=50)))
+ART5["plum-blossom"] = PL("snow", _tree_fl(200, 170, 120, None, lambda x, y: petals(x, y, 5, 22, col="#f6c8d8", center="#e8485a"), 11, bark="#6a4a3a", bare=True), box=(.8, 560, 480))
+ART5["spring-orchid"] = PL("forest", potted("".join(line(f"M0 0 Q{dx*.4} -120 {dx} {-200+abs(dx)*.3}", 4, LEAF_D) for dx in (-160, -100, -40, 40, 110, 170)) + stalk(0, 0, 20, -150, 10, 4) + petals(20, -160, 5, 26, col="#c9d88a", center="#8a3a4a", rot=-90), 140, 90))
+ART5["phalaenopsis"] = PL("rainforest", R(-30, -420, 60, 420, BARK, 8, 3) + "".join(leaf(10, -60 - k * 30, a, 110, 50, "#5f9a4a") for k, a in enumerate((-10, 190, 10))) + stalk(20, -130, 200, -340, -60, 4)
+    + "".join(petals(80 + i * 40, -200 - i * 42, 5, 30, col="#ffffff", center="#e8485a") for i in range(3)), box=(.8, 520, 460))
+ART5["sunflower"] = PL("farm", herb(lambda x, y: daisy(x, y, 70, "#f6c83a", "#6a4a2a", 22) + C(x, y, 24, "#4a3220", 2), H=330, leafL=90, n_leaf=4), box=(.8, 520, 500))
+ART5["tulip"] = PL("meadow", herb(lambda x, y: cup(x, y, 30, "#e8485a"), H=180, stems=((-90, -10), (-30, 20), (30, 0), (90, 15)), basal=True, leafL=60))
+ART5["easter-lily"] = PL("meadow", stalk(0, 0, 0, -300, 0, 7) + leaves_along(0, -20, -260, 8, 60) + trumpet(0, -290, -40, 80, 34, "#ffffff") + trumpet(0, -290, -140, 80, 34, "#ffffff"), box=(.8, 520, 480))
+ART5["narcissus"] = PL("home", R(-140, -50, 280, 50, "#bfe3f2", 10, 3) + "".join(E(x, -50, 30, 26, "#f2e8d0", 2.4) for x in (-70, 0, 70)) + "".join(line(f"M{x} -60 L{x+dx} -240", 4, LEAF_D) for x, dx in ((-70, -30), (0, 10), (70, 30), (-30, -60), (40, 60)))
+    + "".join(petals(x, y, 6, 26, col="#ffffff", center="#f6c83a", cr=10) for x, y in ((-100, -260), (-40, -290), (20, -270), (80, -255))) )
+ART5["camellia"] = PL("forest", _shr(320, 220, "#4f8a3a", lambda x, y: rose(x, y, 26, "#d8303a"), 7))
+ART5["azalea"] = PL("forest", _shr(340, 180, "#8fbf6a", lambda x, y: petals(x, y, 5, 26, col="#e8486a", center="#a8203a"), 10))
+ART5["osmanthus"] = PL("forest", _tree_fl(180, 160, 130, "#4f8a3a", lambda x, y: "".join(C(x + dx, y + dy, 5, "#f6b83a", 1.6) for dx, dy in ((0, 0), (9, 4), (-8, 5), (2, -8))), 16), box=(.8, 560, 480))
+ART5["jasmine"] = PL("home", potted(_shr(220, 160, "#5f9a4a", lambda x, y: petals(x, y, 7, 20, col="#ffffff", center="#f2e8a0"), 7, trunk_h=10)))
+ART5["gardenia"] = PL("meadow", _shr(300, 200, "#3f7a3a", lambda x, y: petals(x, y, 6, 30, col="#fbf8ee", center="#f2e0a0"), 6))
+ART5["hydrangea"] = PL("meadow", _shr(320, 200, "#7aaa5a", lambda x, y: cluster(x, y, 40, "#8ab0f0" if x < 0 else "#f0a0c8"), 5))
+ART5["lavender"] = PL("farm", "".join(spike(x, 0, 160 + (i % 3) * 20, 7, "#9a7ad9", 7) for i, x in enumerate(range(-180, 200, 40))) + "".join(leaf(x, -10, a, 50, 10, "#a8c0a0") for x in (-140, -40, 60, 160) for a in (-120, -60)))
+ART5["carnation"] = PL("meadow", herb(lambda x, y: pompom(x, y, 28, "#f06a8a", 2), H=220, stems=((-60, 0), (0, 30), (60, 10)), leafL=50, leafcol="#9ab8a0"))
+ART5["daisy"] = PL("meadow", "".join(G_(herb(lambda x, y: daisy(x, y, 26, "#ffffff", YEL), H=80, basal=True, leafL=30), dx, dy) for dx, dy in ((-150, 0), (-50, 10), (60, -5), (160, 8))))
+ART5["dandelion"] = PL("meadow", herb(lambda x, y: daisy(x, y, 34, "#f6d43a", "#e8b82a", 26) if x < 50 else seedhead(x, y, 40), H=170, stems=((-60, 0), (80, 40)), basal=True, leafL=70))
+ART5["corn-poppy"] = PL("farm", herb(lambda x, y: petals(x, y, 4, 44, col="#e8302a", center="#2a2a2a", cr=10), H=220, stems=((-90, -20), (0, 20), (90, 0)), leafL=40, n_leaf=3))
+ART5["cosmos"] = PL("meadow", herb(lambda x, y: petals(x, y, 8, 40, col="#f08ac0" if x < 0 else "#ffffff", center=YEL), H=240, stems=((-100, -10), (-20, 30), (80, 0)), leafL=40, leafcol="#8fcf6a"))
+ART5["marigold"] = PL("meadow", herb(lambda x, y: pompom(x, y, 34, "#f2902a"), H=170, stems=((-80, 0), (0, 25), (80, 5)), leafL=50, leafcol="#4f8a3a"))
+ART5["morning-glory"] = PL("meadow", R(-8, -380, 16, 380, BARK, 4, 3) + P("M0 0 C80 -60 -80 -120 0 -180 C80 -240 -80 -300 0 -360", sw=4, col=STEM)
+    + "".join(leaf(0, -60 * k - 30, a, 50, 26, LEAF) for k, a in ((1, 20), (2, 160), (3, 20), (4, 160), (5, 20))) + "".join(trumpet(dx, y, ang, 30, 34, col, "#ffffff") for dx, y, ang, col in ((10, -120, -20, "#6a5ad9"), (-10, -240, 200, "#d84a9a"), (10, -330, -30, "#5a8ad9"))), box=(.8, 520, 480))

@@ -1,0 +1,81 @@
+{
+ "file": "药用蒲公英",
+ "no": "781",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "药用蒲公英",
+ "name_en": "Common dandelion",
+ "latin": "Taraxacum officinale",
+ "short": "药用蒲公英",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "5–45 cm",
+   "lo": 0.05,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "小花",
+   "value": "40–100 多朵",
+   "lo": 40,
+   "hi": 100,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "冠毛",
+   "value": "约 6 mm 宽",
+   "lo": 0.006,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "瘦果",
+   "value": "2–3 mm",
+   "lo": 0.002,
+   "hi": 0.003,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "降落伞种子",
+   "icon": "wind",
+   "desc": "果实顶上有银白色的冠毛，像降落伞一样随风飘散。"
+  },
+  {
+   "name": "无融合生殖",
+   "icon": "clone",
+   "desc": "许多类群不经受精就能产生种子。"
+  }
+ ],
+ "intro": [
+  "药用蒲公英原产欧亚大陆。",
+  "它已遍布北美（美国全部 50 个州）、南美、澳新等地。",
+  "它常被当作杂草，但对鸟和传粉昆虫有用。"
+ ],
+ "fact": "叶、花和根有时被当作食物和草药。",
+ "range": "原产欧亚；遍布温带各大洲。",
+ "sources": [
+  "Wikipedia「Taraxacum officinale」",
+  "维基百科「西洋蒲公英」",
+  "IUCN 红色名录（Khela, S. 2013）"
+ ],
+ "footnote": ""
+}

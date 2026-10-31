@@ -1,0 +1,79 @@
+{
+ "file": "秋英",
+ "no": "783",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "秋英",
+ "name_en": "Garden cosmos",
+ "latin": "Cosmos bipinnatus",
+ "short": "秋英",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "60 cm–2 m",
+   "lo": 0.6,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "5–7 cm",
+   "lo": 0.05,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "舌状花",
+   "value": "8 枚",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "原产海拔",
+   "value": "1600–2800 m",
+   "lo": 1600,
+   "hi": 2800,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "自播成海",
+   "icon": "seed",
+   "desc": "繁殖力强，常成片生长，形成花海。"
+  },
+  {
+   "name": "招蝴蝶",
+   "icon": "bee",
+   "desc": "花对鸟类和帝王蝶等蝴蝶很有吸引力。"
+  }
+ ],
+ "intro": [
+  "秋英原产美洲（墨西哥高原）。",
+  "它是温带花园里流行的观赏植物。",
+  "它喜欢阳光，不喜欢半阴。"
+ ],
+ "fact": "中文别名“格桑花”。",
+ "range": "原产墨西哥；世界各地栽培。",
+ "sources": [
+  "Wikipedia「Cosmos bipinnatus」",
+  "维基百科「大波斯菊」"
+ ],
+ "footnote": ""
+}

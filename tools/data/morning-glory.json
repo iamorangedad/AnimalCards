@@ -1,0 +1,80 @@
+{
+ "file": "牵牛",
+ "no": "785",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "牵牛",
+ "name_en": "Japanese morning glory",
+ "latin": "Ipomoea nil",
+ "short": "牵牛",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "5–14 cm",
+   "lo": 0.05,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花冠筒",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花冠宽",
+   "value": "4–5 cm",
+   "lo": 0.04,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "8–12 mm",
+   "lo": 0.008,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "缠绕攀爬",
+   "icon": "climb",
+   "desc": "茎会缠绕着别的东西往上爬。"
+  },
+  {
+   "name": "早上开花",
+   "icon": "sun",
+   "desc": "日文叫“朝颜”，花在早上开放。"
+  }
+ ],
+ "intro": [
+  "牵牛原产美洲热带，已被引入世界各地。",
+  "它约在 8–9 世纪从中国传到日本。",
+  "日本江户时代流行种植各色盆栽牵牛。"
+ ],
+ "fact": "东京入谷每年 7 月 6–8 日有牵牛花市。",
+ "range": "原产美洲热带；世界各地归化或栽培。",
+ "sources": [
+  "Wikipedia「Ipomoea nil」",
+  "维基百科「牵牛」"
+ ],
+ "footnote": "“早上开花”据日文名“朝颜”，待核。",
+ "warn": "牵牛是有毒植物，种子（中药“牵牛子”）不可乱吃。"
+}

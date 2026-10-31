@@ -1,0 +1,79 @@
+{
+ "file": "水仙",
+ "no": "771",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "水仙",
+ "name_en": "Paperwhite",
+ "latin": "Narcissus tazetta",
+ "short": "水仙",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "室内"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "每伞花序",
+   "value": "最多 8 朵",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "6 个",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每球花葶",
+   "value": "可达 10 余支",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "每葶花",
+   "value": "数朵至 10 余朵",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "鳞茎",
+   "icon": "root",
+   "desc": "地下有肥大的鳞茎，形状像洋葱。"
+  },
+  {
+   "name": "秘密香气",
+   "icon": "bee",
+   "desc": "含一种人几乎闻不到、蜜蜂却能察觉的香味物质。"
+  }
+ ],
+ "intro": [
+  "多花水仙原产地中海地区，从葡萄牙到土耳其。",
+  "它的花白色，中间有黄色杯状副冠。",
+  "中国和日本沿海的亚种叫“水仙”。"
+ ],
+ "fact": "它的一种栽培类型在英语里叫“中国神圣百合”，常被室内水养催花。",
+ "range": "地中海、西亚、中亚南部到东亚沿海。",
+ "sources": [
+  "Wikipedia「Narcissus tazetta」",
+  "维基百科「多花水仙」"
+ ],
+ "footnote": ""
+}

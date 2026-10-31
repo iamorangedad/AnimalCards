@@ -1,0 +1,79 @@
+{
+ "file": "蝴蝶兰",
+ "no": "767",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "蝴蝶兰",
+ "name_en": "Phalaenopsis aphrodite",
+ "latin": "Phalaenopsis aphrodite",
+ "short": "蝴蝶兰",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "5–6 cm",
+   "lo": 0.05,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "8–22 cm",
+   "lo": 0.08,
+   "hi": 0.22,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花序",
+   "value": "最长 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "同属",
+   "value": "约 91 种*",
+   "lo": 91,
+   "hi": 91,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长在树上",
+   "icon": "climb",
+   "desc": "附生在低地森林的树干上，根不扎进土里。"
+  },
+  {
+   "name": "像蝴蝶",
+   "icon": "camo",
+   "desc": "属名来自希腊语“像蛾子”，因为花形像蝴蝶。"
+  }
+ ],
+ "intro": [
+  "蝴蝶兰分布于台湾东南部到菲律宾。",
+  "一个花序可开许多朵白花。",
+  "台湾的野生族群过去很多，现在已非常稀少。"
+ ],
+ "fact": "1825 年，布卢姆把树上的一丛白花看成了蝴蝶，后来为它们建立了蝴蝶兰属。",
+ "range": "台湾东南部（含绿岛、兰屿）、菲律宾。",
+ "sources": [
+  "Wikipedia「Phalaenopsis aphrodite」",
+  "Flora of China「Phalaenopsis aphrodite」",
+  "维基百科「蝴蝶兰属」"
+ ],
+ "footnote": "* 属级数据。列入 CITES 附录（兰科）。"
+}

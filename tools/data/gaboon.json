@@ -1,0 +1,77 @@
+{
+ "file": "加蓬咝蝰",
+ "no": "343",
+ "cat": "爬行两栖",
+ "name_cn": "加蓬咝蝰",
+ "name_en": "Gaboon viper",
+ "latin": "Bitis gabonica",
+ "short": "加蓬咝蝰",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "80–130 cm",
+   "lo": 0.8,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "毒牙",
+   "value": "可达 5.1 cm",
+   "lo": 0.051,
+   "hi": 0.051,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "大雌蛇重",
+   "value": "8.5 kg（174 cm）",
+   "lo": 8.5,
+   "hi": 8.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尾长占比",
+   "value": "雄约 12%、雌约 6%",
+   "lo": 6,
+   "hi": 12,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长毒牙",
+   "icon": "jar",
+   "desc": "它的毒牙是所有毒蛇里最长的，可达 5.1 cm，产毒量也是蛇类之最。"
+  },
+  {
+   "name": "名字多",
+   "icon": "camo",
+   "desc": "英文俗名很多，如蝴蝶蝰、森林鼓腹蝰。"
+  }
+ ],
+ "intro": [
+  "加蓬咝蝰生活在撒哈拉以南非洲的雨林和稀树草原，是咝蝰属里最大的。",
+  "最长纪录常说 205 cm，但那只标本现在被归到别的种。",
+  "一条 1.8 m 的大个体，空腹也有 11.3 kg。"
+ ],
+ "fact": "可以根据尾巴占全长的比例分辨雌雄：雄蛇约 12%，雌蛇约 6%。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Gaboon viper」",
+  "IUCN 红色名录（Luiselli 2021）"
+ ],
+ "footnote": ""
+}

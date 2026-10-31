@@ -1,0 +1,78 @@
+{
+ "file": "金色箭毒蛙",
+ "no": "350",
+ "cat": "爬行两栖",
+ "name_cn": "金色箭毒蛙",
+ "name_en": "Golden poison frog",
+ "latin": "Phyllobates terribilis",
+ "short": "金色箭毒蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "成体长",
+   "value": "约 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "近 30 g",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "致死剂量",
+   "value": "人 2.0–7.5 µg",
+   "lo": 2e-09,
+   "hi": 7.5e-09,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "0–200 m",
+   "lo": 0,
+   "hi": 200,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最毒的动物",
+   "icon": "jar",
+   "desc": "个头虽小，却被认为是现存最毒的动物，人类致死量只要 2.0–7.5 µg。"
+  },
+  {
+   "name": "警告色",
+   "icon": "camo",
+   "desc": "鲜艳的金黄色告诉捕食者：别吃我。"
+  }
+ ],
+ "intro": [
+  "金色箭毒蛙只生活在哥伦比亚的雨林。",
+  "分布范围不到 5000 平方公里。",
+  "幼蛙约 18 周大时才完全变色。"
+ ],
+ "fact": "它喜欢年降雨 5 m 以上、气温至少 26 °C 的雨林。",
+ "range": "哥伦比亚太平洋沿岸雨林。",
+ "sources": [
+  "Wikipedia「Golden poison frog」",
+  "IUCN 红色名录（2017）"
+ ],
+ "footnote": "致死剂量条极小，显示接近空。"
+}

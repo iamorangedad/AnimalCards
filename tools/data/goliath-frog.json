@@ -1,0 +1,78 @@
+{
+ "file": "巨谐蛙",
+ "no": "359",
+ "cat": "爬行两栖",
+ "name_cn": "巨谐蛙",
+ "name_en": "Goliath frog",
+ "latin": "Conraua goliath",
+ "short": "巨谐蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "头身长",
+   "value": "17–32 cm",
+   "lo": 0.17,
+   "hi": 0.32,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "600–3250 g",
+   "lo": 0.6,
+   "hi": 3.25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "伸腿全长",
+   "value": "可超 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "眼睛直径",
+   "value": "近 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的蛙",
+   "icon": "roar",
+   "desc": "它是现存最大的蛙，伸直后腿全长可略超过 80 cm。"
+  },
+  {
+   "name": "大眼睛",
+   "icon": "ear",
+   "desc": "眼睛直径可达近 2.5 cm。"
+  }
+ ],
+ "intro": [
+  "巨谐蛙生活在喀麦隆和赤道几内亚的河流。",
+  "最重的验证个体 3305 g，1960 年捕获。",
+  "大于 1 kg 的个体更爱吃马陆。"
+ ],
+ "fact": "最长的验证个体头身长 35.6 cm，1966 年捕获。",
+ "range": "喀麦隆西南部、赤道几内亚。",
+ "sources": [
+  "Wikipedia「Goliath frog」",
+  "IUCN 红色名录（2019）"
+ ],
+ "footnote": ""
+}

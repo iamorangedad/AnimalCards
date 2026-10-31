@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 340 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 30，昆虫 10）。
+共 360 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -338,6 +338,26 @@
 | 338 | 西部菱斑响尾蛇（Western diamondback rattlesnake） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%A5%BF%E9%83%A8%E8%8F%B1%E6%96%91%E5%93%8D%E5%B0%BE%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%A5%BF%E9%83%A8%E8%8F%B1%E6%96%91%E5%93%8D%E5%B0%BE%E8%9B%87.pdf) |
 | 339 | 绿森蚺（Green anaconda） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BB%BF%E6%A3%AE%E8%9A%BA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BB%BF%E6%A3%AE%E8%9A%BA.pdf) |
 | 340 | 缅甸蟒（Burmese python） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BC%85%E7%94%B8%E8%9F%92.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BC%85%E7%94%B8%E8%9F%92.pdf) |
+| 341 | 银环蛇（Many-banded krait） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%93%B6%E7%8E%AF%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%93%B6%E7%8E%AF%E8%9B%87.pdf) |
+| 342 | 舟山眼镜蛇（Chinese cobra） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%88%9F%E5%B1%B1%E7%9C%BC%E9%95%9C%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%88%9F%E5%B1%B1%E7%9C%BC%E9%95%9C%E8%9B%87.pdf) |
+| 343 | 加蓬咝蝰（Gaboon viper） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%8A%A0%E8%93%AC%E5%92%9D%E8%9D%B0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%8A%A0%E8%93%AC%E5%92%9D%E8%9D%B0.pdf) |
+| 344 | 水游蛇（Grass snake） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B0%B4%E6%B8%B8%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B0%B4%E6%B8%B8%E8%9B%87.pdf) |
+| 345 | 真鳄龟（Alligator snapping turtle） | 爬行两栖 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%9C%9F%E9%B3%84%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%9C%9F%E9%B3%84%E9%BE%9F.pdf) |
+| 346 | 亚达伯拉象龟（Aldabra giant tortoise） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%BA%9A%E8%BE%BE%E4%BC%AF%E6%8B%89%E8%B1%A1%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%BA%9A%E8%BE%BE%E4%BC%AF%E6%8B%89%E8%B1%A1%E9%BE%9F.pdf) |
+| 347 | 辐射陆龟（Radiated tortoise） | 爬行两栖 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%BE%90%E5%B0%84%E9%99%86%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E8%BE%90%E5%B0%84%E9%99%86%E9%BE%9F.pdf) |
+| 348 | 锦龟（Painted turtle） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%94%A6%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%94%A6%E9%BE%9F.pdf) |
+| 349 | 枯叶龟（Mata mata） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%9E%AF%E5%8F%B6%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%9E%AF%E5%8F%B6%E9%BE%9F.pdf) |
+| 350 | 金色箭毒蛙（Golden poison frog） | 爬行两栖 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%87%91%E8%89%B2%E7%AE%AD%E6%AF%92%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%87%91%E8%89%B2%E7%AE%AD%E6%AF%92%E8%9B%99.pdf) |
+| 351 | 红眼树蛙（Red-eyed tree frog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BA%A2%E7%9C%BC%E6%A0%91%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%BA%A2%E7%9C%BC%E6%A0%91%E8%9B%99.pdf) |
+| 352 | 海蟾蜍（Cane toad） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B5%B7%E8%9F%BE%E8%9C%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B5%B7%E8%9F%BE%E8%9C%8D.pdf) |
+| 353 | 欧洲普通蟾蜍（Common toad） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%AC%A7%E6%B4%B2%E6%99%AE%E9%80%9A%E8%9F%BE%E8%9C%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%AC%A7%E6%B4%B2%E6%99%AE%E9%80%9A%E8%9F%BE%E8%9C%8D.pdf) |
+| 354 | 黑斑侧褶蛙（Dark-spotted frog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%BB%91%E6%96%91%E4%BE%A7%E8%A4%B6%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%BB%91%E6%96%91%E4%BE%A7%E8%A4%B6%E8%9B%99.pdf) |
+| 355 | 东方蝾螈（Chinese fire belly newt） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%9C%E6%96%B9%E8%9D%BE%E8%9E%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E4%B8%9C%E6%96%B9%E8%9D%BE%E8%9E%88.pdf) |
+| 356 | 火蝾螈（Fire salamander） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%81%AB%E8%9D%BE%E8%9E%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E7%81%AB%E8%9D%BE%E8%9E%88.pdf) |
+| 357 | 洞螈（Olm） | 爬行两栖 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B4%9E%E8%9E%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%B4%9E%E8%9E%88.pdf) |
+| 358 | 非洲爪蟾（African clawed frog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%9D%9E%E6%B4%B2%E7%88%AA%E8%9F%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E9%9D%9E%E6%B4%B2%E7%88%AA%E8%9F%BE.pdf) |
+| 359 | 巨谐蛙（Goliath frog） | 爬行两栖 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B7%A8%E8%B0%90%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E5%B7%A8%E8%B0%90%E8%9B%99.pdf) |
+| 360 | 日本雨蛙（Japanese tree frog） | 爬行两栖 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%97%A5%E6%9C%AC%E9%9B%A8%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E7%88%AC%E8%A1%8C%E4%B8%A4%E6%A0%96/%E6%97%A5%E6%9C%AC%E9%9B%A8%E8%9B%99.pdf) |
 | 096 | 西方蜜蜂（Western honey bee） | 昆虫 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A5%BF%E6%96%B9%E8%9C%9C%E8%9C%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E8%A5%BF%E6%96%B9%E8%9C%9C%E8%9C%82.pdf) |
 | 097 | 黑毛蚁（Black garden ant） | 昆虫 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E6%AF%9B%E8%9A%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E9%BB%91%E6%AF%9B%E8%9A%81.pdf) |
 | 098 | 帝王蝶（Monarch butterfly） | 昆虫 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E8%9D%B6.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%98%86%E8%99%AB/%E5%B8%9D%E7%8E%8B%E8%9D%B6.pdf) |

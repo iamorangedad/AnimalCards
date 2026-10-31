@@ -1,0 +1,78 @@
+{
+ "file": "银环蛇",
+ "no": "341",
+ "cat": "爬行两栖",
+ "name_cn": "银环蛇",
+ "name_en": "Many-banded krait",
+ "latin": "Bungarus multicinctus",
+ "short": "银环蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "1–1.5 m",
+   "lo": 1,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "白色环带",
+   "value": "躯干 30–50 个",
+   "lo": 30,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "3–15 枚",
+   "lo": 3,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "13.7 年（饲养）",
+   "lo": 13.7,
+   "hi": 13.7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑白环纹",
+   "icon": "camo",
+   "desc": "身上黑白相间，躯干有 30–50 个白环，尾部还有 9–15 个。"
+  },
+  {
+   "name": "剧毒",
+   "icon": "jar",
+   "desc": "毒液含神经毒素；未经治疗的咬伤，不同研究估计死亡率从 25–35% 到 70–100%。"
+  }
+ ],
+ "intro": [
+  "银环蛇分布在中国南部、台湾、缅甸、越南等地。",
+  "最常见于潮湿的低地和沼泽地区，也可到约 1500 m 海拔。",
+  "各地叫法很多，如金钱白花蛇、雨伞节、手巾蛇。"
+ ],
+ "fact": "雌蛇一般产 3–15 枚蛋，最多可达 20 枚。",
+ "range": "中国南部、台湾、东南亚北部。",
+ "sources": [
+  "Wikipedia「Many-banded krait」",
+  "维基百科「银环蛇」",
+  "IUCN 红色名录（Ji 2024）"
+ ],
+ "footnote": "白环数量来自中文维基。"
+}

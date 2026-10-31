@@ -1,0 +1,78 @@
+{
+ "file": "非洲爪蟾",
+ "no": "358",
+ "cat": "爬行两栖",
+ "name_cn": "非洲爪蟾",
+ "name_en": "African clawed frog",
+ "latin": "Xenopus laevis",
+ "short": "非洲爪蟾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2009"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "15 年以上",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "1–2 年",
+   "lo": 1,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爪子脚",
+   "icon": "climb",
+   "desc": "脚上有短短的黑爪，名字由此而来；学名 Xenopus 意为“奇怪的脚”。"
+  },
+  {
+   "name": "侧线感觉",
+   "icon": "whisker",
+   "desc": "完全水生，靠嗅觉和侧线而不是眼睛找食物。"
+  }
+ ],
+ "intro": [
+  "非洲爪蟾原产撒哈拉以南非洲。",
+  "它没有舌头、没有牙齿，用前肢把食物塞进嘴里。",
+  "胚胎和卵是重要的生物学研究材料。"
+ ],
+ "fact": "1930 年代人们发现孕妇尿液能让它产卵，于是用来验孕。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「African clawed frog」",
+  "维基百科「非洲爪蟾」",
+  "IUCN 红色名录（Tinsley 2009）"
+ ],
+ "footnote": "体长来自中文维基（饲养下可达 15 cm）。"
+}

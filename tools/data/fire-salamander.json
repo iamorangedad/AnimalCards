@@ -1,0 +1,77 @@
+{
+ "file": "火蝾螈",
+ "no": "356",
+ "cat": "爬行两栖",
+ "name_cn": "火蝾螈",
+ "name_en": "Fire salamander",
+ "latin": "Salamandra salamandra",
+ "short": "火蝾螈",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "昆虫、蜘蛛、蚯蚓、蛞蝓",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2023"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "超过 50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "常见海拔",
+   "value": "250–1000 m",
+   "lo": 250,
+   "hi": 1000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "种群下降",
+   "value": "96%（一国）",
+   "lo": 96,
+   "hi": 96,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄黑警告色",
+   "icon": "camo",
+   "desc": "黑底黄斑非常醒目，是欧洲最大的蝾螈之一。"
+  },
+  {
+   "name": "直接生幼体",
+   "icon": "jar",
+   "desc": "卵在母体内发育，雌螈把刚孵出的幼体产进水里。"
+  }
+ ],
+ "intro": [
+  "火蝾螈分布在欧洲。",
+  "只在夜间温度高于 5 °C 的潮湿时段出来活动。",
+  "2013 年确认，一种外来壶菌（Bsal）是它大量死亡的原因。"
+ ],
+ "fact": "一个最大的种群从 241 只减少到 2011 年只剩 4 只。",
+ "range": "欧洲中部和南部。",
+ "sources": [
+  "Wikipedia「Fire salamander」",
+  "IUCN 红色名录（ASG 2023）"
+ ],
+ "footnote": "寿命 50 年为德国 Koenig 博物馆饲养个体；种群下降为一国 2010 年起的记录（国家待核）。"
+}

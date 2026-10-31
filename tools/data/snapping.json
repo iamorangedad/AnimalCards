@@ -1,0 +1,77 @@
+{
+ "file": "真鳄龟",
+ "no": "345",
+ "cat": "爬行两栖",
+ "name_cn": "真鳄龟",
+ "name_en": "Alligator snapping turtle",
+ "latin": "Macrochelys temminckii",
+ "short": "真鳄龟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "鱼、螺、腐肉，也吃水生植物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "35–80.8 cm",
+   "lo": 0.35,
+   "hi": 0.808,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成体重",
+   "value": "8.4–80 kg",
+   "lo": 8.4,
+   "hi": 80,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "活动范围",
+   "value": "平均 750 m",
+   "lo": 750,
+   "hi": 750,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "性成熟体重",
+   "value": "约 8 kg",
+   "lo": 8,
+   "hi": 8,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "舌头钓鱼",
+   "icon": "jar",
+   "desc": "嘴里有伪装，舌尖长着像虫子的小肉条，用来引诱鱼游进嘴里。"
+  },
+  {
+   "name": "超强咬合",
+   "icon": "roar",
+   "desc": "名字来自它强大的上下颌和像鳄鱼一样的背甲棱脊。"
+  }
+ ],
+ "intro": [
+  "真鳄龟生活在美国东南部的河流和湖泊。",
+  "达到性成熟后还会终生继续长大。",
+  "芝加哥谢德水族馆曾养过一只 113 kg 的大个体。"
+ ],
+ "fact": "1937 年堪萨斯州传说有只 183 kg 的，但未经证实。",
+ "range": "美国东南部。",
+ "sources": [
+  "Wikipedia「Alligator snapping turtle」",
+  "IUCN 红色名录（Carr 2025）"
+ ],
+ "footnote": "活动范围条按 0–2000 m 显示。"
+}

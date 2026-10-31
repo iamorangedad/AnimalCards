@@ -1,0 +1,78 @@
+{
+ "file": "锦龟",
+ "no": "348",
+ "cat": "爬行两栖",
+ "name_cn": "锦龟",
+ "name_en": "Painted turtle",
+ "latin": "Chrysemys picta",
+ "short": "锦龟",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "叶、藻、鱼、虾、水生昆虫、腐肉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011"
+ },
+ "stats": [
+  {
+   "label": "成体长",
+   "value": "13–25 cm",
+   "lo": 0.13,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大亚种",
+   "value": "可达 26.6 cm",
+   "lo": 0.266,
+   "hi": 0.266,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄成熟",
+   "value": "2–9 年",
+   "lo": 2,
+   "hi": 9,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "超过 55 年",
+   "lo": 55,
+   "hi": 55,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩色花纹",
+   "icon": "camo",
+   "desc": "背甲深色光滑，四肢皮肤上有红、橙或黄色条纹。"
+  },
+  {
+   "name": "分布最广",
+   "icon": "flip",
+   "desc": "它是北美分布最广的本土龟，演化历史可追溯到 1500 万年前。"
+  }
+ ],
+ "intro": [
+  "锦龟分布在北美洲。",
+  "雄龟比雌龟小。",
+  "雌龟要 6–16 年才成熟。"
+ ],
+ "fact": "约 1.1 万年前冰川退去后，三个亚种都向北扩散。",
+ "range": "北美洲。",
+ "sources": [
+  "Wikipedia「Painted turtle」",
+  "IUCN 红色名录（van Dijk 2011）"
+ ],
+ "footnote": ""
+}

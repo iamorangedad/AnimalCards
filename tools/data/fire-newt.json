@@ -1,0 +1,77 @@
+{
+ "file": "东方蝾螈",
+ "no": "355",
+ "cat": "爬行两栖",
+ "name_cn": "东方蝾螈",
+ "name_en": "Chinese fire belly newt",
+ "latin": "Cynops orientalis",
+ "short": "东方蝾螈",
+ "type": "两栖",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "5.6–10.2 cm",
+   "lo": 0.056,
+   "hi": 0.102,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "水温",
+   "value": "15–23 °C",
+   "lo": 15,
+   "hi": 23,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "13–24 天",
+   "lo": 13,
+   "hi": 24,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "产卵期",
+   "value": "65 天内",
+   "lo": 65,
+   "hi": 65,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "火红肚皮",
+   "icon": "camo",
+   "desc": "背部黑色，肚皮亮橙色，警告捕食者自己有毒。"
+  },
+  {
+   "name": "水里生活",
+   "icon": "dive",
+   "desc": "喜欢 15–23 °C 的凉爽静水。"
+  }
+ ],
+ "intro": [
+  "东方蝾螈是生活在中国的小型黑色蝾螈。",
+  "宠物店里很常见。",
+  "常被误认为日本红腹蝾螈。"
+ ],
+ "fact": "雌螈会在 65 天内产完卵，13–24 天后孵化。",
+ "range": "中国。",
+ "sources": [
+  "Wikipedia「Chinese fire belly newt」",
+  "IUCN 红色名录（2020）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "辐射陆龟",
+ "no": "347",
+ "cat": "爬行两栖",
+ "name_cn": "辐射陆龟",
+ "name_en": "Radiated tortoise",
+ "latin": "Astrochelys radiata",
+ "short": "辐射陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "80–90% 吃草，也吃果实",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2008"
+ },
+ "stats": [
+  {
+   "label": "记录寿命",
+   "value": "可达 188 年",
+   "lo": 188,
+   "hi": 188,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "3–12 枚",
+   "lo": 3,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "5–8 个月",
+   "lo": 5,
+   "hi": 8,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "初生",
+   "value": "3.2–4 cm",
+   "lo": 0.032,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "星星花纹",
+   "icon": "camo",
+   "desc": "每块深色甲片中央放射出黄线，形成比印度星龟更精细的“星星”图案。"
+  },
+  {
+   "name": "长寿",
+   "icon": "team",
+   "desc": "记录寿命可达 188 年。"
+  }
+ ],
+ "intro": [
+  "辐射陆龟原产马达加斯加南部。",
+  "雌龟在 15–20 cm 深的洞里产 3–12 枚蛋，然后离开。",
+  "喜欢吃高蛋白、低纤维的嫩草。"
+ ],
+ "fact": "雄龟长到约 31 cm 才开始交配。",
+ "range": "马达加斯加南部。",
+ "sources": [
+  "Wikipedia「Radiated tortoise」",
+  "IUCN 红色名录（Leuteritz 2008）"
+ ],
+ "footnote": "IUCN 评估年代较早（2008 年）。"
+}

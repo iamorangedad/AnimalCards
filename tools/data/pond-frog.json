@@ -1,0 +1,78 @@
+{
+ "file": "黑斑侧褶蛙",
+ "no": "354",
+ "cat": "爬行两栖",
+ "name_cn": "黑斑侧褶蛙",
+ "name_en": "Dark-spotted frog",
+ "latin": "Pelophylax nigromaculatus",
+ "short": "黑斑侧褶蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2004"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "约 62 mm",
+   "lo": 0.062,
+   "hi": 0.062,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "雌体长",
+   "value": "约 74 mm",
+   "lo": 0.074,
+   "hi": 0.074,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每窝卵",
+   "value": "600–5000 枚",
+   "lo": 600,
+   "hi": 5000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 13 年",
+   "lo": 13,
+   "hi": 13,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "低地蛙",
+   "icon": "dive",
+   "desc": "多生活在低海拔水域，不超过 2200 m。"
+  },
+  {
+   "name": "耐人",
+   "icon": "team",
+   "desc": "比较能适应人类干扰，但面临捕猎和水污染威胁。"
+  }
+ ],
+ "intro": [
+  "黑斑侧褶蛙又叫黑斑蛙，1861 年首次被描述。",
+  "分布在中国东部到东北、朝鲜半岛和俄罗斯阿穆尔河流域等地。",
+  "大约 2 岁成熟。"
+ ],
+ "fact": "它被引入到了土库曼斯坦、夏威夷瓦胡岛和塞班岛。",
+ "range": "东亚。",
+ "sources": [
+  "Wikipedia「Dark-spotted frog」",
+  "IUCN 红色名录（Kuzmin 2004）"
+ ],
+ "footnote": "IUCN 评估年代较早（2004 年）；卵数另有 1800–3000 的报道。"
+}

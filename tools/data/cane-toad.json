@@ -1,0 +1,78 @@
+{
+ "file": "海蟾蜍",
+ "no": "352",
+ "cat": "爬行两栖",
+ "name_cn": "海蟾蜍",
+ "name_en": "Cane toad",
+ "latin": "Rhinella marina",
+ "short": "海蟾蜍",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2009"
+ },
+ "stats": [
+  {
+   "label": "成体长",
+   "value": "平均 10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大",
+   "value": "24 cm",
+   "lo": 0.24,
+   "hi": 0.24,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一次产卵",
+   "value": "8000–25000 枚",
+   "lo": 8000,
+   "hi": 25000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超强繁殖",
+   "icon": "jar",
+   "desc": "一只雌蟾一次产 8000–25000 枚卵，卵带可长达 20 m。"
+  },
+  {
+   "name": "耐盐",
+   "icon": "dive",
+   "desc": "实验中蝌蚪能忍受相当于 15% 海水的盐度。"
+  }
+ ],
+ "intro": [
+  "海蟾蜍原产中美洲和南美洲。",
+  "被引入澳大利亚等地，成为入侵物种。",
+  "蝌蚪通常 48 小时内孵出。"
+ ],
+ "fact": "曾有一只饲养的海蟾蜍据报道活了 35 年。",
+ "range": "原产中南美洲，已入侵澳大利亚等地。",
+ "sources": [
+  "Wikipedia「Cane toad」",
+  "IUCN 红色名录（Solís 2009）"
+ ],
+ "footnote": ""
+}

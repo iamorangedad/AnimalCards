@@ -1,0 +1,78 @@
+{
+ "file": "洞螈",
+ "no": "357",
+ "cat": "爬行两栖",
+ "name_cn": "洞螈",
+ "name_en": "Olm",
+ "latin": "Proteus anguinus",
+ "short": "洞螈",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "23–25 cm",
+   "lo": 0.23,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "不吃东西",
+   "value": "可达 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "140 天（10 °C）",
+   "lo": 140,
+   "hi": 140,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 14 年",
+   "lo": 14,
+   "hi": 14,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "“人鱼”",
+   "icon": "camo",
+   "desc": "皮肤没有色素、肉色透明，当地人叫它“人鱼”，还曾以为是洞穴龙的幼崽。"
+  },
+  {
+   "name": "黑暗感官",
+   "icon": "ear",
+   "desc": "眼睛退化，嗅觉、听觉非常灵敏，还能感受磁场。"
+  }
+ ],
+ "intro": [
+  "洞螈是欧洲唯一完全生活在洞穴里的脊索动物属。",
+  "雌螈最多产 70 枚卵，平均 35 枚。",
+  "成年雌螈通常 12.5 年才繁殖一次。"
+ ],
+ "fact": "实验显示，洞螈可以 10 年不吃东西还活着。",
+ "range": "迪纳拉山脉的地下水（斯洛文尼亚、克罗地亚等）。",
+ "sources": [
+  "Wikipedia「Olm」",
+  "AmphibiaWeb「Proteus anguinus」",
+  "IUCN 红色名录（Miaud 2024）"
+ ],
+ "footnote": "IUCN 类别（VU）引自 AmphibiaWeb。"
+}

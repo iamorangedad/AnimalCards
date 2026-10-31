@@ -1,0 +1,78 @@
+{
+ "file": "欧洲普通蟾蜍",
+ "no": "353",
+ "cat": "爬行两栖",
+ "name_cn": "欧洲普通蟾蜍",
+ "name_en": "Common toad",
+ "latin": "Bufo bufo",
+ "short": "欧洲普通蟾蜍",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达约 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "海拔",
+   "value": "可达 2500 m",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "一串卵",
+   "value": "1500–6000 枚",
+   "lo": 1500,
+   "hi": 6000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "卵带长",
+   "value": "3–4.5 m",
+   "lo": 3,
+   "hi": 4.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "认家",
+   "icon": "team",
+   "desc": "成年蟾蜍年年回同一地方，80% 以上的雄蟾回到出生的池塘。"
+  },
+  {
+   "name": "看到就扑",
+   "icon": "ear",
+   "desc": "实验中它会扑向移动的 1 cm 黑纸片，但不理大纸片。"
+  }
+ ],
+ "intro": [
+  "欧洲普通蟾蜍分布在欧洲大部分地区。",
+  "雌蟾通常比雄蟾大。",
+  "约 12 周大时，小蟾蜍长约 1.5 cm，准备离开池塘。"
+ ],
+ "fact": "2007 年在苏格兰尼斯湖约 99 m 深的湖底拍到过它。",
+ "range": "欧洲、西亚和北非西北部。",
+ "sources": [
+  "Wikipedia「Common toad」",
+  "IUCN 红色名录"
+ ],
+ "footnote": "替换原定的中华蟾蜍（资料太少）；IUCN 评估年份待核。"
+}

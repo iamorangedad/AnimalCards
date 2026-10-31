@@ -1,0 +1,78 @@
+{
+ "file": "日本雨蛙",
+ "no": "360",
+ "cat": "爬行两栖",
+ "name_cn": "日本雨蛙",
+ "name_en": "Japanese tree frog",
+ "latin": "Dryophytes japonicus",
+ "short": "日本雨蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 33 mm",
+   "lo": 0.033,
+   "hi": 0.033,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "耐寒",
+   "value": "−30 °C 达 120 天",
+   "lo": 120,
+   "hi": 120,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "340–1500 枚",
+   "lo": 340,
+   "hi": 1500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 6 年",
+   "lo": 6,
+   "hi": 6,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "不怕冻",
+   "icon": "huddle",
+   "desc": "有些个体能在 −30 °C 下坚持 120 天，最低可耐 −35 °C。"
+  },
+  {
+   "name": "上过太空",
+   "icon": "flip",
+   "desc": "送上太空的雨蛙全部安全返回，回到地面 2.5 小时后恢复正常。"
+  }
+ ],
+ "intro": [
+  "日本雨蛙原产日本、中国和朝鲜半岛。",
+  "2025 年，日本关西以东和库页岛的种群被分为另一个种。",
+  "多数个体能反复经受 −30 °C 的低温。"
+ ],
+ "fact": "它的头骨平均只有约 12 mm 宽。",
+ "range": "日本、中国、朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Japanese tree frog」",
+  "IUCN 红色名录（Kuzmin 2017）"
+ ],
+ "footnote": "替换原定的黑掌树蛙（资料太少）；耐寒条为天数。"
+}

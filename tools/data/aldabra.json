@@ -1,0 +1,77 @@
+{
+ "file": "亚达伯拉象龟",
+ "no": "346",
+ "cat": "爬行两栖",
+ "name_cn": "亚达伯拉象龟",
+ "name_en": "Aldabra giant tortoise",
+ "latin": "Aldabrachelys gigantea",
+ "short": "亚达伯拉象龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 1996"
+ },
+ "stats": [
+  {
+   "label": "雄背甲长",
+   "value": "平均 122 cm",
+   "lo": 1.22,
+   "hi": 1.22,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "平均 250 kg",
+   "lo": 250,
+   "hi": 250,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "平均 159 kg",
+   "lo": 159,
+   "hi": 159,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "一些超过 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "life_xl",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级长寿",
+   "icon": "team",
+   "desc": "有些个体被认为超过 200 岁，但它们往往活得比观察者还久，很难核实。"
+  },
+  {
+   "name": "大个子",
+   "icon": "trunk",
+   "desc": "体型和著名的加拉帕戈斯象龟差不多。"
+  }
+ ],
+ "intro": [
+  "亚达伯拉象龟是塞舌尔特有的物种，亚达伯拉环礁上约有 18 万只，是世界最大的象龟种群。",
+  "雌龟比雄龟小，平均背甲长 91 cm。",
+  "化石显示，象龟曾出现在除南极洲外的每个大陆。"
+ ],
+ "fact": "印度加尔各答动物园的 Adwaita 2006 年去世，据称活了 255 岁。",
+ "range": "塞舌尔亚达伯拉环礁。",
+ "sources": [
+  "Wikipedia「Aldabra giant tortoise」",
+  "IUCN 红色名录（1996）"
+ ],
+ "footnote": "IUCN 评估年代较早（1996 年）；255 岁为传说年龄（待核）。"
+}

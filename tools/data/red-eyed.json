@@ -1,0 +1,79 @@
+{
+ "file": "红眼树蛙",
+ "no": "351",
+ "cat": "爬行两栖",
+ "name_cn": "红眼树蛙",
+ "name_en": "Red-eyed tree frog",
+ "latin": "Agalychnis callidryas",
+ "short": "红眼树蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "50–75 mm",
+   "lo": 0.05,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "约 40 枚",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "6–8 天",
+   "lo": 6,
+   "hi": 8,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 5 年",
+   "lo": 5,
+   "hi": 5,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "红眼吓敌",
+   "icon": "ear",
+   "desc": "闭眼时红眼藏起来，和环境融为一体；鲜红眼睛可能会让捕食者受惊，争取逃跑时间。"
+  },
+  {
+   "name": "叶上产卵",
+   "icon": "jar",
+   "desc": "雌蛙把约 40 枚卵产在水塘上方的叶子上；胚胎遇到捕食者能提前孵出，掉进水里逃走。"
+  }
+ ],
+ "intro": [
+  "红眼树蛙生活在中美洲和南美洲西北部。",
+  "它是最容易认出的蛙之一：红眼、绿身、蓝黄色侧纹、橙红色脚。",
+  "一晚上可以产好几窝卵。"
+ ],
+ "fact": "卵在不受打扰时 6–10 天孵化，遇到震动危险会提前孵出。",
+ "range": "中美洲、南美洲西北部。",
+ "sources": [
+  "Wikipedia「Red-eyed tree frog」",
+  "维基百科「红眼树蛙」",
+  "IUCN 红色名录（2020）"
+ ],
+ "footnote": "体长来自中文维基（待核）。"
+}

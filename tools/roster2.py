@@ -80,9 +80,9 @@ R3 = [
 ("snapping","真鳄龟","Alligator snapping turtle",Rp,""),("aldabra","亚达伯拉象龟","Aldabra giant tortoise",Rp,""),("radiated","辐射陆龟","Radiated tortoise",Rp,""),
 ("painted-turtle","锦龟","Painted turtle",Rp,""),("matamata","枯叶龟","Mata mata",Rp,""),
 ("poison-frog","金色箭毒蛙","Golden poison frog",Rp,""),("red-eyed","红眼树蛙","Agalychnis callidryas",Rp,""),("cane-toad","海蟾蜍","Cane toad",Rp,""),
-("asian-toad","中华蟾蜍","Asiatic toad",Rp,""),("pond-frog","黑斑侧褶蛙","Pelophylax nigromaculatus",Rp,""),("fire-newt","东方蝾螈","Chinese fire belly newt",Rp,""),
+("common-toad","欧洲普通蟾蜍","Common toad",Rp,""),("pond-frog","黑斑侧褶蛙","Pelophylax nigromaculatus",Rp,""),("fire-newt","东方蝾螈","Chinese fire belly newt",Rp,""),
 ("fire-salamander","火蝾螈","Fire salamander",Rp,""),("olm","洞螈","Olm",Rp,""),("clawed-frog","非洲爪蟾","African clawed frog",Rp,""),("goliath-frog","巨谐蛙","Goliath frog",Rp,""),
-("flying-frog","黑掌树蛙","Wallace's flying frog",Rp,""),
+("jp-treefrog","日本雨蛙","Japanese tree frog",Rp,""),
 # 昆虫 40
 ("housefly","家蝇","Housefly",I,""),("mosquito","埃及伊蚊","Aedes aegypti",I,""),("ger-roach","德国小蠊","German cockroach",I,""),("am-roach","美洲大蠊","American cockroach",I,""),
 ("desert-locust","沙漠蝗","Desert locust",I,""),("mig-locust","飞蝗","Migratory locust",I,""),("stick-insect","印度竹节虫","Carausius morosus",I,""),("orchid-mantis","兰花螳螂","Hymenopus coronatus",I,""),

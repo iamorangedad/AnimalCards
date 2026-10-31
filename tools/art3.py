@@ -200,3 +200,112 @@ def a_manta(w, h):
 ART3 = {"blue-whale": a_bluewhale, "orca": a_orca, "dolphin": a_dolphin, "white-shark": a_whiteshark, "whale-shark": a_whaleshark,
         "green-turtle": a_greenturtle, "sea-otter": a_seaotter, "sea-lion": a_sealion, "spotted-seal": a_spottedseal, "polar-bear": a_polarbear,
         "seahorse": a_seahorse, "clownfish": a_clownfish, "jellyfish": a_jelly, "starfish": a_starfish, "manta": a_manta}
+
+
+# ---------------------------------------------------------------- birds
+def branch(x0, x1, y, sw=14):
+    return P(f"M{x0} {y} L{x1} {y-6}", sw=sw + 5) + P(f"M{x0} {y} L{x1} {y-6}", sw=sw, col="#d9c3a0")
+
+
+def a_baldeagle(w, h):
+    b = bird(F="#5a3d2b", wing="#4a3222", rx=92, ry=62, tilt=-24, neck=24, nw=56, hr=40, beak="hook", beak_col="#f2c53a", leg_len=40, leg_col="#f2c53a", legw=7,
+             tail="short", tail_col="#ffffff", head_col="#ffffff")
+    return scene("forest", w, h, G_(rock(0, 0, 2.2), 0, 0) + G_(b, 0, -86), box=(w / 2, h * .78, 520, 420))
+
+
+def a_barnowl(w, h):
+    o = []
+    o.append(P("M-90 -40 C-110 -160 -80 -250 0 -260 C80 -250 110 -160 90 -40 C60 -4 -60 -4 -90 -40 Z", "#d9b27a"))
+    o.append(P("M-30 -40 C-40 -120 40 -120 30 -40 Z", "#fbf6ec", 0))
+    o.append(P("M-88 -60 C-120 -150 -90 -220 -60 -200 C-50 -150 -50 -90 -60 -40 Z M88 -60 C120 -150 90 -220 60 -200 C50 -150 50 -90 60 -40 Z", "#c99a5a", 2.8))
+    o.append("".join(C(-60 + (i * 31) % 120, -190 + (i * 23) % 120, 2.5, "#fff", 0) for i in range(14)))
+    o.append(P("M0 -190 C-30 -240 -90 -250 -84 -190 C-80 -150 -40 -130 0 -120 C40 -130 80 -150 84 -190 C90 -250 30 -240 0 -190 Z", "#ffffff"))
+    o.append(E(-34, -182, 11, 14, INK, 0) + E(34, -182, 11, 14, INK, 0) + C(-37, -187, 3, "#fff", 0) + C(31, -187, 3, "#fff", 0))
+    o.append(P("M0 -176 L-8 -150 L0 -140 L8 -150 Z", "#e8d2b0", 2.4))
+    o.append(P("M-30 0 l-10 -40 M-30 0 l-18 -2 M-30 0 l-2 -2 M30 0 l10 -40 M30 0 l18 -2 M30 0 l2 -2", sw=4, col=INK))
+    perch = P("M-160 4 H160", sw=16) + P("M-160 4 H160", sw=10, col="#c9a27a")
+    return scene("farm", w, h, perch + "".join(o), box=(w / 2, h * .76, 400, 420))
+
+
+def a_ostrich(w, h):
+    b = bird(F="#2e2a28", wing="#ffffff", rx=110, ry=70, tilt=-6, neck=230, nw=24, hr=26, beak="short", beak_col="#e9cdb0", leg_len=210, leg_col="#e8b8a0", legw=11,
+             tail="up", tail_col="#ffffff", head_col="#c9b8ae")
+    return scene("savanna", w, h, b, box=(w / 2, h * .8, 520, 420))
+
+
+def a_flamingo(w, h):
+    b = bird(F="#f6a3b5", wing="#ef6f8a", rx=86, ry=52, tilt=-10, neck=200, nw=20, hr=24, beak="flamingo", leg_len=230, leg_col="#ef7f98", legw=6,
+             tail="short", tail_col="#2a2a2a", head_col="#f6a3b5", webbed=True)
+    return scene("wetland", w, h, b, box=(w / 2, h * .8, 480, 420))
+
+
+def a_peafowl(w, h):
+    train = P("M60 -150 C200 -170 360 -120 420 -10 C330 10 160 0 60 -80 Z", "#3f8f6a")
+    train += "".join(E(150 + (i % 4) * 66, -120 + (i // 4) * 36 + (i % 4) * 14, 14, 11, "#e9c64a", 2) + C(150 + (i % 4) * 66, -120 + (i // 4) * 36 + (i % 4) * 14, 6, "#2b5aa8", 0)
+                     for i in range(10))
+    b = bird(F="#2b5aa8", wing="#c9b89a", rx=74, ry=50, tilt=-10, neck=70, nw=34, hr=26, beak="short", beak_col="#c9b89a", leg_len=90, leg_col="#b8a890", legw=6,
+             tail="short", tail_col="#3f8f6a", crest="peacock", head_col="#2b5aa8", eye_ring="#ffffff")
+    return scene("forest", w, h, train + b, box=(w / 2, h * .76, 600, 380))
+
+
+def a_crane(w, h):
+    b = bird(F="#ffffff", wing="#2a2a2a", rx=96, ry=56, tilt=-8, neck=150, nw=22, hr=24, beak="long", beak_col="#9aa58a", leg_len=220, leg_col="#3a3f45", legw=6,
+             tail="up", tail_col="#2a2a2a", crest="red", head_col="#2a2a2a")
+    return scene("wetland", w, h, b, box=(w / 2, h * .8, 500, 420))
+
+
+def a_hummingbird(w, h):
+    b = bird(F="#5fae6a", wing="#3f6f4a", rx=80, ry=44, tilt=-24, neck=4, nw=44, hr=32, beak="needle", leg_len=0, tail="fork", tail_col="#3f6f4a",
+             belly="#eef0ea", sit=True, front=E(-92, -60, 20, 14, "#e2483c", 0))
+    wings = P("M10 -90 C-20 -230 60 -280 110 -250 C90 -180 60 -130 30 -86 Z", "#d9e8dc", 2.6, extra='fill-opacity=".8"')
+    fl = "".join(G_(flower(0, 0, "#e7a9c8", 1.4), x, y) for x, y in ((-190, 120), (-150, 140)))
+    return scene("meadow", w, h, fl + G_(wings + b, 0, 0), box=(w / 2, h * .66, 420, 360))
+
+
+def a_magpie(w, h):
+    b = bird(F="#1f2328", wing="#2f4f7a", rx=70, ry=44, tilt=-16, neck=10, nw=40, hr=28, beak="short", beak_col="#1f2328", leg_len=60, leg_col="#1f2328", legw=5,
+             tail="long", tail_col="#2a4a5a", belly="#ffffff")
+    b += P("M-10 -110 C20 -130 60 -126 70 -100", sw=14, col="#ffffff")
+    return scene("meadow", w, h, b, box=(w / 2, h * .76, 480, 320))
+
+
+def a_sparrow(w, h):
+    b = bird(F="#e9dcc8", wing="#a36b3e", rx=60, ry=44, tilt=-10, neck=4, nw=40, hr=30, beak="cone", beak_col="#3a3f45", leg_len=36, leg_col="#c9a27a", legw=4,
+             tail="short", tail_col="#7a5a3a", head_col="#9a5a34", belly="#f3ece2")
+    b += E(-62, -112, 9, 7, INK, 0) + P("M-80 -96 q10 10 24 0", sw=6, col=INK)
+    b += "".join(P(f"M{-10+i*20} -120 l10 6", sw=3, col="#3a2a1a") for i in range(3))
+    seeds = "".join(E(-120 + i * 18, -4, 5, 3, "#c9a27a", 1.6) for i in range(4))
+    return scene("meadow", w, h, b + seeds, box=(w / 2, h * .76, 360, 260))
+
+
+def a_woodpecker(w, h):
+    b = bird(F="#1f2328", wing="#1f2328", rx=56, ry=34, tilt=0, neck=6, nw=34, hr=24, beak="long", beak_col="#3a3f45", leg_len=20, leg_col="#6b7075", legw=4,
+             tail="short", tail_col="#1f2328", belly="#f3efe6", crest=None)
+    b += "".join(R(-10 + i * 16, -78, 8, 6, "#ffffff", 0, 0) for i in range(4)) + E(-40, -68, 16, 10, "#ffffff", 0) + E(60, -52, 12, 8, "#e2483c", 0)
+    b += E(-48, -112, 10, 7, "#e2483c", 0)
+    g = f'<g transform="rotate(70)">{b}</g>'
+    trunk = R(-30, -360, 60, 400, "#c9a27a", 6, 3) + P("M-12 -300 v60 M10 -200 v80 M-4 -80 v40", sw=2, col="#8a6a4a")
+    return scene("forest", w, h, trunk + G_(g, 40, -120), box=(w / 2, h * .76, 360, 440))
+
+
+def a_swan(w, h):
+    b = bird(F="#fbfbf8", wing="#eceee9", rx=110, ry=56, tilt=-4, neck=150, nw=28, hr=26, beak="duck", beak_col="#f2d23a", leg_len=0, tail="up", tail_col="#fbfbf8", sit=True)
+    water = P("M-200 -10 q25 -12 50 0 q25 12 50 0 q25 -12 50 0 q25 12 50 0 q25 -12 50 0 q25 12 50 0 q25 -12 50 0 q25 12 50 0", sw=2.6, col=BLUE)
+    return scene("pond", w, h, b + water, box=(w / 2 - 20, h * .74, 480, 400))
+
+
+def a_macaw(w, h):
+    b = bird(F="#3a7fd0", wing="#2f6ab8", rx=60, ry=46, tilt=-50, neck=10, nw=40, hr=32, beak="hook", beak_col="#2a2a2a", leg_len=24, leg_col="#6b6b6b", legw=5,
+             tail="long", tail_col="#3a7fd0", belly="#f6c33a", eye_ring="#ffffff")
+    return scene("rainforest", w, h, branch(-160, 160, 4) + b, box=(w / 2, h * .66, 440, 420))
+
+
+def a_pigeon(w, h):
+    b = bird(F="#a9b0ba", wing="#c3c8cf", rx=72, ry=48, tilt=-12, neck=20, nw=46, hr=28, beak="short", beak_col="#3a3f45", leg_len=40, leg_col="#d96a6a", legw=5,
+             tail="short", tail_col="#7c838d", head_col="#8f97a2")
+    b += P("M-82 -100 C-70 -90 -52 -90 -40 -100", sw=10, col="#6fae8f") + P("M-8 -100 l50 6 M-4 -86 l50 6", sw=6, col="#3a3f45")
+    return scene("meadow", w, h, b, box=(w / 2, h * .76, 420, 300))
+
+
+ART3.update({"bald-eagle": a_baldeagle, "barn-owl": a_barnowl, "ostrich": a_ostrich, "flamingo": a_flamingo, "peafowl": a_peafowl, "crane": a_crane,
+             "hummingbird": a_hummingbird, "magpie": a_magpie, "sparrow": a_sparrow, "woodpecker": a_woodpecker, "swan": a_swan, "macaw": a_macaw, "pigeon": a_pigeon})

@@ -1,0 +1,77 @@
+{
+ "file": "白头海雕",
+ "no": "072",
+ "cat": "鸟类",
+ "name_cn": "白头海雕",
+ "name_en": "Bald eagle",
+ "latin": "Haliaeetus leucocephalus",
+ "short": "白头海雕",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "3–6.3 kg",
+   "lo": 3,
+   "hi": 6.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "1.8–2.3 m",
+   "lo": 1.8,
+   "hi": 2.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "俯冲速度",
+   "value": "120–160 km/h",
+   "lo": 120,
+   "hi": 160,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "利爪抓鱼",
+   "icon": "dive",
+   "desc": "它从空中俯冲下来，用强有力的利爪把鱼从水里抓走。"
+  },
+  {
+   "name": "超级大巢",
+   "icon": "huddle",
+   "desc": "它的巢年年加建，最大可深 4 m、宽 2.5 m、重 1 吨，是树上最大的动物巢。"
+  }
+ ],
+ "intro": [
+  "白头海雕是北美洲特有的海雕，成鸟身体深褐色，头和尾是白色的。",
+  "它是美国的国鸟和国家象征。",
+  "20 世纪后期它在美国本土差点消失，禁止猎杀和禁用农药 DDT 后才慢慢恢复。"
+ ],
+ "fact": "雌鸟比雄鸟大约 25%，阿拉斯加的大型雌鸟可超过 7 kg。",
+ "range": "北美洲：阿拉斯加、加拿大、美国到墨西哥北部。",
+ "sources": [
+  "Wikipedia「Bald eagle」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": "俯冲速度 120–160 km/h 超出速度刻度 120 km/h，条画满；最长寿纪录 38 年。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "蓝黄金刚鹦鹉",
+ "no": "083",
+ "cat": "鸟类",
+ "name_cn": "蓝黄金刚鹦鹉",
+ "name_en": "Blue-and-yellow macaw",
+ "latin": "Ara ararauna",
+ "short": "蓝黄金刚鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃坚果、种子和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "81–91 cm",
+   "lo": 0.81,
+   "hi": 0.91,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.0–1.5 kg",
+   "lo": 1.0,
+   "hi": 1.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "30–35 年",
+   "lo": 30,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 28 天",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "铁嘴",
+   "icon": "jar",
+   "desc": "它用强有力的喙咬开坚果壳，还会用喙帮忙爬树、挂在树上。"
+  },
+  {
+   "name": "会说话",
+   "icon": "ear",
+   "desc": "它们色彩艳丽、会学说话，是很受欢迎的观赏鸟。"
+  }
+ ],
+ "intro": [
+  "蓝黄金刚鹦鹉是鹦鹉科里体型较大的成员，背是蓝色，肚子是黄色。",
+  "它通常终生只有一个伴侣。",
+  "野外的它们会发出响亮的“群呼”联络同伴。"
+ ],
+ "fact": "饲养条件好的金刚鹦鹉能活 60 年甚至更久。",
+ "range": "中美洲和南美洲热带的森林和稀树草原，以及特立尼达岛。",
+ "sources": [
+  "Wikipedia「Blue-and-yellow macaw」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "偶尔也吃昆虫和蜗牛。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "大红鹳",
+ "no": "075",
+ "cat": "鸟类",
+ "name_cn": "大红鹳",
+ "name_en": "Greater flamingo",
+ "latin": "Phoenicopterus roseus",
+ "short": "大红鹳",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食小虾、藻类和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "110–150 cm",
+   "lo": 1.1,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2–4 kg",
+   "lo": 2,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均 30–40 年",
+   "lo": 30,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "26–32 天",
+   "lo": 26,
+   "hi": 32,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "倒头滤食",
+   "icon": "whisker",
+   "desc": "它头朝下伸进水里，用脚搅起泥，把水吸进嘴里滤出小虾、藻类等食物。"
+  },
+  {
+   "name": "单脚站立",
+   "icon": "climb",
+   "desc": "红鹳常常单脚站立，可能是为了在冷水里保暖或省力。"
+  }
+ ],
+ "intro": [
+  "大红鹳又叫大火烈鸟，是体型最大、分布最广的红鹳。",
+  "它们的粉红色来自食物里的 β-胡萝卜素和细菌；刚孵出的小鸟是灰红色的。",
+  "大红鹳以大群集体跳求偶舞而出名。"
+ ],
+ "fact": "已知最长寿的大红鹳生活在澳大利亚阿德莱德动物园，至少活了 83 岁。",
+ "range": "非洲、印度次大陆、中亚、中东和南欧地中海沿岸。",
+ "sources": [
+  "Wikipedia「Greater flamingo」",
+  "Wikipedia「Flamingo」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "单脚站立和粉色来源为红鹳整体资料。"
+}

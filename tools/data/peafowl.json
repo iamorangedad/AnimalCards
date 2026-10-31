@@ -1,0 +1,77 @@
+{
+ "file": "蓝孔雀",
+ "no": "076",
+ "cat": "鸟类",
+ "name_cn": "蓝孔雀",
+ "name_en": "Indian peafowl",
+ "latin": "Pavo cristatus",
+ "short": "蓝孔雀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃草籽、果实、昆虫和小爬行动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄鸟体重",
+   "value": "4.1–5.2 kg",
+   "lo": 4.1,
+   "hi": 5.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄鸟含尾屏",
+   "value": "2–2.3 m",
+   "lo": 2.0,
+   "hi": 2.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "28–30 天",
+   "lo": 28,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "开屏",
+   "icon": "flip",
+   "desc": "雄孔雀的“尾屏”其实是加长的尾上覆羽，带彩色眼斑；求偶时竖起成扇形并抖动。"
+  },
+  {
+   "name": "扇形羽冠",
+   "icon": "camo",
+   "desc": "雄鸟头部是蓝色的，头顶有扇形的羽冠。"
+  }
+ ],
+ "intro": [
+  "蓝孔雀原产印度次大陆，是印度的国鸟。",
+  "雌孔雀主要是褐色的，脸是白色，没有长长的尾屏。",
+  "它清晨在开阔地活动，天热时躲到树荫下休息。"
+ ],
+ "fact": "雄孔雀每年 7–10 月会换掉尾屏羽毛，第二年再长出来。",
+ "range": "印度次大陆；已被引入世界许多地方。",
+ "sources": [
+  "Wikipedia「Indian peafowl」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": "饲养条件下可活到 23 年。"
+}

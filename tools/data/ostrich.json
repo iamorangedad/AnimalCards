@@ -1,0 +1,77 @@
+{
+ "file": "鸵鸟",
+ "no": "074",
+ "cat": "鸟类",
+ "name_cn": "鸵鸟",
+ "name_en": "Common ostrich",
+ "latin": "Struthio camelus",
+ "short": "鸵鸟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以植物为主，也吃虫和小爬行动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "100–130 kg",
+   "lo": 100,
+   "hi": 130,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性身高",
+   "value": "2.1–2.75 m",
+   "lo": 2.1,
+   "hi": 2.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "约 70 km/h",
+   "lo": 70,
+   "hi": 70,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "蛋重",
+   "value": "约 1.4 kg",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "mass_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "两足最快",
+   "icon": "flip",
+   "desc": "它能以 55 km/h 长时间奔跑，短时冲刺约 70 km/h，是跑得最快的两足动物，一步 3–5 m。"
+  },
+  {
+   "name": "大眼睛",
+   "icon": "camo",
+   "desc": "它的眼睛直径 50 mm，是陆地脊椎动物里最大的，能远远看见天敌。"
+  }
+ ],
+ "intro": [
+  "鸵鸟是现存最大的鸟，不会飞，原产非洲。",
+  "它每只脚只有两个脚趾（大多数鸟有四个），帮助奔跑。",
+  "鸵鸟蛋是现存鸟类中最大的，重量是鸡蛋的 20 多倍。"
+ ],
+ "fact": "被逼到角落时，鸵鸟会用强壮的腿踢击自卫。",
+ "range": "非洲部分地区（历史上也分布于阿拉伯半岛）。",
+ "sources": [
+  "Wikipedia「Common ostrich」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "饲养的鸵鸟最长活了 62 年 7 个月。"
+}

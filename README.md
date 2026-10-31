@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 71 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 1）。
+共 84 张（宠物 11，农场 10，高原草原 18，森林 15，海洋 16，鸟类 14）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -79,6 +79,19 @@
 | 070 | 海星（Common starfish） | 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.pdf) |
 | 071 | 蝠鲼（Giant oceanic manta ray） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
+| 072 | 白头海雕（Bald eagle） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.pdf) |
+| 073 | 仓鸮（Western barn owl） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.pdf) |
+| 074 | 鸵鸟（Common ostrich） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B5%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%B8%B5%E9%B8%9F.pdf) |
+| 075 | 大红鹳（Greater flamingo） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E7%BA%A2%E9%B9%B3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E7%BA%A2%E9%B9%B3.pdf) |
+| 076 | 蓝孔雀（Indian peafowl） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E5%AD%94%E9%9B%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E5%AD%94%E9%9B%80.pdf) |
+| 077 | 丹顶鹤（Red-crowned crane） | 鸟类 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%B8%B9%E9%A1%B6%E9%B9%A4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%B8%B9%E9%A1%B6%E9%B9%A4.pdf) |
+| 078 | 红喉北蜂鸟（Ruby-throated hummingbird） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BA%A2%E5%96%89%E5%8C%97%E8%9C%82%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%BA%A2%E5%96%89%E5%8C%97%E8%9C%82%E9%B8%9F.pdf) |
+| 079 | 喜鹊（Oriental magpie） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%96%9C%E9%B9%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%96%9C%E9%B9%8A.pdf) |
+| 080 | 麻雀（Eurasian tree sparrow） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%BA%BB%E9%9B%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E9%BA%BB%E9%9B%80.pdf) |
+| 081 | 大斑啄木鸟（Great spotted woodpecker） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E6%96%91%E5%95%84%E6%9C%A8%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E6%96%91%E5%95%84%E6%9C%A8%E9%B8%9F.pdf) |
+| 082 | 大天鹅（Whooper swan） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%A4%A7%E5%A4%A9%E9%B9%85.pdf) |
+| 083 | 蓝黄金刚鹦鹉（Blue-and-yellow macaw） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E8%93%9D%E9%BB%84%E9%87%91%E5%88%9A%E9%B9%A6%E9%B9%89.pdf) |
+| 084 | 原鸽（Rock dove） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%8E%9F%E9%B8%BD.pdf) |
 
 ## 说明
 

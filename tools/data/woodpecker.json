@@ -1,0 +1,77 @@
+{
+ "file": "大斑啄木鸟",
+ "no": "081",
+ "cat": "鸟类",
+ "name_cn": "大斑啄木鸟",
+ "name_en": "Great spotted woodpecker",
+ "latin": "Dendrocopos major",
+ "short": "大斑啄木鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃树里的虫子、松子和鸟蛋",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "70–98 g",
+   "lo": 0.07,
+   "hi": 0.098,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "20–24 cm",
+   "lo": 0.2,
+   "hi": 0.24,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "11 年多",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "10–12 天",
+   "lo": 10,
+   "hi": 12,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "凿洞取虫",
+   "icon": "trunk",
+   "desc": "它在树上凿出最深 10 cm 的洞，用能伸出喙外 40 mm、带刺毛和黏液的舌头粘住虫子。"
+  },
+  {
+   "name": "敲树传信",
+   "icon": "ear",
+   "desc": "它会快速敲击树干发出“鼓声”，用来联络和宣示领地。"
+  }
+ ],
+ "intro": [
+  "大斑啄木鸟黑白相间，下腹有一块红色。",
+  "它生活在各种森林里，也常见于公园、花园。",
+  "它的身体有特殊结构，能承受啄木时的剧烈撞击。"
+ ],
+ "fact": "年轻的啄木鸟会离开出生地四处游荡，常飞 100–600 km，最远可达 3000 km。",
+ "range": "欧洲、北非和亚洲的森林，海拔可达 2000–2500 m。",
+ "sources": [
+  "Wikipedia「Great spotted woodpecker」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "仓鸮",
+ "no": "073",
+ "cat": "鸟类",
+ "name_cn": "仓鸮",
+ "name_en": "Western barn owl",
+ "latin": "Tyto alba",
+ "short": "仓鸮",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "九成以上是小型哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "33–35 cm",
+   "lo": 0.33,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "80–95 cm",
+   "lo": 0.8,
+   "hi": 0.95,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外最长",
+   "value": "约 18 年",
+   "lo": 18,
+   "hi": 18,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "栖息海拔",
+   "value": "可达 4000 m",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑暗中听声",
+   "icon": "ear",
+   "desc": "仓鸮听觉极其灵敏，能在完全黑暗中靠声音找到地上的老鼠。"
+  },
+  {
+   "name": "吐食丸",
+   "icon": "jar",
+   "desc": "吃不了的骨头和毛会被吐成“食丸”，科学家靠它研究仓鸮吃了什么。"
+  }
+ ],
+ "intro": [
+  "仓鸮有一张又大又白的心形脸盘，眼睛是黑色的。",
+  "它大多在黄昏和夜里捕猎，但在英国白天也会出来。",
+  "在温带湿润地区，它九成以上的猎物是小型哺乳动物。"
+ ],
+ "fact": "雌鸟每隔一天产一枚蛋，一窝平均约五枚（2–9 枚）。",
+ "range": "欧洲大部、西亚和非洲。",
+ "sources": [
+  "Wikipedia「Western barn owl」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "饲养的仓鸮有活过 25 年的。"
+}

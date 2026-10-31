@@ -1,0 +1,78 @@
+{
+ "file": "丹顶鹤",
+ "no": "077",
+ "cat": "鸟类",
+ "name_cn": "丹顶鹤",
+ "name_en": "Red-crowned crane",
+ "latin": "Grus japonensis",
+ "short": "丹顶鹤",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "偏爱鱼虾，冬天也吃稻谷",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "4.8–10.5 kg",
+   "lo": 4.8,
+   "hi": 10.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "身高",
+   "value": "1.5–1.58 m",
+   "lo": 1.5,
+   "hi": 1.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2.2–2.5 m",
+   "lo": 2.2,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "估计 20–30 年",
+   "lo": 20,
+   "hi": 30,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色头顶",
+   "icon": "camo",
+   "desc": "“丹顶”是头顶一块裸露的红色皮肤，繁殖季节会变得更鲜艳。"
+  },
+  {
+   "name": "鹤舞",
+   "icon": "flip",
+   "desc": "丹顶鹤一年四季都会跳舞，一般认为跳舞表示兴奋。"
+  }
+ ],
+ "intro": [
+  "丹顶鹤是世界上最稀有的鹤之一，也是最大、最重的鹤之一。",
+  "在很多地方，它象征着好运、长寿和忠贞。",
+  "成年丹顶鹤每天大约要吃 750 g 食物。"
+ ],
+ "fact": "小丹顶鹤孵出时只有约 150 g，会和父母一起生活约 9 个月。",
+ "range": "繁殖于俄罗斯远东、中国东北；冬季迁到朝鲜半岛和中国中东部；日本北海道有留鸟种群。",
+ "sources": [
+  "Wikipedia「Red-crowned crane」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "饲养条件下可活到 65 年。"
+}

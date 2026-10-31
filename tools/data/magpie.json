@@ -1,0 +1,79 @@
+{
+ "file": "喜鹊",
+ "no": "079",
+ "cat": "鸟类",
+ "name_cn": "喜鹊",
+ "name_en": "Oriental magpie",
+ "latin": "Pica serica",
+ "short": "喜鹊",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "什么都吃（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024*"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翼展*",
+   "value": "52–62 cm",
+   "lo": 0.52,
+   "hi": 0.62,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "182–272 g",
+   "lo": 0.182,
+   "hi": 0.272,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "尾羽长*",
+   "value": "12–28 cm",
+   "lo": 0.12,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "照镜子",
+   "icon": "camo",
+   "desc": "欧亚喜鹊是最聪明的鸟之一，是少数能通过“镜子测试”的鸟类。"
+  },
+  {
+   "name": "大巢",
+   "icon": "huddle",
+   "desc": "喜鹊喜欢在高树的上部树杈搭又大又显眼的巢，树叶落了一眼就能看见。"
+  }
+ ],
+ "intro": [
+  "东亚的喜鹊以前被当作欧亚喜鹊的亚种，现在多被视为独立物种 Pica serica。",
+  "它又叫朝鲜喜鹊、中国喜鹊。",
+  "日本九州西北部的喜鹊，约 400 年前由朝鲜半岛移民带去。"
+ ],
+ "fact": "喜鹊黑白分明的羽色在鸦科里很特别；黑色羽毛带金属绿和紫色光泽。",
+ "range": "俄罗斯东南部、中国东部、朝鲜半岛、台湾到中南半岛北部；日本有引入种群。",
+ "sources": [
+  "Wikipedia「Oriental magpie」",
+  "Wikipedia「Eurasian magpie」",
+  "BirdLife DataZone「Eurasian Magpie」"
+ ],
+ "footnote": "*BirdLife 仍把它算在欧亚喜鹊（Pica pica，2024 年 LC）里，未单独评估。带 * 的数据来自欧亚喜鹊。"
+}

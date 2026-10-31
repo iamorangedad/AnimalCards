@@ -1,0 +1,78 @@
+{
+ "file": "原鸽",
+ "no": "084",
+ "cat": "鸟类",
+ "name_cn": "原鸽",
+ "name_en": "Rock dove",
+ "latin": "Columba livia",
+ "short": "原鸽",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以果实和谷物为主",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "238–380 g",
+   "lo": 0.238,
+   "hi": 0.38,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "30–35 cm",
+   "lo": 0.3,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "3–5 年",
+   "lo": 3,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–19 天",
+   "lo": 17,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "信鸽祖先",
+   "icon": "dive",
+   "desc": "家鸽（包括信鸽）都由原鸽驯化而来，可能已有 5000 年历史。"
+  },
+  {
+   "name": "成群生活",
+   "icon": "team",
+   "desc": "原鸽常结成 50–500 只的大群，有的负责找吃的，有的跟着吃。"
+  }
+ ],
+ "intro": [
+  "原鸽是城市里常见鸽子的野生祖先。",
+  "家鸽约有 1000 个品种，逃出去的家鸽成了世界各地的野鸽。",
+  "全世界原鸽（含野化鸽）约有 1.2 亿只。"
+ ],
+ "fact": "化石证据显示原鸽起源于南亚，在以色列至少已生活了 30 万年。",
+ "range": "原产南欧、北非和西亚；野化鸽遍布全世界城市。",
+ "sources": [
+  "Wikipedia「Rock dove」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "饲养条件下可活 15 年。"
+}

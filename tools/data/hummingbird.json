@@ -1,0 +1,77 @@
+{
+ "file": "红喉北蜂鸟",
+ "no": "078",
+ "cat": "鸟类",
+ "name_cn": "红喉北蜂鸟",
+ "name_en": "Ruby-throated hummingbird",
+ "latin": "Archilochus colubris",
+ "short": "红喉北蜂鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吸花蜜，也吃小虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2–6 g",
+   "lo": 0.002,
+   "hi": 0.006,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "7–9 cm",
+   "lo": 0.07,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "长寿纪录",
+   "value": "9 年 1 个月",
+   "lo": 9.1,
+   "hi": 9.1,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "不停飞行",
+   "value": "约 800 km",
+   "lo": 800,
+   "hi": 800,
+   "scale": "km",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "悬停倒飞",
+   "icon": "flip",
+   "desc": "它的翅膀能转动将近 180°，所以能向前、向后飞，还能停在空中，在鸟类中独一无二。"
+  },
+  {
+   "name": "长途不停飞",
+   "icon": "dive",
+   "desc": "迁徙前它会把脂肪增加一倍，然后连续飞约 20 小时、800 km 越过墨西哥湾。"
+  }
+ ],
+ "intro": [
+  "红喉北蜂鸟是在美国繁殖范围最广的蜂鸟。",
+  "雄鸟喉咙是宝石红色，背是金属绿色。",
+  "它用能伸长的舌头吸花蜜，也会在空中捉小虫补充蛋白质。"
+ ],
+ "fact": "雌鸟一窝一般只生两枚白色的蛋，每枚只有约 1.3 cm × 0.85 cm。",
+ "range": "夏季在北美洲东部繁殖，冬季飞到中美洲。",
+ "sources": [
+  "Wikipedia「Ruby-throated hummingbird」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "冬季分布为常识补充（待核）。"
+}

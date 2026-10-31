@@ -1,0 +1,78 @@
+{
+ "file": "大天鹅",
+ "no": "082",
+ "cat": "鸟类",
+ "name_cn": "大天鹅",
+ "name_en": "Whooper swan",
+ "latin": "Cygnus cygnus",
+ "short": "大天鹅",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃水生植物（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "7.4–14 kg",
+   "lo": 7.4,
+   "hi": 14,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2.05–2.75 m",
+   "lo": 2.05,
+   "hi": 2.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "通常 10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "最快约 100 km/h",
+   "lo": 100,
+   "hi": 100,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "高空迁徙",
+   "icon": "dive",
+   "desc": "曾有一群大天鹅在 8200 m 高空飞行，借着急流从冰岛飞到爱尔兰只用了约 7 小时。"
+  },
+  {
+   "name": "终身伴侣",
+   "icon": "huddle",
+   "desc": "大天鹅一旦结成伴侣就终生在一起。"
+  }
+ ],
+ "intro": [
+  "大天鹅是北半球的大型天鹅，全身洁白，嘴是黄黑两色。",
+  "它在欧亚大陆北部的亚寒带繁殖，是长途迁徙的候鸟。",
+  "在含铁或单宁的水里觅食时，头颈常被染成锈黄色。"
+ ],
+ "fact": "天鹅宝宝长得很快：40–45 天大时就有 3.1–3.7 kg。",
+ "range": "繁殖于欧亚大陆北部，冬季南迁到欧洲、中亚和东亚（含中国）。",
+ "sources": [
+  "Wikipedia「Whooper swan」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": "食性和越冬地含常识补充（待核）。"
+}

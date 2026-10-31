@@ -1,0 +1,78 @@
+{
+ "file": "麻雀",
+ "no": "080",
+ "cat": "鸟类",
+ "name_cn": "麻雀",
+ "name_en": "Eurasian tree sparrow",
+ "latin": "Passer montanus",
+ "short": "麻雀",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃种子，繁殖期多吃虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 24 g",
+   "lo": 0.024,
+   "hi": 0.024,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "12.5–14 cm",
+   "lo": 0.125,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·典型",
+   "value": "约 3 年",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "12–13 天",
+   "lo": 12,
+   "hi": 13,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树洞安家",
+   "icon": "huddle",
+   "desc": "它喜欢在树洞、建筑物的洞里筑巢，英文名“树麻雀”就是这么来的。"
+  },
+  {
+   "name": "成群觅食",
+   "icon": "team",
+   "desc": "麻雀常常成群在地上找吃的，还会和家麻雀、雀鹀混在一起。"
+  }
+ ],
+ "intro": [
+  "在东亚，麻雀遍布城镇；在欧洲，它更多生活在乡村。",
+  "它的头顶是栗色的，白脸颊上有一块黑斑。",
+  "1958 年，中国曾发动大规模消灭麻雀的运动。"
+ ],
+ "fact": "已知最长寿的麻雀活了 13.1 年，但一般只活 3 年左右。",
+ "range": "欧亚大陆温带大部分地区，经东南亚到爪哇和巴厘岛。",
+ "sources": [
+  "Wikipedia「Eurasian tree sparrow」",
+  "IUCN 红色名录（BirdLife International 2017）"
+ ],
+ "footnote": ""
+}

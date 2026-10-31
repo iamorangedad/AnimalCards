@@ -1,0 +1,77 @@
+{
+ "file": "藏羚羊",
+ "no": "038",
+ "cat": "高原草原",
+ "name_cn": "藏羚羊",
+ "name_en": "Tibetan antelope",
+ "latin": "Pantholops hodgsonii",
+ "short": "藏羚羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "冬天刨开雪找草吃",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 26–39 kg",
+   "lo": 26,
+   "hi": 39,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "肩高",
+   "value": "74–83 cm",
+   "lo": 0.74,
+   "hi": 0.83,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "约 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "栖息海拔",
+   "value": "3250–5500 m",
+   "lo": 3250,
+   "hi": 5500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长途迁徙",
+   "icon": "team",
+   "desc": "雌藏羚羊每年要迁徙多达 300 km，去产羔地生宝宝。"
+  },
+  {
+   "name": "长角",
+   "icon": "climb",
+   "desc": "雄性有向后弯的长角，一般长 54–60 cm；雌性没有角。"
+  }
+ ],
+ "intro": [
+  "藏羚羊是青藏高原特有的中型羚羊。",
+  "它的绒毛叫“沙图什”（意为“羊毛之王”），曾因此被大量盗猎。",
+  "迁徙时它们会聚成几百只的大群。"
+ ],
+ "fact": "野外成年藏羚羊不到 15 万只，但数量目前被认为正在增加。",
+ "range": "青藏高原（主要在中国境内），少数在印度和不丹。",
+ "sources": [
+  "Wikipedia「Tibetan antelope」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": "体重、肩高为雌（26 kg、74 cm）与雄（39 kg、83 cm）约值；寿命尚不确定。"
+}

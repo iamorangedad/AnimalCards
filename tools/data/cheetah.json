@@ -1,0 +1,77 @@
+{
+ "file": "猎豹",
+ "no": "031",
+ "cat": "高原草原",
+ "name_cn": "猎豹",
+ "name_en": "Cheetah",
+ "latin": "Acinonyx jubatus",
+ "short": "猎豹",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食瞪羚、黑斑羚等",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "21–65 kg",
+   "lo": 21,
+   "hi": 65,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "1.1–1.5 m",
+   "lo": 1.1,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最高速度",
+   "value": "93–104 km/h",
+   "lo": 93,
+   "hi": 104,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "陆地第一快",
+   "icon": "dive",
+   "desc": "猎豹是跑得最快的陆地动物，一步能跨 4–7 m。"
+  },
+  {
+   "name": "泪痕",
+   "icon": "camo",
+   "desc": "从眼角到嘴边各有一道黑色“泪痕”，是猎豹独有的标记。"
+  }
+ ],
+ "intro": [
+  "猎豹身材苗条、腿长，后腿肌肉强壮，生来就是为了速度。",
+  "追猎一般只有约 173 m，最长记录 559 m。",
+  "每只猎豹的斑点图案都不同，可以用来识别个体。"
+ ],
+ "fact": "GPS 项圈记录显示，猎豹打猎时平均速度约 54 km/h，并不总是全速冲刺。",
+ "range": "非洲西北部、东部和南部零散分布，以及伊朗中部。",
+ "sources": [
+  "Wikipedia「Cheetah」",
+  "IUCN 红色名录（Durant et al. 2024）"
+ ],
+ "footnote": "寿命：雌性 14–15 年，雄性一般约 10 年。"
+}

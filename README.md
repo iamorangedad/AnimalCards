@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 26 张（宠物 11，农场 10，高原草原 2，森林 1，海洋 1，鸟类 1）。
+共 42 张（宠物 11，农场 10，高原草原 18，森林 1，海洋 1，鸟类 1）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -31,6 +31,22 @@
 | 026 | 羊驼（Alpaca） | 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BE%8A%E9%A9%BC.pdf) |
 | 003 | 非洲象（African bush elephant） | 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.pdf) |
 | 006 | 狮子（Lion） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.pdf) |
+| 027 | 长颈鹿（Giraffe） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.pdf) |
+| 028 | 斑马（Plains zebra） | 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%96%91%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%96%91%E9%A9%AC.pdf) |
+| 029 | 河马（Hippopotamus） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B2%B3%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B2%B3%E9%A9%AC.pdf) |
+| 030 | 白犀（White rhinoceros） | 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%99%BD%E7%8A%80.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%99%BD%E7%8A%80.pdf) |
+| 031 | 猎豹（Cheetah） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8C%8E%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8C%8E%E8%B1%B9.pdf) |
+| 032 | 斑鬣狗（Spotted hyena） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%96%91%E9%AC%A3%E7%8B%97.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%96%91%E9%AC%A3%E7%8B%97.pdf) |
+| 033 | 非洲野犬（African wild dog） | 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E9%87%8E%E7%8A%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E9%87%8E%E7%8A%AC.pdf) |
+| 034 | 角马（Blue wildebeest） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%A7%92%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%A7%92%E9%A9%AC.pdf) |
+| 035 | 双峰驼（Bactrian camel） | 高原草原 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8F%8C%E5%B3%B0%E9%A9%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8F%8C%E5%B3%B0%E9%A9%BC.pdf) |
+| 036 | 红袋鼠（Red kangaroo） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BA%A2%E8%A2%8B%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BA%A2%E8%A2%8B%E9%BC%A0.pdf) |
+| 037 | 野牦牛（Wild yak） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%87%8E%E7%89%A6%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%87%8E%E7%89%A6%E7%89%9B.pdf) |
+| 038 | 藏羚羊（Tibetan antelope） | 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%97%8F%E7%BE%9A%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%97%8F%E7%BE%9A%E7%BE%8A.pdf) |
+| 039 | 雪豹（Snow leopard） | 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9B%AA%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9B%AA%E8%B1%B9.pdf) |
+| 040 | 狼（Wolf） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%BC.pdf) |
+| 041 | 赤狐（Red fox） | 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%B5%A4%E7%8B%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%B5%A4%E7%8B%90.pdf) |
+| 042 | 美洲野牛（American bison） | 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B.pdf) |
 | 001 | 大熊猫（Giant panda） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.pdf) |
 | 005 | 章鱼（Common octopus） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |

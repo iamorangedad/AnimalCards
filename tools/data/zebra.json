@@ -1,0 +1,77 @@
+{
+ "file": "斑马",
+ "no": "028",
+ "cat": "高原草原",
+ "name_cn": "斑马",
+ "name_en": "Plains zebra",
+ "latin": "Equus quagga",
+ "short": "斑马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "175–322 kg",
+   "lo": 175,
+   "hi": 322,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.17–2.46 m",
+   "lo": 2.17,
+   "hi": 2.46,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均约 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "逃跑速度",
+   "value": "60–70 km/h",
+   "lo": 60,
+   "hi": 70,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "独一无二的条纹",
+   "icon": "camo",
+   "desc": "每只斑马的黑白条纹都不一样；平原斑马的条纹比其他斑马更宽。"
+  },
+  {
+   "name": "集体警戒",
+   "icon": "team",
+   "desc": "遇到狮子时，斑马会站成半圆，和狮子保持 50–100 m 的距离盯着它。"
+  }
+ ],
+ "intro": [
+  "平原斑马是最常见的斑马，生活在非洲东部和南部的草原上。",
+  "它们主要吃草，通常不会离开水源 10–12 km 以外。",
+  "小斑马出生时就有 30–35 kg 重。"
+ ],
+ "fact": "非洲南部的岩画里就有斑马，距今约 2–2.8 万年。",
+ "range": "非洲东部和南部的草原与稀树林地，如塞伦盖蒂、马赛马拉、克鲁格。",
+ "sources": [
+  "Wikipedia「Plains zebra」",
+  "IUCN 红色名录（King & Moehlman 2016）"
+ ],
+ "footnote": "体重区间合并雌（175–250 kg）雄（220–322 kg）；体长为头身长。"
+}

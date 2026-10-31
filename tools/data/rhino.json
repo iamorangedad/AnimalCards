@@ -1,0 +1,77 @@
+{
+ "file": "白犀",
+ "no": "030",
+ "cat": "高原草原",
+ "name_cn": "白犀",
+ "name_en": "White rhinoceros",
+ "latin": "Ceratotherium simum",
+ "short": "白犀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草的“割草机”",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重·平均",
+   "value": "1.6–2.3 t",
+   "lo": 1600,
+   "hi": 2300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "3.35–4 m",
+   "lo": 3.35,
+   "hi": 4.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "40–50 年",
+   "lo": 40,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "冲刺速度",
+   "value": "最高约 64 km/h",
+   "lo": 64,
+   "hi": 64,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "方嘴割草",
+   "icon": "trunk",
+   "desc": "白犀的嘴又宽又方，像割草机一样贴着地面吃草。"
+  },
+  {
+   "name": "犀角",
+   "icon": "camo",
+   "desc": "前角平均长 60 cm，雌性最长纪录达 166 cm。"
+  }
+ ],
+ "intro": [
+  "白犀是现存最大的犀牛，体重仅次于三种大象。",
+  "它的名字“white”其实来自“wide（宽）”，指的是宽宽的嘴。",
+  "白犀是最爱社交的犀牛，怀孕期长达 16 个月。"
+ ],
+ "fact": "北白犀亚种的最后一头雄性于 2018 年去世，如今只剩两头雌性。",
+ "range": "非洲南部和东部的草原与稀树林地。",
+ "sources": [
+  "Wikipedia「White rhinoceros」",
+  "IUCN 红色名录（Emslie 2020）"
+ ],
+ "footnote": "体重区间为雌（1.6–1.7 t）到雄（2.0–2.3 t）平均值。"
+}

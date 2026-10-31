@@ -1,0 +1,77 @@
+{
+ "file": "红袋鼠",
+ "no": "036",
+ "cat": "高原草原",
+ "name_cn": "红袋鼠",
+ "name_en": "Red kangaroo",
+ "latin": "Osphranter rufus",
+ "short": "红袋鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃青草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "18–90 kg",
+   "lo": 18,
+   "hi": 90,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "站高·平均",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "跳跃速度",
+   "value": "约 60 km/h",
+   "lo": 60,
+   "hi": 60,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "一跳距离",
+   "value": "8–9 m",
+   "lo": 8,
+   "hi": 9,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳远冠军",
+   "icon": "flip",
+   "desc": "雄袋鼠一跳能跳 8–9 m 远、1.8–3 m 高。"
+  },
+  {
+   "name": "育儿袋",
+   "icon": "huddle",
+   "desc": "小袋鼠出生后在妈妈的育儿袋里长大，约 235 天才最后一次离开育儿袋。"
+  }
+ ],
+ "intro": [
+  "红袋鼠是最大的袋鼠，也是澳大利亚最大的本土陆地哺乳动物。",
+  "它用强壮的后腿跳跃，站立时粗尾巴像三脚架的第三条腿。",
+  "食物不足时，袋鼠会走 25–30 km 去找更好的草场。"
+ ],
+ "fact": "袋鼠宝宝在妈妈肚子里只待 33 天就出生了，之后在育儿袋里继续长大。",
+ "range": "澳大利亚内陆的干旱和半干旱地区（待核）。",
+ "sources": [
+  "Wikipedia「Red kangaroo」",
+  "IUCN 红色名录（Ellis et al. 2016）"
+ ],
+ "footnote": "体重区间合并雌（18–40 kg）雄（55–90 kg）；最大雄性约 2.1 m 高、91 kg。"
+}

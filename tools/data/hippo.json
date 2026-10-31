@@ -1,0 +1,78 @@
+{
+ "file": "河马",
+ "no": "029",
+ "cat": "高原草原",
+ "name_cn": "河马",
+ "name_en": "Hippopotamus",
+ "latin": "Hippopotamus amphibius",
+ "short": "河马",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "黄昏上岸吃草",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重·平均",
+   "value": "1.3–1.5 t",
+   "lo": 1300,
+   "hi": 1500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.9–5.05 m",
+   "lo": 2.9,
+   "hi": 5.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "40–50 年",
+   "lo": 40,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.3–1.65 m",
+   "lo": 1.3,
+   "hi": 1.65,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天然防晒霜",
+   "icon": "camo",
+   "desc": "皮肤会分泌红色的天然“防晒液”，被叫作“血汗”，其实既不是血也不是汗。"
+  },
+  {
+   "name": "巨牙",
+   "icon": "trunk",
+   "desc": "下颌的犬齿会一直长，最长可达 50 cm。"
+  }
+ ],
+ "intro": [
+  "河马是半水生的大型哺乳动物，原产撒哈拉以南非洲。",
+  "白天它们泡在水里或泥里降温，黄昏才上岸吃草。",
+  "河马脾气暴躁难以预测，是世界上最危险的动物之一。"
+ ],
+ "fact": "河马和鲸可能有共同的半水生祖先，大约 6000 万年前分开演化。",
+ "range": "撒哈拉以南非洲的河流和湖泊。",
+ "sources": [
+  "Wikipedia「Hippopotamus」",
+  "IUCN 红色名录（Lewison & Pluhacek 2017）"
+ ],
+ "footnote": "体长含尾巴；体重为雌雄平均值，特大雄性可达 2.66 t。有记录最长寿的河马活了 65 岁。"
+}

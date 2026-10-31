@@ -1,0 +1,77 @@
+{
+ "file": "赤狐",
+ "no": "041",
+ "cat": "高原草原",
+ "name_cn": "赤狐",
+ "name_en": "Red fox",
+ "latin": "Vulpes vulpes",
+ "short": "赤狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小型啮齿动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2.2–14 kg",
+   "lo": 2.2,
+   "hi": 14,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "45–90 cm",
+   "lo": 0.45,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "多数不到 5 年",
+   "lo": 5,
+   "hi": 5,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "最高速度",
+   "value": "50 km/h",
+   "lo": 50,
+   "hi": 50,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳扑",
+   "icon": "flip",
+   "desc": "先用耳朵听出老鼠的位置，再高高跃起，用尾巴在空中调整方向，扑向 5 m 外的猎物。"
+  },
+  {
+   "name": "顺风耳",
+   "icon": "ear",
+   "desc": "它能听到约 100 m 外老鼠的吱吱声。"
+  }
+ ],
+ "intro": [
+  "赤狐是最大的真狐，也是分布最广的食肉目动物。",
+  "它很灵活，能跳过 2 m 高的围栏，还会游泳。",
+  "赤狐适应力强，连城市里也能生活。"
+ ],
+ "fact": "研究认为，赤狐在草丛或雪下捕猎时，可能借助地球磁场来瞄准猎物。",
+ "range": "北半球大部分地区，以及被引入的澳大利亚等地（待核）。",
+ "sources": [
+  "Wikipedia「Red fox」",
+  "IUCN 红色名录（Hoffmann & Sillero-Zubiri 2021）"
+ ],
+ "footnote": "饲养条件下可活到 15 岁。"
+}

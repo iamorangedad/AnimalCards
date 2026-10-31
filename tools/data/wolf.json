@@ -1,0 +1,77 @@
+{
+ "file": "狼",
+ "no": "040",
+ "cat": "高原草原",
+ "name_cn": "狼",
+ "name_en": "Wolf",
+ "latin": "Canis lupus",
+ "short": "狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以大型有蹄类为主",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2026"
+ },
+ "stats": [
+  {
+   "label": "体重·平均",
+   "value": "约 40 kg",
+   "lo": 40,
+   "hi": 40,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "1.05–1.6 m",
+   "lo": 1.05,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "80–85 cm",
+   "lo": 0.8,
+   "hi": 0.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "62–75 天",
+   "lo": 62,
+   "hi": 75,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "团队狩猎",
+   "icon": "team",
+   "desc": "狼是犬属里最擅长合作捕猎大型猎物的动物。"
+  },
+  {
+   "name": "嚎叫",
+   "icon": "roar",
+   "desc": "狼会独自或成群嚎叫，用来和同伴交流。"
+  }
+ ],
+ "intro": [
+  "狼是现存最大的野生犬科动物，原产欧亚大陆和北美洲。",
+  "家狗就是由狼驯化来的。",
+  "狼宝宝出生时只有 300–500 g，9–12 天后才睁开眼睛。"
+ ],
+ "fact": "最小的成年狼只有 12 kg，最大的纪录达 79.4 kg。",
+ "range": "欧亚大陆和北美洲。",
+ "sources": [
+  "Wikipedia「Wolf」",
+  "IUCN 红色名录（Boitani et al. 2026）"
+ ],
+ "footnote": "体重为全球平均值，各地差别很大。"
+}

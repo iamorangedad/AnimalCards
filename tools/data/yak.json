@@ -1,0 +1,77 @@
+{
+ "file": "野牦牛",
+ "no": "037",
+ "cat": "高原草原",
+ "name_cn": "野牦牛",
+ "name_en": "Wild yak",
+ "latin": "Bos mutus",
+ "short": "野牦牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和莎草",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.5–1.2 t",
+   "lo": 500,
+   "hi": 1200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.6–2.05 m",
+   "lo": 1.6,
+   "hi": 2.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "2.4–3.8 m",
+   "lo": 2.4,
+   "hi": 3.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息海拔",
+   "value": "3000–5500 m",
+   "lo": 3000,
+   "hi": 5500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高原耐寒",
+   "icon": "huddle",
+   "desc": "身上长着长毛；为了防冻，连身体最怕冷的部位也覆盖着毛。"
+  },
+  {
+   "name": "吃草高手",
+   "icon": "bamboo",
+   "desc": "主要吃高原上的草和莎草，雌牦牛平均比雄性多往高处吃 100 m。"
+  }
+ ],
+ "intro": [
+  "野牦牛是原产喜马拉雅地区的大型野牛，是家牦牛的祖先。",
+  "它们生活在海拔 3000–5500 m 没有树的高原上。",
+  "雄性有的独居，有的组成平均约 6 头的小群。"
+ ],
+ "fact": "野牦牛是现存最大的牛科动物之一，如今被当作和家牦牛不同的物种。",
+ "range": "青藏高原及喜马拉雅地区。",
+ "sources": [
+  "Wikipedia「Wild yak」",
+  "IUCN 红色名录（Buzzard & Berger 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "非洲野犬",
+ "no": "033",
+ "cat": "高原草原",
+ "name_cn": "非洲野犬",
+ "name_en": "African wild dog",
+ "latin": "Lycaon pictus",
+ "short": "非洲野犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "合作捕猎羚羊等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "18–36 kg",
+   "lo": 18,
+   "hi": 36,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "71–112 cm",
+   "lo": 0.71,
+   "hi": 1.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 10–11 年",
+   "lo": 10,
+   "hi": 11,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "追猎速度",
+   "value": "最高 66 km/h",
+   "lo": 66,
+   "hi": 66,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐力追猎",
+   "icon": "team",
+   "desc": "它们集体行动，靠耐力把猎物追到筋疲力尽，平均一次追约 2 km。"
+  },
+  {
+   "name": "分享食物",
+   "icon": "huddle",
+   "desc": "非洲野犬会把食物吐出来喂给幼崽，也喂给群里的其他成员。"
+  }
+ ],
+ "intro": [
+  "非洲野犬又叫“彩绘狼”，是非洲最大的野生犬科动物。",
+  "每只的毛色花纹都不一样，它们能在 50–100 m 外认出彼此。",
+  "一个群里通常有 2–27 只成年野犬和一岁的幼崽。"
+ ],
+ "fact": "最大的野犬种群可能不到 250 只，自 1990 年起就被列为濒危。",
+ "range": "撒哈拉以南非洲；埃塞俄比亚高原上也有发现。",
+ "sources": [
+  "Wikipedia「African wild dog」",
+  "IUCN 红色名录（Woodroffe & Sillero-Zubiri 2020）"
+ ],
+ "footnote": ""
+}

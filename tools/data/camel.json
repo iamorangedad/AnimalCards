@@ -1,0 +1,77 @@
+{
+ "file": "双峰驼",
+ "no": "035",
+ "cat": "高原草原",
+ "name_cn": "双峰驼",
+ "name_en": "Bactrian camel",
+ "latin": "Camelus bactrianus",
+ "short": "双峰驼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "也吃耐盐的植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "300–1000 kg",
+   "lo": 300,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.6–1.8 m",
+   "lo": 1.6,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "平均约 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "一天喝水",
+   "value": "最多 200 L",
+   "lo": 200,
+   "hi": 200,
+   "scale": "food",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "抗寒耐热",
+   "icon": "huddle",
+   "desc": "它的毛能抵挡冬天 −30 °C 的寒冷，也能承受夏天 50 °C 的高温。"
+  },
+  {
+   "name": "耐渴",
+   "icon": "dive",
+   "desc": "它能好几个月不喝水，口渴时一天能喝下多达 200 L 水。"
+  }
+ ],
+ "intro": [
+  "双峰驼又叫蒙古驼，背上有两个驼峰，原产中亚草原。",
+  "它是现存最大的骆驼，主要在戈壁沙漠一带生活。",
+  "小骆驼出生后不久就能站起来跑。"
+ ],
+ "fact": "家养双峰驼和野生双峰驼是两个不同的物种；野双峰驼是旧大陆唯一真正野生的骆驼。",
+ "range": "中亚草原和戈壁（家养种）。",
+ "sources": [
+  "Wikipedia「Bactrian camel」"
+ ],
+ "footnote": "IUCN 不评估家养双峰驼；“一天喝水”条借用食量刻度，单位为升。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "斑鬣狗",
+ "no": "032",
+ "cat": "高原草原",
+ "name_cn": "斑鬣狗",
+ "name_en": "Spotted hyena",
+ "latin": "Crocuta crocuta",
+ "short": "斑鬣狗",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "能吃下皮和骨头",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "40.5–63.9 kg",
+   "lo": 40.5,
+   "hi": 63.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "0.95–1.66 m",
+   "lo": 0.95,
+   "hi": 1.66,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "平均 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "追猎速度",
+   "value": "最高 60 km/h",
+   "lo": 60,
+   "hi": 60,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "碎骨大嘴",
+   "icon": "roar",
+   "desc": "咬碎骨头的能力比棕熊还强，曾被看到咬开直径 7 cm 的长颈鹿腿骨。"
+  },
+  {
+   "name": "大家族",
+   "icon": "team",
+   "desc": "它是食肉目里群体最大、社会关系最复杂的动物之一。"
+  }
+ ],
+ "intro": [
+  "斑鬣狗也叫“笑鬣狗”，是鬣狗科中最大的。",
+  "它不只是捡剩饭，研究发现它们打猎和狮子一样多。",
+  "斑鬣狗是非洲最常见的大型食肉动物。"
+ ],
+ "fact": "斑鬣狗宝宝一出生就睁着眼睛，嘴里已经长着 6–7 mm 的犬齿。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Spotted hyena」",
+  "IUCN 红色名录（Bohm & Höner 2015）"
+ ],
+ "footnote": "体重为塞伦盖蒂成年个体（雄 40.5–55 kg，雌 44.5–63.9 kg）；雌性比雄性大。"
+}

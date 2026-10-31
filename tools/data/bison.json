@@ -1,0 +1,77 @@
+{
+ "file": "美洲野牛",
+ "no": "042",
+ "cat": "高原草原",
+ "name_cn": "美洲野牛",
+ "name_en": "American bison",
+ "latin": "Bison bison",
+ "short": "美洲野牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "318–1179 kg",
+   "lo": 318,
+   "hi": 1179,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "最长约 3.5 m",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "奔跑速度",
+   "value": "65–70 km/h",
+   "lo": 65,
+   "hi": 70,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 285 天",
+   "lo": 285,
+   "hi": 285,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "看着慢跑得快",
+   "icon": "dive",
+   "desc": "野牛动作看着慢吞吞，其实能轻松跑过人，速度可达 65–70 km/h。"
+  },
+  {
+   "name": "短弯角",
+   "icon": "climb",
+   "desc": "雌雄都有短而弯的角，长可达 60 cm，用来争地位和自卫。"
+  }
+ ],
+ "intro": [
+  "美洲野牛是北美特有的野牛，也叫“美洲水牛”。",
+  "它是北美最重的陆地动物之一，野生公牛最重可达 1270 kg。",
+  "18 世纪末约有 6000 万头，到 1889 年只剩 541 头，差点灭绝。"
+ ],
+ "fact": "人工养殖的野牛能长得特别重，最重的达 1724 kg。",
+ "range": "北美洲，现主要在国家公园和保护区。",
+ "sources": [
+  "Wikipedia「American bison」",
+  "IUCN 红色名录（Aune et al. 2017）"
+ ],
+ "footnote": "体重为平原野牛亚种成年个体的常见范围。"
+}

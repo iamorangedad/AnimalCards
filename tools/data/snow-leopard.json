@@ -1,0 +1,77 @@
+{
+ "file": "雪豹",
+ "no": "039",
+ "cat": "高原草原",
+ "name_cn": "雪豹",
+ "name_en": "Snow leopard",
+ "latin": "Panthera uncia",
+ "short": "雪豹",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食岩羊等有蹄类",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "35–55 kg",
+   "lo": 35,
+   "hi": 55,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "0.75–1.5 m",
+   "lo": 0.75,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "15–18 年",
+   "lo": 15,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "栖息海拔",
+   "value": "3000–4500 m",
+   "lo": 3000,
+   "hi": 4500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大尾巴",
+   "icon": "huddle",
+   "desc": "尾巴长 80–105 cm，又粗又蓬松，能帮它保持平衡、取暖。"
+  },
+  {
+   "name": "雪地行走",
+   "icon": "climb",
+   "desc": "宽大的爪子像雪鞋，能在 85 cm 深的雪里行走。"
+  }
+ ],
+ "intro": [
+  "雪豹生活在亚洲的高山上，从兴都库什、喜马拉雅到西伯利亚南部。",
+  "它身体结实、腿短，皮毛又厚又软，毛长 5–12 cm。",
+  "雪豹不会像狮子那样吼叫，因为它的声带很短。"
+ ],
+ "fact": "全世界的成年雪豹估计不到 1 万只。",
+ "range": "中亚及南亚高山，包括喜马拉雅、青藏高原、蒙古和中国西部。",
+ "sources": [
+  "Wikipedia「Snow leopard」",
+  "IUCN 红色名录（McCarthy et al. 2017）"
+ ],
+ "footnote": "体重区间合并雌（35–40 kg）雄（45–55 kg）平均值；海拔为主要栖息带，夏季可到 6000 m。"
+}

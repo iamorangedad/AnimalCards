@@ -1,0 +1,77 @@
+{
+ "file": "角马",
+ "no": "034",
+ "cat": "高原草原",
+ "name_cn": "角马",
+ "name_en": "Blue wildebeest",
+ "latin": "Connochaetes taurinus",
+ "short": "角马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃短草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "140–290 kg",
+   "lo": 140,
+   "hi": 290,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "1.7–2.4 m",
+   "lo": 1.7,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "平均 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "最高 80 km/h",
+   "lo": 80,
+   "hi": 80,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大迁徙",
+   "icon": "team",
+   "desc": "塞伦盖蒂等三个种群每年跟着雨水和青草长途迁徙。"
+  },
+  {
+   "name": "落地就站",
+   "icon": "flip",
+   "desc": "小角马出生只有约 19 kg，几分钟内就能自己站起来。"
+  }
+ ],
+ "intro": [
+  "蓝角马也叫斑纹角马，是非洲东部和南部草原上的大型羚羊。",
+  "它们很机警，奔跑速度可达 80 km/h，一边跑一边甩尾巴、晃脑袋。",
+  "全世界的蓝角马估计约有 150 万只，数量稳定。"
+ ],
+ "fact": "大约 80%–90% 的小角马会在短短 3 周内集中出生。",
+ "range": "非洲东部和南部的短草平原和金合欢稀树草原。",
+ "sources": [
+  "Wikipedia「Blue wildebeest」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2016）"
+ ],
+ "footnote": "体重区间合并雌（140–260 kg）雄（165–290 kg）。"
+}

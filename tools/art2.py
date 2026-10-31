@@ -167,7 +167,7 @@ def scene(kind, w, h, animal, box=None, extra=""):
 # ====================================================================== quadruped
 def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, neck=(40, 30), nw=None, head=(62, 52), snout=(46, 34),
          snout_col=None, ears="point", tail="thin", tail_col=None, pattern=None, pat_col=INK, horns=None, hooves=None, mane=None, hump=None,
-         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0, wool=None, beard=None, udder=None, pig=False, neck_wool=None):
+         nose=INK, eye=True, chest=0, shoulder=0, extras="", front_extras="", taper=0.8, legs_style="straight", headdown=0, wool=None, beard=None, udder=None, pig=False, neck_wool=None, skirt=None, tear=False):
     farleg = farleg or darker(F)
     snout_col = snout_col or F
     x0, x1, yt, yb = -bl / 2, bl / 2, -(lh + bd), -lh
@@ -212,7 +212,7 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
     if hump == "camel":
         o.append(P(f"M{x0+bd*.5} {yt+4} C{x0+bd*.6} {yt-80} {x0+bd*1.25} {yt-80} {x0+bd*1.3} {yt+2} C{x0+bd*1.45} {yt-70} {x0+bd*2.1} {yt-70} {x0+bd*2.2} {yt+4}", F, 3))
     if hump == "bison":
-        o.append(P(f"M{x0+bd*.1} {yt+bd*.3} C{x0+bd*.2} {yt-60} {x0+bd*1.4} {yt-70} {x0+bd*1.9} {yt+6} L{x0+bd*1.6} {yb+10} L{x0+bd*.1} {yb} Z", mane or darker(F, .7), 3))
+        o.append(P(f"M{x0-bd*.2} {yb-bd*.2} C{x0-bd*.3} {yt-20} {x0+bd*.2} {yt-70} {x0+bd*.75} {yt-56} C{x0+bd*1.3} {yt-44} {x0+bd*1.7} {yt-10} {x0+bd*2.0} {yt+8} C{x0+bd*1.6} {yt+bd*.5} {x0+bd*1.4} {yb-bd*.1} {x0+bd*1.1} {yb+6} L{x0+bd*.2} {yb+8} Z", mane or darker(F, .7), 3))
     inner = ""
     if belly:
         inner += E(0, yb + 4, bl * .45, bd * .32, belly, 0)
@@ -240,6 +240,13 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
     o.append(P(bdpath, "none"))
     if udder:
         o.append(E(x1 - bd * .75, yb + 6, 26, 16, udder, 2.6) + P(f"M{x1-bd*.75-12} {yb+20} v8 M{x1-bd*.75+12} {yb+20} v8", sw=4, col=INK))
+    if skirt:
+        pts = [(x0 + bd * .1, yb - bd * .4)]
+        n = 14
+        for i in range(n + 1):
+            pts.append((x0 + bd * .1 + (bl - bd * .3) * i / n, yb + (lh * .45 if i % 2 == 0 else lh * .3)))
+        pts.append((x1 - bd * .2, yb - bd * .4))
+        o.append(poly(pts, skirt, 2.8))
     if wool:
         o.append(P(wavy((x0 + x1) / 2, (yt + yb) / 2 - 4, bl * .56, bd * .62, 16, 10), wool, 3))
         for i in range(9):
@@ -269,6 +276,8 @@ def quad(F="#e9d3b0", bl=300, bd=130, lh=150, lw=34, belly=None, farleg=None, ne
     if neck_wool:
         o.append(P(wavy((nx0 + hx) / 2 + 6, (ny0 + hy_) / 2, nw * .62, abs(ny0 - hy_) * .62 + 10, 10, 7), neck_wool, 2.8))
     o.append(head_(hx, hy_, F, head, snout, snout_col, ears, horns, nose, eye, pig))
+    if tear:
+        o.append(P(f"M{hx-head[0]*.25} {hy_-head[1]*.1} C{hx-head[0]*.45} {hy_+head[1]*.4} {hx-head[0]*.8} {hy_+head[1]*.5} {hx-head[0]*1.1} {hy_+head[1]*.6}", sw=3.4))
     if beard:
         bx2 = hx - head[0] * .7 - snout[0] * .3
         o.append(P(f"M{bx2+8} {hy_+head[1]*.7} L{bx2-4} {hy_+head[1]*1.6} L{bx2+20} {hy_+head[1]*.75} Z", beard, 2.4))
@@ -287,6 +296,8 @@ def head_(hx, hy, F, head, snout, scol, ears, horns, nose, eye=True, pig=False):
         o.append(poly([(ex - 22, ey + 16), (ex - 6, ey - 56), (ex + 26, ey + 10)], F, 2.8) + poly([(ex - 12, ey + 8), (ex - 5, ey - 32), (ex + 12, ey + 4)], "#f6c9b0", 0))
     elif ears == "round":
         o.append(C(ex, ey + 2, 18, F, 2.8) + C(ex, ey + 4, 9, "#f6c9b0", 0))
+    elif ears == "biground":
+        o.append(E(ex + 4, ey - 10, 22, 30, F, 2.8, rot=12) + E(ex + 4, ey - 8, 11, 18, INK, 0, rot=12))
     elif ears == "long":
         o.append(E(ex + 8, ey - 40, 13, 46, F, 2.8, rot=14) + E(ex + 8, ey - 38, 6, 34, "#f6c9b0", 0, rot=14))
     elif ears == "droop":
@@ -610,6 +621,102 @@ def a_chinchilla(w, h):
                  box=(w / 2 + 10, h * .74, 480, 330))
 
 
+# ====================================================================== kangaroo (upright)
+def kangaroo(F="#c9744a", belly="#f3dcc4"):
+    o = []
+    o.append(P("M40 -120 C120 -110 200 -60 260 -6 L250 4 C190 -30 110 -60 40 -70 Z", F, 3))
+    o.append(P("M-10 -6 L-120 -6 Q-130 -6 -126 -18 L-40 -30 Z", F, 3))
+    o.append(E(10, -90, 70, 60, darker(F, .9), 3, rot=-20))
+    o.append(P("M-60 -150 C-80 -230 -60 -330 -10 -360 C40 -350 70 -260 70 -170 C70 -120 40 -90 0 -90 C-40 -92 -56 -110 -60 -150 Z", F))
+    o.append(P("M-46 -160 C-56 -220 -46 -290 -14 -320 C-2 -260 -2 -200 -6 -110 C-26 -112 -40 -130 -46 -160 Z", belly, 0))
+    o.append(P("M-40 -270 C-70 -260 -84 -240 -90 -220 M-30 -260 C-56 -240 -66 -220 -70 -200", sw=7) + P("M-40 -270 C-70 -260 -84 -240 -90 -220 M-30 -260 C-56 -240 -66 -220 -70 -200", sw=3, col=F))
+    o.append(E(-10, -400, 36, 30, F))
+    o.append(E(-46, -392, 30, 18, F, rot=10) + E(-70, -390, 5, 4, INK, 0))
+    o.append(E(10, -450, 10, 30, F, rot=10) + E(26, -446, 10, 28, darker(F, .9), rot=24))
+    o.append(C(-20, -408, 4.5, INK, 0))
+    return "".join(o)
+
+
+# ====================================================================== savanna / plateau
+def a_giraffe(w, h):
+    return scene("savanna", w, h, quad(F="#f3d9a4", bl=250, bd=110, lh=220, lw=22, pattern="giraffe", pat_col="#c98a4a", neck=(250, 22), nw=50, head=(34, 26),
+                 snout=(36, 24), ears="side", horns="ossicone", tail="tuft", hooves="#5a4a3a", shoulder=30), box=(w / 2, h * .86, 520, 500))
+
+
+def a_zebra(w, h):
+    return scene("savanna", w, h, quad(F="#ffffff", bl=280, bd=120, lh=150, lw=26, pattern="stripes", pat_col=INK, neck=(70, 32), nw=66, head=(40, 36), snout=(52, 34),
+                 snout_col="#3a3f45", ears="point", mane="zebra", tail="tuft", tail_col=INK, hooves=INK))
+
+
+def a_hippo(w, h):
+    return scene("pond", w, h, quad(F="#b4a7ad", bl=340, bd=170, lh=70, lw=52, belly="#e8c9c9", neck=(0, 0), head=(78, 66), snout=(84, 70), snout_col="#d4b9bd",
+                 ears="small", tail="short", nose=INK, headdown=30), box=(w / 2, h * .76, 600, 330))
+
+
+def a_rhino(w, h):
+    return scene("savanna", w, h, quad(F="#bfbcb6", bl=340, bd=160, lh=95, lw=46, neck=(0, 0), head=(62, 56), snout=(66, 56), ears="point", horns="rhino",
+                 tail="tuft", tail_col="#5a5652", headdown=50, nose=None))
+
+
+def a_cheetah(w, h):
+    return scene("savanna", w, h, quad(F="#f2cf8a", bl=280, bd=92, lh=150, lw=22, belly="#fff4dc", pattern="spots", pat_col=INK, neck=(30, 40), nw=56, head=(36, 32),
+                 snout=(22, 24), snout_col="#fff4dc", ears="round", tail="long", tail_col="#f2cf8a", tear=True))
+
+
+def a_hyena(w, h):
+    return scene("savanna", w, h, quad(F="#d9bf8f", bl=250, bd=110, lh=130, lw=28, pattern="spots", pat_col="#6b5038", neck=(40, 40), nw=70, head=(44, 40),
+                 snout=(44, 34), snout_col="#6b5038", ears="round", tail="short", tail_col="#6b5038", shoulder=34))
+
+
+def a_wilddog(w, h):
+    return scene("savanna", w, h, quad(F="#d6a35e", bl=240, bd=96, lh=140, lw=22, pattern="patches", pat_col=INK, neck=(34, 40), nw=60, head=(36, 32), snout=(40, 26),
+                 snout_col=INK, ears="biground", tail="bushy", tail_col="#d6a35e"))
+
+
+def a_wildebeest(w, h):
+    return scene("savanna", w, h, quad(F="#8f959c", bl=270, bd=124, lh=150, lw=24, neck=(46, 34), nw=70, head=(40, 40), snout=(52, 36), snout_col="#3a3f45",
+                 ears="side", horns="wildebeest", mane="zebra", tail="horse", tail_col=INK, hooves=INK, beard="#3a3f45", shoulder=26))
+
+
+def a_camel(w, h):
+    return scene("desert", w, h, quad(F="#d8b27a", bl=280, bd=120, lh=190, lw=26, hump="camel", neck=(110, 52), nw=50, head=(38, 30), snout=(44, 30),
+                 ears="small", tail="tuft", tail_col="#8a6a42"), box=(w / 2, h * .75, 560, 440))
+
+
+def a_kangaroo(w, h):
+    return scene("desert", w, h, kangaroo(), box=(w / 2, h * .75, 520, 440))
+
+
+def a_yak(w, h):
+    return scene("plateau", w, h, quad(F="#4a3b30", bl=300, bd=140, lh=110, lw=34, neck=(10, 50), nw=90, head=(48, 46), snout=(40, 38), snout_col="#5a4a3e",
+                 ears="side", horns="yak", tail="horse", tail_col="#2e241d", skirt="#3a2e25", hooves=INK, nose=None))
+
+
+def a_chiru(w, h):
+    return scene("plateau", w, h, quad(F="#dcc39a", bl=240, bd=100, lh=140, lw=20, belly="#fbf6ec", neck=(40, 30), nw=50, head=(34, 30), snout=(36, 28),
+                 snout_col="#5a4a3e", ears="side", horns="chiru", tail="short", hooves="#3a3f45"), box=(w / 2, h * .76, 560, 440))
+
+
+def a_snowleopard(w, h):
+    return scene("snow", w, h, quad(F="#ecebe6", bl=280, bd=100, lh=110, lw=28, belly="#ffffff", pattern="rosettes", pat_col="#5a5f66", neck=(30, 40), nw=60,
+                 head=(40, 36), snout=(24, 26), snout_col="#ffffff", ears="round", tail="long", tail_col="#ecebe6"))
+
+
+def a_wolf(w, h):
+    return scene("snow", w, h, quad(F="#a9abad", bl=260, bd=104, lh=140, lw=24, belly="#eceded", neck=(40, 38), nw=66, head=(42, 38), snout=(50, 28),
+                 snout_col="#d9dadb", ears="point", tail="bushy", tail_col="#a9abad"))
+
+
+def a_redfox(w, h):
+    return scene("meadow", w, h, quad(F="#e8813a", bl=230, bd=86, lh=110, lw=18, belly="#fff6ec", farleg="#3a3f45", neck=(34, 40), nw=50, head=(36, 32),
+                 snout=(46, 22), snout_col="#fff6ec", ears="big", tail="bushy", tail_col="#e8813a"))
+
+
+def a_bison(w, h):
+    return scene("plateau", w, h, quad(F="#7a5a3e", bl=300, bd=140, lh=110, lw=34, neck=(0, 0), head=(50, 48), snout=(36, 36), snout_col="#4a3626", ears="side",
+                 horns="bison", tail="tuft", tail_col="#3a2a1e", hump="bison", mane="#4a3626", hooves=INK, beard="#4a3626", headdown=40, nose=None))
+
+
 # ====================================================================== farm
 def a_cattle(w, h):
     return scene("farm", w, h, quad(F="#ffffff", bl=330, bd=140, lh=140, lw=34, pattern="patches", pat_col=INK, neck=(20, 60), nw=90, head=(52, 50),
@@ -665,7 +772,10 @@ def a_alpaca(w, h):
                  ears="big", tail="short", hooves="#5a5048", neck_wool="#f6ead6", nose="#5a5048"), box=(w / 2, h * .75, 500, 420))
 
 
-ART2 = {"cattle": a_cattle, "pig": a_pig, "sheep": a_sheep, "goat": a_goat, "horse": a_horse, "donkey": a_donkey, "chicken": a_chicken, "duck": a_duck,
+ART2 = {"giraffe": a_giraffe, "zebra": a_zebra, "hippo": a_hippo, "rhino": a_rhino, "cheetah": a_cheetah, "hyena": a_hyena, "wild-dog": a_wilddog,
+        "wildebeest": a_wildebeest, "camel": a_camel, "kangaroo": a_kangaroo, "yak": a_yak, "chiru": a_chiru, "snow-leopard": a_snowleopard, "wolf": a_wolf,
+        "red-fox": a_redfox, "bison": a_bison,
+        "cattle": a_cattle, "pig": a_pig, "sheep": a_sheep, "goat": a_goat, "horse": a_horse, "donkey": a_donkey, "chicken": a_chicken, "duck": a_duck,
         "goose": a_goose, "alpaca": a_alpaca,
         "dog": a_dog, "rabbit": a_rabbit, "hamster": a_hamster, "goldfish": a_goldfish, "budgie": a_budgie, "guinea-pig": a_guinea,
         "slider": a_slider, "guppy": a_guppy, "hedgehog": a_hedgehog, "chinchilla": a_chinchilla}

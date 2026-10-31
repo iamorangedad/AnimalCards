@@ -1,0 +1,77 @@
+{
+ "file": "长颈鹿",
+ "no": "027",
+ "cat": "高原草原",
+ "name_cn": "长颈鹿",
+ "name_en": "Giraffe",
+ "latin": "Giraffa camelopardalis",
+ "short": "长颈鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃金合欢树叶",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "4.3–5.7 m",
+   "lo": 4.3,
+   "hi": 5.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重·平均",
+   "value": "828–1192 kg",
+   "lo": 828,
+   "hi": 1192,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "约 38 年",
+   "lo": 38,
+   "hi": 38,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "冲刺速度",
+   "value": "最高 60 km/h",
+   "lo": 60,
+   "hi": 60,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长脖子",
+   "icon": "climb",
+   "desc": "脖子最长约 2.4 m，能吃到其他食草动物够不着的高处树叶。"
+  },
+  {
+   "name": "长舌头",
+   "icon": "trunk",
+   "desc": "长颈鹿的舌头约 45 cm 长，可以卷住树枝把叶子捋下来。"
+  }
+ ],
+ "intro": [
+  "长颈鹿是现存最高的陆地动物，也是最大的反刍动物。",
+  "每只长颈鹿身上的斑纹都不一样，像人的指纹。",
+  "雄性长颈鹿会用脖子互相撞击来比高低，叫作“颈斗”。"
+ ],
+ "fact": "长颈鹿宝宝一出生就有 1.7–2 m 高；妈妈要怀孕 400–460 天。",
+ "range": "非洲撒哈拉以南的稀树草原和林地；2016 年估计野外约 9.75 万只。",
+ "sources": [
+  "Wikipedia「Giraffe」",
+  "IUCN 红色名录（Muller et al. 2018）"
+ ],
+ "footnote": "体重为成年雌性（828 kg）与雄性（1192 kg）平均值；可持续 50 km/h 跑数公里。"
+}

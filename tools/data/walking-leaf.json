@@ -1,0 +1,77 @@
+{
+ "file": "叶䗛",
+ "no": "747",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "叶䗛",
+ "name_en": "Giant Malaysian leaf insect",
+ "latin": "Pulchriphyllium giganteum",
+ "short": "叶䗛",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃叶子；饲养时最爱番石榴叶",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "雌虫",
+   "value": "近 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫",
+   "value": "最长 8.2 cm",
+   "lo": 0.082,
+   "hi": 0.082,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "8.5 mm",
+   "lo": 0.0085,
+   "hi": 0.0085,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵重",
+   "value": "约 34 mg",
+   "lo": 0.034,
+   "hi": 0.034,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "扮成枯叶",
+   "icon": "camo",
+   "desc": "体色和体形完美模仿一片半枯的叶子。"
+  },
+  {
+   "name": "多为雌性",
+   "icon": "clone",
+   "desc": "野外几乎都是雌虫；每 20–500 只雌虫的后代里才有一只雄虫。"
+  }
+ ],
+ "intro": [
+  "巨叶䗛是最大的叶䗛之一，1984 年在马来西亚被描述。",
+  "雌虫没有后翅。",
+  "它的卵像种子，是叶䗛里最大、最重的卵。"
+ ],
+ "fact": "饲养时，最多有超过 10% 的孵化若虫是雄性。",
+ "range": "马来半岛和婆罗洲的热带地区。",
+ "sources": [
+  "Wikipedia「Pulchriphyllium giganteum」"
+ ],
+ "footnote": ""
+}

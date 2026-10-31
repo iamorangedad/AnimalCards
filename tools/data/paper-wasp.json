@@ -1,0 +1,79 @@
+{
+ "file": "欧洲长脚胡蜂",
+ "no": "741",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "欧洲长脚胡蜂",
+ "name_en": "European paper wasp",
+ "latin": "Polistes dominula",
+ "short": "欧洲长脚胡蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "农田"
+ ],
+ "diet": "杂食",
+ "diet_note": "捕食多种昆虫，比大多数长足胡蜂吃得杂；也吸花蜜、果汁",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "约 11 个月",
+   "lo": 11,
+   "hi": 11,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "离巢比例",
+   "value": "75% 蜂后",
+   "lo": 75,
+   "hi": 75,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "挑巢期",
+   "value": "头 12 天",
+   "lo": 12,
+   "hi": 12,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "试住巢",
+   "value": "约 3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "纸巢",
+   "icon": "jar",
+   "desc": "用纸状材料和唾液造巢，所以叫“纸胡蜂”。"
+  },
+  {
+   "name": "认得家人",
+   "icon": "team",
+   "desc": "成虫能从气味分辨自己巢和别的巢的幼虫。"
+  }
+ ],
+ "intro": [
+  "欧洲长足胡蜂是长足胡蜂属里最常见的社会性胡蜂之一。",
+  "蜂后不在时，地位第二的雌蜂会接替。",
+  "它已被带到新西兰、澳大利亚、南非和美洲。"
+ ],
+ "fact": "筑巢头 12 天里，75% 的创巢雌蜂会离开原巢，先试住约三个巢再定居。",
+ "range": "原产欧洲等地；已扩散到美洲、大洋洲、南非。",
+ "sources": [
+  "Wikipedia「European paper wasp」"
+ ],
+ "footnote": "",
+ "warn": "会蜇人！不要徒手抓或捅它的巢；对蜂毒过敏的人被蜇后要立刻就医。"
+}

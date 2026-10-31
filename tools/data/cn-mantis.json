@@ -1,0 +1,78 @@
+{
+ "file": "中华大刀螳",
+ "no": "759",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "中华大刀螳",
+ "name_en": "Chinese mantis",
+ "latin": "Tenodera sinensis",
+ "short": "中华大刀螳",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食昆虫，甚至小爬行动物、蛙和蜂鸟",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "略超过 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵鞘直径",
+   "value": "约 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每鞘卵",
+   "value": "最多 300 粒",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "传入美国",
+   "value": "1896 年",
+   "lo": 1896,
+   "hi": 1896,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "什么都抓",
+   "icon": "thorn",
+   "desc": "曾被记录捕食胡蜂、蜘蛛、蚱蜢、小爬行动物、两栖类甚至蜂鸟。"
+  },
+  {
+   "name": "卵鞘越冬",
+   "icon": "cold",
+   "desc": "夏末产下卵鞘，卵在冬天休眠，春天孵化。"
+  }
+ ],
+ "intro": [
+  "中华大刀螳原产温带亚洲及附近岛屿。",
+  "它是北美洲最大的螳螂。",
+  "1896 年它被意外带进美国。"
+ ],
+ "fact": "有两种武术是模仿中华螳螂的动作创造的。",
+ "range": "原产温带亚洲；已引入北美。",
+ "sources": [
+  "Wikipedia「Chinese mantis」"
+ ],
+ "footnote": "“传入美国”比例条借用年数刻度只作示意。"
+}

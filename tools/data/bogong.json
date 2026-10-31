@@ -1,0 +1,80 @@
+{
+ "file": "博贡夜蛾",
+ "no": "760",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "博贡夜蛾",
+ "name_en": "Bogong moth",
+ "latin": "Agrotis infusa",
+ "short": "博贡夜蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃植物；成虫夏天在山洞休眠",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "40–50 mm",
+   "lo": 0.04,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 0.326 g",
+   "lo": 0.000326,
+   "hi": 0.000326,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "休眠海拔",
+   "value": "1500 m 以上",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "幼虫长",
+   "value": "最长 50 mm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜间迁徙",
+   "icon": "wind",
+   "desc": "每年春秋两次长途迁徙，往返澳大利亚阿尔卑斯山。"
+  },
+  {
+   "name": "山洞夏眠",
+   "icon": "cold",
+   "desc": "夏天聚在凉爽阴暗的山洞和石缝里夏眠。"
+  }
+ ],
+ "intro": [
+  "布冈夜蛾是夜间飞行的蛾。",
+  "原住民曾到它夏眠的山上大吃蛾子、举行部落聚会。",
+  "约 1980 年起，尤其 2016 年后，它的数量急剧下降。"
+ ],
+ "fact": "它的名字来自原住民 Dhudhuroa 语，意思是棕色。",
+ "range": "澳大利亚东南部；夏季在澳大利亚阿尔卑斯山。",
+ "sources": [
+  "Wikipedia「Bogong moth」",
+  "IUCN 红色名录（Warrant 2021）"
+ ],
+ "footnote": ""
+}

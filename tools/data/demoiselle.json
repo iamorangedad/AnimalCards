@@ -1,0 +1,80 @@
+{
+ "file": "条纹色蟌",
+ "no": "749",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "条纹色蟌",
+ "name_en": "Banded demoiselle",
+ "latin": "Calopteryx splendens",
+ "short": "条纹色蟌",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食小昆虫；稚虫在水里捕食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "最长 48 mm",
+   "lo": 0.048,
+   "hi": 0.048,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "后翅",
+   "value": "最长 36 mm",
+   "lo": 0.036,
+   "hi": 0.036,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "每分钟 10 粒",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "14 天",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "求偶舞",
+   "icon": "wind",
+   "desc": "雄虫张开翅膀在空中跳舞追求雌虫。"
+  },
+  {
+   "name": "潜水产卵",
+   "icon": "dive",
+   "desc": "雌虫把卵产在挺水或浮水植物上，有时会潜入水下产卵。"
+  }
+ ],
+ "intro": [
+  "条纹色蟌是一种大型豆娘。",
+  "它常在缓慢流动的溪流和河边。",
+  "雄虫透明的翅上有一大块发亮的蓝黑斑。"
+ ],
+ "fact": "雌虫能每分钟产 10 粒卵，连续 45 分钟。",
+ "range": "欧洲到亚洲。",
+ "sources": [
+  "Wikipedia「Banded demoiselle」",
+  "IUCN 红色名录（Clausnitzer, V. 2020）"
+ ],
+ "footnote": ""
+}

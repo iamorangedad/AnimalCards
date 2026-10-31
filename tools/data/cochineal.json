@@ -1,0 +1,78 @@
+{
+ "file": "胭脂虫",
+ "no": "752",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "胭脂虫",
+ "name_en": "Cochineal",
+ "latin": "Dactylopius coccus",
+ "short": "胭脂虫",
+ "type": "陆地",
+ "habitat": [
+  "沙漠",
+  "农田"
+ ],
+ "diet": "寄生",
+ "diet_note": "固着在仙人掌上吸汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "雌虫",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "胭脂红酸",
+   "value": "干重 17–24%",
+   "lo": 17,
+   "hi": 24,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "采收",
+   "value": "约 90 天",
+   "lo": 90,
+   "hi": 90,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "每磅染料",
+   "value": "约 7 万只",
+   "lo": 70000.0,
+   "hi": 70000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "化学防身",
+   "icon": "toxic",
+   "desc": "体内产生胭脂红酸，阻止别的昆虫来吃它。"
+  },
+  {
+   "name": "天然红色",
+   "icon": "fire",
+   "desc": "胭脂红酸可做成胭脂红染料（E120），用于食品和口红。"
+  }
+ ],
+ "intro": [
+  "胭脂虫是一种介壳虫，原产南美洲热带和亚热带。",
+  "无翅的雌虫成群附着在仙人掌片上。",
+  "16 世纪，胭脂红是美洲重要的出口货物。"
+ ],
+ "fact": "秘鲁是最大的胭脂虫生产国。",
+ "range": "原产南美洲；在墨西哥、秘鲁等地养殖。",
+ "sources": [
+  "Wikipedia「Cochineal」"
+ ],
+ "footnote": ""
+}

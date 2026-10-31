@@ -1,0 +1,77 @@
+{
+ "file": "游蚁",
+ "no": "745",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "游蚁",
+ "name_en": "Eciton army ant",
+ "latin": "Eciton burchellii",
+ "short": "游蚁",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "成群突袭，捕食其他节肢动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "突袭队",
+   "value": "最多 20 万只",
+   "lo": 200000.0,
+   "hi": 200000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "突袭长",
+   "value": "最长 200 m",
+   "lo": 200,
+   "hi": 200,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "突袭宽",
+   "value": "最宽 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "工蚁体长",
+   "value": "3–12 mm",
+   "lo": 0.003,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "活体营巢",
+   "icon": "huddle",
+   "desc": "不造固定的巢，工蚁用身体互相勾连成临时“行军巢”。"
+  },
+  {
+   "name": "搭桥",
+   "icon": "team",
+   "desc": "工蚁脚上有特化的钩子，能连成桥。"
+  }
+ ],
+ "intro": [
+  "鬼针游蚁是新大陆的一种行军蚁。",
+  "蚁群在定居期和每晚搬家的游动期之间循环。",
+  "许多蚁鸟专门跟着突袭队，捕食被惊起的猎物。"
+ ],
+ "fact": "蚁后通常和 10–20 只雄蚁交配。",
+ "range": "中美洲和南美洲。",
+ "sources": [
+  "Wikipedia「Eciton burchellii」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,81 @@
+{
+ "file": "冈比亚按蚊",
+ "no": "756",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "冈比亚按蚊",
+ "name_en": "Anopheles gambiae",
+ "latin": "Anopheles gambiae",
+ "short": "冈比亚按蚊",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "寄生",
+ "diet_note": "雌蚊吸人血来产卵；雄蚊不吸血*",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "复合种",
+   "value": "至少 7 种",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "50–200 粒*",
+   "lo": 50,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "卵到成虫",
+   "value": "5–14 天*",
+   "lo": 5,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "疟原虫发育",
+   "value": "10–21 天*",
+   "lo": 10,
+   "hi": 21,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "疟疾媒介",
+   "icon": "micro",
+   "desc": "是已知最有效的疟疾传播媒介之一，传播最危险的恶性疟原虫。"
+  },
+  {
+   "name": "翘尾停歇",
+   "icon": "flip",
+   "desc": "按蚊停歇时腹部翘起，和其他蚊子不同*。"
+  }
+ ],
+ "intro": [
+  "冈比亚按蚊复合体至少包含 7 个外形无法区分的种。",
+  "它在 1960 年代才被确认为复合种。",
+  "它们是撒哈拉以南非洲最重要的疟疾媒介。"
+ ],
+ "fact": "1930 年它入侵巴西东北部，导致 1938–1939 年的疟疾流行。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Anopheles gambiae」",
+  "Wikipedia「Anopheles」",
+  "维基百科「冈比亚疟蚊」"
+ ],
+ "footnote": "* 按蚊属级数据。雄蚊不吸血为蚊科通性，待核。",
+ "warn": "会传播疟疾！去疟疾流行区要防蚊（蚊帐、驱蚊剂），出发前咨询医生。"
+}

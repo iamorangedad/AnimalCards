@@ -1,0 +1,79 @@
+{
+ "file": "德国黄胡蜂",
+ "no": "742",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "德国黄胡蜂",
+ "name_en": "German wasp",
+ "latin": "Vespula germanica",
+ "short": "德国黄胡蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "土壤"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃活节肢动物、腐肉、水果、蜜露和人类食物垃圾",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 13 mm",
+   "lo": 0.013,
+   "hi": 0.013,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "约 74 mg",
+   "lo": 0.0741,
+   "hi": 0.0741,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "年扩散",
+   "value": "不超过 1 km",
+   "lo": 1,
+   "hi": 1,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "蜂后",
+   "value": "每巢 1 只",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下纸巢",
+   "icon": "jar",
+   "desc": "用嚼碎的植物纤维加唾液造灰色纸巢，多数巢在地下。"
+  },
+  {
+   "name": "搭便车",
+   "icon": "wind",
+   "desc": "自己一年扩散不到 1 km，靠人类无意运走越冬蜂后而快速扩散。"
+  }
+ ],
+ "intro": [
+  "德国黄胡蜂原产欧洲、北非和温带亚洲。",
+  "它已在许多其他地方定居。",
+  "春天由一只蜂后独自开始建巢。"
+ ],
+ "fact": "夏天蜂群迅速壮大，工蜂数量和巢都猛增。",
+ "range": "原产欧洲、北非、温带亚洲；已入侵多地。",
+ "sources": [
+  "Wikipedia「Vespula germanica」"
+ ],
+ "footnote": "“蜂后”比例条仅示意。",
+ "warn": "会蜇人！不要徒手抓或捅它的巢；对蜂毒过敏的人被蜇后要立刻就医。"
+}

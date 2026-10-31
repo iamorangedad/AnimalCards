@@ -1,0 +1,79 @@
+{
+ "file": "蛛鹰",
+ "no": "743",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "蛛鹰",
+ "name_en": "Tarantula hawk",
+ "latin": "Pepsis grossa",
+ "short": "蛛鹰",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "雌蜂麻痹捕鸟蛛喂幼虫；成虫常吸马利筋花蜜",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "雌蜂体长",
+   "value": "30–51 mm",
+   "lo": 0.03,
+   "hi": 0.051,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蜂体长",
+   "value": "24–40 mm",
+   "lo": 0.024,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蜇痛指数",
+   "value": "4.0（满分 4）",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "雄蜂触角",
+   "value": "12 节",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "猎捕狼蛛",
+   "icon": "thorn",
+   "desc": "雌蜂把毒针刺进捕鸟蛛腿根附近的神经中枢，使它瘫痪，再在它身上产一粒卵。"
+  },
+  {
+   "name": "警戒色",
+   "icon": "toxic",
+   "desc": "黑橙配色、急促动作和强烈气味警告天敌。"
+  }
+ ],
+ "intro": [
+  "这种巨型蛛蜂分布在北美洲南部到南美洲北部。",
+  "只有雌蜂捕猎，也只有雌蜂会蜇。",
+  "它的蜇痛在施密特指数上是 4.0，被认为是第二痛的昆虫蜇伤。"
+ ],
+ "fact": "雌蜂会挑大蜘蛛产受精卵（长成雌蜂），小的雄蛛上产未受精卵（长成雄蜂）。",
+ "range": "北美洲南部到南美洲北部。",
+ "sources": [
+  "Wikipedia「Pepsis grossa」"
+ ],
+ "footnote": "“蜇痛指数”用 0–100 刻度只作示意。",
+ "warn": "会蜇人！不要徒手抓或捅它的巢；对蜂毒过敏的人被蜇后要立刻就医。"
+}

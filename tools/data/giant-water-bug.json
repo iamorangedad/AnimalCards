@@ -1,0 +1,78 @@
+{
+ "file": "田鳖",
+ "no": "754",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "田鳖",
+ "name_en": "Giant water bug",
+ "latin": "Lethocerus",
+ "short": "田鳖",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用口器刺入猎物注入消化液，再吸食",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "超过 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "4.5–9 cm",
+   "lo": 0.045,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "唾液成分",
+   "value": "多达 132 种",
+   "lo": 132,
+   "hi": 132,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "刺痛持续",
+   "value": "最多约 5 h",
+   "lo": 5,
+   "hi": 5,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒唾液",
+   "icon": "toxic",
+   "desc": "唾液含多种分解蛋白质的酶，能液化猎物。"
+  },
+  {
+   "name": "爸爸护卵",
+   "icon": "huddle",
+   "desc": "雌虫把卵产在水面以上的植物上，雄虫守卫，并不时给卵带水防干。"
+  }
+ ],
+ "intro": [
+  "田鳖属包括最大的真蝽类，有的种超过 12 cm。",
+  "它们分布在全世界热带、亚热带和温带。",
+  "英文俗名叫“咬脚趾虫”和“电灯虫”。"
+ ],
+ "fact": "已知最古老的化石出自英国怀特岛。",
+ "range": "全世界热带、亚热带和温带；美洲种类最多。",
+ "sources": [
+  "Wikipedia「Lethocerus」"
+ ],
+ "footnote": "* 属级数据。",
+ "warn": "被它刺到会非常痛并肿胀；看到不要徒手抓，在水里光脚时要小心。"
+}

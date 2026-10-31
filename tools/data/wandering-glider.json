@@ -1,0 +1,79 @@
+{
+ "file": "黄蜻",
+ "no": "748",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "黄蜻",
+ "name_en": "Wandering glider",
+ "latin": "Pantala flavescens",
+ "short": "黄蜻",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "空中捕捉小飞虫；稚虫在水里捕食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "族群迁徙",
+   "value": "约 1.8 万 km",
+   "lo": 18000,
+   "hi": 18000,
+   "scale": "km_xl",
+   "approx": false
+  },
+  {
+   "label": "单只飞行",
+   "value": "6000 km 以上",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "7.2–8.4 cm",
+   "lo": 0.072,
+   "hi": 0.084,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "稚虫期",
+   "value": "38–65 天",
+   "lo": 38,
+   "hi": 65,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跨洋迁徙",
+   "icon": "wind",
+   "desc": "被认为能从马尔代夫不停飞到索马里，超过 2500 km。"
+  },
+  {
+   "name": "借雨繁殖",
+   "icon": "drop",
+   "desc": "跟着季风雨迁徙，稚虫发育快，能在临时水塘甚至泳池里长大。"
+  }
+ ],
+ "intro": [
+  "黄蜻是分布极广的蜻蜓。",
+  "它每年多代接力迁徙约 18,000 km，是已知最远的昆虫迁徙之一。",
+  "成虫最长约 4.5 cm，飞行速度可达 5 m/s。"
+ ],
+ "fact": "在香港它叫“风暴蜻蜓”，因为常随季风雨或在雨前到来。",
+ "range": "几乎全球的热带和温带地区。",
+ "sources": [
+  "Wikipedia「Pantala flavescens」"
+ ],
+ "footnote": ""
+}

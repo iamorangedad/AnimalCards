@@ -1,0 +1,78 @@
+{
+ "file": "兰花螳螂",
+ "no": "746",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "兰花螳螂",
+ "name_en": "Orchid mantis",
+ "latin": "Hymenopus coronatus",
+ "short": "兰花螳螂",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "伏击被吸引来的苍蝇、蝴蝶、蜜蜂等",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "雄/雌",
+   "value": "不到一半",
+   "lo": 45,
+   "hi": 45,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "一龄若虫",
+   "value": "拟态猎蝽",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "前足",
+   "value": "带齿 1 对",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "扮成花",
+   "icon": "camo",
+   "desc": "四条步足像花瓣；吸引来的传粉昆虫甚至比真花还多。"
+  },
+  {
+   "name": "快速出击",
+   "icon": "thorn",
+   "desc": "用带齿的前足突然抓住猎物。"
+  }
+ ],
+ "intro": [
+  "兰花螳螂生活在东南亚热带森林。",
+  "它是雌雄体型差异最大的螳螂之一，雄虫可能不到雌虫一半大。",
+  "它会左右摇摆，模仿花在风中晃动。"
+ ],
+ "fact": "一龄若虫模仿咬人又难吃的猎蝽。",
+ "range": "东南亚（缅甸、泰国、马来西亚、印尼等）。",
+ "sources": [
+  "Wikipedia「Hymenopus coronatus」",
+  "维基百科「兰花螳螂」"
+ ],
+ "footnote": "“雄/雌”“一龄若虫”“前足”比例条仅示意。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "头虱",
+ "no": "751",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "头虱",
+ "name_en": "Head louse",
+ "latin": "Pediculus humanus capitis",
+ "short": "头虱",
+ "type": "陆地",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "寄生",
+ "diet_note": "只吸人的血，一生都在人头皮上",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "成虫",
+   "value": "2.5–3 mm",
+   "lo": 0.0025,
+   "hi": 0.003,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 0.8 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "6–9 天",
+   "lo": 6,
+   "hi": 9,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "离开人体",
+   "value": "活不过 24 h",
+   "lo": 24,
+   "hi": 24,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "抓牢头发",
+   "icon": "climb",
+   "desc": "前足较大，能紧紧抓住头发。"
+  },
+  {
+   "name": "胶粘虫卵",
+   "icon": "drop",
+   "desc": "雌虱分泌胶把卵粘在靠近头皮的发根上。"
+  }
+ ],
+ "intro": [
+  "头虱是人类的专性体外寄生虫。",
+  "它没有翅膀，身体扁平。",
+  "孵出的若虫要蜕皮三次才变为成虫。"
+ ],
+ "fact": "头虱不传病，这点和会传病的体虱不同。",
+ "range": "全世界有人的地方。",
+ "sources": [
+  "Wikipedia「Head louse」",
+  "维基百科「头虱」"
+ ],
+ "footnote": "卵长比例条按 1 mm 绘制，刻度下限为 1 mm。",
+ "warn": "头虱靠接触传染：不要共用梳子、帽子和毛巾；发现后请按医生或药剂师建议处理。"
+}

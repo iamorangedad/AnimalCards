@@ -1,0 +1,78 @@
+{
+ "file": "切叶蚁",
+ "no": "744",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "切叶蚁",
+ "name_en": "Hairy-headed leafcutter ant",
+ "latin": "Atta cephalotes",
+ "short": "切叶蚁",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "草食",
+ "diet_note": "切叶片回巢种真菌，再吃真菌",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "蚁群",
+   "value": "最多 500 万",
+   "lo": 5000000.0,
+   "hi": 5000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "蚁后寿命",
+   "value": "20 年以上",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "巢深",
+   "value": "最深 7 m",
+   "lo": 7,
+   "hi": 7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "占地",
+   "value": "约 200 m²",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "种蘑菇",
+   "icon": "food",
+   "desc": "把叶子运回巢里培养真菌，以真菌为食。"
+  },
+  {
+   "name": "分工",
+   "icon": "team",
+   "desc": "不同体型的蚂蚁分工：大工蚁守路，小工蚁骑在叶上赶走寄生蝇。"
+  }
+ ],
+ "intro": [
+  "毛头切叶蚁属于种真菌的蚁族。",
+  "每个蚁群只有一只蚁后。",
+  "它是最早被林奈（1758）正式命名的蚂蚁之一。"
+ ],
+ "fact": "管垃圾的老工蚁常沾上病菌，寿命只有同伴的一半。",
+ "range": "中美洲和南美洲热带雨林。",
+ "sources": [
+  "Wikipedia「Atta cephalotes」"
+ ],
+ "footnote": ""
+}

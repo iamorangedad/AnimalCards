@@ -1,0 +1,78 @@
+{
+ "file": "紫胶虫",
+ "no": "753",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "紫胶虫",
+ "name_en": "Lac insect",
+ "latin": "Kerria lacca",
+ "short": "紫胶虫",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "农田"
+ ],
+ "diet": "寄生",
+ "diet_note": "若虫在寄主枝条上吸食韧皮部汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "寄主植物",
+   "value": "400 种以上",
+   "lo": 400,
+   "hi": 400,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "印度年产",
+   "value": "约 2 万吨",
+   "lo": 20000,
+   "hi": 20000,
+   "scale": "ton",
+   "approx": true
+  },
+  {
+   "label": "命名",
+   "value": "1781 年",
+   "lo": 1781,
+   "hi": 1781,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "品系",
+   "value": "至少 2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分泌树脂",
+   "icon": "jar",
+   "desc": "分泌的紫胶是唯一商用的动物来源树脂，可精制成虫胶。"
+  },
+  {
+   "name": "共生染料",
+   "icon": "micro",
+   "desc": "2025 年发现，一种类酵母共生生物负责合成紫胶染料。"
+  }
+ ],
+ "intro": [
+  "紫胶虫属于介壳虫总科。",
+  "一龄若虫叫“爬虫”，会沿着寄主枝条爬行。",
+  "印度生产全球至少一半的紫胶。"
+ ],
+ "fact": "商业养殖主要用紫铆、kusum（Schleichera oleosa）和滇刺枣三种寄主。",
+ "range": "南亚和东南亚；印度是主要产地。",
+ "sources": [
+  "Wikipedia「Kerria lacca」"
+ ],
+ "footnote": "“命名”比例条借用年数刻度只作示意。"
+}

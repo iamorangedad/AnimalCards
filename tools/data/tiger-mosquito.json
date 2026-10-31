@@ -1,0 +1,79 @@
+{
+ "file": "白纹伊蚊",
+ "no": "757",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "白纹伊蚊",
+ "name_en": "Asian tiger mosquito",
+ "latin": "Aedes albopictus",
+ "short": "白纹伊蚊",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "室内"
+ ],
+ "diet": "寄生",
+ "diet_note": "雌蚊吸血来产卵；雄蚊只吸花蜜",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "不到 10 mm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翅长",
+   "value": "约 2.7 mm",
+   "lo": 0.0027,
+   "hi": 0.0027,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "飞行范围",
+   "value": "不到 200 m",
+   "lo": 200,
+   "hi": 200,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "雄比雌",
+   "value": "约小 20%",
+   "lo": 20,
+   "hi": 20,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白天叮人",
+   "icon": "thorn",
+   "desc": "白天和黄昏、清晨都会叮人，动作快，很难拍到。"
+  },
+  {
+   "name": "传播病毒",
+   "icon": "micro",
+   "desc": "能传播登革热、基孔肯雅热、黄热病等病毒。"
+  }
+ ],
+ "intro": [
+  "白纹伊蚊原产东南亚热带和亚热带。",
+  "黑色身体上有醒目的白色条纹。",
+  "它把卵产在积水旁边，而不是直接产在水里。"
+ ],
+ "fact": "它更喜欢在有花的地方附近的水里产卵。",
+ "range": "原产东南亚；已扩散到世界许多地方。",
+ "sources": [
+  "Wikipedia「Aedes albopictus」"
+ ],
+ "footnote": "翅长为平均值。",
+ "warn": "会传播登革热等疾病：清除花盆、旧轮胎里的积水，被叮后发烧要就医。"
+}

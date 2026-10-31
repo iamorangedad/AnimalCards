@@ -1,0 +1,78 @@
+{
+ "file": "丝光绿蝇",
+ "no": "758",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "丝光绿蝇",
+ "name_en": "Common green bottle fly",
+ "latin": "Lucilia sericata",
+ "short": "丝光绿蝇",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "农田"
+ ],
+ "diet": "腐生",
+ "diet_note": "幼虫吃死亡或坏死组织；成虫吃花蜜等",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "10–14 mm",
+   "lo": 0.01,
+   "hi": 0.014,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫进食",
+   "value": "3–10 天",
+   "lo": 3,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "蛹期",
+   "value": "6–14 天",
+   "lo": 6,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "英国受害羊",
+   "value": "约 100 万只",
+   "lo": 1000000.0,
+   "hi": 1000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蛆疗",
+   "icon": "micro",
+   "desc": "它的蛆可用于“蛆疗”，只吃伤口里的坏死组织。"
+  },
+  {
+   "name": "法医时钟",
+   "icon": "sun",
+   "desc": "幼虫按温度有规律地发育，法医用它推断死亡时间。"
+  }
+ ],
+ "intro": [
+  "丝光绿蝇是最有名的绿蝇。",
+  "它比家蝇稍大，金属绿色。",
+  "它会在活羊潮湿的毛里产卵，造成“蝇蛆病”。"
+ ],
+ "fact": "在英国，每年约 80% 的羊场受蝇蛆病影响。",
+ "range": "世界大部分地区。",
+ "sources": [
+  "Wikipedia「Common green bottle fly」"
+ ],
+ "footnote": ""
+}

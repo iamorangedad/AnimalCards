@@ -1,0 +1,79 @@
+{
+ "file": "黑带食蚜蝇",
+ "no": "755",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "黑带食蚜蝇",
+ "name_en": "Marmalade hoverfly",
+ "latin": "Episyrphus balteatus",
+ "short": "黑带食蚜蝇",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "农田"
+ ],
+ "diet": "杂食",
+ "diet_note": "成虫吃花粉花蜜；幼虫吃蚜虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "9–12 mm",
+   "lo": 0.009,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫吃蚜虫",
+   "value": "约 400 只",
+   "lo": 400,
+   "hi": 400,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "常飞高度",
+   "value": "300 m 以下",
+   "lo": 300,
+   "hi": 300,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "近 1000 m",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "扮黄蜂",
+   "icon": "camo",
+   "desc": "黄黑条纹让鸟误以为它是黄蜂（贝氏拟态），其实它不会蜇人。"
+  },
+  {
+   "name": "选风迁徙",
+   "icon": "wind",
+   "desc": "秋天从北欧迁往南欧和北非，会挑顺风的气流。"
+  }
+ ],
+ "intro": [
+  "黑带食蚜蝇是一种较小的食蚜蝇。",
+  "它广泛分布于古北界。",
+  "雄蝇的两只复眼在头顶相接。"
+ ],
+ "fact": "2022 年 5 月，法国南部海滩上发现数万只搁浅的死食蚜蝇。",
+ "range": "欧洲、北亚、北非。",
+ "sources": [
+  "Wikipedia「Episyrphus balteatus」"
+ ],
+ "footnote": ""
+}

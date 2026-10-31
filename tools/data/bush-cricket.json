@@ -1,0 +1,77 @@
+{
+ "file": "大绿螽斯",
+ "no": "750",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "大绿螽斯",
+ "name_en": "Great green bush-cricket",
+ "latin": "Tettigonia viridissima",
+ "short": "大绿螽斯",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蝇类、毛虫和幼虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "雌虫体长",
+   "value": "32–42 mm",
+   "lo": 0.032,
+   "hi": 0.042,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫体长",
+   "value": "28–36 mm",
+   "lo": 0.028,
+   "hi": 0.036,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵器",
+   "value": "23–32 mm",
+   "lo": 0.023,
+   "hi": 0.032,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 1800 m",
+   "lo": 1800,
+   "hi": 1800,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长触角",
+   "icon": "ear",
+   "desc": "细长的触角有时能达体长三倍，这是它和短触角蝗虫的区别。"
+  },
+  {
+   "name": "鸣叫",
+   "icon": "ear",
+   "desc": "雄虫有棕色的发音器。"
+  }
+ ],
+ "intro": [
+  "绿丛螽斯是一种大型螽斯。",
+  "它常见于欧洲大部分地区、近东和北非的草地。",
+  "它会飞，但尽量不飞。"
+ ],
+ "fact": "它咬人会疼，但并不好斗；别把它握在拳头里。",
+ "range": "欧洲、古北界东部、近东、北非。",
+ "sources": [
+  "Wikipedia「Tettigonia viridissima」"
+ ],
+ "footnote": ""
+}

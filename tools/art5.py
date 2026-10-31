@@ -1169,3 +1169,45 @@ ART5["diving-beetle"] = lambda w, h: scene("pond", w, h, G_(_beetle("#2a3a2a", s
 ART5["harlequin"] = _BE("meadow", F="#e85a2a", shine="#f2d0b0", L=.65, spots="".join(C(20 + (i * 23) % 90, -110 + (i * 19) % 50, 8, INK, 0) for i in range(9)), pre=_LEAF)
 ART5["cerana"] = _FLY("meadow", F="#d8a83a", stripes="#3a2a1a", ab=1.0, eye="#2a2a2a", sting=True)
 ART5["carpenter-bee"] = _FLY("meadow", F="#1f1f2a", stripes=None, ab=1.2, eye="#1f1f2a", wcol="#8a6ad0", pre=_LOG)
+# ---------------- insects p4b16
+from art3 import wing as _wing, antenna as _antenna
+from art4 import _ant, _hopper, _shield, _stick
+def _mant(F, wc, kind, extra="", s=1.0, pre=""):
+    o = [_wing(20, -110, 170, 40, 6, wc, darker(F, .8), ".9"),
+         P("M40 -100 C100 -110 200 -100 210 -80 C190 -60 100 -70 40 -80 Z", F),
+         P("M60 -86 l-10 40 l-10 46 M120 -84 l20 40 l20 44 M160 -84 l40 30 l30 54", sw=5, col=darker(F, .7)),
+         P("M40 -96 L-40 -150", sw=18) + P("M40 -96 L-40 -150", sw=12, col=F),
+         P("M-30 -140 l-30 30 l-26 -40 M-22 -136 l-20 36 l-30 -34", sw=10) + P("M-30 -140 l-30 30 l-26 -40 M-22 -136 l-20 36 l-30 -34", sw=6, col=F),
+         poly([(-40, -150), (-80, -184), (-50, -196), (-30, -170)], F, 2.8) + C(-70, -186, 7, darker(F, .6), 0) + C(-46, -192, 7, darker(F, .6), 0),
+         _antenna(-66, -194, 80, -150, 10, 2.4), extra]
+    return lambda w, h: scene(kind, w, h, pre + G_("".join(o), 0, 0, s), box=(w / 2, h * .74, 440, 340))
+def _drag(body, wc, eye, kind, thin=False):
+    def f(w, h):
+        o = [_wing(-20, -130, 170, 40, -100, wc) + _wing(-10, -130, 170, 40, -80, wc), _wing(0, -122, 160, 40, -150, wc) + _wing(10, -122, 160, 40, -30, wc),
+             R(-5 if thin else -8, -130, 10 if thin else 16, 220, body, 6, 3), "".join(P(f"M-8 {-100+i*28} H8", sw=3, col=darker(body, .6)) for i in range(7)),
+             E(0, -140, 22, 26, body), C(-14, -170, 16, eye) + C(14, -170, 16, eye)]
+        return scene(kind, w, h, G_(f'<g transform="rotate(-90 0 -40)">{"".join(o)}</g>', 0, -60), box=(w / 2, h * .62, 440, 300))
+    return f
+ART5["paper-wasp"] = _FLY("meadow", F="#f2c53a", stripes="#1f1f22", ab=1.2, eye="#1f1f22", sting=True, legs_long=True,
+    post=P("M180 -200 L180 -170", sw=3) + "".join(poly([(150 + dx, -170 + dy), (165 + dx, -178 + dy), (180 + dx, -170 + dy), (180 + dx, -154 + dy), (165 + dx, -146 + dy), (150 + dx, -154 + dy)], "#c9c0b0", 2) for dx, dy in ((0, 0), (30, 0), (15, 24))))
+ART5["german-wasp"] = _FLY("meadow", F="#f2d23a", stripes="#1f1f22", ab=1.1, eye="#1f1f22", sting=True, pre=E(-160, -20, 70, 40, "#b8b0a0", 3))
+ART5["tarantula-hawk"] = _FLY("desert", F="#1f2a4a", stripes=None, ab=1.4, eye="#1f1f22", wcol="#e8802a", sting=True, legs_long=True)
+ART5["leafcutter"] = lambda w, h: scene("rainforest", w, h, _ant(F="#a8542a", head="#b8642a", mand=True) + P("M-90 -60 L-150 -180 L-40 -200 Z", "#6ac04a", 3) + P("M-90 -60 L-100 -190", sw=2, col=SAGE), box=(w / 2, h * .74, 420, 300))
+ART5["army-ant"] = lambda w, h: scene("rainforest", w, h, "".join(G_(_ant(F="#8a4a2a", head="#a8642a", mand=True), dx, dy, .5) for dx, dy in ((-130, -10), (0, 0), (130, -10), (-60, 60), (70, 60))), box=(w / 2, h * .72, 460, 260))
+ART5["orchid-mantis"] = _mant("#f6d8e8", "#fbe8f2", "rainforest", extra="".join(E(60 + i * 50, -40, 26, 12, "#f2c0d8", 2.4) for i in range(3)))
+ART5["walking-leaf"] = lambda w, h: scene("rainforest", w, h, P("M-200 -80 C-120 -180 160 -180 220 -80 C160 0 -120 10 -200 -80 Z", "#8ac04a", 4) + P("M-200 -80 L220 -80", sw=3, col="#5a8a3a")
+    + "".join(P(f"M{-120+i*60} -80 l40 -50 M{-120+i*60} -80 l40 50", sw=2, col="#5a8a3a") for i in range(5)) + C(-214, -80, 16, "#8ac04a") + P("M-150 -40 l-40 40 M60 -30 l20 50 M140 -40 l40 40", sw=6, col="#6aa03a"), box=(w / 2, h * .66, 480, 260))
+ART5["wandering-glider"] = _drag("#e8a02a", "#f6efdc", "#c9602a", "pond")
+ART5["demoiselle"] = _drag("#2a7ab8", "#3a4a7a", "#1f2a3a", "wetland", thin=True)
+ART5["bush-cricket"] = lambda w, h: scene("meadow", w, h, _hopper("#6ac04a", wingc="#8ad06a", L=1.1, ant_long=True), box=(w / 2, h * .74, 480, 280))
+ART5["head-louse"] = lambda w, h: scene("home", w, h, "".join(P(f"M{-220+i*40} 0 C{-200+i*40} -100 {-180+i*40} -160 {-170+i*40} -230", sw=6, col="#5a3a22") for i in range(12))
+    + G_(_shield("#c9a07a", L=.7), 0, -70, .8) + E(-130, -150, 8, 12, "#f2eee0", 2), box=(w / 2, h * .72, 480, 300))
+ART5["cochineal"] = lambda w, h: scene("desert", w, h, E(0, -120, 190, 120, "#6aa05a", 4) + "".join(C(-130 + (i * 37) % 260, -170 + (i * 23) % 110, 14, "#f2f2ee", 2) for i in range(14)) + C(160, -200, 16, "#c8203a", 2) + C(-170, -60, 10, "#c8203a", 2), box=(w / 2, h * .68, 440, 300))
+ART5["lac-insect"] = lambda w, h: scene("forest", w, h, P("M-240 -60 L240 -100", sw=26, col="#8a5a3a") + P("M-120 -70 C-60 -110 80 -120 140 -90 C80 -70 -60 -60 -120 -70 Z", "#c8602a", 3) + "".join(C(-80 + i * 50, -96, 6, "#8a2a1a", 0) for i in range(4)), box=(w / 2, h * .64, 480, 220))
+ART5["giant-water-bug"] = lambda w, h: scene("pond", w, h, G_(_shield("#7a5a3a", L=1.4, wingc="#8a6a4a"), 0, -10) + P("M-60 -50 l-60 -40 l-20 30", sw=12) + P("M-60 -50 l-60 -40 l-20 30", sw=7, col="#7a5a3a"), box=(w / 2, h * .66, 480, 260))
+ART5["hoverfly"] = _FLY("meadow", F="#f2a03a", stripes="#1f1f22", ab=1.0, eye="#a83a2a", pre=C(180, -20, 50, "#f2e04a", 3) + C(180, -20, 18, "#e8a03a", 0))
+ART5["anopheles"] = _FLY("savanna", F="#5a4a3a", ab=1.2, eye="#2a2a2a", legs_long=True, wcol="#d8d0c0", post=P("M-80 -86 l-60 30", sw=4))
+ART5["tiger-mosquito"] = _FLY("home", F="#1f1f22", stripes="#ffffff", ab=1.3, legs_long=True, eye="#1f1f22", post=P("M-80 -86 l-50 20", sw=4))
+ART5["greenbottle"] = _FLY("farm", F="#2aa06a", eye="#a83a2a", ab=1.0, post=E(30, -100, 50, 20, "#5ad0a0", 0))
+ART5["cn-mantis"] = _mant("#8fb85a", "#d9e8c0", "leaf", s=1.05)
+ART5["bogong"] = _BF("plateau", F="#5a3a22", F2="#7a5a3a", vein="#3a2210", spots="#c9a07a", moth=True)

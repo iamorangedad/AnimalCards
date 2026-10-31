@@ -1,0 +1,79 @@
+{
+ "file": "匍枝根霉",
+ "no": "997",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "匍枝根霉",
+ "name_en": "Black bread mold",
+ "latin": "Rhizopus stolonifer",
+ "short": "匍枝根霉",
+ "type": "菌类",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "孢囊梗长",
+   "value": "最长 2.5 mm",
+   "lo": 0.0025,
+   "hi": 0.0025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孢囊梗粗",
+   "value": "约 20 μm",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "25–30 °C",
+   "lo": 25,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "致死温度",
+   "value": "60 °C",
+   "lo": 60,
+   "hi": 60,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "匍匐蔓延",
+   "icon": "root",
+   "desc": "用匍匐菌丝和假根在面包上蔓延成黑色毛霉斑。"
+  },
+  {
+   "name": "+/− 交配",
+   "icon": "clone",
+   "desc": "有“+”“−”两种交配型，相遇时可以有性生殖（中文维基）。"
+  }
+ ],
+ "intro": [
+  "黑根霉是接合菌门的真菌。",
+  "它是世界上最常见的真菌之一。",
+  "会在馒头、面包上长黑色毛霉，也能引起人和土豆生病。"
+ ],
+ "fact": "60 °C 下 10 分钟能杀死它全部细胞。",
+ "range": "全球。",
+ "sources": [
+  "Wikipedia「Rhizopus stolonifer」",
+  "维基百科「黑根霉」"
+ ],
+ "footnote": "致死温度条用 −50–50 °C 刻度，60 °C 超出刻度。",
+ "warn": "食物发霉了就整个扔掉，不要切掉霉斑继续吃。"
+}

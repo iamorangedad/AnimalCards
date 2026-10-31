@@ -1,0 +1,80 @@
+{
+ "file": "鹿花菌",
+ "no": "990",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "鹿花菌",
+ "name_en": "False morel",
+ "latin": "Gyromitra esculenta",
+ "short": "鹿花菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖高",
+   "value": "最高 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌盖宽",
+   "value": "最宽 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄高",
+   "value": "3–6 cm",
+   "lo": 0.03,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄宽",
+   "value": "1–5 cm",
+   "lo": 0.01,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "脑状菌盖",
+   "icon": "camo",
+   "desc": "深褐色、不规则的脑状菌盖，很像羊肚菌。"
+  },
+  {
+   "name": "鹿花菌素",
+   "icon": "toxic",
+   "desc": "鹿花菌素在体内变成甲基肼，伤害肝脏和神经系统。"
+  }
+ ],
+ "intro": [
+  "鹿花菌是一种假羊肚菌。",
+  "分布在欧洲和北美，春天长在针叶林沙土里。",
+  "1800 年首次被描述。"
+ ],
+ "fact": "煮过也可能去不完毒素，多次吃仍可能中毒。",
+ "range": "欧洲、北美。",
+ "sources": [
+  "Wikipedia「Gyromitra esculenta」",
+  "维基百科「鹿花菌」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "有毒！千万不要采食任何野生蘑菇；误食要立刻就医。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 985 张（动物 760；植物 200；真菌 25）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 45，沙漠植物 20，水生植物 20，蘑菇 25。
+共 1000 张（动物 760；植物 200；真菌 40）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 45，沙漠植物 20，水生植物 20，蘑菇 30，霉菌酵母 10。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -993,6 +993,21 @@
 | 983 | 大秃马勃（Giant puffball） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%A4%A7%E7%A7%83%E9%A9%AC%E5%8B%83.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%A4%A7%E7%A7%83%E9%A9%AC%E5%8B%83.pdf) |
 | 984 | 长裙竹荪（Veiled lady） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E9%95%BF%E8%A3%99%E7%AB%B9%E8%8D%AA.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E9%95%BF%E8%A3%99%E7%AB%B9%E8%8D%AA.pdf) |
 | 985 | 发光小菇（Glowing mycena） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%8F%91%E5%85%89%E5%B0%8F%E8%8F%87.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%8F%91%E5%85%89%E5%B0%8F%E8%8F%87.pdf) |
+| 986 | 奥氏蜜环菌（Dark honey fungus） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%A5%A5%E6%B0%8F%E8%9C%9C%E7%8E%AF%E8%8F%8C.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%A5%A5%E6%B0%8F%E8%9C%9C%E7%8E%AF%E8%8F%8C.pdf) |
+| 987 | 云芝（Turkey tail） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E4%BA%91%E8%8A%9D.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E4%BA%91%E8%8A%9D.pdf) |
+| 988 | 硫磺菌（Chicken of the woods） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E7%A1%AB%E7%A3%BA%E8%8F%8C.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E7%A1%AB%E7%A3%BA%E8%8F%8C.pdf) |
+| 989 | 偏侧蛇虫草（Zombie-ant fungus） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%81%8F%E4%BE%A7%E8%9B%87%E8%99%AB%E8%8D%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E5%81%8F%E4%BE%A7%E8%9B%87%E8%99%AB%E8%8D%89.pdf) |
+| 990 | 鹿花菌（False morel） | 真菌 · 蘑菇 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E9%B9%BF%E8%8A%B1%E8%8F%8C.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E8%98%91%E8%8F%87/%E9%B9%BF%E8%8A%B1%E8%8F%8C.pdf) |
+| 1000 | 蛙壶菌（Amphibian chytrid fungus） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E8%9B%99%E5%A3%B6%E8%8F%8C.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E8%9B%99%E5%A3%B6%E8%8F%8C.pdf) |
+| 991 | 酿酒酵母（Baker's yeast） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%85%BF%E9%85%92%E9%85%B5%E6%AF%8D.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%85%BF%E9%85%92%E9%85%B5%E6%AF%8D.pdf) |
+| 992 | 产黄青霉（Penicillium） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E4%BA%A7%E9%BB%84%E9%9D%92%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E4%BA%A7%E9%BB%84%E9%9D%92%E9%9C%89.pdf) |
+| 993 | 娄地青霉（Blue cheese mold） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E5%A8%84%E5%9C%B0%E9%9D%92%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E5%A8%84%E5%9C%B0%E9%9D%92%E9%9C%89.pdf) |
+| 994 | 米曲霉（Koji mold） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%B1%B3%E6%9B%B2%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%B1%B3%E6%9B%B2%E9%9C%89.pdf) |
+| 995 | 黑曲霉（Black mold） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%BB%91%E6%9B%B2%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%BB%91%E6%9B%B2%E9%9C%89.pdf) |
+| 996 | 黄曲霉（Aspergillus flavus） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%BB%84%E6%9B%B2%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E9%BB%84%E6%9B%B2%E9%9C%89.pdf) |
+| 997 | 匍枝根霉（Black bread mold） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E5%8C%8D%E6%9E%9D%E6%A0%B9%E9%9C%89.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E5%8C%8D%E6%9E%9D%E6%A0%B9%E9%9C%89.pdf) |
+| 998 | 白色念珠菌（Candida albicans） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%99%BD%E8%89%B2%E5%BF%B5%E7%8F%A0%E8%8F%8C.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%99%BD%E8%89%B2%E5%BF%B5%E7%8F%A0%E8%8F%8C.pdf) |
+| 999 | 灰葡萄孢（Grey mould） | 真菌 · 霉菌酵母 | NE 未评估 | [PNG](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%81%B0%E8%91%A1%E8%90%84%E5%AD%A2.png) · [PDF](%E7%9C%9F%E8%8F%8C/%E9%9C%89%E8%8F%8C%E9%85%B5%E6%AF%8D/%E7%81%B0%E8%91%A1%E8%90%84%E5%AD%A2.pdf) |
 
 ## 说明
 

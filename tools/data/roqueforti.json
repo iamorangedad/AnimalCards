@@ -1,0 +1,79 @@
+{
+ "file": "娄地青霉",
+ "no": "993",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "娄地青霉",
+ "name_en": "Blue cheese mold",
+ "latin": "Penicillium roqueforti",
+ "short": "娄地青霉",
+ "type": "菌类",
+ "habitat": [
+  "室内",
+  "土壤"
+ ],
+ "diet": "发酵",
+ "diet_note": "分解奶酪中的脂肪和蛋白质",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "菌落径 YES",
+   "value": "约 40 mm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌落径 MEA",
+   "value": "约 50 mm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "首次描述",
+   "value": "1906 年",
+   "lo": 120,
+   "hi": 120,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "1996 分为",
+   "value": "3 个种",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蓝纹奶酪",
+   "icon": "food",
+   "desc": "用来发酵生产蓝纹奶酪，名字来自罗克福奶酪。"
+  },
+  {
+   "name": "基因借用",
+   "icon": "micro",
+   "desc": "一些基因能水平转移给其他被人类驯化的青霉。"
+  }
+ ],
+ "intro": [
+  "罗克福青霉是常见的腐生真菌。",
+  "可以从土壤、腐烂有机物和植物上分离出来。",
+  "做奶酪的和不做奶酪的种群来自不同的驯化事件。"
+ ],
+ "fact": "它产生的 PR 毒素在奶酪里不稳定，会分解成毒性较低的物质。",
+ "range": "全球。",
+ "sources": [
+  "Wikipedia「Penicillium roqueforti」",
+  "维基百科「罗克福青霉菌」"
+ ],
+ "footnote": "“首次描述”条为距今年数。"
+}

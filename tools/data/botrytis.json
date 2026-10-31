@@ -1,0 +1,79 @@
+{
+ "file": "灰葡萄孢",
+ "no": "999",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "灰葡萄孢",
+ "name_en": "Grey mould",
+ "latin": "Botrytis cinerea",
+ "short": "灰葡萄孢",
+ "type": "菌类",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在植物上，取食死去的组织",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "宿主植物",
+   "value": "200 多种",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "喜欢温度",
+   "value": "18–24 °C",
+   "lo": 18,
+   "hi": 24,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "烂串率",
+   "value": "约 5%",
+   "lo": 5,
+   "hi": 5,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "推迟采收",
+   "value": "约 1 周",
+   "lo": 7,
+   "hi": 7,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "贵腐",
+   "icon": "food",
+   "desc": "干湿交替时它吸走葡萄的水分，留下更多糖，能酿贵腐甜酒。"
+  },
+  {
+   "name": "灰霉病",
+   "icon": "spore",
+   "desc": "让 200 多种双子叶植物得灰霉病。"
+  }
+ ],
+ "intro": [
+  "灰葡萄孢是取食死组织的真菌。",
+  "种名意为“像灰烬的葡萄”。",
+  "苏玳、托卡伊的甜酒都和它有关。"
+ ],
+ "fact": "一些酿酒师喜欢让 5% 的葡萄串染上它，再晚一周采收。",
+ "range": "全球温带。",
+ "sources": [
+  "Wikipedia「Botrytis cinerea」",
+  "维基百科「灰葡萄孢菌」"
+ ],
+ "footnote": "",
+ "warn": "食物发霉了就整个扔掉，不要切掉霉斑继续吃。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "酿酒酵母",
+ "no": "991",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "酿酒酵母",
+ "name_en": "Baker's yeast",
+ "latin": "Saccharomyces cerevisiae",
+ "short": "酿酒酵母",
+ "type": "菌类",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "发酵",
+ "diet_note": "把糖发酵成酒精和二氧化碳",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "细胞直径",
+   "value": "5–10 μm",
+   "lo": 5,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "30–35 °C",
+   "lo": 30,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "染色体",
+   "value": "16 条",
+   "lo": 16,
+   "hi": 16,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "基因数",
+   "value": "约 6275 个",
+   "lo": 6275,
+   "hi": 6275,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "发酵",
+   "icon": "food",
+   "desc": "把糖变成酒精和二氧化碳，用来做面包、酿酒。"
+  },
+  {
+   "name": "出芽生殖",
+   "icon": "clone",
+   "desc": "用出芽的方式繁殖，30 °C 下约 1.25–2 小时翻一倍。"
+  }
+ ],
+ "intro": [
+  "酿酒酵母是单细胞真菌。",
+  "从古代起就用来酿酒、烤面包和酿啤酒。",
+  "它是第一个完整测序的真核生物基因组（1996 年公布）。"
+ ],
+ "fact": "它的基因组约 1215 万个碱基对。",
+ "range": "全球（人类培养）。",
+ "sources": [
+  "Wikipedia「Saccharomyces cerevisiae」",
+  "维基百科「酿酒酵母」"
+ ],
+ "footnote": "细胞直径比例条单位 μm。"
+}

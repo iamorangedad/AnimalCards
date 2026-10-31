@@ -1,0 +1,79 @@
+{
+ "file": "蛙壶菌",
+ "no": "1000",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "蛙壶菌",
+ "name_en": "Amphibian chytrid fungus",
+ "latin": "Batrachochytrium dendrobatidis",
+ "short": "蛙壶菌",
+ "type": "菌类",
+ "habitat": [
+  "水中",
+  "两栖"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在两栖动物皮肤上",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "游动孢子",
+   "value": "3–5 μm",
+   "lo": 3,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "鞭毛长",
+   "value": "19–20 μm",
+   "lo": 19,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "生长温度",
+   "value": "4–25 °C",
+   "lo": 4,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "停止生长",
+   "value": "28 °C 以上",
+   "lo": 28,
+   "hi": 28,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "致命壶菌病",
+   "icon": "toxic",
+   "desc": "感染两栖动物的皮肤，引起壶菌病。"
+  },
+  {
+   "name": "能过冬",
+   "icon": "cold",
+   "desc": "4 °C 也能活，所以能在宿主身上过冬。"
+  }
+ ],
+ "intro": [
+  "蛙壶菌 1998 年被发现。",
+  "此后十年造成大量两栖类死亡，多个物种灭绝（中文维基）。",
+  "它被列入世界百大外来入侵种。"
+ ],
+ "fact": "感染的绿树蛙放在 37 °C 下培养后康复了。",
+ "range": "全球（两栖类分布区）。",
+ "sources": [
+  "Wikipedia「Batrachochytrium dendrobatidis」",
+  "维基百科「蛙壶菌」"
+ ],
+ "footnote": ""
+}

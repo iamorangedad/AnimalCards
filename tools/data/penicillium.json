@@ -1,0 +1,79 @@
+{
+ "file": "产黄青霉",
+ "no": "992",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "产黄青霉",
+ "name_en": "Penicillium",
+ "latin": "Penicillium chrysogenum",
+ "short": "产黄青霉",
+ "type": "菌类",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "高空孢子",
+   "value": "57–77 km",
+   "lo": 57,
+   "hi": 77,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "广泛应用",
+   "value": "1943 年起",
+   "lo": 83,
+   "hi": 83,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "有性发现",
+   "value": "2013 年",
+   "lo": 13,
+   "hi": 13,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "交配型",
+   "value": "2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "青霉素工厂",
+   "icon": "micro",
+   "desc": "是生产青霉素的重要工业菌种（中文维基）。"
+  },
+  {
+   "name": "室内常客",
+   "icon": "spore",
+   "desc": "最常见于室内，尤其是潮湿或漏水的房子。"
+  }
+ ],
+ "intro": [
+  "产黄青霉以前叫特异青霉。",
+  "常见于温带和亚热带，也能长在咸的食物上。",
+  "1943 年起青霉素开始大量应用（中文维基）。"
+ ],
+ "fact": "分子研究表明，弗莱明最早发现的产青霉素菌株其实是另一个种。",
+ "range": "全球（尤其室内）。",
+ "sources": [
+  "Wikipedia「Penicillium chrysogenum」",
+  "维基百科「产黄青霉」"
+ ],
+ "footnote": "“广泛应用”“有性发现”条为距今年数。",
+ "warn": "食物发霉了就整个扔掉，不要切掉霉斑继续吃。"
+}

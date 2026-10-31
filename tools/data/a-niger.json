@@ -1,0 +1,80 @@
+{
+ "file": "黑曲霉",
+ "no": "995",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "黑曲霉",
+ "name_en": "Black mold",
+ "latin": "Aspergillus niger",
+ "short": "黑曲霉",
+ "type": "菌类",
+ "habitat": [
+  "土壤",
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "生长温度",
+   "value": "6–47 °C",
+   "lo": 6,
+   "hi": 47,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "35–37 °C",
+   "lo": 35,
+   "hi": 37,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "近缘黑孢种",
+   "value": "15 个",
+   "lo": 15,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "耐受上限",
+   "value": "53 °C",
+   "lo": 53,
+   "hi": 53,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "柠檬酸工厂",
+   "icon": "micro",
+   "desc": "很耐酸，是工业上生产柠檬酸的主力。"
+  },
+  {
+   "name": "黑色孢子",
+   "icon": "spore",
+   "desc": "菌落是黑色的，种名 niger 意为“黑色的”。"
+  }
+ ],
+ "intro": [
+  "黑曲霉是曲霉属黑色组的霉菌。",
+  "在土壤、水、植物和腐烂物上都很常见。",
+  "会让葡萄、杏、洋葱、花生长“黑霉”。"
+ ],
+ "fact": "它可能产生赭曲霉毒素 A，会伤害肾脏。",
+ "range": "全球。",
+ "sources": [
+  "Wikipedia「Aspergillus niger」",
+  "维基百科「黑曲霉」"
+ ],
+ "footnote": "耐受上限条用 −50–50 °C 刻度，53 °C 超出刻度。",
+ "warn": "食物发霉了就整个扔掉，不要切掉霉斑继续吃。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "黄曲霉",
+ "no": "996",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "黄曲霉",
+ "name_en": "Aspergillus flavus",
+ "latin": "Aspergillus flavus",
+ "short": "黄曲霉",
+ "type": "菌类",
+ "habitat": [
+  "农田",
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "最低生长",
+   "value": "12 °C",
+   "lo": 12,
+   "hi": 12,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "最高生长",
+   "value": "48 °C",
+   "lo": 48,
+   "hi": 48,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "约 37 °C",
+   "lo": 37,
+   "hi": 37,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "曲霉病占比",
+   "value": "约 15%",
+   "lo": 15,
+   "hi": 15,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄曲霉毒素",
+   "icon": "toxic",
+   "desc": "很多菌株产生黄曲霉毒素，有剧毒且致癌。"
+  },
+  {
+   "name": "粮仓入侵",
+   "icon": "spore",
+   "desc": "主要长在谷物、豆类和坚果上，收获前后都能感染。"
+  }
+ ],
+ "intro": [
+  "黄曲霉是腐生兼致病的真菌，分布全球。",
+  "它也会让植物、动物和人生病。",
+  "约 15% 的人类曲霉病由它引起（中文维基）。"
+ ],
+ "fact": "低于 5 °C 它就不能生长，所以储粮要尽量低温。",
+ "range": "全球。",
+ "sources": [
+  "Wikipedia「Aspergillus flavus」",
+  "维基百科「黄曲霉」"
+ ],
+ "footnote": "",
+ "warn": "发霉的花生、玉米、坚果可能含黄曲霉毒素，会致癌：一律扔掉，不要吃。"
+}

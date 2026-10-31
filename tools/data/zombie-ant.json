@@ -1,0 +1,78 @@
+{
+ "file": "偏侧蛇虫草",
+ "no": "989",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "偏侧蛇虫草",
+ "name_en": "Zombie-ant fungus",
+ "latin": "Ophiocordyceps unilateralis",
+ "short": "偏侧蛇虫草",
+ "type": "菌类",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在蚂蚁体内",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "死亡用时",
+   "value": "4–10 天",
+   "lo": 4,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "咬叶高度",
+   "value": "约 26 cm",
+   "lo": 0.26,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "湿度",
+   "value": "94–95%",
+   "lo": 94,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "墓地范围",
+   "value": "20–30 m",
+   "lo": 20,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "操控蚂蚁",
+   "icon": "spore",
+   "desc": "感染的木蚁离开树冠的巢，爬到合适的地方咬住叶脉。"
+  },
+  {
+   "name": "头上长菌",
+   "icon": "toxic",
+   "desc": "蚂蚁死后，子实体从它头上长出来释放孢子。"
+  }
+ ],
+ "intro": [
+  "偏侧蛇虫草是寄生昆虫的真菌，俗称“丧尸真菌”。",
+  "1859 年由英国博物学家华莱士发现。",
+  "主要寄生弓背蚁族的蚂蚁。"
+ ],
+ "fact": "死蚁聚集的“墓地”每平方米可能超过 25 只。",
+ "range": "热带森林。",
+ "sources": [
+  "Wikipedia「Ophiocordyceps unilateralis」",
+  "维基百科「偏侧蛇虫草」"
+ ],
+ "footnote": ""
+}

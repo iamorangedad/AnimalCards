@@ -1,0 +1,78 @@
+{
+ "file": "白色念珠菌",
+ "no": "998",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "白色念珠菌",
+ "name_en": "Candida albicans",
+ "latin": "Candida albicans",
+ "short": "白色念珠菌",
+ "type": "菌类",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "寄生",
+ "diet_note": "生活在人体内，靠人体养分生长",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估"
+ },
+ "stats": [
+  {
+   "label": "健康人带菌",
+   "value": "40–60%",
+   "lo": 40,
+   "hi": 60,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "致病占比",
+   "value": "约 66%",
+   "lo": 66,
+   "hi": 66,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "基因组",
+   "value": "约 29 Mb",
+   "lo": 29,
+   "hi": 29,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "念珠菌属",
+   "value": "200 多种",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伺机致病",
+   "icon": "micro",
+   "desc": "平时和人体共生，免疫力下降时会过度生长造成感染。"
+  },
+  {
+   "name": "双倍体",
+   "icon": "clone",
+   "desc": "它是二倍体，没有已知的有性周期，很难研究。"
+  }
+ ],
+ "intro": [
+  "白色念珠菌是人体肠道里常见的酵母菌。",
+  "它也能在人体外生存。",
+  "公元前 400 年希波克拉底就描述过可能由它引起的鹅口疮。"
+ ],
+ "fact": "系统性念珠菌感染的死亡率曾报道约 40%。",
+ "range": "人体（全球）。",
+ "sources": [
+  "Wikipedia「Candida albicans」",
+  "维基百科「白色念珠菌」"
+ ],
+ "footnote": "“念珠菌症占比”据中文维基，正持续下降。"
+}

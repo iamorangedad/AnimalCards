@@ -1,0 +1,80 @@
+{
+ "file": "硫磺菌",
+ "no": "988",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "硫磺菌",
+ "name_en": "Chicken of the woods",
+ "latin": "Laetiporus sulphureus",
+ "short": "硫磺菌",
+ "type": "菌类",
+ "habitat": [
+  "朽木",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "每层宽",
+   "value": "5–60 cm",
+   "lo": 0.05,
+   "hi": 0.6,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "厚",
+   "value": "4–12 cm",
+   "lo": 0.04,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "纪录",
+   "value": "45 kg",
+   "lo": 45,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "不良反应",
+   "value": "约 10% 人",
+   "lo": 10,
+   "hi": 10,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "层层架子",
+   "icon": "clone",
+   "desc": "一层层橙黄色的“架子”长在树上。"
+  },
+  {
+   "name": "木栖腐生",
+   "icon": "micro",
+   "desc": "长在树木上分解木材（中文维基）。"
+  }
+ ],
+ "intro": [
+  "硫色绚孔菌是一种长在树上的多孔菌。",
+  "广泛分布在欧亚大陆和美洲。",
+  "和许多多孔菌不同，它幼时可以吃。"
+ ],
+ "fact": "1990 年英国新森林发现了一个重 45 kg 的，创下吉尼斯纪录。",
+ "range": "欧亚、美洲。",
+ "sources": [
+  "Wikipedia「Laetiporus sulphureus」",
+  "维基百科「硫色绚孔菌」"
+ ],
+ "footnote": "未查到 IUCN 全球评估。",
+ "warn": "生吃有毒，也有人吃后肠胃不适。千万不要采食野生蘑菇。"
+}

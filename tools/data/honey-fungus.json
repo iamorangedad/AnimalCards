@@ -1,0 +1,79 @@
+{
+ "file": "奥氏蜜环菌",
+ "no": "986",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "奥氏蜜环菌",
+ "name_en": "Dark honey fungus",
+ "latin": "Armillaria ostoyae",
+ "short": "奥氏蜜环菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在树根上，树死后继续分解木头",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "俄勒冈个体",
+   "value": "约 9.1 km²",
+   "lo": 9.1,
+   "hi": 9.1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "估计年龄",
+   "value": "约 8000 年",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "估计重量",
+   "value": "最多 3.5 万吨",
+   "lo": 35000,
+   "hi": 35000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "树桩存活",
+   "value": "50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑色菌索",
+   "icon": "root",
+   "desc": "菌丝结成像鞋带的黑色菌索，在树皮下和树之间远距离蔓延。"
+  },
+  {
+   "name": "发光菌丝",
+   "icon": "glow",
+   "desc": "菌丝会发光，形成“狐火”。"
+  }
+ ],
+ "intro": [
+  "奥氏蜜环菌是会让树生病的真菌。",
+  "美国俄勒冈的一个个体可能是地球上最大的生物。",
+  "10 岁以下的小针叶树最容易被它害死。"
+ ],
+ "fact": "密歇根北部一个覆盖 37 公顷的个体估计重 440 吨。",
+ "range": "北半球温带针叶林。",
+ "sources": [
+  "Wikipedia「Armillaria ostoyae」"
+ ],
+ "footnote": "无中文维基链接；未查到 IUCN 全球评估。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

@@ -1,0 +1,18 @@
+# 在仓库根目录的 webapp/ 下运行：docker compose up -d --build
+services:
+  animalcards:
+    build:
+      context: ..
+      dockerfile: webapp/Dockerfile
+    image: animalcards-globe:latest
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${PUBLISH_PORT:-8000}:8000"
+    volumes:
+      # 整个仓库只读挂载：卡片 PNG/PDF 直接从 动物/ 读取
+      - ..:/repo:ro
+      # 用挂载的最新数据/缩略图/前端覆盖镜像内的副本（git pull 后重启即可生效）
+      - ./data:/app/webapp/data:ro
+      - ./thumbs:/app/webapp/thumbs:ro
+      - ./frontend:/app/webapp/frontend:ro

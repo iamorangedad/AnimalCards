@@ -418,3 +418,7 @@
 - **插画**：插画是示意图，不按真实比例。
 - **审核**：卡片由 AI 辅助制作，数据和文字**需要人工审核**后再用于教学或印刷。
 - **重新生成**：`tools/` 里有模板和脚本。`tools/data/*.json` 存数据，`art.py` 画插画，运行 `python tools/render_card.py` 即可（需要 Playwright + Chrome、Jinja2 和 Noto Sans CJK 字体）。
+
+## 3D 地球网页版
+
+`webapp/` 里有一个网页应用：在 3D 地球上按分布地标注这 400 种动物，点击标注即可查看卡片、下载 PDF。本地运行和服务器部署方法见 [webapp/README.md](webapp/README.md)。地图上的位置都是近似点，需要人工复核。

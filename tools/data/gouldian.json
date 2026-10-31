@@ -1,0 +1,79 @@
+{
+ "file": "七彩文鸟",
+ "no": "424",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "七彩文鸟",
+ "name_en": "Gouldian finch",
+ "latin": "Chloebia gouldiae",
+ "short": "七彩文鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草籽",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12.5–14 cm",
+   "lo": 0.125,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每天吃",
+   "value": "体重的 30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "4–8 枚",
+   "lo": 4,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "离巢",
+   "value": "19–25 天",
+   "lo": 19,
+   "hi": 25,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩虹羽毛",
+   "icon": "camo",
+   "desc": "身上有黑、绿、黄、红等颜色；头部可以是红、黑或黄色。"
+  },
+  {
+   "name": "成群",
+   "icon": "team",
+   "desc": "鸟群可多达 1000–2000 只。"
+  }
+ ],
+ "intro": [
+  "七彩文鸟原产澳大利亚，也叫“彩虹雀”。",
+  "红头、黑头、黄头曾被当成三种鸟，其实是同一种的不同颜色。",
+  "雏鸟 40 天大就能完全独立。"
+ ],
+ "fact": "黑头和红头的鸟配对时，雌性后代的死亡率可高达 80%。",
+ "range": "澳大利亚北部。",
+ "sources": [
+  "Wikipedia「Gouldian finch」",
+  "IUCN 红色名录（BirdLife International 2022）"
+ ],
+ "footnote": ""
+}

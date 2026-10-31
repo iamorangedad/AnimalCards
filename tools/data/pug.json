@@ -1,0 +1,78 @@
+{
+ "file": "巴哥犬",
+ "no": "411",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "巴哥犬",
+ "name_en": "Pug",
+ "latin": "Canis familiaris（品种）",
+ "short": "巴哥犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "6.35–8.16 kg",
+   "lo": 6.35,
+   "hi": 8.16,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "英国寿命",
+   "value": "11.6 年",
+   "lo": 11.6,
+   "hi": 11.6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "日本寿命",
+   "value": "12.8 年",
+   "lo": 12.8,
+   "hi": 12.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "坏死性脑炎",
+   "value": "约 1–2%",
+   "lo": 1,
+   "hi": 2,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皱脸",
+   "icon": "camo",
+   "desc": "脸上有很多褶皱，口鼻很短，尾巴卷曲。"
+  },
+  {
+   "name": "小身材大个性",
+   "icon": "roar",
+   "desc": "美国养犬俱乐部用拉丁语 multum in parvo（小身体，大能量）形容它。"
+  }
+ ],
+ "intro": [
+  "【品种】巴哥犬起源于中国，16 世纪被带到欧洲。",
+  "荷兰奥兰治王室和英国斯图亚特王室让它在西欧流行起来。",
+  "因为口鼻短，它容易呼吸困难，也容易肥胖。"
+ ],
+ "fact": "巴哥犬的耳朵有“玫瑰耳”和“纽扣耳”两种。",
+ "range": "原产中国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Pug」"
+ ],
+ "footnote": "这是狗的一个品种。"
+}

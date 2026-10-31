@@ -1,0 +1,80 @@
+{
+ "file": "文鸟",
+ "no": "423",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "文鸟",
+ "name_en": "Java sparrow",
+ "latin": "Padda oryzivora",
+ "short": "文鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃谷粒和草籽",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "15–17 cm",
+   "lo": 0.15,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "24.5 g",
+   "lo": 0.0245,
+   "hi": 0.0245,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "最多 8 枚",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "野外数量",
+   "value": "不到 1 万只",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爱吃稻谷",
+   "icon": "food",
+   "desc": "学名 oryzivora 就是“吃稻米”的意思，过去在稻田里被当作害鸟。"
+  },
+  {
+   "name": "合群",
+   "icon": "team",
+   "desc": "很喜欢成群生活，会用不同的颤音和同伴“说话”。"
+  }
+ ],
+ "intro": [
+  "文鸟原产印尼的爪哇、巴厘岛和巴韦安岛。",
+  "中国明朝起就把它当笼鸟饲养，17 世纪又在日本流行。",
+  "它被引入了很多国家，但原产地的野生数量越来越少。"
+ ],
+ "fact": "1758 年林奈描述它时，依据的是 1743 年一本英国博物书里的“稻鸟”插图。",
+ "range": "印度尼西亚爪哇岛、巴厘岛；被引入多地。",
+ "sources": [
+  "Wikipedia「Java sparrow」",
+  "维基百科「禾雀」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "体长来自中文维基。"
+}

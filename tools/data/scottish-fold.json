@@ -1,0 +1,78 @@
+{
+ "file": "苏格兰折耳猫",
+ "no": "420",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "苏格兰折耳猫",
+ "name_en": "Scottish Fold",
+ "latin": "Felis catus（品种）",
+ "short": "苏格兰折耳猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猫体重",
+   "value": "4–6 kg",
+   "lo": 4,
+   "hi": 6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猫体重",
+   "value": "2.7–4 kg",
+   "lo": 2.7,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "折耳×直耳",
+   "value": "50% 折耳",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "多囊肾",
+   "value": "54%",
+   "lo": 54,
+   "hi": 54,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "折耳",
+   "icon": "ear",
+   "desc": "耳朵向前折，脸看起来像猫头鹰。"
+  },
+  {
+   "name": "⚠ 健康风险",
+   "icon": "toxic",
+   "desc": "折耳来自影响软骨发育的显性突变，会引起骨骼和关节疾病。"
+  }
+ ],
+ "intro": [
+  "【品种】最早的苏格兰折耳猫是一只叫 Susie 的白色谷仓猫。",
+  "1961 年它在苏格兰泰赛德的一座农场被发现。",
+  "很多兽医组织反对繁育折耳猫。"
+ ],
+ "fact": "Susie 生的小猫里有两只是折耳，其中一只被邻居罗斯夫妇收养，开始了这个品种。",
+ "range": "原产英国苏格兰；现在多国有饲养，部分地区限制繁育。",
+ "sources": [
+  "Wikipedia「Scottish Fold」"
+ ],
+ "footnote": "这是猫的一个品种；多囊肾比例来自日本一项针对疑似肾病猫的研究。"
+}

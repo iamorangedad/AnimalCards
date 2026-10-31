@@ -1,0 +1,78 @@
+{
+ "file": "荷兰垂耳兔",
+ "no": "422",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "荷兰垂耳兔",
+ "name_en": "Holland Lop",
+ "latin": "Oryctolagus cuniculus（品种）",
+ "short": "荷兰垂耳兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1–2 kg",
+   "lo": 1,
+   "hi": 2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "ARBA 上限",
+   "value": "1.8 kg",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耳长",
+   "value": "约 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "法国垂耳兔",
+   "value": "4.5–6.8 kg",
+   "lo": 4.5,
+   "hi": 6.8,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "垂耳",
+   "icon": "ear",
+   "desc": "杏仁形的耳朵垂在头两侧，约 12 cm 长。"
+  },
+  {
+   "name": "迷你",
+   "icon": "huddle",
+   "desc": "是最小的垂耳兔品种之一。"
+  }
+ ],
+ "intro": [
+  "【品种】荷兰垂耳兔由荷兰人 Adriaan de Cock 培育。",
+  "1979 年被美国家兔繁育者协会（ARBA）承认。",
+  "它由法国垂耳兔和荷兰侏儒兔杂交而来。"
+ ],
+ "fact": "1955 年培育过程中出现了第一只体重不到 3.0 kg 的荷兰垂耳兔。",
+ "range": "原产荷兰；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Holland Lop」"
+ ],
+ "footnote": "这是兔的一个品种；法国垂耳兔体重用来对比。"
+}

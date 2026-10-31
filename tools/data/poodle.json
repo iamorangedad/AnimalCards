@@ -1,0 +1,78 @@
+{
+ "file": "贵宾犬",
+ "no": "404",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "贵宾犬",
+ "name_en": "Poodle",
+ "latin": "Canis familiaris（品种）",
+ "short": "贵宾犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "标准肩高",
+   "value": "45–62 cm",
+   "lo": 0.45,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "标准体重",
+   "value": "20–32 kg",
+   "lo": 20,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "迷你体重",
+   "value": "4.5–7 kg",
+   "lo": 4.5,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10–18 年",
+   "lo": 10,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳好手",
+   "icon": "dive",
+   "desc": "它本来是一种水猎犬，帮猎人从水里叼回猎物。"
+  },
+  {
+   "name": "卷毛",
+   "icon": "camo",
+   "desc": "一身卷曲的被毛，可以修剪成各种造型。"
+  }
+ ],
+ "intro": [
+  "【品种】贵宾犬又叫“卷毛狗”，德语叫 Pudel，法语叫 Caniche。",
+  "按体型分为标准、中型、迷你和玩具四种。",
+  "体型小的通常比体型大的活得更久。"
+ ],
+ "fact": "2024 年英国研究中，贵宾犬的预期寿命是 14 年，高于纯种犬平均的 12.7 年。",
+ "range": "原产德国或法国（存在争议）；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Poodle」"
+ ],
+ "footnote": "这是狗的一个品种；体型按 FCI 标准，不同体型差别很大。"
+}

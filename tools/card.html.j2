@@ -65,6 +65,9 @@ h1{ font-size:76px; line-height:1.2; font-weight:900; letter-spacing:-1px; white
 .fact{ flex:none; margin-top:14px; border:2.5px solid var(--org); border-radius:8px; background:#fff; padding:12px 20px; display:flex; gap:16px; align-items:center; }
 .pill{ flex:none; background:var(--org); color:#fff; font-size:25px; font-weight:900; padding:4px 14px; border-radius:6px; letter-spacing:2px; }
 .fact p{ font-size:23px; line-height:1.5; }
+.warn{ flex:none; margin-top:12px; border:3px solid #d81e05; border-radius:8px; background:#fde4e0; padding:10px 20px; display:flex; gap:16px; align-items:center; }
+.warn .pill{ background:#d81e05; letter-spacing:0; }
+.warn p{ font-size:23px; line-height:1.45; font-weight:700; color:#8a1203; }
 .range{ flex:none; margin-top:12px; font-size:22px; display:flex; gap:10px; align-items:baseline; }
 .range b{ white-space:nowrap; }
 .foot{ margin-top:auto; padding-top:10px; font-size:17px; color:var(--grey); line-height:1.45; border-top:1.5px dashed #cfd2d6; }
@@ -86,7 +89,7 @@ h1{ font-size:76px; line-height:1.2; font-weight:900; letter-spacing:-1px; white
   </section>
   <section class="art">{{ art }}<span class="ex">示意图</span></section>
   <section class="stats card">
-    <div class="sec"><span class="bar"></span>身体数据<small>（真实数据；区间 = 常见范围）</small></div>
+    <div class="sec"><span class="bar"></span>{{ d.stat_title or "身体数据" }}<small>（真实数据；区间 = 常见范围）</small></div>
     {% for s in stats %}
     <div class="st"><span class="k">{{ s.label }}</span>
       <div class="track">{% for tk in s.ticks %}<span class="tick" style="left:{{ tk }}%"></span>{% endfor %}<span class="lo" style="width:{{ s.b }}%"></span><span class="fill" style="left:{{ s.a }}%;width:{{ s.w }}%"></span></div>
@@ -98,6 +101,7 @@ h1{ font-size:76px; line-height:1.2; font-weight:900; letter-spacing:-1px; white
     {% for k in d.skills %}<div class="sk card"><span class="ic">{{ skillicon(k.icon) }}</span><div><div class="nm">技能 · {{ k.name }}</div><div class="ds">{{ k.desc }}</div></div></div>{% endfor %}
   </section>
   <section class="intro card"><div class="sec"><span class="bar"></span>认识{{ d.short or d.name_cn }}</div>{% for p in d.intro %}<p>{{ p }}</p>{% endfor %}</section>
+  {% if d.warn %}<section class="warn"><span class="pill">⚠ 安全</span><p>{{ d.warn }}</p></section>{% endif %}
   <section class="fact"><span class="pill">冷知识</span><p>{{ d.fact }}</p></section>
   <section class="range"><b>分布：</b><span>{{ d.range }}</span></section>
   <section class="foot mono">资料来源：{{ d.sources | join('；') }}。{{ d.footnote }} AI 辅助制作，需人工审核。</section>

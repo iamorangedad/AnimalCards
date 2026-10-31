@@ -1,0 +1,79 @@
+{
+ "file": "西伯利亚哈士奇",
+ "no": "407",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "西伯利亚哈士奇",
+ "name_en": "Siberian Husky",
+ "latin": "Canis familiaris（品种）",
+ "short": "西伯利亚哈士奇",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "冰原"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "51–61 cm",
+   "lo": 0.51,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公犬体重",
+   "value": "20–27 kg",
+   "lo": 20,
+   "hi": 27,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−50 至 −60 °C",
+   "lo": 50,
+   "hi": 60,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "雪橇接力",
+   "value": "1000 km",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "km",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "拉雪橇",
+   "icon": "team",
+   "desc": "楚科奇人自古用它的祖先拉雪橇，在海冰上狩猎。"
+  },
+  {
+   "name": "不怕冷",
+   "icon": "huddle",
+   "desc": "厚厚的双层被毛让它能扛住 −50 至 −60 °C 的低温。"
+  }
+ ],
+ "intro": [
+  "【品种】西伯利亚哈士奇是中型雪橇犬，属于狐狸犬（Spitz）家族。",
+  "它的血统可以追溯到 9500 多年前。",
+  "它常常嚎叫，而不是汪汪叫。"
+ ],
+ "fact": "1925 年雪橇犬队接力约 1000 km 把白喉血清送到阿拉斯加诺姆，其中最长最险的一段由领头犬 Togo 完成。",
+ "range": "原产俄罗斯西伯利亚东北部；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Siberian Husky」"
+ ],
+ "footnote": "这是狗的一个品种；耐寒条显示的是零下温度的绝对值；接力距离原文为 600 英里。"
+}

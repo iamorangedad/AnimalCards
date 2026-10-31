@@ -1,0 +1,78 @@
+{
+ "file": "彭布罗克柯基犬",
+ "no": "408",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "彭布罗克柯基犬",
+ "name_en": "Pembroke Welsh Corgi",
+ "latin": "Canis familiaris（品种）",
+ "short": "彭布罗克柯基犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "10–12 kg",
+   "lo": 10,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "25–30 cm",
+   "lo": 0.25,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "约 13 年",
+   "lo": 13,
+   "hi": 13,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "断尾上限",
+   "value": "5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "赶牛",
+   "icon": "team",
+   "desc": "它是赶牛犬，会咬牛的脚后跟赶牛；小柯基有时也会咬主人的脚踝。"
+  },
+  {
+   "name": "短腿",
+   "icon": "flip",
+   "desc": "腿短身长，名字在威尔士语里就是“矮狗”。"
+  }
+ ],
+ "intro": [
+  "【品种】彭布罗克柯基犬起源于威尔士彭布罗克郡。",
+  "Corgi 由威尔士语 cor（矮）和 ci（狗）组成。",
+  "1925 年 12 月，柯基俱乐部在卡马森成立。"
+ ],
+ "fact": "美国养犬俱乐部标准规定，断尾的尾巴不能长于 5 cm。",
+ "range": "原产英国威尔士；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Pembroke Welsh Corgi」"
+ ],
+ "footnote": "这是狗的一个品种；肩高原文 20–30 cm，此处按信息框 10–12 英寸。"
+}

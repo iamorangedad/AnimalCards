@@ -1,0 +1,78 @@
+{
+ "file": "柴犬",
+ "no": "406",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "柴犬",
+ "name_en": "Shiba Inu",
+ "latin": "Canis familiaris（品种）",
+ "short": "柴犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "38–41 cm",
+   "lo": 0.38,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬肩高",
+   "value": "35–38 cm",
+   "lo": 0.35,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬体重",
+   "value": "约 8 kg",
+   "lo": 8,
+   "hi": 8,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "日本寿命",
+   "value": "15.5 年",
+   "lo": 15.5,
+   "hi": 15.5,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "古老犬种",
+   "icon": "ear",
+   "desc": "基因研究认为它是“基础犬种”，比 19 世纪出现的现代犬种更古老。"
+  },
+  {
+   "name": "安静",
+   "icon": "huddle",
+   "desc": "研究发现柴犬在家里听到声音时不太爱叫。"
+  }
+ ],
+ "intro": [
+  "【品种】柴犬是日本的猎犬，是日本六种本土犬里最小的。",
+  "史前绳文时代的陶偶里就有和柴犬很像的狗。",
+  "毛色有赤、黑褐、芝麻、白等。"
+ ],
+ "fact": "2024 年英国研究中，柴犬的预期寿命是 14.6 年。",
+ "range": "原产日本；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Shiba Inu」"
+ ],
+ "footnote": "这是狗的一个品种；体型为信息框中的品种标准。"
+}

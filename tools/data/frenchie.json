@@ -1,0 +1,78 @@
+{
+ "file": "法国斗牛犬",
+ "no": "412",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "法国斗牛犬",
+ "name_en": "French Bulldog",
+ "latin": "Canis familiaris（品种）",
+ "short": "法国斗牛犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬体重",
+   "value": "9–14 kg",
+   "lo": 9,
+   "hi": 14,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公犬肩高",
+   "value": "27–35 cm",
+   "lo": 0.27,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "英国寿命",
+   "value": "9.8 年",
+   "lo": 9.8,
+   "hi": 9.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "有健康问题",
+   "value": "72.4%",
+   "lo": 72.4,
+   "hi": 72.4,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蝙蝠耳",
+   "icon": "ear",
+   "desc": "一对竖立的大耳朵是它的标志。"
+  },
+  {
+   "name": "城市伴侣",
+   "icon": "huddle",
+   "desc": "体型小、不太需要运动，适合住在城市里。"
+  }
+ ],
+ "intro": [
+  "【品种】法国斗牛犬 19 世纪中期出现在巴黎。",
+  "它可能来自英国玩具斗牛犬和巴黎本地捕鼠犬的杂交。",
+  "2023 年它取代拉布拉多，成为英国登记最多的犬种。"
+ ],
+ "fact": "有几家航空公司禁止它托运，因为曾有不少法斗在飞行中死亡。",
+ "range": "原产法国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「French Bulldog」"
+ ],
+ "footnote": "这是狗的一个品种；健康问题比例来自英国 2200 多只法斗的兽医记录研究。"
+}

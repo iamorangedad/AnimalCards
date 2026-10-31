@@ -1,0 +1,79 @@
+{
+ "file": "红胁绿鹦鹉",
+ "no": "425",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "红胁绿鹦鹉",
+ "name_en": "Moluccan eclectus",
+ "latin": "Eclectus roratus",
+ "short": "红胁绿鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃水果等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "孵化",
+   "value": "28–30 天",
+   "lo": 28,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "离巢",
+   "value": "约 11 周",
+   "lo": 77,
+   "hi": 77,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "最长寿命",
+   "value": "28.5 年",
+   "lo": 28.5,
+   "hi": 28.5,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "雌雄不同色",
+   "icon": "camo",
+   "desc": "雄鸟几乎全身翠绿，雌鸟是鲜红和紫蓝色，是鹦鹉里雌雄差别最大的。"
+  },
+  {
+   "name": "多夫育雏",
+   "icon": "team",
+   "desc": "雄鸟可飞 20 km 觅食，最多 5 只雄鸟一起给一只雌鸟送食物。"
+  }
+ ],
+ "intro": [
+  "红胁绿鹦鹉原产印尼马鲁古群岛。",
+  "它是一种体型粗壮、尾巴短的鹦鹉。",
+  "雌鸟会拼命守护自己选中的树洞，可在那棵树上待 11 个月。"
+ ],
+ "fact": "它通常 2–3 岁性成熟；有报道称活到 40.8 岁。",
+ "range": "印度尼西亚马鲁古群岛。",
+ "sources": [
+  "Wikipedia「Moluccan eclectus」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "离巢 11 周约 77 天。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "腊肠犬",
+ "no": "409",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "腊肠犬",
+ "name_en": "Dachshund",
+ "latin": "Canis familiaris（品种）",
+ "short": "腊肠犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "标准体重",
+   "value": "7.5–14.5 kg",
+   "lo": 7.5,
+   "hi": 14.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "迷你体重",
+   "value": "5.5 kg 以下",
+   "lo": 5.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "兔猎型",
+   "value": "3.5–5 kg",
+   "lo": 3.5,
+   "hi": 5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "椎间盘病",
+   "value": "20–25%",
+   "lo": 20,
+   "hi": 25,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "钻洞猎獾",
+   "icon": "climb",
+   "desc": "腿短身长，原本用来钻进洞里猎獾，德语名就是“獾狗”。"
+  },
+  {
+   "name": "三种毛",
+   "icon": "camo",
+   "desc": "有短毛、长毛和刚毛三种被毛。"
+  }
+ ],
+ "intro": [
+  "【品种】腊肠犬是德国的短腿长身猎犬，也叫 Dackel 或 Teckel。",
+  "最早的德国腊肠犬比现在的大，重 14–18 kg。",
+  "约 20–25% 的腊肠犬会得椎间盘疾病。"
+ ],
+ "fact": "一项研究中，腊肠犬被评为最有攻击性的犬种，20% 咬过陌生人。",
+ "range": "原产德国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Dachshund」"
+ ],
+ "footnote": "这是狗的一个品种；体重按不同体型分开。"
+}

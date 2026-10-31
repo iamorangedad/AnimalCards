@@ -1,0 +1,78 @@
+{
+ "file": "比格犬",
+ "no": "410",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "比格犬",
+ "name_en": "Beagle",
+ "latin": "Canis familiaris（品种）",
+ "short": "比格犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "33–40 cm",
+   "lo": 0.33,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "8.2–15.9 kg",
+   "lo": 8.2,
+   "hi": 15.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "找到气味",
+   "value": "不到 1 分钟",
+   "lo": 1,
+   "hi": 1,
+   "scale": "min",
+   "approx": false
+  },
+  {
+   "label": "美国人气",
+   "value": "第 4 名",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "嗅觉猎犬",
+   "icon": "whisker",
+   "desc": "长耳朵和大嘴唇可能帮它把气味拢在鼻子附近。"
+  },
+  {
+   "name": "猎兔",
+   "icon": "team",
+   "desc": "它被培育来成群追猎野兔，这种打猎方式叫 beagling。"
+  }
+ ],
+ "intro": [
+  "【品种】比格犬是英国的嗅觉猎犬，长得像小一号的猎狐犬。",
+  "在北美，它连续 30 多年都是最受欢迎的十大犬种之一。",
+  "母犬通常比公犬略小。"
+ ],
+ "fact": "一次嗅觉测试中，比格犬不到 1 分钟就找到目标，猎狐梗用了 15 分钟。",
+ "range": "原产英国英格兰；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Beagle」"
+ ],
+ "footnote": "这是狗的一个品种；人气排名为 2012–2013 年美国数据。"
+}

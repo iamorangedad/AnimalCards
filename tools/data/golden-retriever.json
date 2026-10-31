@@ -1,0 +1,78 @@
+{
+ "file": "金毛寻回犬",
+ "no": "401",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "金毛寻回犬",
+ "name_en": "Golden Retriever",
+ "latin": "Canis familiaris（品种）",
+ "short": "金毛寻回犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "56–61 cm",
+   "lo": 0.56,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬肩高",
+   "value": "51–56 cm",
+   "lo": 0.51,
+   "hi": 0.56,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "25–34 kg",
+   "lo": 25,
+   "hi": 34,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "13.2 年",
+   "lo": 13.2,
+   "hi": 13.2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "叼回猎物",
+   "icon": "jar",
+   "desc": "它原本是猎犬，专门把打下的水禽从水里和草丛里叼回来。"
+  },
+  {
+   "name": "温和亲人",
+   "icon": "team",
+   "desc": "性格温和、亲人，是西方登记最多的犬种之一。"
+  }
+ ],
+ "intro": [
+  "【品种】金毛寻回犬是苏格兰培育的中大型寻回犬。",
+  "19 世纪由特威德茅斯男爵培育，1913 年被英国养犬俱乐部承认。",
+  "它成熟得比较慢，金色的被毛防水。"
+ ],
+ "fact": "1868 年，一只叫 Nous 的黄色寻回犬和水猎犬 Belle 交配，生下了这个品种最早的祖先。",
+ "range": "原产苏格兰；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Golden Retriever」"
+ ],
+ "footnote": "这是狗的一个品种；肩高、体重按品种标准；寿命为 2024 年英国研究的中位数。"
+}

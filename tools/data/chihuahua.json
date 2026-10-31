@@ -1,0 +1,78 @@
+{
+ "file": "吉娃娃",
+ "no": "405",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "吉娃娃",
+ "name_en": "Chihuahua",
+ "latin": "Canis familiaris（品种）",
+ "short": "吉娃娃",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1.5–2.5 kg",
+   "lo": 1.5,
+   "hi": 2.5,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "15–23 cm",
+   "lo": 0.15,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "日本寿命",
+   "value": "11.8 年",
+   "lo": 11.8,
+   "hi": 11.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "古犬血统",
+   "value": "约 4%",
+   "lo": 4,
+   "hi": 4,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最小的狗",
+   "icon": "ear",
+   "desc": "它是世界上公认体型最小的犬种，头圆、耳朵大而竖立。"
+  },
+  {
+   "name": "忠心伴侣",
+   "icon": "team",
+   "desc": "主要被当作伴侣犬饲养。"
+  }
+ ],
+ "intro": [
+  "【品种】吉娃娃是墨西哥的玩具犬，名字来自墨西哥奇瓦瓦州。",
+  "FCI 标准体重 1.5–2.5 kg，超出 1–3 kg 就不能参赛。",
+  "宠物吉娃娃常比标准重，有的超过 4.5 kg。"
+ ],
+ "fact": "2020 年古代狗基因组研究发现，吉娃娃身上约有 4% 的哥伦布前美洲本土狗血统。",
+ "range": "原产墨西哥；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Chihuahua (dog breed)」"
+ ],
+ "footnote": "这是狗的一个品种；体重为 FCI 理想范围。"
+}

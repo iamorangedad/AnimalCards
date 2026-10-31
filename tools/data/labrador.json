@@ -1,0 +1,78 @@
+{
+ "file": "拉布拉多寻回犬",
+ "no": "402",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "拉布拉多寻回犬",
+ "name_en": "Labrador Retriever",
+ "latin": "Canis familiaris（品种）",
+ "short": "拉布拉多寻回犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬体重",
+   "value": "25–36 kg",
+   "lo": 25,
+   "hi": 36,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母犬体重",
+   "value": "25–32 kg",
+   "lo": 25,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "55–62 cm",
+   "lo": 0.55,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "13.1 年",
+   "lo": 13.1,
+   "hi": 13.1,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "导盲犬",
+   "icon": "team",
+   "desc": "美国约 60–70% 的导盲犬是拉布拉多。"
+  },
+  {
+   "name": "灵敏嗅觉",
+   "icon": "whisker",
+   "desc": "常被用来搜爆、缉毒；印度一只警犬拉布拉多曾帮助查获 3329 kg 炸药。"
+  }
+ ],
+ "intro": [
+  "【品种】拉布拉多是在英国培育的寻回猎犬。",
+  "2006 年在英美两国，它的登记数都超过第二名的两倍。",
+  "毛色有黑、黄、巧克力三种。"
+ ],
+ "fact": "研究发现巧克力色的拉布拉多平均寿命比其他毛色的短一些。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Labrador Retriever」"
+ ],
+ "footnote": "这是狗的一个品种；体重为 AKC 标准；肩高为 AKC 标准上下限合并。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "布偶猫",
+ "no": "418",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "布偶猫",
+ "name_en": "Ragdoll",
+ "latin": "Felis catus（品种）",
+ "short": "布偶猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猫体重",
+   "value": "5.4–9.1 kg",
+   "lo": 5.4,
+   "hi": 9.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猫体重",
+   "value": "3.6–6.8 kg",
+   "lo": 3.6,
+   "hi": 6.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "毛色长全",
+   "value": "3–4 年",
+   "lo": 3,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "英国寿命",
+   "value": "10.31 年",
+   "lo": 10.31,
+   "hi": 10.31,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "一抱就软",
+   "icon": "huddle",
+   "desc": "被抱起来时会全身放松、软绵绵的，所以叫“布偶”。"
+  },
+  {
+   "name": "蓝眼睛",
+   "icon": "camo",
+   "desc": "有重点色被毛和蓝色眼睛。"
+  }
+ ],
+ "intro": [
+  "【品种】布偶猫是 20 世纪 60 年代美国加州的安·贝克培育的。",
+  "它体型大而重，被毛半长、柔软。",
+  "小猫出生时是白色的，8–10 周才显出颜色。"
+ ],
+ "fact": "瑞典保险数据显示，布偶猫和暹罗猫活到 10 岁的概率最低，约为 78%。",
+ "range": "原产美国加州；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Ragdoll」"
+ ],
+ "footnote": "这是猫的一个品种。"
+}

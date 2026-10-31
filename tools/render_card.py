@@ -6,11 +6,13 @@ from markupsafe import Markup
 from playwright.sync_api import sync_playwright
 import icons
 import art
+import art5
+art.ART.update(art5.ART5)
 
 HERE = pathlib.Path(__file__).resolve().parent
 W, H = 1080, 1920
 ART_W, ART_H = 1080 - 2 * 22 - 2 * 16 - 2 * 30 - 4, 600
-TYPE = {"陆地": ("#5f8f5a", "#e1efda"), "水中": ("#2f7de1", "#dceafb"), "天空": ("#3a9fc9", "#dcf1f9"), "两栖": ("#2a9d8f", "#d9f2ef")}
+TYPE = {"陆地": ("#5f8f5a", "#e1efda"), "水中": ("#2f7de1", "#dceafb"), "天空": ("#3a9fc9", "#dcf1f9"), "两栖": ("#2a9d8f", "#d9f2ef"), "植物": ("#4f9a3a", "#e3f2d6"), "水生": ("#2a8ab0", "#d8eef6"), "沙漠": ("#c9862e", "#fbecd2"), "菌类": ("#8a5a3a", "#f3e6da")}
 IUCN = {"EX": ("#000000", "#ffffff", "灭绝"), "EW": ("#542344", "#ffffff", "野外灭绝"), "CR": ("#d81e05", "#fde4e0", "极危"),
         "EN": ("#fc7f3f", "#fff0e6", "濒危"), "VU": ("#e0a800", "#fff7d6", "易危"), "NT": ("#9aa83b", "#f2f6dc", "近危"),
         "LC": ("#60c659", "#e6f7e4", "无危"), "DD": ("#6b7075", "#eeeeee", "数据缺乏"), "NE": ("#6b7075", "#ffffff", "未评估")}
@@ -21,11 +23,13 @@ SCALES = {"abyss": ("lin", 0, 3000, [1000, 2000]), "min_l": ("lin", 0, 120, [30,
           "speed": ("lin", 0, 120, [30, 60, 90]), "food": ("lin", 0, 200, [50, 100, 150]), "days": ("lin", 0, 400, [100, 200, 300]),
           "alt": ("lin", 0, 6000, [2000, 4000]), "km": ("log", 1, 10000, [10, 100, 1000]), "temp": ("lin", 0, 50, [10, 20, 30, 40]), "n400": ("lin", 0, 400, [100, 200, 300]), "months": ("lin", 0, 24, [6, 12, 18]),
           "n100": ("lin", 0, 100, [25, 50, 75]), "eggs": ("log", 1, 1e7, [100, 1e4, 1e6]), "km_xl": ("log", 1, 100000, [10, 1000]),
-          "len_xs": ("log", 0.001, 100, [0.1, 10]), "pct": ("lin", 0, 100, [25, 50, 75]), "sec": ("lin", 0, 20, [5, 10, 15])}
+          "len_xs": ("log", 0.001, 100, [0.1, 10]), "pct": ("lin", 0, 100, [25, 50, 75]), "sec": ("lin", 0, 20, [5, 10, 15]),
+          "len_xxl": ("log", 1, 150, [10, 100]), "yrs": ("log", 1, 10000, [10, 100, 1000]), "um": ("log", 1, 1000, [10, 100]), "rain": ("lin", 0, 4000, [1000, 2000, 3000]),
+          "tempw": ("lin", -50, 50, [-25, 0, 25]), "tha": ("lin", 0, 20, [5, 10, 15]), "ph": ("lin", 0, 14, [4, 7, 10]), "mt": ("log", 0.1, 1000, [1, 10, 100]), "n1000": ("log", 1, 1000, [10, 100]), "dia": ("log", 0.01, 10, [0.1, 1])}
 SDESC = {"min": "时间 0–20 分钟", "yield": "产量 100 kg–100 t（对数）", "ton": "产量 1000 吨–1000 万吨（对数）", "mass": "体重 0.1 kg–10 t（对数）", "mass_s": "体重 1 mg–10 kg（对数）", "mass_xl": "体重 1 kg–200 t（对数）",
          "abyss": "水深 0–3000 m", "min_l": "时长 0–120 分钟", "len": "长度 10 cm–10 m（对数）", "len_s": "长度 1 mm–1 m（对数）", "len_xl": "长度 1–40 m（对数）",
          "life": "寿命 0–80 年", "life_xl": "寿命 0–200 年", "hours": "时长 0–24 小时", "depth": "水深 0–600 m", "depth_xl": "水深 0–2000 m",
-         "speed": "速度 0–120 km/h", "food": "食量 0–200 kg", "days": "天数 0–400 天", "alt": "海拔 0–6000 m", "km": "距离 1–10000 km（对数）", "temp": "温度 0–50 °C", "n400": "数量 0–400", "months": "月数 0–24 个月", "n100": "数量 0–100", "eggs": "数量 1–1000 万（对数）", "km_xl": "距离 1–10 万 km（对数）", "len_xs": "长度 1 mm–100 m（对数）", "pct": "比例 0–100%", "sec": "时间 0–20 秒"}
+         "speed": "速度 0–120 km/h", "food": "食量 0–200 kg", "days": "天数 0–400 天", "alt": "海拔 0–6000 m", "km": "距离 1–10000 km（对数）", "temp": "温度 0–50 °C", "n400": "数量 0–400", "months": "月数 0–24 个月", "n100": "数量 0–100", "eggs": "数量 1–1000 万（对数）", "km_xl": "距离 1–10 万 km（对数）", "len_xs": "长度 1 mm–100 m（对数）", "pct": "比例 0–100%", "sec": "时间 0–20 秒", "len_xxl": "高度 1–150 m（对数）", "yrs": "年数 1–1 万年（对数）", "um": "大小 1–1000 µm（对数）", "rain": "降水 0–4000 mm", "tempw": "温度 −50–50 °C", "tha": "产量 0–20 t/公顷", "ph": "pH 0–14", "mt": "产量 0.1–1000 百万吨（对数）", "n1000": "数量 1–1000（对数）", "dia": "直径 1 cm–10 m（对数）"}
 
 
 def note(stats):
@@ -59,6 +63,7 @@ def render(ids, pdf=True):
         for i in ids:
             d = json.loads((HERE / "data" / f"{i}.json").read_text(encoding="utf-8"))
             assert len(d["name_cn"]) <= 11
+            d.setdefault("stat_title", {"植物": "植物数据", "真菌": "真菌数据"}.get(d.get("kingdom"), "身体数据"))
             acc, accl = TYPE[d["type"]]
             ic, ib, icn = IUCN[d["iucn"]["code"]]
             d["iucn"].setdefault("cn", icn)
@@ -73,6 +78,10 @@ def render(ids, pdf=True):
             chars = sorted({c for c in hp.read_text() if ord(c) > 0x7f})
             tofu = [c for c in chars if not subprocess.run(["fc-list", f":family=Noto Sans CJK SC:charset={ord(c):x}", "family"], capture_output=True, text=True).stdout.strip()]
             pg.screenshot(path=str(out / f"{d['file']}.png"), clip={"x": 0, "y": 0, "width": W, "height": H})
+            if int(d["no"]) >= 401:
+                from PIL import Image
+                q = Image.open(out / f"{d['file']}.png").convert("RGB").quantize(256, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)
+                q.save(out / f"{d['file']}.png", optimize=True)
             if pdf:
                 pg.pdf(path=str(out / f"{d['file']}.pdf"), width=f"{W}px", height=f"{H}px", print_background=True, page_ranges="1")
             print(i, info, "tofu", tofu)

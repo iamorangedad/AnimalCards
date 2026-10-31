@@ -1,0 +1,78 @@
+{
+ "file": "缅因猫",
+ "no": "416",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "缅因猫",
+ "name_en": "Maine Coon",
+ "latin": "Felis catus（品种）",
+ "short": "缅因猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猫体重",
+   "value": "8–10 kg",
+   "lo": 8,
+   "hi": 10,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猫体重",
+   "value": "5–7 kg",
+   "lo": 5,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "身高",
+   "value": "25–41 cm",
+   "lo": 0.25,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长含尾",
+   "value": "可达 97 cm",
+   "lo": 0.97,
+   "hi": 0.97,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大个子",
+   "icon": "roar",
+   "desc": "它是体型很大的家猫品种；2010 年一只叫 Stewie 的缅因猫以 123 cm 被评为“最长的猫”。"
+  },
+  {
+   "name": "抗寒长毛",
+   "icon": "huddle",
+   "desc": "长而厚的被毛帮助它度过缅因州寒冷的冬天。"
+  }
+ ],
+ "intro": [
+  "【品种】缅因猫来自北美最古老的地方猫种之一。",
+  "1985 年它被定为美国缅因州的州猫。",
+  "19 世纪以来人们一直挑大个的繁育。"
+ ],
+ "fact": "传说它是维京船上的猫或玛丽·安托瓦内特的猫的后代，但基因研究显示它和美国东北部的普通猫最亲。",
+ "range": "原产美国缅因州；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Maine Coon」"
+ ],
+ "footnote": "这是猫的一个品种。"
+}

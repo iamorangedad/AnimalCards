@@ -1,0 +1,78 @@
+{
+ "file": "英国短毛猫",
+ "no": "417",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "英国短毛猫",
+ "name_en": "British Shorthair",
+ "latin": "Felis catus（品种）",
+ "short": "英国短毛猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猫体重",
+   "value": "4–8 kg",
+   "lo": 4,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猫体重",
+   "value": "3–5 kg",
+   "lo": 3,
+   "hi": 5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "活过 10 年",
+   "value": "82%",
+   "lo": 82,
+   "hi": 82,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "FIFe 人气",
+   "value": "第 2 名",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "圆脸胖墩",
+   "icon": "huddle",
+   "desc": "身体结实、毛厚、脸宽；最出名的是灰蓝色的“英国蓝猫”。"
+  },
+  {
+   "name": "柴郡猫",
+   "icon": "camo",
+   "desc": "据说《爱丽丝漫游奇境》里柴郡猫的插画就是以它为原型。"
+  }
+ ],
+ "intro": [
+  "【品种】英国短毛猫是英国本地家猫的纯种版本。",
+  "近 150 年的繁育主要强调外形。",
+  "它是公母体型差别比较明显的猫品种。"
+ ],
+ "fact": "英国一项研究发现，它得糖尿病的风险不到普通猫的一半。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「British Shorthair」"
+ ],
+ "footnote": "这是猫的一个品种；人气为 FIFe 2024 年登记排名。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "孟加拉猫",
+ "no": "421",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "孟加拉猫",
+ "name_en": "Bengal cat",
+ "latin": "Felis catus × Prionailurus bengalensis",
+ "short": "孟加拉猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "英国寿命",
+   "value": "8.51 年",
+   "lo": 8.51,
+   "hi": 8.51,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "FIFe 人气",
+   "value": "第 7 名",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "心肌病",
+   "value": "16.7%",
+   "lo": 16.7,
+   "hi": 16.7,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "视网膜病",
+   "value": "约 7 周龄",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "豹纹",
+   "icon": "camo",
+   "desc": "身上有豹猫一样的斑点或大理石纹。"
+  },
+  {
+   "name": "混血",
+   "icon": "team",
+   "desc": "它是亚洲豹猫和家猫（特别是埃及猫）杂交培育的。"
+  }
+ ],
+ "intro": [
+  "【品种】1963 年美国加州的琼·米尔第一次有意让豹猫和家猫杂交。",
+  "她被认为是现代孟加拉猫的创始人。",
+  "2025 年 3 月起澳大利亚禁止进口孟加拉猫。"
+ ],
+ "fact": "孟加拉猫有一种遗传性视网膜萎缩，约 7 周龄开始视力下降，2 岁时已经很差。",
+ "range": "原产美国；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Bengal cat」"
+ ],
+ "footnote": "这是猫的一个品种（杂交起源）。"
+}

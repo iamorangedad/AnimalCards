@@ -1,0 +1,78 @@
+{
+ "file": "波斯猫",
+ "no": "414",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "波斯猫",
+ "name_en": "Persian cat",
+ "latin": "Felis catus（品种）",
+ "short": "波斯猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "英国寿命",
+   "value": "10.93 年",
+   "lo": 10.93,
+   "hi": 10.93,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "瑞典寿命",
+   "value": "约 12.5 年",
+   "lo": 12.5,
+   "hi": 12.5,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "多囊肾",
+   "value": "约 43–49%",
+   "lo": 43,
+   "hi": 49.2,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "死产率",
+   "value": "16.1–22.1%",
+   "lo": 16.1,
+   "hi": 22.1,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长毛",
+   "icon": "camo",
+   "desc": "一身长长的被毛，需要经常梳理。"
+  },
+  {
+   "name": "扁脸",
+   "icon": "huddle",
+   "desc": "圆脸、短鼻是被人工选育出来的，但也带来呼吸等健康问题。"
+  }
+ ],
+ "intro": [
+  "【品种】波斯猫是长毛猫品种，脸圆、口鼻短。",
+  "1620 年就有长毛猫从呼罗珊被带到意大利。",
+  "1871 年伦敦水晶宫举办的第一届猫展上就有波斯猫。"
+ ],
+ "fact": "超声检查研究发现，英国的波斯猫及相关品种约 49.2% 患有多囊肾病。",
+ "range": "祖先来自伊朗（波斯）一带；品种在英国定型，现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Persian cat」"
+ ],
+ "footnote": "这是猫的一个品种；多囊肾比例为不同国家的研究结果。"
+}

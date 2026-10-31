@@ -1,0 +1,79 @@
+{
+ "file": "斯芬克斯猫",
+ "no": "419",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "斯芬克斯猫",
+ "name_en": "Sphynx cat",
+ "latin": "Felis catus（品种）",
+ "short": "斯芬克斯猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "心脏异常",
+   "value": "34%",
+   "lo": 34,
+   "hi": 34,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3.5–7 kg",
+   "lo": 3.5,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公猫发病",
+   "value": "平均 19 个月",
+   "lo": 19,
+   "hi": 19,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "母猫发病",
+   "value": "平均 29 个月",
+   "lo": 29,
+   "hi": 29,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "无毛",
+   "icon": "camo",
+   "desc": "无毛是自然发生的基因突变，人们再加以选育。"
+  },
+  {
+   "name": "爱取暖",
+   "icon": "huddle",
+   "desc": "没有毛，散热快，摸起来暖暖的，喜欢找暖和的地方、和人依偎。"
+  }
+ ],
+ "intro": [
+  "【品种】斯芬克斯猫又叫加拿大无毛猫。",
+  "现在的北美和欧洲斯芬克斯猫来自两条自然突变的血统。",
+  "1978 年多伦多一位繁育者在街上发现了三只无毛小猫。"
+ ],
+ "fact": "2012 年一项对 114 只斯芬克斯猫的研究发现 34% 心脏异常。",
+ "range": "原产加拿大；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Sphynx cat」",
+  "维基百科「斯芬克斯猫」"
+ ],
+ "footnote": "这是猫的一个品种；体重来自中文维基；发病月龄指肥厚型心肌病平均发病年龄。"
+}

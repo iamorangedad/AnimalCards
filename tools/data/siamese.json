@@ -1,0 +1,78 @@
+{
+ "file": "暹罗猫",
+ "no": "415",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "暹罗猫",
+ "name_en": "Siamese cat",
+ "latin": "Felis catus（品种）",
+ "short": "暹罗猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "猫是专性肉食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "英国寿命",
+   "value": "11.69 年",
+   "lo": 11.69,
+   "hi": 11.69,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "变色阈值",
+   "value": "33 °C 以下",
+   "lo": 33,
+   "hi": 33,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "活过 10 年",
+   "value": "约 78%",
+   "lo": 78,
+   "hi": 78,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "书中旅程",
+   "value": "480 km",
+   "lo": 480,
+   "hi": 480,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "重点色",
+   "icon": "camo",
+   "desc": "控制毛色的酶怕热，只在身体较凉（低于 33 °C）的耳朵、脸、脚和尾巴起作用，所以这些地方颜色深。"
+  },
+  {
+   "name": "黏人",
+   "icon": "team",
+   "desc": "据描述它更习惯白天活动，喜欢待在主人身边。"
+  }
+ ],
+ "intro": [
+  "【品种】暹罗猫是最早被明确认定的猫品种之一，来自泰国。",
+  "1878 年美国总统海斯收到了第一只有记录的到美国的暹罗猫。",
+  "很多其他品种都混有暹罗猫的血统。"
+ ],
+ "fact": "1885 年，英国的暹罗猫 Pho 和 Mia 生下三只小猫，一家五口参加了水晶宫猫展。",
+ "range": "原产泰国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Siamese cat」"
+ ],
+ "footnote": "这是猫的一个品种；10 年存活率来自瑞典保险数据。"
+}

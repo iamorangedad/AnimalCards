@@ -1,0 +1,77 @@
+{
+ "file": "鹦鹉螺",
+ "no": "284",
+ "cat": "海洋",
+ "name_cn": "鹦鹉螺",
+ "name_en": "Chambered nautilus",
+ "latin": "Nautilus pompilius",
+ "short": "鹦鹉螺",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃腐肉和碎屑",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2026"
+ },
+ "stats": [
+  {
+   "label": "特大壳径",
+   "value": "可达 254 mm",
+   "lo": 0.254,
+   "hi": 0.254,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常在水深",
+   "value": "约 300 m",
+   "lo": 300,
+   "hi": 300,
+   "scale": "depth",
+   "approx": true
+  },
+  {
+   "label": "极限深度",
+   "value": "约 600 m",
+   "lo": 600,
+   "hi": 600,
+   "scale": "depth",
+   "approx": true
+  },
+  {
+   "label": "卵孵化",
+   "value": "9–15 个月",
+   "lo": 9,
+   "hi": 15,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "调浮力",
+   "icon": "dive",
+   "desc": "壳里有许多小室，用来调节深度。"
+  },
+  {
+   "name": "90 条触手",
+   "icon": "whisker",
+   "desc": "约有 90 条触手，没有吸盘；眼睛没有晶状体，像针孔相机。"
+  }
+ ],
+ "intro": [
+  "鹦鹉螺生活在南太平洋的珊瑚礁附近。",
+  "它比大多数头足类长寿，大约 5 岁才成熟。",
+  "它的壳常被拿来当黄金螺旋的例子。"
+ ],
+ "fact": "印尼和澳大利亚北部记录过壳径达 254 mm 的特大个体。",
+ "range": "安达曼海到斐济、日本南部和大堡礁。",
+ "sources": [
+  "Wikipedia「Chambered nautilus」",
+  "IUCN 红色名录（Allcock 2026）"
+ ],
+ "footnote": "深度原文为英尺（约 1000 ft、2000 ft），已换算。"
+}

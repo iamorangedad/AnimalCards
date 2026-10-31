@@ -1,0 +1,77 @@
+{
+ "file": "大西洋蓝鳍金枪鱼",
+ "no": "268",
+ "cat": "海洋",
+ "name_cn": "大西洋蓝鳍金枪鱼",
+ "name_en": "Atlantic bluefin tuna",
+ "latin": "Thunnus thynnus",
+ "short": "大西洋蓝鳍金枪鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "成年体长",
+   "value": "2–2.5 m",
+   "lo": 2,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成年体重",
+   "value": "225–250 kg",
+   "lo": 225,
+   "hi": 250,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "679 kg",
+   "lo": 679,
+   "hi": 679,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "大个体寿命",
+   "value": "可达 50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "温血鱼",
+   "icon": "huddle",
+   "desc": "它用“奇异网”逆流换热，让肌肉保持温暖，是体温调节最强的金枪鱼。"
+  },
+  {
+   "name": "大力士",
+   "icon": "dive",
+   "desc": "1934 年在加拿大，六个人轮流和一条金枪鱼搏斗了 62 小时。"
+  }
+ ],
+ "intro": [
+  "大西洋蓝鳍金枪鱼是最大的鲈形类鱼之一。",
+  "2009 年报告称，东大西洋种群 40 年里减少了 72%，西大西洋减少了 82%。",
+  "2008 年一条蓝鳍金枪鱼在东京筑地市场卖了 24.7 万美元。"
+ ],
+ "fact": "按国际游钓协会规则，最大的一条重 679 kg、长 3.84 m。",
+ "range": "大西洋及地中海。",
+ "sources": [
+  "Wikipedia「Atlantic bluefin tuna」",
+  "IUCN 红色名录（Collette 2021）"
+ ],
+ "footnote": ""
+}

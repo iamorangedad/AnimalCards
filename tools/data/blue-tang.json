@@ -1,0 +1,77 @@
+{
+ "file": "黄尾副刺尾鱼",
+ "no": "285",
+ "cat": "海洋",
+ "name_cn": "黄尾副刺尾鱼",
+ "name_en": "Blue tang",
+ "latin": "Paracanthurus hepatus",
+ "short": "黄尾副刺尾鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "约 600 g",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "成熟体长",
+   "value": "约 149 mm",
+   "lo": 0.149,
+   "hi": 0.149,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "成熟",
+   "value": "9–12 个月",
+   "lo": 9,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "2–40 m",
+   "lo": 2,
+   "hi": 40,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "尾刺",
+   "icon": "roar",
+   "desc": "尾柄上有一根刺，刺上的鳞片带着长长的小齿。"
+  },
+  {
+   "name": "小群生活",
+   "icon": "team",
+   "desc": "成对或 8–14 条一小群生活。"
+  }
+ ],
+ "intro": [
+  "黄尾副刺尾鱼是蓝色身体、黄色尾巴、黑色“调色板”花纹的刺尾鱼。",
+  "它是热门的海水观赏鱼。",
+  "卵很小，直径约 0.8 mm。"
+ ],
+ "fact": "2011 年约有 9.5 万条被进口作观赏鱼。",
+ "range": "印度—太平洋珊瑚礁。",
+ "sources": [
+  "Wikipedia「Paracanthurus」",
+  "IUCN 红色名录（McIlwain 2012）"
+ ],
+ "footnote": ""
+}

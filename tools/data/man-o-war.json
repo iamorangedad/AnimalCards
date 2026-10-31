@@ -1,0 +1,77 @@
+{
+ "file": "僧帽水母",
+ "no": "283",
+ "cat": "海洋",
+ "name_cn": "僧帽水母",
+ "name_en": "Portuguese man o' war",
+ "latin": "Physalia physalis",
+ "short": "僧帽水母",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用触手捕鱼和甲壳类",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "触手",
+   "value": "常约 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "最长触手",
+   "value": "超过 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "浮囊",
+   "value": "可超过 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "群体",
+   "value": "可超过 1000 只",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒触手",
+   "icon": "jar",
+   "desc": "触手上的刺细胞毒性很强，能杀死鱼和甲壳类。"
+  },
+  {
+   "name": "风帆",
+   "icon": "flip",
+   "desc": "充气的浮囊上有一片“帆”，靠风在海面漂行。"
+  }
+ ],
+ "intro": [
+  "僧帽水母看起来像水母，其实是管水母，是由许多个体组成的群体。",
+  "浮囊里的气体大多是空气，还有多达 13% 的一氧化碳。",
+  "被蜇后可用 45 °C 热水浸泡 20 分钟止痛。"
+ ],
+ "fact": "大群的僧帽水母（有时超过 1000 只）会减少渔业资源。",
+ "range": "大西洋、印度洋和太平洋的海面。",
+ "sources": [
+  "Wikipedia「Portuguese man o' war」",
+  "IUCN 红色名录（未见评估）"
+ ],
+ "footnote": "群体条借用对数刻度。"
+}

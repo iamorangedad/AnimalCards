@@ -538,3 +538,97 @@ ART4["hawksbill"] = lambda w, h: scene("sea", w, h, turtle(shell="#8a5a2a", skin
 ART4["loggerhead"] = lambda w, h: scene("sea", w, h, turtle(shell="#a8643a", skin="#d9a070", sea=True, scute="#c98050", plastron="#f3e3a6", neck=60), box=(w / 2, h * .56, 520, 280))
 ART4["leatherback"] = lambda w, h: scene("deep", w, h, turtle(shell="#3a3f45", skin="#5a6068", L=360, sea=True, scute="#3a3f45", plastron="#c9ccd0") +
                                          "".join(P(f"M{-120+i*60} -100 L{-110+i*60} -30", sw=2.4, col="#9aa0a6") for i in range(5)) + "".join(C(-120 + (i * 41) % 240, -70 + (i * 13) % 40, 3, "#ffffff", 0) for i in range(10)), box=(w / 2, h * .62, 560, 280))
+# ocean batch 2
+def _sea(f, box=(.58, 620, 300), kind="sea"):
+    return lambda w, h: scene(kind, w, h, f, box=(w / 2, h * box[0], box[1], box[2]))
+_hh = P("M-210 -30 L-250 -60 L-250 -66 L-226 -70 L-200 -40 Z M-210 20 L-250 50 L-250 56 L-226 60 L-200 30 Z", "#8f9aa6", 2.6)
+def _hammer(w, h):
+    f = fish(F="#8f9aa6", L=420, H=110, tail="shark", belly="#eef0f2", gills=5, eye_r=0.1, mouth=False, fin_col="#7d8894", tall_dorsal=True)
+    head = P("M-200 -30 C-216 -34 -230 -40 -236 -40 L-236 40 C-230 40 -216 34 -200 30 Z", "#8f9aa6", 0) + P("M-236 -64 C-226 -60 -214 -40 -206 -20 L-206 20 C-214 40 -226 60 -236 64 C-246 60 -248 50 -244 40 C-240 20 -240 -20 -244 -40 C-248 -50 -246 -60 -236 -64 Z", "#8f9aa6", 2.8)
+    head += C(-238, -56, 4, INK, 0) + C(-238, 56, 4, INK, 0)
+    return scene("sea", w, h, G_(f + head, 0, 0), box=(w / 2, h * .58, 620, 300))
+ART4["hammerhead"] = _hammer
+ART4["tiger-shark"] = _sea(fish(F="#7d8a8f", L=440, H=130, tail="shark", belly="#eef0f0", gills=5, eye_r=6, mouth=False, fin_col="#6a777c",
+                               extras="".join(P(f"M{-80+i*34} -60 l-10 50", sw=8, col="#4a5458") for i in range(7))) + P("M-200 14 q30 10 64 0", "#5a2a2a", 2.4))
+ART4["bluefin"] = _sea(fish(F="#24456b", L=420, H=140, tail="fork", belly="#e2e8ee", eye_r=8, mouth=True, fin_col="#e8c23a", dorsal_col="#24456b",
+                           extras="".join(poly([(60 + i * 18, -40), (68 + i * 18, -50), (76 + i * 18, -40)], "#e8c23a", 1.4) for i in range(5))))
+ART4["swordfish"] = _sea(P("M-200 -10 L-380 -2 L-200 8 Z", "#5a6a7a", 2.6) + fish(F="#5a6a7a", L=400, H=110, tail="fork", belly="#d9dfe5", eye_r=9, mouth=False, fin_col="#4a5a6a", tall_dorsal=True, pectoral=True), box=(.58, 660, 280))
+def _sunfish(w, h):
+    o = E(0, -60, 170, 150, "#b9c3cc", 3) + P("M-20 -200 L30 -360 L80 -190 Z", "#9aa6b0", 2.8) + P("M-20 80 L30 240 L80 70 Z", "#9aa6b0", 2.8)
+    o += P("M160 -150 C200 -100 200 -20 160 30", "#9aa6b0", 2.8) + C(-110, -100, 12, "#fff", 2.4) + C(-112, -100, 6, INK, 0) + E(-160, -50, 10, 8, "none", 2.4) + E(-30, -60, 26, 14, "#9aa6b0", 2.4)
+    return scene("sea", w, h, o, box=(w / 2, h * .8, 420, 440))
+ART4["sunfish"] = _sunfish
+ART4["cod"] = _sea(fish(F="#a89a6a", L=360, H=110, tail="fan" if False else "fork", belly="#efeadc", eye_r=8, fin_col="#8a7e56", spots="#7a6e48",
+                       extras=P("M-170 30 l-6 20", sw=3) + P("M-160 -10 C-60 -14 60 -14 160 -8", sw=2.4, col="#efeadc")))
+ART4["moray"] = lambda w, h: scene("sea", w, h, rock(-180, 60, 1.4) + G_(_eel("#8a7a4a", L=440, H=44, spots="#3a3020"), 40, -50) + P("M-170 -64 l18 6 l-4 6", "#fff", 1.6), box=(w / 2, h * .72, 560, 280))
+def _lionfish(w, h):
+    f = fish(F="#f3e6d8", L=220, H=110, tail="round", eye_r=8, stripes=("#b8402a", [.15, .3, .45, .6, .75, .9]), fin_col="#e8c8b0", dorsal=False)
+    sp = "".join(P(f"M{-60+i*16} -40 L{-80+i*20} {-150-(i%3)*20}", sw=4, col="#b8402a") for i in range(10))
+    pf = "".join(P(f"M-30 20 L{-140+i*30} {120+(i%2)*20}", sw=3, col="#d98a6a") for i in range(6))
+    return scene("sea", w, h, sp + pf + f, box=(w / 2, h * .62, 460, 360))
+ART4["lionfish"] = _lionfish
+def _cuttle(w, h):
+    o = E(40, -90, 150, 64, "#c9a07a", 3) + P("M-100 -150 C-60 -170 160 -170 190 -90 C160 -10 -60 -10 -100 -30", sw=10, col="#e8d4b8")
+    o += "".join(P(f"M{-60+i*40} -110 q10 -14 20 0", sw=3, col="#7a5a3a") for i in range(6))
+    o += C(-90, -100, 26, "#c9a07a", 2.8) + E(-94, -104, 10, 6, INK, 0, extra='transform="rotate(0)"') + P("M-104 -104 q10 6 20 0", sw=2.4, col="#f6e6c0")
+    o += "".join(P(f"M-110 {-110+i*10} C-160 {-120+i*14} -190 {-90+i*16} -220 {-100+i*20}", sw=8, col=INK) + P(f"M-110 {-110+i*10} C-160 {-120+i*14} -190 {-90+i*16} -220 {-100+i*20}", sw=4, col="#c9a07a") for i in range(4))
+    return scene("sea", w, h, o, box=(w / 2, h * .66, 560, 280))
+ART4["cuttlefish"] = _cuttle
+def _gsquid(w, h):
+    o = P("M140 -100 L300 -130 L320 -100 L300 -70 Z", "#b8483a", 2.8) + E(80, -100, 120, 44, "#c8584a", 3) + C(-30, -100, 18, "#fff", 2.4) + C(-32, -100, 10, INK, 0)
+    o += "".join(P(f"M-40 {-110+i*8} C-140 {-140+i*20} -220 {-60+i*10} -300 {-120+i*30}", sw=9, col=INK) + P(f"M-40 {-110+i*8} C-140 {-140+i*20} -220 {-60+i*10} -300 {-120+i*30}", sw=5, col="#c8584a") for i in range(5))
+    return scene("deep", w, h, o, box=(w / 2, h * .62, 640, 280))
+ART4["giant-squid"] = _gsquid
+def _mantis(w, h):
+    s = shrimp(F="#3aa86a", L=280, H=64, strip=None)
+    s += P("M-120 -40 l-50 -40 l-20 30", sw=12, col=INK) + P("M-120 -40 l-50 -40 l-20 30", sw=8, col="#e84a6a")
+    s += C(-130, -90, 9, "#3a8ae0", 2.4) + C(-112, -96, 9, "#3a8ae0", 2.4) + P("M100 -60 l40 -20 l10 30 Z", "#e88a3a", 2.4)
+    return scene("sea", w, h, G_(s, 20, -20), box=(w / 2, h * .7, 500, 280))
+ART4["mantis-shrimp"] = _mantis
+ART4["lobster"] = lambda w, h: scene("sea", w, h, G_(shrimp(F="#3a5a4a", L=300, H=70, claw=True) +
+                                     P("M-100 -20 l-60 -50 M-100 -10 l-70 20", sw=10, col="#2a4a3a") + E(-180, -84, 40, 22, "#3a5a4a", 2.6) + E(-190, 22, 40, 22, "#3a5a4a", 2.6), 20, -20), box=(w / 2, h * .7, 520, 300))
+def _spidercrab(w, h):
+    F = "#d9824a"
+    o = ""
+    for s in (-1, 1):
+        for i in range(4):
+            d = f"M{s*40} {-40+i*8} L{s*(160+i*30)} {-150+i*30} L{s*(240+i*20)} {40}"
+            o += P(d, sw=10, col=INK) + P(d, sw=6, col=F)
+        d = f"M{s*30} -70 L{s*140} -200 L{s*200} -160"
+        o += P(d, sw=10, col=INK) + P(d, sw=6, col=F)
+    o += E(0, -50, 60, 50, F, 3) + "".join(C(-30 + (i * 23) % 60, -70 + (i * 17) % 40, 4, "#f2b88a", 0) for i in range(8)) + C(-14, -98, 5, INK, 0) + C(14, -98, 5, INK, 0)
+    return scene("deep", w, h, o, box=(w / 2, h * .76, 600, 320))
+ART4["spider-crab"] = _spidercrab
+def _horseshoe(w, h):
+    o = P("M-160 0 C-160 -120 160 -120 160 0 Z", "#8a6a42", 3) + P("M60 -20 L200 -60 L210 -50 L80 0 Z", "#6a5032", 2.6) + P("M120 -10 L300 10", sw=8, col=INK) + P("M120 -10 L300 10", sw=4, col="#6a5032")
+    o += P("M-110 -50 C-60 -80 60 -80 110 -50", sw=2.4, col="#5a4428") + C(-60, -60, 5, INK, 0) + C(60, -60, 5, INK, 0)
+    return scene("sea", w, h, G_(o, -40, 0), box=(w / 2, h * .76, 560, 220))
+ART4["horseshoe-crab"] = _horseshoe
+def _urchin(w, h):
+    o = "".join(P(f"M0 -90 L{math.cos(a)*150:.0f} {-90+math.sin(a)*120:.0f}", sw=5, col="#5a2a7a") for a in [i * math.pi / 16 for i in range(-16, 1)])
+    o += E(0, -80, 90, 70, "#7a3a9a", 3)
+    return scene("sea", w, h, rock(0, 40, 1.6) + o, box=(w / 2, h * .74, 420, 300))
+ART4["sea-urchin"] = _urchin
+def _cucumber(w, h):
+    o = P("M-200 -20 C-200 -90 180 -100 200 -30 C210 0 180 10 150 10 C40 16 -140 16 -190 0 Z", "#5a6a3a", 3)
+    o += "".join(poly([(-160 + i * 34, -50 - (i % 2) * 14), (-152 + i * 34, -80 - (i % 2) * 14), (-144 + i * 34, -50 - (i % 2) * 14)], "#7a8a4a", 2) for i in range(10))
+    o += "".join(P(f"M-200 -20 l-30 {-20+i*12}", sw=4, col="#e8d4a0") for i in range(4))
+    return scene("sea", w, h, o, box=(w / 2, h * .76, 520, 220))
+ART4["sea-cucumber"] = _cucumber
+def _clam(w, h):
+    o = P("M-200 0 C-200 -140 200 -140 200 0 Z", "#d9d4c4", 3) + P("M-170 -20 C-120 -110 120 -110 170 -20 C100 -40 -100 -40 -170 -20 Z", "#3a8aa8", 2.6)
+    o += "".join(P(f"M{-180+i*40} 0 l{(i-4.5)*6:.0f} -110", sw=2.4, col="#a8a090") for i in range(10)) + "".join(C(-120 + i * 30, -50 - (i % 2) * 8, 4, "#9ad0e0", 0) for i in range(9))
+    return scene("sea", w, h, o, box=(w / 2, h * .78, 480, 240))
+ART4["giant-clam"] = _clam
+def _mow(w, h):
+    o = P("M-160 -20 C-170 -100 120 -140 170 -60 C180 -30 140 -10 100 -10 Z", "#b8a0e8", 3, extra='fill-opacity=".9"') + P("M-100 -80 C-40 -150 60 -150 120 -90", "#e8a0c8", 2.4)
+    o += "".join(P(f"M{-120+i*24} -14 C{-130+i*24} 60 {-110+i*24} 140 {-126+i*24} {220+(i%3)*20}", sw=4, col="#5a6ad8") for i in range(10))
+    return scene("sea", w, h, o, box=(w / 2, h * .9, 420, 420))
+ART4["man-o-war"] = _mow
+def _nautilus(w, h):
+    sh = C(0, -100, 120, "#f6efe2", 3) + "".join(P(f"M{-120+i*30} {-200+i*6} q30 60 0 {120-i*12}", sw=10, col="#b8643a") for i in range(5)) + C(30, -100, 50, "#f6efe2", 2.6) + P("M30 -100 m40 0 a40 40 0 1 1 -80 0", sw=2.4, col=MUTE)
+    sh += "".join(P(f"M-110 {-90+i*8} C-150 {-80+i*12} -180 {-60+i*14} -200 {-70+i*18}", sw=3, col="#c9a07a") for i in range(8)) + C(-100, -120, 8, INK, 0)
+    return scene("deep", w, h, sh, box=(w / 2, h * .68, 420, 320))
+ART4["nautilus"] = _nautilus
+ART4["blue-tang"] = _sea(fish(F="#2a5ac8", L=240, H=150, tail="fork", tail_col="#f2c83a", eye_r=9, fin_col="#1a2a5a", dorsal_col="#1a2a5a",
+                             extras=P("M-60 -40 C0 -70 60 -50 80 -20 C40 -30 0 -10 -30 10 C-50 0 -60 -20 -60 -40 Z", "#1a2a5a", 0)), box=(.62, 460, 320))

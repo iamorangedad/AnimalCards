@@ -1,0 +1,77 @@
+{
+ "file": "刺参",
+ "no": "281",
+ "cat": "海洋",
+ "name_cn": "刺参",
+ "name_en": "Japanese sea cucumber",
+ "latin": "Apostichopus japonicus",
+ "short": "刺参",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃海底碎屑、细菌、硅藻等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2026"
+ },
+ "stats": [
+  {
+   "label": "夏眠水温",
+   "value": "约 25 °C",
+   "lo": 25,
+   "hi": 25,
+   "scale": "temp",
+   "approx": true
+  },
+  {
+   "label": "红色型",
+   "value": "水深 40 m 以上",
+   "lo": 40,
+   "hi": 40,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "日本年捕",
+   "value": "约 8101 吨",
+   "lo": 8101,
+   "hi": 8101,
+   "scale": "ton",
+   "approx": true
+  },
+  {
+   "label": "中国养殖",
+   "value": "5865 吨（2002）",
+   "lo": 5865,
+   "hi": 5865,
+   "scale": "ton",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夏眠",
+   "icon": "huddle",
+   "desc": "水温超过约 25 °C 时会夏眠：停止进食、肠道退化、体重下降。"
+  },
+  {
+   "name": "三种颜色",
+   "icon": "camo",
+   "desc": "有红、绿、黑三种颜色型。"
+  }
+ ],
+ "intro": [
+  "刺参生活在俄罗斯、中国、日本、朝鲜半岛沿海。",
+  "它用触手在海底筛泥吃东西。",
+  "中国北方大规模养殖刺参。"
+ ],
+ "fact": "据记载，在中国有些地方刺参的夏眠能持续四年。",
+ "range": "西北太平洋温带沿海。",
+ "sources": [
+  "Wikipedia「Apostichopus japonicus」",
+  "IUCN 红色名录（Hamel 2026）"
+ ],
+ "footnote": "缺少体长数据。"
+}

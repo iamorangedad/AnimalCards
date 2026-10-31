@@ -1,0 +1,77 @@
+{
+ "file": "雀尾螳螂虾",
+ "no": "276",
+ "cat": "海洋",
+ "name_cn": "雀尾螳螂虾",
+ "name_en": "Peacock mantis shrimp",
+ "latin": "Odontodactylus scyllarus",
+ "short": "雀尾螳螂虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "3–18 cm",
+   "lo": 0.03,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "出拳速度",
+   "value": "超过 80 km/h",
+   "lo": 80,
+   "hi": 80,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "感光细胞",
+   "value": "12 种",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "出拳力",
+   "value": "约 1500 N",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最快的拳",
+   "icon": "roar",
+   "desc": "锤子一样的“掌”出击超过 80 km/h，加速度像手枪子弹，是动物里最快的一拳。"
+  },
+  {
+   "name": "超级眼睛",
+   "icon": "ear",
+   "desc": "眼睛有 12 种感光细胞，能分辨颜色和线偏振、圆偏振光。"
+  }
+ ],
+ "intro": [
+  "雀尾螳螂虾是颜色最鲜艳、个头较大的螳螂虾之一。",
+  "它在珊瑚礁附近的松软海底挖 U 形洞。",
+  "分布在印度—太平洋，从马里亚纳群岛到东非。"
+ ],
+ "fact": "水族爱好者有人珍视它的美丽，也有人把它当危险的害虫。",
+ "range": "印度—太平洋珊瑚礁。",
+ "sources": [
+  "Wikipedia「Odontodactylus scyllarus」",
+  "IUCN 红色名录（未见评估）"
+ ],
+ "footnote": "出拳力条超出 0–400 刻度时显示到满格。"
+}

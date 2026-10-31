@@ -1,0 +1,77 @@
+{
+ "file": "大王乌贼",
+ "no": "275",
+ "cat": "海洋",
+ "name_cn": "大王乌贼",
+ "name_en": "Giant squid",
+ "latin": "Architeuthis dux",
+ "short": "大王乌贼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "最大约 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "触腕",
+   "value": "约 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "眼径",
+   "value": "至少 27 cm",
+   "lo": 0.27,
+   "hi": 0.27,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "吸盘",
+   "value": "2–5 cm",
+   "lo": 0.02,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的眼",
+   "icon": "ear",
+   "desc": "眼睛直径至少 27 cm，可能仅次于大王酸浆鱿，是现存最大的眼睛之一。"
+  },
+  {
+   "name": "深海巨物",
+   "icon": "dive",
+   "desc": "可能生活在 300–1000 m 深处，抹香鲸会潜下去捕食它。"
+  }
+ ],
+ "intro": [
+  "大王乌贼是深海巨大化的例子。",
+  "胴体长约 2 m，雌性更长。",
+  "2004 年 9 月 30 日日本团队拍到第一张活体野外照片。"
+ ],
+ "fact": "传说中 20 m 以上的大王乌贼从未得到科学证实。",
+ "range": "全球各大洋深海。",
+ "sources": [
+  "Wikipedia「Giant squid」",
+  "IUCN 红色名录（Allcock 2014）"
+ ],
+ "footnote": ""
+}

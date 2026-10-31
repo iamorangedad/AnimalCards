@@ -1,0 +1,77 @@
+{
+ "file": "鼬鲨",
+ "no": "267",
+ "cat": "海洋",
+ "name_cn": "鼬鲨",
+ "name_en": "Tiger shark",
+ "latin": "Galeocerdo cuvier",
+ "short": "鼬鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃海龟、海蛇、海豚和小鲨鱼等",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "成熟雌鲨",
+   "value": "常超过 3.7 m",
+   "lo": 3.7,
+   "hi": 3.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大雌鲨",
+   "value": "可超过 1300 kg",
+   "lo": 1300,
+   "hi": 1300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "钓获纪录",
+   "value": "810 kg",
+   "lo": 810,
+   "hi": 810,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "化石",
+   "value": "约 1380 万年",
+   "lo": 13.8,
+   "hi": 13.8,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "虎纹",
+   "icon": "camo",
+   "desc": "身上有像老虎一样的深色条纹，长大后会慢慢变淡，所以叫虎鲨。"
+  },
+  {
+   "name": "垃圾桶",
+   "icon": "jar",
+   "desc": "它什么都吃，胃里常有各种人造的不能吃的东西，被称为“垃圾桶”。"
+  }
+ ],
+ "intro": [
+  "鼬鲨（虎鲨）是一种大型掠食者，雌鲨可以超过 5 m。",
+  "它独来独往，多在夜间捕猎。",
+  "它唯一记录到的天敌是虎鲸。"
+ ],
+ "fact": "澳大利亚曾捕到一条怀孕的雌鲨，据报道长 5.5 m、重 1524 kg。",
+ "range": "全球热带和温带海域。",
+ "sources": [
+  "Wikipedia「Tiger shark」",
+  "IUCN 红色名录（Ferreira 2019）"
+ ],
+ "footnote": "化石条单位为“百万年”，借用 0–100 刻度。"
+}

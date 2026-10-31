@@ -1,0 +1,77 @@
+{
+ "file": "美洲螯龙虾",
+ "no": "277",
+ "cat": "海洋",
+ "name_cn": "美洲螯龙虾",
+ "name_en": "American lobster",
+ "latin": "Homarus americanus",
+ "short": "美洲螯龙虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "20–61 cm",
+   "lo": 0.2,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体重",
+   "value": "0.45–4.08 kg",
+   "lo": 0.45,
+   "hi": 4.08,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最重纪录",
+   "value": "20.1 kg",
+   "lo": 20.1,
+   "hi": 20.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "储存精子",
+   "value": "可达 15 个月",
+   "lo": 15,
+   "hi": 15,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最重的节肢动物",
+   "icon": "trunk",
+   "desc": "在加拿大新斯科舍捕到的一只重 20.1 kg，是吉尼斯纪录中最重的甲壳动物。"
+  },
+  {
+   "name": "两种钳",
+   "icon": "roar",
+   "desc": "钳子下面是橙色或红色，以此可和欧洲龙虾区分。"
+  }
+ ],
+ "intro": [
+  "美洲螯龙虾生活在北美大西洋沿岸。",
+  "成年平均约 23 cm 长、680–910 g 重。",
+  "幼体只有约千分之一能活到幼虾阶段。"
+ ],
+ "fact": "它和澳洲的一种岩龙虾并列最长的十足目甲壳动物。",
+ "range": "北美大西洋沿岸（拉布拉多到新泽西）。",
+ "sources": [
+  "Wikipedia「American lobster」",
+  "IUCN 红色名录（Wahle 2011）"
+ ],
+ "footnote": ""
+}

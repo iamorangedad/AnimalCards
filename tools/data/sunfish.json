@@ -1,0 +1,77 @@
+{
+ "file": "翻车鱼",
+ "no": "270",
+ "cat": "海洋",
+ "name_cn": "翻车鱼",
+ "name_en": "Ocean sunfish",
+ "latin": "Mola mola",
+ "short": "翻车鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼苗、鱿鱼、甲壳类等，水母约占 15%",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "247–1000 kg",
+   "lo": 247,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "平均体长",
+   "value": "约 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "一次产卵",
+   "value": "可达 3 亿粒",
+   "lo": 300000000.0,
+   "hi": 300000000.0,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "2300 kg",
+   "lo": 2300,
+   "hi": 2300,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "产卵冠军",
+   "icon": "flip",
+   "desc": "雌鱼一次能产多达 3 亿粒卵，是已知产卵最多的脊椎动物。"
+  },
+  {
+   "name": "跃出水面",
+   "icon": "dive",
+   "desc": "会跳出水面约 3 m，可能是为了甩掉身上的寄生虫。"
+  }
+ ],
+ "intro": [
+  "它曾被误认为最重的硬骨鱼，其实最重的是它的一种近亲。",
+  "它没有鱼鳔，靠皮下一层像果冻的组织保持浮力。",
+  "腹部的皮可厚达 7.3 cm。"
+ ],
+ "fact": "最大的一条 2006 年冲上新西兰海岸，长 3.3 m、重 2300 kg。",
+ "range": "全球温带和热带海域。",
+ "sources": [
+  "Wikipedia「Ocean sunfish」",
+  "IUCN 红色名录（Liu 2015）"
+ ],
+ "footnote": "产卵条超出刻度（1–1000 万）时显示到满格。"
+}

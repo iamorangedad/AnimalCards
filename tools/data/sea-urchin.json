@@ -1,0 +1,77 @@
+{
+ "file": "紫色球海胆",
+ "no": "280",
+ "cat": "海洋",
+ "name_cn": "紫色球海胆",
+ "name_en": "Purple sea urchin",
+ "latin": "Strongylocentrotus purpuratus",
+ "short": "紫色球海胆",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃海带",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估 待核"
+ },
+ "stats": [
+  {
+   "label": "直径",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "可达 70 年",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 2 年",
+   "lo": 24,
+   "hi": 24,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "蛋白激酶",
+   "value": "353 种",
+   "lo": 353,
+   "hi": 353,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海带杀手",
+   "icon": "bamboo",
+   "desc": "把一片海带吃光后会形成“海胆荒漠”。"
+  },
+  {
+   "name": "基因明星",
+   "icon": "team",
+   "desc": "2006 年它的基因组被完整测序，有 353 种蛋白激酶。"
+  }
+ ],
+ "intro": [
+  "紫色球海胆生活在北美太平洋沿岸的潮间带和近岸。",
+  "它和海獭、鲍鱼都是海带森林的重要成员。",
+  "天敌向日葵海星和海獭减少后，它数量暴增。"
+ ],
+ "fact": "从 2013 年起，加州和俄勒冈沿海出现“海胆—海带危机”。",
+ "range": "北美太平洋沿岸。",
+ "sources": [
+  "Wikipedia「Strongylocentrotus purpuratus」",
+  "IUCN 红色名录（未见评估）"
+ ],
+ "footnote": "资料较少；蛋白激酶数来自 2006 年基因组测序。"
+}

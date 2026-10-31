@@ -1,0 +1,77 @@
+{
+ "file": "乌贼",
+ "no": "274",
+ "cat": "海洋",
+ "name_cn": "乌贼",
+ "name_en": "Common cuttlefish",
+ "latin": "Sepia officinalis",
+ "short": "乌贼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "爱吃虾和蟹",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012"
+ },
+ "stats": [
+  {
+   "label": "胴长",
+   "value": "可达 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 4 kg",
+   "lo": 4,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最多 2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "150–4000 粒",
+   "lo": 150,
+   "hi": 4000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伪装大师",
+   "icon": "camo",
+   "desc": "皮肤里有特殊的色素细胞，伪装本领无与伦比。"
+  },
+  {
+   "name": "喷墨",
+   "icon": "ink",
+   "desc": "受惊时用漏斗喷水快速逃走，同时喷出墨汁。"
+  }
+ ],
+ "intro": [
+  "乌贼是最大的乌贼之一，身体里有一块叫“乌贼骨”的内壳。",
+  "春夏到近岸产卵，秋冬到 100–200 m 深处。",
+  "很多乌贼产卵后就死去。"
+ ],
+ "fact": "卵要 30–90 天才孵化，时间长短取决于水温。",
+ "range": "东大西洋、地中海、北海、波罗的海。",
+ "sources": [
+  "Wikipedia「Common cuttlefish」",
+  "IUCN 红色名录（Barratt 2012）"
+ ],
+ "footnote": ""
+}

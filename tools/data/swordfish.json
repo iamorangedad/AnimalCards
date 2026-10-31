@@ -1,0 +1,77 @@
+{
+ "file": "剑鱼",
+ "no": "269",
+ "cat": "海洋",
+ "name_cn": "剑鱼",
+ "name_en": "Swordfish",
+ "latin": "Xiphias gladius",
+ "short": "剑鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体重",
+   "value": "650 kg",
+   "lo": 650,
+   "hi": 650,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "常到 550 m",
+   "lo": 550,
+   "hi": 550,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "眼睛加热",
+   "value": "高出 10–15 °C",
+   "lo": 10,
+   "hi": 15,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长剑",
+   "icon": "roar",
+   "desc": "因又长又尖又扁的“剑”（上颌）而得名。"
+  },
+  {
+   "name": "热眼睛",
+   "icon": "ear",
+   "desc": "能把眼睛加热到比海水高 10–15 °C，看得更清楚，更会捕猎。"
+  }
+ ],
+ "intro": [
+  "剑鱼分布在大西洋、太平洋和印度洋的热带和温带海域。",
+  "4–5 岁成熟，最长寿命估计至少 9 年。",
+  "常说的 100 km/h 速度并不可靠，更可能最高约 36 km/h。"
+ ],
+ "fact": "它独来独往，或很松散地聚在一起，相隔可达 10 m。",
+ "range": "全球热带和温带海域。",
+ "sources": [
+  "Wikipedia「Swordfish」",
+  "IUCN 红色名录（Collette 2022）"
+ ],
+ "footnote": ""
+}

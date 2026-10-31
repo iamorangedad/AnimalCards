@@ -1,0 +1,77 @@
+{
+ "file": "中国鲎",
+ "no": "279",
+ "cat": "海洋",
+ "name_cn": "中国鲎",
+ "name_en": "Tri-spine horseshoe crab",
+ "latin": "Tachypleus tridentatus",
+ "short": "中国鲎",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "最大雌体",
+   "value": "79.5 cm（含尾）",
+   "lo": 0.795,
+   "hi": 0.795,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "1.4–4 kg",
+   "lo": 1.4,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "0.6–1.7 kg",
+   "lo": 0.6,
+   "hi": 1.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "幼鲎水温",
+   "value": "高于 22 °C",
+   "lo": 22,
+   "hi": 22,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "剑尾",
+   "icon": "camo",
+   "desc": "身后拖着一条长尾巴，雌鲎的尾约 34.5 cm（马来西亚沙巴平均）。"
+  },
+  {
+   "name": "耐冷",
+   "icon": "huddle",
+   "desc": "比其他亚洲鲎更耐冷，但幼鲎仍需高于 22 °C 的水。"
+  }
+ ],
+ "intro": [
+  "中国鲎又叫三棘鲎，生活在近岸海水和半咸水中。",
+  "雌鲎比雄鲎大。",
+  "各地大小不同：马来西亚最大，中国舟山的最小。"
+ ],
+ "fact": "雌鲎背甲宽约 27.5–28 cm 时性成熟，雄鲎约 22.5–24.5 cm。",
+ "range": "东亚和东南亚沿海（中国、日本、东南亚）。",
+ "sources": [
+  "Wikipedia「Tachypleus tridentatus」",
+  "IUCN 红色名录（Laurie 2019）"
+ ],
+ "footnote": ""
+}

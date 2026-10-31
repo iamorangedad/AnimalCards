@@ -1,0 +1,77 @@
+{
+ "file": "大西洋鳕",
+ "no": "271",
+ "cat": "海洋",
+ "name_cn": "大西洋鳕",
+ "name_en": "Atlantic cod",
+ "latin": "Gadus morhua",
+ "short": "大西洋鳕",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鲱鱼、毛鳞鱼等鱼类",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 1996"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "100–140 cm",
+   "lo": 1.0,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "0–300 m",
+   "lo": 0,
+   "hi": 300,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "20 万–1500 万粒",
+   "lo": 200000.0,
+   "hi": 15000000.0,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分批产卵",
+   "icon": "flip",
+   "desc": "雌鱼分 5–20 批产卵，每批相隔 2–4 天。"
+  },
+  {
+   "name": "大鱼带队",
+   "icon": "team",
+   "desc": "成群生活，个头大的鱼在前面当“侦察兵”带路。"
+  }
+ ],
+ "intro": [
+  "大西洋鳕是重要的食用鱼。",
+  "1990 年代好几个鳕鱼种群崩溃，减少了 95% 以上，停捕后也没完全恢复。",
+  "加拿大从 1992 年开始禁捕鳕鱼。"
+ ],
+ "fact": "也捕到过超过 180 cm、50 kg 的大鳕鱼。",
+ "range": "北大西洋两岸。",
+ "sources": [
+  "Wikipedia「Atlantic cod」",
+  "IUCN 红色名录（Sobel 1996）"
+ ],
+ "footnote": "IUCN 评估很旧（1996 年，2.3 版标准）。"
+}

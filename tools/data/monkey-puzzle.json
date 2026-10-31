@@ -1,0 +1,81 @@
+{
+ "file": "智利南洋杉",
+ "no": "833",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "智利南洋杉",
+ "name_en": "Monkey puzzle",
+ "latin": "Araucaria araucana",
+ "short": "智利南洋杉",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2013",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "30–40 m",
+   "lo": 30,
+   "hi": 40,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶寿命",
+   "value": "最长 24 年",
+   "lo": 24,
+   "hi": 24,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "雌球果",
+   "value": "12–20 cm",
+   "lo": 0.12,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每果种子",
+   "value": "约 200 粒",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "铠甲叶",
+   "icon": "thorn",
+   "desc": "叶子厚、硬、呈三角形，末端尖锐，几乎覆盖整棵树。"
+  },
+  {
+   "name": "厚树皮",
+   "icon": "fire",
+   "desc": "树皮最厚约 15 cm，可能是对野火的适应。"
+  }
+ ],
+ "intro": [
+  "智利南洋杉原产智利中部和阿根廷中西部。",
+  "2013 年 IUCN 把它改列为濒危。",
+  "它是智利的国树。"
+ ],
+ "fact": "球果成熟后散开，放出 3–4 cm 长、像坚果一样的种子。",
+ "range": "智利中部、阿根廷中西部。",
+ "sources": [
+  "Wikipedia「Araucaria araucana」",
+  "维基百科「智利南洋杉」",
+  "IUCN 红色名录（Premoli 2013）"
+ ],
+ "footnote": ""
+}

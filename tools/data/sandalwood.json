@@ -1,0 +1,79 @@
+{
+ "file": "檀香",
+ "no": "829",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "檀香",
+ "name_en": "Indian sandalwood",
+ "latin": "Santalum album",
+ "short": "檀香",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "寄生",
+ "diet_note": "能光合作用，也从别的树根吸取养分（半寄生）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "4–9 m",
+   "lo": 4,
+   "hi": 9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "可作宿主",
+   "value": "多达 300 种",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "开始变香",
+   "value": "约 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "很少超过 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "半寄生",
+   "icon": "root",
+   "desc": "根上有吸器，寄生在其他树根上获取养分，但对宿主伤害不大。"
+  },
+  {
+   "name": "香木",
+   "icon": "sun",
+   "desc": "树干长约 10 年后开始产生香气，20 年后才适合采收。"
+  }
+ ],
+ "intro": [
+  "檀香树是檀香油的传统来源。",
+  "它原产印尼、菲律宾和西澳大利亚等地。",
+  "IUCN 把它列为易危。"
+ ],
+ "fact": "它生长在海拔 700 m 以下的干燥林地。",
+ "range": "印度、印尼、菲律宾、澳大利亚北部等。",
+ "sources": [
+  "Wikipedia「Santalum album」",
+  "维基百科「檀香」"
+ ],
+ "footnote": ""
+}

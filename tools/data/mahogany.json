@@ -1,0 +1,80 @@
+{
+ "file": "大叶桃花心木",
+ "no": "823",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "大叶桃花心木",
+ "name_en": "Big-leaf mahogany",
+ "latin": "Swietenia macrophylla",
+ "short": "大叶桃花心木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 46 m",
+   "lo": 46,
+   "hi": 46,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "最长 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "最长 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每果种子",
+   "value": "约 71 粒",
+   "lo": 71,
+   "hi": 71,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "带翅种子",
+   "icon": "wind",
+   "desc": "果壳裂开后放出带长翅的种子。"
+  },
+  {
+   "name": "红木",
+   "icon": "trunk",
+   "desc": "是出产真正桃花心木木材的三种之一。"
+  }
+ ],
+ "intro": [
+  "大叶桃花心木原产南美洲、墨西哥和中美洲。",
+  "它在菲律宾、新加坡、马来西亚和夏威夷已归化。",
+  "它被列入《濒危野生动植物种国际贸易公约》。"
+ ],
+ "fact": "有人生吃种子后出现肝损伤的报告。",
+ "range": "墨西哥、中美洲、南美洲。",
+ "sources": [
+  "Wikipedia「Swietenia macrophylla」",
+  "维基百科「大叶桃花心木」"
+ ],
+ "footnote": "",
+ "warn": "种子有生吃后导致肝损伤的报告，不要乱吃。"
+}

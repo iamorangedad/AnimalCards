@@ -1,0 +1,79 @@
+{
+ "file": "欧洲栓皮栎",
+ "no": "825",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲栓皮栎",
+ "name_en": "Cork oak",
+ "latin": "Quercus suber",
+ "short": "欧洲栓皮栎",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "可达约 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "剥皮间隔",
+   "value": "9–12 年",
+   "lo": 9,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "首次剥皮",
+   "value": "约 25 岁",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "平均树高",
+   "value": "10–15 m",
+   "lo": 10,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "软木树皮",
+   "icon": "fire",
+   "desc": "厚厚的软木树皮能在山火中保护树干，火后很快长新叶。"
+  },
+  {
+   "name": "剥皮不伤树",
+   "icon": "clone",
+   "desc": "25 岁后每 9–12 年可剥一次树皮做软木，不伤树。"
+  }
+ ],
+ "intro": [
+  "栓皮栎是原产西南欧和西北非的常绿橡树。",
+  "它是软木塞的主要原料。",
+  "它是第三纪就有化石记录的古老物种。"
+ ],
+ "fact": "瓶塞渐被其他材料取代，栓皮栎林面临风险，伊比利亚猞猁等动物也受威胁。",
+ "range": "西南欧、西北非。",
+ "sources": [
+  "Wikipedia「Quercus suber」",
+  "维基百科「西班牙栓皮栎」"
+ ],
+ "footnote": ""
+}

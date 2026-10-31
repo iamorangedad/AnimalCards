@@ -1,0 +1,80 @@
+{
+ "file": "欧洲红豆杉",
+ "no": "832",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲红豆杉",
+ "name_en": "European yew",
+ "latin": "Taxus baccata",
+ "short": "欧洲红豆杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "10–20 m",
+   "lo": 10,
+   "hi": 20,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "1–4 cm",
+   "lo": 0.01,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "红假种皮",
+   "value": "8–15 mm",
+   "lo": 0.008,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "授粉后 6–9 月",
+   "lo": 6,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "全株有毒",
+   "icon": "toxic",
+   "desc": "除红色果肉外全株有毒，毒素可经吸入、吞食和皮肤吸收。"
+  },
+  {
+   "name": "红色假种皮",
+   "icon": "seed",
+   "desc": "每粒种子几乎被鲜红的肉质假种皮包住。"
+  }
+ ],
+ "intro": [
+  "欧洲红豆杉原产欧洲、西亚、高加索和西北非。",
+  "英法百年战争中英国长弓就用它做。",
+  "树皮可以提取抗癌药紫杉醇（中文维基）。"
+ ],
+ "fact": "中文维基称雄树能活 5000 多年。",
+ "range": "欧洲、西亚、高加索、西北非。",
+ "sources": [
+  "Wikipedia「Taxus baccata」",
+  "维基百科「欧洲红豆杉」"
+ ],
+ "footnote": "“雄树 5000 多年”仅见于中文维基，待核。",
+ "warn": "除红色果肉外全株剧毒（包括果里的种子）！不要吃、不要嚼叶子，误食立刻就医。"
+}

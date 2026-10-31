@@ -1,0 +1,79 @@
+{
+ "file": "王桉",
+ "no": "821",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "王桉",
+ "name_en": "Mountain ash",
+ "latin": "Eucalyptus regnans",
+ "short": "王桉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见树高",
+   "value": "70–114 m",
+   "lo": 70,
+   "hi": 114,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "现存最高",
+   "value": "100 m",
+   "lo": 100,
+   "hi": 100,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "胸径",
+   "value": "约 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "dia",
+   "approx": true
+  },
+  {
+   "label": "成年叶长",
+   "value": "9–23 cm",
+   "lo": 0.09,
+   "hi": 0.23,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最高开花植物",
+   "icon": "sun",
+   "desc": "是所有开花植物里最高的；最高的“百夫长”高 100 m。"
+  },
+  {
+   "name": "长得快",
+   "icon": "trunk",
+   "desc": "一年可长约 1 m，50 年可能长到 65 m（中文维基）。"
+  }
+ ],
+ "intro": [
+  "杏仁桉原产澳大利亚塔斯马尼亚和维多利亚。",
+  "树干笔直，基部有一段纤维状树皮。",
+  "木材业里它和另两种桉树被统称“塔斯马尼亚橡木”。"
+ ],
+ "fact": "1881 年砍倒的一棵杏仁桉有可靠记录高 114.3 m。",
+ "range": "澳大利亚维多利亚州、塔斯马尼亚州。",
+ "sources": [
+  "Wikipedia「Eucalyptus regnans」",
+  "维基百科「杏仁桉」"
+ ],
+ "footnote": ""
+}

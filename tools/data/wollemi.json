@@ -1,0 +1,78 @@
+{
+ "file": "瓦勒迈杉",
+ "no": "834",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "瓦勒迈杉",
+ "name_en": "Wollemi pine",
+ "latin": "Wollemia nobilis",
+ "short": "瓦勒迈杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "发现",
+   "value": "1994 年",
+   "lo": 1994,
+   "hi": 1994,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "距悉尼",
+   "value": "约 150 km",
+   "lo": 150,
+   "hi": 150,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "最老个体",
+   "value": "500–1000 年",
+   "lo": 500,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–8 cm",
+   "lo": 0.03,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "多干树",
+   "icon": "trunk",
+   "desc": "侧枝常会直立长成新的树干，野外的树多有好几根干。"
+  },
+  {
+   "name": "慢生长寿",
+   "icon": "clone",
+   "desc": "幼苗长得慢，成树极长寿。"
+  }
+ ],
+ "intro": [
+  "瓦勒迈杉是瓦勒迈杉属唯一的种。",
+  "1994 年在新南威尔士州的瓦勒迈国家公园被发现。",
+  "南洋杉科只有三个现存属，它是其中之一。"
+ ],
+ "fact": "常被称作“活化石”，但其实没有明确的化石记录。",
+ "range": "澳大利亚新南威尔士州瓦勒迈国家公园。",
+ "sources": [
+  "Wikipedia「Wollemia」"
+ ],
+ "footnote": "“发现”比例条借用年数刻度只作示意。"
+}

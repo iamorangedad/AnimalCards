@@ -1,0 +1,80 @@
+{
+ "file": "剥桉",
+ "no": "835",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "剥桉",
+ "name_en": "Rainbow eucalyptus",
+ "latin": "Eucalyptus deglupta",
+ "short": "剥桉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "60–78 m",
+   "lo": 60,
+   "hi": 78,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "树干直径",
+   "value": "最粗 2.4 m",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "75–150 mm",
+   "lo": 0.075,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "210 年减少",
+   "value": "约 30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩虹树皮",
+   "icon": "camo",
+   "desc": "树皮剥落后露出多种颜色，名字由此而来。"
+  },
+  {
+   "name": "长得快",
+   "icon": "sun",
+   "desc": "是一种速生的高大树木。"
+  }
+ ],
+ "intro": [
+  "彩虹桉原产菲律宾、印尼和巴布亚新几内亚。",
+  "它是唯一通常长在雨林里的桉树。",
+  "它的天然分布延伸到北半球。"
+ ],
+ "fact": "过去 210 年里，它的总数估计减少了约 30%。",
+ "range": "菲律宾、印尼、巴布亚新几内亚；各地引种。",
+ "sources": [
+  "Wikipedia「Eucalyptus deglupta」",
+  "维基百科「彩虹桉」",
+  "IUCN 红色名录（Hills 2019）"
+ ],
+ "footnote": ""
+}

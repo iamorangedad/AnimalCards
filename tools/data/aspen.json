@@ -1,0 +1,80 @@
+{
+ "file": "美洲颤杨",
+ "no": "837",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "美洲颤杨",
+ "name_en": "Quaking aspen",
+ "latin": "Populus tremuloides",
+ "short": "美洲颤杨",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "通常 15–18 m",
+   "lo": 15,
+   "hi": 18,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶径",
+   "value": "4–6 cm",
+   "lo": 0.04,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "潘多占地",
+   "value": "43 公顷",
+   "lo": 43,
+   "hi": 43,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "潘多重量",
+   "value": "600 万 kg",
+   "lo": 6000000.0,
+   "hi": 6000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "克隆林",
+   "icon": "clone",
+   "desc": "从同一个根系长出整片树林；“潘多”被认为是地球上最重、最老的生物之一。"
+  },
+  {
+   "name": "会颤抖",
+   "icon": "wind",
+   "desc": "扁平的叶柄让叶子在微风中抖动，所以叫“颤杨”。"
+  }
+ ],
+ "intro": [
+  "美洲山杨原产北美较冷地区。",
+  "它是北美分布最广的树种（中文维基）。",
+  "它是雌雄异株，分雄性和雌性克隆。"
+ ],
+ "fact": "“潘多”克隆林覆盖 43 公顷，重约 600 万 kg。",
+ "range": "加拿大、美国到墨西哥中部。",
+ "sources": [
+  "Wikipedia「Populus tremuloides」",
+  "维基百科「美洲山杨」",
+  "IUCN 红色名录（Barstow, M. 2018）"
+ ],
+ "footnote": "“会颤抖”原理据叶柄扁平的记载，待核。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "苏铁",
+ "no": "840",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "苏铁",
+ "name_en": "Sago palm",
+ "latin": "Cycas revoluta",
+ "short": "苏铁",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树干",
+   "value": "可达 6–7 m",
+   "lo": 6,
+   "hi": 7,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "长到这么高",
+   "value": "50–100 年",
+   "lo": 50,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "50–150 cm",
+   "lo": 0.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大栽培株",
+   "value": "8 m",
+   "lo": 8,
+   "hi": 8,
+   "scale": "len_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "慢生长",
+   "icon": "clone",
+   "desc": "长得非常慢，要 50–100 年才长出 6–7 m 的树干。"
+  },
+  {
+   "name": "种子带毒",
+   "icon": "toxic",
+   "desc": "全株含苏铁苷；用髓心做淀粉前必须反复清洗去毒。"
+  }
+ ],
+ "intro": [
+  "苏铁原产日本南部（含琉球群岛）。",
+  "它是裸子植物，不是棕榈。",
+  "树干髓心的淀粉经去毒后可做“西米”。"
+ ],
+ "fact": "最大的栽培苏铁在日本清水龙华寺，高 8 m。",
+ "range": "日本南部、琉球群岛；各地栽培。",
+ "sources": [
+  "Wikipedia「Cycas revoluta」",
+  "维基百科「苏铁」"
+ ],
+ "footnote": "",
+ "warn": "种子有毒（苏铁苷）！不要吃，宠物误食也很危险，要立刻看兽医。"
+}

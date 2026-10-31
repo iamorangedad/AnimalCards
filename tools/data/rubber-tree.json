@@ -1,0 +1,80 @@
+{
+ "file": "橡胶树",
+ "no": "824",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "橡胶树",
+ "name_en": "Pará rubber tree",
+ "latin": "Hevea brasiliensis",
+ "short": "橡胶树",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "野外树高",
+   "value": "最高 43 m",
+   "lo": 43,
+   "hi": 43,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "年降雨",
+   "value": "至少约 1200 mm",
+   "lo": 1200,
+   "hi": 1200,
+   "scale": "rain",
+   "approx": false
+  },
+  {
+   "label": "割胶寿命",
+   "value": "约 25–30 年",
+   "lo": 25,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "天然橡胶",
+   "value": "99% 以上",
+   "lo": 99,
+   "hi": 99,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "流泪之树",
+   "icon": "drop",
+   "desc": "割开树皮流出乳胶，是天然橡胶的主要来源。"
+  },
+  {
+   "name": "爆裂果实",
+   "icon": "seed",
+   "desc": "果实成熟时会爆开，弹出三粒大种子。"
+  }
+ ],
+ "intro": [
+  "橡胶树原产南美亚马孙盆地。",
+  "现在因引种而遍布热带。",
+  "1876 年魏克汉从巴西带走约 7 万粒种子送往邱园。"
+ ],
+ "fact": "全球 99% 以上的天然橡胶来自这种树（中文维基）。",
+ "range": "原产亚马孙盆地；热带地区广泛种植。",
+ "sources": [
+  "Wikipedia「Hevea brasiliensis」",
+  "维基百科「橡胶树」"
+ ],
+ "footnote": ""
+}

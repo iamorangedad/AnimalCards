@@ -1,0 +1,78 @@
+{
+ "file": "珙桐",
+ "no": "838",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "珙桐",
+ "name_en": "Dove tree",
+ "latin": "Davidia involucrata",
+ "short": "珙桐",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "20–25 m",
+   "lo": 20,
+   "hi": 25,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "白苞片",
+   "value": "12–25 cm",
+   "lo": 0.12,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花头",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "发芽",
+   "value": "可长达 3 年",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "苞片当花瓣",
+   "icon": "bee",
+   "desc": "一对大白苞片代替花瓣吸引传粉者，风中飘动像鸽子。"
+  },
+  {
+   "name": "硬核果",
+   "icon": "seed",
+   "desc": "果实是很硬的坚果，种子可能要三年才发芽。"
+  }
+ ],
+ "intro": [
+  "珙桐是珙桐属唯一现存的种。",
+  "它原产中国中南部和东南部。",
+  "它是孑遗植物，1904 年被引入欧美成为名贵观赏树。"
+ ],
+ "fact": "1869 年谭卫道神父首次描述了它；他也是麋鹿的命名人。",
+ "range": "中国湖北、四川、贵州、云南等地山区。",
+ "sources": [
+  "Wikipedia「Davidia involucrata」",
+  "维基百科「珙桐」"
+ ],
+ "footnote": ""
+}

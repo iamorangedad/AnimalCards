@@ -1,0 +1,78 @@
+{
+ "file": "毛竹",
+ "no": "828",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "毛竹",
+ "name_en": "Moso bamboo",
+ "latin": "Phyllostachys edulis",
+ "short": "毛竹",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "秆高",
+   "value": "可达 28 m",
+   "lo": 28,
+   "hi": 28,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "秆径",
+   "value": "最粗 22 cm",
+   "lo": 0.22,
+   "hi": 0.22,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "日长",
+   "value": "最多 119 cm",
+   "lo": 1.19,
+   "hi": 1.19,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−15 °C",
+   "lo": -15,
+   "hi": -15,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "一天一米",
+   "icon": "sun",
+   "desc": "竹秆 24 小时能长 119 cm。"
+  },
+  {
+   "name": "抑制邻居",
+   "icon": "toxic",
+   "desc": "会分泌生物碱、类黄酮抑制其他植物生长（中文维基）。"
+  }
+ ],
+ "intro": [
+  "毛竹原产中国和台湾。",
+  "它靠地下茎无性繁殖，也能开花结籽。",
+  "约 1736 年它被引入日本，后来在日本归化。"
+ ],
+ "fact": "实生苗的第一根竹秆最多只有约 10 cm 高。",
+ "range": "原产中国南方、台湾；日本等地归化。",
+ "sources": [
+  "Wikipedia「Phyllostachys edulis」",
+  "维基百科「孟宗竹」"
+ ],
+ "footnote": ""
+}

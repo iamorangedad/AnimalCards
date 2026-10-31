@@ -1,0 +1,80 @@
+{
+ "file": "柚木",
+ "no": "822",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "柚木",
+ "name_en": "Teak",
+ "latin": "Tectona grandis",
+ "short": "柚木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 40 m",
+   "lo": 40,
+   "hi": 40,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "15–45 cm",
+   "lo": 0.15,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花序长",
+   "value": "25–40 cm",
+   "lo": 0.25,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "1.2–1.8 cm",
+   "lo": 0.012,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "油性硬木",
+   "icon": "trunk",
+   "desc": "木材富含油脂、非常稳定，被誉为“群木之王”。"
+  },
+  {
+   "name": "蜂来传粉",
+   "icon": "bee",
+   "desc": "主要靠昆虫传粉；泰国原产地主要是芦蜂属的蜜蜂。"
+  }
+ ],
+ "intro": [
+  "柚木原产南亚和东南亚。",
+  "它属于唇形科。",
+  "分子研究显示它有两个遗传起源中心：印度、缅甸和老挝。"
+ ],
+ "fact": "以缅甸出产的柚木最为著名。",
+ "range": "印度、缅甸、泰国、老挝等；非洲、加勒比引种。",
+ "sources": [
+  "Wikipedia「Teak」",
+  "维基百科「柚木」",
+  "IUCN 红色名录（Gua 2022）"
+ ],
+ "footnote": ""
+}

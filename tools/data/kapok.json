@@ -1,0 +1,79 @@
+{
+ "file": "吉贝",
+ "no": "827",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "吉贝",
+ "name_en": "Kapok",
+ "latin": "Ceiba pentandra",
+ "short": "吉贝",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "板根上延",
+   "value": "12–15 m",
+   "lo": 12,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "树冠宽",
+   "value": "最宽 60 m",
+   "lo": 60,
+   "hi": 60,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "每果种子",
+   "value": "66–250 粒",
+   "lo": 66,
+   "hi": 250,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "小叶",
+   "value": "5–9 片",
+   "lo": 5,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨大板根",
+   "icon": "root",
+   "desc": "板根能沿树干上延 12–15 m，向外伸出 20 m。"
+  },
+  {
+   "name": "浮力棉絮",
+   "icon": "drop",
+   "desc": "种子包在丝状棉毛里；棉毛浮力大、不吸水，能做救生衣填料。"
+  }
+ ],
+ "intro": [
+  "美洲木棉原产墨西哥、中美洲、加勒比和南美北部。",
+  "有观点认为它在西非、中非也是原生的。",
+  "它在东南亚被栽培来取种子纤维。"
+ ],
+ "fact": "英文名 kapok 来自马来语，原本指它的近亲木棉。",
+ "range": "热带美洲、西非；热带地区广泛栽培。",
+ "sources": [
+  "Wikipedia「Ceiba pentandra」",
+  "维基百科「美洲木棉」"
+ ],
+ "footnote": ""
+}

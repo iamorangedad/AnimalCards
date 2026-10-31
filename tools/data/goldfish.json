@@ -1,0 +1,77 @@
+{
+ "file": "金鱼",
+ "no": "010",
+ "cat": "宠物",
+ "name_cn": "金鱼",
+ "name_en": "Goldfish",
+ "latin": "Carassius auratus",
+ "short": "金鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "（食性待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013"
+ },
+ "stats": [
+  {
+   "label": "体长·野生",
+   "value": "12–22 cm",
+   "lo": 0.12,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "约 48 cm",
+   "lo": 0.48,
+   "hi": 0.48,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "可超过 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "适宜水温",
+   "value": "20–22 °C",
+   "lo": 20,
+   "hi": 22,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "记忆力",
+   "icon": "camo",
+   "desc": "金鱼的记忆至少能保持三个月，还能分辨不同的形状、颜色和声音。"
+  },
+  {
+   "name": "灵敏听觉",
+   "icon": "ear",
+   "desc": "金鱼是听觉被研究得最多的鱼之一。"
+  }
+ ],
+ "intro": [
+  "金鱼原产中国，是鲫鱼的近亲。",
+  "一千多年前，中国人就开始按颜色培育金鱼。",
+  "如今中国认可的金鱼品种约有 300 个，形状和尾巴各不相同。"
+ ],
+ "fact": "金鱼的卵 48–72 小时就能孵化；小鱼要长大约一年才会变成金色，之前是像野生祖先那样的褐色。",
+ "range": "原产中国；如今作为观赏鱼遍布世界。",
+ "sources": [
+  "Wikipedia「Goldfish」",
+  "IUCN 红色名录（Huckstorf & Freyhof 2013）"
+ ],
+ "footnote": "体长为野生金鱼常见范围；野生个体最长可达 41 cm。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "孔雀鱼",
+ "no": "014",
+ "cat": "宠物",
+ "name_cn": "孔雀鱼",
+ "name_en": "Guppy",
+ "latin": "Poecilia reticulata",
+ "short": "孔雀鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫、藻类等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄鱼体长",
+   "value": "1.5–4 cm",
+   "lo": 0.015,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌鱼体长",
+   "value": "3–7 cm",
+   "lo": 0.03,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命·野外",
+   "value": "约 2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "20–60 天",
+   "lo": 20,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "直接生宝宝",
+   "icon": "huddle",
+   "desc": "孔雀鱼是“卵胎生”鱼，鱼宝宝在妈妈肚子里发育，生下来就会游。"
+  },
+  {
+   "name": "吃蚊子幼虫",
+   "icon": "dive",
+   "desc": "人们曾把它放进水里吃蚊子幼虫来减少疟疾，但也给当地鱼类带来麻烦。"
+  }
+ ],
+ "intro": [
+  "孔雀鱼原产南美洲东北部，是最受欢迎的淡水观赏鱼之一。",
+  "雄鱼小而色彩鲜艳，尾巴像孔雀开屏；雌鱼更大，颜色较朴素。",
+  "它还有“孔雀鱼”“百万鱼”“彩虹鱼”等好几个名字。"
+ ],
+ "fact": "它的英文名来自 R. J. L. Guppy，他从特立尼达把标本寄到了伦敦自然历史博物馆。",
+ "range": "原产南美洲东北部及特立尼达等加勒比岛屿；已被引入世界各地。",
+ "sources": [
+  "Wikipedia「Guppy」",
+  "IUCN 红色名录（Lyons 2020）"
+ ],
+ "footnote": "怀孕期受水温等环境影响变化很大。"
+}

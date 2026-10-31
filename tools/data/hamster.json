@@ -1,0 +1,77 @@
+{
+ "file": "金仓鼠",
+ "no": "009",
+ "cat": "宠物",
+ "name_cn": "金仓鼠",
+ "name_en": "Golden hamster",
+ "latin": "Mesocricetus auratus",
+ "short": "金仓鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "爱囤粮（食性待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "100–150 g",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "1.5–2 年",
+   "lo": 1.5,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 16 天",
+   "lo": 16,
+   "hi": 16,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "颊囊搬运",
+   "icon": "trunk",
+   "desc": "两颊有能撑大的颊囊，一直延伸到肩膀，用来把食物运回洞里囤起来。"
+  },
+  {
+   "name": "夜猫子",
+   "icon": "climb",
+   "desc": "金仓鼠是夜行性动物，白天睡觉，晚上起来活动。"
+  }
+ ],
+ "intro": [
+  "金仓鼠又叫叙利亚仓鼠，是常见的宠物仓鼠。",
+  "它的怀孕期只有大约 16 天，是已知有胎盘哺乳动物里最短的。",
+  "金仓鼠喜欢独居，长大后会互相打架，所以要单独饲养。"
+ ],
+ "fact": "宠物很常见，可野生金仓鼠却只生活在叙利亚北部和土耳其南部，被列为濒危物种。",
+ "range": "野外仅见于叙利亚北部和土耳其南部的干旱地区。",
+ "sources": [
+  "Wikipedia「Golden hamster」",
+  "IUCN 红色名录（Kennerley & Middleton 2022）"
+ ],
+ "footnote": "体重为雌性常见值；繁育者饲养的个体可达 175–225 g。"
+}

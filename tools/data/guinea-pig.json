@@ -1,0 +1,77 @@
+{
+ "file": "豚鼠",
+ "no": "012",
+ "cat": "宠物",
+ "name_cn": "豚鼠",
+ "name_en": "Guinea pig",
+ "latin": "Cavia porcellus",
+ "short": "豚鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "需要从食物中补充维生素 C",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.7–1.2 kg",
+   "lo": 0.7,
+   "hi": 1.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "20–25 cm",
+   "lo": 0.2,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "长寿纪录",
+   "value": "约 14.8 年",
+   "lo": 14.8,
+   "hi": 14.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "59–72 天",
+   "lo": 59,
+   "hi": 72,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爆米花跳",
+   "icon": "flip",
+   "desc": "豚鼠开心时会一次次原地蹦起来，叫作“popcorning（爆米花跳）”。"
+  },
+  {
+   "name": "一直长的门牙",
+   "icon": "bamboo",
+   "desc": "门牙会一直生长，所以要经常啃木头等东西把牙磨短。"
+  }
+ ],
+ "intro": [
+  "豚鼠又叫荷兰猪，但它既不是猪，也不来自荷兰。",
+  "它最早在南美洲安第斯地区被驯化，当时是为了吃肉。",
+  "和兔子不同，豚鼠自己不能合成维生素 C，必须从食物里获得。"
+ ],
+ "fact": "吉尼斯世界纪录（2006 年）中最长寿的豚鼠活了 14 年 10 个月零 2 周。",
+ "range": "驯化于南美安第斯地区；如今作为宠物遍布世界。",
+ "sources": [
+  "Wikipedia「Guinea pig」"
+ ],
+ "footnote": "体重、体长为宠物品种成年个体；部分肉用品种可达 3 kg。"
+}

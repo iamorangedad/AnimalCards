@@ -1,0 +1,77 @@
+{
+ "file": "虎皮鹦鹉",
+ "no": "011",
+ "cat": "宠物",
+ "name_cn": "虎皮鹦鹉",
+ "name_en": "Budgerigar",
+ "latin": "Melopsittacus undulatus",
+ "short": "虎皮鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "30–40 g",
+   "lo": 0.03,
+   "hi": 0.04,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翼展",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命·饲养",
+   "value": "平均 7.8 年",
+   "lo": 7.8,
+   "hi": 7.8,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "结群游牧",
+   "icon": "team",
+   "desc": "野生虎皮鹦鹉成群生活，哪里有水和种子就飞到哪里。"
+  },
+  {
+   "name": "耐旱生存",
+   "icon": "dive",
+   "desc": "它们在澳大利亚内陆的干旱环境里已经生存了 500 多万年。"
+  }
+ ],
+ "intro": [
+  "虎皮鹦鹉是原产澳大利亚的小型长尾鹦鹉，以种子为食。",
+  "野生的虎皮鹦鹉身体是浅绿色，背上有黑黄相间的波浪纹。",
+  "从 19 世纪起人们就开始饲养它，现在有许多颜色的品种。"
+ ],
+ "fact": "每窝产 4–6 枚蛋，孵 18–21 天；雏鸟孵出约 10 天才睁开眼睛。",
+ "range": "澳大利亚较干燥地区的灌丛、疏林和草原。",
+ "sources": [
+  "Wikipedia「Budgerigar」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "体型数据为野生个体，饲养个体通常更大；饲养寿命有 15–21 年的报道。"
+}

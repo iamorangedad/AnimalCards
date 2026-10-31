@@ -1,0 +1,77 @@
+{
+ "file": "狗",
+ "no": "007",
+ "cat": "宠物",
+ "name_cn": "狗",
+ "name_en": "Dog",
+ "latin": "Canis familiaris",
+ "short": "狗",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "通常被归为杂食动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.5–79 kg",
+   "lo": 0.5,
+   "hi": 79,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "13–81 cm",
+   "lo": 0.13,
+   "hi": 0.81,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命·中位",
+   "value": "约 12.7 年",
+   "lo": 12.7,
+   "hi": 12.7,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "58–68 天",
+   "lo": 58,
+   "hi": 68,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级鼻子",
+   "icon": "whisker",
+   "desc": "狗的嗅觉和听觉都比人灵敏得多，常被训练来搜救、找东西。"
+  },
+  {
+   "name": "顺风耳",
+   "icon": "ear",
+   "desc": "狗能听到约 400 m 外的细小声音，人大约只能听到 90 m。"
+  }
+ ],
+ "intro": [
+  "狗是由狼驯化而来的，是人类最早驯化的动物，至少有 1.4 万年历史。",
+  "不同品种的狗体型差别特别大，从小小的吉娃娃到高大的大丹犬都有。",
+  "狗和人一起生活、工作，会看家、放羊、导盲，也是很多家庭的伙伴。"
+ ],
+ "fact": "德国出土的 Bonn–Oberkassel 狗和两个人葬在一起，距今约 1.4–1.5 万年，是最早被确认的家犬。",
+ "range": "随人类遍布全世界。",
+ "sources": [
+  "Wikipedia「Dog」"
+ ],
+ "footnote": "体重、肩高为最小品种之一（吉娃娃）到最大品种之一（大丹犬）的范围。"
+}

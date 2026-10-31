@@ -14,10 +14,24 @@ TYPE = {"陆地": ("#5f8f5a", "#e1efda"), "水中": ("#2f7de1", "#dceafb"), "天
 IUCN = {"EX": ("#000000", "#ffffff", "灭绝"), "EW": ("#542344", "#ffffff", "野外灭绝"), "CR": ("#d81e05", "#fde4e0", "极危"),
         "EN": ("#fc7f3f", "#fff0e6", "濒危"), "VU": ("#e0a800", "#fff7d6", "易危"), "NT": ("#9aa83b", "#f2f6dc", "近危"),
         "LC": ("#60c659", "#e6f7e4", "无危"), "DD": ("#6b7075", "#eeeeee", "数据缺乏"), "NE": ("#6b7075", "#ffffff", "未评估")}
-SCALES = {"mass": ("log", 0.1, 10000, [1, 10, 100, 1000]), "len": ("log", 0.1, 10, [1]), "life": ("lin", 0, 80, [20, 40, 60]),
-          "hours": ("lin", 0, 24, [6, 12, 18]), "depth": ("lin", 0, 600, [200, 400]), "speed": ("lin", 0, 120, [30, 60, 90]),
-          "food": ("lin", 0, 200, [50, 100, 150])}
-NOTE = "条长：体重 0.1 kg–10 t、体长 10 cm–10 m 为对数刻度；寿命 0–80 年等为线性刻度。条纹段 = 数据范围。"
+SCALES = {"mass": ("log", 0.1, 10000, [1, 10, 100, 1000]), "mass_s": ("log", 1e-6, 10, [1e-3, 1]), "mass_xl": ("log", 1, 200000, [100, 10000]),
+          "len": ("log", 0.1, 10, [1]), "len_s": ("log", 0.001, 1, [0.01, 0.1]), "len_xl": ("log", 1, 40, [10]),
+          "life": ("lin", 0, 80, [20, 40, 60]), "life_xl": ("lin", 0, 200, [50, 100, 150]),
+          "hours": ("lin", 0, 24, [6, 12, 18]), "depth": ("lin", 0, 600, [200, 400]), "depth_xl": ("lin", 0, 2000, [500, 1000, 1500]),
+          "speed": ("lin", 0, 120, [30, 60, 90]), "food": ("lin", 0, 200, [50, 100, 150]), "days": ("lin", 0, 400, [100, 200, 300]),
+          "alt": ("lin", 0, 6000, [2000, 4000]), "km": ("log", 1, 10000, [10, 100, 1000]), "temp": ("lin", 0, 50, [10, 20, 30, 40])}
+SDESC = {"mass": "体重 0.1 kg–10 t（对数）", "mass_s": "体重 1 mg–10 kg（对数）", "mass_xl": "体重 1 kg–200 t（对数）",
+         "len": "长度 10 cm–10 m（对数）", "len_s": "长度 1 mm–1 m（对数）", "len_xl": "长度 1–40 m（对数）",
+         "life": "寿命 0–80 年", "life_xl": "寿命 0–200 年", "hours": "时长 0–24 小时", "depth": "水深 0–600 m", "depth_xl": "水深 0–2000 m",
+         "speed": "速度 0–120 km/h", "food": "食量 0–200 kg", "days": "天数 0–400 天", "alt": "海拔 0–6000 m", "km": "距离 1–10000 km（对数）", "temp": "温度 0–50 °C"}
+
+
+def note(stats):
+    seen = []
+    for st in stats:
+        if st["scale"] not in seen:
+            seen.append(st["scale"])
+    return "刻度：" + "；".join(SDESC[k] for k in seen) + "。实心 = 0 到下限，条纹 = 范围。"
 
 
 def pos(kind, v):
@@ -47,7 +61,7 @@ def render(ids, pdf=True):
             ic, ib, icn = IUCN[d["iucn"]["code"]]
             d["iucn"].setdefault("cn", icn)
             html = env.get_template("card.html.j2").render(d=d, acc=acc, accl=accl, iucn_col=ic, iucn_bg=ib, art_h=ART_H,
-                                                          art=Markup(art.ART[i](ART_W, ART_H)), stats=[bar(s) for s in d["stats"]], scale_note=NOTE)
+                                                          art=Markup(art.ART[i](ART_W, ART_H)), stats=[bar(s) for s in d["stats"]], scale_note=note(d["stats"]))
             hp = out / f"{d['file']}.html"; hp.write_text(html, encoding="utf-8")
             pg.goto(hp.as_uri()); pg.evaluate("document.fonts.ready")
             info = pg.evaluate("""() => { const P=document.querySelector('.poster').getBoundingClientRect();

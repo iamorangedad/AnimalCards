@@ -1,0 +1,77 @@
+{
+ "file": "龙猫",
+ "no": "016",
+ "cat": "宠物",
+ "name_cn": "龙猫",
+ "name_en": "Long-tailed chinchilla",
+ "latin": "Chinchilla lanigera",
+ "short": "龙猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "群居的草食动物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "369–493 g",
+   "lo": 0.369,
+   "hi": 0.493,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长·野生",
+   "value": "最长 26 cm",
+   "lo": 0.26,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "平均约 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "栖息海拔",
+   "value": "3000–5000 m",
+   "lo": 3000,
+   "hi": 5000,
+   "scale": "alt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "沙浴",
+   "icon": "camo",
+   "desc": "龙猫不用水洗澡，而是在细细的火山灰里打滚“洗沙浴”清洁皮毛。"
+  },
+  {
+   "name": "超密皮毛",
+   "icon": "huddle",
+   "desc": "一个毛囊里能长出多达 75 根毛，所以它的毛特别厚、特别软。"
+  }
+ ],
+ "intro": [
+  "龙猫的正式名字是长尾毛丝鼠，来自南美洲的安第斯山脉。",
+  "野生的龙猫住在地洞或岩石缝里，喜欢成群生活。",
+  "它的胡须长 10–13 cm，帮助它在夜里感知周围。"
+ ],
+ "fact": "因为皮毛太珍贵，野生龙猫曾被大量捕猎，如今野外已经濒危。",
+ "range": "智利北部安第斯山区，海拔约 3000–5000 m。",
+ "sources": [
+  "Wikipedia「Long-tailed chinchilla」",
+  "IUCN 红色名录（Jiménez et al. 2025）"
+ ],
+ "footnote": "体重为野生雄性范围（雌性 379–450 g）；饲养个体更大。人工饲养最长可活约 20 年。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "红耳龟",
+ "no": "013",
+ "cat": "宠物",
+ "name_cn": "红耳龟",
+ "name_en": "Red-eared slider",
+ "latin": "Trachemys scripta elegans",
+ "short": "红耳龟",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "成年后主要吃水生植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011（种）"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "15–20 cm",
+   "lo": 0.15,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大背甲",
+   "value": "40 cm 以上",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "20–30 年",
+   "lo": 20,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "59–112 天",
+   "lo": 59,
+   "hi": 112,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "滑入水中",
+   "icon": "dive",
+   "desc": "名字里的“slider”来自它能飞快地从石头、木头上滑进水里。"
+  },
+  {
+   "name": "晒背取暖",
+   "icon": "camo",
+   "desc": "它常爬到岸上晒太阳；冬天水温低于 10 °C 时就不太活动。"
+  }
+ ],
+ "intro": [
+  "红耳龟因为头两侧各有一条红色条纹而得名。",
+  "它原产美国中南部和墨西哥北部，喜欢温暖、平静的水。",
+  "它是世界上交易最多的龟，被放生后成了入侵物种，被列入“世界百大入侵物种”。"
+ ],
+ "fact": "蛋孵化时的温度决定性别：22–27 °C 只孵出雄龟，更温暖时会孵出雌龟。",
+ "range": "原产美国中南部和墨西哥北部；被放生后在许多地区成为入侵种。",
+ "sources": [
+  "Wikipedia「Red-eared slider」",
+  "IUCN 红色名录（van Dijk et al. 2011，Trachemys scripta）"
+ ],
+ "footnote": "IUCN 评估的是整个种 Trachemys scripta（滑龟），红耳龟是它的亚种。不要放生！"
+}

@@ -414,3 +414,10 @@ def lion(w, h):
 
 ART = {"giant-panda": panda, "domestic-cat": cat, "african-elephant": elephant,
        "emperor-penguin": penguin, "common-octopus": octopus, "lion": lion}
+
+
+try:
+    import art2 as _a2
+    ART.update(_a2.ART2)
+except ImportError as _e:  # pragma: no cover
+    raise

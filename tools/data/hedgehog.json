@@ -1,0 +1,77 @@
+{
+ "file": "非洲迷你刺猬",
+ "no": "015",
+ "cat": "宠物",
+ "name_cn": "非洲迷你刺猬",
+ "name_en": "Four-toed hedgehog",
+ "latin": "Atelerix albiventris",
+ "short": "非洲迷你刺猬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃昆虫等小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "250–600 g",
+   "lo": 0.25,
+   "hi": 0.6,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 21 cm",
+   "lo": 0.21,
+   "hi": 0.21,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "4–6 年",
+   "lo": 4,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "冲刺速度",
+   "value": "16 km/h 以上",
+   "lo": 16,
+   "hi": 16,
+   "scale": "speed",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "缩成刺球",
+   "icon": "huddle",
+   "desc": "遇到敌人时，它会让背上的刺竖起来，再缩成一个球，把头和脚藏起来。"
+  },
+  {
+   "name": "夜间长跑",
+   "icon": "climb",
+   "desc": "它是独居的夜行动物，一晚上能走很远的路去找虫子吃。"
+  }
+ ],
+ "intro": [
+  "四趾刺猬又叫非洲迷你刺猬，是常见的宠物刺猬。",
+  "它背上的刺长 0.5–1.7 cm，头顶上的刺最长。",
+  "它的后脚只有四个脚趾，这就是“四趾刺猬”名字的由来。"
+ ],
+ "fact": "有主人测过，宠物刺猬一晚上能在跑轮上跑 8 km 以上（主人自测，待核）。",
+ "range": "非洲中部和东部，西起冈比亚、塞内加尔，东到索马里，南到莫桑比克。",
+ "sources": [
+  "Wikipedia「Four-toed hedgehog」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": "速度和夜跑距离来自宠物主人的自测说法，仅供参考。"
+}

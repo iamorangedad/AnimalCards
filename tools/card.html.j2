@@ -102,4 +102,9 @@ h1{ font-size:76px; line-height:1.2; font-weight:900; letter-spacing:-1px; white
   <section class="range"><b>分布：</b><span>{{ d.range }}</span></section>
   <section class="foot mono">资料来源：{{ d.sources | join('；') }}。{{ d.footnote }} AI 辅助制作，需人工审核。</section>
 </div></div>
+<script>
+document.querySelectorAll('g.fit').forEach(g=>{const n=g.querySelector('g.inner');const b=n.getBBox();
+ const cx=+g.dataset.cx, by=+g.dataset.by, w=+g.dataset.w, h=+g.dataset.h; const s=Math.min(w/b.width,h/b.height, +(g.dataset.max||1.6));
+ n.setAttribute('transform',`translate(${cx-(b.x+b.width/2)*s} ${by-(b.y+b.height)*s}) scale(${s})`);});
+</script>
 </body></html>

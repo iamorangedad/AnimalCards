@@ -1,0 +1,78 @@
+{
+ "file": "兔子",
+ "no": "008",
+ "cat": "宠物",
+ "name_cn": "兔子",
+ "name_en": "Domestic rabbit",
+ "latin": "Oryctolagus cuniculus",
+ "short": "兔子",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1.5–3 kg",
+   "lo": 1.5,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "36–38 cm",
+   "lo": 0.36,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "多数不超过 9 年",
+   "lo": 9,
+   "hi": 9,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "约 30 天",
+   "lo": 30,
+   "hi": 30,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "开心跳",
+   "icon": "flip",
+   "desc": "高兴时兔子会突然跳起来扭身，叫作“binky”；不安时会用后腿“咚咚”跺地。"
+  },
+  {
+   "name": "长耳朵",
+   "icon": "ear",
+   "desc": "野生欧洲兔的耳朵长 7–8 cm，能转动来收集声音、发现危险。"
+  }
+ ],
+ "intro": [
+  "家兔是由欧洲兔驯化来的，人类饲养兔子已有 2000 多年。",
+  "到 19 世纪，兔子才开始被当作宠物饲养。",
+  "兔子是草食动物，喜欢吃草，兔宝宝 10 天后耳朵才会动、11 天睁眼。"
+ ],
+ "fact": "坦桑尼亚有一只宠物兔据报道活到将近 19 岁，远超一般兔子。",
+ "range": "野生祖先欧洲兔原产伊比利亚半岛；家兔随人类遍布世界。",
+ "sources": [
+  "Wikipedia「Domestic rabbit」",
+  "Wikipedia「European rabbit」"
+ ],
+ "footnote": "体重、体长、怀孕期为野生欧洲兔成年个体数据；家兔品种差别很大。"
+}

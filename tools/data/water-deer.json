@@ -1,0 +1,78 @@
+{
+ "file": "獐",
+ "no": "567",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "獐",
+ "name_en": "Water deer",
+ "latin": "Hydropotes inermis",
+ "short": "獐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性獠牙",
+   "value": "平均 5.5 cm",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长獠牙",
+   "value": "8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌性獠牙",
+   "value": "约 0.5 cm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吸血鬼鹿",
+   "icon": "thorn",
+   "desc": "雄性有显眼的獠牙，所以有时被叫作“吸血鬼鹿”。"
+  },
+  {
+   "name": "游泳高手",
+   "icon": "dive",
+   "desc": "很会游泳，能游好几英里到河中小岛上。"
+  }
+ ],
+ "intro": [
+  "獐原产朝鲜半岛和中国。",
+  "它是现存真鹿里唯一长獠牙、不长角的。",
+  "獠牙在第一年秋天、约 6–7 个月大时长出。"
+ ],
+ "fact": "英国有一个引入的中国獐种群。",
+ "range": "中国东部、朝鲜半岛；被引入英国。",
+ "sources": [
+  "Wikipedia「Water deer」"
+ ],
+ "footnote": ""
+}

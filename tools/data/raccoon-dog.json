@@ -1,0 +1,79 @@
+{
+ "file": "貉",
+ "no": "577",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "貉",
+ "name_en": "Common raccoon dog",
+ "latin": "Nyctereutes procyonoides",
+ "short": "貉",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "45–71 cm",
+   "lo": 0.45,
+   "hi": 0.71,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "12–18 cm",
+   "lo": 0.12,
+   "hi": 0.18,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "三月体重",
+   "value": "约 3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "秋季雄性",
+   "value": "6.5–7 kg",
+   "lo": 6.5,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会冬眠",
+   "icon": "cold",
+   "desc": "在犬科里很少见：寒冷的冬天会冬眠，还会爬树。"
+  },
+  {
+   "name": "浣熊脸",
+   "icon": "camo",
+   "desc": "脸上的花纹像浣熊，所以叫“貉”（raccoon dog）。"
+  }
+ ],
+ "intro": [
+  "貉原产东亚，长得像胖胖的狐狸。",
+  "它在欧洲是入侵物种，最早因毛皮贸易被引入。",
+  "体重随季节变化，秋天最胖。"
+ ],
+ "fact": "日本和俄罗斯的貉平均比中国的大。",
+ "range": "中国、朝鲜半岛、俄罗斯远东；被引入欧洲。",
+ "sources": [
+  "Wikipedia「Common raccoon dog」",
+  "IUCN 红色名录（Kauhala, K. 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "懒熊",
+ "no": "570",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "懒熊",
+ "name_en": "Sloth bear",
+ "latin": "Melursus ursinus",
+ "short": "懒熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、蚂蚁和白蚁",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "80–145 kg",
+   "lo": 80,
+   "hi": 145,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "55–105 kg",
+   "lo": 55,
+   "hi": 105,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄性最大",
+   "value": "192 kg",
+   "lo": 192,
+   "hi": 192,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "尼泊尔雄性",
+   "value": "平均 114 kg",
+   "lo": 114,
+   "hi": 114,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吸尘器嘴",
+   "icon": "food",
+   "desc": "长长的下唇和上颚能把虫子吸进嘴里。"
+  },
+  {
+   "name": "镰刀爪",
+   "icon": "thorn",
+   "desc": "长着长长的镰刀形爪子。"
+  }
+ ],
+ "intro": [
+  "懒熊生活在印度次大陆。",
+  "它有长长的乱毛，脸周围有一圈鬃毛。",
+  "因为嘴唇很长，也叫“长唇熊”。"
+ ],
+ "fact": "1817 年德布兰维尔因为它的长嘴唇给它起名 Ursus labiatus。",
+ "range": "印度次大陆（印度、尼泊尔、斯里兰卡等）。",
+ "sources": [
+  "Wikipedia「Sloth bear」",
+  "IUCN 红色名录（Dharaiya, N. 2020）"
+ ],
+ "footnote": ""
+}

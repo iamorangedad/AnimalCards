@@ -1,0 +1,79 @@
+{
+ "file": "普通吸血蝠",
+ "no": "579",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "普通吸血蝠",
+ "name_en": "Common vampire bat",
+ "latin": "Desmodus rotundus",
+ "short": "普通吸血蝠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吸血：主要吸家畜的血",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 9 cm",
+   "lo": 0.09,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "翼展",
+   "value": "18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "25–40 g",
+   "lo": 0.025,
+   "hi": 0.04,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "最北",
+   "value": "美墨边境南 280 km",
+   "lo": 280,
+   "hi": 280,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吸血",
+   "icon": "drop",
+   "desc": "夜里趁猎物睡觉，用锋利的牙割开皮肤，用长舌头舔血。"
+  },
+  {
+   "name": "分享食物",
+   "icon": "team",
+   "desc": "互相梳毛的蝙蝠也会分享食物。"
+  }
+ ],
+ "intro": [
+  "普通吸血蝠生活在美洲。",
+  "它是现存三种吸血蝠之一。",
+  "吸一顿血后体重会大大增加。"
+ ],
+ "fact": "它能在 50 cm 外分辨出 1 cm 宽的金属条。",
+ "range": "墨西哥、中美洲、南美洲；加勒比的玛格丽塔岛和特立尼达。",
+ "sources": [
+  "Wikipedia「Common vampire bat」",
+  "IUCN 红色名录（Barquez, R. 2015）"
+ ],
+ "footnote": ""
+}

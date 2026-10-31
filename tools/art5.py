@@ -804,3 +804,41 @@ ART5["grey-squirrel"] = lambda w, h: scene("forest", w, h, blob(F="#9a9a98", L=2
                  + G_(E(0, 0, 14, 18, "#a07040", 2.4) + P("M-14 -6 h28", sw=2.4), -150, -40), box=(w / 2, h * .74, 400, 340))
 ART5["elk"] = Q("forest", (.78, 580, 470), F="#a8784a", bl=300, bd=124, lh=150, lw=24, belly="#5a3a26", neck=(60, 36), nw=66, head=(42, 36), snout=(46, 30),
                 ears="side", horns="antler", tail="short", tail_col="#e9dcc4", hooves="#3a3f45", neck_wool="#5a3a26")
+# ---- p4b8 forest 561-580
+def _vbat(w, h):
+    b = P("M-260 -280 L260 -280", sw=14, col=INK) + P("M-260 -280 L260 -280", sw=9, col="#8a6a42")
+    o = P("M0 -270 C-140 -250 -180 -140 -110 -60 C-70 -110 -40 -110 0 -70 C40 -110 70 -110 110 -60 C180 -140 140 -250 0 -270 Z", "#6a5a50", 3)
+    o += E(0, -170, 28, 60, "#8a7a6a", 3) + C(0, -96, 26, "#8a7a6a", 3) + P("M-12 -80 l5 12 l5 -12 M2 -80 l5 12 l5 -12", "#ffffff", 1.6) + C(-9, -100, 4, INK, 0) + C(9, -100, 4, INK, 0)
+    o += P("M-18 -116 l-10 -20 l16 8 M18 -116 l10 -20 l-16 8", "#6a5a50", 2.4) + E(0, -88, 8, 5, "#e8a0a0", 1.6)
+    return scene("rainforest", w, h, b + o, box=(w / 2, h * .66, 360, 360))
+ART5["pine-marten"] = Q("forest", (.74, 580, 260), F="#6a4630", bl=280, bd=72, lh=46, lw=20, belly="#6a4630", neck=(30, 50), nw=52, head=(36, 30), snout=(30, 20), snout_col="#7a5a42",
+                        ears="round", tail="bushy", tail_col="#5a3a26", extras=C(-190, -112, 12, "#f2d08a", 0))
+ART5["wildcat"] = CATQ("forest", F="#9a8a74", pattern="stripes", pat_col="#5a4a3a", tail="bushy", tail_col="#5a4a3a", lh=96, bl=250, bd=96)
+ART5["wisent"] = Q("forest", None, F="#6a4a32", bl=320, bd=150, lh=110, lw=36, neck=(10, 50), nw=90, head=(52, 48), snout=(40, 38), snout_col="#4a3626",
+                   ears="small", horns="bison", tail="tuft", tail_col="#4a3626", wool="#7a5a3e", neck_wool="#7a5a3e", hooves="#2a2a2a")
+ART5["dormouse"] = lambda w, h: scene("forest", w, h, rodent("#e0a050", 190, 120, belly="#f6e6c0", ears="round", tail="bushy", tailcol="#d0903e", tl=.8, nose="#e88a8a"), box=(w / 2, h * .74, 400, 250))
+ART5["mole"] = lambda w, h: scene("meadow", w, h, E(150, -20, 90, 40, "#8a6a4a", 2.4) + rodent("#2e2a2a", 240, 120, belly="#3a3434", ears="none", nose="#e8a0a0") +
+                                  P("M-130 -10 l-22 8 l4 -14 l-18 -2 l20 -10", "#f2c0b0", 2), box=(w / 2, h * .74, 420, 240))
+ART5["musk-deer"] = Q("forest", None, F="#6a5a48", bl=220, bd=96, lh=110, lw=18, belly="#9a8a74", neck=(36, 32), nw=52, head=(34, 30), snout=(32, 24), snout_col="#4a3a2e",
+                      ears="big", tail="short", tail_col="#6a5a48", hooves="#2a2a2a", extras=P("M-236 -170 l4 30", sw=5, col="#ffffff"))
+ART5["water-deer"] = Q("wetland", None, F="#c9a06a", bl=230, bd=96, lh=110, lw=18, belly="#e9d6b4", neck=(36, 32), nw=52, head=(36, 30), snout=(32, 24), snout_col="#2a2a2a",
+                       ears="round", tail="short", tail_col="#c9a06a", hooves="#2a2a2a", extras=P("M-236 -170 l4 30", sw=5, col="#ffffff"))
+ART5["dhole"] = CAN("forest", "#c9642a", bl=240, bd=96, lh=110, lw=20, ears="round", tail_col="#2a2a2a", snout_col="#e9c8a0")
+ART5["binturong"] = Q("rainforest", (.75, 580, 300), F="#2a2a2a", bl=270, bd=100, lh=60, lw=24, belly="#3a3a3a", neck=(20, 40), nw=60, head=(42, 36), snout=(26, 22), snout_col="#6a6a6a", ears="round", tail="bushy", tail_col="#2a2a2a", wool="#3a3a3a")
+from art4 import bear as _bear
+ART5["sloth-bear"] = _bear("forest", "#2a2a2e", "#d9c8b0", chest="#f4f0e6", wool="#3a3a3e", neck_wool="#3a3a3e")
+ART5["gaur"] = COW("#3a2a22", kind="forest", horns="cow", snout_col="#c9b49a")
+ART5["sumatran-rhino"] = Q("rainforest", None, F="#8a6a5a", bl=300, bd=140, lh=86, lw=42, neck=(0, 0), head=(54, 48), snout=(50, 42), ears="point", horns="rhino",
+                           tail="tuft", tail_col="#5a4a3e", headdown=30, nose=None, wool="#8a6a5a")
+ART5["tas-devil"] = Q("forest", (.75, 520, 300), F="#2a2624", bl=230, bd=104, lh=60, lw=24, belly="#2a2624", neck=(10, 46), nw=66, head=(50, 42), snout=(30, 26), snout_col="#e8a0a0",
+                      ears="round", tail="thin", tail_col="#2a2624", extras=P("M-150 -130 L-110 -150", sw=12, col="#ffffff"))
+ART5["possum"] = Q("forest", (.75, 560, 300), F="#8a8a88", bl=230, bd=96, lh=56, lw=20, belly="#e9e4da", neck=(14, 46), nw=56, head=(40, 32), snout=(28, 22), snout_col="#3a3a3a", nose="#e8a0a0", ears="big", tail="bushy", tail_col="#2a2a2a")
+ART5["platypus"] = lambda w, h: scene("pond", w, h, rodent("#6a4a32", 260, 100, belly="#a8804a", ears="none", nose="#3a3430") +
+                                      E(-170, -50, 50, 18, "#3a3430", 2.6) + E(180, -40, 70, 20, "#4a3428", 2.6), box=(w / 2, h * .74, 460, 220))
+ART5["echidna"] = lambda w, h: scene("desert", w, h, blob(F="#6a5440", L=230, H=140, belly="#6a5440", ears="small", tail=None, nose="#2a2a2a", whisk=False, spines=True) + P("M-150 -40 l-60 10", sw=10, col="#2a2a2a"), box=(w / 2, h * .74, 440, 280))
+ART5["raccoon-dog"] = Q("forest", (.75, 520, 300), F="#8a7a64", bl=230, bd=104, lh=60, lw=22, farleg="#2a2a2a", belly="#5a4a3a", neck=(10, 50), nw=64, head=(46, 40),
+                        snout=(30, 24), snout_col="#e9dcc4", ears="round", tail="bushy", tail_col="#5a4a3a", mask=INK, wool="#9a8a74")
+ART5["serow"] = GOAT("#3a3430", kind="forest", horns="goat", beard=None, belly="#6a6460", neck_wool="#9a9490", bl=250)
+ART5["vampire-bat"] = _vbat
+ART5["indian-rhino"] = Q("wetland", None, F="#8a8088", bl=340, bd=160, lh=96, lw=48, neck=(0, 0), head=(60, 54), snout=(56, 46), ears="point", horns="rhino",
+                         tail="tuft", tail_col="#4a4642", headdown=30, nose=None, extras=P("M-80 -250 C-70 -200 -70 -150 -80 -110 M120 -250 C110 -200 110 -150 120 -110", sw=4, col="#e8b0b8"))

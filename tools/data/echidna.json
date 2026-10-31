@@ -1,0 +1,78 @@
+{
+ "file": "短吻针鼹",
+ "no": "576",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "短吻针鼹",
+ "name_en": "Short-beaked echidna",
+ "latin": "Tachyglossus aculeatus",
+ "short": "短吻针鼹",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蚂蚁、白蚁、蠕虫和幼虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–45 cm",
+   "lo": 0.3,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2–7 kg",
+   "lo": 2,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "吻长",
+   "value": "75 mm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "分化时间",
+   "value": "约 6600 万年",
+   "lo": 66,
+   "hi": 66,
+   "scale": "myr",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "全身刺",
+   "icon": "thorn",
+   "desc": "身上有毛也有刺。"
+  },
+  {
+   "name": "快舌头",
+   "icon": "food",
+   "desc": "属名意思是“快舌头”，能飞快地用舌头粘住虫子。"
+  }
+ ],
+ "intro": [
+  "短吻针鼹是会下蛋的哺乳动物。",
+  "雌性一年只下一个蛋。",
+  "它平时独居，只有交配季才和同类见面。"
+ ],
+ "fact": "最早的短吻针鼹化石约 1500 万年前。",
+ "range": "澳大利亚、新几内亚。",
+ "sources": [
+  "Wikipedia「Short-beaked echidna」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "欧洲鼹",
+ "no": "565",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "欧洲鼹",
+ "name_en": "European mole",
+ "latin": "Talpa europaea",
+ "short": "欧洲鼹",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃蚯蚓，也吃昆虫和蜈蚣",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "11–16 cm",
+   "lo": 0.11,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "70–130 g",
+   "lo": 0.07,
+   "hi": 0.13,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "英国数量",
+   "value": "3500–4000 万",
+   "lo": 35000000.0,
+   "hi": 40000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "所需绿地",
+   "value": "约 10 公顷",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下隧道",
+   "icon": "root",
+   "desc": "住在不断扩建的隧道里，用隧道捕猎；挖出的土堆成“鼹鼠丘”。"
+  },
+  {
+   "name": "麻醉唾液",
+   "icon": "toxic",
+   "desc": "唾液里有毒素，能让蚯蚓动不了，存起来慢慢吃。"
+  }
+ ],
+ "intro": [
+  "欧洲鼹也叫普通鼹、北方鼹。",
+  "身体圆筒形，雌性一般比雄性小。",
+  "它只在春天有较短的繁殖期。"
+ ],
+ "fact": "英国估计有 3500 万到 4000 万只鼹鼠。",
+ "range": "欧洲大部分地区。",
+ "sources": [
+  "Wikipedia「European mole」"
+ ],
+ "footnote": "“所需绿地”为城市绿地中维持种群的面积，比例条借用数量刻度。"
+}

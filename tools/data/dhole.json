@@ -1,0 +1,78 @@
+{
+ "file": "豺",
+ "no": "568",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "豺",
+ "name_en": "Dhole",
+ "latin": "Cuon alpinus",
+ "short": "豺",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要猎中大型有蹄类",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "42–50 cm",
+   "lo": 0.42,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性体重",
+   "value": "15–21 kg",
+   "lo": 15,
+   "hi": 21,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "10–17 kg",
+   "lo": 10,
+   "hi": 17,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "家族群",
+   "value": "约 12 只",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "团队狩猎",
+   "icon": "team",
+   "desc": "白天成群打猎，专挑中大型有蹄动物。"
+  },
+  {
+   "name": "吹口哨的狗",
+   "icon": "ear",
+   "desc": "英文别名之一叫“whistling dog”（吹口哨的狗）。"
+  }
+ ],
+ "intro": [
+  "豺生活在南亚、东亚和东南亚。",
+  "它是豺属唯一的物种。",
+  "一个家族群通常约 12 只，也有超过 40 只的。"
+ ],
+ "fact": "更新世时豺遍布亚洲，还到过欧洲。",
+ "range": "印度、东南亚、中国部分地区。",
+ "sources": [
+  "Wikipedia「Dhole」"
+ ],
+ "footnote": ""
+}

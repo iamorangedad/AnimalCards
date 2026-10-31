@@ -1,0 +1,79 @@
+{
+ "file": "印度犀",
+ "no": "580",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "印度犀",
+ "name_en": "Indian rhinoceros",
+ "latin": "Rhinoceros unicornis",
+ "short": "印度犀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草，也吃嫩枝、树叶、花和果实",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "2.07–2.2 t",
+   "lo": 2070,
+   "hi": 2200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "约 1.6 t",
+   "lo": 1600,
+   "hi": 1600,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "角长",
+   "value": "57.2–61.6 cm",
+   "lo": 0.572,
+   "hi": 0.616,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "15.7 个月",
+   "lo": 15.7,
+   "hi": 15.7,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "铠甲皮",
+   "icon": "huddle",
+   "desc": "厚厚的灰褐色皮肤有粉色的褶皱，看起来像铠甲。"
+  },
+  {
+   "name": "独角",
+   "icon": "trunk",
+   "desc": "鼻子上只有一只角，最长约 60 cm。"
+  }
+ ],
+ "intro": [
+  "印度犀也叫大独角犀，生活在印度次大陆。",
+  "它是现存第二大的犀牛，也是亚洲最大的。",
+  "圈养个体能活到 47 岁。"
+ ],
+ "fact": "它的栖息地已经碎片化，总面积不到 2 万平方公里。",
+ "range": "印度北部和尼泊尔南部的 12 个保护区。",
+ "sources": [
+  "Wikipedia「Indian rhinoceros」",
+  "IUCN 红色名录（Ellis, S. 2019）"
+ ],
+ "footnote": ""
+}

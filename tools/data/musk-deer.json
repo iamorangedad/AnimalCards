@@ -1,0 +1,78 @@
+{
+ "file": "原麝",
+ "no": "566",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "原麝",
+ "name_en": "Siberian musk deer",
+ "latin": "Moschus moschiferus",
+ "short": "原麝",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃地衣",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "7–17 kg",
+   "lo": 7,
+   "hi": 17,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "偏好海拔",
+   "value": "超过 2600 m",
+   "lo": 2600,
+   "hi": 2600,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10–14 年",
+   "lo": 10,
+   "hi": 14,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "超过 6 个月",
+   "lo": 6,
+   "hi": 6,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "獠牙",
+   "icon": "thorn",
+   "desc": "雄性不长角，而是长出长长的獠牙用来炫耀。"
+  },
+  {
+   "name": "麝香腺",
+   "icon": "toxic",
+   "desc": "雄性的麝香腺价格高达每千克 4.5 万美元，因此被大量盗猎。"
+  }
+ ],
+ "intro": [
+  "原麝生活在东北亚的山地森林，在西伯利亚南部的针叶林最常见。",
+  "它长着獠牙和像袋鼠的脸。",
+  "大约一年就能成熟。"
+ ],
+ "fact": "一只麝只能取出几十克麝香。",
+ "range": "西伯利亚南部、蒙古、中国东北和内蒙古、朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Siberian musk deer」"
+ ],
+ "footnote": ""
+}

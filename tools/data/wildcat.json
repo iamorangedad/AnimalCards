@@ -1,0 +1,79 @@
+{
+ "file": "欧洲野猫",
+ "no": "562",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "欧洲野猫",
+ "name_en": "European wildcat",
+ "latin": "Felis silvestris",
+ "short": "欧洲野猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃兔类、啮齿动物和地面鸟类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 65 cm",
+   "lo": 0.65,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "34.5 cm",
+   "lo": 0.345,
+   "hi": 0.345,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最多 7.5 kg",
+   "lo": 7.5,
+   "hi": 7.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "猫科起源",
+   "value": "1445–838 万年前",
+   "lo": 8.38,
+   "hi": 14.45,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜行猎手",
+   "icon": "camo",
+   "desc": "主要夜里活动；褐色到灰色的毛，额头和身体两侧有条纹。"
+  },
+  {
+   "name": "与家猫混血",
+   "icon": "clone",
+   "desc": "会和家猫杂交，光看外表很难分清。"
+  }
+ ],
+ "intro": [
+  "欧洲野猫生活在欧洲大陆、苏格兰、土耳其和高加索。",
+  "它在没人打扰时白天也会活动。",
+  "在西欧，它吃仓鼠、褐家鼠、睡鼠和田鼠等。"
+ ],
+ "fact": "猫科动物的演化起源于中新世的亚洲。",
+ "range": "欧洲大陆、苏格兰、土耳其、高加索。",
+ "sources": [
+  "Wikipedia「European wildcat」",
+  "IUCN 红色名录（Gerngross, P. 2023）"
+ ],
+ "footnote": ""
+}

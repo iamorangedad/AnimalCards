@@ -1,0 +1,78 @@
+{
+ "file": "榛睡鼠",
+ "no": "564",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "榛睡鼠",
+ "name_en": "Hazel dormouse",
+ "latin": "Muscardinus avellanarius",
+ "short": "榛睡鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃浆果、坚果和果实，冬眠前靠榛子增肥",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "6–9 cm",
+   "lo": 0.06,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "5.7–7.5 cm",
+   "lo": 0.057,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "17–20 g",
+   "lo": 0.017,
+   "hi": 0.02,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "离巢距离",
+   "value": "很少超 70 m",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬眠前增肥",
+   "icon": "cold",
+   "desc": "冬眠前体重增加到 30–40 g；从 10 月一直睡到次年 4–5 月。"
+  },
+  {
+   "name": "不下地",
+   "icon": "climb",
+   "desc": "宁愿绕远路也不下到地面，避免危险。"
+  }
+ ],
+ "intro": [
+  "榛睡鼠生活在北欧和小亚细亚。",
+  "它是 Muscardinus 属唯一的现存物种。",
+  "毛色红褐色，也有金褐色或黄橙色的。"
+ ],
+ "fact": "冬天它在地面的窝里冬眠，常在老树桩底部或落叶堆下。",
+ "range": "欧洲北部、小亚细亚。",
+ "sources": [
+  "Wikipedia「Hazel dormouse」"
+ ],
+ "footnote": "“离巢距离”换算成 km 显示。"
+}

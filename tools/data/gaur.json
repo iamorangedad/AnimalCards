@@ -1,0 +1,78 @@
+{
+ "file": "印度野牛",
+ "no": "571",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "印度野牛",
+ "name_en": "Gaur",
+ "latin": "Bos gaurus",
+ "short": "印度野牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、竹子、灌木和树叶",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "588–1500 kg",
+   "lo": 588,
+   "hi": 1500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "142–220 cm",
+   "lo": 1.42,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "60–115 cm",
+   "lo": 0.6,
+   "hi": 1.15,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成年个体",
+   "value": "最多 2.1 万",
+   "lo": 21000,
+   "hi": 21000,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的牛",
+   "icon": "huddle",
+   "desc": "是现存最大的牛科动物。"
+  },
+  {
+   "name": "背脊隆起",
+   "icon": "trunk",
+   "desc": "从肩到背中部有明显的脊，肩部能比臀部高 12 cm。"
+  }
+ ],
+ "intro": [
+  "印度野牛分布在印度次大陆和东南亚。",
+  "雄性比雌性大约四分之一。",
+  "家养的大额牛就是由它驯化来的。"
+ ],
+ "fact": "2016 年估计全球最多 2.1 万头成年个体，大多数在印度。",
+ "range": "印度、尼泊尔、不丹、东南亚。",
+ "sources": [
+  "Wikipedia「Gaur」"
+ ],
+ "footnote": ""
+}

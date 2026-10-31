@@ -1,0 +1,78 @@
+{
+ "file": "松貂",
+ "no": "561",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "松貂",
+ "name_en": "European pine marten",
+ "latin": "Martes martes",
+ "short": "松貂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小型哺乳动物、鸟、昆虫和浆果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 53 cm",
+   "lo": 0.53,
+   "hi": 0.53,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "约 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "1.5–1.7 kg",
+   "lo": 1.5,
+   "hi": 1.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外最长",
+   "value": "11 年",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "半伸缩爪",
+   "icon": "climb",
+   "desc": "是唯一有半伸缩爪的鼬科动物，在树枝上爬跑自如。"
+  },
+  {
+   "name": "帮红松鼠",
+   "icon": "team",
+   "desc": "它捕食外来的灰松鼠，对本地红松鼠有利。"
+  }
+ ],
+ "intro": [
+  "松貂分布在欧洲大部分地区、小亚细亚和高加索。",
+  "雄性略大于雌性。",
+  "也吃果实、鸟蛋、坚果和蜂蜜。"
+ ],
+ "fact": "圈养的松貂能活 18 年，野外通常只有 3–4 年。",
+ "range": "欧洲大部分地区、小亚细亚、高加索、伊朗和伊拉克部分地区。",
+ "sources": [
+  "Wikipedia「European pine marten」"
+ ],
+ "footnote": ""
+}

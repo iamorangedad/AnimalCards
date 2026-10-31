@@ -1,0 +1,78 @@
+{
+ "file": "日本鬣羚",
+ "no": "578",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "日本鬣羚",
+ "name_en": "Japanese serow",
+ "latin": "Capricornis crispus",
+ "short": "日本鬣羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树叶、嫩芽和橡子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "70–75 cm",
+   "lo": 0.7,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "30–50 kg",
+   "lo": 30,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体毛长",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "最长 20–25 年",
+   "lo": 20,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "气味标记",
+   "icon": "toxic",
+   "desc": "用眼前腺分泌的酸甜气味标记领地。"
+  },
+  {
+   "name": "角会记年",
+   "icon": "trunk",
+   "desc": "角上的横环能看出年龄，角一辈子都在长。"
+  }
+ ],
+ "intro": [
+  "日本鬣羚生活在日本本州北部和中部的密林。",
+  "它独居，或者成对、小家庭生活。",
+  "20 世纪中叶几乎被猎光。"
+ ],
+ "fact": "它在固定的地方排便。",
+ "range": "日本本州北部和中部，四国和九州少量。",
+ "sources": [
+  "Wikipedia「Japanese serow」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "苏门答腊犀",
+ "no": "572",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "苏门答腊犀",
+ "name_en": "Sumatran rhinoceros",
+ "latin": "Dicerorhinus sumatrensis",
+ "short": "苏门答腊犀",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 红色名录",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "112–145 cm",
+   "lo": 1.12,
+   "hi": 1.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.36–3.18 m",
+   "lo": 2.36,
+   "hi": 3.18,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "500–1000 kg",
+   "lo": 500,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "成年个体",
+   "value": "少于 80 头",
+   "lo": 80,
+   "hi": 80,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛犀牛",
+   "icon": "cold",
+   "desc": "身上有毛，也叫“毛犀”，是已灭绝的披毛犀的近亲。"
+  },
+  {
+   "name": "两只角",
+   "icon": "trunk",
+   "desc": "和非洲犀牛一样有两只角，大的鼻角一般 15–25 cm。"
+  }
+ ],
+ "intro": [
+  "苏门答腊犀是现存最小的犀牛。",
+  "它是 Dicerorhinus 属唯一的现存物种。",
+  "2019 年它在马来西亚灭绝。"
+ ],
+ "fact": "野外估计只剩不到 80 头成年个体：苏门答腊 4 个种群、婆罗洲 1 个。",
+ "range": "印度尼西亚苏门答腊、婆罗洲加里曼丹。",
+ "sources": [
+  "Wikipedia「Sumatran rhinoceros」"
+ ],
+ "footnote": ""
+}

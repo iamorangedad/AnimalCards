@@ -1,0 +1,78 @@
+{
+ "file": "欧亚水獭",
+ "no": "241",
+ "cat": "森林",
+ "name_cn": "欧亚水獭",
+ "name_en": "Eurasian otter",
+ "latin": "Lutra lutra",
+ "short": "欧亚水獭",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2022"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "7–12 kg",
+   "lo": 7,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "57–95 cm",
+   "lo": 0.57,
+   "hi": 0.95,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "领地长度",
+   "value": "1–40 km",
+   "lo": 1,
+   "hi": 40,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "60–64 天",
+   "lo": 60,
+   "hi": 64,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "领地意识",
+   "icon": "team",
+   "desc": "它领地意识很强，一只水獭的领地沿河常有 18 km 长。"
+  },
+  {
+   "name": "捕鱼",
+   "icon": "dive",
+   "desc": "主要吃鱼。"
+  }
+ ],
+ "intro": [
+  "欧亚水獭是分布最广的水獭。",
+  "雌獭 18–24 个月性成熟，平均 2.5 岁第一次繁殖。",
+  "每胎 1–4 只，每只约是妈妈体重的 10%。"
+ ],
+ "fact": "有可靠来源报告过一只超过 24 kg 的特大个体（未证实）。",
+ "range": "欧洲、亚洲和北非。",
+ "sources": [
+  "Wikipedia「Eurasian otter」",
+  "IUCN 红色名录（Loy 2022）"
+ ],
+ "footnote": ""
+}

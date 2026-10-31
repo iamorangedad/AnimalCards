@@ -1,0 +1,77 @@
+{
+ "file": "山魈",
+ "no": "230",
+ "cat": "森林",
+ "name_cn": "山魈",
+ "name_en": "Mandrill",
+ "latin": "Mandrillus sphinx",
+ "short": "山魈",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以果实和种子为主",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "19–30 kg",
+   "lo": 19,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体长",
+   "value": "70–95 cm",
+   "lo": 0.7,
+   "hi": 0.95,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄犬齿",
+   "value": "可达 4.5 cm",
+   "lo": 0.045,
+   "hi": 0.045,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "12–14 年",
+   "lo": 12,
+   "hi": 14,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩色脸",
+   "icon": "camo",
+   "desc": "它是世界上最鲜艳的哺乳动物之一，脸上和屁股上有红色和蓝色的皮肤。"
+  },
+  {
+   "name": "超级大群",
+   "icon": "team",
+   "desc": "它们组成可达数百只的“超级群”。"
+  }
+ ],
+ "intro": [
+  "山魈生活在中非西部的热带雨林里。",
+  "在洛佩国家公园，它的食物约 51% 是果实，26% 是种子。",
+  "雌雄的尾巴都只有 7–10 cm。"
+ ],
+ "fact": "圈养山魈可以活 30–40 年。",
+ "range": "加蓬、喀麦隆、赤道几内亚、刚果共和国。",
+ "sources": [
+  "Wikipedia「Mandrill」",
+  "IUCN 红色名录（Abernethy 2019）"
+ ],
+ "footnote": ""
+}

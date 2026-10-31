@@ -1,0 +1,78 @@
+{
+ "file": "驼鹿",
+ "no": "221",
+ "cat": "森林",
+ "name_cn": "驼鹿",
+ "name_en": "Moose",
+ "latin": "Alces alces",
+ "short": "驼鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "380–700 kg",
+   "lo": 380,
+   "hi": 700,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.4–2.1 m",
+   "lo": 1.4,
+   "hi": 2.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄角宽",
+   "value": "1.2–1.5 m",
+   "lo": 1.2,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 15–25 年",
+   "lo": 15,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳",
+   "icon": "dive",
+   "desc": "毛是中空的，充满空气，既保暖又能帮它浮在水上；蹄子张开也便于游泳。"
+  },
+  {
+   "name": "独来独往",
+   "icon": "team",
+   "desc": "和大多数鹿不同，驼鹿不成群，是独居动物。"
+  }
+ ],
+ "intro": [
+  "驼鹿是现存最大的鹿。",
+  "它的尾巴只有 6–8 cm，短到赶不走蚊虫。",
+  "雌雄都有下巴下面的一片垂肉，叫“铃铛”。"
+ ],
+ "fact": "1897 年在育空河记录的一头公驼鹿重 820 kg，肩高 2.33 m。",
+ "range": "北美、欧洲北部和亚洲北部的针叶林。",
+ "sources": [
+  "Wikipedia「Moose」",
+  "IUCN 红色名录（Hundertmark 2016）"
+ ],
+ "footnote": ""
+}

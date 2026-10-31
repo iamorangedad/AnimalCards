@@ -1,0 +1,77 @@
+{
+ "file": "野猪",
+ "no": "223",
+ "cat": "森林",
+ "name_cn": "野猪",
+ "name_en": "Wild boar",
+ "latin": "Sus scrofa",
+ "short": "野猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "欧洲雄体重",
+   "value": "平均 75–100 kg",
+   "lo": 75,
+   "hi": 100,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "最快 40 km/h",
+   "lo": 40,
+   "hi": 40,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "跳跃高度",
+   "value": "140–150 cm",
+   "lo": 1.4,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "下獠牙",
+   "value": "露出 10–12 cm",
+   "lo": 0.1,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "拱地",
+   "icon": "dive",
+   "desc": "头像犁一样，能拱进冻土 8–10 cm，还能掀翻 40–50 kg 的石头。"
+  },
+  {
+   "name": "护甲",
+   "icon": "camo",
+   "desc": "繁殖期雄猪肩背长出 2–3 cm 厚的皮下组织，打斗时保护要害。"
+  }
+ ],
+ "intro": [
+  "野猪是家猪的祖先，分布在欧亚大陆和北非。",
+  "中国约 8000 年前独立驯化了野猪。",
+  "雄性一般比雌性大 5–10%，重 20–30%。"
+ ],
+ "fact": "家猪 70% 的体重集中在后半身，而野猪正好相反，前半身更壮。",
+ "range": "欧亚大陆、北非；已被引入美洲、澳大利亚等地。",
+ "sources": [
+  "Wikipedia「Wild boar」",
+  "IUCN 红色名录（Keuling 2019）"
+ ],
+ "footnote": ""
+}

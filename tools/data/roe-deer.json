@@ -1,0 +1,77 @@
+{
+ "file": "狍",
+ "no": "222",
+ "cat": "森林",
+ "name_cn": "狍",
+ "name_en": "Western roe deer",
+ "latin": "Capreolus capreolus",
+ "short": "狍",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "平均 20–25 kg",
+   "lo": 20,
+   "hi": 25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "95–135 cm",
+   "lo": 0.95,
+   "hi": 1.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "63–67 cm",
+   "lo": 0.63,
+   "hi": 0.67,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "短鹿角",
+   "icon": "camo",
+   "desc": "健康的雄狍鹿角长 20–25 cm，一般有两三个叉。"
+  },
+  {
+   "name": "会叫",
+   "icon": "ear",
+   "desc": "小狍子、雌狍、雄狍发出的叫声各不相同。"
+  }
+ ],
+ "intro": [
+  "西方狍是一种小型鹿，广泛分布在欧洲。",
+  "20 世纪初在英格兰南部几乎绝迹，后来分布范围大大扩展。",
+  "一般活不到 20 岁。"
+ ],
+ "fact": "在莫斯科附近，约 22% 的狍带有西方狍的线粒体 DNA，78% 来自西伯利亚狍。",
+ "range": "欧洲大部分地区及土耳其、高加索等地。",
+ "sources": [
+  "Wikipedia「Western roe deer」",
+  "IUCN 红色名录（Lovari 2016）"
+ ],
+ "footnote": ""
+}

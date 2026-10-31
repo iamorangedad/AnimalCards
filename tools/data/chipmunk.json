@@ -1,0 +1,77 @@
+{
+ "file": "花鼠",
+ "no": "239",
+ "cat": "森林",
+ "name_cn": "花鼠",
+ "name_en": "Siberian chipmunk",
+ "latin": "Eutamias sibiricus",
+ "short": "花鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "50–150 g",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "18–25 cm",
+   "lo": 0.18,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "过冬存粮",
+   "value": "3–4 kg",
+   "lo": 3,
+   "hi": 4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "洞长",
+   "value": "可达 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "存粮过冬",
+   "icon": "jar",
+   "desc": "冬天前会在洞里存 3–4 kg 的食物，一直吃到第二年四五月。"
+  },
+  {
+   "name": "条纹背",
+   "icon": "camo",
+   "desc": "背上一般有 4 条白纹和 5 条深色纹。"
+  }
+ ],
+ "intro": [
+  "花鼠又叫西伯利亚花栗鼠，分布在北亚。",
+  "它能在 −65 °C 到 30 °C 的环境里生活。",
+  "1960–1980 年间，韩国出口了 20 多万只到欧洲当宠物。"
+ ],
+ "fact": "被引入欧洲后，它扩散得很慢，每年只有 200–250 m。",
+ "range": "俄罗斯、蒙古、中国北部、朝鲜半岛、日本北海道；欧洲有引入种群。",
+ "sources": [
+  "Wikipedia「Siberian chipmunk」",
+  "IUCN 红色名录（Tsytsulina 2016）"
+ ],
+ "footnote": ""
+}

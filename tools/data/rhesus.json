@@ -1,0 +1,77 @@
+{
+ "file": "猕猴",
+ "no": "227",
+ "cat": "森林",
+ "name_cn": "猕猴",
+ "name_en": "Rhesus macaque",
+ "latin": "Macaca mulatta",
+ "short": "猕猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "5.3–7.7 kg",
+   "lo": 5.3,
+   "hi": 7.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "47–53 cm",
+   "lo": 0.47,
+   "hi": 0.53,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "20.7–22.9 cm",
+   "lo": 0.207,
+   "hi": 0.229,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一群",
+   "value": "20–200 只",
+   "lo": 20,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "适应力强",
+   "icon": "climb",
+   "desc": "白天活动，树上地上都行，从草原、林地到海拔 2500 m 的山区都能生活。"
+  },
+  {
+   "name": "大群体",
+   "icon": "team",
+   "desc": "群居，一群有 20–200 只。"
+  }
+ ],
+ "intro": [
+  "猕猴毛色多为棕色或灰色，是一种旧世界猴。",
+  "雄猴平均 53 cm、7.7 kg，雌猴平均 47 cm、5.3 kg。",
+  "城市里的猕猴也吃人类的食物和垃圾。"
+ ],
+ "fact": "它的手臂和腿差不多长，臂腿长度比为 89.6–94.3%。",
+ "range": "南亚、东南亚到中国。",
+ "sources": [
+  "Wikipedia「Rhesus macaque」",
+  "IUCN 红色名录（Singh 2020）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "马来熊",
+ "no": "218",
+ "cat": "森林",
+ "name_cn": "马来熊",
+ "name_en": "Sun bear",
+ "latin": "Helarctos malayanus",
+ "short": "马来熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃蚂蚁、蜜蜂、白蚁、蜂蜜、果实等",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "25–65 kg",
+   "lo": 25,
+   "hi": 65,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "100–140 cm",
+   "lo": 1.0,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "近 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "树上休息",
+   "value": "离地 2–7 m",
+   "lo": 2,
+   "hi": 7,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爬树冠军",
+   "icon": "climb",
+   "desc": "前脚内翻、爪子弯而有力，是所有熊里最喜欢待在树上的。"
+  },
+  {
+   "name": "咬合力强",
+   "icon": "roar",
+   "desc": "按体形算咬合力很大：50 kg 的马来熊后臼齿咬力约 1900–2000 牛。"
+  }
+ ],
+ "intro": [
+  "马来熊是马来熊属唯一的物种，也是最小的熊。",
+  "雄性一般比雌性大 10–20%。",
+  "它常在离地 2–7 m 的树上晒太阳或睡觉。"
+ ],
+ "fact": "从 1990 年代以来，它的全球数量估计减少了 35%。",
+ "range": "东南亚的热带森林。",
+ "sources": [
+  "Wikipedia「Sun bear」",
+  "IUCN 红色名录（Scotson 2017）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "欧洲刺猬",
+ "no": "238",
+ "cat": "森林",
+ "name_cn": "欧洲刺猬",
+ "name_en": "European hedgehog",
+ "latin": "Erinaceus europaeus",
+ "short": "欧洲刺猬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以无脊椎动物为主，植物很少",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "1100 g 以上",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "可达 260 mm",
+   "lo": 0.26,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "刺",
+   "value": "最多约 6000 根",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "31–35 天",
+   "lo": 31,
+   "hi": 35,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬眠",
+   "icon": "huddle",
+   "desc": "和生活在温暖地区的小型刺猬不同，欧洲刺猬冬天可能冬眠。"
+  },
+  {
+   "name": "一身刺",
+   "icon": "camo",
+   "desc": "身体大部分覆盖着多达 6000 根棕白相间的刺。"
+  }
+ ],
+ "intro": [
+  "欧洲刺猬生活在欧洲的花园、林地和田野。",
+  "尾巴极短，只有 20–30 mm。",
+  "最高纪录体重 2000 g，但野生个体很少超过 1600 g。"
+ ],
+ "fact": "饿死是最常见的死因，通常发生在冬眠期间。",
+ "range": "西欧、北欧和中欧；已被引入新西兰。",
+ "sources": [
+  "Wikipedia「European hedgehog」",
+  "IUCN 红色名录（Gazzard 2024）"
+ ],
+ "footnote": ""
+}

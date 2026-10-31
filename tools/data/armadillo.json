@@ -1,0 +1,77 @@
+{
+ "file": "九带犰狳",
+ "no": "235",
+ "cat": "森林",
+ "name_cn": "九带犰狳",
+ "name_en": "Nine-banded armadillo",
+ "latin": "Dasypus novemcinctus",
+ "short": "九带犰狳",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃昆虫，植物不到 10%",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "38–58 cm",
+   "lo": 0.38,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "受惊跳高",
+   "value": "91–120 cm",
+   "lo": 0.91,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "憋气",
+   "value": "可达 6 分钟",
+   "lo": 6,
+   "hi": 6,
+   "scale": "sec",
+   "approx": false
+  },
+  {
+   "label": "初生体重",
+   "value": "85 g",
+   "lo": 0.085,
+   "hi": 0.085,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "四胞胎",
+   "icon": "team",
+   "desc": "一个受精卵会分裂成四个一模一样的胚胎，所以总是生同卵四胞胎。"
+  },
+  {
+   "name": "憋气",
+   "icon": "dive",
+   "desc": "能憋气 6 分钟，挖土时可以把鼻子一直埋在土里。"
+  }
+ ],
+ "intro": [
+  "九带犰狳原产美洲，背上有骨质的“盔甲”。",
+  "洞穴约 20 cm 宽、2.1 m 深、7.6 m 长。",
+  "受精卵会推迟 3–4 个月才着床，避开不好的季节。"
+ ],
+ "fact": "受到惊吓时会垂直跳起近 1 m，所以在公路上特别危险。",
+ "range": "美国南部到南美洲。",
+ "sources": [
+  "Wikipedia「Nine-banded armadillo」",
+  "IUCN 红色名录（Loughry 2014）"
+ ],
+ "footnote": "憋气条借用 0–20 刻度，单位为分钟。"
+}

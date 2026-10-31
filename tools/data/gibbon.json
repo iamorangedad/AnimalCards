@@ -1,0 +1,77 @@
+{
+ "file": "白掌长臂猿",
+ "no": "229",
+ "cat": "森林",
+ "name_cn": "白掌长臂猿",
+ "name_en": "Lar gibbon",
+ "latin": "Hylobates lar",
+ "short": "白掌长臂猿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "每天活动",
+   "value": "平均 8.7 小时",
+   "lo": 8.7,
+   "hi": 8.7,
+   "scale": "hours",
+   "approx": true
+  },
+  {
+   "label": "觅食时间",
+   "value": "约 32.6%",
+   "lo": 32.6,
+   "hi": 32.6,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "初次繁殖",
+   "value": "约 11 岁",
+   "lo": 11,
+   "hi": 11,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "荡来荡去",
+   "icon": "climb",
+   "desc": "它用长长的手臂吊在树枝下荡着前进，很少下到地面。"
+  },
+  {
+   "name": "超长手臂",
+   "icon": "flip",
+   "desc": "手指弯曲、手很长、手臂极长，前后肢比例是灵长类里最高的之一。"
+  }
+ ],
+ "intro": [
+  "白掌长臂猿生活在东南亚的热带雨林里。",
+  "它们太阳一出来就离开睡觉的树，日落前约 3.4 小时就回去。",
+  "一天里约 4% 的时间在“唱歌”（发声）。"
+ ],
+ "fact": "野外雌猿大约 11 岁才第一次生宝宝，比圈养的晚得多。",
+ "range": "泰国、马来西亚、缅甸、老挝、印尼苏门答腊等。",
+ "sources": [
+  "Wikipedia「Lar gibbon」",
+  "IUCN 红色名录（Brockelman 2020）"
+ ],
+ "footnote": "来源中缺少体重、体长数据（缺口）。"
+}

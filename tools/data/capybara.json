@@ -1,0 +1,78 @@
+{
+ "file": "水豚",
+ "no": "234",
+ "cat": "森林",
+ "name_cn": "水豚",
+ "name_en": "Capybara",
+ "latin": "Hydrochoerus hydrochaeris",
+ "short": "水豚",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草和水生植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "多为 35–66 kg",
+   "lo": 35,
+   "hi": 66,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "106–134 cm",
+   "lo": 1.06,
+   "hi": 1.34,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "50–62 cm",
+   "lo": 0.5,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一群",
+   "value": "多为 10–20 只",
+   "lo": 10,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的鼠",
+   "icon": "team",
+   "desc": "它是现存最大的啮齿动物，群居，大群可达 100 只。"
+  },
+  {
+   "name": "半水生",
+   "icon": "dive",
+   "desc": "住在淡水附近，大部分时间在水边或水里。"
+  }
+ ],
+ "intro": [
+  "水豚原产除智利以外的所有南美国家。",
+  "最重的野生个体是巴西的一只雌性，91 kg。",
+  "它主要生活在低地，最高记录在海拔 1500 m。"
+ ],
+ "fact": "一项研究中，两年后重新捕获的水豚 40% 还在原地 100 m 以内。",
+ "range": "南美洲（智利除外）。",
+ "sources": [
+  "Wikipedia「Capybara」",
+  "IUCN 红色名录（Reid 2016）"
+ ],
+ "footnote": ""
+}

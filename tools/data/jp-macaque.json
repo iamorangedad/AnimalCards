@@ -1,0 +1,77 @@
+{
+ "file": "日本猕猴",
+ "no": "228",
+ "cat": "森林",
+ "name_cn": "日本猕猴",
+ "name_en": "Japanese macaque",
+ "latin": "Macaca fuscata",
+ "short": "日本猕猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "平均 11.3 kg",
+   "lo": 11.3,
+   "hi": 11.3,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雄身高",
+   "value": "平均 57 cm",
+   "lo": 0.57,
+   "hi": 0.57,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "耐寒",
+   "value": "可到 −20 °C",
+   "lo": 20,
+   "hi": 20,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "雌寿命",
+   "value": "可达 32 年",
+   "lo": 32,
+   "hi": 32,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "雪猴",
+   "icon": "huddle",
+   "desc": "有些住在一年里积雪好几个月的地方，所以叫“雪猴”，能耐受 −20 °C。"
+  },
+  {
+   "name": "洗红薯",
+   "icon": "jar",
+   "desc": "幸岛上一只叫“Imo”的母猴学会了用水把红薯洗干净再吃。"
+  }
+ ],
+ "intro": [
+  "日本猕猴原产日本，主要在地面活动。",
+  "它的尾巴只是一小截，雄猴平均约 9 cm。",
+  "大脑约重 95 g。"
+ ],
+ "fact": "一个猴群有记录的 70 年历史里，第一次出现了母猴首领。",
+ "range": "日本（本州、九州、四国等）。",
+ "sources": [
+  "Wikipedia「Japanese macaque」",
+  "IUCN 红色名录（Watanabe 2020）"
+ ],
+ "footnote": "耐寒条表示 20 °C 的温度差（0 到 −20 °C）。"
+}

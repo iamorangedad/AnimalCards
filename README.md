@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 216 张（宠物 50，农场 50，高原草原 50，森林 15，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 241 张（宠物 50，农场 50，高原草原 50，森林 40，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -173,6 +173,31 @@
 | 054 | 褐喉树懒（Brown-throated sloth） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A4%90%E5%96%89%E6%A0%91%E6%87%92.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%A4%90%E5%96%89%E6%A0%91%E6%87%92.pdf) |
 | 055 | 美洲豹（Jaguar） | 森林 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E8%B1%B9.pdf) |
 | 056 | 亚洲象（Asian elephant） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E8%B1%A1.pdf) |
+| 217 | 亚洲黑熊（Asian black bear） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E9%BB%91%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%9A%E6%B4%B2%E9%BB%91%E7%86%8A.pdf) |
+| 218 | 马来熊（Sun bear） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E6%9D%A5%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E6%9D%A5%E7%86%8A.pdf) |
+| 219 | 美洲黑熊（American black bear） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E9%BB%91%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E9%BB%91%E7%86%8A.pdf) |
+| 220 | 马鹿（Red deer） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E9%B9%BF.pdf) |
+| 221 | 驼鹿（Moose） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%BC%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%BC%E9%B9%BF.pdf) |
+| 222 | 狍（Western roe deer） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8B%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8B%8D.pdf) |
+| 223 | 野猪（Wild boar） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%87%8E%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%87%8E%E7%8C%AA.pdf) |
+| 224 | 欧亚猞猁（Eurasian lynx） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E4%BA%9A%E7%8C%9E%E7%8C%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E4%BA%9A%E7%8C%9E%E7%8C%81.pdf) |
+| 225 | 云豹（Clouded leopard） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%91%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%BA%91%E8%B1%B9.pdf) |
+| 226 | 环尾狐猴（Ring-tailed lemur） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8E%AF%E5%B0%BE%E7%8B%90%E7%8C%B4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8E%AF%E5%B0%BE%E7%8B%90%E7%8C%B4.pdf) |
+| 227 | 猕猴（Rhesus macaque） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8C%95%E7%8C%B4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8C%95%E7%8C%B4.pdf) |
+| 228 | 日本猕猴（Japanese macaque） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%97%A5%E6%9C%AC%E7%8C%95%E7%8C%B4.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%97%A5%E6%9C%AC%E7%8C%95%E7%8C%B4.pdf) |
+| 229 | 白掌长臂猿（Lar gibbon） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%99%BD%E6%8E%8C%E9%95%BF%E8%87%82%E7%8C%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%99%BD%E6%8E%8C%E9%95%BF%E8%87%82%E7%8C%BF.pdf) |
+| 230 | 山魈（Mandrill） | 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B1%B1%E9%AD%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%B1%B1%E9%AD%88.pdf) |
+| 231 | 倭黑猩猩（Bonobo） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%80%AD%E9%BB%91%E7%8C%A9%E7%8C%A9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%80%AD%E9%BB%91%E7%8C%A9%E7%8C%A9.pdf) |
+| 232 | 霍加狓（Okapi） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%9C%8D%E5%8A%A0%E7%8B%93.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%9C%8D%E5%8A%A0%E7%8B%93.pdf) |
+| 233 | 马来貘（Malayan tapir） | 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E6%9D%A5%E8%B2%98.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E9%A9%AC%E6%9D%A5%E8%B2%98.pdf) |
+| 234 | 水豚（Capybara） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%B0%B4%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%B0%B4%E8%B1%9A.pdf) |
+| 235 | 九带犰狳（Nine-banded armadillo） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%B9%9D%E5%B8%A6%E7%8A%B0%E7%8B%B3.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%B9%9D%E5%B8%A6%E7%8A%B0%E7%8B%B3.pdf) |
+| 236 | 中华穿山甲（Chinese pangolin） | 森林 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%B8%AD%E5%8D%8E%E7%A9%BF%E5%B1%B1%E7%94%B2.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E4%B8%AD%E5%8D%8E%E7%A9%BF%E5%B1%B1%E7%94%B2.pdf) |
+| 237 | 狗獾（European badger） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8B%97%E7%8D%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%8B%97%E7%8D%BE.pdf) |
+| 238 | 欧洲刺猬（European hedgehog） | 森林 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E6%B4%B2%E5%88%BA%E7%8C%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E6%B4%B2%E5%88%BA%E7%8C%AC.pdf) |
+| 239 | 花鼠（Siberian chipmunk） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%8A%B1%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%8A%B1%E9%BC%A0.pdf) |
+| 240 | 美洲河狸（North American beaver） | 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E6%B2%B3%E7%8B%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E7%BE%8E%E6%B4%B2%E6%B2%B3%E7%8B%B8.pdf) |
+| 241 | 欧亚水獭（Eurasian otter） | 森林 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E4%BA%9A%E6%B0%B4%E7%8D%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%AC%A7%E4%BA%9A%E6%B0%B4%E7%8D%AD.pdf) |
 | 005 | 章鱼（Common octopus） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%AB%A0%E9%B1%BC.pdf) |
 | 057 | 蓝鲸（Blue whale） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%93%9D%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%93%9D%E9%B2%B8.pdf) |
 | 058 | 虎鲸（Orca） | 海洋 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%99%8E%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%99%8E%E9%B2%B8.pdf) |

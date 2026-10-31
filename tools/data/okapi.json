@@ -1,0 +1,77 @@
+{
+ "file": "霍加狓",
+ "no": "232",
+ "cat": "森林",
+ "name_cn": "霍加狓",
+ "name_en": "Okapi",
+ "latin": "Okapia johnstoni",
+ "short": "霍加狓",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "200–350 kg",
+   "lo": 200,
+   "hi": 350,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "440–450 天",
+   "lo": 440,
+   "hi": 450,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "角",
+   "value": "不到 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "森林长颈鹿",
+   "icon": "camo",
+   "desc": "腿上有像斑马一样的条纹，但它最近的亲戚是长颈鹿。"
+  },
+  {
+   "name": "短角",
+   "icon": "trunk",
+   "desc": "雄性头上有长不到 15 cm 的皮骨角。"
+  }
+ ],
+ "intro": [
+  "霍加狓只生活在刚果民主共和国东北部。",
+  "它和长颈鹿是长颈鹿科仅存的两个成员。",
+  "它们住在海拔 500–1500 m 的雨林里。"
+ ],
+ "fact": "长颈鹿和霍加狓的共同祖先大约生活在 1150 万年前。",
+ "range": "刚果民主共和国东北部。",
+ "sources": [
+  "Wikipedia「Okapi」",
+  "IUCN 红色名录（Mallon 2015）"
+ ],
+ "footnote": "怀孕天数超出 0–400 刻度，条形到顶。"
+}

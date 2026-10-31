@@ -1,0 +1,78 @@
+{
+ "file": "美洲河狸",
+ "no": "240",
+ "cat": "森林",
+ "name_cn": "美洲河狸",
+ "name_en": "North American beaver",
+ "latin": "Castor canadensis",
+ "short": "美洲河狸",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "11–32 kg",
+   "lo": 11,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "74–90 cm",
+   "lo": 0.74,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "20–35 cm",
+   "lo": 0.2,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "潜水",
+   "value": "可达 15 分钟",
+   "lo": 15,
+   "hi": 15,
+   "scale": "sec",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "筑坝",
+   "icon": "team",
+   "desc": "河狸会筑坝；筑坝的行为在 1000 多万年前就出现了。"
+  },
+  {
+   "name": "潜水",
+   "icon": "dive",
+   "desc": "游泳高手，能在水下待 15 分钟。"
+  }
+ ],
+ "intro": [
+  "美洲河狸原产北美，是一种半水生的大型啮齿动物。",
+  "门牙终生不停地生长。",
+  "北美最古老的河狸化石是两颗牙齿，约 700 万年前。"
+ ],
+ "fact": "很老的个体偶尔能超过 40 kg，甚至达到 50 kg。",
+ "range": "北美；已被引入南美火地岛和欧洲部分地区。",
+ "sources": [
+  "Wikipedia「North American beaver」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": "潜水条借用 0–20 刻度，单位为分钟。"
+}

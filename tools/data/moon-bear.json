@@ -1,0 +1,77 @@
+{
+ "file": "亚洲黑熊",
+ "no": "217",
+ "cat": "森林",
+ "name_cn": "亚洲黑熊",
+ "name_en": "Asian black bear",
+ "latin": "Ursus thibetanus",
+ "short": "亚洲黑熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "60–200 kg",
+   "lo": 60,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "120–190 cm",
+   "lo": 1.2,
+   "hi": 1.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "直立行走",
+   "value": "可超过 400 m",
+   "lo": 400,
+   "hi": 400,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "平均约 25 年",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "站着走",
+   "icon": "climb",
+   "desc": "它是最会两脚站立行走的熊，能直立走 400 m 以上。"
+  },
+  {
+   "name": "白月牙",
+   "icon": "camo",
+   "desc": "胸前有白色的斑纹，所以又叫“月熊”“白胸熊”。"
+  }
+ ],
+ "intro": [
+  "亚洲黑熊是中等体形的熊，原产亚洲，很适应树上生活。",
+  "它的尾巴很短，只有约 11 cm。",
+  "亚洲黑熊和美洲黑熊大约在 300 万年前分开。"
+ ],
+ "fact": "圈养的亚洲黑熊最长寿的活到了 44 岁。",
+ "range": "亚洲（喜马拉雅、中国、东南亚、俄罗斯远东、日本等）。",
+ "sources": [
+  "Wikipedia「Asian black bear」",
+  "IUCN 红色名录（Garshelis 2020）"
+ ],
+ "footnote": ""
+}

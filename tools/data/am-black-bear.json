@@ -1,0 +1,77 @@
+{
+ "file": "美洲黑熊",
+ "no": "219",
+ "cat": "森林",
+ "name_cn": "美洲黑熊",
+ "name_en": "American black bear",
+ "latin": "Ursus americanus",
+ "short": "美洲黑熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "60–300 kg",
+   "lo": 60,
+   "hi": 300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "120–188 cm",
+   "lo": 1.2,
+   "hi": 1.88,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "40–48 km/h",
+   "lo": 40,
+   "hi": 48,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "单爪翻石",
+   "value": "141–147 kg",
+   "lo": 141,
+   "hi": 147,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大力士",
+   "icon": "roar",
+   "desc": "有人看到一只 54 kg 的黑熊用一只前爪就翻开了 141–147 kg 的大石板。"
+  },
+  {
+   "name": "聪明",
+   "icon": "ear",
+   "desc": "它能很快学会分辨三角形、圆形、正方形等形状。"
+  }
+ ],
+ "intro": [
+  "美洲黑熊原产北美。",
+  "它和棕熊是现存唯二不被 IUCN 认为受威胁的熊。",
+  "在美国本土，它多住在海拔 400–3000 m 植被茂密的山区。"
+ ],
+ "fact": "加州的研究显示，成年雄熊平均 86 kg，雌熊平均 58 kg。",
+ "range": "北美（加拿大、美国、墨西哥北部）。",
+ "sources": [
+  "Wikipedia「American black bear」",
+  "IUCN 红色名录（Garshelis 2016）"
+ ],
+ "footnote": ""
+}

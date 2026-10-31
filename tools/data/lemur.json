@@ -1,0 +1,77 @@
+{
+ "file": "环尾狐猴",
+ "no": "226",
+ "cat": "森林",
+ "name_cn": "环尾狐猴",
+ "name_en": "Ring-tailed lemur",
+ "latin": "Lemur catta",
+ "short": "环尾狐猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "平均 2.2 kg",
+   "lo": 2.2,
+   "hi": 2.2,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "39–46 cm",
+   "lo": 0.39,
+   "hi": 0.46,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "56–63 cm",
+   "lo": 0.56,
+   "hi": 0.63,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "地面时间",
+   "value": "最多约 33%",
+   "lo": 33,
+   "hi": 33,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "臭味大战",
+   "icon": "flip",
+   "desc": "雄猴会把前臂腺体的气味抹在尾巴上，再朝对手扇动，叫“臭味大战”。"
+  },
+  {
+   "name": "晒太阳",
+   "icon": "huddle",
+   "desc": "常坐着把白色的肚皮朝向太阳晒暖。"
+  }
+ ],
+ "intro": [
+  "环尾狐猴只生活在马达加斯加，是最常在地面活动的狐猴。",
+  "它们群居，一群最多 30 只。",
+  "尾巴比身体还长，上面有黑白相间的环纹。"
+ ],
+ "fact": "到 2017 年初，野外数量可能已降到约 2000 只。",
+ "range": "马达加斯加南部。",
+ "sources": [
+  "Wikipedia「Ring-tailed lemur」",
+  "IUCN 红色名录（LaFleur 2020）"
+ ],
+ "footnote": ""
+}

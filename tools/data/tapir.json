@@ -1,0 +1,77 @@
+{
+ "file": "马来貘",
+ "no": "233",
+ "cat": "森林",
+ "name_cn": "马来貘",
+ "name_en": "Malayan tapir",
+ "latin": "Tapirus indicus",
+ "short": "马来貘",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "250–320 kg",
+   "lo": 250,
+   "hi": 320,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "1.8–2.5 m",
+   "lo": 1.8,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾巴",
+   "value": "仅 5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑白装",
+   "icon": "camo",
+   "desc": "头、肩、腿是黑色，身体中段和屁股是白色，像穿了一件白背心。"
+  },
+  {
+   "name": "夜间活动",
+   "icon": "dive",
+   "desc": "主要在夜里活动，常在日落后或日出前吃东西。"
+  }
+ ],
+ "intro": [
+  "马来貘是现存四种貘里最大的，也是美洲以外唯一的貘。",
+  "有的成年个体可重达 540 kg。",
+  "大约 8000 年前婆罗洲还有它的踪迹。"
+ ],
+ "fact": "因为体形大，它几乎没有天敌。",
+ "range": "东南亚（马来半岛、苏门答腊、泰国、缅甸）。",
+ "sources": [
+  "Wikipedia「Malayan tapir」",
+  "IUCN 红色名录（Traeholt 2016）"
+ ],
+ "footnote": ""
+}

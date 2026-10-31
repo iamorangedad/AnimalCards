@@ -1,0 +1,77 @@
+{
+ "file": "倭黑猩猩",
+ "no": "231",
+ "cat": "森林",
+ "name_cn": "倭黑猩猩",
+ "name_en": "Bonobo",
+ "latin": "Pan paniscus",
+ "short": "倭黑猩猩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "34–60 kg",
+   "lo": 34,
+   "hi": 60,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "70–83 cm",
+   "lo": 0.7,
+   "hi": 0.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "约 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "野外数量",
+   "value": "2.95–5 万只",
+   "lo": 29500,
+   "hi": 50000,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "近亲",
+   "icon": "team",
+   "desc": "它和黑猩猩大约在 89–86 万年前分开。"
+  },
+  {
+   "name": "刚果独有",
+   "icon": "camo",
+   "desc": "只生活在刚果民主共和国刚果盆地约 50 万 km² 的范围里。"
+  }
+ ],
+ "intro": [
+  "倭黑猩猩和黑猩猩同属黑猩猩属。",
+  "雄性平均 45 kg，雌性平均 33 kg。",
+  "大个子的黑猩猩比它重，但两者体形大致重叠。"
+ ],
+ "fact": "它在野外能活多久还不清楚，但几乎肯定比圈养的短。",
+ "range": "刚果民主共和国（刚果河以南）。",
+ "sources": [
+  "Wikipedia「Bonobo」",
+  "IUCN 红色名录（Fruth 2016）"
+ ],
+ "footnote": ""
+}

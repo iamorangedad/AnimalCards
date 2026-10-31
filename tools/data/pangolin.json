@@ -1,0 +1,77 @@
+{
+ "file": "中华穿山甲",
+ "no": "236",
+ "cat": "森林",
+ "name_cn": "中华穿山甲",
+ "name_en": "Chinese pangolin",
+ "latin": "Manis pentadactyla",
+ "short": "中华穿山甲",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蚂蚁和白蚁",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "40–58 cm",
+   "lo": 0.4,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "25–38 cm",
+   "lo": 0.25,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "初生体重",
+   "value": "约 93 g",
+   "lo": 0.093,
+   "hi": 0.093,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "吃蚂蚁",
+   "value": "约 97%",
+   "lo": 97,
+   "hi": 97,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "鳞甲",
+   "icon": "camo",
+   "desc": "身上有 18 排互相重叠的鳞片，鳞片间还长毛，这在哺乳动物里很少见。"
+  },
+  {
+   "name": "蚂蚁专家",
+   "icon": "jar",
+   "desc": "一项研究中，它吃的食物约 97% 是蚂蚁。"
+  }
+ ],
+ "intro": [
+  "中华穿山甲分布在中国南方、喜马拉雅山麓到东南亚北部。",
+  "它最高被记录在海拔 3000 m。",
+  "鳞片通常是灰蓝色的。"
+ ],
+ "fact": "由于偷猎，它的野生数量在约 21 年里下降了 80% 以上，被列为极危。",
+ "range": "中国南方、台湾、尼泊尔、印度东北、东南亚北部。",
+ "sources": [
+  "Wikipedia「Chinese pangolin」",
+  "IUCN 红色名录（Challender 2019）"
+ ],
+ "footnote": ""
+}

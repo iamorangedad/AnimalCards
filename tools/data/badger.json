@@ -1,0 +1,77 @@
+{
+ "file": "狗獾",
+ "no": "237",
+ "cat": "森林",
+ "name_cn": "狗獾",
+ "name_en": "European badger",
+ "latin": "Meles meles",
+ "short": "狗獾",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "秋季体重",
+   "value": "15–17 kg",
+   "lo": 15,
+   "hi": 17,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "60–90 cm",
+   "lo": 0.6,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "地道总长",
+   "value": "35–81 m",
+   "lo": 35,
+   "hi": 81,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "小肠",
+   "value": "平均 5.36 m",
+   "lo": 5.36,
+   "hi": 5.36,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下宫殿",
+   "icon": "dive",
+   "desc": "洞穴有许多房间和出口，地道总长 35–81 m。"
+  },
+  {
+   "name": "冬眠前贴膘",
+   "icon": "huddle",
+   "desc": "春天 7–13 kg，入冬前长到 15–17 kg。"
+  }
+ ],
+ "intro": [
+  "狗獾又叫欧亚獾，广泛分布在欧洲。",
+  "它夜间活动，群居，白天在地盘里的几个洞穴之一睡觉。",
+  "肩高 25–30 cm，尾长 12–24 cm。"
+ ],
+ "fact": "波兰一片森林里的狗獾秋天比春天重了 46%。",
+ "range": "欧洲（含英国、爱尔兰）到西亚。",
+ "sources": [
+  "Wikipedia「European badger」",
+  "IUCN 红色名录（Kranz 2016）"
+ ],
+ "footnote": ""
+}

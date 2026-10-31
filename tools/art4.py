@@ -384,3 +384,74 @@ ART4["honey-badger"] = Q("savanna", (.75, 540, 300), F="#2a2a2e", bl=250, bd=96,
                          ears="small", tail="short", tail_col="#2a2a2e", extras=P("M-220 -150 C-100 -190 80 -190 150 -120", sw=40, col="#e9e6df"))
 ART4["anteater"] = Q("savanna", (.75, 580, 340), F="#8a7560", bl=280, bd=110, lh=80, lw=26, belly="#5a4a3a", neck=(10, 40), nw=70, head=(30, 26), snout=(120, 16), snout_col="#8a7560",
                      ears="small", tail="bushy", tail_col="#5a4a3a", headdown=40, extras=P("M-160 -160 L60 -110", sw=22, col=INK) + P("M-150 -140 L60 -100", sw=8, col="#f4efe6"))
+
+# ------------------------------------------------------------------ 森林
+def bear(kind, F, snout_col, chest=None, **kw):
+    k = dict(F=F, bl=320, bd=150, lh=110, lw=44, neck=(10, 50), nw=100, head=(56, 50), snout=(40, 34), snout_col=snout_col, ears="round", tail="short", shoulder=30)
+    k.update(kw)
+    def f(w, h):
+        a = quad(**k)
+        if chest: a += P("M-200 -200 q30 30 70 0", sw=18, col=INK) + P("M-200 -200 q30 30 70 0", sw=12, col=chest)
+        return scene(kind, w, h, a)
+    return f
+ART4["moon-bear"] = bear("forest", "#232326", "#b8a48a")
+ART4["sun-bear"] = bear("rainforest", "#2a2624", "#d9a860", bl=280, bd=130, lh=90, head=(50, 44), ears="small")
+ART4["am-black-bear"] = bear("forest", "#2a2a2e", "#a8865a")
+ART4["red-deer"] = Q("forest", (.78, 560, 460), F="#9a5a32", bl=280, bd=116, lh=150, lw=22, belly="#c9a07a", neck=(60, 34), nw=60, head=(40, 34), snout=(44, 28),
+                     ears="side", horns="antler", tail="short", tail_col="#e9dcc4", hooves="#3a3f45", neck_wool="#7a4a2a")
+ART4["moose"] = Q("forest", (.78, 580, 460), F="#4a3a2e", bl=320, bd=140, lh=170, lw=26, belly="#3a2e25", neck=(30, 50), nw=80, head=(50, 40), snout=(70, 44), snout_col="#5a4a3e",
+                  ears="side", horns="antler", tail="short", hooves="#2a2a2a", shoulder=36, beard="#3a2e25")
+ART4["roe-deer"] = Q("forest", (.78, 540, 440), F="#b8743e", bl=230, bd=96, lh=130, lw=18, belly="#e9cfa8", neck=(50, 30), nw=46, head=(34, 28), snout=(34, 24),
+                     snout_col="#3a2a1e", ears="side", horns="antler", tail="short", tail_col="#ffffff", hooves="#3a3f45")
+ART4["wild-boar"] = Q("forest", (.75, 560, 340), F="#5a4a3e", bl=290, bd=130, lh=80, lw=30, neck=(0, 0), head=(62, 52), snout=(44, 36), snout_col="#4a3a2e", nose=None,
+                      ears="point", tail="thin", tail_col="#3a2e25", hooves=INK, pig=True, mane="zebra", extras=P("M-262 -110 q-14 -20 0 -34", sw=6, col="#f4efe6"))
+ART4["lynx"] = Q("snow", None, F="#c9a07a", bl=250, bd=96, lh=140, lw=26, belly="#efe4d2", pattern="spots", pat_col="#6b5038", neck=(30, 36), nw=60, head=(40, 34), snout=(22, 24),
+                 snout_col="#efe4d2", ears="point", tail="short", tail_col=INK)
+ART4["clouded-leopard"] = lambda w, h: scene("rainforest", w, h, branch(-260, 260, 4, 18) + G_(quad(F="#c9b08a", bl=260, bd=84, lh=70, lw=22, belly="#efe4d2", pattern="patches", pat_col="#5a4a3a",
+                                             neck=(20, 36), nw=56, head=(36, 32), snout=(24, 24), snout_col="#efe4d2", ears="round", tail="long", tail_col="#c9b08a"), 0, -10), box=(w / 2, h * .66, 580, 320))
+def _lemur(w, h):
+    tail = "".join(P(f"M60 -{40+i*0}", sw=0) for i in range(0))
+    pts = [(70 + 20 * math.sin(i / 3) , -60 - i * 24) for i in range(14)]
+    d = "M" + " L".join(f"{x:.0f} {y:.0f}" for x, y in pts)
+    t = P(d, sw=34, col=INK) + P(d, sw=28, col="#ffffff") + "".join(P(f"M{x-14:.0f} {y:.0f} L{x+14:.0f} {y:.0f}", sw=12, col=INK) for x, y in pts[::2])
+    return scene("forest", w, h, t + ape(F="#a9a5a0", face="#ffffff", H=260, ear_col="#a9a5a0", brow=False, snub=False), box=(w / 2, h * .76, 440, 440))
+ART4["lemur"] = _lemur
+ART4["rhesus"] = lambda w, h: scene("forest", w, h, ape(F="#a8865a", face="#e8a8a0", H=280, ear_col="#e8a8a0", brow=False), box=(w / 2, h * .76, 420, 400))
+ART4["jp-macaque"] = lambda w, h: scene("snow", w, h, ape(F="#b9aa98", face="#e2483c", H=290, ear_col="#e88a80", brow=False, hair="#b9aa98"), box=(w / 2, h * .76, 430, 400))
+ART4["gibbon"] = lambda w, h: scene("rainforest", w, h, branch(-260, 260, 4, 14) + ape(F="#2a2622", face="#5a4a3a", H=260, arms=1.6, ear_col="#2a2622", brow=False, hair="#e9e2d6"), box=(w / 2, h * .76, 480, 420))
+ART4["mandrill"] = lambda w, h: scene("rainforest", w, h, ape(F="#6b6a3a", face="#3a5ab8", H=300, ear_col="#6b6a3a", brow=True, cheekpads=True) +
+                                      P("M-14 -300 l0 70", sw=14, col="#e2483c"), box=(w / 2, h * .76, 440, 400))
+ART4["bonobo"] = lambda w, h: scene("rainforest", w, h, ape(F="#2a2622", face="#3a3530", H=320, arms=1.2, ear_col="#2a2622", hair="#2a2622"), box=(w / 2, h * .76, 440, 400))
+ART4["okapi"] = Q("rainforest", (.8, 540, 460), F="#5a3a2a", bl=260, bd=110, lh=150, lw=22, neck=(110, 30), nw=56, head=(36, 30), snout=(40, 26), snout_col="#e9dcc4",
+                  ears="big", horns="ossicone", tail="tuft", hooves="#3a2a1e", extras="".join(P(f"M{110+i*14} -170 l0 60", sw=7, col="#ffffff") for i in range(4)) + "".join(P(f"M{-110+i*14} -100 l0 60", sw=7, col="#ffffff") for i in range(3)))
+ART4["tapir"] = Q("rainforest", (.75, 580, 340), F="#2a2a2e", bl=300, bd=140, lh=90, lw=34, neck=(0, 20), nw=80, head=(52, 44), snout=(56, 26), snout_col="#2a2a2e",
+                  ears="round", tail="short", tail_col="#2a2a2e", hooves=INK, nose=None, headdown=30, extras=P("M-40 -230 L120 -230 L130 -110 L-40 -110 Z", "#f4f2ee", 0))
+ART4["capybara"] = Q("wetland", (.75, 560, 320), F="#a8784a", bl=290, bd=140, lh=70, lw=32, neck=(10, 40), nw=90, head=(64, 54), snout=(50, 46), snout_col="#8a603a", nose="#3a2a1e",
+                     ears="small", tail="short", tail_col="#a8784a")
+def _armadillo(w, h):
+    o = E(0, -90, 160, 80, "#b9a08a", 3) + "".join(P(f"M{x} -165 C{x-4} -120 {x-4} -60 {x} -14", sw=3) for x in range(-60, 70, 15))
+    o += P("M-150 -70 C-210 -80 -230 -50 -250 -40 C-220 -30 -170 -30 -140 -40 Z", "#c9b09a", 2.8) + C(-190, -60, 5, INK, 0) + P("M-170 -110 l-8 -30 l18 20", "#c9b09a", 2.4)
+    o += P("M150 -80 C210 -70 260 -40 280 -10", sw=18, col=INK) + P("M150 -80 C210 -70 260 -40 280 -10", sw=12, col="#b9a08a")
+    o += "".join(P(f"M{x} -20 l0 30", sw=14, col=INK) + P(f"M{x} -20 l0 30", sw=9, col="#c9b09a") for x in (-90, -40, 50, 100))
+    return scene("forest", w, h, o, box=(w / 2, h * .76, 540, 280))
+ART4["armadillo"] = _armadillo
+def _pangolin(w, h):
+    o = E(0, -90, 160, 76, "#8a7a6a", 3) + "".join(P(f"M{x-20+(r%2)*10} {-150+r*24} q14 -12 28 0", sw=2.6, col="#5a4a3a") for r in range(5) for x in range(-120, 140, 30))
+    o += P("M-150 -80 C-210 -80 -240 -60 -260 -50 C-230 -40 -170 -40 -140 -50 Z", "#c9b4a0", 2.8) + C(-200, -66, 4, INK, 0)
+    o += P("M150 -70 C230 -60 280 0 230 30", sw=40, col=INK) + P("M150 -70 C230 -60 280 0 230 30", sw=34, col="#8a7a6a")
+    o += "".join(P(f"M{x} -20 l0 30", sw=14, col=INK) + P(f"M{x} -20 l0 30", sw=9, col="#c9b4a0") for x in (-90, -40, 50, 100))
+    return scene("forest", w, h, o, box=(w / 2, h * .76, 540, 290))
+ART4["pangolin"] = _pangolin
+ART4["badger"] = Q("forest", (.75, 540, 300), F="#9a9a9a", bl=260, bd=100, lh=50, lw=26, belly="#3a3a3a", neck=(10, 40), nw=70, head=(46, 36), snout=(36, 22), snout_col="#f4f4f4",
+                   ears="small", tail="short", tail_col="#9a9a9a", farleg="#2a2a2a", extras=P("M-258 -128 L-170 -128", sw=10, col=INK))
+def _euhedge(w, h):
+    o = E(0, -70, 130, 70, "#8a6a4a", 3) + "".join(P(f"M{-110+i*14} {-70-((i*37)%40)} l{6+(i%3)*4} -26", sw=4, col="#f2e6d2" if i % 2 else "#5a4030") for i in range(18))
+    o += P("M-110 -40 C-160 -40 -190 -20 -200 -6 C-170 0 -130 0 -100 -10 Z", "#c9a88a", 2.6) + C(-196, -8, 6, INK, 0) + C(-150, -34, 5, INK, 0)
+    return scene("meadow", w, h, o, box=(w / 2, h * .76, 420, 240))
+ART4["eu-hedgehog"] = _euhedge
+ART4["chipmunk"] = lambda w, h: scene("forest", w, h, rodent("#c98a4a", 200, 120, belly="#f4e6d0", ears="round", stripe="#3a2a1e", tail="bushy", tailcol="#a8743e", tl=.8, cheeks=True), box=(w / 2, h * .74, 440, 260))
+ART4["beaver"] = lambda w, h: scene("pond", w, h, rodent("#7a5034", 280, 160, belly="#9a6a44", ears="small", nose="#2a1e18") +
+                                    E(200, -10, 70, 22, "#4a3a30", 2.8) + "".join(P(f"M{150+i*20} -24 l0 28", sw=1.6, col="#7a6a5a") for i in range(5)) +
+                                    P("M-40 40 l200 -10 M-20 60 l220 -6", sw=12, col="#8a6a42"), box=(w / 2, h * .72, 540, 280))
+ART4["otter"] = Q("wetland", (.74, 600, 260), F="#6b4a32", bl=300, bd=76, lh=44, lw=22, belly="#c9a88a", neck=(30, 56), nw=58, head=(40, 32), snout=(32, 24), snout_col="#c9a88a",
+                  ears="round", tail="long", tail_col="#6b4a32")

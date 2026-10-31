@@ -1,0 +1,80 @@
+{
+ "file": "优红蛱蝶",
+ "no": "716",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "优红蛱蝶",
+ "name_en": "Red admiral",
+ "latin": "Vanessa atalanta",
+ "short": "优红蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃荨麻；成虫秋天常吸常春藤花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "4.4–6.4 cm",
+   "lo": 0.044,
+   "hi": 0.064,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫长",
+   "value": "约 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "蛹期 32°C",
+   "value": "6 天",
+   "lo": 6,
+   "hi": 6,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "蛹期 7°C",
+   "value": "47–82 天",
+   "lo": 47,
+   "hi": 82,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "迁徙",
+   "icon": "wind",
+   "desc": "住在较暖的地方，春天（有时秋天）向北迁徙。"
+  },
+  {
+   "name": "温度定蛹期",
+   "icon": "sun",
+   "desc": "蛹期随温度变化：32 °C 只要 6 天，7 °C 左右要 47–82 天。"
+  }
+ ],
+ "intro": [
+  "优红蛱蝶是一种中型蝴蝶。",
+  "幼虫的主要寄主植物是异株荨麻。",
+  "雄蝶有领地行为。"
+ ],
+ "fact": "在北欧，它是入冬前最后能看到的蝴蝶之一。",
+ "range": "北非、北美、欧洲、亚洲和加勒比的温带地区。",
+ "sources": [
+  "Wikipedia「Vanessa atalanta」",
+  "IUCN 红色名录（Walker 2020）"
+ ],
+ "footnote": ""
+}

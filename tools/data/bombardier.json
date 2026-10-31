@@ -1,0 +1,78 @@
+{
+ "file": "气步甲",
+ "no": "730",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "气步甲",
+ "name_en": "Bombardier beetle",
+ "latin": "Brachininae / Paussinae",
+ "short": "气步甲",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "大多数种类成虫和幼虫都是肉食性",
+ "iucn": {
+  "code": "NE",
+  "sub": "科级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "物种数",
+   "value": "500 多种*",
+   "lo": 500,
+   "hi": 500,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "喷射温度",
+   "value": "接近 100 °C",
+   "lo": 100,
+   "hi": 100,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "脉冲频率",
+   "value": "约 500 次/秒",
+   "lo": 500,
+   "hi": 500,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "可喷次数",
+   "value": "约 20 次",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "化学炮",
+   "icon": "fire",
+   "desc": "把对苯二酚和过氧化氢混合反应，喷出接近沸腾、刺鼻的液体，还有“啪”的响声。"
+  },
+  {
+   "name": "能转向",
+   "icon": "flip",
+   "desc": "有的种类能朝很多方向瞄准喷射。"
+  }
+ ],
+ "intro": [
+  "气步甲是步甲科里 500 多种甲虫的统称。",
+  "喷出的液体主要成分是对苯醌，刺激眼睛和呼吸道。",
+  "喷射分约 70 次脉冲完成。"
+ ],
+ "fact": "它用压力而不是肌肉来喷射，能节省体力。",
+ "range": "除南极洲外的各大洲。",
+ "sources": [
+  "Wikipedia「Bombardier beetle」"
+ ],
+ "footnote": "* 类群级数据。",
+ "warn": "会喷出接近沸腾的刺激性液体，不要徒手抓；碰到眼睛立刻用清水冲洗。"
+}

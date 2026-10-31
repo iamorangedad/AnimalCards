@@ -1,0 +1,77 @@
+{
+ "file": "草地贪夜蛾",
+ "no": "728",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "草地贪夜蛾",
+ "name_en": "Fall armyworm",
+ "latin": "Spodoptera frugiperda",
+ "short": "草地贪夜蛾",
+ "type": "陆地",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫主要吃草和玉米等谷物，记录吃过 80 多种植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "取食植物",
+   "value": "80 多种",
+   "lo": 80,
+   "hi": 80,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "经济作物",
+   "value": "30 种",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "中国省份",
+   "value": "2019 年 26 个",
+   "lo": 26,
+   "hi": 26,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "到达非洲",
+   "value": "2013 年",
+   "lo": 2013,
+   "hi": 2013,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "大军压境",
+   "icon": "team",
+   "desc": "幼虫大规模集体侵袭庄稼，所以叫“行军虫”。"
+  },
+  {
+   "name": "同类相残",
+   "icon": "fire",
+   "desc": "幼虫经常吃同类。"
+  }
+ ],
+ "intro": [
+  "草地贪夜蛾是严重的农业害虫。",
+  "它原产美洲。",
+  "2013 年首次在非洲发现，2019 年进入中国云南。"
+ ],
+ "fact": "2019 年它在中国共侵害了 26 个省份。",
+ "range": "原产美洲；已入侵非洲 28 国、亚洲等。",
+ "sources": [
+  "Wikipedia「Fall armyworm」"
+ ],
+ "footnote": "“到达非洲”比例条仅示意。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "东方蜜蜂",
+ "no": "739",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "东方蜜蜂",
+ "name_en": "Asian honey bee",
+ "latin": "Apis cerana",
+ "short": "东方蜜蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃花粉和花蜜（蜂蜜）",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "10–11 mm",
+   "lo": 0.01,
+   "hi": 0.011,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体温",
+   "value": "33–35.5 °C",
+   "lo": 33,
+   "hi": 35.5,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "热死胡蜂",
+   "value": "47 °C",
+   "lo": 47,
+   "hi": 47,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "分蜂停留",
+   "value": "20–30 m 外",
+   "lo": 20,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "热球杀敌",
+   "icon": "fire",
+   "desc": "日本亚种会围住胡蜂振动肌肉，把温度升到 47 °C 热死它，又不到自己的致死温度。"
+  },
+  {
+   "name": "摇摆舞",
+   "icon": "bee",
+   "desc": "发现好蜜源的工蜂会跳“摇摆舞”告诉同伴。"
+  }
+ ],
+ "intro": [
+  "东方蜜蜂原产南亚、东南亚和东亚。",
+  "它是西方蜜蜂的近亲。",
+  "食物不足时，整窝蜂会弃巢搬家。"
+ ],
+ "fact": "它不怎么囤大量蜂蜜，所以长期缺花时更容易挨饿。",
+ "range": "南亚、东南亚、东亚。",
+ "sources": [
+  "Wikipedia「Apis cerana」"
+ ],
+ "footnote": "“分蜂停留（m）”借用 n100 刻度。"
+}

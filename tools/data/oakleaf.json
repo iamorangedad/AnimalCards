@@ -1,0 +1,79 @@
+{
+ "file": "枯叶蛱蝶",
+ "no": "721",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "枯叶蛱蝶",
+ "name_en": "Orange oakleaf",
+ "latin": "Kallima inachus",
+ "short": "枯叶蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸树液和烂水果；幼虫吃马蓝等爵床科植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "85–110 mm",
+   "lo": 0.085,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "400–1400 m",
+   "lo": 400,
+   "hi": 1400,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "卵到成虫",
+   "value": "约 50 天",
+   "lo": 50,
+   "hi": 50,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "幼虫期",
+   "value": "约 36 天",
+   "lo": 36,
+   "hi": 36,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "枯叶伪装",
+   "icon": "camo",
+   "desc": "合上翅膀几乎和枯叶一模一样，连叶脉和破损处都像，是伪装的经典例子。"
+  },
+  {
+   "name": "飞得快",
+   "icon": "wind",
+   "desc": "飞行相当迅速。"
+  }
+ ],
+ "intro": [
+  "枯叶蛱蝶是大型蛱蝶。",
+  "它多见于潮湿的森林。",
+  "在重庆，一代从卵到成虫约 50 天。"
+ ],
+ "fact": "养殖条件下，幼虫期能从 36 天缩短到 16.8–23 天。",
+ "range": "日本冲绳到印度北部、尼泊尔的东亚和南亚。",
+ "sources": [
+  "Wikipedia「Kallima inachus」",
+  "维基百科「枯叶蛱蝶」"
+ ],
+ "footnote": ""
+}

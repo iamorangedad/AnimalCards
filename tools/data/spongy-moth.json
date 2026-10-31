@@ -1,0 +1,77 @@
+{
+ "file": "舞毒蛾",
+ "no": "725",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "舞毒蛾",
+ "name_en": "Spongy moth",
+ "latin": "Lymantria dispar",
+ "short": "舞毒蛾",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃多种阔叶树和针叶树的叶子",
+ "iucn": {
+  "code": "NE",
+  "sub": "NatureServe G5"
+ },
+ "stats": [
+  {
+   "label": "扩散速度",
+   "value": "约 21 km/年",
+   "lo": 21,
+   "hi": 21,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "毁林面积",
+   "value": "3300 万公顷",
+   "lo": 33,
+   "hi": 33,
+   "scale": "mt",
+   "approx": true
+  },
+  {
+   "label": "爆发密度",
+   "value": "250 万条/公顷",
+   "lo": 2500000.0,
+   "hi": 2500000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "引入美国",
+   "value": "1869 年",
+   "lo": 1869,
+   "hi": 1869,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "什么叶都吃",
+   "icon": "food",
+   "desc": "幼虫什么树都吃，大爆发年份会造成严重破坏。"
+  },
+  {
+   "name": "毛毛虫",
+   "icon": "thorn",
+   "desc": "幼虫身上有一簇簇的毛。"
+  }
+ ],
+ "intro": [
+  "舞毒蛾原产欧洲和亚洲。",
+  "它是世界百大外来入侵物种之一。",
+  "1869 年它被人带到北美，想用来产丝。"
+ ],
+ "fact": "1970 到 2013 年，它在北美累计让 3300 万公顷森林落叶。",
+ "range": "原产欧洲和亚洲；入侵北美、非洲、南美。",
+ "sources": [
+  "Wikipedia「Lymantria dispar」"
+ ],
+ "footnote": "“毁林面积（百万公顷）”借用 mt 刻度；“引入美国”比例条仅示意。"
+}

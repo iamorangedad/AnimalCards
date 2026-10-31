@@ -1,0 +1,77 @@
+{
+ "file": "鬼脸天蛾",
+ "no": "724",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "鬼脸天蛾",
+ "name_en": "African death's-head hawkmoth",
+ "latin": "Acherontia atropos",
+ "short": "鬼脸天蛾",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "会闯进蜂巢偷蜂蜜",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "80–120 mm",
+   "lo": 0.08,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫长",
+   "value": "13–15 cm",
+   "lo": 0.13,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蛹深",
+   "value": "地下 20–25 cm",
+   "lo": 0.2,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "同属",
+   "value": "3 种",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会尖叫",
+   "icon": "ear",
+   "desc": "受惊时能从咽部发出“吱吱”声；可能模仿蜂王的声音。"
+  },
+  {
+   "name": "偷蜂蜜",
+   "icon": "bee",
+   "desc": "有闯进蜜蜂巢偷蜜的习性。"
+  }
+ ],
+ "intro": [
+  "鬼脸天蛾胸部有像人类头骨的花纹，名字由此而来。",
+  "它飞得很晚，所以很少被看到。",
+  "它会迁徙到英国等地。"
+ ],
+ "fact": "它出现在电影《沉默的羔羊》（1991）里。",
+ "range": "非洲、南欧；迁徙到英国等地。",
+ "sources": [
+  "Wikipedia「Acherontia atropos」"
+ ],
+ "footnote": ""
+}

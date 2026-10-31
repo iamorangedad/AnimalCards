@@ -1,0 +1,78 @@
+{
+ "file": "米象",
+ "no": "736",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "米象",
+ "name_en": "Rice weevil",
+ "latin": "Sitophilus oryzae",
+ "short": "米象",
+ "type": "陆地",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫在谷粒里把谷粒吃空",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "成虫",
+   "value": "2.5–3.5 mm",
+   "lo": 0.0025,
+   "hi": 0.0035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "世代",
+   "value": "每年 8–9 代",
+   "lo": 8,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "一代 32°C",
+   "value": "25 天",
+   "lo": 25,
+   "hi": 25,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "冷冻杀虫",
+   "value": "−18 °C 3 天",
+   "lo": -18,
+   "hi": -18,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "住在米里",
+   "icon": "jar",
+   "desc": "幼虫在谷粒里长大、化蛹，把谷粒吃空。"
+  },
+  {
+   "name": "怕冷怕热",
+   "icon": "cold",
+   "desc": "−18 °C 冷冻 3 天或 60 °C 加热 15 分钟就能杀死。"
+  }
+ ],
+ "intro": [
+  "米象是储粮害虫，危害小麦、大米和玉米。",
+  "幼虫驼背无足，乳白色。",
+  "温度高时繁殖更快。"
+ ],
+ "fact": "米象和玉米象长得很像，大小有重叠。",
+ "range": "世界各地的储粮中。",
+ "sources": [
+  "Wikipedia「Rice weevil」",
+  "维基百科「米象」"
+ ],
+ "footnote": "体长、世代来自中文维基。【待核：分布】"
+}

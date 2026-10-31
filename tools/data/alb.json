@@ -1,0 +1,77 @@
+{
+ "file": "光肩星天牛",
+ "no": "732",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "光肩星天牛",
+ "name_en": "Asian long-horned beetle",
+ "latin": "Anoplophora glabripennis",
+ "short": "光肩星天牛",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫钻进树干吃木头",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "触角",
+   "value": "可达 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "一生 45–62 粒",
+   "lo": 45,
+   "hi": 62,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "幼虫长",
+   "value": "可达 50 mm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "吃木头",
+   "value": "一生 1000 cm³",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "钻树",
+   "icon": "root",
+   "desc": "幼虫先在形成层蛀食，长大后钻到心材，一生能吃掉 1000 cm³ 木头。"
+  },
+  {
+   "name": "星空花纹",
+   "icon": "camo",
+   "desc": "亮黑色，每片鞘翅上约有 20 个白斑，像“星空”。"
+  }
+ ],
+ "intro": [
+  "光肩星天牛原产朝鲜半岛和中国。",
+  "它被意外带到美国东部等地，成为入侵物种。",
+  "雌虫在树皮上咬个小坑产卵。"
+ ],
+ "fact": "奥地利在连续 4 年没再发现后，于 2021 年宣布清除了它。",
+ "range": "原产中国、朝鲜半岛；入侵北美和欧洲。",
+ "sources": [
+  "Wikipedia「Asian long-horned beetle」"
+ ],
+ "footnote": ""
+}

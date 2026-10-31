@@ -1,0 +1,80 @@
+{
+ "file": "孔雀蛱蝶",
+ "no": "717",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "孔雀蛱蝶",
+ "name_en": "European peacock",
+ "latin": "Aglais io",
+ "short": "孔雀蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃荨麻和啤酒花",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄蝶翼展",
+   "value": "63–69 mm",
+   "lo": 0.063,
+   "hi": 0.069,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蝶翼展",
+   "value": "67–75 mm",
+   "lo": 0.067,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫长",
+   "value": "最长 42 mm",
+   "lo": 0.042,
+   "hi": 0.042,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 1 周",
+   "lo": 7,
+   "hi": 7,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吓人眼斑",
+   "icon": "camo",
+   "desc": "翅上的大眼斑可能在模仿鸟类天敌的眼睛，吓退捕食者。"
+  },
+  {
+   "name": "枯叶+嘶声",
+   "icon": "ear",
+   "desc": "翅膀背面像枯叶；还能发出嘶嘶声自卫。"
+  }
+ ],
+ "intro": [
+  "孔雀蛱蝶是欧洲常见的色彩鲜艳的蝴蝶。",
+  "卵通常产在荨麻上。",
+  "冬眠时它靠伪装成叶子、一动不动来躲避天敌。"
+ ],
+ "fact": "雄蝶看到经过的同类，会直飞过去，到离它约 10 cm 处才停。",
+ "range": "欧洲和温带亚洲，东到日本。",
+ "sources": [
+  "Wikipedia「Aglais io」",
+  "IUCN 红色名录（van Swaay, C. 2025）"
+ ],
+ "footnote": ""
+}

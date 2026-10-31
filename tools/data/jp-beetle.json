@@ -1,0 +1,77 @@
+{
+ "file": "日本弧丽金龟",
+ "no": "731",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "日本弧丽金龟",
+ "name_en": "Japanese beetle",
+ "latin": "Popillia japonica",
+ "short": "日本弧丽金龟",
+ "type": "陆地",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫啃叶片（只留叶脉）和果实；幼虫吃草根",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 15 mm",
+   "lo": 0.015,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "体宽",
+   "value": "约 10 mm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "幼虫长",
+   "value": "约 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "受害植物",
+   "value": "约 300 种",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "啃成网",
+   "icon": "food",
+   "desc": "吃掉叶脉之间的部分，把叶子啃成网状。"
+  },
+  {
+   "name": "地下幼虫",
+   "icon": "root",
+   "desc": "C 形的幼虫在地下吃根，会损害草坪和牧场。"
+  }
+ ],
+ "intro": [
+  "日本弧丽金龟原产日本，在当地因有天敌而不算害虫。",
+  "在北美和欧洲，它危害约 300 种植物。",
+  "它可能在 1912 年前随鸢尾球茎进入美国。"
+ ],
+ "fact": "2017 年它在瑞士提契诺州被发现。",
+ "range": "原产日本；入侵北美和欧洲。",
+ "sources": [
+  "Wikipedia「Japanese beetle」"
+ ],
+ "footnote": ""
+}

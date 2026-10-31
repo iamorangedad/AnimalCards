@@ -1,0 +1,77 @@
+{
+ "file": "黄粉虫",
+ "no": "733",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "黄粉虫",
+ "name_en": "Mealworm",
+ "latin": "Tenebrio molitor",
+ "short": "黄粉虫",
+ "type": "陆地",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "杂食",
+ "diet_note": "幼虫吃植物和死昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "幼虫长",
+   "value": "可达 3.2 cm",
+   "lo": 0.032,
+   "hi": 0.032,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虫长",
+   "value": "可达 1.9 cm",
+   "lo": 0.019,
+   "hi": 0.019,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "4–19 天",
+   "lo": 4,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "蜕皮",
+   "value": "9–20 龄",
+   "lo": 9,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "能吃的虫",
+   "icon": "food",
+   "desc": "是动物和人的食物来源。"
+  },
+  {
+   "name": "储粮害虫",
+   "icon": "jar",
+   "desc": "也被当作害虫，尤其祸害储存的粮食。"
+  }
+ ],
+ "intro": [
+  "黄粉虫是黄粉甲的幼虫。",
+  "它经历卵、幼虫、蛹、成虫四个阶段。",
+  "成虫是深褐色或黑色的。"
+ ],
+ "fact": "最早的考古记录可以追溯到土耳其的青铜时代。",
+ "range": "世界各地。",
+ "sources": [
+  "Wikipedia「Mealworm」"
+ ],
+ "footnote": "【待核：分布】"
+}

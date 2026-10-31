@@ -1,0 +1,78 @@
+{
+ "file": "黄缘龙虱",
+ "no": "737",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "黄缘龙虱",
+ "name_en": "Great diving beetle",
+ "latin": "Dytiscus marginalis",
+ "short": "黄缘龙虱",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "贪吃的捕食者，连小鱼都吃",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "成虫",
+   "value": "27–35 mm",
+   "lo": 0.027,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫",
+   "value": "可达 60 mm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "17–19 天",
+   "lo": 17,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "龙虱科",
+   "value": "4000 多种*",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "背着气泡",
+   "icon": "dive",
+   "desc": "潜水前把空气泡存在鞘翅下面。"
+  },
+  {
+   "name": "看月光找水",
+   "icon": "wind",
+   "desc": "会在夜里飞，利用月光的反光找新水源，有时会误降到湿马路上。"
+  }
+ ],
+ "intro": [
+  "黄缘龙虱是生活在淡水里的大型甲虫。",
+  "原产欧洲和亚洲北部。",
+  "雄虫前两对足上有很多吸盘。"
+ ],
+ "fact": "它的上颚相对身体来说非常有力。",
+ "range": "欧洲和亚洲北部。",
+ "sources": [
+  "Wikipedia「Dytiscus marginalis」",
+  "Wikipedia「Dytiscidae」"
+ ],
+ "footnote": "* 科级数据。"
+}

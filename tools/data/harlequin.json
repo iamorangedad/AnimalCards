@@ -1,0 +1,78 @@
+{
+ "file": "异色瓢虫",
+ "no": "738",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "异色瓢虫",
+ "name_en": "Harlequin ladybird",
+ "latin": "Harmonia axyridis",
+ "short": "异色瓢虫",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "农田"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蚜虫，也吃葡萄、树莓等水果",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "5.5–8.5 mm",
+   "lo": 0.0055,
+   "hi": 0.0085,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "活动温度",
+   "value": "约 10 °C 以上",
+   "lo": 10,
+   "hi": 10,
+   "scale": "temp",
+   "approx": true
+  },
+  {
+   "label": "斑点",
+   "value": "0–22 个",
+   "lo": 0,
+   "hi": 22,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "色型",
+   "value": "非常多",
+   "lo": 100,
+   "hi": 100,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "入侵冠军",
+   "icon": "fire",
+   "desc": "被认为是世界上最具入侵性的昆虫之一，会吃本地瓢虫的卵。"
+  },
+  {
+   "name": "抗菌化学",
+   "icon": "micro",
+   "desc": "体内有抗菌物质瓢虫碱，帮它抵抗疾病。"
+  }
+ ],
+ "intro": [
+  "异色瓢虫原产东亚。",
+  "它被人引入北美和欧洲去防治蚜虫。",
+  "它是颜色变化最多的瓢虫之一。"
+ ],
+ "fact": "它爱在屋里越冬，被惊扰时会留下难闻的液体，有时还会咬人。",
+ "range": "原产东亚；入侵北美、欧洲等。",
+ "sources": [
+  "Wikipedia「Harmonia axyridis」"
+ ],
+ "footnote": "“色型”比例条仅示意；斑点数指常见的 succinea 型。"
+}

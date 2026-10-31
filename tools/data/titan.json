@@ -1,0 +1,79 @@
+{
+ "file": "泰坦天牛",
+ "no": "734",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "泰坦天牛",
+ "name_en": "Titan beetle",
+ "latin": "Titanus giganteus",
+ "short": "泰坦天牛",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "幼虫吃枯木和被真菌侵染的植物；成虫只喝水",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "超过 170 mm",
+   "lo": 0.17,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大记录",
+   "value": "17.6 cm",
+   "lo": 0.176,
+   "hi": 0.176,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "疑似幼虫洞",
+   "value": "宽 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "洞长",
+   "value": "30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨大甲虫",
+   "icon": "fire",
+   "desc": "是已知最大的甲虫之一，体长超过 17 cm。"
+  },
+  {
+   "name": "分解枯木",
+   "icon": "root",
+   "desc": "幼虫吃枯木，把腐烂的植物变成腐殖质。"
+  }
+ ],
+ "intro": [
+  "泰坦天牛是泰坦天牛属唯一的物种。",
+  "它生活在南美洲，常和亚马孙雨林联系在一起。",
+  "科学家还没找到确认的幼虫，所以很难研究它的一生。"
+ ],
+ "fact": "成虫不进食，只找对象交配。",
+ "range": "南美洲（亚马孙雨林等）。",
+ "sources": [
+  "Wikipedia「Titan beetle」",
+  "维基百科「泰坦大天牛」"
+ ],
+ "footnote": "洞的尺寸是疑似幼虫造成的估计。"
+}

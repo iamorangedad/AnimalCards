@@ -1,0 +1,77 @@
+{
+ "file": "绿虎甲",
+ "no": "729",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "绿虎甲",
+ "name_en": "Green tiger beetle",
+ "latin": "Cicindela campestris",
+ "short": "绿虎甲",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食小昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "奔跑速度",
+   "value": "60 cm/秒",
+   "lo": 2.16,
+   "hi": 2.16,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "18–19 天",
+   "lo": 18,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "卵深",
+   "value": "1–1.5 mm",
+   "lo": 0.001,
+   "hi": 0.0015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一龄期",
+   "value": "约 31 天",
+   "lo": 31,
+   "hi": 31,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞快奔跑",
+   "icon": "wind",
+   "desc": "能以每秒 60 cm 的速度奔跑。"
+  },
+  {
+   "name": "大颚幼虫",
+   "icon": "fire",
+   "desc": "幼虫有很大的上颚。"
+  }
+ ],
+ "intro": [
+  "绿虎甲是广泛分布在欧亚大陆的虎甲。",
+  "在欧洲从西南的西班牙到东北的芬兰都有。",
+  "它喜欢干燥的黏土或沙土地。"
+ ],
+ "fact": "在英国，它主要出现在干燥的沙地、石楠荒原和苏格兰高地。",
+ "range": "欧洲到亚洲。",
+ "sources": [
+  "Wikipedia「Cicindela campestris」"
+ ],
+ "footnote": "速度换算为 2.16 km/h。【待核：食性】"
+}

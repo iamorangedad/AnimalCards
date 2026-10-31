@@ -1,0 +1,79 @@
+{
+ "file": "亚历山大鸟翼凤蝶",
+ "no": "720",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "亚历山大鸟翼凤蝶",
+ "name_en": "Queen Alexandra's birdwing",
+ "latin": "Ornithoptera alexandrae",
+ "short": "亚历山大鸟翼凤蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃马兜铃科藤本；成虫吸木槿等花蜜",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "雌蝶翼展",
+   "value": "25–28 cm",
+   "lo": 0.25,
+   "hi": 0.28,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌蝶体长",
+   "value": "8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蝶体重",
+   "value": "最重 12 g",
+   "lo": 0.012,
+   "hi": 0.012,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "雄蝶翼展",
+   "value": "约 16 cm",
+   "lo": 0.16,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "世界最大",
+   "icon": "wind",
+   "desc": "是世界上最大的蝴蝶，雌蝶翼展超过 25 cm。"
+  },
+  {
+   "name": "储存毒素",
+   "icon": "toxic",
+   "desc": "幼虫在发育中积累对脊椎动物有毒的物质。"
+  }
+ ],
+ "intro": [
+  "亚历山大鸟翼凤蝶只生活在巴布亚新几内亚东部的奥罗省森林。",
+  "它是被列入 CITES 附录 I 的四种昆虫之一。",
+  "刚孵出的幼虫会先吃自己的卵壳。"
+ ],
+ "fact": "成虫在清晨和黄昏最活跃，是强壮的飞行者。",
+ "range": "巴布亚新几内亚奥罗省。",
+ "sources": [
+  "Wikipedia「Queen Alexandra's birdwing」"
+ ],
+ "footnote": ""
+}

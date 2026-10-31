@@ -1,0 +1,78 @@
+{
+ "file": "斑马长翅蛱蝶",
+ "no": "722",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "斑马长翅蛱蝶",
+ "name_en": "Zebra longwing",
+ "latin": "Heliconius charithonia",
+ "short": "斑马长翅蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸花蜜也吃花粉；幼虫吃西番莲",
+ "iucn": {
+  "code": "NE",
+  "sub": "NatureServe G5"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "72–100 mm",
+   "lo": 0.072,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "最长 3 个月",
+   "lo": 3,
+   "hi": 3,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "实验室",
+   "value": "4–5 个月",
+   "lo": 4,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "州蝴蝶",
+   "value": "佛罗里达",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃花粉",
+   "icon": "bee",
+   "desc": "少见地吃花粉，用它合成氰苷，让身体有毒。"
+  },
+  {
+   "name": "警戒条纹",
+   "icon": "toxic",
+   "desc": "黑黄条纹是警戒色，告诉天敌“我有毒”。"
+  }
+ ],
+ "intro": [
+  "斑马长翅蛱蝶分布在南美洲、中美洲，北到得州南部和佛罗里达。",
+  "它是佛罗里达州的州蝴蝶。",
+  "幼虫咬掉或用丝盖住西番莲的防御毛。"
+ ],
+ "fact": "吃花粉让它们更长寿，成虫在野外能活 3 个月。",
+ "range": "南美洲、中美洲、美国南部。",
+ "sources": [
+  "Wikipedia「Heliconius charithonia」"
+ ],
+ "footnote": "“州蝴蝶”比例条仅示意。"
+}

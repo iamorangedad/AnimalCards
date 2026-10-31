@@ -1,0 +1,79 @@
+{
+ "file": "钩粉蝶",
+ "no": "718",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "钩粉蝶",
+ "name_en": "Common brimstone",
+ "latin": "Gonepteryx rhamni",
+ "short": "钩粉蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫只吃两种鼠李；成虫吸多种花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "60–74 mm",
+   "lo": 0.06,
+   "hi": 0.074,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10 个月–1 年",
+   "lo": 10,
+   "hi": 12,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "越冬",
+   "value": "约 7 个月",
+   "lo": 7,
+   "hi": 7,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "寄主植物",
+   "value": "2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长寿蝴蝶",
+   "icon": "sun",
+   "desc": "是寿命最长的蝴蝶之一，可活 10 个月到一年。"
+  },
+  {
+   "name": "保护色",
+   "icon": "camo",
+   "desc": "幼虫和成虫都有保护色和保护行为。"
+  }
+ ],
+ "intro": [
+  "钩粉蝶是一种粉蝶。",
+  "幼虫只吃欧鼠李和药鼠李两种植物。",
+  "它每年只繁殖一代。"
+ ],
+ "fact": "它到林地里越冬约七个月，春天回到湿地繁殖。",
+ "range": "欧洲、北非、亚洲。",
+ "sources": [
+  "Wikipedia「Gonepteryx rhamni」"
+ ],
+ "footnote": ""
+}

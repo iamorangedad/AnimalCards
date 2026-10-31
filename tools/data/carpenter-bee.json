@@ -1,0 +1,79 @@
+{
+ "file": "紫木蜂",
+ "no": "740",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "紫木蜂",
+ "name_en": "Violet carpenter bee",
+ "latin": "Xylocopa violacea",
+ "short": "紫木蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "朽木"
+ ],
+ "diet": "草食",
+ "diet_note": "吃花粉和花蜜；给幼虫准备花粉团",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "欧洲排名",
+   "value": "最大的蜂之一",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "木蜂属",
+   "value": "几乎都钻木*",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "英国记录",
+   "value": "2010 年",
+   "lo": 2010,
+   "hi": 2010,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "命名",
+   "value": "林奈",
+   "lo": 1758,
+   "hi": 1758,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "钻木筑巢",
+   "icon": "root",
+   "desc": "和大多数木蜂一样，在枯木里钻洞做巢。"
+  },
+  {
+   "name": "花粉团",
+   "icon": "food",
+   "desc": "把卵产在一串小格子里，每格放一个花粉团给幼虫吃。"
+  }
+ ],
+ "intro": [
+  "紫木蜂是欧洲常见的木蜂，也是欧洲最大的蜂之一。",
+  "它也原产亚洲。",
+  "林奈把模式种命名为 Apis violacea，意思是“紫色的蜂”。"
+ ],
+ "fact": "2010 年它在英国北安普敦郡和伍斯特郡出现。",
+ "range": "欧洲、亚洲。",
+ "sources": [
+  "Wikipedia「Xylocopa violacea」",
+  "Wikipedia「Carpenter bee」"
+ ],
+ "footnote": "* 属级描述。各比例条仅示意（来源无具体数值）。"
+}

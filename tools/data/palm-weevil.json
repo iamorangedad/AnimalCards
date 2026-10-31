@@ -1,0 +1,77 @@
+{
+ "file": "红棕象甲",
+ "no": "735",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "红棕象甲",
+ "name_en": "Red palm weevil",
+ "latin": "Rhynchophorus ferrugineus",
+ "short": "红棕象甲",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫钻进棕榈树心吃软纤维和顶芽",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "成虫",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫",
+   "value": "可达 6–7 cm",
+   "lo": 0.06,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蛀洞",
+   "value": "可达 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "椰枣国",
+   "value": "约 50% 有它",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "树心杀手",
+   "icon": "root",
+   "desc": "幼虫在树干里蛀出 1 m 长的洞，最终杀死棕榈。"
+  },
+  {
+   "name": "可以吃",
+   "icon": "food",
+   "desc": "幼虫在东南亚被当作美味。"
+  }
+ ],
+ "intro": [
+  "红棕象甲原产热带亚洲。",
+  "它已扩散到非洲和欧洲，1980 年代到达地中海。",
+  "它危害椰子、椰枣和油棕。"
+ ],
+ "fact": "现在约 15% 种椰子的国家、近 50% 种椰枣的国家都有它。",
+ "range": "原产热带亚洲；入侵非洲、欧洲等。",
+ "sources": [
+  "Wikipedia「Rhynchophorus ferrugineus」"
+ ],
+ "footnote": ""
+}

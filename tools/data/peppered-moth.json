@@ -1,0 +1,78 @@
+{
+ "file": "桦尺蛾",
+ "no": "726",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "桦尺蛾",
+ "name_en": "Peppered moth",
+ "latin": "Biston betularia",
+ "short": "桦尺蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃树叶",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "45–62 mm",
+   "lo": 0.045,
+   "hi": 0.062,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "中位翼展",
+   "value": "55 mm",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "约 2000 粒",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 1 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "树枝伪装",
+   "icon": "camo",
+   "desc": "幼虫形状和颜色都像小树枝；研究发现它能用皮肤感知树枝颜色并变色。"
+  },
+  {
+   "name": "黑白两型",
+   "icon": "micro",
+   "desc": "有浅色型和黑化型：浅色型在地衣上隐蔽，黑化型在光秃树皮上隐蔽。"
+  }
+ ],
+ "intro": [
+  "桦尺蛾是研究自然选择的经典例子。",
+  "雌蛾把约 2000 粒浅绿色卵产在树皮缝里。",
+  "蛹在土里越冬。"
+ ],
+ "fact": "浅色型还能反射紫外线，在鸟眼里也能和壳状地衣融为一体。",
+ "range": "欧洲、中亚和高加索、北美等。",
+ "sources": [
+  "Wikipedia「Peppered moth」"
+ ],
+ "footnote": "【待核：幼虫具体食物】"
+}

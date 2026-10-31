@@ -1,0 +1,78 @@
+{
+ "file": "粉红枫蛾",
+ "no": "727",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "粉红枫蛾",
+ "name_en": "Rosy maple moth",
+ "latin": "Dryocampa rubicunda",
+ "short": "粉红枫蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃红枫、银枫和糖枫叶；成虫不进食",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "雄蛾翼展",
+   "value": "3.2–4.4 cm",
+   "lo": 0.032,
+   "hi": 0.044,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蛾翼展",
+   "value": "3.8–5 cm",
+   "lo": 0.038,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵径",
+   "value": "约 1.4 mm",
+   "lo": 0.0014,
+   "hi": 0.0014,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "龄期",
+   "value": "5 龄",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "成虫不吃",
+   "icon": "sun",
+   "desc": "和所有大蚕蛾一样，成虫不进食。"
+  },
+  {
+   "name": "集体进食",
+   "icon": "team",
+   "desc": "低龄幼虫成群吃叶，三四龄以后才单独行动。"
+  }
+ ],
+ "intro": [
+  "粉红枫蛾是最小的大蚕蛾。",
+  "它的幼虫叫“绿纹枫虫”。",
+  "幼虫多在枫叶或橡树叶背面进食。"
+ ],
+ "fact": "幼虫太多时会把树叶吃光，但一般不会造成永久伤害。",
+ "range": "美国东部和北部、加拿大南部。",
+ "sources": [
+  "Wikipedia「Dryocampa rubicunda」"
+ ],
+ "footnote": ""
+}

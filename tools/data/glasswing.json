@@ -1,0 +1,78 @@
+{
+ "file": "透翅蝶",
+ "no": "719",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "透翅蝶",
+ "name_en": "Glasswing butterfly",
+ "latin": "Greta oto",
+ "short": "透翅蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃有毒的夜香树；成虫吸马缨丹花蜜",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.8–3.0 cm",
+   "lo": 0.028,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "5.6–6.1 cm",
+   "lo": 0.056,
+   "hi": 0.061,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "马缨丹",
+   "value": "约 150 种",
+   "lo": 150,
+   "hi": 150,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "透明度",
+   "value": "翅几乎透明",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "透明翅膀",
+   "icon": "camo",
+   "desc": "翅膀透明，不用鲜艳颜色也能伪装；西语叫它“小镜子”。"
+  },
+  {
+   "name": "借毒防身",
+   "icon": "toxic",
+   "desc": "幼虫吃有毒植物，体内储存的化学物质让天敌不爱吃。"
+  }
+ ],
+ "intro": [
+  "透翅蝶主要生活在中美洲和南美洲北部。",
+  "透明的翅膀边缘是深褐色带红或橙。",
+  "它会长距离迁徙，还有求偶场行为。"
+ ],
+ "fact": "幼虫的提取物连子弹蚁都不爱吃。",
+ "range": "中美洲、南美洲北部；北到墨西哥和得州。",
+ "sources": [
+  "Wikipedia「Greta oto」"
+ ],
+ "footnote": "“透明度”比例条仅示意。"
+}

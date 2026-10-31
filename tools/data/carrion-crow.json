@@ -1,0 +1,78 @@
+{
+ "file": "小嘴乌鸦",
+ "no": "633",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "小嘴乌鸦",
+ "name_en": "Carrion crow",
+ "latin": "Corvus corone",
+ "short": "小嘴乌鸦",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃腐肉、虫子、谷物、果实和蛋",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "48–52 cm",
+   "lo": 0.48,
+   "hi": 0.52,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵卵期",
+   "value": "18–20 天",
+   "lo": 18,
+   "hi": 20,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "离巢",
+   "value": "29–30 天",
+   "lo": 29,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "能数到",
+   "value": "30",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "聪明",
+   "icon": "micro",
+   "desc": "能分辨最多到 30 的数字。"
+  },
+  {
+   "name": "什么都吃",
+   "icon": "food",
+   "desc": "除了腐肉，也吃虫、蚯蚓、谷物、果实、小动物和偷来的蛋。"
+  }
+ ],
+ "intro": [
+  "小嘴乌鸦是鸦科的鸟，原产西欧和东古北界。",
+  "它比渡鸦小，全身黑色，和冠小嘴乌鸦不同。",
+  "雌鸟独自孵蛋，雄鸟喂她。"
+ ],
+ "fact": "它的智力和灵长类相近，是趋同演化的结果。",
+ "range": "西欧、东亚。",
+ "sources": [
+  "Wikipedia「Carrion crow」"
+ ],
+ "footnote": ""
+}

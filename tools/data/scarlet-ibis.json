@@ -1,0 +1,79 @@
+{
+ "file": "美洲红鹮",
+ "no": "650",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "美洲红鹮",
+ "name_en": "Scarlet ibis",
+ "latin": "Eudocimus ruber",
+ "short": "美洲红鹮",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃虾和红色甲壳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "55–63 cm",
+   "lo": 0.55,
+   "hi": 0.63,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸟体重",
+   "value": "约 1.4 kg",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "雄喙更长",
+   "value": "约 22%",
+   "lo": 22,
+   "hi": 22,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "国鸟",
+   "value": "2 种之一",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃出红色",
+   "icon": "food",
+   "desc": "大量吃红色甲壳动物，羽毛才变成鲜红色。"
+  },
+  {
+   "name": "国鸟",
+   "icon": "sun",
+   "desc": "是特立尼达和多巴哥的两种国鸟之一。"
+  }
+ ],
+ "intro": [
+  "美洲红鹮生活在南美洲热带和部分加勒比地区。",
+  "幼鸟是灰、褐、白色的。",
+  "雄鸟比雌鸟稍大，喙平均长约 22%。"
+ ],
+ "fact": "它的图皮-瓜拉尼语名字叫 guará。",
+ "range": "南美洲北部热带、特立尼达和多巴哥。",
+ "sources": [
+  "Wikipedia「Scarlet ibis」"
+ ],
+ "footnote": "“国鸟”比例条仅示意。"
+}

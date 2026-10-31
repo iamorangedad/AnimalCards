@@ -1,0 +1,79 @@
+{
+ "file": "家麻雀",
+ "no": "626",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "家麻雀",
+ "name_en": "House sparrow",
+ "latin": "Passer domesticus",
+ "short": "家麻雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃谷物和草籽，是机会主义的杂食者",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14–18 cm",
+   "lo": 0.14,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "24–39.5 g",
+   "lo": 0.024,
+   "hi": 0.0395,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "喙长",
+   "value": "1.1–1.5 cm",
+   "lo": 0.011,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "典型体长",
+   "value": "16 cm",
+   "lo": 0.16,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃种子的喙",
+   "icon": "seed",
+   "desc": "粗壮的圆锥形喙，适合吃种子。"
+  },
+  {
+   "name": "跟着人类",
+   "icon": "team",
+   "desc": "学名意思是“属于房子的”，它总是生活在人类周围。"
+  }
+ ],
+ "intro": [
+  "家麻雀是麻雀科的小鸟，几乎遍布全世界。",
+  "雌鸟和幼鸟是浅褐色和灰色，雄鸟颜色更鲜明。",
+  "它被引入到世界许多地方。"
+ ],
+ "fact": "它有 12 个亚种，分成两大类群。",
+ "range": "原产欧洲大部、地中海盆地和亚洲大部；被引入北美洲大部等地。",
+ "sources": [
+  "Wikipedia「House sparrow」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "新疆歌鸲",
+ "no": "636",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "新疆歌鸲",
+ "name_en": "Common nightingale",
+ "latin": "Luscinia megarhynchos",
+ "short": "新疆歌鸲",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "15–16.5 cm",
+   "lo": 0.15,
+   "hi": 0.165,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "欧洲数量",
+   "value": "320–700 万对",
+   "lo": 3200000.0,
+   "hi": 7000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "音节库",
+   "value": "约 1160 个",
+   "lo": 1160,
+   "hi": 1160,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "名字历史",
+   "value": "超过 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜里歌唱",
+   "icon": "ear",
+   "desc": "白天也唱，夜里也唱，所以叫“夜莺”。"
+  },
+  {
+   "name": "音节大师",
+   "icon": "micro",
+   "desc": "音节库约 1160 个，欧乌鸫只有 108 个。"
+  }
+ ],
+ "intro": [
+  "新疆歌鸲（夜莺）以有力而美妙的歌声闻名。",
+  "它比欧亚鸲略大，上身纯褐色，尾巴偏红。",
+  "它的歌声常被称为自然界最美的声音之一。"
+ ],
+ "fact": "古英语里它叫 nihtegale，意思是“夜里唱歌的”。",
+ "range": "欧洲、北非、小亚细亚等；冬季到热带非洲。",
+ "sources": [
+  "Wikipedia「Common nightingale」"
+ ],
+ "footnote": ""
+}

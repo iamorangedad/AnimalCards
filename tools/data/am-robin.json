@@ -1,0 +1,79 @@
+{
+ "file": "旅鸫",
+ "no": "628",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "旅鸫",
+ "name_en": "American robin",
+ "latin": "Turdus migratorius",
+ "short": "旅鸫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃甲虫幼虫、蚯蚓、毛虫和浆果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "23–28 cm",
+   "lo": 0.23,
+   "hi": 0.28,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "31–41 cm",
+   "lo": 0.31,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "北美数量",
+   "value": "3.7 亿只",
+   "lo": 370000000.0,
+   "hi": 370000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "约 77 g",
+   "lo": 0.077,
+   "hi": 0.077,
+   "scale": "mass_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "北美最多",
+   "icon": "team",
+   "desc": "是北美数量最多的陆鸟，约 3.7 亿只（2019）。"
+  },
+  {
+   "name": "早早下蛋",
+   "icon": "seed",
+   "desc": "是最早开始下蛋的鸟之一，回到夏季栖息地后很快就繁殖。"
+  }
+ ],
+ "intro": [
+  "旅鸫是会迁徙的鸫鸟。",
+  "它因橙红色的胸部而以欧洲知更鸟命名，但两者亲缘很远。",
+  "冬天它会在夜里成大群，在僻静的沼泽或密林里过夜。"
+ ],
+ "fact": "数量超过红翅黑鹂、欧洲椋鸟、哀鸽和家朱雀。",
+ "range": "北美洲；冬季从加拿大南部到墨西哥中部。",
+ "sources": [
+  "Wikipedia「American robin」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

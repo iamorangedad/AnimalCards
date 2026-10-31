@@ -1,0 +1,78 @@
+{
+ "file": "冠蓝鸦",
+ "no": "627",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "冠蓝鸦",
+ "name_en": "Blue jay",
+ "latin": "Cyanocitta cristata",
+ "short": "冠蓝鸦",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃种子、橡子、果实和节肢动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "22–30 cm",
+   "lo": 0.22,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "70–100 g",
+   "lo": 0.07,
+   "hi": 0.1,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "34–43 cm",
+   "lo": 0.34,
+   "hi": 0.43,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵卵期",
+   "value": "16–18 天",
+   "lo": 16,
+   "hi": 18,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "藏橡子",
+   "icon": "seed",
+   "desc": "会把橡子等坚果藏起来以后吃。"
+  },
+  {
+   "name": "蓝色羽冠",
+   "icon": "camo",
+   "desc": "头顶有显眼的蓝色羽冠。"
+  }
+ ],
+ "intro": [
+  "冠蓝鸦是鸦科的鸟，原产北美东部。",
+  "一些东部种群可能会迁徙。",
+  "通常一窝 3–6 个蛋，平均 4–5 个。"
+ ],
+ "fact": "它喜欢把巢建在离地 3–10 m 高的树上。",
+ "range": "北美洲东部和中部。",
+ "sources": [
+  "Wikipedia「Blue jay」"
+ ],
+ "footnote": ""
+}

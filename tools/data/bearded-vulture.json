@@ -1,0 +1,79 @@
+{
+ "file": "胡兀鹫",
+ "no": "645",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "胡兀鹫",
+ "name_en": "Bearded vulture",
+ "latin": "Gypaetus barbatus",
+ "short": "胡兀鹫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "70–90% 吃骨头",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "94–125 cm",
+   "lo": 0.94,
+   "hi": 1.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2.31–2.83 m",
+   "lo": 2.31,
+   "hi": 2.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "4.5–7.8 kg",
+   "lo": 4.5,
+   "hi": 7.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "骨头占食物",
+   "value": "70–90%",
+   "lo": 70,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃骨头",
+   "icon": "food",
+   "desc": "是唯一已知食物 70–90% 是骨头的脊椎动物。"
+  },
+  {
+   "name": "强酸胃",
+   "icon": "toxic",
+   "desc": "胃酸约 pH 1，大骨头约 24 小时消化完。"
+  }
+ ],
+ "intro": [
+  "胡兀鹫也叫髭兀鹫，是胡兀鹫属唯一的物种。",
+  "它以前被当作旧大陆秃鹫，其实单独成一支。",
+  "喜马拉雅的个体比其他山区的稍大。"
+ ],
+ "fact": "骨头里保留的蛋白质和骨髓的脂肪，让骨头成了不错的能量来源。",
+ "range": "伊朗、南欧、东非、印度次大陆、西藏、高加索的高山。",
+ "sources": [
+  "Wikipedia「Bearded vulture」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "松鸦",
+ "no": "634",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "松鸦",
+ "name_en": "Eurasian jay",
+ "latin": "Garrulus glandarius",
+ "short": "松鸦",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "爱囤橡子，也吃雏鸟、鸟蛋、蝙蝠和小鼠",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "34–35 cm",
+   "lo": 0.34,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "52–58 cm",
+   "lo": 0.52,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "运橡子",
+   "value": "最远 20 km",
+   "lo": 20,
+   "hi": 20,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "33 个",
+   "lo": 33,
+   "hi": 33,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "种橡树",
+   "icon": "seed",
+   "desc": "能把橡子带到 20 km 外，被认为帮助橡树在冰期后快速北扩。"
+  },
+  {
+   "name": "蓝色翅斑",
+   "icon": "camo",
+   "desc": "翅膀上有一块亮蓝色的斑。"
+  }
+ ],
+ "intro": [
+  "松鸦是鸦科的鸟。",
+  "粉褐色的身体，白喉两侧各有一条黑纹，尾巴是黑色的。",
+  "种名 glandarius 在拉丁语里意思是“橡子的”。"
+ ],
+ "fact": "它一般两岁才开始繁殖，偶尔一岁就繁殖。",
+ "range": "西欧和非洲西北部，到印度次大陆和亚洲东海岸。",
+ "sources": [
+  "Wikipedia「Eurasian jay」",
+  "IUCN 红色名录（BirdLife International 2017）"
+ ],
+ "footnote": ""
+}

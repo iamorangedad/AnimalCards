@@ -1,0 +1,79 @@
+{
+ "file": "美洲雕鸮",
+ "no": "631",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "美洲雕鸮",
+ "name_en": "Great horned owl",
+ "latin": "Bubo virginianus",
+ "short": "美洲雕鸮",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃兔子、鼠、鸟，甚至臭鼬",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "43–64 cm",
+   "lo": 0.43,
+   "hi": 0.64,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "91–153 cm",
+   "lo": 0.91,
+   "hi": 1.53,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟均重",
+   "value": "1608 g",
+   "lo": 1.608,
+   "hi": 1.608,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄鸟均重",
+   "value": "1224 g",
+   "lo": 1.224,
+   "hi": 1.224,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "臭鼬克星",
+   "icon": "fire",
+   "desc": "是少数经常捕食臭鼬的捕食者之一。"
+  },
+  {
+   "name": "适应力强",
+   "icon": "wind",
+   "desc": "能适应各种环境。"
+  }
+ ],
+ "intro": [
+  "美洲雕鸮原产美洲，也叫“虎鸮”。",
+  "这个名字来自早期博物学家说它是“长翅膀的老虎”。",
+  "雌鸟比雄鸟大一些。"
+ ],
+ "fact": "白天，红尾鵟和它住同样的地方、吃同样的猎物，像它的“白班搭档”。",
+ "range": "北美洲到南美洲。",
+ "sources": [
+  "Wikipedia「Great horned owl」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "角雕",
+ "no": "643",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "角雕",
+ "name_en": "Harpy eagle",
+ "latin": "Harpia harpyja",
+ "short": "角雕",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "在树冠捕猎",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雌鸟体重",
+   "value": "6–9 kg",
+   "lo": 6,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "跗跖长",
+   "value": "最长 13 cm",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见海拔",
+   "value": "900 m 以下",
+   "lo": 900,
+   "hi": 900,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "最高记录",
+   "value": "2000 m",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树冠猎手",
+   "icon": "fire",
+   "desc": "在树冠里捕猎，很少到地面，站在高树上观察猎物。"
+  },
+  {
+   "name": "名字来源",
+   "icon": "wind",
+   "desc": "名字来自希腊神话里的哈耳庇厄。"
+  }
+ ],
+ "intro": [
+  "角雕是生活在美洲热带的大型雕。",
+  "也叫美洲角雕，以区别于新几内亚的巴布亚角雕。",
+  "雌雄羽色相同。"
+ ],
+ "fact": "有资料说成年雌鸟能重达 10 kg。",
+ "range": "墨西哥南部，经中美洲到南美洲的阿根廷。",
+ "sources": [
+  "Wikipedia「Harpy eagle」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

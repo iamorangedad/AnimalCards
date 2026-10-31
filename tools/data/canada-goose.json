@@ -1,0 +1,80 @@
+{
+ "file": "加拿大黑雁",
+ "no": "647",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "加拿大黑雁",
+ "name_en": "Canada goose",
+ "latin": "Branta canadensis",
+ "short": "加拿大黑雁",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃草，也吃绿色植物和谷物，偶尔吃小虫、小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "75–110 cm",
+   "lo": 0.75,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "127–185 cm",
+   "lo": 1.27,
+   "hi": 1.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大型亚种",
+   "value": "很少超过 8 kg",
+   "lo": 8,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大记录",
+   "value": "10.9 kg",
+   "lo": 10.9,
+   "hi": 10.9,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑头白脸",
+   "icon": "camo",
+   "desc": "黑色的头和脖子，白色的脸颊和下巴。"
+  },
+  {
+   "name": "走遍世界",
+   "icon": "wind",
+   "desc": "被引入法国、英国、新西兰、日本、智利等许多国家。"
+  }
+ ],
+ "intro": [
+  "加拿大黑雁原产北美的北极和温带地区。",
+  "迁徙时偶尔出现在北欧。",
+  "最大的亚种是巨型加拿大黑雁。"
+ ],
+ "fact": "最大的野生个体重 10.9 kg，翼展 2.24 m。",
+ "range": "北美洲；被引入欧洲、新西兰、日本、智利等。",
+ "sources": [
+  "Wikipedia「Canada goose」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

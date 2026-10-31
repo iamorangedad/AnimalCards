@@ -1,0 +1,79 @@
+{
+ "file": "红隼",
+ "no": "642",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红隼",
+ "name_en": "Common kestrel",
+ "latin": "Falco tinnunculus",
+ "short": "红隼",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃田鼠等小型动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全球数量",
+   "value": "100–200 万对",
+   "lo": 1000000.0,
+   "hi": 2000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "4500 m",
+   "lo": 4500,
+   "hi": 4500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "32–39 cm",
+   "lo": 0.32,
+   "hi": 0.39,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸟体重",
+   "value": "136–252 g",
+   "lo": 0.136,
+   "hi": 0.252,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "空中悬停",
+   "icon": "wind",
+   "desc": "习惯在空中“迎风悬停”，古英语叫它 windhover。"
+  },
+  {
+   "name": "城市保安",
+   "icon": "team",
+   "desc": "有时被用来驱赶和防止鸽子。"
+  }
+ ],
+ "intro": [
+  "红隼是隼科的猛禽。",
+  "雌鸟明显比雄鸟大。",
+  "翼展 65–82 cm。"
+ ],
+ "fact": "冰期的红隼吃过欧洲松田鼠等田鼠。",
+ "range": "欧洲、亚洲和非洲，偶尔到北美东海岸。",
+ "sources": [
+  "Wikipedia「Common kestrel」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "【待核：现代食性】"
+}

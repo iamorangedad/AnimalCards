@@ -1,0 +1,79 @@
+{
+ "file": "白头鹎",
+ "no": "638",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "白头鹎",
+ "name_en": "Light-vented bulbul",
+ "latin": "Pycnonotus sinensis",
+ "short": "白头鹎",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃浆果、种子、嫩芽和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "17–22 cm",
+   "lo": 0.17,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "繁殖期",
+   "value": "3–5 月",
+   "lo": 3,
+   "hi": 5,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "4 个",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色后脑",
+   "icon": "camo",
+   "desc": "两眼上方到后脑有白色的枕环，老鸟更白，所以叫“白头翁”。"
+  },
+  {
+   "name": "城市常客",
+   "icon": "team",
+   "desc": "常见于城镇、郊区和公园，在台湾被称为“城市三宝”之一。"
+  }
+ ],
+ "intro": [
+  "白头鹎是鹎属的小型鸣禽，常见于东亚。",
+  "种名 sinensis 意思是“来自中国”。",
+  "1789 年由格梅林正式描述，模式产地是广州。"
+ ],
+ "fact": "繁殖期，一只白头鹎站在枝头高唱，另一只飞来对唱，多半是在唱“情歌”。",
+ "range": "中国中部和南部、台湾、越南北部、琉球群岛。",
+ "sources": [
+  "Wikipedia「Light-vented bulbul」",
+  "维基百科「白头鹎」"
+ ],
+ "footnote": "体长、寿命、繁殖期来自中文维基。"
+}

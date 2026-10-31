@@ -1,0 +1,80 @@
+{
+ "file": "灰鹤",
+ "no": "648",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "灰鹤",
+ "name_en": "Common crane",
+ "latin": "Grus grus",
+ "short": "灰鹤",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食，主要吃植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "100–130 cm",
+   "lo": 1.0,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "180–240 cm",
+   "lo": 1.8,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3–6.1 kg",
+   "lo": 3,
+   "hi": 6.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "巢直径",
+   "value": "约 90 cm",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "涂泥伪装",
+   "icon": "camo",
+   "desc": "会用泥巴或腐烂植物“涂”身体，好在巢边隐蔽。"
+  },
+  {
+   "name": "大领地",
+   "icon": "wind",
+   "desc": "繁殖领地从 2 到 500 公顷不等。"
+  }
+ ],
+ "intro": [
+  "灰鹤是欧洲常见的鹤。",
+  "除了蓑羽鹤和白鹤，它是欧洲唯一常见的鹤。",
+  "瑞典的灰鹤巢平均直径约 90 cm。"
+ ],
+ "fact": "只有灰鹤和沙丘鹤会给身体涂泥。",
+ "range": "欧洲和亚洲北部繁殖；欧洲种群冬季到葡萄牙、西班牙和北非。",
+ "sources": [
+  "Wikipedia「Common crane」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": "【待核：亚洲分布】"
+}

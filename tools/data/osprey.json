@@ -1,0 +1,79 @@
+{
+ "file": "鹗",
+ "no": "640",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "鹗",
+ "name_en": "Osprey",
+ "latin": "Pandion haliaetus",
+ "short": "鹗",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "几乎只吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "50–66 cm",
+   "lo": 0.5,
+   "hi": 0.66,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "127–180 cm",
+   "lo": 1.27,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.9–2.1 kg",
+   "lo": 0.9,
+   "hi": 2.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "科分化",
+   "value": "约 5080 万年",
+   "lo": 50.8,
+   "hi": 50.8,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鱼专家",
+   "icon": "dive",
+   "desc": "猎物几乎全是鱼，有独特的捕鱼行为。"
+  },
+  {
+   "name": "遍布全球",
+   "icon": "wind",
+   "desc": "分布遍及世界各地。"
+  }
+ ],
+ "intro": [
+  "鹗是白天活动、吃鱼的猛禽，也叫鱼鹰。",
+  "背部褐色，腹部白色。",
+  "1758 年林奈描述了它。"
+ ],
+ "fact": "鹗科和鹰科估计在约 5080 万年前分开。",
+ "range": "除南极洲外的各大洲。",
+ "sources": [
+  "Wikipedia「Osprey」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

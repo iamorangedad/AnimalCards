@@ -1,0 +1,79 @@
+{
+ "file": "红尾鵟",
+ "no": "641",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红尾鵟",
+ "name_en": "Red-tailed hawk",
+ "latin": "Buteo jamaicensis",
+ "short": "红尾鵟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃啮齿类、鸟和爬行动物等小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "45–65 cm",
+   "lo": 0.45,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "110–145 cm",
+   "lo": 1.1,
+   "hi": 1.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "690–1600 g",
+   "lo": 0.69,
+   "hi": 1.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "俯冲速度",
+   "value": "超过 190 km/h",
+   "lo": 190,
+   "hi": 190,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "沙哑尖啸",
+   "icon": "ear",
+   "desc": "叫声是 2–3 秒沙哑的尖啸“kree-eee-ar”，像蒸汽汽笛。"
+  },
+  {
+   "name": "高速俯冲",
+   "icon": "fire",
+   "desc": "俯冲时速度能超过 190 km/h。"
+  }
+ ],
+ "intro": [
+  "红尾鵟是北美最常见的鹰之一。",
+  "它们一旦配对，就会终生在一起。",
+  "雌鸟比雄鸟重约 25%。"
+ ],
+ "fact": "它是北美 Buteo 属里最大的之一。",
+ "range": "阿拉斯加西部和加拿大北部，南到巴拿马和西印度群岛。",
+ "sources": [
+  "Wikipedia「Red-tailed hawk」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

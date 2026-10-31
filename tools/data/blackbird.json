@@ -1,0 +1,79 @@
+{
+ "file": "欧乌鸫",
+ "no": "629",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "欧乌鸫",
+ "name_en": "Common blackbird",
+ "latin": "Turdus merula",
+ "short": "欧乌鸫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食，吃昆虫、蚯蚓、种子和浆果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "23.5–29 cm",
+   "lo": 0.235,
+   "hi": 0.29,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "80–125 g",
+   "lo": 0.08,
+   "hi": 0.125,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "高原亚种",
+   "value": "3200–4800 m",
+   "lo": 3200,
+   "hi": 4800,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "蛋重",
+   "value": "7.2 g",
+   "lo": 0.0072,
+   "hi": 0.0072,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "婉转歌声",
+   "icon": "ear",
+   "desc": "有丰富、悦耳的歌声，出现在很多文学作品里。"
+  },
+  {
+   "name": "黄色眼圈",
+   "icon": "camo",
+   "desc": "雄鸟全身乌黑，只有眼圈和喙是黄色的。"
+  }
+ ],
+ "intro": [
+  "欧乌鸫是一种真鸫。",
+  "雌鸟和幼鸟主要是深褐色。",
+  "在欧洲它分布到海拔 1000 m，在北非到 2300 m。"
+ ],
+ "fact": "喜马拉雅的大型亚种能在 3200–4800 m 繁殖，冬天也待在 2100 m 以上。",
+ "range": "欧洲、西亚、北非；被引入澳大利亚、新西兰。",
+ "sources": [
+  "Wikipedia「Common blackbird」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "疣鼻天鹅",
+ "no": "646",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "疣鼻天鹅",
+ "name_en": "Mute swan",
+ "latin": "Cygnus olor",
+ "short": "疣鼻天鹅",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃各种植物：用长脖子够水下的水草，也上岸吃草和庄稼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "140–160 cm",
+   "lo": 1.4,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "200–240 cm",
+   "lo": 2.0,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸟体重",
+   "value": "9.2–14.3 kg",
+   "lo": 9.2,
+   "hi": 14.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "亚化石",
+   "value": "约 6000 年前",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最重的飞鸟之一",
+   "icon": "wind",
+   "desc": "是现存最重的会飞的鸟之一。"
+  },
+  {
+   "name": "黑色肉瘤",
+   "icon": "camo",
+   "desc": "橙色的嘴边缘黑色，雄鸟嘴上的肉瘤更大。"
+  }
+ ],
+ "intro": [
+  "疣鼻天鹅原产欧洲大部和亚洲部分地区。",
+  "它全身雪白。",
+  "它没有现存的亚种。"
+ ],
+ "fact": "英国东安格利亚的泥炭里发现过约 6000 年前的疣鼻天鹅亚化石。",
+ "range": "欧洲、亚洲部分地区；被引入北美等。",
+ "sources": [
+  "Wikipedia「Mute swan」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

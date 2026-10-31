@@ -1,0 +1,79 @@
+{
+ "file": "灰林鸮",
+ "no": "632",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "灰林鸮",
+ "name_en": "Tawny owl",
+ "latin": "Strix aluco",
+ "short": "灰林鸮",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "夜里捕食小动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "37–46 cm",
+   "lo": 0.37,
+   "hi": 0.46,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "81–105 cm",
+   "lo": 0.81,
+   "hi": 1.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "385–800 g",
+   "lo": 0.385,
+   "hi": 0.8,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "7 个",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "无声飞行",
+   "icon": "wind",
+   "desc": "靠视觉、听觉和无声的飞行在夜里捕猎。"
+  },
+  {
+   "name": "一唱一和",
+   "icon": "ear",
+   "desc": "典型的“双声鸣叫”是雄鸟和雌鸟一问一答。"
+  }
+ ],
+ "intro": [
+  "灰林鸮是中等大小的猫头鹰，也叫褐林鸮。",
+  "它常见于欧洲和西西伯利亚的林地。",
+  "圆圆的大头没有耳羽簇。"
+ ],
+ "fact": "它领地意识很强；离巢的年轻鸮如果找不到空领地，常会饿死。",
+ "range": "欧洲和西西伯利亚。",
+ "sources": [
+  "Wikipedia「Tawny owl」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

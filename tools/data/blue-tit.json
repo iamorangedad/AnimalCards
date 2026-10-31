@@ -1,0 +1,78 @@
+{
+ "file": "蓝山雀",
+ "no": "635",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "蓝山雀",
+ "name_en": "Eurasian blue tit",
+ "latin": "Cyanistes caeruleus",
+ "short": "蓝山雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃昆虫和蜘蛛，非繁殖期也吃种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "10.5–12 cm",
+   "lo": 0.105,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "17.5–20 cm",
+   "lo": 0.175,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 11 g",
+   "lo": 0.011,
+   "hi": 0.011,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "欧洲数量",
+   "value": "2000–4400 万对",
+   "lo": 20000000.0,
+   "hi": 44000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蓝黄配色",
+   "icon": "camo",
+   "desc": "很好认：蓝色和黄色的羽毛，体型很小。"
+  },
+  {
+   "name": "雄鸟更蓝",
+   "icon": "camo",
+   "desc": "雄鸟的头顶比雌鸟和幼鸟更蓝。"
+  }
+ ],
+ "intro": [
+  "蓝山雀是山雀科的小鸟。",
+  "欧洲大约有 2000 万到 4400 万对。",
+  "它的蛋长 14–18 mm。"
+ ],
+ "fact": "头顶亮蓝色，眼睛处有一条深蓝色的线穿过。",
+ "range": "欧洲温带和亚北极地区，以及西亚部分地区。",
+ "sources": [
+  "Wikipedia「Eurasian blue tit」"
+ ],
+ "footnote": ""
+}

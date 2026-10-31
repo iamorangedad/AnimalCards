@@ -1,0 +1,79 @@
+{
+ "file": "菲律宾鹰",
+ "no": "644",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "菲律宾鹰",
+ "name_en": "Philippine eagle",
+ "latin": "Pithecophaga jefferyi",
+ "short": "菲律宾鹰",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "最早被报道专吃猴子",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2025",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "86–102 cm",
+   "lo": 0.86,
+   "hi": 1.02,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "4.04–8 kg",
+   "lo": 4.04,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "184–220 cm",
+   "lo": 1.84,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "杀鹰刑期",
+   "value": "最长 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "食猴鹰",
+   "icon": "fire",
+   "desc": "也叫“食猴鹰”。"
+  },
+  {
+   "name": "国鸟",
+   "icon": "sun",
+   "desc": "是菲律宾的国鸟，印在菲律宾 1000 比索纸币上。"
+  }
+ ],
+ "intro": [
+  "菲律宾鹰是只生活在菲律宾森林里的鹰。",
+  "它有褐白相间的羽毛和蓬松的羽冠。",
+  "以体长和翅面积算，它是现存最大的雕之一。"
+ ],
+ "fact": "杀死菲律宾鹰是刑事犯罪，最高可判 12 年。",
+ "range": "菲律宾：吕宋东部、萨马、莱特、棉兰老。",
+ "sources": [
+  "Wikipedia「Philippine eagle」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": "“杀鹰刑期”比例条借用寿命刻度。"
+}

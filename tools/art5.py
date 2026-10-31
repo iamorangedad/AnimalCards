@@ -970,3 +970,55 @@ ART5["weddell"] = lambda w, h: scene("ice", w, h, _pinn("#5a6470", L=360, up=0.1
 ART5["harp-seal"] = lambda w, h: scene("ice", w, h, _pinn("#c9ced4", L=320, up=0.2, belly="#e6eaee") + P("M-60 -60 C-20 -110 60 -110 100 -60", sw=12, col="#2a2e34"), box=(w / 2, h * .72, 580, 260))
 ART5["monk-seal"] = lambda w, h: _coast(w, h, _pinn("#8a8a8a", L=320, up=0.2, belly="#c9c4b8"), (w / 2, h * .66, 540, 300), rocky=False)
 ART5["olive-ridley"] = lambda w, h: scene("sea", w, h, turtle(shell="#7a8a4a", skin="#a8b07a", sea=True, scute="#8a9a5a", plastron="#f3e3a6"), box=(w / 2, h * .56, 500, 270))
+# ---------------- birds p4b11
+from art4 import B as _B, BP as _BP, _owl as _owl4
+_W = "#ffffff"
+ART5["house-sparrow"] = _BP("farm", F="#a8825a", wing="#7a5a3a", rx=52, ry=38, tilt=-20, neck=4, nw=38, hr=28, beak="cone", beak_col="#3a3a3a", leg_len=22, leg_col="#c9a08a", legw=4, tail="short", tail_col="#6a4a2a",
+    head_col="#8a8e94", belly="#d9d2c4", front_fn=lambda x, y, r: E(x - r * .1, y + r * .8, r * .4, r * .45, INK, 0) + P(f"M{x-r*.2} {y-r*.15} l{r*.9} {r*.1}", sw=5, col="#6a4a2a"))
+ART5["blue-jay"] = _BP("forest", F="#4a7ad0", wing="#2a5ab0", rx=60, ry=40, tilt=-24, neck=4, nw=40, hr=30, beak="short", beak_col=INK, leg_len=24, leg_col="#3a3a3a", legw=4, tail="long", tail_col="#2a5ab0",
+    crest="tuft", head_col="#4a7ad0", belly="#f2f2ee", front_fn=lambda x, y, r: P(f"M{x-r*.6} {y+r*.5} Q{x} {y+r*1.3} {x+r*.6} {y+r*.4}", sw=5, col=INK), extras="".join(P(f"M{-30+i*16} -10 l0 18", sw=3, col=INK) for i in range(4)))
+ART5["am-robin"] = _BP("meadow", F="#5a5a5e", wing="#4a4a4e", rx=54, ry=42, tilt=-20, neck=4, nw=40, hr=28, beak="short", beak_col="#f2c53a", leg_len=24, leg_col="#8a6a5a", legw=4, tail="short", tail_col="#3a3a3e",
+    head_col="#2a2a2e", belly="#d8642a", eye_ring="#ffffff")
+ART5["blackbird"] = _BP("forest", F="#1f1f22", wing="#2a2a2e", rx=56, ry=40, tilt=-20, neck=4, nw=40, hr=28, beak="short", beak_col="#f2b82a", leg_len=24, leg_col="#5a4a3a", legw=4, tail="long", tail_col="#1f1f22", eye_ring="#f2b82a")
+ART5["goldfinch"] = _BP("meadow", F="#c9a07a", wing="#1f1f22", rx=48, ry=36, tilt=-20, neck=4, nw=36, hr=26, beak="cone", beak_col="#f2e2c8", leg_len=20, leg_col="#c9a08a", legw=4, tail="fork", tail_col="#1f1f22",
+    head_col="#ffffff", belly="#f2ece0", front_fn=lambda x, y, r: C(x - r * .55, y + r * .05, r * .45, "#d8282a", 0) + P(f"M{x+r*.3} {y-r*.9} L{x+r*.6} {y+r*.9}", sw=7, col=INK), extras=P("M-20 -20 l40 -6", sw=9, col="#f2d23a"))
+ART5["gh-owl"] = _owl4("#8a6a4a", "#3a2a1a", "#c99a6a", "#f2c53a", tufts=True, kind="forest")
+ART5["tawny-owl"] = _owl4("#9a6a3a", "#5a3a20", "#c9a07a", "#2a1a10", tufts=False, kind="forest")
+ART5["carrion-crow"] = _B("farm", (.78, 460, 380), F="#1f1f26", wing="#2a2a36", rx=72, ry=46, tilt=-18, neck=10, nw=44, hr=30, beak="short", beak_col="#1f1f26", leg_len=50, leg_col=INK, legw=5, tail="short", tail_col="#1f1f26",
+    front_fn=lambda x, y, r: P(f"M{x-r*.7} {y-r*.2} L{x-r*1.8} {y+r*.2} L{x-r*.7} {y+r*.4} Z", "#1f1f26", 2.4))
+ART5["eur-jay"] = _BP("forest", F="#d0a08a", wing="#3a3a3a", rx=60, ry=42, tilt=-22, neck=4, nw=40, hr=30, beak="short", beak_col=INK, leg_len=24, leg_col="#c9a08a", legw=4, tail="long", tail_col="#1f1f22",
+    head_col="#e0c0b0", belly="#f2e2d8", front_fn=lambda x, y, r: P(f"M{x-r*.3} {y+r*.3} l{r*.5} {r*.8}", sw=6, col=INK), extras="".join(E(-10 + i * 12, -18, 6, 10, ["#2a6ad0", "#ffffff", INK][i % 3], 0) for i in range(6)))
+ART5["blue-tit"] = _BP("forest", F="#d9d23a", wing="#4a8ad0", rx=46, ry=36, tilt=-22, neck=4, nw=36, hr=26, beak="cone", beak_col=INK, leg_len=20, leg_col="#6a7a8a", legw=4, tail="short", tail_col="#3a6ab0",
+    head_col="#ffffff", front_fn=lambda x, y, r: P(f"M{x-r*.9} {y-r*.4} A{r} {r} 0 0 1 {x+r*.9} {y-r*.4} Z", "#3a8ad8", 0) + P(f"M{x-r*.9} {y-r*.05} L{x+r*.9} {y-r*.05}", sw=5, col="#1f2a5a"))
+ART5["nightingale"] = _BP("forest", F="#9a7a5a", wing="#8a6a4a", rx=50, ry=38, tilt=-24, neck=4, nw=38, hr=26, beak="short", beak_col="#6a5a4a", leg_len=24, leg_col="#c9a08a", legw=4, tail="long", tail_col="#b8643a",
+    belly="#e8dcc8", post=P("M-120 -160 q10 -20 20 0 q10 20 20 0 M-110 -200 q10 -16 20 0", sw=4, col="#7a8a9a"))
+ART5["skylark"] = _B("meadow", (.6, 440, 300), F="#b8986a", wing="#8a6a4a", rx=54, ry=34, tilt=-10, neck=4, nw=34, hr=24, beak="short", beak_col="#8a7a6a", leg_len=0, sit=True, tail="short", tail_col="#6a5a3a",
+    crest="tuft", belly="#efe4d0", extras="".join(P(f"M{-40+i*14} -10 l4 10", sw=3, col="#5a4a3a") for i in range(6)),
+    post=P("M-20 -120 C-120 -220 -220 -200 -260 -170 C-180 -170 -100 -140 -30 -90 Z M30 -120 C120 -220 220 -200 260 -170 C180 -170 100 -140 40 -90 Z", "#a8885a", 2.4))
+ART5["bulbul"] = _BP("meadow", F="#8a9a6a", wing="#6a8a4a", rx=52, ry=38, tilt=-22, neck=4, nw=38, hr=28, beak="short", beak_col=INK, leg_len=22, leg_col="#3a3a3a", legw=4, tail="long", tail_col="#6a8a4a",
+    head_col="#1f1f22", belly="#e8e4d8", front_fn=lambda x, y, r: E(x + r * .35, y - r * .3, r * .5, r * .35, "#ffffff", 0) + C(x - r * .5, y + r * .4, r * .25, "#ffffff", 0))
+ART5["blue-magpie"] = _BP("forest", (.62, 520, 360), F="#5a7ac8", wing="#4a6ab8", rx=56, ry=36, tilt=-20, neck=8, nw=38, hr=26, beak="short", beak_col="#e8302a", leg_len=24, leg_col="#e8603a", legw=4, tail="long", tail_col="#5a7ac8",
+    head_col="#1f1f22", belly="#e8e8ee", post=P("M60 -110 L300 -40 L300 -20 L60 -90 Z", "#6a8ad8", 2.4) + "".join(P(f"M{140+i*50} {-84+i*14} l0 18", sw=5, col="#ffffff") for i in range(3)))
+ART5["osprey"] = _B("wetland", (.78, 500, 420), F="#4a3a2a", wing="#3a2a1a", rx=86, ry=56, tilt=-22, neck=20, nw=48, hr=34, beak="hook", beak_col="#2a2a2a", leg_len=40, leg_col="#d0d8e0", legw=7, tail="short", tail_col="#3a2a1a",
+    head_col="#ffffff", belly="#ffffff", front_fn=lambda x, y, r: P(f"M{x-r*.8} {y-r*.05} L{x+r*1.2} {y+r*.2}", sw=8, col="#3a2a1a"), post=fish(F="#a8b8c8", L=120, H=40, tail="fork") if False else "")
+ART5["rt-hawk"] = _B("savanna", (.78, 500, 420), pre=G_(rock(0, 0, 1.8), 0, 0), F="#7a5a3a", wing="#5a3a20", rx=86, ry=58, tilt=-22, neck=16, nw=48, hr=34, beak="hook", beak_col="#3a3a3a", leg_len=36, leg_col="#f2c53a", legw=7, tail="short", tail_col="#c8502a",
+    belly="#f2e8d8")
+ART5["kestrel"] = _B("meadow", (.6, 440, 300), F="#c8743a", wing="#a85a2a", rx=60, ry=36, tilt=-14, neck=6, nw=36, hr=26, beak="hook", beak_col="#3a3a3a", leg_len=0, sit=True, tail="long", tail_col="#8a949e",
+    head_col="#8a949e", belly="#f2e2c8", extras="".join(C(-30 + i * 14, -12 + (i % 2) * 8, 3, INK, 0) for i in range(6)),
+    post=P("M-10 -110 C-100 -220 -200 -230 -250 -210 C-170 -170 -90 -130 -20 -80 Z M20 -110 C100 -220 200 -230 250 -210 C170 -170 90 -130 30 -80 Z", "#b8642a", 2.4))
+ART5["harpy"] = _BP("rainforest", (.72, 500, 440), F="#8a949e", wing="#2a2a2e", rx=82, ry=60, tilt=-28, neck=10, nw=54, hr=38, beak="hook", beak_col="#2a2a2a", leg_len=40, leg_col="#f2c53a", legw=9, tail="short", tail_col="#2a2a2e",
+    head_col="#a8b0b8", belly="#f2f2ee", extra_fn=lambda x, y, r: P(f"M{x-r*.2} {y-r*.8} l{r*.3} {-r*.9} l{r*.3} {r*.8} Z M{x+r*.3} {y-r*.7} l{r*.6} {-r*.8} l{r*.1} {r*.9} Z", "#4a4a4e", 2.4), front_fn=lambda x, y, r: P(f"M{x-r*.9} {y+r*.9} Q{x} {y+r*1.5} {x+r*.9} {y+r*.9}", sw=12, col="#2a2a2e"))
+ART5["ph-eagle"] = _BP("rainforest", (.72, 500, 440), F="#7a5a3a", wing="#5a3a20", rx=84, ry=60, tilt=-26, neck=14, nw=54, hr=38, beak="hook", beak_col="#6a7a8a", leg_len=40, leg_col="#f2c53a", legw=9, tail="long", tail_col="#5a3a20",
+    head_col="#e8d4a0", belly="#f6f0e4", extra_fn=lambda x, y, r: "".join(P(f"M{x+r*(.0+i*.25)} {y-r*.6} l{r*(.3+i*.15)} {-r*.9} l{r*.2} {r*.9} Z", "#d9c08a", 2) for i in range(5)))
+ART5["bearded-vulture"] = _B("plateau", (.78, 520, 420), pre=G_(rock(0, 0, 2.2), 0, 0), F="#e8a060", wing="#3a3a3e", rx=92, ry=58, tilt=-22, neck=22, nw=48, hr=32, beak="hook", beak_col="#9aa0a6", leg_len=40, leg_col="#8a8a8a", legw=7, tail="long", tail_col="#3a3a3e",
+    head_col="#f2e2c8", eye_ring="#e8302a", front_fn=lambda x, y, r: P(f"M{x-r*.9} {y-r*.15} L{x+r*.3} {y-r*.15}", sw=6, col=INK) + P(f"M{x-r*.9} {y+r*.2} l{-r*.2} {r*.6} l{r*.3} {-r*.2} Z", INK, 0))
+ART5["mute-swan"] = _B("pond", (.74, 480, 380), F="#ffffff", wing="#f2f2ee", rx=110, ry=56, tilt=-4, neck=90, nw=26, hr=26, beak="long", beak_col="#f28a2a", leg_len=0, sit=True, tail="up", tail_col="#ffffff",
+    front_fn=lambda x, y, r: C(x - r * .9, y - r * .3, r * .3, INK, 0))
+ART5["canada-goose"] = _B("pond", (.78, 480, 400), F="#8a7a6a", wing="#6a5a4a", rx=100, ry=54, tilt=-6, neck=90, nw=26, hr=26, beak="duck", beak_col=INK, leg_len=60, leg_col=INK, legw=6, tail="short", tail_col=INK,
+    head_col="#1f1f22", belly="#e8e2d8", webbed=True, front_fn=lambda x, y, r: E(x + r * .1, y + r * .3, r * .5, r * .3, "#ffffff", 0))
+ART5["common-crane"] = _B("wetland", (.8, 500, 420), F="#9aa0aa", wing="#7a808a", rx=96, ry=56, tilt=-8, neck=140, nw=22, hr=24, beak="long", beak_col="#c9b48a", leg_len=220, leg_col="#3a3f45", legw=6,
+    tail="up", tail_col="#5a5f6a", crest="red", head_col="#1f1f22", front_fn=lambda x, y, r: P(f"M{x+r*.1} {y-r*.1} L{x+r*.9} {y+r*1.6}", sw=8, col="#ffffff"))
+ART5["black-swan"] = _B("pond", (.74, 480, 380), F="#1f1f22", wing="#2a2a2e", rx=110, ry=56, tilt=-4, neck=90, nw=26, hr=26, beak="long", beak_col="#e8282a", leg_len=0, sit=True, tail="up", tail_col="#1f1f22",
+    front_fn=lambda x, y, r: P(f"M{x-r*1.4} {y-r*.1} l{r*.3} 0", sw=4, col="#ffffff"))
+ART5["scarlet-ibis"] = _B("wetland", (.8, 460, 420), F="#e8302a", wing="#d8201a", rx=84, ry=50, tilt=-12, neck=60, nw=22, hr=24, beak="long", beak_col="#8a3a2a", leg_len=130, leg_col="#e8403a", legw=5, tail="short", tail_col="#d8201a",
+    front_fn=lambda x, y, r: P(f"M{x-r*.8} {y} C{x-r*2.2} {y+r*.4} {x-r*3} {y+r*1.4} {x-r*3.2} {y+r*2}", sw=7, col="#8a3a2a"))

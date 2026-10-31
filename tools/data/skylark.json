@@ -1,0 +1,78 @@
+{
+ "file": "云雀",
+ "no": "637",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "云雀",
+ "name_en": "Eurasian skylark",
+ "latin": "Alauda arvensis",
+ "short": "云雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫和种子、嫩叶等植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "18–19 cm",
+   "lo": 0.18,
+   "hi": 0.19,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "歌唱高度",
+   "value": "50–100 m",
+   "lo": 50,
+   "hi": 100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "歌唱时长",
+   "value": "2–3 分钟",
+   "lo": 2,
+   "hi": 3,
+   "scale": "min",
+   "approx": false
+  },
+  {
+   "label": "孵卵期",
+   "value": "约 11 天",
+   "lo": 11,
+   "hi": 11,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "空中歌手",
+   "icon": "ear",
+   "desc": "雄鸟在 50–100 m 高的空中悬停唱歌。"
+  },
+  {
+   "name": "长歌",
+   "icon": "wind",
+   "desc": "歌声一般 2–3 分钟，繁殖季后期能唱 20 分钟以上。"
+  }
+ ],
+ "intro": [
+  "云雀广泛分布在欧洲和古北界。",
+  "它生活在开阔的农田和荒原。",
+  "雌雄长得一样，羽毛较暗淡。"
+ ],
+ "fact": "在风电场附近，雄云雀会用更高的音调唱歌。",
+ "range": "欧洲、亚洲；被引入澳大利亚、新西兰、加拿大。",
+ "sources": [
+  "Wikipedia「Eurasian skylark」"
+ ],
+ "footnote": ""
+}

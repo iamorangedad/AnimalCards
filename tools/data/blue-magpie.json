@@ -1,0 +1,78 @@
+{
+ "file": "红嘴蓝鹊",
+ "no": "639",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红嘴蓝鹊",
+ "name_en": "Red-billed blue magpie",
+ "latin": "Urocissa erythroryncha",
+ "short": "红嘴蓝鹊",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫、小动物和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "65–68 cm",
+   "lo": 0.65,
+   "hi": 0.68,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "196–232 g",
+   "lo": 0.196,
+   "hi": 0.232,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "描述年份",
+   "value": "1775 年",
+   "lo": 1775,
+   "hi": 1775,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "鸦科最长之一",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长尾巴",
+   "icon": "wind",
+   "desc": "尾巴是鸦科鸟类里最长的之一。"
+  },
+  {
+   "name": "红嘴",
+   "icon": "camo",
+   "desc": "红色的嘴和蓝色的身体很醒目。"
+  }
+ ],
+ "intro": [
+  "属名来自希腊语“尾巴”和“喜鹊”。",
+  "它和喜鹊差不多大，但尾巴长得多。",
+  "1775 年布丰在《鸟类自然史》中描述了它。"
+ ],
+ "fact": "布丰描述的标本来自中国，模式产地后来定为广州。",
+ "range": "中国、缅甸、印度支那等。",
+ "sources": [
+  "Wikipedia「Red-billed blue magpie」"
+ ],
+ "footnote": "“描述年份”“尾长”比例条仅示意。【待核：食性】"
+}

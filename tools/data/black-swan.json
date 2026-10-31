@@ -1,0 +1,79 @@
+{
+ "file": "黑天鹅",
+ "no": "649",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黑天鹅",
+ "name_en": "Black swan",
+ "latin": "Cygnus atratus",
+ "short": "黑天鹅",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "几乎只吃植物，主要是水生和沼泽植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "110–142 cm",
+   "lo": 1.1,
+   "hi": 1.42,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鸟体重",
+   "value": "3.8–8.75 kg",
+   "lo": 3.8,
+   "hi": 8.75,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体重",
+   "value": "3.7–7.2 kg",
+   "lo": 3.7,
+   "hi": 7.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "1.6–2 m",
+   "lo": 1.6,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游牧",
+   "icon": "wind",
+   "desc": "在澳大利亚四处游荡，迁徙路线随气候变化。"
+  },
+  {
+   "name": "黑羽红嘴",
+   "icon": "camo",
+   "desc": "全身黑色，嘴是红色的。"
+  }
+ ],
+ "intro": [
+  "黑天鹅主要在澳大利亚东南部和西南部繁殖。",
+  "19 世纪它作为观赏鸟被引入多个国家。",
+  "分布范围在 100 万到 1000 万平方公里之间。"
+ ],
+ "fact": "逃出动物园的黑天鹅有时会出现在原产地以外。",
+ "range": "澳大利亚；被引入新西兰等地。",
+ "sources": [
+  "Wikipedia「Black swan」"
+ ],
+ "footnote": "【待核：分布范围面积】"
+}

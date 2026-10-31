@@ -1,0 +1,78 @@
+{
+ "file": "红额金翅雀",
+ "no": "630",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红额金翅雀",
+ "name_en": "European goldfinch",
+ "latin": "Carduelis carduelis",
+ "short": "红额金翅雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "最爱吃小种子，比如蓟草籽",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "12–13 cm",
+   "lo": 0.12,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "21–25 cm",
+   "lo": 0.21,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "14–19 g",
+   "lo": 0.014,
+   "hi": 0.019,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "孵卵期",
+   "value": "11–13 天",
+   "lo": 11,
+   "hi": 13,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红脸",
+   "icon": "camo",
+   "desc": "雌雄都有红色的脸。"
+  },
+  {
+   "name": "雌鸟筑巢",
+   "icon": "huddle",
+   "desc": "巢完全由雌鸟自己搭；雏鸟由双亲一起喂。"
+  }
+ ],
+ "intro": [
+  "红额金翅雀原产欧洲、北非和西亚。",
+  "它被引入澳大利亚、新西兰等地。",
+  "雏鸟孵出后 13–18 天离巢。"
+ ],
+ "fact": "它的蛋平均 17.3 × 13.0 mm，重约 1.53 g。",
+ "range": "欧洲、北非、西亚；被引入澳大利亚、新西兰等。",
+ "sources": [
+  "Wikipedia「European goldfinch」"
+ ],
+ "footnote": "【待核：原产区、引入地区】"
+}

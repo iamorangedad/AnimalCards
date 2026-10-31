@@ -1,0 +1,80 @@
+{
+ "file": "陆地棉",
+ "no": "859",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "陆地棉",
+ "name_en": "Upland cotton",
+ "latin": "Gossypium hirsutum",
+ "short": "陆地棉",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "占棉花产量",
+   "value": "约 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "杂交起源",
+   "value": "500–1000 万年前",
+   "lo": 5,
+   "hi": 10,
+   "scale": "myr",
+   "approx": false
+  },
+  {
+   "label": "栽培证据",
+   "value": "公元前 3500 年",
+   "lo": 5500,
+   "hi": 5500,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "美国棉占比",
+   "value": "约 95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "种子纤维",
+   "icon": "seed",
+   "desc": "种子上的纤维就是棉花，不同品种纤维长短不同。"
+  },
+  {
+   "name": "棉籽油",
+   "icon": "drop",
+   "desc": "它也是生产棉籽油的主要物种之一。"
+  }
+ ],
+ "intro": [
+  "陆地棉是全世界种植最广的棉花。",
+  "它原产墨西哥到厄瓜多尔、巴西东北部和一些太平洋岛屿。",
+  "野生遗传多样性最高的地方在尤卡坦半岛。"
+ ],
+ "fact": "它可能是墨西哥野生棉和非洲棉在 500–1000 万年前杂交形成的。",
+ "range": "原产中美洲及周边；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Gossypium hirsutum」",
+  "维基百科「陆地棉」",
+  "IUCN 红色名录（Wegier, A. 2019）"
+ ],
+ "footnote": "IUCN 评估针对野生种群。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "粟",
+ "no": "846",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "粟",
+ "name_en": "Foxtail millet",
+ "latin": "Setaria italica",
+ "short": "粟",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "最早栽培",
+   "value": "约 8000 年前",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "穗长",
+   "value": "5–30 cm",
+   "lo": 0.05,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "株高",
+   "value": "60–150 cm",
+   "lo": 0.6,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "籽粒收获",
+   "value": "75–90 天",
+   "lo": 75,
+   "hi": 90,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐旱",
+   "icon": "sun",
+   "desc": "即便缺乏灌溉也能生长（中文维基）。"
+  },
+  {
+   "name": "长得快",
+   "icon": "seed",
+   "desc": "播种后 75–90 天就能收获籽粒。"
+  }
+ ],
+ "intro": [
+  "粟就是“小米”，北方叫“谷子”。",
+  "它是亚洲种植最多的小米。",
+  "最早的栽培证据来自黄河古道边的磁山，约 8000 年前。"
+ ],
+ "fact": "它是五谷里籽粒最小的（中文维基）。",
+ "range": "起源中国北方；亚洲、欧洲等地种植。",
+ "sources": [
+  "Wikipedia「Foxtail millet」",
+  "维基百科「粟」"
+ ],
+ "footnote": ""
+}

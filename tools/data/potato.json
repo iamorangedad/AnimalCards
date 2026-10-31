@@ -1,0 +1,79 @@
+{
+ "file": "马铃薯",
+ "no": "854",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "马铃薯",
+ "name_en": "Potato",
+ "latin": "Solanum tuberosum",
+ "short": "马铃薯",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "最高约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "驯化至今",
+   "value": "7000–10000 年",
+   "lo": 7000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "3.9 亿吨（2024）",
+   "lo": 390,
+   "hi": 390,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "染色体",
+   "value": "48 条",
+   "lo": 48,
+   "hi": 48,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下块茎",
+   "icon": "root",
+   "desc": "我们吃的土豆是地下的茎（块茎）。"
+  },
+  {
+   "name": "见光变毒",
+   "icon": "toxic",
+   "desc": "块茎发芽或见光变绿时会产生大量茄碱。"
+  }
+ ],
+ "intro": [
+  "马铃薯原产南美安第斯山区。",
+  "它是全球第四大粮食作物（中文维基）。",
+  "中国产量最多，占 24%。"
+ ],
+ "fact": "茄碱不会因为煮熟而分解（中文维基）。",
+ "range": "原产安第斯山脉；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Potato」",
+  "维基百科「马铃薯」"
+ ],
+ "footnote": "",
+ "warn": "发芽或变绿的土豆有毒（茄碱），煮熟也去不掉，要去掉芽和绿皮，太多就别吃。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "小粒咖啡",
+ "no": "861",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "小粒咖啡",
+ "name_en": "Arabica coffee",
+ "latin": "Coffea arabica",
+ "short": "小粒咖啡",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "野生株高",
+   "value": "9–12 m",
+   "lo": 9,
+   "hi": 12,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "占全球产量",
+   "value": "约 60%",
+   "lo": 60,
+   "hi": 60,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "10–15 mm",
+   "lo": 0.01,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最佳海拔",
+   "value": "1200–1500 m",
+   "lo": 1200,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "咖啡豆",
+   "icon": "seed",
+   "desc": "红色“咖啡樱桃”里通常有两粒种子，就是咖啡豆。"
+  },
+  {
+   "name": "杂交起源",
+   "icon": "clone",
+   "desc": "它是两种咖啡杂交形成的，时间约在 54–108 万年前。"
+  }
+ ],
+ "intro": [
+  "小果咖啡被认为是最早栽培的咖啡。",
+  "野生种群只分布在埃塞俄比亚南部、南苏丹和也门的森林里。",
+  "它喜欢温和、多雨、半遮阴的热带高地。"
+ ],
+ "fact": "巴西是世界最大的咖啡产地（中文维基）。",
+ "range": "原产埃塞俄比亚等地；拉美、亚洲、非洲广泛栽培。",
+ "sources": [
+  "Wikipedia「Coffea arabica」",
+  "维基百科「小果咖啡」"
+ ],
+ "footnote": "IUCN 濒危指野生种群。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "玉米",
+ "no": "843",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "玉米",
+ "name_en": "Maize",
+ "latin": "Zea mays",
+ "short": "玉米",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1.2–4 m",
+   "lo": 1.2,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "驯化至今",
+   "value": "约 9000 年",
+   "lo": 9000,
+   "hi": 9000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "年产量",
+   "value": "11 亿吨（2020）",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "染色体",
+   "value": "20 条",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "雌雄分开",
+   "icon": "wind",
+   "desc": "顶上的雄穗产花粉，雌穗长成玉米棒。"
+  },
+  {
+   "name": "用途多",
+   "icon": "food",
+   "desc": "既是粮食和饲料，也能做乙醇燃料和塑料等（中文维基）。"
+  }
+ ],
+ "intro": [
+  "玉米大约 9000 年前由墨西哥南部的原住民从野生大刍草驯化而来。",
+  "巴尔萨斯河谷的大刍草是它最近的野生亲戚。",
+  "它是全世界总产量最高的粮食作物（中文维基）。"
+ ],
+ "fact": "在前哥伦布时代的中美洲，玉米被奉为神，还有玉米神的雕像。",
+ "range": "起源墨西哥南部；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Maize」",
+  "维基百科「玉米」"
+ ],
+ "footnote": "年产量 11 亿吨超出刻度上限 10 亿吨。"
+}

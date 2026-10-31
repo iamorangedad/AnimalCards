@@ -1,0 +1,78 @@
+{
+ "file": "藜麦",
+ "no": "850",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "藜麦",
+ "name_en": "Quinoa",
+ "latin": "Chenopodium quinoa",
+ "short": "藜麦",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 1–2 m",
+   "lo": 1,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种子直径",
+   "value": "约 2 mm",
+   "lo": 0.002,
+   "hi": 0.002,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "人类食用",
+   "value": "3000–4000 年",
+   "lo": 3000,
+   "hi": 4000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "作饲料",
+   "value": "5200–7000 年",
+   "lo": 5200,
+   "hi": 7000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高原作物",
+   "icon": "cold",
+   "desc": "很适应高海拔，种子富含蛋白质。"
+  },
+  {
+   "name": "苦味外衣",
+   "icon": "toxic",
+   "desc": "种子外有带苦味的皂苷，不处理很难吃。"
+  }
+ ],
+ "intro": [
+  "藜麦是苋科植物，不是谷物，被称为“准谷物”。",
+  "它在玻利维亚和秘鲁的的的喀喀湖一带被驯化。",
+  "印加人称它为“万谷之母”。"
+ ],
+ "fact": "安第斯和墨西哥的藜麦可能是分别独立驯化的。",
+ "range": "原产南美安第斯山区；各地引种。",
+ "sources": [
+  "Wikipedia「Quinoa」",
+  "维基百科「藜麦」"
+ ],
+ "footnote": ""
+}

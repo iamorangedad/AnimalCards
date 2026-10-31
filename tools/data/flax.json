@@ -1,0 +1,78 @@
+{
+ "file": "亚麻",
+ "no": "865",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "亚麻",
+ "name_en": "Flax",
+ "latin": "Linum usitatissimum",
+ "short": "亚麻",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 1.2 m",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "15–25 mm",
+   "lo": 0.015,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种子",
+   "value": "4–7 mm",
+   "lo": 0.004,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "茎纤维",
+   "icon": "trunk",
+   "desc": "茎的韧皮纤维坚韧耐磨，在水中不易腐烂，可以织布（中文维基）。"
+  },
+  {
+   "name": "亚麻籽",
+   "icon": "seed",
+   "desc": "种子富含 omega-3 脂肪酸，可榨油。"
+  }
+ ],
+ "intro": [
+  "亚麻只以栽培植物形式存在。",
+  "它似乎只由野生的淡亚麻驯化过一次。",
+  "最早的驯化发生在新月沃地。"
+ ],
+ "fact": "最早用野生亚麻纺织的证据来自今格鲁吉亚。",
+ "range": "起源新月沃地；全球温带种植。",
+ "sources": [
+  "Wikipedia「Flax」",
+  "维基百科「亚麻」"
+ ],
+ "footnote": ""
+}

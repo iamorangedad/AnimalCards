@@ -1,0 +1,78 @@
+{
+ "file": "荞麦",
+ "no": "851",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "荞麦",
+ "name_en": "Buckwheat",
+ "latin": "Fagopyrum esculentum",
+ "short": "荞麦",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "瘦果",
+   "value": "5–7 mm",
+   "lo": 0.005,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "197 万吨（2024）",
+   "lo": 1.97,
+   "hi": 1.97,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "日本花粉",
+   "value": "公元前 4000 年",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最高海拔作物",
+   "icon": "cold",
+   "desc": "是种植海拔最高的驯化作物，种在青藏高原边缘甚至高原上。"
+  },
+  {
+   "name": "瘦土也行",
+   "icon": "root",
+   "desc": "生长期短，在贫瘠或酸性土里长得好；肥太多反而减产。"
+  }
+ ],
+ "intro": [
+  "荞麦不是禾本科，而是蓼科植物。",
+  "它原产中国中南部和西藏。",
+  "它的花粉和花蜜能吸引害虫天敌，帮助生物防治。"
+ ],
+ "fact": "种子呈三角形，有三条明显的棱。",
+ "range": "原产中国西南；欧亚、非洲、美洲引种。",
+ "sources": [
+  "Wikipedia「Buckwheat」",
+  "维基百科「荞麦」"
+ ],
+ "footnote": "“公元前 4000 年”换算约 6000 年前，示意。"
+}

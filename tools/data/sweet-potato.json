@@ -1,0 +1,79 @@
+{
+ "file": "番薯",
+ "no": "855",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "番薯",
+ "name_en": "Sweet potato",
+ "latin": "Ipomoea batatas",
+ "short": "番薯",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "茎长",
+   "value": "0.5–4 m",
+   "lo": 0.5,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–13 cm",
+   "lo": 0.05,
+   "hi": 0.13,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "8900 万吨（2020）",
+   "lo": 89,
+   "hi": 89,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "55%",
+   "lo": 55,
+   "hi": 55,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "块根",
+   "icon": "root",
+   "desc": "膨大、甜、富含淀粉的块根是主食。"
+  },
+  {
+   "name": "救荒粮",
+   "icon": "food",
+   "desc": "历史上常用来救济饥荒（中文维基）。"
+  }
+ ],
+ "intro": [
+  "番薯原产南美热带，即今厄瓜多尔一带。",
+  "它是旋花科里唯一主要的农作物。",
+  "它的嫩茎叶也能当菜吃（中文维基）。"
+ ],
+ "fact": "中美洲至少 5000 年前就有驯化番薯。",
+ "range": "原产美洲热带；全球热带、亚热带种植。",
+ "sources": [
+  "Wikipedia「Sweet potato」",
+  "维基百科「番薯」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "普通小麦",
+ "no": "842",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "普通小麦",
+ "name_en": "Common wheat",
+ "latin": "Triticum aestivum",
+ "short": "普通小麦",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "起源",
+   "value": "约 8000 年前",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "占小麦产量",
+   "value": "约 95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "染色体组",
+   "value": "6 套",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "小麦年产",
+   "value": "7.99 亿吨（2023）",
+   "lo": 799,
+   "hi": 799,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "从节节麦得到的基因让面包小麦比多数小麦更耐寒，能在全球温带种植。"
+  },
+  {
+   "name": "面包之麦",
+   "icon": "food",
+   "desc": "非常适合现代工业烘焙，取代了许多其他小麦。"
+  }
+ ],
+ "intro": [
+  "普通小麦也叫面包小麦。",
+  "它由一种已驯化的小麦和野生节节麦杂交而来。",
+  "它是种植最广的作物，也是产值最高的谷物。"
+ ],
+ "fact": "它是异源六倍体，六套染色体来自不同的物种。",
+ "range": "起源南高加索/里海西南；全球温带广泛种植。",
+ "sources": [
+  "Wikipedia「Common wheat」",
+  "维基百科「普通小麦」",
+  "Wikipedia「Barley」"
+ ],
+ "footnote": "年产量为全部小麦（大麦条目 2023 年数据）。"
+}

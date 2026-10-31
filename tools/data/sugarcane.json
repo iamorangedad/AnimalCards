@@ -1,0 +1,78 @@
+{
+ "file": "甘蔗",
+ "no": "857",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "甘蔗",
+ "name_en": "Sugarcane",
+ "latin": "Saccharum officinarum",
+ "short": "甘蔗",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "茎高",
+   "value": "可达 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "30–60 cm",
+   "lo": 0.3,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花序长",
+   "value": "可达 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "新几内亚",
+   "value": "约 8000 年前",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "茎里藏糖",
+   "icon": "drop",
+   "desc": "粗壮的茎里积累大量蔗糖。"
+  },
+  {
+   "name": "开花前收",
+   "icon": "sun",
+   "desc": "开花会降低含糖量，所以开花前收割。"
+  }
+ ],
+ "intro": [
+  "甘蔗最早在新几内亚被驯化。",
+  "约 6000 年前起由当地的野生种选育而来。",
+  "榨汁熬糖可能最早出现在 2000 多年前的印度。"
+ ],
+ "fact": "茎有绿色、粉色或紫色。",
+ "range": "起源新几内亚；热带、亚热带广泛种植。",
+ "sources": [
+  "Wikipedia「Saccharum officinarum」",
+  "维基百科「甘蔗」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "智利红玫瑰蜘蛛",
+ "no": "443",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "智利红玫瑰蜘蛛",
+ "name_en": "Chilean rose tarantula",
+ "latin": "Grammostola rosea",
+ "short": "智利红玫瑰蜘蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蟋蟀等昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "CITES 附录 II",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "雌蛛寿命",
+   "value": "最长约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "每次产卵",
+   "value": "50–200 枚",
+   "lo": 50,
+   "hi": 200,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "洞深",
+   "value": "最深 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "0–1500 m",
+   "lo": 0,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺激毛",
+   "icon": "toxic",
+   "desc": "受威胁时会用腿把腹部的刺激毛刷到空中，让敌人皮肤和眼睛发痒。"
+  },
+  {
+   "name": "挖洞",
+   "icon": "root",
+   "desc": "住在自己挖的洞里，雌蛛的洞更深。"
+  }
+ ],
+ "intro": [
+  "智利红玫瑰捕鸟蛛可能是宠物店里最常见的捕鸟蛛。",
+  "它有毒，但主要靠刺激毛防身。",
+  "雄蛛交配后几个月就会死去。"
+ ],
+ "fact": "它的刺激毛同时也是感觉器官，能察觉细小的震动。",
+ "range": "智利、阿根廷、玻利维亚。",
+ "sources": [
+  "Wikipedia「Chilean rose tarantula」"
+ ],
+ "footnote": "IUCN 未评估，列入 CITES 附录 II（据维基）。",
+ "warn": "它有毒，刺激毛会伤眼睛和皮肤；不要徒手抓。"
+}

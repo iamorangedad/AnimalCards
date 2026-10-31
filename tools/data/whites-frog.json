@@ -1,0 +1,80 @@
+{
+ "file": "老爷树蛙",
+ "no": "442",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "老爷树蛙",
+ "name_en": "Australian green tree frog",
+ "latin": "Pelodryas caerulea",
+ "short": "老爷树蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "10 cm 以上",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "约 16 年",
+   "lo": 16,
+   "hi": 16,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "一次产卵",
+   "value": "200–2000 枚",
+   "lo": 200,
+   "hi": 2000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "蝌蚪变蛙",
+   "value": "44 mm",
+   "lo": 0.044,
+   "hi": 0.044,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "护肤分泌物",
+   "icon": "drop",
+   "desc": "皮肤分泌物有抗菌、抗病毒作用，可能用于制药。"
+  },
+  {
+   "name": "吸盘脚",
+   "icon": "climb",
+   "desc": "大大的趾垫能吸住玻璃和树叶。"
+  }
+ ],
+ "intro": [
+  "白氏树蛙原产澳大利亚和新几内亚，绿色、胖乎乎的。",
+  "它比大多数澳大利亚蛙都大。",
+  "圈养寿命约 16 年，有的超过 20 年，在蛙类里算长寿。"
+ ],
+ "fact": "2002 年约有 7.5 万只从印尼出口到宠物市场。",
+ "range": "澳大利亚北部和东部、新几内亚南部。",
+ "sources": [
+  "Wikipedia「Australian green tree frog」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "“蝌蚪变蛙”为完全发育时的体长。"
+}

@@ -514,3 +514,72 @@ ART5["gouldian"] = _perch_bird("savanna", F="#5ab84a", wing="#4aa03a", rx=52, ry
                                tail="long", tail_col="#2a2a2e", head_col="#d9302a", belly="#f6d43a", front_fn=lambda x, y, r: E(x + r * .5, y + r * 1.2, r * .7, r * .3, "#9a5ad9", 0))
 ART5["eclectus"] = _perch_bird("rainforest", F="#3ab84a", wing="#2a9a3a", rx=66, ry=50, tilt=-34, neck=8, nw=46, hr=34, beak="hook", beak_col="#f2a03a", leg_len=28, leg_col="#6b6b6b",
                                tail="short", tail_col="#2a9a3a", front_fn=lambda x, y, r: E(x + r * 1.4, y + r * 1.6, r * .5, r * .9, "#d9302a", 0))
+
+# ---- batch p4pet2 ----
+from art4 import tank, L_, C_, FR_, TU_
+from art3 import lizard, snake_coil, frog
+from art2 import fish, turtle
+ART5["lorikeet"] = _perch_bird("forest", F="#3aa84a", wing="#2a9a3a", rx=56, ry=40, tilt=-28, neck=6, nw=38, hr=28, beak="hook", beak_col="#e8402a", leg_len=22, leg_col="#8a8a8a", legw=4,
+                               tail="long", tail_col="#3aa84a", head_col="#3a5ad9", belly="#3a5ad9", front_fn=lambda x, y, r: E(x + r * .3, y + r * .9, r * .75, r * .5, "#f29a2a", 0))
+ART5["ringneck"] = _perch_bird("home", F="#8ad86a", wing="#6ac04a", rx=56, ry=38, tilt=-26, neck=6, nw=38, hr=28, beak="hook", beak_col="#d9302a", leg_len=22, leg_col="#8a8a8a", legw=4,
+                               tail="long", tail_col="#6ac04a", front_fn=lambda x, y, r: P(f"M{x-r*.9} {y+r*.55} q{r*.9} {r*.6} {r*1.8} 0", sw=5, col=INK) + P(f"M{x-r*.9} {y+r*.7} q{r*.9} {r*.6} {r*1.8} 0", sw=4, col="#f2a0b8"))
+def _fishes(main, sm=None, box=(None, 330, 360, 220)):
+    return tank(main + (G_(sm, 160, -110) if sm else ""), box=box)
+ART5["molly"] = _fishes(fish(F="#2a2a2e", L=210, H=90, tail="round", eye_r=8, fin_col="#3a3a3e", tail_col="#3a3a3e"),
+                        fish(F="#f2f2ee", L=150, H=64, tail="round", eye_r=6, fin_col="#e6e6e0"))
+ART5["swordtail"] = _fishes(fish(F="#e8582c", L=200, H=74, tail="fork", eye_r=7, fin_col="#f2884a",
+                                 extras=P("M110 22 L250 40 L246 50 L106 34 Z", "#2a2a2e", 2.4)))
+ART5["cardinal-tetra"] = tank(fish(F="#d9302a", L=210, H=76, tail="fork", eye_r=8, fin_col="#e6ecf1",
+                                   extras=P("M-96 -12 L96 -12", sw=12, col="#3fb6e8")) +
+                              G_(fish(F="#d9302a", L=140, H=52, tail="fork", eye_r=6, extras=P("M-60 -8 L60 -8", sw=8, col="#3fb6e8")), 150, -110) +
+                              G_(fish(F="#d9302a", L=120, H=46, tail="fork", eye_r=5, extras=P("M-52 -7 L52 -7", sw=7, col="#3fb6e8")), -150, 110))
+ART5["arowana"] = tank(fish(F="#e8b84a", L=380, H=90, tail="round", eye_r=9, fin_col="#d9902a", tail_col="#d9902a", belly="#f6dc8a",
+                            extras=P("M150 -6 l20 -26", sw=4, col=INK) + P("M150 -6 l26 -20", sw=4, col=INK)), box=(None, 330, 480, 200))
+ART5["corydoras"] = tank(fish(F="#a89060", L=200, H=90, tail="fork", eye_r=8, fin_col="#c9b48a", belly="#e9dcc0",
+                              extras=P("M-60 -20 L80 -20", sw=10, col="#3a6a5a") + P("M96 30 l18 14 M90 34 l10 18", sw=3)), box=(None, 380, 330, 200))
+ART5["dwarf-gourami"] = tank(fish(F="#3a7ad9", L=200, H=120, tail="round", eye_r=8, fin_col="#d9302a",
+                                  extras="".join(P(f"M{x} -50 L{x+30} 50", sw=10, col="#d9402a") for x in (-70, -30, 10, 50)) + P("M40 40 L-30 130", sw=3, col="#d9402a")))
+ART5["tiger-barb"] = _fishes(fish(F="#f2c86a", L=190, H=110, tail="fork", eye_r=8, fin_col="#e8402a", stripes=("#2a2a2e", [.15, .4, .65, .88])),
+                             fish(F="#f2c86a", L=130, H=76, tail="fork", eye_r=6, fin_col="#e8402a", stripes=("#2a2a2e", [.15, .4, .65, .88])))
+ART5["white-cloud"] = lambda w, h: scene("pond", w, h, fish(F="#a8b89a", L=200, H=60, tail="fork", eye_r=7, fin_col="#e8402a", tail_col="#e8402a",
+                                          extras=P("M-90 -4 L96 -4", sw=6, col="#f2e6a0")) + G_(fish(F="#a8b89a", L=140, H=44, tail="fork", eye_r=5, fin_col="#e8402a", tail_col="#e8402a"), 170, -80), box=(w / 2, h * .66, 460, 220))
+ART5["red-foot"] = TU_("rainforest", shell="#3a3430", skin="#3a3a3a", L=270, H=150, scute="#e8b84a", neck=46, plastron="#e8d8a8",
+                       post="".join(C(x, 40, 10, "#e8402a", 0) for x in (-90, -40, 60, 110)))
+ART5["hermann"] = TU_("meadow", shell="#d9b84a", skin="#b9a888", L=250, H=140, scute="#3a3430", neck=46, plastron="#f2e2a8")
+ART5["blue-tongue"] = L_("desert", (.78, 620, 260), F="#b9a88a", L=300, H=70, tail=.6, snout=56, sh=40, belly="#e9dcc0", legs=14, legh=22,
+                         spots="#6a5a4a", post=P("M-172 4 l-34 -8 l6 8 l-6 8 Z", "#3a5ad9", 2.4))
+ART5["kingsnake"] = C_("desert", "#2a2a2e", pat="#f6f2e0", L=1.0)
+ART5["hognose"] = C_("meadow", "#b99a6a", pat="#6a4a2a", L=.85)
+ART5["pacman"] = FR_("rainforest", "#6ab84a", "#f2e6b8", spots="#a8402a", box=(.76, 460, 280))
+ART5["whites-frog"] = FR_("leaf", "#6ac05a", "#f6f2e0", box=(.74, 420, 240))
+def _arach(F, L=120, tail=False, hair=None, box=(.76, 520, 300), kind="desert"):
+    def f(w, h):
+        o = ""
+        for s in (-1, 1):
+            for i in range(4):
+                d = f"M{s*20} {-30+i*8} L{s*(90+i*16)} {-90+i*26} L{s*(140+i*22)} 30"
+                o += P(d, sw=12, col=INK) + P(d, sw=7, col=F)
+        if tail:
+            o += P("M0 0 C0 80 -40 120 -120 90 C-180 60 -200 -10 -160 -60", sw=26, col=INK) + P("M0 0 C0 80 -40 120 -120 90 C-180 60 -200 -10 -160 -60", sw=20, col=F)
+            o += P("M-160 -60 l-10 -26 l24 12", "#3a3a3a", 2.4)
+            for s in (-1, 1):
+                d = f"M{s*20} -70 L{s*90} -140"
+                o += P(d, sw=14, col=INK) + P(d, sw=9, col=F) + E(s * 110, -160, 44, 26, F, 3) + P(f"M{s*90} -176 L{s*150} -190", sw=4)
+            o += E(0, -30, 44, 74, F, 3) + "".join(P(f"M-36 {y} H36", sw=2.4) for y in (-60, -30, 0, 30))
+        else:
+            o += E(0, 20, 66, 56, F, 3) + C(0, -50, 46, F, 3) + "".join(P(f"M{x} {y} l-4 -10", sw=2, col=hair) for x in range(-40, 50, 16) for y in (0, 30, 50))
+            o += C(-10, -78, 5, INK, 0) + C(10, -78, 5, INK, 0)
+        return scene(kind, w, h, o, box=(w / 2, h * box[0], box[1], box[2]))
+    return f
+ART5["rose-tarantula"] = _arach("#8a6a5a", hair="#e8a8a0")
+ART5["emperor-scorpion"] = _arach("#2a2a30", tail=True, kind="rainforest", box=(.74, 480, 360))
+def _hermit(w, h):
+    shell = P("M-20 0 C-40 -140 160 -170 170 -40 C176 20 100 30 40 20 Z", "#d9a07a", 3) + P("M150 -40 C120 -110 40 -100 50 -40 C60 0 120 -10 110 -50", sw=3, col="#8a5a3a")
+    o = ""
+    for i in range(3):
+        d = f"M{-20-i*14} 0 L{-80-i*24} -30 L{-110-i*24} 30"
+        o += P(d, sw=12, col=INK) + P(d, sw=8, col="#e8804a")
+    o += P("M-30 -30 L-100 -80", sw=16, col=INK) + P("M-30 -30 L-100 -80", sw=11, col="#8a4ab8") + E(-120, -96, 34, 26, "#8a4ab8", 3)
+    o += P("M-30 -40 L-50 -110 M-20 -40 L-30 -116", sw=3) + C(-50, -114, 6, INK, 0) + C(-30, -120, 6, INK, 0)
+    return scene("meadow", w, h, shell + o, box=(w / 2, h * .76, 440, 260))
+ART5["hermit-crab"] = _hermit

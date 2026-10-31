@@ -1,0 +1,79 @@
+{
+ "file": "红领绿鹦鹉",
+ "no": "427",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "红领绿鹦鹉",
+ "name_en": "Rose-ringed parakeet",
+ "latin": "Psittacula krameri",
+ "short": "红领绿鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃种子、水果和花",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重·亚洲",
+   "value": "104–143 g",
+   "lo": 0.104,
+   "hi": 0.143,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体重·非洲",
+   "value": "51–93 g",
+   "lo": 0.051,
+   "hi": 0.093,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼长",
+   "value": "15–19 cm",
+   "lo": 0.15,
+   "hi": 0.19,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "17–27 cm",
+   "lo": 0.17,
+   "hi": 0.27,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "学说话",
+   "icon": "ear",
+   "desc": "雄鸟和雌鸟都能模仿人说话，而且发音特别清楚。"
+  },
+  {
+   "name": "适应城市",
+   "icon": "team",
+   "desc": "逃逸的鸟在世界很多城市安了家，常到喂鸟器取食。"
+  }
+ ],
+ "intro": [
+  "红领绿鹦鹉原产非洲和南亚，是很受欢迎的宠物鸟。",
+  "雄鸟脖子上有一圈黑色和粉红色的“项圈”。",
+  "英国、德国、西班牙等地都有野化的种群。"
+ ],
+ "fact": "人工繁育出了蓝色的突变个体，羽毛是纯浅蓝色而不是绿色。",
+ "range": "撒哈拉以南非洲的萨赫勒地带和南亚；被引入多地。",
+ "sources": [
+  "Wikipedia「Rose-ringed parakeet」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": "体重、翼长按亚洲和非洲两类分开。"
+}

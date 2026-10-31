@@ -1,0 +1,78 @@
+{
+ "file": "东部蓝舌石龙子",
+ "no": "438",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "东部蓝舌石龙子",
+ "name_en": "Eastern blue-tongued skink",
+ "latin": "Tiliqua scincoides scincoides",
+ "short": "东部蓝舌石龙子",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃蜗牛、虫子、花和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "约 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "约 1 kg",
+   "lo": 1,
+   "hi": 1,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "每年产仔",
+   "value": "6–20 只",
+   "lo": 6,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "超 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吐蓝舌头",
+   "icon": "toxic",
+   "desc": "遇到危险会张嘴亮出蓝舌头、嘶嘶叫，还会鼓起胸部。"
+  },
+  {
+   "name": "胎生",
+   "icon": "huddle",
+   "desc": "直接生下发育得很好的小蜥蜴。"
+  }
+ ],
+ "intro": [
+  "东部蓝舌石龙子生活在澳大利亚东海岸。",
+  "它对人无毒，常出现在城市和郊区的花园里。",
+  "它的腿很短，后腿只有约 6 cm。"
+ ],
+ "fact": "它约 561–590 天大时性成熟。",
+ "range": "澳大利亚东海岸。",
+ "sources": [
+  "Wikipedia「Eastern blue-tongued skink」"
+ ],
+ "footnote": "等级为普通蓝舌石龙子物种的 IUCN 评估。"
+}

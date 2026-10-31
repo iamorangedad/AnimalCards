@@ -1,0 +1,79 @@
+{
+ "file": "帝王蝎",
+ "no": "444",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "帝王蝎",
+ "name_en": "Emperor scorpion",
+ "latin": "Pandinus imperator",
+ "short": "帝王蝎",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫和蠕虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "CITES 附录 II",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "约 30 g",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "6–8 年",
+   "lo": 6,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "最长 8 年",
+   "lo": 8,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "紫外荧光",
+   "icon": "glow",
+   "desc": "身体是黑色的，但在紫外线下会发出淡绿或淡蓝的光。"
+  },
+  {
+   "name": "感震毛",
+   "icon": "whisker",
+   "desc": "钳子和尾巴上的感觉毛能感知空气和地面的震动。"
+  }
+ ],
+ "intro": [
+  "帝王蝎生活在西非的雨林和草原，是世界上最大的蝎子之一。",
+  "它是很受欢迎的宠物，受 CITES 保护以防过度捕捉。",
+  "尾巴末端有毒腺和弯弯的尾刺。"
+ ],
+ "fact": "世界最大的蝎子纪录属于斯里兰卡的另一种蝎子，长 23 cm。",
+ "range": "西非。",
+ "sources": [
+  "Wikipedia「Emperor scorpion」"
+ ],
+ "footnote": "IUCN 未评估，列入 CITES 附录 II。",
+ "warn": "会蜇人；不要徒手抓，被蜇后若有过敏反应应就医。"
+}

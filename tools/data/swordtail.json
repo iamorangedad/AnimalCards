@@ -1,0 +1,80 @@
+{
+ "file": "剑尾鱼",
+ "no": "429",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "剑尾鱼",
+ "name_en": "Green swordtail",
+ "latin": "Xiphophorus hellerii",
+ "short": "剑尾鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫和藻类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鱼最长",
+   "value": "14 cm",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌鱼最长",
+   "value": "16 cm",
+   "lo": 0.16,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次产仔",
+   "value": "20–200 条",
+   "lo": 20,
+   "hi": 200,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "24–30 天",
+   "lo": 24,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "尾巴宝剑",
+   "icon": "fire",
+   "desc": "雄鱼尾鳍下缘拉长成一把“剑”，名字就是这么来的。"
+  },
+  {
+   "name": "胎生",
+   "icon": "huddle",
+   "desc": "直接生下小鱼；买来的雌鱼常常已经怀孕。"
+  }
+ ],
+ "intro": [
+  "剑尾鱼原产墨西哥到洪都拉斯一带，喜欢水草多的急流。",
+  "野生的是橄榄绿色，身上有红色或褐色的侧纹。",
+  "红色品系是很受欢迎的观赏鱼，也常用于遗传学研究。"
+ ],
+ "fact": "在某些环境条件下，雌剑尾鱼会变性成雄鱼。",
+ "range": "墨西哥韦拉克鲁斯到洪都拉斯西北部；被引入多地。",
+ "sources": [
+  "Wikipedia「Green swordtail」",
+  "FishBase「Xiphophorus hellerii」",
+  "IUCN 红色名录（IUCN 2018）"
+ ],
+ "footnote": "产仔数和怀孕期来自 FishBase。"
+}

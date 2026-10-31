@@ -1,0 +1,78 @@
+{
+ "file": "红腿陆龟",
+ "no": "436",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "红腿陆龟",
+ "name_en": "Red-footed tortoise",
+ "latin": "Chelonoidis carbonarius",
+ "short": "红腿陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃果实和植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "30–35 cm",
+   "lo": 0.3,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "2–7 枚",
+   "lo": 2,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "105–202 天",
+   "lo": 105,
+   "hi": 202,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色鳞片",
+   "icon": "camo",
+   "desc": "四肢上有红色或橙色的鳞片，名字由此而来。"
+  },
+  {
+   "name": "爱休息",
+   "icon": "huddle",
+   "desc": "白天一半以上的时间在休息。"
+  }
+ ],
+ "intro": [
+  "红腿陆龟来自南美北部，是中型陆龟。",
+  "最大的一只来自巴拉圭，长 60 cm、重 28 kg 以上。",
+  "它常被当作宠物；过度捕捉威胁野外种群。"
+ ],
+ "fact": "它的学名常被误写成 carbonaria，这个错误到 2017 年才被纠正。",
+ "range": "南美北部（委内瑞拉、圭亚那到巴拉圭）。",
+ "sources": [
+  "Wikipedia「Red-footed tortoise」"
+ ],
+ "footnote": "维基页面未列 IUCN 等级，按未评估处理。【待核：IUCN】"
+}

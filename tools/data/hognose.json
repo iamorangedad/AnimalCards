@@ -1,0 +1,78 @@
+{
+ "file": "西部猪鼻蛇",
+ "no": "440",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "西部猪鼻蛇",
+ "name_en": "Western hognose snake",
+ "latin": "Heterodon nasicus",
+ "short": "西部猪鼻蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃蛙和蟾蜍",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成体全长",
+   "value": "很少超 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "4–23 枚",
+   "lo": 4,
+   "hi": 23,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 60 天",
+   "lo": 60,
+   "hi": 60,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "分布海拔",
+   "value": "最高 2500 m",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "装死",
+   "icon": "flip",
+   "desc": "受到骚扰时几乎从不咬人，而是翻肚皮装死。"
+  },
+  {
+   "name": "翘鼻挖土",
+   "icon": "root",
+   "desc": "上翘的鼻子像小铲子，能挖开沙土。"
+  }
+ ],
+ "intro": [
+  "西部猪鼻蛇分布在北美，白天活动。",
+  "雄蛇比雌蛇小很多。",
+  "它有后牙，咬到能帮它对付蟾蜍的毒；一般不被视为毒蛇。"
+ ],
+ "fact": "受威胁时它会压扁脖子、鼓起身体，看起来像眼镜蛇。",
+ "range": "北美中部（加拿大南部到墨西哥北部）。",
+ "sources": [
+  "Wikipedia「Western hognose snake」"
+ ],
+ "footnote": ""
+}

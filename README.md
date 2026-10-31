@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 425 张（动物 425）。分类：宠物 75，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
+共 445 张（动物 445）。分类：宠物 95，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -83,6 +83,26 @@
 | 423 | 文鸟（Java sparrow） | 动物 · 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%87%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%96%87%E9%B8%9F.pdf) |
 | 424 | 七彩文鸟（Gouldian finch） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%83%E5%BD%A9%E6%96%87%E9%B8%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%83%E5%BD%A9%E6%96%87%E9%B8%9F.pdf) |
 | 425 | 红胁绿鹦鹉（Moluccan eclectus） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E8%83%81%E7%BB%BF%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E8%83%81%E7%BB%BF%E9%B9%A6%E9%B9%89.pdf) |
+| 426 | 彩虹吸蜜鹦鹉（Rainbow lorikeet） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%BD%A9%E8%99%B9%E5%90%B8%E8%9C%9C%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%BD%A9%E8%99%B9%E5%90%B8%E8%9C%9C%E9%B9%A6%E9%B9%89.pdf) |
+| 427 | 红领绿鹦鹉（Rose-ringed parakeet） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E9%A2%86%E7%BB%BF%E9%B9%A6%E9%B9%89.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E9%A2%86%E7%BB%BF%E9%B9%A6%E9%B9%89.pdf) |
+| 428 | 茉莉鱼（Molly） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%8C%89%E8%8E%89%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%8C%89%E8%8E%89%E9%B1%BC.pdf) |
+| 429 | 剑尾鱼（Green swordtail） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%89%91%E5%B0%BE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%89%91%E5%B0%BE%E9%B1%BC.pdf) |
+| 430 | 宝莲灯鱼（Cardinal tetra） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%9D%E8%8E%B2%E7%81%AF%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%AE%9D%E8%8E%B2%E7%81%AF%E9%B1%BC.pdf) |
+| 431 | 美丽硬仆骨舌鱼（Asian arowana） | 动物 · 宠物 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BE%8E%E4%B8%BD%E7%A1%AC%E4%BB%86%E9%AA%A8%E8%88%8C%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BE%8E%E4%B8%BD%E7%A1%AC%E4%BB%86%E9%AA%A8%E8%88%8C%E9%B1%BC.pdf) |
+| 432 | 青铜鼠鱼（Bronze corydoras） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%92%E9%93%9C%E9%BC%A0%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%9D%92%E9%93%9C%E9%BC%A0%E9%B1%BC.pdf) |
+| 433 | 丽丽鱼（Dwarf gourami） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%BD%E4%B8%BD%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%BD%E4%B8%BD%E9%B1%BC.pdf) |
+| 434 | 虎皮鱼（Tiger barb） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%99%8E%E7%9A%AE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%99%8E%E7%9A%AE%E9%B1%BC.pdf) |
+| 435 | 唐鱼（White Cloud Mountain minnow） | 动物 · 宠物 | DD 数据缺乏 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%94%90%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%94%90%E9%B1%BC.pdf) |
+| 436 | 红腿陆龟（Red-footed tortoise） | 动物 · 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E8%85%BF%E9%99%86%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E7%BA%A2%E8%85%BF%E9%99%86%E9%BE%9F.pdf) |
+| 437 | 赫曼陆龟（Hermann's tortoise） | 动物 · 宠物 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B5%AB%E6%9B%BC%E9%99%86%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%B5%AB%E6%9B%BC%E9%99%86%E9%BE%9F.pdf) |
+| 438 | 东部蓝舌石龙子（Eastern blue-tongued skink） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%9C%E9%83%A8%E8%93%9D%E8%88%8C%E7%9F%B3%E9%BE%99%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E4%B8%9C%E9%83%A8%E8%93%9D%E8%88%8C%E7%9F%B3%E9%BE%99%E5%AD%90.pdf) |
+| 439 | 加州王蛇（California kingsnake） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%B7%9E%E7%8E%8B%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%B7%9E%E7%8E%8B%E8%9B%87.pdf) |
+| 440 | 西部猪鼻蛇（Western hognose snake） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%A5%BF%E9%83%A8%E7%8C%AA%E9%BC%BB%E8%9B%87.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%A5%BF%E9%83%A8%E7%8C%AA%E9%BC%BB%E8%9B%87.pdf) |
+| 441 | 钟角蛙（Argentine horned frog） | 动物 · 宠物 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%92%9F%E8%A7%92%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E9%92%9F%E8%A7%92%E8%9B%99.pdf) |
+| 442 | 老爷树蛙（Australian green tree frog） | 动物 · 宠物 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%80%81%E7%88%B7%E6%A0%91%E8%9B%99.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E8%80%81%E7%88%B7%E6%A0%91%E8%9B%99.pdf) |
+| 443 | 智利红玫瑰蜘蛛（Chilean rose tarantula） | 动物 · 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%99%BA%E5%88%A9%E7%BA%A2%E7%8E%AB%E7%91%B0%E8%9C%98%E8%9B%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E6%99%BA%E5%88%A9%E7%BA%A2%E7%8E%AB%E7%91%B0%E8%9C%98%E8%9B%9B.pdf) |
+| 444 | 帝王蝎（Emperor scorpion） | 动物 · 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%B8%9D%E7%8E%8B%E8%9D%8E.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%B8%9D%E7%8E%8B%E8%9D%8E.pdf) |
+| 445 | 加勒比海寄居蟹（Caribbean hermit crab） | 动物 · 宠物 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%8B%92%E6%AF%94%E6%B5%B7%E5%AF%84%E5%B1%85%E8%9F%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%AE%A0%E7%89%A9/%E5%8A%A0%E5%8B%92%E6%AF%94%E6%B5%B7%E5%AF%84%E5%B1%85%E8%9F%B9.pdf) |
 | 017 | 牛（Cattle） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%89%9B.pdf) |
 | 018 | 猪（Domestic pig） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%8C%AA.pdf) |
 | 019 | 绵羊（Sheep） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%B5%E7%BE%8A.pdf) |

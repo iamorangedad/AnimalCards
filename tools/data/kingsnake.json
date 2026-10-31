@@ -1,0 +1,79 @@
+{
+ "file": "加州王蛇",
+ "no": "439",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "加州王蛇",
+ "name_en": "California kingsnake",
+ "latin": "Lampropeltis californiae",
+ "short": "加州王蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蛇、蜥蜴和鼠",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见长度",
+   "value": "76–107 cm",
+   "lo": 0.76,
+   "hi": 1.07,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "每窝蛋",
+   "value": "5–12 枚",
+   "lo": 5,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃毒蛇",
+   "icon": "toxic",
+   "desc": "“王蛇”会吃响尾蛇等毒蛇，天生能抵抗响尾蛇的毒。"
+  },
+  {
+   "name": "超强绞杀",
+   "icon": "roar",
+   "desc": "按体型比例是绞杀力最强的蛇。"
+  }
+ ],
+ "intro": [
+  "加州王蛇无毒，分布在美国西部和墨西哥北部。",
+  "受惊时会把头藏在身体卷成的球里，还会摇尾巴模仿响尾蛇。",
+  "颜色花纹变化多，是最受欢迎的宠物蛇之一。"
+ ],
+ "fact": "加那利群岛的大加那利岛上有外来的加州王蛇，2014 年估计有约 2 万条。",
+ "range": "美国西部和墨西哥北部。",
+ "sources": [
+  "Wikipedia「California kingsnake」",
+  "IUCN 红色名录（Hammerson, G.A. 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "丽丽鱼",
+ "no": "433",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "丽丽鱼",
+ "name_en": "Dwarf gourami",
+ "latin": "Trichogaster lalius",
+ "short": "丽丽鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫和藻类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 8.8 cm",
+   "lo": 0.088,
+   "hi": 0.088,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "4–6 年",
+   "lo": 4,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "300–800 枚",
+   "lo": 300,
+   "hi": 800,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "喷水距离",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吐泡筑巢",
+   "icon": "drop",
+   "desc": "雄鱼用口水泡泡在水面做巢，把卵托在泡泡下面。"
+  },
+  {
+   "name": "喷水捕虫",
+   "icon": "drop",
+   "desc": "能像射水鱼一样喷水，打下水面上方的小虫。"
+  }
+ ],
+ "intro": [
+  "丽丽鱼原产巴基斯坦、印度和孟加拉国。",
+  "野生雄鱼有蓝红相间的斜条纹，雌鱼是银色的。",
+  "它住在水草多、水流慢的小河和湖里。"
+ ],
+ "fact": "研究发现新加坡约 22% 的丽丽鱼携带一种虹彩病毒。",
+ "range": "巴基斯坦、印度、孟加拉国。",
+ "sources": [
+  "Wikipedia「Dwarf gourami」"
+ ],
+ "footnote": ""
+}

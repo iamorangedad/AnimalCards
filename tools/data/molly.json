@@ -1,0 +1,78 @@
+{
+ "file": "茉莉鱼",
+ "no": "428",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "茉莉鱼",
+ "name_en": "Molly",
+ "latin": "Poecilia sphenops",
+ "short": "茉莉鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "啃藻类，也吃干饲料",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次产仔",
+   "value": "最多 150 条",
+   "lo": 150,
+   "hi": 150,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "怀孕",
+   "value": "约 1 个月",
+   "lo": 1,
+   "hi": 1,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "耐受高温",
+   "value": "约 39 °C",
+   "lo": 39,
+   "hi": 39,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "胎生",
+   "icon": "huddle",
+   "desc": "卵在妈妈肚子里孵化，生下来就是会游泳的小鱼。"
+  },
+  {
+   "name": "耐盐耐热",
+   "icon": "drop",
+   "desc": "能生活在淡水和半咸水里，适应 10 多 °C 到近 39 °C 的水温。"
+  }
+ ],
+ "intro": [
+  "墨西哥摩利鱼原产中美洲，常叫“摩利”。",
+  "它生活在河流、池塘、泻湖和路边水沟里。",
+  "雌鱼比雄鱼大约长 1 cm。"
+ ],
+ "fact": "它和近亲墨西哥帆鳍摩利很容易混淆，要看内颌牙齿是三尖还是单尖。",
+ "range": "墨西哥到中美洲。",
+ "sources": [
+  "Wikipedia「Poecilia sphenops」"
+ ],
+ "footnote": "耐受温度为驯化后的实验值。"
+}

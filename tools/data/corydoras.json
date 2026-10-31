@@ -1,0 +1,79 @@
+{
+ "file": "青铜鼠鱼",
+ "no": "432",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "青铜鼠鱼",
+ "name_en": "Bronze corydoras",
+ "latin": "Osteogaster aenea",
+ "short": "青铜鼠鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "在水底翻找小食物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鱼体长",
+   "value": "6.5 cm",
+   "lo": 0.065,
+   "hi": 0.065,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌鱼体长",
+   "value": "7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "最多 200 枚",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鳍上有刺",
+   "icon": "thorn",
+   "desc": "背鳍和胸鳍有尖刺，带轻微毒性，能扎伤想吃它的鱼。"
+  },
+  {
+   "name": "成群",
+   "icon": "team",
+   "desc": "野外常 20–30 条成群生活。"
+  }
+ ],
+ "intro": [
+  "青铜鼠鱼也叫绿鼠鱼，是南美的小型铠甲鲶。",
+  "它适合 25–28 °C、pH 6–8 的水。",
+  "在美国、欧洲和新加坡都有大量人工繁殖。"
+ ],
+ "fact": "1858 年它最早被描述时，标本来自特立尼达。",
+ "range": "南美洲（特立尼达、哥伦比亚到拉普拉塔河流域）。",
+ "sources": [
+  "Wikipedia「Bronze corydoras」",
+  "IUCN 红色名录（Instituto Chico Mendes 2022）"
+ ],
+ "footnote": ""
+}

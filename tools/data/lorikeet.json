@@ -1,0 +1,78 @@
+{
+ "file": "彩虹吸蜜鹦鹉",
+ "no": "426",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "彩虹吸蜜鹦鹉",
+ "name_en": "Rainbow lorikeet",
+ "latin": "Trichoglossus moluccanus",
+ "short": "彩虹吸蜜鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "吃花蜜、花粉和水果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "25–30 cm",
+   "lo": 0.25,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "75–157 g",
+   "lo": 0.075,
+   "hi": 0.157,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "1–3 枚",
+   "lo": 1,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 25 天",
+   "lo": 25,
+   "hi": 25,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "刷子舌",
+   "icon": "food",
+   "desc": "舌头尖端像小刷子，能舔食花蜜和花粉。"
+  },
+  {
+   "name": "成群喧闹",
+   "icon": "team",
+   "desc": "傍晚常聚成很大、很吵的鸟群。"
+  }
+ ],
+ "intro": [
+  "彩虹吸蜜鹦鹉原产澳大利亚东部沿海。",
+  "头是深蓝色，胸口橙黄，背和翅膀是绿色。",
+  "它生活在森林、灌丛、湿地，也常见于城市公园。"
+ ],
+ "fact": "飞行时，翅膀下面的红色和一条黄色翼带非常显眼。",
+ "range": "澳大利亚东部沿海，从昆士兰北部到南澳。",
+ "sources": [
+  "Wikipedia「Rainbow lorikeet」"
+ ],
+ "footnote": ""
+}

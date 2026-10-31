@@ -1,0 +1,79 @@
+{
+ "file": "宝莲灯鱼",
+ "no": "430",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "宝莲灯鱼",
+ "name_en": "Cardinal tetra",
+ "latin": "Paracheirodon axelrodi",
+ "short": "宝莲灯鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小虫、虫卵和轮虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 3 cm",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "致死低温",
+   "value": "19.6 °C",
+   "lo": 19.6,
+   "hi": 19.6,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "致死高温",
+   "value": "33.7 °C",
+   "lo": 33.7,
+   "hi": 33.7,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "出口数量",
+   "value": "超 9200 万",
+   "lo": 92,
+   "hi": 92,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "霓虹蓝线",
+   "icon": "glow",
+   "desc": "身体中间有一条闪亮的蓝线，下半身是鲜红色。"
+  },
+  {
+   "name": "成群",
+   "icon": "team",
+   "desc": "在野外会大群逆流游到产卵地。"
+  }
+ ],
+ "intro": [
+  "宝莲灯鱼原产南美的奥里诺科河和内格罗河上游。",
+  "在野外它可能只活一年左右，在鱼缸里能活好几年。",
+  "它是观赏鱼贸易里最重要的鱼之一。"
+ ],
+ "fact": "2006–2015 年亚马孙州出口了 9200 多万条，占该州观赏鱼出口的 64.57%。",
+ "range": "南美奥里诺科河、内格罗河上游。",
+ "sources": [
+  "Wikipedia「Cardinal tetra」",
+  "IUCN 红色名录（Lima, F. 2023）"
+ ],
+ "footnote": "出口数量单位为百万条（2006–2015 年合计）。致死温度为 96 小时实验值。"
+}

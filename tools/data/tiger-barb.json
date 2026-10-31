@@ -1,0 +1,78 @@
+{
+ "file": "虎皮鱼",
+ "no": "434",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "虎皮鱼",
+ "name_en": "Tiger barb",
+ "latin": "Puntigrus tetrazona",
+ "short": "虎皮鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫和植物碎屑",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "7–10 cm",
+   "lo": 0.07,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "7 年",
+   "lo": 7,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "约 300 枚",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "适宜水温",
+   "value": "25–27.8 °C",
+   "lo": 25,
+   "hi": 27.8,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "老虎条纹",
+   "icon": "camo",
+   "desc": "身上有四条黑色竖纹，所以叫“虎皮鱼”。"
+  },
+  {
+   "name": "怕冷变色",
+   "icon": "cold",
+   "desc": "水温降到 19 °C 时，条纹会明显变淡。"
+  }
+ ],
+ "intro": [
+  "四间鲃也叫虎皮鱼，原产印尼的苏门答腊和婆罗洲。",
+  "它喜欢 pH 6–7.5 的微酸性软水。",
+  "大约 6–7 周大、体长 2–3 cm 时就性成熟。"
+ ],
+ "fact": "1992 年进口到美国的观赏鱼里，它是数量最多的 20 种之一。",
+ "range": "印度尼西亚苏门答腊、婆罗洲。",
+ "sources": [
+  "Wikipedia「Tiger barb」"
+ ],
+ "footnote": ""
+}

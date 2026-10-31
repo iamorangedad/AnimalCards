@@ -1,0 +1,79 @@
+{
+ "file": "赫曼陆龟",
+ "no": "437",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "赫曼陆龟",
+ "name_en": "Hermann's tortoise",
+ "latin": "Testudo hermanni",
+ "short": "赫曼陆龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和叶子",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "东部亚种",
+   "value": "最长 28 cm",
+   "lo": 0.28,
+   "hi": 0.28,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "西部亚种",
+   "value": "很少超 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "2–12 枚",
+   "lo": 2,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "约 90 天",
+   "lo": 90,
+   "hi": 90,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "温度定性别",
+   "icon": "fire",
+   "desc": "孵蛋温度决定小龟是公是母。"
+  },
+  {
+   "name": "长寿",
+   "icon": "huddle",
+   "desc": "可以活到 70–80 岁。"
+  }
+ ],
+ "intro": [
+  "赫曼陆龟分布在南欧，是欧洲常见的陆龟。",
+  "早上它们从夜里藏身的洞里出来晒太阳。",
+  "28 cm 的大个体约重 3–4 kg。"
+ ],
+ "fact": "种名 hermanni 是为了纪念法国博物学家约翰·赫尔曼。",
+ "range": "南欧（西班牙到巴尔干）。",
+ "sources": [
+  "Wikipedia「Hermann's tortoise」",
+  "IUCN 红色名录（Luiselli, L. 2024）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "钟角蛙",
+ "no": "441",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "钟角蛙",
+ "name_en": "Argentine horned frog",
+ "latin": "Ceratophrys ornata",
+ "short": "钟角蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "什么动的都想吞",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雌蛙体长",
+   "value": "16.5 cm",
+   "lo": 0.165,
+   "hi": 0.165,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蛙体长",
+   "value": "11.5 cm",
+   "lo": 0.115,
+   "hi": 0.115,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "6–7 年",
+   "lo": 6,
+   "hi": 7,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "约 2000 枚",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超大嘴巴",
+   "icon": "food",
+   "desc": "嘴巴约占身体的一半，会吞昆虫、老鼠、鸟、蛇和别的蛙。"
+  },
+  {
+   "name": "埋伏",
+   "icon": "camo",
+   "desc": "身上花纹像落叶，静静等猎物走近。"
+  }
+ ],
+ "intro": [
+  "钟角蛙也叫“吃豆人蛙”，原产阿根廷、乌拉圭和巴西。",
+  "成年后的食物中约一半是脊椎动物。",
+  "它有时会吞下太大的猎物把自己噎死。"
+ ],
+ "fact": "“Pacman”这个外号来自 1980 年代的游戏《吃豆人》。",
+ "range": "阿根廷、乌拉圭、巴西南部的草原。",
+ "sources": [
+  "Wikipedia「Argentine horned frog」"
+ ],
+ "footnote": "体长为吻肛长。"
+}

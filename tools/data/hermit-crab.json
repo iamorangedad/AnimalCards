@@ -1,0 +1,80 @@
+{
+ "file": "加勒比海寄居蟹",
+ "no": "445",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "加勒比海寄居蟹",
+ "name_en": "Caribbean hermit crab",
+ "latin": "Coenobita clypeatus",
+ "short": "加勒比海寄居蟹",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃动植物残渣和熟透的果子",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "确认寿命",
+   "value": "12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "饲主说法",
+   "value": "可达 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–1 m",
+   "lo": 0,
+   "hi": 1,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "放卵月份",
+   "value": "多在 8 月",
+   "lo": 8,
+   "hi": 8,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "借壳住",
+   "icon": "jar",
+   "desc": "背着螺壳当家，常用西印度马蹄螺的壳；会为抢壳打架。"
+  },
+  {
+   "name": "鳃呼吸空气",
+   "icon": "drop",
+   "desc": "用改造过的鳃呼吸空气，壳里要保持湿润才能呼吸。"
+  }
+ ],
+ "intro": [
+  "加勒比海寄居蟹也叫紫螯寄居蟹，因为左边的大螯是紫色的。",
+  "它住在陆地上，躲在大树根下，可以离海很远。",
+  "雌蟹要回到海边把卵放进海里。"
+ ],
+ "fact": "受到压力时它会发出唧唧的叫声。",
+ "range": "西大西洋：佛罗里达南部、伯利兹、委内瑞拉、西印度群岛。",
+ "sources": [
+  "Wikipedia「Caribbean hermit crab」",
+  "SeaLifeBase「Coenobita clypeatus」"
+ ],
+ "footnote": "栖息水深来自 SeaLifeBase；“可达 40 年”只是饲主的说法，未经证实。"
+}

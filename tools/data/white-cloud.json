@@ -1,0 +1,78 @@
+{
+ "file": "唐鱼",
+ "no": "435",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "唐鱼",
+ "name_en": "White Cloud Mountain minnow",
+ "latin": "Tanichthys albonubes",
+ "short": "唐鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫和碎屑",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "野外水温",
+   "value": "18–22 °C",
+   "lo": 18,
+   "hi": 22,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "耐受低温",
+   "value": "5 °C",
+   "lo": 5,
+   "hi": 5,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "48–60 小时",
+   "lo": 48,
+   "hi": 60,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐冷",
+   "icon": "cold",
+   "desc": "是少见的冷水观赏鱼，能撑过 5 °C 的低温。"
+  },
+  {
+   "name": "撒卵",
+   "icon": "seed",
+   "desc": "把卵随意撒在水草之间。"
+  }
+ ],
+ "intro": [
+  "唐鱼原产中国广州的白云山，英文名就是“白云山小鱼”。",
+  "身体银绿色，尾鳍和背鳍是鲜红色。",
+  "寿命一般 5 年或更长。"
+ ],
+ "fact": "1980 年时它被认为野外已灭绝 20 多年，后来在海南岛发现了野生种群。",
+ "range": "中国广东白云山一带、海南岛（极少）。",
+ "sources": [
+  "Wikipedia「White Cloud Mountain minnow」"
+ ],
+ "footnote": "IUCN 评为数据缺乏（DD）。"
+}

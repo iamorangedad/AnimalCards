@@ -1,0 +1,82 @@
+{
+ "file": "草麻黄",
+ "no": "934",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "草麻黄",
+ "name_en": "Chinese ephedra",
+ "latin": "Ephedra sinica",
+ "short": "草麻黄",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "海拔",
+   "value": "400–1600 m",
+   "lo": 400,
+   "hi": 1600,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "药用史",
+   "value": "公元前 2800 年起",
+   "lo": 4800,
+   "hi": 4800,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "同属物种*",
+   "value": "74 种",
+   "lo": 74,
+   "hi": 74,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "属最高*",
+   "value": "4000 m",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "麻黄碱",
+   "icon": "toxic",
+   "desc": "含麻黄碱等生物碱，几千年来被用作传统药物。"
+  },
+  {
+   "name": "绿茎代叶",
+   "icon": "sun",
+   "desc": "叶很小，主要靠绿色的茎进行光合作用。"
+  }
+ ],
+ "intro": [
+  "草麻黄原产蒙古、中国北方和俄罗斯。",
+  "它是雌雄异株的常绿灌木，属于裸子植物。",
+  "生长在干旱山坡、干河床和草原。"
+ ],
+ "fact": "因为生物碱有毒性，欧盟、美国等许多地方禁止销售麻黄碱。",
+ "range": "蒙古、中国北方、俄罗斯。",
+ "sources": [
+  "Wikipedia「Ephedra sinica」",
+  "维基百科「草麻黄」",
+  "Wikipedia「Ephedra (plant)」",
+  "IUCN 红色名录（Bell 2011）"
+ ],
+ "footnote": "* 为麻黄属数据。",
+ "warn": "麻黄含麻黄碱，有毒，不能自己采来泡水喝或吃。"
+}

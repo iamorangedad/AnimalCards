@@ -1,0 +1,79 @@
+{
+ "file": "海枣",
+ "no": "937",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "海枣",
+ "name_en": "Date palm",
+ "latin": "Phoenix dactylifera",
+ "short": "海枣",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "100 年以上",
+   "lo": 100,
+   "hi": 100,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "3–7 cm",
+   "lo": 0.03,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–6 m",
+   "lo": 4,
+   "hi": 6,
+   "scale": "len_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "绿洲之树",
+   "icon": "sun",
+   "desc": "是绿洲农业的象征，耐旱、耐碱、耐热。"
+  },
+  {
+   "name": "大羽叶",
+   "icon": "trunk",
+   "desc": "羽状叶长 4–6 m，约有 150 片小叶，叶柄上有刺。"
+  }
+ ],
+ "intro": [
+  "海枣原产海湾国家、伊拉克到巴基斯坦和印度一带。",
+  "它为了甜果“椰枣”而栽培。",
+  "沙特阿拉伯国徽上就有海枣树（中文维基）。"
+ ],
+ "fact": "适宜的年均气温为 12.7–27.5 °C。",
+ "range": "中东、北非、南亚；干旱地区栽培。",
+ "sources": [
+  "Wikipedia「Phoenix dactylifera」",
+  "维基百科「海枣」"
+ ],
+ "footnote": ""
+}

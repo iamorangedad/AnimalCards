@@ -1,0 +1,79 @@
+{
+ "file": "生石花",
+ "no": "929",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "生石花",
+ "name_en": "Living stones",
+ "latin": "Lithops spp.",
+ "short": "生石花",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠",
+  "室内"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "栖地降雨*",
+   "value": "0–700 mm/年",
+   "lo": 0,
+   "hi": 700,
+   "scale": "rain",
+   "approx": false
+  },
+  {
+   "label": "种子成熟*",
+   "value": "约 9 个月",
+   "lo": 9,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "首次开花*",
+   "value": "3–4 年",
+   "lo": 3,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "叶片数",
+   "value": "2 片",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伪装成石头",
+   "icon": "camo",
+   "desc": "长得像小石子，躲开食草动物。"
+  },
+  {
+   "name": "叶窗",
+   "icon": "sun",
+   "desc": "叶子大多埋在土里，顶上透明的“叶窗”让光照进去。"
+  }
+ ],
+ "intro": [
+  "生石花是番杏科生石花属的总称。",
+  "原产南非和纳米比亚。",
+  "植株由两片对生的肉质叶连成，花从中间裂缝开出（中文维基）。"
+ ],
+ "fact": "原产地夏天干燥，生石花常在夏天休眠（中文维基）。",
+ "range": "南非、纳米比亚。",
+ "sources": [
+  "Wikipedia「Lithops」",
+  "维基百科「生石花」"
+ ],
+ "footnote": "* 为属级数据。"
+}

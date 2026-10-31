@@ -1,0 +1,79 @@
+{
+ "file": "短叶丝兰",
+ "no": "925",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "短叶丝兰",
+ "name_en": "Joshua tree",
+ "latin": "Yucca brevifolia",
+ "short": "短叶丝兰",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高",
+   "value": "约 15 m",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "15–35 cm",
+   "lo": 0.15,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "400–1800 m",
+   "lo": 400,
+   "hi": 1800,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "根伸展",
+   "value": "可达 11 m",
+   "lo": 11,
+   "hi": 11,
+   "scale": "len_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺刀叶",
+   "icon": "thorn",
+   "desc": "叶子像刺刀，末端尖锐。"
+  },
+  {
+   "name": "宽根系",
+   "icon": "root",
+   "desc": "根系很宽，曾在离树 11 m 处发现它的根。"
+  }
+ ],
+ "intro": [
+  "短叶丝兰也叫约书亚树。",
+  "它主要生长在莫哈韦沙漠。",
+  "它是单子叶植物，却能长成树。"
+ ],
+ "fact": "对沙漠植物来说它长得算快。",
+ "range": "美国西南部、墨西哥西北部。",
+ "sources": [
+  "Wikipedia「Yucca brevifolia」",
+  "维基百科「短叶丝兰」"
+ ],
+ "footnote": ""
+}

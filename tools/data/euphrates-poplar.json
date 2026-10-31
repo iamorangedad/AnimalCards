@@ -1,0 +1,80 @@
+{
+ "file": "胡杨",
+ "no": "933",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "胡杨",
+ "name_en": "Euphrates poplar",
+ "latin": "Populus euphratica",
+ "short": "胡杨",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 15 m",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 4000 m",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "蒴果长",
+   "value": "7–12 mm",
+   "lo": 0.007,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "异形叶",
+   "icon": "camo",
+   "desc": "同一棵树上的叶子形状变化很大，又叫“异叶杨”。"
+  },
+  {
+   "name": "喝露水",
+   "icon": "drop",
+   "desc": "幼苗能直接用叶子吸收露水，再分配到全身甚至土壤里（中文维基）。"
+  }
+ ],
+ "intro": [
+  "胡杨是杨柳科杨属植物，常生长在沙漠里。",
+  "它耐寒、耐旱、耐盐碱、抗风沙（中文维基）。",
+  "分布范围很广。"
+ ],
+ "fact": "有句话说它“生而千年不死，死而千年不倒，倒而千年不烂”（中文维基）。",
+ "range": "北非、中东、中亚至中国西北。",
+ "sources": [
+  "Wikipedia「Populus euphratica」",
+  "维基百科「胡杨」",
+  "IUCN 红色名录（Barstow, M. 2018）"
+ ],
+ "footnote": "“千年”为民间夸张说法；寿命约百年见中文维基。"
+}

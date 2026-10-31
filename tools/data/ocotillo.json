@@ -1,0 +1,78 @@
+{
+ "file": "墨西哥刺木",
+ "no": "938",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "墨西哥刺木",
+ "name_en": "Ocotillo",
+ "latin": "Fouquieria splendens",
+ "short": "墨西哥刺木",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "NatureServe G5"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "3–4.6 m",
+   "lo": 3,
+   "hi": 4.6,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "60–100 年",
+   "lo": 60,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "枝条数",
+   "value": "40–75 根",
+   "lo": 40,
+   "hi": 75,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "下雨长叶",
+   "icon": "drop",
+   "desc": "平时像一把枯枝，下雨后很快长满叶子，维持几周到几个月。"
+  },
+  {
+   "name": "蜂鸟传粉",
+   "icon": "bee",
+   "desc": "鲜红的花靠蜂鸟和木蜂传粉。"
+  }
+ ],
+ "intro": [
+  "墨西哥刺木原产美国西南部和墨西哥北部的沙漠。",
+  "它由一丛 40–75 根直立带刺的细枝组成。",
+  "当地人把枝条插成篱笆，常会生根长成活篱笆。"
+ ],
+ "fact": "春夏下雨后，枝头会开出鲜红色的花。",
+ "range": "美国西南部、墨西哥北部。",
+ "sources": [
+  "Wikipedia「Fouquieria splendens」",
+  "维基百科「福桂树」"
+ ],
+ "footnote": ""
+}

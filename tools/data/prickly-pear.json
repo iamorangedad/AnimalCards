@@ -1,0 +1,80 @@
+{
+ "file": "梨果仙人掌",
+ "no": "922",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "梨果仙人掌",
+ "name_en": "Indian fig opuntia",
+ "latin": "Opuntia ficus-indica",
+ "short": "梨果仙人掌",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最低降雨",
+   "value": "200 mm/年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "rain",
+   "approx": false
+  },
+  {
+   "label": "开花茎节",
+   "value": "1–2 岁",
+   "lo": 1,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "600–2900 m",
+   "lo": 600,
+   "hi": 2900,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "扁平茎节",
+   "icon": "drop",
+   "desc": "厚实多汁的扁平茎（茎节）储水。"
+  },
+  {
+   "name": "改良土壤",
+   "icon": "root",
+   "desc": "种成树篱后，树下土壤的氮和有机质明显增加。"
+  }
+ ],
+ "intro": [
+  "梨果仙人掌是驯化最久、分布最广的仙人掌。",
+  "它在世界各地的干旱、半干旱农区种植。",
+  "果实颜色从淡绿到深红。"
+ ],
+ "fact": "它的黏液可能能当天然无毒的石油泄漏分散剂。",
+ "range": "原产墨西哥；全球干旱地区栽培。",
+ "sources": [
+  "Wikipedia「Opuntia ficus-indica」",
+  "维基百科「梨果仙人掌」"
+ ],
+ "footnote": "海拔数据见中文维基中国分布。",
+ "warn": "果皮上有细小倒刺（芒刺），拿之前要戴手套。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "巨人柱",
+ "no": "921",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "巨人柱",
+ "name_en": "Saguaro",
+ "latin": "Carnegiea gigantea",
+ "short": "巨人柱",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "3–16 m",
+   "lo": 3,
+   "hi": 16,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "150–200 年",
+   "lo": 150,
+   "hi": 200,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "首个侧枝",
+   "value": "75–100 岁",
+   "lo": 75,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "2 岁苗高",
+   "value": "约 6.4 mm",
+   "lo": 0.0064,
+   "hi": 0.0064,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超慢生长",
+   "icon": "clone",
+   "desc": "种子长得极慢，两年才 6.4 mm 高。"
+  },
+  {
+   "name": "甜红果",
+   "icon": "food",
+   "desc": "原住民把它甜甜的红果做成糖浆。"
+  }
+ ],
+ "intro": [
+  "巨人柱是巨人柱属唯一的种。",
+  "它原产索诺拉沙漠，是最高的仙人掌之一。",
+  "它的花是亚利桑那州的州花（中文维基）。"
+ ],
+ "fact": "学名纪念美国企业家安德鲁·卡内基（中文维基）。",
+ "range": "美国亚利桑那、墨西哥索诺拉等地。",
+ "sources": [
+  "Wikipedia「Saguaro」",
+  "维基百科「巨人柱」",
+  "IUCN 红色名录（Burquez Montijo, A. 2017）"
+ ],
+ "footnote": ""
+}

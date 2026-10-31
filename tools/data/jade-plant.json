@@ -1,0 +1,80 @@
+{
+ "file": "燕子掌",
+ "no": "930",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "燕子掌",
+ "name_en": "Jade plant",
+ "latin": "Crassula ovata",
+ "short": "燕子掌",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠",
+  "室内"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "主干粗",
+   "value": "最粗 9 cm",
+   "lo": 0.09,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–9 cm",
+   "lo": 0.03,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶柄",
+   "value": "最长 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "肥厚叶",
+   "icon": "drop",
+   "desc": "叶片肥厚有光泽，很耐旱，浇水太多反而会烂（中文维基）。"
+  },
+  {
+   "name": "喜光",
+   "icon": "sun",
+   "desc": "需要充足阳光和通风，光照不够难开花（中文维基）。"
+  }
+ ],
+ "intro": [
+  "燕子掌原产南非夸祖鲁-纳塔尔、东开普和莫桑比克。",
+  "它是很常见的室内植物。",
+  "1768 年在英国首次被描述。"
+ ],
+ "fact": "接触汁液或叶子可能让人皮肤发炎。",
+ "range": "南非、莫桑比克；全球室内栽培。",
+ "sources": [
+  "Wikipedia「Crassula ovata」",
+  "维基百科「翡翠木」"
+ ],
+ "footnote": "",
+ "warn": "有资料说它对猫、狗、马有毒，别让宠物啃。"
+}

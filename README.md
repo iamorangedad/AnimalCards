@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 915 张（动物 760；植物 155）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 40。
+共 940 张（动物 760；植物 180）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 45，沙漠植物 20。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -923,6 +923,31 @@
 | 913 | 大蒜（Garlic） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E8%92%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A4%A7%E8%92%9C.pdf) |
 | 914 | 姜（Ginger） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A7%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E5%A7%9C.pdf) |
 | 915 | 菠菜（Spinach） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%8F%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%8F%9C.pdf) |
+| 916 | 莴苣（Lettuce） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8E%B4%E8%8B%A3.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8E%B4%E8%8B%A3.pdf) |
+| 917 | 苦瓜（Bitter melon） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8B%A6%E7%93%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8B%A6%E7%93%9C.pdf) |
+| 918 | 豌豆（Pea） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%B1%8C%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%B1%8C%E8%B1%86.pdf) |
+| 919 | 菜豆（Common bean） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%9C%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%9C%E8%B1%86.pdf) |
+| 920 | 芦笋（Asparagus） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8A%A6%E7%AC%8B.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8A%A6%E7%AC%8B.pdf) |
+| 921 | 巨人柱（Saguaro） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%B7%A8%E4%BA%BA%E6%9F%B1.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%B7%A8%E4%BA%BA%E6%9F%B1.pdf) |
+| 922 | 梨果仙人掌（Indian fig opuntia） | 植物 · 沙漠植物 | DD 数据缺乏 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%A2%A8%E6%9E%9C%E4%BB%99%E4%BA%BA%E6%8E%8C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%A2%A8%E6%9E%9C%E4%BB%99%E4%BA%BA%E6%8E%8C.pdf) |
+| 923 | 金琥（Golden barrel cactus） | 植物 · 沙漠植物 | EN 濒危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E9%87%91%E7%90%A5.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E9%87%91%E7%90%A5.pdf) |
+| 924 | 百岁兰（Welwitschia） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%99%BE%E5%B2%81%E5%85%B0.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%99%BE%E5%B2%81%E5%85%B0.pdf) |
+| 925 | 短叶丝兰（Joshua tree） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%9F%AD%E5%8F%B6%E4%B8%9D%E5%85%B0.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%9F%AD%E5%8F%B6%E4%B8%9D%E5%85%B0.pdf) |
+| 926 | 芦荟（Aloe vera） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%8A%A6%E8%8D%9F.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%8A%A6%E8%8D%9F.pdf) |
+| 927 | 龙舌兰（Century plant） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E9%BE%99%E8%88%8C%E5%85%B0.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E9%BE%99%E8%88%8C%E5%85%B0.pdf) |
+| 928 | 沙漠玫瑰（Desert rose） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E7%8E%AB%E7%91%B0.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E7%8E%AB%E7%91%B0.pdf) |
+| 929 | 生石花（Living stones） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%94%9F%E7%9F%B3%E8%8A%B1.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%94%9F%E7%9F%B3%E8%8A%B1.pdf) |
+| 930 | 燕子掌（Jade plant） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%87%95%E5%AD%90%E6%8E%8C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E7%87%95%E5%AD%90%E6%8E%8C.pdf) |
+| 931 | 三齿拉瑞阿（Creosote bush） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E4%B8%89%E9%BD%BF%E6%8B%89%E7%91%9E%E9%98%BF.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E4%B8%89%E9%BD%BF%E6%8B%89%E7%91%9E%E9%98%BF.pdf) |
+| 932 | 梭梭（Saxaul） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%A2%AD%E6%A2%AD.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%A2%AD%E6%A2%AD.pdf) |
+| 933 | 胡杨（Euphrates poplar） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%83%A1%E6%9D%A8.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%83%A1%E6%9D%A8.pdf) |
+| 934 | 草麻黄（Chinese ephedra） | 植物 · 沙漠植物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%8D%89%E9%BA%BB%E9%BB%84.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%8D%89%E9%BA%BB%E9%BB%84.pdf) |
+| 935 | 刺沙蓬（Prickly Russian thistle） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%88%BA%E6%B2%99%E8%93%AC.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%88%BA%E6%B2%99%E8%93%AC.pdf) |
+| 936 | 肉苁蓉（Desert cistanche） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%82%89%E8%8B%81%E8%93%89.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E8%82%89%E8%8B%81%E8%93%89.pdf) |
+| 937 | 海枣（Date palm） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%B5%B7%E6%9E%A3.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E6%B5%B7%E6%9E%A3.pdf) |
+| 938 | 墨西哥刺木（Ocotillo） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%88%BA%E6%9C%A8.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%88%BA%E6%9C%A8.pdf) |
+| 939 | 二歧芦荟（Quiver tree） | 植物 · 沙漠植物 | VU 易危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E4%BA%8C%E6%AD%A7%E8%8A%A6%E8%8D%9F.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E4%BA%8C%E6%AD%A7%E8%8A%A6%E8%8D%9F.pdf) |
+| 940 | 希蒙得木（Jojoba） | 植物 · 沙漠植物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%B8%8C%E8%92%99%E5%BE%97%E6%9C%A8.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B2%99%E6%BC%A0%E6%A4%8D%E7%89%A9/%E5%B8%8C%E8%92%99%E5%BE%97%E6%9C%A8.pdf) |
 
 ## 说明
 

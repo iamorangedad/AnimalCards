@@ -1,0 +1,78 @@
+{
+ "file": "莴苣",
+ "no": "916",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "莴苣",
+ "name_en": "Lettuce",
+ "latin": "Lactuca sativa",
+ "short": "莴苣",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "15–30 cm",
+   "lo": 0.15,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种到收",
+   "value": "65–130 天",
+   "lo": 65,
+   "hi": 130,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "年产量*",
+   "value": "2800 万吨",
+   "lo": 28,
+   "hi": 28,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比*",
+   "value": "53%",
+   "lo": 53,
+   "hi": 53,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色乳汁",
+   "icon": "drop",
+   "desc": "切开茎会流出白色乳汁，拉丁名 lactuca 就来自“奶”。"
+  },
+  {
+   "name": "抽薹变苦",
+   "icon": "sun",
+   "desc": "一旦抽薹开花就会变苦，所以很少让它长到成熟。"
+  }
+ ],
+ "intro": [
+  "莴苣是菊科植物，大多当生菜吃。",
+  "它原产地中海一带（中文维基）。",
+  "驯化让它抽薹更晚、叶更大、乳汁更少。"
+ ],
+ "fact": "长叶生菜（romaine）的名字来自罗马教皇花园里种的品种。",
+ "range": "原产地中海；温带、亚热带广泛种植。",
+ "sources": [
+  "Wikipedia「Lettuce」",
+  "维基百科「莴苣」"
+ ],
+ "footnote": "* 为莴苣与菊苣合计（2023）。"
+}

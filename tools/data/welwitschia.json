@@ -1,0 +1,77 @@
+{
+ "file": "百岁兰",
+ "no": "924",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "百岁兰",
+ "name_en": "Welwitschia",
+ "latin": "Welwitschia mirabilis",
+ "short": "百岁兰",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "可达 4 m",
+   "lo": 4,
+   "hi": 4,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "可能 2000 年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "最大直径",
+   "value": "2.77 m",
+   "lo": 2.77,
+   "hi": 2.77,
+   "scale": "dia",
+   "approx": false
+  },
+  {
+   "label": "地上高",
+   "value": "不超过 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "一生两片叶",
+   "icon": "sun",
+   "desc": "一生只有两片（偶尔三片）叶子，从基部不停生长。"
+  },
+  {
+   "name": "风吹成条",
+   "icon": "wind",
+   "desc": "老叶被风化撕裂成很多条带。"
+  }
+ ],
+ "intro": [
+  "百岁兰是百岁兰属唯一的物种，属于买麻藤类裸子植物。",
+  "原产安哥拉和纳米比亚的纳米布沙漠。",
+  "南非荷兰语名字意思是“两片叶子，死不了”。"
+ ],
+ "fact": "雌雄植株的球花都会分泌花蜜，引昆虫来传粉。",
+ "range": "安哥拉、纳米比亚纳米布沙漠。",
+ "sources": [
+  "Wikipedia「Welwitschia」"
+ ],
+ "footnote": "无中文维基链接。"
+}

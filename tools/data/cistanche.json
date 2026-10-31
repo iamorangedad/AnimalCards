@@ -1,0 +1,78 @@
+{
+ "file": "肉苁蓉",
+ "no": "936",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "肉苁蓉",
+ "name_en": "Desert cistanche",
+ "latin": "Cistanche deserticola",
+ "short": "肉苁蓉",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "寄生",
+ "diet_note": "没有叶绿素，全靠寄主根部供给",
+ "iucn": {
+  "code": "NE",
+  "sub": "CITES 附录二"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "0.4–1.6 m",
+   "lo": 0.4,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "内蒙年产",
+   "value": "约 70 吨",
+   "lo": 70,
+   "hi": 70,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "主要寄主",
+   "value": "2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "叶绿素",
+   "value": "没有",
+   "lo": 0,
+   "hi": 0,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "全寄生",
+   "icon": "root",
+   "desc": "没有叶绿素，从梭梭和柽柳的根吸取养分和水。"
+  },
+  {
+   "name": "受监管",
+   "icon": "food",
+   "desc": "列入 CITES 附录二，国际贸易需要监管。"
+  }
+ ],
+ "intro": [
+  "肉苁蓉是列当科全寄生植物。",
+  "它分布在中国的沙漠，内蒙古是最主要的产区。",
+  "它被列入 CITES 附录二。"
+ ],
+ "fact": "它是多年生植物（中文维基）。",
+ "range": "中国内蒙古、新疆、甘肃、宁夏等沙漠。",
+ "sources": [
+  "Wikipedia「Cistanche deserticola」",
+  "维基百科「肉苁蓉」"
+ ],
+ "footnote": ""
+}

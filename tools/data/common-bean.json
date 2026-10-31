@@ -1,0 +1,81 @@
+{
+ "file": "菜豆",
+ "no": "919",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "菜豆",
+ "name_en": "Common bean",
+ "latin": "Phaseolus vulgaris",
+ "short": "菜豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "驯化至今",
+   "value": "约 8000 年",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "豆荚长",
+   "value": "8–20 cm",
+   "lo": 0.08,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "2800 万吨（2022）",
+   "lo": 28,
+   "hi": 28,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "煮熟去毒",
+   "value": "30 分钟",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "豆科植物，根瘤固氮。"
+  },
+  {
+   "name": "美洲三姐妹",
+   "icon": "food",
+   "desc": "是北美原住民的“三谷”之一（中文维基）。"
+  }
+ ],
+ "intro": [
+  "菜豆是世界上吃得最多的豆子。",
+  "它原产美洲。",
+  "约 8000 年前在墨西哥、中美洲和南安第斯分别被驯化。"
+ ],
+ "fact": "生的干菜豆含植物血凝素，要煮沸 30 分钟才能失效。",
+ "range": "原产美洲；全球种植。",
+ "sources": [
+  "Wikipedia「Phaseolus vulgaris」",
+  "维基百科「菜豆」",
+  "IUCN 红色名录（Delgado-Salinas, A. 2020）"
+ ],
+ "footnote": "",
+ "warn": "生的或没煮透的四季豆、芸豆有毒（植物血凝素），一定要彻底煮熟。"
+}

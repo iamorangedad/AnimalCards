@@ -1,0 +1,78 @@
+{
+ "file": "豌豆",
+ "no": "918",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "豌豆",
+ "name_en": "Pea",
+ "latin": "Pisum sativum",
+ "short": "豌豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "攀爬高",
+   "value": "1–2 m",
+   "lo": 1,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "播种土温",
+   "value": "10 °C 起",
+   "lo": 10,
+   "hi": 10,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "最适温",
+   "value": "13–18 °C",
+   "lo": 13,
+   "hi": 18,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "约 60 天",
+   "lo": 60,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "遗传学功臣",
+   "icon": "micro",
+   "desc": "孟德尔用豌豆做杂交实验，奠定了现代遗传学基础。"
+  },
+  {
+   "name": "卷须攀爬",
+   "icon": "climb",
+   "desc": "叶上长出细卷须，缠住支架往上爬。"
+  }
+ ],
+ "intro": [
+  "豌豆原产地中海和西南亚。",
+  "现在几乎全世界都有种植。",
+  "它是闭花授粉的植物（中文维基）。"
+ ],
+ "fact": "孟德尔选豌豆，是因为它好种、纯种多、花的结构能防止异花授粉。",
+ "range": "原产地中海、西南亚；全球种植。",
+ "sources": [
+  "Wikipedia「Pea」",
+  "维基百科「豌豆」"
+ ],
+ "footnote": ""
+}

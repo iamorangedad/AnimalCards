@@ -1,0 +1,81 @@
+{
+ "file": "芦笋",
+ "no": "920",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "芦笋",
+ "name_en": "Asparagus",
+ "latin": "Asparagus officinalis",
+ "short": "芦笋",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "100–150 cm",
+   "lo": 1,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "890 万吨（2024）",
+   "lo": 8.9,
+   "hi": 8.9,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "87%",
+   "lo": 87,
+   "hi": 87,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "浆果径",
+   "value": "6–10 mm",
+   "lo": 0.006,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃嫩芽",
+   "icon": "sun",
+   "desc": "春天冒出的嫩茎就是芦笋；见不见光决定它是绿还是白。"
+  },
+  {
+   "name": "假叶",
+   "icon": "camo",
+   "desc": "看起来像针叶的“叶子”其实是变态的茎（叶状枝）。"
+  }
+ ],
+ "intro": [
+  "芦笋原产欧亚大陆。",
+  "它是天门冬科多年生草本。",
+  "公元 1 世纪的《烹饪之事》里就有烹制芦笋的记载（中文维基）。"
+ ],
+ "fact": "它的红色小浆果对人有毒。",
+ "range": "原产欧亚；全球种植。",
+ "sources": [
+  "Wikipedia「Asparagus」",
+  "维基百科「芦笋」",
+  "IUCN 红色名录（Kell, S.P. 2016）"
+ ],
+ "footnote": "",
+ "warn": "芦笋的红色小浆果有毒，不要吃。"
+}

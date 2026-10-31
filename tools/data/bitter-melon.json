@@ -1,0 +1,79 @@
+{
+ "file": "苦瓜",
+ "no": "917",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "苦瓜",
+ "name_en": "Bitter melon",
+ "latin": "Momordica charantia",
+ "short": "苦瓜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "藤长",
+   "value": "可达 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "4–12 cm",
+   "lo": 0.04,
+   "hi": 0.12,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见果长",
+   "value": "20–30 cm",
+   "lo": 0.2,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "迷你品种",
+   "value": "6–10 cm",
+   "lo": 0.06,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "卷须攀爬",
+   "icon": "climb",
+   "desc": "带卷须的草质藤本，能爬到 5 m 长。"
+  },
+  {
+   "name": "满身疣",
+   "icon": "camo",
+   "desc": "果皮上布满许多疣状突起（中文维基）。"
+  }
+ ],
+ "intro": [
+  "苦瓜是葫芦科热带、亚热带藤本。",
+  "原生范围从旧大陆热带亚热带到南太平洋。",
+  "很可能在东南亚被完全驯化。"
+ ],
+ "fact": "孕妇禁用苦瓜，因为它可能引起出血、宫缩甚至流产。",
+ "range": "旧大陆热带；亚洲广泛种植。",
+ "sources": [
+  "Wikipedia「Momordica charantia」",
+  "维基百科「苦瓜」"
+ ],
+ "footnote": "",
+ "warn": "成熟的苦瓜果实和成熟种子有毒；孕妇不宜吃苦瓜。"
+}

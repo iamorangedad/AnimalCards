@@ -1,0 +1,77 @@
+{
+ "file": "三齿拉瑞阿",
+ "no": "931",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "三齿拉瑞阿",
+ "name_en": "Creosote bush",
+ "latin": "Larrea tridentata",
+ "short": "三齿拉瑞阿",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "NatureServe G5"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1–3 m",
+   "lo": 1,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "小叶长",
+   "value": "7–18 mm",
+   "lo": 0.007,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "最大 25 mm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "王者克隆",
+   "value": "约 11700 年",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "雨的味道",
+   "icon": "wind",
+   "desc": "下雨时树脂叶的气味变浓，当地人把它当作“雨的味道”。"
+  },
+  {
+   "name": "克隆环",
+   "icon": "clone",
+   "desc": "克隆个体围成一圈，“王者克隆”估计活了 11700 年。"
+  }
+ ],
+ "intro": [
+  "三齿拉瑞阿也叫石炭酸灌木。",
+  "墨西哥人叫它“臭臭的”（hediondilla）。",
+  "它是常绿灌木。"
+ ],
+ "fact": "“王者克隆”在加州莫哈韦沙漠，是地球上最古老的生物之一。",
+ "range": "美国西南部、墨西哥北部沙漠。",
+ "sources": [
+  "Wikipedia「Larrea tridentata」"
+ ],
+ "footnote": "无中文维基链接；克隆年龄比例条到刻度上限。"
+}

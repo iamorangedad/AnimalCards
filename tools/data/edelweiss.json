@@ -1,0 +1,80 @@
+{
+ "file": "高山火绒草",
+ "no": "798",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "高山火绒草",
+ "name_en": "Edelweiss",
+ "latin": "Leontopodium nivale",
+ "short": "高山火绒草",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "野外花茎",
+   "value": "3–20 cm",
+   "lo": 0.03,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栽培",
+   "value": "最高 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "小花",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "1800–3400 m",
+   "lo": 1800,
+   "hi": 3400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色绒毛",
+   "icon": "cold",
+   "desc": "叶和苞片长满白色绵毛，所以叫“高贵的白”。"
+  },
+  {
+   "name": "星形苞片",
+   "icon": "sun",
+   "desc": "五六个黄色小花外面围着毛茸茸的白苞片，排成星形。"
+  }
+ ],
+ "intro": [
+  "高山火绒草是欧洲著名的高山花卉。",
+  "它喜欢石灰岩多石的地方。",
+  "它无毒。"
+ ],
+ "fact": "电影《音乐之声》里有一首著名的歌叫《雪绒花》。",
+ "range": "阿尔卑斯山、比利牛斯山、亚平宁山脉。",
+ "sources": [
+  "Wikipedia「Edelweiss」",
+  "维基百科「高山火绒草」",
+  "IUCN 红色名录（Khela, S. 2013）"
+ ],
+ "footnote": ""
+}

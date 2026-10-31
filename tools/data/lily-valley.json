@@ -1,0 +1,81 @@
+{
+ "file": "铃兰",
+ "no": "791",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "铃兰",
+ "name_en": "Lily of the valley",
+ "latin": "Convallaria majalis",
+ "short": "铃兰",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "茎高",
+   "value": "15–35 cm",
+   "lo": 0.15,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–20 cm",
+   "lo": 0.05,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "5–10 mm",
+   "lo": 0.005,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "强心苷",
+   "value": "约 38 种",
+   "lo": 38,
+   "hi": 38,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "铃铛花",
+   "icon": "sun",
+   "desc": "春天开下垂的白色铃铛形花，香味很甜。"
+  },
+  {
+   "name": "强心苷",
+   "icon": "toxic",
+   "desc": "含约 38 种强心苷，吃下去毒性很强。"
+  }
+ ],
+ "intro": [
+  "铃兰原产欧洲、西亚和北亚。",
+  "它是铃兰属唯一的种。",
+  "它的小浆果是橙红色的，也有毒。"
+ ],
+ "fact": "在英国它最高长到海拔 490 m，在欧洲中南部可到 2300 m。",
+ "range": "欧洲、西亚、北亚。",
+ "sources": [
+  "Wikipedia「Lily of the valley」",
+  "维基百科「铃兰」",
+  "IUCN 红色名录（Bilz 2013）"
+ ],
+ "footnote": "",
+ "warn": "全株剧毒（包括红果子）！不要吃，摸过要洗手；小孩宠物误食立刻就医。"
+}

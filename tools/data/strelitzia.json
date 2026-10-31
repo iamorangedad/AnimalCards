@@ -1,0 +1,78 @@
+{
+ "file": "鹤望兰",
+ "no": "800",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "鹤望兰",
+ "name_en": "Bird of paradise",
+ "latin": "Strelitzia reginae",
+ "short": "鹤望兰",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "叶长",
+   "value": "25–70 cm",
+   "lo": 0.25,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶柄",
+   "value": "最长 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鸟头花",
+   "icon": "bee",
+   "desc": "花苞横在茎端像鸟头，正好让太阳鸟站着吸蜜。"
+  },
+  {
+   "name": "脚上沾粉",
+   "icon": "wind",
+   "desc": "太阳鸟一站上去，花瓣张开，把花粉沾在鸟脚上。"
+  }
+ ],
+ "intro": [
+  "鹤望兰原产南非。",
+  "它是常绿多年生植物。",
+  "学名纪念英王乔治三世的王后夏洛特。"
+ ],
+ "fact": "它只耐轻霜，低于 10 °C 长得不好。",
+ "range": "南非开普省和夸祖鲁-纳塔尔省。",
+ "sources": [
+  "Wikipedia「Strelitzia reginae」",
+  "维基百科「鹤望兰」"
+ ],
+ "footnote": ""
+}

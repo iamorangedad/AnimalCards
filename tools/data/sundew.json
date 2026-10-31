@@ -1,0 +1,79 @@
+{
+ "file": "圆叶茅膏菜",
+ "no": "797",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "圆叶茅膏菜",
+ "name_en": "Round-leaved sundew",
+ "latin": "Drosera rotundifolia",
+ "short": "圆叶茅膏菜",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "食虫",
+ "diet_note": "靠光合作用，也捕虫补充氮等养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株径",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶片",
+   "value": "4–10 mm",
+   "lo": 0.004,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花序高",
+   "value": "5–25 cm",
+   "lo": 0.05,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种子",
+   "value": "1–1.5 mm",
+   "lo": 0.001,
+   "hi": 0.0015,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "粘液陷阱",
+   "icon": "drop",
+   "desc": "叶上的腺毛分泌带糖的亮晶晶黏液，粘住昆虫再用酶消化。"
+  },
+  {
+   "name": "冬芽",
+   "icon": "cold",
+   "desc": "冬天在地面卷成紧紧的冬芽来过冬。"
+  }
+ ],
+ "intro": [
+  "圆叶茅膏菜生长在泥沼、沼泽和湿地。",
+  "它是分布最广的茅膏菜之一，环绕北半球北部。",
+  "它从昆虫获得氮，代替从土里吸收。"
+ ],
+ "fact": "研究发现，它鲜红的颜色并不能吸引更多猎物。",
+ "range": "欧洲、西伯利亚、北美北部、日韩、新几内亚。",
+ "sources": [
+  "Wikipedia「Drosera rotundifolia」",
+  "维基百科「圆叶茅膏菜」"
+ ],
+ "footnote": ""
+}

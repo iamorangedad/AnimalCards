@@ -1,0 +1,78 @@
+{
+ "file": "三色堇",
+ "no": "789",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "三色堇",
+ "name_en": "Wild pansy",
+ "latin": "Viola tricolor",
+ "short": "三色堇",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "最高 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花长",
+   "value": "10–25 mm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每次结籽",
+   "value": "最多 50 粒",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "0–2700 m",
+   "lo": 10,
+   "hi": 2700,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "自花授粉",
+   "icon": "bee",
+   "desc": "雌雄同花、能自交，也靠蜜蜂传粉。"
+  },
+  {
+   "name": "天然染料",
+   "icon": "fire",
+   "desc": "花可以做黄、绿、蓝绿色染料，叶子能指示酸度。"
+  }
+ ],
+ "intro": [
+  "三色堇是欧洲常见的野花。",
+  "它是栽培三色堇（园艺品种）的祖先。",
+  "它几乎遍布整个欧亚大陆。"
+ ],
+ "fact": "早在 1839 年栽培品种上市前，它就常出现在文学作品里。",
+ "range": "欧亚大陆；引入北美。",
+ "sources": [
+  "Wikipedia「Viola tricolor」",
+  "维基百科「三色堇」"
+ ],
+ "footnote": "海拔下限为 0 m，比例条从 10 m 起画。"
+}

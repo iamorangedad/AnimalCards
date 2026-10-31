@@ -1,0 +1,79 @@
+{
+ "file": "朱槿",
+ "no": "786",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "朱槿",
+ "name_en": "Chinese hibiscus",
+ "latin": "Hibiscus × rosa-sinensis",
+ "short": "朱槿",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "花瓣",
+   "value": "5 片",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "最低温度",
+   "value": "10 °C",
+   "lo": 10,
+   "hi": 10,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "亲本相距",
+   "value": "4000 km 以上",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "怕冷",
+   "icon": "sun",
+   "desc": "不耐 10 °C 以下低温，温带地区最好种在温室里。"
+  },
+  {
+   "name": "花可食",
+   "icon": "food",
+   "desc": "花可以吃，太平洋岛屿上用来做沙拉。"
+  }
+ ],
+ "intro": [
+  "朱槿是栽培中产生的人工杂交种。",
+  "它是马来西亚国花。",
+  "岭南一带叫它“大红花”。"
+ ],
+ "fact": "它的两个亲本野生分布地相距 4000 km 以上。",
+ "range": "热带、亚热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Hibiscus × rosa-sinensis」",
+  "维基百科「朱槿」"
+ ],
+ "footnote": ""
+}

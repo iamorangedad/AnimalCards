@@ -1,0 +1,81 @@
+{
+ "file": "玉兰",
+ "no": "787",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "玉兰",
+ "name_en": "Yulan magnolia",
+ "latin": "Magnolia denudata",
+ "short": "玉兰",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 15 m",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "10–16 cm",
+   "lo": 0.1,
+   "hi": 0.16,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "北京花期",
+   "value": "约 10 天",
+   "lo": 10,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先花后叶",
+   "icon": "sun",
+   "desc": "花谢后才展叶；在北京 4 月中旬开花。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "颇耐寒，在北京背风向阳处能露地过冬；但花遇霜易变褐。"
+  }
+ ],
+ "intro": [
+  "玉兰原产中国中部和东部。",
+  "自公元 600 年起，佛寺园林里就栽种它。",
+  "它是上海市和韩国大田市的市花。"
+ ],
+ "fact": "人们常把白兰（含笑属）也叫“玉兰花”，但两者不是同一个属。",
+ "range": "原产中国中部、东部；世界各地庭园栽培。",
+ "sources": [
+  "Wikipedia「Magnolia denudata」",
+  "维基百科「玉兰」",
+  "IUCN 红色名录（GTSG 2014）"
+ ],
+ "footnote": ""
+}

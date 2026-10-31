@@ -1,0 +1,79 @@
+{
+ "file": "天山雪莲",
+ "no": "799",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "天山雪莲",
+ "name_en": "Snow lotus",
+ "latin": "Saussurea involucrata",
+ "short": "天山雪莲",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "冰原"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "15–35 cm",
+   "lo": 0.15,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "2400–4100 m",
+   "lo": 2400,
+   "hi": 4100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "幼苗耐寒",
+   "value": "−21 °C",
+   "lo": -21,
+   "hi": -21,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "到开花",
+   "value": "5 年",
+   "lo": 5,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "零度发芽",
+   "icon": "cold",
+   "desc": "种子在 0 °C 就能发芽，3–5 °C 生长。"
+  },
+  {
+   "name": "苞叶护花",
+   "icon": "camo",
+   "desc": "淡黄色半透明的苞叶包住整个花序。"
+  }
+ ],
+ "intro": [
+  "雪莲是菊科多年生草本，分布在天山、阿尔泰山和昆仑山。",
+  "它要长 5 年才开花，但真正的生长期只有约 8 个月。",
+  "1960 年代以来因滥采滥挖，野生数量大幅减少。"
+ ],
+ "fact": "它现列为中国国家二级保护植物。",
+ "range": "中国新疆、哈萨克斯坦、吉尔吉斯斯坦、蒙古。",
+ "sources": [
+  "维基百科「雪莲」",
+  "Wikipedia「Saussurea」"
+ ],
+ "footnote": ""
+}

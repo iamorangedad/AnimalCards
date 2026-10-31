@@ -1,0 +1,82 @@
+{
+ "file": "毛地黄",
+ "no": "790",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "毛地黄",
+ "name_en": "Common foxglove",
+ "latin": "Digitalis purpurea",
+ "short": "毛地黄",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2026",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "花茎",
+   "value": "1–2 m",
+   "lo": 1,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–35 cm",
+   "lo": 0.1,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种子",
+   "value": "0.1–0.2 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "耐寒",
+   "value": "−15 °C",
+   "lo": -15,
+   "hi": -15,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "两年开花",
+   "icon": "seed",
+   "desc": "开花的花茎要到第二年才长出来，通常 1–2 m 高。"
+  },
+  {
+   "name": "强心毒素",
+   "icon": "toxic",
+   "desc": "全株含强心苷，中毒会心跳变慢甚至心脏骤停。"
+  }
+ ],
+ "intro": [
+  "毛地黄原产欧洲温带。",
+  "它已在北美部分地区归化。",
+  "它是著名的有毒药用植物。"
+ ],
+ "fact": "从叶子提取的洋地黄毒苷被用作治疗心力衰竭的药物。",
+ "range": "欧洲温带；北美等地归化。",
+ "sources": [
+  "Wikipedia「Digitalis purpurea」",
+  "维基百科「毛地黄」",
+  "IUCN 红色名录（Chadburn, H. 2026）"
+ ],
+ "footnote": "种子 0.1–0.2 mm，比例条按刻度下限 1 mm 画。",
+ "warn": "全株剧毒！不要摘来玩或放进嘴里，摸过后洗手；误食立刻就医。"
+}

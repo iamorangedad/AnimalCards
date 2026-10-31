@@ -1,0 +1,79 @@
+{
+ "file": "捕蝇草",
+ "no": "795",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "捕蝇草",
+ "name_en": "Venus flytrap",
+ "latin": "Dionaea muscipula",
+ "short": "捕蝇草",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "食虫",
+ "diet_note": "靠光合作用，也捕虫补充氮等养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "触发间隔",
+   "value": "20 秒内",
+   "lo": 20,
+   "hi": 20,
+   "scale": "sec",
+   "approx": false
+  },
+  {
+   "label": "食谱·蚂蚁",
+   "value": "33%",
+   "lo": 33,
+   "hi": 33,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "食谱·蜘蛛",
+   "value": "30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "数量减少",
+   "value": "约 93%",
+   "lo": 93,
+   "hi": 93,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夹子叶",
+   "icon": "jar",
+   "desc": "叶片末端像夹子；20 秒内连碰两根感觉毛才会合上，雨滴骗不了它。"
+  },
+  {
+   "name": "要全日照",
+   "icon": "sun",
+   "desc": "只长在树冠遮盖不到 10% 的开阔地。"
+  }
+ ],
+ "intro": [
+  "捕蝇草原产美国南、北卡罗来纳州的湿地。",
+  "它是捕蝇草属唯一的种。",
+  "它主要吃蚂蚁和蜘蛛，飞虫不到 5%。"
+ ],
+ "fact": "野外数量从 1979 年估计的约 450 万株减少了 93% 以上。",
+ "range": "美国北卡罗来纳州、南卡罗来纳州沿海平原。",
+ "sources": [
+  "Wikipedia「Venus flytrap」",
+  "维基百科「捕蝇草」"
+ ],
+ "footnote": "IUCN 评估依据旧版（2.3）标准。"
+}

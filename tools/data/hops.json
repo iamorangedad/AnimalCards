@@ -1,0 +1,80 @@
+{
+ "file": "啤酒花",
+ "no": "875",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "啤酒花",
+ "name_en": "Hop",
+ "latin": "Humulus lupulus",
+ "short": "啤酒花",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "藤长",
+   "value": "可达 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最佳纬度",
+   "value": "38°–51°",
+   "lo": 38,
+   "hi": 51,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "与大麻分化",
+   "value": "2000 万年以上",
+   "lo": 20,
+   "hi": 20,
+   "scale": "myr",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀爬钩毛",
+   "icon": "climb",
+   "desc": "茎上有钩状毛帮它稳住、向上攀爬。"
+  },
+  {
+   "name": "啤酒花",
+   "icon": "food",
+   "desc": "雌花像小球果，用来给啤酒防腐和调味。"
+  }
+ ],
+ "intro": [
+  "啤酒花是大麻科多年生攀援草本。",
+  "春天长新芽，秋天地上部分枯死，留下耐寒的根状茎。",
+  "它原产西亚、欧洲和北美。"
+ ],
+ "fact": "英文 hop 来自中古荷兰语 hoppe。",
+ "range": "原产欧洲、西亚、北美；温带种植。",
+ "sources": [
+  "Wikipedia「Humulus lupulus」",
+  "维基百科「蛇麻」",
+  "IUCN 红色名录（Khela 2012）"
+ ],
+ "footnote": "2002 年被选为英国肯特郡郡花。"
+}

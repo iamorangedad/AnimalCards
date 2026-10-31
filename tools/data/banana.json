@@ -1,0 +1,78 @@
+{
+ "file": "香蕉",
+ "no": "883",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "香蕉",
+ "name_en": "Banana",
+ "latin": "Musa spp.",
+ "short": "香蕉",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "大多约 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "可达 2.7 m",
+   "lo": 2.7,
+   "hi": 2.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶日长",
+   "value": "最多 1.6 m",
+   "lo": 1.6,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "印中占比",
+   "value": "约 26%",
+   "lo": 26,
+   "hi": 26,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨型草本",
+   "icon": "trunk",
+   "desc": "像树但其实是大草本，“树干”是叶鞘裹成的假茎。"
+  },
+  {
+   "name": "无籽果",
+   "icon": "seed",
+   "desc": "栽培香蕉大多不经授粉就结无籽果。"
+  }
+ ],
+ "intro": [
+  "香蕉原产印度-马来地区和澳大利亚的热带。",
+  "它们可能最早在新几内亚被驯化。",
+  "植物学上香蕉是浆果。"
+ ],
+ "fact": "野生蕉果小、满是种子，和今天的食用蕉差别很大（中文维基）。",
+ "range": "原产东南亚；热带广泛种植。",
+ "sources": [
+  "Wikipedia「Banana」",
+  "维基百科「香蕉」"
+ ],
+ "footnote": "IUCN 不对栽培香蕉评估。"
+}

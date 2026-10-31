@@ -1,0 +1,79 @@
+{
+ "file": "葡萄",
+ "no": "881",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "葡萄",
+ "name_en": "Grape vine",
+ "latin": "Vitis vinifera",
+ "short": "葡萄",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "品种",
+   "value": "5000–10000 个",
+   "lo": 5000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "最早驯化",
+   "value": "约 8000 年前",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "叶长",
+   "value": "5–20 cm",
+   "lo": 0.05,
+   "hi": 0.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "根深",
+   "value": "通常 2–5 m",
+   "lo": 2,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "藤本攀爬",
+   "icon": "climb",
+   "desc": "是木质藤本，靠卷须攀附支架。"
+  },
+  {
+   "name": "酿酒",
+   "icon": "food",
+   "desc": "几乎所有常见的酿酒葡萄都是这个种。"
+  }
+ ],
+ "intro": [
+  "葡萄原产地中海、中欧和西南亚。",
+  "最早的驯化证据来自格鲁吉亚东南部，约公元前 6000 年。",
+  "世界最古老的酿酒作坊在亚美尼亚，约公元前 4100 年。"
+ ],
+ "fact": "如今有 3000 多个白葡萄品种。",
+ "range": "原产地中海至西南亚；除南极外各大洲种植。",
+ "sources": [
+  "Wikipedia「Vitis vinifera」",
+  "维基百科「葡萄」"
+ ],
+ "footnote": "“约 8000 年前”由公元前 6000 年换算；品种条借用年数刻度。"
+}

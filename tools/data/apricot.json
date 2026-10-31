@@ -1,0 +1,79 @@
+{
+ "file": "杏",
+ "no": "879",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "杏",
+ "name_en": "Apricot",
+ "latin": "Prunus armeniaca",
+ "short": "杏",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "最高 8 m",
+   "lo": 8,
+   "hi": 8,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "约 −30 °C",
+   "lo": -30,
+   "hi": -30,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "370 万吨（2023）",
+   "lo": 3.7,
+   "hi": 3.7,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "土耳其占比",
+   "value": "20%",
+   "lo": 20,
+   "hi": 20,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "比桃耐寒",
+   "icon": "cold",
+   "desc": "比桃更耐寒，健康的树能耐 −30 °C 左右。"
+  },
+  {
+   "name": "可食杏仁",
+   "icon": "seed",
+   "desc": "果肉和果核里的仁都被利用。"
+  }
+ ],
+ "intro": [
+  "杏在古代于中亚和中国被驯化。",
+  "种加词 armeniaca 指亚美尼亚，但它并不起源于那里。",
+  "从中亚传到南亚、西亚、欧洲、北非和日本。"
+ ],
+ "fact": "和西伯利亚杏杂交可以培育更耐寒的品种。",
+ "range": "起源中亚和中国；温带广泛栽培。",
+ "sources": [
+  "Wikipedia「Apricot」",
+  "维基百科「杏」"
+ ],
+ "footnote": "",
+ "warn": "苦杏仁含氰苷，生吃多了会中毒，不要生吃杏核里的苦杏仁。"
+}

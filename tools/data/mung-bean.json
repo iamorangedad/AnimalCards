@@ -1,0 +1,78 @@
+{
+ "file": "绿豆",
+ "no": "873",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "绿豆",
+ "name_en": "Mung bean",
+ "latin": "Vigna radiata",
+ "short": "绿豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "15–125 cm",
+   "lo": 0.15,
+   "hi": 1.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "豆荚长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每荚种子",
+   "value": "12–14 粒",
+   "lo": 12,
+   "hi": 14,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "最长约 60 天",
+   "lo": 60,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮肥田",
+   "icon": "nfix",
+   "desc": "能给土壤补充 30–251 kg/公顷的氮。"
+  },
+  {
+   "name": "发芽快",
+   "icon": "seed",
+   "desc": "种子通常 4–5 天就发芽。"
+  }
+ ],
+ "intro": [
+  "绿豆主要种在东亚、东南亚和南亚。",
+  "它既做咸菜也做甜点。",
+  "种子有绿、黄、棕甚至蓝色。"
+ ],
+ "fact": "它的根上有根瘤（中文维基）。",
+ "range": "南亚、东亚、东南亚种植。",
+ "sources": [
+  "Wikipedia「Mung bean」",
+  "维基百科「绿豆」"
+ ],
+ "footnote": ""
+}

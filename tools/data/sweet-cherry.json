@@ -1,0 +1,80 @@
+{
+ "file": "欧洲甜樱桃",
+ "no": "880",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "欧洲甜樱桃",
+ "name_en": "Sweet cherry",
+ "latin": "Prunus avium",
+ "short": "欧洲甜樱桃",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–25 m",
+   "lo": 5,
+   "hi": 25,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "1–2.5 cm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果核长",
+   "value": "8–12 mm",
+   "lo": 0.008,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "树干直径",
+   "value": "最粗 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "dia",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "春天开花",
+   "icon": "bee",
+   "desc": "早春和新叶同时开花，2–6 朵一簇。"
+  },
+  {
+   "name": "鸟儿播种",
+   "icon": "seed",
+   "desc": "果子在树上平均只能留 3 天。"
+  }
+ ],
+ "intro": [
+  "欧洲甜樱桃原产欧亚大陆西部。",
+  "它是最主要的鲜食樱桃，也叫“车厘子”（中文维基）。",
+  "它也常作观赏树。"
+ ],
+ "fact": "除成熟果实外，全株都轻微有毒，含氰苷。",
+ "range": "原产欧洲、西亚、北非；温带栽培。",
+ "sources": [
+  "Wikipedia「Prunus avium」",
+  "维基百科「欧洲甜樱桃」"
+ ],
+ "footnote": "“鸟儿播种”标题为概括，原文只说果实平均停留 3 天。",
+ "warn": "除了成熟果肉，叶子、树皮和果核都含氰苷，不要嚼果核。"
+}

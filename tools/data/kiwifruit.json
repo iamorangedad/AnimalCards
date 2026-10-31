@@ -1,0 +1,78 @@
+{
+ "file": "中华猕猴桃",
+ "no": "890",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "中华猕猴桃",
+ "name_en": "Chinese kiwifruit",
+ "latin": "Actinidia chinensis",
+ "short": "中华猕猴桃",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估"
+ },
+ "stats": [
+  {
+   "label": "同属物种",
+   "value": "约 40 种",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "园中蔓延",
+   "value": "可达 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "原生海拔",
+   "value": "200–600 m",
+   "lo": 200,
+   "hi": 600,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "硬毛变种",
+   "value": "海拔 800–1400 m",
+   "lo": 800,
+   "hi": 1400,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "藤本",
+   "icon": "climb",
+   "desc": "是结果的木质藤本，在花园里能朝四面伸出 10 m。"
+  },
+  {
+   "name": "商业祖先",
+   "icon": "clone",
+   "desc": "是大多数商业猕猴桃品种的来源。"
+  }
+ ],
+ "intro": [
+  "中华猕猴桃是中国特有植物（中文维基）。",
+  "毛更多的美味猕猴桃 1904 年被带到新西兰。",
+  "它喜欢山坡和沟谷。"
+ ],
+ "fact": "黄肉品种以 Zespri SunGold 的名字销售。",
+ "range": "中国湖南、江苏、广西、湖北等地。",
+ "sources": [
+  "Wikipedia「Actinidia chinensis」",
+  "维基百科「中华猕猴桃」"
+ ],
+ "footnote": ""
+}

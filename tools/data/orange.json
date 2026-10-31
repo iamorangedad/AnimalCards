@@ -1,0 +1,78 @@
+{
+ "file": "甜橙",
+ "no": "887",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "甜橙",
+ "name_en": "Sweet orange",
+ "latin": "Citrus × sinensis",
+ "short": "甜橙",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "年产量",
+   "value": "6700 万吨（2024）",
+   "lo": 67,
+   "hi": 67,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "巴西占比",
+   "value": "23%",
+   "lo": 23,
+   "hi": 23,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–10 cm",
+   "lo": 0.04,
+   "hi": 0.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "嫁接结果",
+   "value": "3–4 年",
+   "lo": 3,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "杂交水果",
+   "icon": "clone",
+   "desc": "是柚子和橘子杂交得来的，并非野生水果。"
+  },
+  {
+   "name": "维生素 C",
+   "icon": "food",
+   "desc": "100 g 果肉约提供每日所需维生素 C 的 59%。"
+  }
+ ],
+ "intro": [
+  "甜橙起源于东亚，是在栽培中出现的。",
+  "它属于芸香科。",
+  "嫁接的树 3–4 年结果，实生树要 6–7 年。"
+ ],
+ "fact": "梵高、马蒂斯等画家都画过橙子。",
+ "range": "起源东亚；巴西、中国、墨西哥产量领先。",
+ "sources": [
+  "Wikipedia「Orange (fruit)」",
+  "维基百科「柑橘」"
+ ],
+ "footnote": ""
+}

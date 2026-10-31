@@ -1,0 +1,79 @@
+{
+ "file": "芋",
+ "no": "870",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "芋",
+ "name_en": "Taro",
+ "latin": "Colocasia esculenta",
+ "short": "芋",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "叶柄高",
+   "value": "0.8–1.2 m",
+   "lo": 0.8,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "佛焰苞",
+   "value": "最长 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "婆罗洲遗址",
+   "value": "约 1 万年前",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "印度引种",
+   "value": "公元前 5000 年",
+   "lo": 7000,
+   "hi": 7000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "球茎",
+   "icon": "root",
+   "desc": "地下球茎富含淀粉，是太平洋岛民的传统主粮（中文维基）。"
+  },
+  {
+   "name": "耐阴湿",
+   "icon": "drop",
+   "desc": "耐阴湿，水田、旱田、山坡都能种（中文维基）。"
+  }
+ ],
+ "intro": [
+  "芋是天南星科里种植最广的蔬菜。",
+  "它可能最早原产马来西亚低地湿地。",
+  "它可能在新几内亚、东南亚和印度东北部多次独立驯化。"
+ ],
+ "fact": "生芋头含草酸钙针晶，对人和宠物有毒。",
+ "range": "原产东南亚；热带、亚热带广泛种植。",
+ "sources": [
+  "Wikipedia「Taro」",
+  "维基百科「芋」"
+ ],
+ "footnote": "“公元前 5000 年”换算约 7000 年前，示意。",
+ "warn": "生芋头有毒（草酸钙针晶），一定要煮熟；削皮时手可能发痒，可戴手套。"
+}

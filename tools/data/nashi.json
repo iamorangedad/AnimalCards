@@ -1,0 +1,78 @@
+{
+ "file": "沙梨",
+ "no": "877",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "沙梨",
+ "name_en": "Asian pear",
+ "latin": "Pyrus pyrifolia",
+ "short": "沙梨",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "尼泊尔海拔",
+   "value": "1500–2500 m",
+   "lo": 1500,
+   "hi": 2500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每序花",
+   "value": "6–9 朵",
+   "lo": 6,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "花柱",
+   "value": "4–5 个",
+   "lo": 4,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "澳洲商业化",
+   "value": "1980 年起",
+   "lo": 46,
+   "hi": 46,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "脆甜多汁",
+   "icon": "drop",
+   "desc": "水分多、口感脆，一般不用来烤派或做果酱。"
+  },
+  {
+   "name": "喜温暖",
+   "icon": "sun",
+   "desc": "喜温暖湿润，适应性强（中文维基）。"
+  }
+ ],
+ "intro": [
+  "沙梨原产中国南方和中南半岛北部。",
+  "它被引种到朝鲜半岛、日本等地。",
+  "中国长江以南和淮河流域栽培较多（中文维基）。"
+ ],
+ "fact": "“幸水”是日本最重要的沙梨品种。",
+ "range": "中国南方、中南半岛北部；东亚广泛栽培。",
+ "sources": [
+  "Wikipedia「Pyrus pyrifolia」",
+  "维基百科「沙梨」"
+ ],
+ "footnote": "“澳洲商业化”比例条为距今年数（46 年）。"
+}

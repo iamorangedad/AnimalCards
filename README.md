@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 865 张（动物 760；植物 105）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 25。
+共 890 张（动物 760；植物 130）。分类：宠物 95，农场 95，高原草原 95，森林 95，海洋 95，鸟类 95，爬行两栖 95，昆虫 95，花卉 40，树木 40，农作物 35，水果蔬菜 15。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -873,6 +873,31 @@
 | 863 | 欧洲油菜（Rapeseed） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C.pdf) |
 | 864 | 芝麻（Sesame） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%8A%9D%E9%BA%BB.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%8A%9D%E9%BA%BB.pdf) |
 | 865 | 亚麻（Flax） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E4%BA%9A%E9%BA%BB.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E4%BA%9A%E9%BA%BB.pdf) |
+| 866 | 烟草（Cultivated tobacco） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%83%9F%E8%8D%89.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%83%9F%E8%8D%89.pdf) |
+| 867 | 油棕（African oil palm） | 植物 · 农作物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%B2%B9%E6%A3%95.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%B2%B9%E6%A3%95.pdf) |
+| 868 | 椰子（Coconut palm） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%A4%B0%E5%AD%90.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E6%A4%B0%E5%AD%90.pdf) |
+| 869 | 紫花苜蓿（Alfalfa） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%B4%AB%E8%8A%B1%E8%8B%9C%E8%93%BF.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%B4%AB%E8%8A%B1%E8%8B%9C%E8%93%BF.pdf) |
+| 870 | 芋（Taro） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%8A%8B.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%8A%8B.pdf) |
+| 871 | 鹰嘴豆（Chickpea） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E9%B9%B0%E5%98%B4%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E9%B9%B0%E5%98%B4%E8%B1%86.pdf) |
+| 872 | 小扁豆（Lentil） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E5%B0%8F%E6%89%81%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E5%B0%8F%E6%89%81%E8%B1%86.pdf) |
+| 873 | 绿豆（Mung bean） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%BB%BF%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E7%BB%BF%E8%B1%86.pdf) |
+| 874 | 蚕豆（Broad bean） | 植物 · 农作物 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%9A%95%E8%B1%86.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E8%9A%95%E8%B1%86.pdf) |
+| 875 | 啤酒花（Hop） | 植物 · 农作物 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E5%95%A4%E9%85%92%E8%8A%B1.png) · [PDF](%E6%A4%8D%E7%89%A9/%E5%86%9C%E4%BD%9C%E7%89%A9/%E5%95%A4%E9%85%92%E8%8A%B1.pdf) |
+| 876 | 苹果（Apple） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8B%B9%E6%9E%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8B%B9%E6%9E%9C.pdf) |
+| 877 | 沙梨（Asian pear） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B2%99%E6%A2%A8.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%B2%99%E6%A2%A8.pdf) |
+| 878 | 桃（Peach） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%A1%83.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%A1%83.pdf) |
+| 879 | 杏（Apricot） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9D%8F.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9D%8F.pdf) |
+| 880 | 欧洲甜樱桃（Sweet cherry） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%AC%A7%E6%B4%B2%E7%94%9C%E6%A8%B1%E6%A1%83.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%AC%A7%E6%B4%B2%E7%94%9C%E6%A8%B1%E6%A1%83.pdf) |
+| 881 | 葡萄（Grape vine） | 植物 · 水果蔬菜 | LC 无危 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%91%A1%E8%90%84.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%91%A1%E8%90%84.pdf) |
+| 882 | 草莓（Garden strawberry） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8D%89%E8%8E%93.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8D%89%E8%8E%93.pdf) |
+| 883 | 香蕉（Banana） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%A6%99%E8%95%89.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E9%A6%99%E8%95%89.pdf) |
+| 884 | 菠萝（Pineapple） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%90%9D.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E8%8F%A0%E8%90%9D.pdf) |
+| 885 | 杧果（Mango tree） | 植物 · 水果蔬菜 | DD 数据缺乏 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9D%A7%E6%9E%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9D%A7%E6%9E%9C.pdf) |
+| 886 | 番木瓜（Papaya） | 植物 · 水果蔬菜 | DD 数据缺乏 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%95%AA%E6%9C%A8%E7%93%9C.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%95%AA%E6%9C%A8%E7%93%9C.pdf) |
+| 887 | 甜橙（Sweet orange） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%94%9C%E6%A9%99.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E7%94%9C%E6%A9%99.pdf) |
+| 888 | 柑橘（Mandarin orange） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%91%E6%A9%98.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%91%E6%A9%98.pdf) |
+| 889 | 柠檬（Lemon） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%A0%E6%AA%AC.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E6%9F%A0%E6%AA%AC.pdf) |
+| 890 | 中华猕猴桃（Chinese kiwifruit） | 植物 · 水果蔬菜 | NE 未评估 | [PNG](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E4%B8%AD%E5%8D%8E%E7%8C%95%E7%8C%B4%E6%A1%83.png) · [PDF](%E6%A4%8D%E7%89%A9/%E6%B0%B4%E6%9E%9C%E8%94%AC%E8%8F%9C/%E4%B8%AD%E5%8D%8E%E7%8C%95%E7%8C%B4%E6%A1%83.pdf) |
 
 ## 说明
 

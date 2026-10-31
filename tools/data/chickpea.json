@@ -1,0 +1,78 @@
+{
+ "file": "鹰嘴豆",
+ "no": "871",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "鹰嘴豆",
+ "name_en": "Chickpea",
+ "latin": "Cicer arietinum",
+ "short": "鹰嘴豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "20–50 cm",
+   "lo": 0.2,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "印度占比",
+   "value": "75%（2023）",
+   "lo": 75,
+   "hi": 75,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "埃及记载",
+   "value": "公元前 3300 年",
+   "lo": 5300,
+   "hi": 5300,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "测序基因型",
+   "value": "90 个",
+   "lo": 90,
+   "hi": 90,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "豆科植物，根瘤固氮。"
+  },
+  {
+   "name": "春播选择",
+   "icon": "seed",
+   "desc": "驯化时人们选了适合春天播种、种子大、不用休眠的植株。"
+  }
+ ],
+ "intro": [
+  "鹰嘴豆是最早栽培的豆类之一，最古老的证据来自叙利亚。",
+  "最近的野生亲戚原产土耳其东南部一小片地方。",
+  "种子形状尖如鹰嘴，因此得名（中文维基）。"
+ ],
+ "fact": "印度产量约占全球的 75%。",
+ "range": "原产土耳其东南部；地中海、中东、印度种植。",
+ "sources": [
+  "Wikipedia「Chickpea」",
+  "维基百科「鹰嘴豆」"
+ ],
+ "footnote": ""
+}

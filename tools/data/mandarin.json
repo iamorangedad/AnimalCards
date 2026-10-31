@@ -1,0 +1,78 @@
+{
+ "file": "柑橘",
+ "no": "888",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "柑橘",
+ "name_en": "Mandarin orange",
+ "latin": "Citrus reticulata",
+ "short": "柑橘",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "年产量",
+   "value": "约 5000 万吨",
+   "lo": 50,
+   "hi": 50,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "中国占比",
+   "value": "51%",
+   "lo": 51,
+   "hi": 51,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "含水",
+   "value": "85%",
+   "lo": 85,
+   "hi": 85,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "维 C",
+   "value": "每日所需 30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "两次驯化",
+   "icon": "clone",
+   "desc": "遗传研究显示可能有南北两次独立驯化。"
+  },
+  {
+   "name": "带柚子基因",
+   "icon": "seed",
+   "desc": "所有栽培橘子都带一点柚子的 DNA。"
+  }
+ ],
+ "intro": [
+  "橘子原产中国南方、中南半岛和缅甸（中文维基）。",
+  "种加词 reticulata 意为“网纹的”。",
+  "它常直接吃或做水果沙拉。"
+ ],
+ "fact": "北方驯化的南丰蜜橘、温州蜜柑等果大、颜色更红。",
+ "range": "原产中国南方；全球亚热带种植。",
+ "sources": [
+  "Wikipedia「Mandarin orange」",
+  "维基百科「柑橘」"
+ ],
+ "footnote": "年产量含柑和克莱门氏小柑橘。"
+}

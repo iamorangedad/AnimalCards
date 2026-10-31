@@ -1,0 +1,78 @@
+{
+ "file": "小扁豆",
+ "no": "872",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "小扁豆",
+ "name_en": "Lentil",
+ "latin": "Lens culinaris",
+ "short": "小扁豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每荚种子",
+   "value": "通常 2 粒",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "700 万吨（2023）",
+   "lo": 7,
+   "hi": 7,
+   "scale": "mt",
+   "approx": false
+  },
+  {
+   "label": "三国占比",
+   "value": "72%",
+   "lo": 72,
+   "hi": 72,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "透镜种子",
+   "icon": "seed",
+   "desc": "种子扁扁的像透镜，英文 lens 由此而来。"
+  },
+  {
+   "name": "固氮增产",
+   "icon": "nfix",
+   "desc": "种过小扁豆的地，下一茬常增产，可能和生物固氮有关。"
+  }
+ ],
+ "intro": [
+  "小扁豆在近东的新月沃地被驯化。",
+  "希腊弗兰克提洞穴的碳化小扁豆距今约 13000 年（公元前 11000 年）。",
+  "澳大利亚、加拿大和印度是三大产国。"
+ ],
+ "fact": "驯化后的豆荚不会自己裂开，种子也不休眠。",
+ "range": "起源新月沃地；全球种植。",
+ "sources": [
+  "Wikipedia「Lentil」",
+  "维基百科「小扁豆」"
+ ],
+ "footnote": ""
+}

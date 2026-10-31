@@ -1,0 +1,78 @@
+{
+ "file": "紫花苜蓿",
+ "no": "869",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "紫花苜蓿",
+ "name_en": "Alfalfa",
+ "latin": "Medicago sativa",
+ "short": "紫花苜蓿",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "最高约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "根深",
+   "value": "通常 2–3 m",
+   "lo": 2,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最深根",
+   "value": "15 m 以上",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "4–8 年",
+   "lo": 4,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "和根瘤菌共生固氮。"
+  },
+  {
+   "name": "自毒",
+   "icon": "toxic",
+   "desc": "会抑制自己：在老苜蓿地里新苜蓿种子很难长。"
+  }
+ ],
+ "intro": [
+  "紫花苜蓿是多年生豆科牧草。",
+  "北美叫 alfalfa，英国、南非和澳大利亚叫 lucerne。",
+  "它可用来放牧、晒干草和做青贮饲料。"
+ ],
+ "fact": "为了找到地下水，它的根有时能扎到 15 m 以下。",
+ "range": "原产温暖的温带；全球广泛种植。",
+ "sources": [
+  "Wikipedia「Alfalfa」",
+  "维基百科「紫花苜蓿」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "杧果",
+ "no": "885",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "杧果",
+ "name_en": "Mango tree",
+ "latin": "Mangifera indica",
+ "short": "杧果",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 红色名录",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "15–30 m",
+   "lo": 15,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "首次收获",
+   "value": "2–4 年",
+   "lo": 2,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "结果寿命",
+   "value": "50 年以上",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "果肉+皮",
+   "value": "85%",
+   "lo": 85,
+   "hi": 85,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "双源驯化",
+   "icon": "clone",
+   "desc": "在印度和东南亚分别驯化，形成两个遗传类群。"
+  },
+  {
+   "name": "怕冷",
+   "icon": "cold",
+   "desc": "最低只能耐约 −8 °C；10 °C 以下停止生长（中文维基）。"
+  }
+ ],
+ "intro": [
+  "芒果树原产南亚东北部和中南半岛。",
+  "学名意思是“印度的结芒果的植物”。",
+  "印度是最大的芒果产地（中文维基）。"
+ ],
+ "fact": "果皮里含漆酚，过敏的人碰了可能起疹子。",
+ "range": "原产印度-缅甸一带；热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Mangifera indica」",
+  "维基百科「杧果」"
+ ],
+ "footnote": "",
+ "warn": "芒果皮含漆酚，容易过敏的人吃芒果要削皮、别让果汁碰到嘴边皮肤。"
+}

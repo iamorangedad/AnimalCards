@@ -1,0 +1,78 @@
+{
+ "file": "椰子",
+ "no": "868",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "椰子",
+ "name_en": "Coconut palm",
+ "latin": "Cocos nucifera",
+ "short": "椰子",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–6 m",
+   "lo": 4,
+   "hi": 6,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "60–100 年",
+   "lo": 60,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "6550 万吨（2024）",
+   "lo": 65.5,
+   "hi": 65.5,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "随人远航",
+   "icon": "drop",
+   "desc": "南岛语族航海时带着它，既是食物也是淡水来源。"
+  },
+  {
+   "name": "须根",
+   "icon": "root",
+   "desc": "没有主根，长出 2000–4000 条约 1 cm 粗的不定根。"
+  }
+ ],
+ "intro": [
+  "椰子是椰子属唯一现存的种。",
+  "它原产东南亚、新几内亚和西南太平洋。",
+  "高种椰子种下 6–10 年开始结果。"
+ ],
+ "fact": "印尼、印度和菲律宾的产量合计占全球 73%。",
+ "range": "热带海岸广泛分布。",
+ "sources": [
+  "Wikipedia「Coconut」"
+ ],
+ "footnote": "无中文维基页面链接。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "蚕豆",
+ "no": "874",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "蚕豆",
+ "name_en": "Broad bean",
+ "latin": "Vicia faba",
+ "short": "蚕豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用；根瘤菌帮它固定空气中的氮",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "0.5–1.8 m",
+   "lo": 0.5,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花长",
+   "value": "1–2.5 cm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栽培种子",
+   "value": "最长 25 mm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "驯化",
+   "value": "可能早至公元前 8250 年",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮绿肥",
+   "icon": "nfix",
+   "desc": "能越冬又能固氮，常做覆盖作物和绿肥。"
+  },
+  {
+   "name": "黑斑花",
+   "icon": "bee",
+   "desc": "翼瓣白色带真正的黑斑。"
+  }
+ ],
+ "intro": [
+  "蚕豆是野豌豆属的一种。",
+  "原产亚洲西南部和非洲北部（中文维基）。",
+  "传说西汉张骞出使西域时传入中国（中文维基）。"
+ ],
+ "fact": "埃塞俄比亚人用蚕豆粉做 shiro 炖菜。",
+ "range": "原产西南亚、北非；全球温带种植。",
+ "sources": [
+  "Wikipedia「Vicia faba」",
+  "维基百科「蚕豆」"
+ ],
+ "footnote": "张骞传入为传说；驯化年代比例条到刻度上限。",
+ "warn": "少数人（蚕豆病，G6PD 缺乏）吃蚕豆会溶血，有这种病的人不能吃。"
+}

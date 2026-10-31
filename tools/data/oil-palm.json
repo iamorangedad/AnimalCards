@@ -1,0 +1,80 @@
+{
+ "file": "油棕",
+ "no": "867",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "油棕",
+ "name_en": "African oil palm",
+ "latin": "Elaeis guineensis",
+ "short": "油棕",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "3–5 m",
+   "lo": 3,
+   "hi": 5,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "每年新叶",
+   "value": "约 20 片",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "果串重",
+   "value": "5–30 kg",
+   "lo": 5,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "人类利用",
+   "value": "可能 5000 年",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "榨油",
+   "icon": "drop",
+   "desc": "果肉榨棕榈油，核仁榨棕仁油（中文维基）。"
+  },
+  {
+   "name": "全年收获",
+   "icon": "sun",
+   "desc": "油棕园全年都能收果。"
+  }
+ ],
+ "intro": [
+  "油棕原产西非和西南非，在安哥拉和冈比亚之间。",
+  "种加词 guineensis 指“几内亚地区”，不是今天的几内亚国。",
+  "它被引种到马来西亚、印尼和美洲。"
+ ],
+ "fact": "19 世纪末考古学家在埃及阿拜多斯公元前 3000 年的墓中发现过棕榈油（待核）。",
+ "range": "原产西非、中非；东南亚、美洲大量种植。",
+ "sources": [
+  "Wikipedia「Elaeis guineensis」",
+  "维基百科「油棕」",
+  "IUCN 红色名录（Cosiaux 2016）"
+ ],
+ "footnote": "埃及墓葬记录英文维基标注“需核实”。"
+}

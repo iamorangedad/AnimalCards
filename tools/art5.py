@@ -640,3 +640,58 @@ def HORSE(F, kind="farm", **kw):
 ART5["shire"] = HORSE("#2a2a2e", bl=360, bd=160, lh=180, lw=40, snout_col="#f6f2ea",
                       front_extras="".join(P(f"M{x} -40 q-8 20 0 36 h30 q8 -16 0 -36", "#f6f2ea", 2.4) for x in (-170, 130)))
 ART5["arabian"] = HORSE("#b8b8bc", kind="desert", tail_col="#e6e6e8")
+
+# ---- batch p4farm2 ----
+from art4 import shrimp
+ART5["mongol-horse"] = HORSE("#9a6a3a", kind="plateau", bl=290, lh=140, lw=32, tail_col="#2a2018")
+ART5["shetland"] = HORSE("#5a3a2a", kind="meadow", bl=280, bd=140, lh=100, lw=32, neck=(60, 34), head=(50, 44), snout=(50, 40), tail_col="#2a1a12")
+ART5["thoroughbred"] = HORSE("#7a3a1e", bl=330, bd=120, lh=190, lw=26, tail_col="#2a1a12")
+ART5["clydesdale"] = HORSE("#7a4a2a", bl=360, bd=160, lh=180, lw=40, snout_col="#f6f2ea",
+                           front_extras="".join(P(f"M{x} -40 q-8 20 0 36 h30 q8 -16 0 -36", "#f6f2ea", 2.4) for x in (-170, 130)))
+ART5["pyrenees"] = DOGQ("plateau", (.76, 560, 380), F="#fbfaf6", bl=280, bd=140, lh=110, lw=34, head=(58, 52), snout=(40, 32), ears="side", tail="bushy", tail_col="#fbfaf6")
+ART5["aussie"] = DOGQ("farm", (.76, 540, 360), F="#7a8a9a", bl=250, bd=110, lh=100, lw=26, head=(50, 44), snout=(38, 28), ears="point", tail="short", tail_col="#7a8a9a",
+                      pattern="patches", pat_col="#2a2a2e", belly="#fbfaf6")
+def _sea2(f, kind="sea", box=(.62, 520, 260)):
+    return lambda w, h: scene(kind, w, h, f, box=(w / 2, h * box[0], box[1], box[2]))
+ART5["yellow-croaker"] = _sea2(fish(F="#e8c03a", L=300, H=96, tail="round", eye_r=9, fin_col="#e8a82a", belly="#f6e08a"))
+ART5["mandarin-fish"] = _sea2(fish(F="#c9b07a", L=280, H=130, tail="round", eye_r=9, fin_col="#a8905a", spots=None,
+                                   extras="".join(C(x, y, 12, "#4a3a2a", 0) for x, y in ((-60, -20), (-10, 10), (40, -30), (80, 10), (-90, 20)))), kind="pond")
+ART5["wuchang-bream"] = _sea2(fish(F="#9aa2a8", L=260, H=150, tail="fork", eye_r=8, fin_col="#7a8288", belly="#e6eaee"), kind="pond")
+ART5["yellow-catfish"] = _sea2(fish(F="#c9a03a", L=280, H=80, tail="fork", eye_r=7, fin_col="#a8802a", belly="#f2dc8a",
+                                    extras=P("M-140 4 l-40 16 M-140 10 l-34 26 M-136 -4 l-44 -4", sw=3) + P(wavy(-40, -14, 60, 20, 6, 6), "#5a4a2a", 0)), kind="pond")
+ART5["snakehead"] = _sea2(fish(F="#4a4a3a", L=360, H=80, tail="round", eye_r=8, fin_col="#3a3a2e", belly="#c9c0a8",
+                               extras="".join(E(x, -6, 18, 22, "#2a2a22", 0) for x in (-100, -50, 0, 50))), kind="pond")
+ART5["barramundi"] = _sea2(fish(F="#a8b0b4", L=320, H=110, tail="round", eye_r=11, fin_col="#8a9296", belly="#e6eaec"), kind="wetland")
+def _flat(w, h):
+    o = E(0, -30, 200, 120, "#a89a7a", 3) + "".join(C(x, y, 8, "#7a6a4a", 0) for x, y in ((-80, -40), (-20, -70), (40, -20), (100, -50), (-120, 0), (20, 30), (80, 20)))
+    o += P("M190 -30 L260 -80 L260 20 Z", "#a89a7a", 3) + C(-150, -70, 12, "#fff", 2.4) + C(-150, -70, 6, INK, 0) + C(-130, -100, 12, "#fff", 2.4) + C(-130, -100, 6, INK, 0)
+    return scene("deep", w, h, o, box=(w / 2, h * .7, 520, 240))
+ART5["turbot"] = _flat
+ART5["sib-sturgeon"] = _sea2(fish(F="#7a8288", L=420, H=80, tail="fork", eye_r=7, fin_col="#5a6268", belly="#d8dcde",
+                                  extras="".join(P(f"M{x} -40 l10 -12 l10 12", "#e6e2d8", 2) for x in range(-140, 140, 40)) + P("M-190 20 l-20 16 M-180 22 l-14 20", sw=3)), kind="pond", box=(.64, 600, 240))
+ART5["gilthead"] = _sea2(fish(F="#c9ccd0", L=280, H=140, tail="fork", eye_r=9, fin_col="#a8acb0", extras=P("M-96 -46 q10 20 -4 40", sw=10, col="#e8b83a")))
+def _abalone(w, h):
+    o = P("M-200 0 C-200 -120 160 -150 210 -40 C230 10 120 30 -200 0 Z", "#8a7a6a", 3) + "".join(C(-150 + i * 50, -60 - i * 8, 10, "#3a3430", 2) for i in range(6))
+    o += "".join(P(f"M{-170+i*40} -10 q30 -60 80 -90", sw=2, col="#6a5a4a") for i in range(7)) + P("M-200 0 C-120 30 120 30 210 -10", sw=8, col="#d9c9a8")
+    return scene("sea", w, h, rock(0, 60, 2.4) + o, box=(w / 2, h * .7, 480, 260))
+ART5["abalone"] = _abalone
+def _scallop(w, h):
+    o = P("M0 40 L-150 -60 C-120 -160 120 -160 150 -60 Z", "#e8a06a", 3) + "".join(P(f"M0 40 L{x} -130", sw=2.4, col="#b8703a") for x in range(-120, 130, 30))
+    o += P("M-40 40 l-30 20 l40 10 Z M40 40 l30 20 l-40 10 Z", "#e8a06a", 2.6)
+    o2 = G_(P("M0 40 L-150 -60 C-120 -160 120 -160 150 -60 Z", "#f2ece0", 3) + "".join(P(f"M0 40 L{x} -130", sw=2, col="#c9bca0") for x in range(-120, 130, 30)), 230, 60, .6)
+    return scene("sea", w, h, o + o2, box=(w / 2, h * .7, 500, 260))
+ART5["scallop"] = _scallop
+def _mussels(w, h):
+    o = ""
+    for dx, dy, r in ((-120, 0, -20), (0, -20, 10), (120, 10, 30), (-50, 60, -40), (70, 70, 0)):
+        o += G_(f'<g transform="rotate({r})">' + P("M-90 0 C-80 -50 40 -60 100 -10 C60 30 -60 30 -90 0 Z", "#2a3a5a", 3) + P("M-80 -6 C-20 -30 40 -30 90 -10", sw=2, col="#5a6a8a") + "</g>", dx, dy)
+    return scene("sea", w, h, rock(0, 40, 3) + o, box=(w / 2, h * .7, 480, 260))
+ART5["blue-mussel"] = _mussels
+def _clams(w, h):
+    o = ""
+    for dx, dy, s in ((-110, 0, 1), (90, -10, .9), (0, 70, .8)):
+        o += G_(P(f"M{-90*s} 0 C{-80*s} {-90*s} {80*s} {-90*s} {90*s} 0 C{40*s} {30*s} {-40*s} {30*s} {-90*s} 0 Z", "#d9c9a8", 3) +
+                "".join(P(f"M{-60*s+i*24*s} {-60*s+abs(i-2.5)*8*s} l{10*s} {14*s} l{10*s} {-14*s}", sw=3, col="#6a5040") for i in range(6)), dx, dy)
+    return scene("wetland", w, h, o, box=(w / 2, h * .72, 460, 240))
+ART5["manila-clam"] = _clams
+ART5["tiger-prawn"] = lambda w, h: scene("sea", w, h, G_(shrimp(F="#5a5a4a", L=320, H=70) + "".join(P(f"M{-80+i*38} -60 v40", sw=6, col="#f2d23a") for i in range(6)), 0, -20), box=(w / 2, h * .7, 500, 280))

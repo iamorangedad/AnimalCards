@@ -1,0 +1,80 @@
+{
+ "file": "鳜鱼",
+ "no": "478",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "鳜鱼",
+ "name_en": "Mandarin fish",
+ "latin": "Siniperca chuatsi",
+ "short": "鳜鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼和虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "8 kg",
+   "lo": 8,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大年龄",
+   "value": "9 年",
+   "lo": 9,
+   "hi": 9,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "开始进食",
+   "value": "高于 15 °C",
+   "lo": 15,
+   "hi": 15,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "只吃活鱼",
+   "icon": "food",
+   "desc": "鱼苗一开口吃东西，就只吃别种鱼的鱼苗。"
+  },
+  {
+   "name": "伏击",
+   "icon": "camo",
+   "desc": "靠眼睛盯住猎物，再突然扑上去咬。"
+  }
+ ],
+ "intro": [
+  "鳜鱼也叫桂花鱼，分布在中国和黑龙江流域。",
+  "它嘴大、身体侧扁，身上有不规则的黑斑。",
+  "水温高于 21 °C 才开始繁殖。"
+ ],
+ "fact": "它能在接近冰点的水里生活，但水温超过 15 °C 才开始吃东西。",
+ "range": "中国和黑龙江（阿穆尔河）流域。",
+ "sources": [
+  "Wikipedia「Siniperca chuatsi」",
+  "FishBase「Siniperca chuatsi」",
+  "IUCN 红色名录（Bogutskaya, N. 2022）"
+ ],
+ "footnote": "年龄、体重来自 FishBase。"
+}

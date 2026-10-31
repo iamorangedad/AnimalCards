@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 470 张（动物 470）。分类：宠物 95，农场 75，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
+共 490 张（动物 490）。分类：宠物 95，农场 95，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -178,6 +178,26 @@
 | 468 | 新西兰兔（New Zealand rabbit） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%B0%E8%A5%BF%E5%85%B0%E5%85%94.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%B0%E8%A5%BF%E5%85%B0%E5%85%94.pdf) |
 | 469 | 夏尔马（Shire horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E5%B0%94%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E5%B0%94%E9%A9%AC.pdf) |
 | 470 | 阿拉伯马（Arabian horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A9%AC.pdf) |
+| 471 | 蒙古马（Mongolian horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%92%99%E5%8F%A4%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%92%99%E5%8F%A4%E9%A9%AC.pdf) |
+| 472 | 设得兰矮马（Shetland pony） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%AE%BE%E5%BE%97%E5%85%B0%E7%9F%AE%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%AE%BE%E5%BE%97%E5%85%B0%E7%9F%AE%E9%A9%AC.pdf) |
+| 473 | 纯血马（Thoroughbred） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BA%AF%E8%A1%80%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BA%AF%E8%A1%80%E9%A9%AC.pdf) |
+| 474 | 克莱兹代尔马（Clydesdale horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%85%8B%E8%8E%B1%E5%85%B9%E4%BB%A3%E5%B0%94%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%85%8B%E8%8E%B1%E5%85%B9%E4%BB%A3%E5%B0%94%E9%A9%AC.pdf) |
+| 475 | 大白熊犬（Great Pyrenees） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%99%BD%E7%86%8A%E7%8A%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%99%BD%E7%86%8A%E7%8A%AC.pdf) |
+| 476 | 澳大利亚牧羊犬（Australian Shepherd） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%89%A7%E7%BE%8A%E7%8A%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%89%A7%E7%BE%8A%E7%8A%AC.pdf) |
+| 477 | 大黄鱼（Large yellow croaker） | 动物 · 农场 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E9%BB%84%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E9%BB%84%E9%B1%BC.pdf) |
+| 478 | 鳜鱼（Mandarin fish） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B3%9C%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%B3%9C%E9%B1%BC.pdf) |
+| 479 | 团头鲂（Wuchang bream） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%9B%A2%E5%A4%B4%E9%B2%82.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%9B%A2%E5%A4%B4%E9%B2%82.pdf) |
+| 480 | 黄颡鱼（Yellow catfish） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%BB%84%E9%A2%A1%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%BB%84%E9%A2%A1%E9%B1%BC.pdf) |
+| 481 | 乌鳢（Northern snakehead） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B9%8C%E9%B3%A2.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B9%8C%E9%B3%A2.pdf) |
+| 482 | 尖吻鲈（Barramundi） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B0%96%E5%90%BB%E9%B2%88.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B0%96%E5%90%BB%E9%B2%88.pdf) |
+| 483 | 大菱鲆（Turbot） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E8%8F%B1%E9%B2%86.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E8%8F%B1%E9%B2%86.pdf) |
+| 484 | 西伯利亚鲟（Siberian sturgeon） | 动物 · 农场 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%E9%B2%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%E9%B2%9F.pdf) |
+| 485 | 金头鲷（Gilt-head bream） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%87%91%E5%A4%B4%E9%B2%B7.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%87%91%E5%A4%B4%E9%B2%B7.pdf) |
+| 486 | 皱纹盘鲍（Disk abalone） | 动物 · 农场 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%9A%B1%E7%BA%B9%E7%9B%98%E9%B2%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%9A%B1%E7%BA%B9%E7%9B%98%E9%B2%8D.pdf) |
+| 487 | 虾夷扇贝（Yesso scallop） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%BE%E5%A4%B7%E6%89%87%E8%B4%9D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%BE%E5%A4%B7%E6%89%87%E8%B4%9D.pdf) |
+| 488 | 紫贻贝（Blue mussel） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%B4%AB%E8%B4%BB%E8%B4%9D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%B4%AB%E8%B4%BB%E8%B4%9D.pdf) |
+| 489 | 菲律宾蛤仔（Manila clam） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%9B%A4%E4%BB%94.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%9B%A4%E4%BB%94.pdf) |
+| 490 | 斑节对虾（Giant tiger prawn） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%91%E8%8A%82%E5%AF%B9%E8%99%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%91%E8%8A%82%E5%AF%B9%E8%99%BE.pdf) |
 | 003 | 非洲象（African bush elephant） | 动物 · 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.pdf) |
 | 006 | 狮子（Lion） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.pdf) |
 | 027 | 长颈鹿（Giraffe） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.pdf) |

@@ -1,0 +1,80 @@
+{
+ "file": "紫贻贝",
+ "no": "488",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "紫贻贝",
+ "name_en": "Blue mussel",
+ "latin": "Mytilus edulis",
+ "short": "紫贻贝",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食浮游生物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大壳长",
+   "value": "11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–60 m",
+   "lo": 0,
+   "hi": 60,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "幼虫期",
+   "value": "15–35 天",
+   "lo": 15,
+   "hi": 35,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "偏好水温",
+   "value": "约 9 °C",
+   "lo": 9,
+   "hi": 9,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "足丝",
+   "icon": "web",
+   "desc": "分泌坚韧又有弹性的足丝，把自己牢牢粘在岩石上。"
+  },
+  {
+   "name": "滤食",
+   "icon": "drop",
+   "desc": "滤食绿藻、甲藻、硅藻等浮游植物。"
+  }
+ ],
+ "intro": [
+  "紫贻贝生活在北半球温带海岸的潮间带。",
+  "它们常密密麻麻地挤在一起。",
+  "港澳叫它“蓝青口”，台湾叫“紫壳菜蛤”。"
+ ],
+ "fact": "幼虫长到 1–1.5 mm 前一直漂在水里。",
+ "range": "北大西洋两岸等温带海岸。",
+ "sources": [
+  "Wikipedia「Blue mussel」",
+  "维基百科「紫贻贝」",
+  "SeaLifeBase「Mytilus edulis」"
+ ],
+ "footnote": "别名来自中文维基。"
+}

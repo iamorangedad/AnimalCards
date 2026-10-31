@@ -1,0 +1,78 @@
+{
+ "file": "蒙古马",
+ "no": "471",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "蒙古马",
+ "name_en": "Mongolian horse",
+ "latin": "Equus caballus（品种）",
+ "short": "蒙古马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "142–152 cm",
+   "lo": 1.42,
+   "hi": 1.52,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "耐受低温",
+   "value": "−40 °C",
+   "lo": -40,
+   "hi": -40,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "不停奔跑",
+   "value": "约 10 km",
+   "lo": 10,
+   "hi": 10,
+   "scale": "km",
+   "approx": true
+  },
+  {
+   "label": "四马拉车",
+   "value": "每天 50–60 km",
+   "lo": 50,
+   "hi": 60,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐寒耐苦",
+   "icon": "cold",
+   "desc": "常年在户外生活，夏天 30 °C、冬天 −40 °C，自己找草吃。"
+  },
+  {
+   "name": "耐力强",
+   "icon": "fire",
+   "desc": "个子小，但能一口气跑 10 km。"
+  }
+ ],
+ "intro": [
+  "【品种】蒙古马生活在蒙古国和中国内蒙古。",
+  "据说它和成吉思汗时代的马几乎没什么变化。",
+  "蒙古牧民养的马超过 300 万匹，比蒙古国的人口还多。"
+ ],
+ "fact": "四匹蒙古马拉车时，可以拉约 2000 kg 的货物，每天走 50–60 km。",
+ "range": "蒙古国、中国内蒙古。",
+ "sources": [
+  "Wikipedia「Mongolian horse」"
+ ],
+ "footnote": "这是马的一个品种（地方类型）；拉车重量由 4400 磅换算。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "纯血马",
+ "no": "473",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "纯血马",
+ "name_en": "Thoroughbred",
+ "latin": "Equus caballus（品种）",
+ "short": "纯血马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "平均肩高",
+   "value": "163 cm",
+   "lo": 1.63,
+   "hi": 1.63,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "450–500 kg",
+   "lo": 450,
+   "hi": 500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "奔跑速度",
+   "value": "60–70 km/h",
+   "lo": 60,
+   "hi": 70,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "每年注册",
+   "value": "约 10 万匹",
+   "lo": 100000.0,
+   "hi": 100000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "赛马之王",
+   "icon": "fire",
+   "desc": "专为速度培育，背负 50 kg 也能以 60–70 km/h 跑几分钟。"
+  },
+  {
+   "name": "三大始祖",
+   "icon": "team",
+   "desc": "所有现代纯血马都能追溯到三匹从中东引进的种公马。"
+  }
+ ],
+ "intro": [
+  "【品种】纯血马在 17–18 世纪的英国培育，主要用于赛马。",
+  "三大始祖是拜耶尔土耳其、达利阿拉伯和高多芬阿拉伯。",
+  "肩高一般 157–173 cm。"
+ ],
+ "fact": "研究发现约 95% 的纯血马父系都来自达利阿拉伯。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Thoroughbred」",
+  "维基百科「纯种马」"
+ ],
+ "footnote": "这是马的一个品种；体重、速度和 95% 来自中文维基。"
+}

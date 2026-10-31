@@ -1,0 +1,81 @@
+{
+ "file": "大菱鲆",
+ "no": "483",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "大菱鲆",
+ "name_en": "Turbot",
+ "latin": "Scophthalmus maximus",
+ "short": "大菱鲆",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼和虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "约 25 kg",
+   "lo": 25,
+   "hi": 25,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "20–70 m",
+   "lo": 20,
+   "hi": 70,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "产卵月份",
+   "value": "4–8 月",
+   "lo": 4,
+   "hi": 8,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "双眼在左",
+   "icon": "camo",
+   "desc": "是“左眼”比目鱼，两只眼睛都长在身体左侧。"
+  },
+  {
+   "name": "贴底伏击",
+   "icon": "dive",
+   "desc": "平躺在沙底，主要吃玉筋鱼、虾虎鱼等底栖鱼。"
+  }
+ ],
+ "intro": [
+  "大菱鲆也叫多宝鱼，是东北大西洋、波罗的海和地中海的比目鱼。",
+  "身体近乎圆形，没有鳞片，眼睛旁边有骨瘤。",
+  "古罗马诗人尤维纳利斯的诗里就提到过它。"
+ ],
+ "fact": "英文名 turbot 可能来自拉丁语 turbo（陀螺），形容它的形状。",
+ "range": "东北大西洋、波罗的海、地中海。",
+ "sources": [
+  "Wikipedia「Turbot」",
+  "维基百科「大菱鲆」",
+  "FishBase「Scophthalmus maximus」",
+  "IUCN 红色名录（IUCN 2020）"
+ ],
+ "footnote": "体长、体重、水深来自 FishBase；“产卵月份”指每年 4–8 月；骨瘤一句来自中文维基。"
+}

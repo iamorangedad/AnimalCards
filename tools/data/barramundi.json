@@ -1,0 +1,80 @@
+{
+ "file": "尖吻鲈",
+ "no": "482",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "尖吻鲈",
+ "name_en": "Barramundi",
+ "latin": "Lates calcarifer",
+ "short": "尖吻鲈",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼和虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "约 60 kg",
+   "lo": 60,
+   "hi": 60,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "最大年龄",
+   "value": "35 年",
+   "lo": 35,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "适宜水温",
+   "value": "26–30 °C",
+   "lo": 26,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先雄后雌",
+   "icon": "flip",
+   "desc": "大多数先长成雄鱼，产过一季卵后变成雌鱼。"
+  },
+  {
+   "name": "咸淡两栖",
+   "icon": "dive",
+   "desc": "能生活在海里、河口和河流里。"
+  }
+ ],
+ "intro": [
+  "尖吻鲈也叫亚洲鲈鱼、金目鲈，分布在印度洋到西太平洋。",
+  "季风开始时，雄鱼游到下游和雌鱼会合。",
+  "雌鱼一次能产几百万粒卵。"
+ ],
+ "fact": "养殖的尖吻鲈 12 个月能长到 400–600 g。",
+ "range": "印度—西太平洋：波斯湾到中国南部、澳大利亚北部。",
+ "sources": [
+  "Wikipedia「Barramundi」",
+  "FishBase「Lates calcarifer」",
+  "IUCN 红色名录（IUCN 2019）"
+ ],
+ "footnote": "最大年龄来自 FishBase。"
+}

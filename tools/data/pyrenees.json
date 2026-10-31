@@ -1,0 +1,78 @@
+{
+ "file": "大白熊犬",
+ "no": "475",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "大白熊犬",
+ "name_en": "Great Pyrenees",
+ "latin": "Canis familiaris（品种）",
+ "short": "大白熊犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "70–80 cm",
+   "lo": 0.7,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬肩高",
+   "value": "65–75 cm",
+   "lo": 0.65,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "55–75 kg",
+   "lo": 55,
+   "hi": 75,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "英国寿命",
+   "value": "10.9 年",
+   "lo": 10.9,
+   "hi": 10.9,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "护羊犬",
+   "icon": "team",
+   "desc": "原本是看护羊群、赶走狼和熊的牧羊守护犬。"
+  },
+  {
+   "name": "厚白毛",
+   "icon": "cold",
+   "desc": "白色厚毛适合山地的寒冷天气。"
+  }
+ ],
+ "intro": [
+  "【品种】大白熊犬来自法国和西班牙之间的比利牛斯山。",
+  "它的毛是白色的，头上可以有灰色或黄褐色斑。",
+  "英国研究中它的寿命中位数是 10.9 年。"
+ ],
+ "fact": "它的寿命中位数比狗的总体平均 12.5 年要短一些。",
+ "range": "原产比利牛斯山（法国、西班牙、安道尔）；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Pyrenean Mountain Dog」"
+ ],
+ "footnote": "这是狗的一个品种；寿命为 2024 年英国研究的中位数。"
+}

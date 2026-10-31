@@ -1,0 +1,81 @@
+{
+ "file": "皱纹盘鲍",
+ "no": "486",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "皱纹盘鲍",
+ "name_en": "Disk abalone",
+ "latin": "Haliotis discus",
+ "short": "皱纹盘鲍",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃海藻",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2022",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "壳长",
+   "value": "100–150 mm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–30 m",
+   "lo": 0,
+   "hi": 30,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "北方亚种",
+   "value": "1–5 m 深",
+   "lo": 1,
+   "hi": 5,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "南方亚种",
+   "value": "5–10 m 深",
+   "lo": 5,
+   "hi": 10,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大吸盘脚",
+   "icon": "climb",
+   "desc": "用肥厚的肉足紧紧吸在礁石上。"
+  },
+  {
+   "name": "海带林居民",
+   "icon": "food",
+   "desc": "成体生活在海带林里，幼体吃硅藻。"
+  }
+ ],
+ "intro": [
+  "皱纹盘鲍是盘鲍的北方亚种，生活在朝鲜半岛和日本北部浅海的礁石间。",
+  "幼体落在珊瑚藻上，吃硅藻长大。",
+  "快成年时，它们搬进海带林里生活。"
+ ],
+ "fact": "整个物种盘鲍被 IUCN 列为濒危。",
+ "range": "西北太平洋：朝鲜半岛、日本、中国沿海。",
+ "sources": [
+  "Wikipedia「Haliotis discus」",
+  "维基百科「盘鲍螺」",
+  "SeaLifeBase「Haliotis discus」",
+  "IUCN 红色名录（Peters 2022）"
+ ],
+ "footnote": "IUCN 等级为盘鲍整个物种；“大吸盘脚”为鲍类的一般特征。"
+}

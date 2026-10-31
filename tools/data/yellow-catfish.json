@@ -1,0 +1,80 @@
+{
+ "file": "黄颡鱼",
+ "no": "480",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "黄颡鱼",
+ "name_en": "Yellow catfish",
+ "latin": "Tachysurus fulvidraco",
+ "short": "黄颡鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃水生昆虫、螺和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "34.5 cm",
+   "lo": 0.345,
+   "hi": 0.345,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "另一记录",
+   "value": "36.1 cm",
+   "lo": 0.361,
+   "hi": 0.361,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爸爸护巢",
+   "icon": "huddle",
+   "desc": "雄鱼在黏土河底挖洞做巢，守护鱼卵和小鱼。"
+  },
+  {
+   "name": "底栖觅食",
+   "icon": "food",
+   "desc": "在水底找昆虫幼虫和螺吃，偶尔也吃小鱼。"
+  }
+ ],
+ "intro": [
+  "黄颡鱼是东亚常见的淡水鲶鱼，也叫黄骨鱼。",
+  "它住在河道和湖泊里，在水底吃昆虫幼虫、螺和小鱼。",
+  "它是重要的食用鱼。"
+ ],
+ "fact": "它常吃毛翅目和摇蚊的幼虫。",
+ "range": "东亚：中国、朝鲜半岛、俄罗斯远东等。",
+ "sources": [
+  "Wikipedia「Tachysurus fulvidraco」",
+  "FishBase「Tachysurus fulvidraco」",
+  "IUCN 红色名录（Zhao, H.H. 2011）"
+ ],
+ "footnote": "“另一记录”来自中文维基。"
+}

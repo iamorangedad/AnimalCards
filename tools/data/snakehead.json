@@ -1,0 +1,80 @@
+{
+ "file": "乌鳢",
+ "no": "481",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "乌鳢",
+ "name_en": "Northern snakehead",
+ "latin": "Channa argus",
+ "short": "乌鳢",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼和虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "纪录体重",
+   "value": "9.53 kg",
+   "lo": 9.53,
+   "hi": 9.53,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "离水存活",
+   "value": "3–4 天",
+   "lo": 3,
+   "hi": 4,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "年产量",
+   "value": "51 万吨",
+   "lo": 0.51,
+   "hi": 0.51,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "呼吸空气",
+   "icon": "drop",
+   "desc": "必须呼吸空气，在 10–15 °C 时离水能活 3–4 天。"
+  },
+  {
+   "name": "伏击猎手",
+   "icon": "camo",
+   "desc": "趴在水底等猎物，早晚出来捕鱼。"
+  }
+ ],
+ "intro": [
+  "乌鳢也叫黑鱼，原产中国、俄罗斯远东和朝鲜半岛。",
+  "它是原产地养殖最多的鱼之一。",
+  "它被带到美国后成为入侵物种。"
+ ],
+ "fact": "俄罗斯鱼类学家记录过接近 150 cm 的个体。",
+ "range": "东亚（中国、朝鲜半岛、俄罗斯远东）；被引入美国等地。",
+ "sources": [
+  "Wikipedia「Northern snakehead」",
+  "FishBase「Channa argus」",
+  "IUCN 红色名录（Bogutskaya 2022）"
+ ],
+ "footnote": "离水存活来自 FishBase。"
+}

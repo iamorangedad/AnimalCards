@@ -1,0 +1,79 @@
+{
+ "file": "菲律宾蛤仔",
+ "no": "489",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "菲律宾蛤仔",
+ "name_en": "Manila clam",
+ "latin": "Ruditapes philippinarum",
+ "short": "菲律宾蛤仔",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食浮游生物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "常见壳宽",
+   "value": "40–57 mm",
+   "lo": 0.04,
+   "hi": 0.057,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大壳宽",
+   "value": "79 mm",
+   "lo": 0.079,
+   "hi": 0.079,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "埋沙深度",
+   "value": "≤ 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次产卵",
+   "value": "最多 240 万",
+   "lo": 2400000.0,
+   "hi": 2400000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挖沙",
+   "icon": "root",
+   "desc": "用短短的水管和足钻进泥沙里。"
+  },
+  {
+   "name": "滤食",
+   "icon": "drop",
+   "desc": "吃浮游植物、底栖硅藻和有机碎屑。"
+  }
+ ],
+ "intro": [
+  "菲律宾蛤仔就是常吃的“花蛤”，是中国四大养殖贝类之一。",
+  "它原产西太平洋，随日本牡蛎被意外带到很多海域。",
+  "它住在潮间带和浅水的泥沙里。"
+ ],
+ "fact": "一只 4 cm 的雌贝最多能产 240 万粒卵。",
+ "range": "西太平洋；被引入北美西岸、欧洲等地。",
+ "sources": [
+  "Wikipedia「Ruditapes philippinarum」",
+  "维基百科「花蛤」"
+ ],
+ "footnote": "产卵数指一只 4 cm 雌贝。"
+}

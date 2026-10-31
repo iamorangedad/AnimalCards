@@ -1,0 +1,79 @@
+{
+ "file": "斑节对虾",
+ "no": "490",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "斑节对虾",
+ "name_en": "Giant tiger prawn",
+ "latin": "Penaeus monodon",
+ "short": "斑节对虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小虫、碎屑和小动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "雌虾体长",
+   "value": "25–30 cm",
+   "lo": 0.25,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌虾体重",
+   "value": "200–320 g",
+   "lo": 0.2,
+   "hi": 0.32,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "约 80 万粒",
+   "lo": 800000.0,
+   "hi": 800000.0,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "养殖水温",
+   "value": "28–33 °C",
+   "lo": 28,
+   "hi": 33,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "虎纹",
+   "icon": "camo",
+   "desc": "身上有深浅相间的横纹，像老虎。"
+  },
+  {
+   "name": "夜间交配",
+   "icon": "huddle",
+   "desc": "在夜里交配，一次能产约 80 万粒卵。"
+  }
+ ],
+ "intro": [
+  "斑节对虾也叫草虾、黑虎虾，分布在印度—西太平洋。",
+  "幼虾在河口和红树林长大，成年后搬到更深的海底。",
+  "雄虾比雌虾小，体长 20–25 cm。"
+ ],
+ "fact": "2009 年全世界养殖了 77 万吨，价值约 36.5 亿美元。",
+ "range": "印度—西太平洋：非洲东岸到澳大利亚、日本。",
+ "sources": [
+  "Wikipedia「Penaeus monodon」",
+  "SeaLifeBase「Penaeus monodon」"
+ ],
+ "footnote": ""
+}

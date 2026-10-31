@@ -1,0 +1,81 @@
+{
+ "file": "大黄鱼",
+ "no": "477",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "大黄鱼",
+ "name_en": "Large yellow croaker",
+ "latin": "Larimichthys crocea",
+ "short": "大黄鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃甲壳类和鱼",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2020",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "30–40 cm",
+   "lo": 0.3,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–120 m",
+   "lo": 0,
+   "hi": 120,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "养殖产量",
+   "value": "19.8 万吨",
+   "lo": 0.198,
+   "hi": 0.198,
+   "scale": "mt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "金黄身体",
+   "icon": "camo",
+   "desc": "新鲜时身体是金黄色的，也叫黄花鱼。"
+  },
+  {
+   "name": "被过度捕捞",
+   "icon": "toxic",
+   "desc": "1974 年一次围捕越冬幼鱼后，野生资源一路衰退。"
+  }
+ ],
+ "intro": [
+  "大黄鱼生活在中国东海、黄海一带的近海。",
+  "现在市场上的黄花鱼大多是网箱养殖的。",
+  "野生大黄鱼被 IUCN 列为极危。"
+ ],
+ "fact": "2003–2004 年野生大黄鱼的捕获量几乎为零。",
+ "range": "西北太平洋：越南中部到朝鲜半岛、日本，黄海和东海。",
+ "sources": [
+  "Wikipedia「Larimichthys crocea」",
+  "维基百科「大黄鱼」",
+  "FishBase「Larimichthys crocea」",
+  "IUCN 红色名录（Liu, M. 2020）"
+ ],
+ "footnote": "养殖产量为 2019 年海水养殖数，单位百万吨。"
+}

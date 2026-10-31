@@ -1,0 +1,78 @@
+{
+ "file": "克莱兹代尔马",
+ "no": "474",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "克莱兹代尔马",
+ "name_en": "Clydesdale horse",
+ "latin": "Equus caballus（品种）",
+ "short": "克莱兹代尔马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "162–183 cm",
+   "lo": 1.62,
+   "hi": 1.83,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "820–910 kg",
+   "lo": 820,
+   "hi": 910,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "大公马",
+   "value": "可达 1000 kg",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "百威马队",
+   "value": "每队 8 匹",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色毛脚",
+   "icon": "huddle",
+   "desc": "小腿上有很多白色长毛，像穿了靴子。"
+  },
+  {
+   "name": "拉车",
+   "icon": "roar",
+   "desc": "原本是农田和运输用的重型挽马。"
+  }
+ ],
+ "intro": [
+  "【品种】克莱兹代尔马来自苏格兰的克莱德河谷。",
+  "毛色多为枣红或褐色，脸上有白斑、腿是白的。",
+  "它常用来拉马车和参加游行。"
+ ],
+ "fact": "啤酒公司有几支 8 匹一队的克莱兹代尔马队，在世界各地巡游宣传。",
+ "range": "原产苏格兰；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Clydesdale horse」"
+ ],
+ "footnote": "这是马的一个品种。"
+}

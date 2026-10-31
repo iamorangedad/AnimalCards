@@ -1,0 +1,78 @@
+{
+ "file": "澳大利亚牧羊犬",
+ "no": "476",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "澳大利亚牧羊犬",
+ "name_en": "Australian Shepherd",
+ "latin": "Canis familiaris（品种）",
+ "short": "澳大利亚牧羊犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "51–58 cm",
+   "lo": 0.51,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母犬肩高",
+   "value": "46–53 cm",
+   "lo": 0.46,
+   "hi": 0.53,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "16–32 kg",
+   "lo": 16,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "英国寿命",
+   "value": "13.7 年",
+   "lo": 13.7,
+   "hi": 13.7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "牧羊高手",
+   "icon": "team",
+   "desc": "聪明、精力旺盛，擅长赶羊。"
+  },
+  {
+   "name": "陨石色",
+   "icon": "camo",
+   "desc": "常见蓝陨石色或红陨石色的花纹。"
+  }
+ ],
+ "intro": [
+  "【品种】澳大利亚牧羊犬虽然名字带“澳大利亚”，其实是在美国培育的。",
+  "它是中型、很爱运动的工作犬。",
+  "英国研究中它的寿命中位数是 13.7 年。"
+ ],
+ "fact": "它的寿命比纯种狗的中位数 12.7 年要长。",
+ "range": "原产美国；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Australian Shepherd」"
+ ],
+ "footnote": "这是狗的一个品种。"
+}

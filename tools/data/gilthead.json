@@ -1,0 +1,80 @@
+{
+ "file": "金头鲷",
+ "no": "485",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "金头鲷",
+ "name_en": "Gilt-head bream",
+ "latin": "Sparus aurata",
+ "short": "金头鲷",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃贝类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2009",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "17.2 kg",
+   "lo": 17.2,
+   "hi": 17.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "1–150 m",
+   "lo": 1,
+   "hi": 150,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先雄后雌",
+   "icon": "flip",
+   "desc": "2 岁时先成熟为雄鱼，之后一部分会变成雌鱼。"
+  },
+  {
+   "name": "咬碎贝壳",
+   "icon": "food",
+   "desc": "主要吃贝类，包括贻贝和牡蛎。"
+  }
+ ],
+ "intro": [
+  "金头鲷生活在地中海和东大西洋的海草床和沙底。",
+  "两眼之间有一道金色的横纹，所以叫金头鲷。",
+  "它是地中海最重要的养殖鱼之一。"
+ ],
+ "fact": "春天它们常进入半咸水的潟湖和河口。",
+ "range": "地中海、东大西洋（英国到佛得角）。",
+ "sources": [
+  "Wikipedia「Gilt-head bream」",
+  "FishBase「Sparus aurata」",
+  "IUCN 红色名录（IUCN 2009）"
+ ],
+ "footnote": ""
+}

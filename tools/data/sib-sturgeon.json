@@ -1,0 +1,80 @@
+{
+ "file": "西伯利亚鲟",
+ "no": "484",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "西伯利亚鲟",
+ "name_en": "Siberian sturgeon",
+ "latin": "Acipenser baerii",
+ "short": "西伯利亚鲟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃底栖虫子和小动物",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2022",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "常见体重",
+   "value": "约 65 kg",
+   "lo": 65,
+   "hi": 65,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "最大体重",
+   "value": "210 kg",
+   "lo": 210,
+   "hi": 210,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 60 年",
+   "lo": 60,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "雌鱼成熟",
+   "value": "20–28 岁",
+   "lo": 20,
+   "hi": 28,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长寿晚熟",
+   "icon": "huddle",
+   "desc": "能活 60 年，雌鱼要 20 多岁才成熟。"
+  },
+  {
+   "name": "北方大河",
+   "icon": "dive",
+   "desc": "住在流向北冰洋的大河里，常在水深 1–8 m、水流较急的河段。"
+  }
+ ],
+ "intro": [
+  "西伯利亚鲟生活在西伯利亚的大河里，如鄂毕河、叶尼塞河和勒拿河。",
+  "它主要在淡水里生活，有些会进入河口。",
+  "野生种群被 IUCN 列为极危。"
+ ],
+ "fact": "2023 年 10 月，湄公河里抓到一条 1.8 kg 的西伯利亚鲟，可能是养殖逃逸的。",
+ "range": "俄罗斯西伯利亚各大河流、哈萨克斯坦、中国新疆（额尔齐斯河）。",
+ "sources": [
+  "Wikipedia「Siberian sturgeon」",
+  "FishBase「Acipenser baerii」",
+  "IUCN 红色名录（IUCN 2022）"
+ ],
+ "footnote": "雌鱼成熟年龄为维基数据，FishBase 给出 9–34 岁。"
+}

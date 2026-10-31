@@ -1,0 +1,81 @@
+{
+ "file": "虾夷扇贝",
+ "no": "487",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "虾夷扇贝",
+ "name_en": "Yesso scallop",
+ "latin": "Mizuhopecten yessoensis",
+ "short": "虾夷扇贝",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食浮游生物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大壳长",
+   "value": "25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "0–100 m",
+   "lo": 0,
+   "hi": 100,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "生长上限",
+   "value": "18 °C",
+   "lo": 18,
+   "hi": 18,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "偏好水温",
+   "value": "约 17 °C",
+   "lo": 17,
+   "hi": 17,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "会积累毒素",
+   "icon": "toxic",
+   "desc": "身体组织能累积藻类产生的扇贝毒素。"
+  },
+  {
+   "name": "滤食",
+   "icon": "drop",
+   "desc": "从水里滤食浮游生物。"
+  }
+ ],
+ "intro": [
+  "虾夷扇贝原产日本北海道一带的冷水海域。",
+  "每年 5–6 月产卵，约持续 10 天。",
+  "在中国，它常被晒成干贝，叫“日本干贝”。"
+ ],
+ "fact": "海面水温长时间低于 0 °C 时，它们会推迟产卵。",
+ "range": "西北太平洋：日本北部、俄罗斯远东、朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Mizuhopecten yessoensis」",
+  "维基百科「虾夷盘扇贝」",
+  "SeaLifeBase「Mizuhopecten yessoensis」"
+ ],
+ "footnote": "毒素一句来自中文维基。",
+ "warn": "赤潮期间贝类可能带毒，要买检疫合格的产品。"
+}

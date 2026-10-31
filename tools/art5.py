@@ -695,3 +695,41 @@ def _clams(w, h):
     return scene("wetland", w, h, o, box=(w / 2, h * .72, 460, 240))
 ART5["manila-clam"] = _clams
 ART5["tiger-prawn"] = lambda w, h: scene("sea", w, h, G_(shrimp(F="#5a5a4a", L=320, H=70) + "".join(P(f"M{-80+i*38} -60 v40", sw=6, col="#f2d23a") for i in range(6)), 0, -20), box=(w / 2, h * .7, 500, 280))
+
+# ---- batch p4grass1 ----
+from art4 import rodent
+def ANT(kind, F, horns="chiru", belly="#fbf6ec", box=(.76, 560, 440), **kw):
+    a = dict(F=F, bl=250, bd=100, lh=150, lw=18, belly=belly, neck=(44, 28), nw=50, head=(34, 30), snout=(36, 26), snout_col=darker(F, .95), ears="side", horns=horns, tail="short", tail_col=darker(F, .8), hooves=INK)
+    a.update(kw); return Q(kind, box, **a)
+def lighter(c, f=.5):
+    h = c.lstrip("#"); r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+    return "#%02x%02x%02x" % tuple(int(v + (255 - v) * f) for v in (r, g, b))
+def CAN(kind, F, box=(.76, 540, 360), **kw):
+    a = dict(F=F, bl=250, bd=96, lh=130, lw=22, belly=lighter(F, .6), neck=(40, 36), nw=60, head=(40, 34), snout=(50, 26), snout_col=F, ears="point", tail="bushy", tail_col=F, hooves=INK)
+    a.update(kw); return Q(kind, box, **a)
+ART5["fennec"] = CAN("desert", "#f2d6a8", bl=200, bd=80, lh=90, lw=16, head=(36, 32), snout=(34, 20), ears="big", tail_col="#e8c48a")
+ART5["gerenuk"] = ANT("savanna", "#c98a5a", horns="goat", neck=(110, 20), nw=34, lh=170, bl=220, lw=14)
+ART5["topi"] = ANT("savanna", "#a8603a", horns="goat", bl=280, bd=120, lh=140, lw=22, head=(40, 34), snout=(46, 28), snout_col="#6a3a2a", pattern="patches", pat_col="#5a3a5a")
+ART5["hartebeest"] = ANT("savanna", "#c9864a", horns="wildebeest", bl=280, bd=120, lh=150, lw=22, head=(38, 34), snout=(62, 30))
+ART5["waterbuck"] = ANT("wetland", "#8a7a6a", horns="chiru", bl=300, bd=130, lh=140, lw=26, head=(44, 38), snout=(40, 30), snout_col="#fbfaf6")
+ART5["kudu"] = ANT("savanna", "#a89a8a", horns="chiru", bl=300, bd=130, lh=160, lw=22, ears="big", head=(42, 36),
+                   extras="".join(P(f"M{x} -300 v110", sw=4, col="#fbfaf6") for x in (-90, -60, -30, 0, 30)))
+ART5["sable-antelope"] = ANT("savanna", "#2a2422", horns="chiru", bl=290, bd=130, lh=150, lw=24, belly="#fbfaf6", snout_col="#fbfaf6")
+ART5["ar-oryx"] = ANT("desert", "#fbf8f0", horns="chiru", belly="#fbf8f0", farleg="#8a6a4a", snout_col="#3a2a22", bl=270, bd=120, lh=140, lw=22, hooves="#3a2a22")
+ART5["addax"] = ANT("desert", "#efe6d6", horns="chiru", bl=270, bd=120, lh=130, lw=24, snout_col="#fbf8f0", mask="#8a6a4a")
+ART5["dikdik"] = ANT("savanna", "#b9926a", horns="goat", bl=180, bd=80, lh=100, lw=12, head=(36, 30), snout=(34, 20), ears="big", box=(.76, 460, 340))
+ART5["klipspringer"] = lambda w, h: scene("plateau", w, h, rock(0, 40, 3.2) + G_(quad(F="#a8925a", bl=190, bd=90, lh=100, lw=14, neck=(36, 26), nw=46, head=(34, 30), snout=(30, 22), ears="big", horns="goat", tail="short", hooves=INK), 0, -60), box=(w / 2, h * .74, 440, 360))
+ART5["bat-eared"] = CAN("savanna", "#c9b08a", bl=220, bd=90, lh=100, lw=18, ears="big", head=(38, 32), snout=(36, 20), snout_col="#3a3430", tail_col="#3a3430")
+ART5["aardwolf"] = CAN("savanna", "#e6cc98", bl=230, bd=100, lh=110, lw=20, pattern="stripes", pat_col="#3a3430", ears="point", tail_col="#3a3430", snout_col="#3a3430")
+ART5["striped-hyena"] = CAN("desert", "#c9b89a", bl=260, bd=120, lh=130, lw=26, pattern="stripes", pat_col="#3a3430", tail_col="#5a4a3a", snout_col="#3a3430", mane="zebra", ears="big")
+ART5["bb-jackal"] = CAN("savanna", "#c9864a", pattern="patches", pat_col="#3a3430", tail_col="#3a3430")
+ART5["golden-jackal"] = CAN("meadow", "#d9aa6a", tail_col="#a87a4a")
+ART5["eth-wolf"] = CAN("plateau", "#c9643a", belly="#fbf2e6", snout=(56, 24), snout_col="#fbf2e6", tail_col="#3a2a22")
+ART5["maned-wolf"] = CAN("savanna", "#d9783a", lh=180, lw=18, bl=230, ears="big", mane="zebra", tail_col="#fbf2e6", farleg="#2a2422", hooves="#2a2422")
+ART5["dingo"] = CAN("desert", "#d9a060", belly="#fbf2e6", tail_col="#d9a060")
+ART5["corsac"] = CAN("plateau", "#c9b89a", bl=220, bd=86, lh=96, lw=16, ears="big", tail_col="#8a7a6a")
+ART5["hyrax"] = lambda w, h: scene("plateau", w, h, rock(-40, 40, 3) + G_(blob(F="#8a7a64", L=230, H=150, belly="#c9b89a", ears="small", tail=None, nose="#3a3430", whisk=False), 0, -70), box=(w / 2, h * .74, 460, 340))
+ART5["mole-rat"] = lambda w, h: scene("desert", w, h, rodent("#f2c0b0", 300, 110, belly="#f6d0c4", ears="round", tail="rope", tl=.4, tailcol="#f2c0b0", nose="#e09080") + P("M-130 -40 l-12 8 M-130 -30 l-12 -2", sw=4, col="#fbf8f0"), box=(w / 2, h * .74, 400, 200))
+ART5["mtn-goat"] = GOAT("#fbfaf6", kind="snow", horns="goat", beard="#fbfaf6", hooves=INK)
+ART5["bighorn"] = GOAT("#8a6a4a", kind="plateau", horns="ram", beard=None, belly="#efe6d6", snout_col="#efe6d6")
+ART5["ibex"] = GOAT("#8a7a64", kind="plateau", horns="chiru", beard="#5a4a3a", bl=280)

@@ -1,0 +1,78 @@
+{
+ "file": "澳洲野犬",
+ "no": "509",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "澳洲野犬",
+ "name_en": "Dingo",
+ "latin": "Canis familiaris（澳洲野犬）",
+ "short": "澳洲野犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃袋鼠、兔子和小动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未单列",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "野生公犬",
+   "value": "15.8 kg",
+   "lo": 15.8,
+   "hi": 15.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野生母犬",
+   "value": "14.1 kg",
+   "lo": 14.1,
+   "hi": 14.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "圈养公犬",
+   "value": "18.9 kg",
+   "lo": 18.9,
+   "hi": 18.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最早化石",
+   "value": "约 3450 年前",
+   "lo": 3450,
+   "hi": 3450,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "少吠多嚎",
+   "icon": "ear",
+   "desc": "和家犬相比，它更常嚎叫和呜咽，很少吠叫。"
+  },
+  {
+   "name": "圈养更重",
+   "icon": "food",
+   "desc": "圈养个体比野生的重约 3 kg。"
+  }
+ ],
+ "intro": [
+  "澳洲野犬生活在澳大利亚，是一种野化的犬。",
+  "它的祖先来自东亚，经东南亚到达澳大利亚。",
+  "最早的澳洲野犬化石发现于西澳，约 3450 年前。"
+ ],
+ "fact": "IUCN 犬科专家组认为澳洲野犬和新几内亚唱歌犬都属于野化的家犬。",
+ "range": "澳大利亚。",
+ "sources": [
+  "Wikipedia「Dingo」"
+ ],
+ "footnote": "IUCN 不再单独评估。"
+}

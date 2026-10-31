@@ -1,0 +1,79 @@
+{
+ "file": "鬃狼",
+ "no": "508",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "鬃狼",
+ "name_en": "Maned wolf",
+ "latin": "Chrysocyon brachyurus",
+ "short": "鬃狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小动物和果实",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2015",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "20–30 kg",
+   "lo": 20,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "最高 110 cm",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "耳长",
+   "value": "约 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "踩高跷",
+   "icon": "climb",
+   "desc": "腿特别长，是最高的野生犬科动物，适合在高草里看远。"
+  },
+  {
+   "name": "爱吃狼果",
+   "icon": "seed",
+   "desc": "最常吃一种像番茄的“狼果”，还帮它传播种子。"
+  }
+ ],
+ "intro": [
+  "鬃狼生活在南美洲的稀树草原。",
+  "它是南美洲最大的犬科动物。",
+  "它多在黄昏和清晨活动。"
+ ],
+ "fact": "它的花纹像赤狐，但它既不是狐狸也不是狼。",
+ "range": "南美洲中部（巴西、巴拉圭、阿根廷、玻利维亚）。",
+ "sources": [
+  "Wikipedia「Maned wolf」",
+  "IUCN 红色名录（Paula, R.C. 2015）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "大耳狐",
+ "no": "502",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "大耳狐",
+ "name_en": "Bat-eared fox",
+ "latin": "Otocyon megalotis",
+ "short": "大耳狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃白蚁和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "3–5.3 kg",
+   "lo": 3,
+   "hi": 5.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耳长",
+   "value": "11–13 cm",
+   "lo": 0.11,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "30–40 cm",
+   "lo": 0.3,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "牙齿",
+   "value": "46–50 颗",
+   "lo": 46,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "雷达耳",
+   "icon": "ear",
+   "desc": "大耳朵能听到地下昆虫的声音，还能帮助散热。"
+  },
+  {
+   "name": "牙最多",
+   "icon": "food",
+   "desc": "有 46–50 颗牙，是有胎盘陆生哺乳动物里最多的。"
+  }
+ ],
+ "intro": [
+  "大耳狐生活在非洲东部和南部的干旱草原。",
+  "它是犬科里少有的以昆虫为主食的。",
+  "两个亚种的分布区相隔约 1000 km。"
+ ],
+ "fact": "它吃收获白蚁，帮人类控制这种害虫。",
+ "range": "东非和南部非洲。",
+ "sources": [
+  "Wikipedia「Bat-eared fox」"
+ ],
+ "footnote": ""
+}

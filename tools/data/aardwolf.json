@@ -1,0 +1,78 @@
+{
+ "file": "土狼",
+ "no": "503",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "土狼",
+ "name_en": "Aardwolf",
+ "latin": "Proteles cristatus",
+ "short": "土狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃白蚁",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "55–80 cm",
+   "lo": 0.55,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "7–10 kg",
+   "lo": 7,
+   "hi": 10,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "40–50 cm",
+   "lo": 0.4,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "一夜吃白蚁",
+   "value": "约 30 万只",
+   "lo": 300000.0,
+   "hi": 300000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "舔白蚁",
+   "icon": "food",
+   "desc": "用又长又黏的舌头舔白蚁，一晚能吃 30 万只。"
+  },
+  {
+   "name": "夜行",
+   "icon": "ear",
+   "desc": "白天躲在洞里，晚上出来找食物。"
+  }
+ ],
+ "intro": [
+  "土狼是鬣狗科的一员，但几乎只吃白蚁。",
+  "它的舌头很结实，不怕白蚁咬。",
+  "非洲南部的个体比东部的稍小。"
+ ],
+ "fact": "它和其他鬣狗分家的时间，化石和基因研究相差约 1000 万年。",
+ "range": "非洲东部和南部。",
+ "sources": [
+  "Wikipedia「Aardwolf」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "裸鼹形鼠",
+ "no": "512",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "裸鼹形鼠",
+ "name_en": "Naked mole-rat",
+ "latin": "Heterocephalus glaber",
+ "short": "裸鼹形鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物块根",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "8–10 cm",
+   "lo": 0.08,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "30–35 g",
+   "lo": 0.03,
+   "hi": 0.035,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 37 年",
+   "lo": 37,
+   "hi": 37,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "女王寿命",
+   "value": "13–18 年",
+   "lo": 13,
+   "hi": 18,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "真社会性",
+   "icon": "team",
+   "desc": "像蜜蜂一样有女王，只有女王生育，其他成员分工劳动。"
+  },
+  {
+   "name": "超能体质",
+   "icon": "huddle",
+   "desc": "皮肤不怕某些疼痛，很少得癌症，还特别耐缺氧。"
+  }
+ ],
+ "intro": [
+  "裸鼹形鼠生活在东非的地下洞穴里，几乎没有毛。",
+  "它是寿命最长的啮齿动物。",
+  "女王对其他想繁殖的雌性非常凶。"
+ ],
+ "fact": "第二长寿的啮齿动物是非洲豪猪，只有 28 年。",
+ "range": "东非：埃塞俄比亚、索马里、肯尼亚。",
+ "sources": [
+  "Wikipedia「Naked mole-rat」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "亚洲胡狼",
+ "no": "506",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "亚洲胡狼",
+ "name_en": "Golden jackal",
+ "latin": "Canis aureus",
+ "short": "亚洲胡狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小动物、腐肉和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "6–14 kg",
+   "lo": 6,
+   "hi": 14,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "7–11 kg",
+   "lo": 7,
+   "hi": 11,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "45–50 cm",
+   "lo": 0.45,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最古老化石",
+   "value": "7600 年",
+   "lo": 7600,
+   "hi": 7600,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "适应力强",
+   "icon": "team",
+   "desc": "从印度扩散到中东、欧洲，适应各种环境。"
+  },
+  {
+   "name": "集体嚎叫",
+   "icon": "ear",
+   "desc": "常集体嚎叫，成年个体站着嚎，年轻的坐着嚎。"
+  }
+ ],
+ "intro": [
+  "亚洲胡狼（金豺）分布在欧洲东南部、中东和南亚。",
+  "它长得像小一号的狼，腿和尾巴更短。",
+  "约 2 万年前它从印度开始向外扩散。"
+ ],
+ "fact": "最古老的金豺化石发现于黎巴嫩，距今 7600 年。",
+ "range": "东南欧、中东、中亚、南亚。",
+ "sources": [
+  "Wikipedia「Golden jackal」",
+  "IUCN 红色名录（Hoffmann, M. 2018）"
+ ],
+ "footnote": ""
+}

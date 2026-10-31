@@ -1,0 +1,78 @@
+{
+ "file": "埃塞俄比亚狼",
+ "no": "507",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "埃塞俄比亚狼",
+ "name_en": "Ethiopian wolf",
+ "latin": "Canis simensis",
+ "short": "埃塞俄比亚狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃高山鼠类",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 红色名录",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "14.2–19.3 kg",
+   "lo": 14.2,
+   "hi": 19.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "11.2–14.15 kg",
+   "lo": 11.2,
+   "hi": 14.15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "3000–4500 m",
+   "lo": 3000,
+   "hi": 4500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "成年数量",
+   "value": "360–440 只",
+   "lo": 360,
+   "hi": 440,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鼠专家",
+   "icon": "food",
+   "desc": "专门捕食非洲高山上的鼠类。"
+  },
+  {
+   "name": "厚底绒",
+   "icon": "cold",
+   "desc": "短的针毛下有厚厚的底绒，抵御高山寒冷。"
+  }
+ ],
+ "intro": [
+  "埃塞俄比亚狼只生活在埃塞俄比亚的 7 片高山上。",
+  "一半以上生活在贝尔山。",
+  "它的祖先约 180 万年前从欧亚大陆来到非洲。"
+ ],
+ "fact": "约 1.5 万年前气候变暖，高山栖息地被分割，它们也被分隔开来。",
+ "range": "埃塞俄比亚高原。",
+ "sources": [
+  "Wikipedia「Ethiopian wolf」"
+ ],
+ "footnote": "成年数量为 2011 年估计。"
+}

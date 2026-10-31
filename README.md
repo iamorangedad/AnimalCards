@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 490 张（动物 490）。分类：宠物 95，农场 95，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
+共 515 张（动物 515）。分类：宠物 95，农场 95，高原草原 75，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -248,6 +248,31 @@
 | 214 | 大羚羊（Common eland） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E7%BE%9A%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E7%BE%9A%E7%BE%8A.pdf) |
 | 215 | 蜜獾（Honey badger） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%9C%9C%E7%8D%BE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%9C%9C%E7%8D%BE.pdf) |
 | 216 | 大食蚁兽（Giant anteater） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E9%A3%9F%E8%9A%81%E5%85%BD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E9%A3%9F%E8%9A%81%E5%85%BD.pdf) |
+| 491 | 耳廓狐（Fennec fox） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%80%B3%E5%BB%93%E7%8B%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%80%B3%E5%BB%93%E7%8B%90.pdf) |
+| 492 | 长颈羚（Gerenuk） | 动物 · 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E7%BE%9A.pdf) |
+| 493 | 转角牛羚（Topi） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%BD%AC%E8%A7%92%E7%89%9B%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%BD%AC%E8%A7%92%E7%89%9B%E7%BE%9A.pdf) |
+| 494 | 狷羚（Hartebeest） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%B7%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%B7%E7%BE%9A.pdf) |
+| 495 | 水羚（Waterbuck） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B0%B4%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B0%B4%E7%BE%9A.pdf) |
+| 496 | 大捻角羚（Greater kudu） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E6%8D%BB%E8%A7%92%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E6%8D%BB%E8%A7%92%E7%BE%9A.pdf) |
+| 497 | 黑马羚（Sable antelope） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%BB%91%E9%A9%AC%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%BB%91%E9%A9%AC%E7%BE%9A.pdf) |
+| 498 | 阿拉伯大羚羊（Arabian oryx） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%98%BF%E6%8B%89%E4%BC%AF%E5%A4%A7%E7%BE%9A%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%98%BF%E6%8B%89%E4%BC%AF%E5%A4%A7%E7%BE%9A%E7%BE%8A.pdf) |
+| 499 | 旋角羚（Addax） | 动物 · 高原草原 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%97%8B%E8%A7%92%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%97%8B%E8%A7%92%E7%BE%9A.pdf) |
+| 500 | 柯氏犬羚（Kirk's dik-dik） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%9F%AF%E6%B0%8F%E7%8A%AC%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%9F%AF%E6%B0%8F%E7%8A%AC%E7%BE%9A.pdf) |
+| 501 | 山羚（Klipspringer） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%B1%B1%E7%BE%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%B1%B1%E7%BE%9A.pdf) |
+| 502 | 大耳狐（Bat-eared fox） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E8%80%B3%E7%8B%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%A4%A7%E8%80%B3%E7%8B%90.pdf) |
+| 503 | 土狼（Aardwolf） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9C%9F%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9C%9F%E7%8B%BC.pdf) |
+| 504 | 条纹鬣狗（Striped hyena） | 动物 · 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%9D%A1%E7%BA%B9%E9%AC%A3%E7%8B%97.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%9D%A1%E7%BA%B9%E9%AC%A3%E7%8B%97.pdf) |
+| 505 | 黑背胡狼（Black-backed jackal） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%BB%91%E8%83%8C%E8%83%A1%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%BB%91%E8%83%8C%E8%83%A1%E7%8B%BC.pdf) |
+| 506 | 亚洲胡狼（Golden jackal） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E4%BA%9A%E6%B4%B2%E8%83%A1%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E4%BA%9A%E6%B4%B2%E8%83%A1%E7%8B%BC.pdf) |
+| 507 | 埃塞俄比亚狼（Ethiopian wolf） | 动物 · 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E7%8B%BC.pdf) |
+| 508 | 鬃狼（Maned wolf） | 动物 · 高原草原 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%AC%83%E7%8B%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%AC%83%E7%8B%BC.pdf) |
+| 509 | 澳洲野犬（Dingo） | 动物 · 高原草原 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%BE%B3%E6%B4%B2%E9%87%8E%E7%8A%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%BE%B3%E6%B4%B2%E9%87%8E%E7%8A%AC.pdf) |
+| 510 | 沙狐（Corsac fox） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B2%99%E7%8B%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E6%B2%99%E7%8B%90.pdf) |
+| 511 | 南非岩蹄兔（Rock hyrax） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8D%97%E9%9D%9E%E5%B2%A9%E8%B9%84%E5%85%94.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8D%97%E9%9D%9E%E5%B2%A9%E8%B9%84%E5%85%94.pdf) |
+| 512 | 裸鼹形鼠（Naked mole-rat） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%A3%B8%E9%BC%B9%E5%BD%A2%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E8%A3%B8%E9%BC%B9%E5%BD%A2%E9%BC%A0.pdf) |
+| 513 | 雪羊（Mountain goat） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9B%AA%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9B%AA%E7%BE%8A.pdf) |
+| 514 | 加拿大盘羊（Bighorn sheep） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%9B%98%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%9B%98%E7%BE%8A.pdf) |
+| 515 | 羱羊（Alpine ibex） | 动物 · 高原草原 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%BE%B1%E7%BE%8A.pdf) |
 | 001 | 大熊猫（Giant panda） | 动物 · 森林 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E5%A4%A7%E7%86%8A%E7%8C%AB.pdf) |
 | 043 | 老虎（Tiger） | 动物 · 森林 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E8%80%81%E8%99%8E.pdf) |
 | 044 | 棕熊（Brown bear） | 动物 · 森林 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%A3%AE%E6%9E%97/%E6%A3%95%E7%86%8A.pdf) |

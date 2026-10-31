@@ -1,0 +1,78 @@
+{
+ "file": "羱羊",
+ "no": "515",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "羱羊",
+ "name_en": "Alpine ibex",
+ "latin": "Capra ibex",
+ "short": "羱羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "67–117 kg",
+   "lo": 67,
+   "hi": 117,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性体重",
+   "value": "17–32 kg",
+   "lo": 17,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "69–98 cm",
+   "lo": 0.69,
+   "hi": 0.98,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "3300 m",
+   "lo": 3300,
+   "hi": 3300,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "悬崖攀爬",
+   "icon": "climb",
+   "desc": "锋利的蹄子让它能爬上陡峭的山坡和峭壁。"
+  },
+  {
+   "name": "绝处逢生",
+   "icon": "huddle",
+   "desc": "19 世纪几乎被猎光，只剩不到 100 只。"
+  }
+ ],
+ "intro": [
+  "羱羊（阿尔卑斯山羊）生活在欧洲阿尔卑斯山。",
+  "雄性比雌性大得多，角也长得多。",
+  "如今的种群都来自意大利大帕拉迪索国家公园。"
+ ],
+ "fact": "约 7500 年前，它在希腊因人类捕猎而消失。",
+ "range": "欧洲阿尔卑斯山。",
+ "sources": [
+  "Wikipedia「Alpine ibex」"
+ ],
+ "footnote": ""
+}

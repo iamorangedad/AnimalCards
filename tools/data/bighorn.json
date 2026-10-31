@@ -1,0 +1,78 @@
+{
+ "file": "加拿大盘羊",
+ "no": "514",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "加拿大盘羊",
+ "name_en": "Bighorn sheep",
+ "latin": "Ovis canadensis",
+ "short": "加拿大盘羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公羊体重",
+   "value": "58–143 kg",
+   "lo": 58,
+   "hi": 143,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母羊体重",
+   "value": "34–91 kg",
+   "lo": 34,
+   "hi": 91,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "双角重",
+   "value": "可达 14 kg",
+   "lo": 14,
+   "hi": 14,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母羊肩高",
+   "value": "75–90 cm",
+   "lo": 0.75,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "撞角比武",
+   "icon": "roar",
+   "desc": "公羊用大角猛烈对撞来争夺地位，头骨结构能吸收冲击。"
+  },
+  {
+   "name": "大群生活",
+   "icon": "team",
+   "desc": "成大群生活，但不跟随固定的头羊。"
+  }
+ ],
+ "intro": [
+  "加拿大盘羊生活在北美西部的山地。",
+  "约 75 万年前，野羊经白令陆桥从西伯利亚来到美洲。",
+  "它和雪羊的近亲关系是约 60 万年前分开的。"
+ ],
+ "fact": "一对公羊角最重可达 14 kg。",
+ "range": "北美西部：加拿大到墨西哥西北部。",
+ "sources": [
+  "Wikipedia「Bighorn sheep」"
+ ],
+ "footnote": "“和雪羊”指亚洲的雪羊（Ovis nivicola）。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "耳廓狐",
+ "no": "491",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "耳廓狐",
+ "name_en": "Fennec fox",
+ "latin": "Vulpes zerda",
+ "short": "耳廓狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫、小动物和植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1–1.9 kg",
+   "lo": 1,
+   "hi": 1.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耳长",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 10 年",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "怀孕期",
+   "value": "50–52 天",
+   "lo": 50,
+   "hi": 52,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "散热大耳",
+   "icon": "ear",
+   "desc": "超大的耳朵能散热，还能听到地下猎物的声音。"
+  },
+  {
+   "name": "沙漠生存",
+   "icon": "fire",
+   "desc": "被毛、耳朵和肾脏都适应了又热又缺水的沙漠。"
+  }
+ ],
+ "intro": [
+  "耳廓狐是世界上最小的犬科动物之一，生活在撒哈拉沙漠。",
+  "它分布区北部年降雨量不到 100 mm。",
+  "圈养条件下能活到 14 岁。"
+ ],
+ "fact": "它的天敌包括法老雕鸮、胡狼和条纹鬣狗。",
+ "range": "北非撒哈拉沙漠到西奈半岛。",
+ "sources": [
+  "Wikipedia「Fennec fox」"
+ ],
+ "footnote": "耳长为雄性数据。"
+}

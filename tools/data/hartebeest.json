@@ -1,0 +1,79 @@
+{
+ "file": "狷羚",
+ "no": "494",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "狷羚",
+ "name_en": "Hartebeest",
+ "latin": "Alcelaphus buselaphus",
+ "short": "狷羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "略超 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "100–200 kg",
+   "lo": 100,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "45–70 cm",
+   "lo": 0.45,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "12–15 年",
+   "lo": 12,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "成群",
+   "icon": "team",
+   "desc": "常组成 20–300 头的大群。"
+  },
+  {
+   "name": "高山也能住",
+   "icon": "cold",
+   "desc": "在肯尼亚山海拔 4000 m 处也有记录。"
+  }
+ ],
+ "intro": [
+  "狷羚是一种大型羚羊，脸很长，角像竖琴。",
+  "它分布在非洲的草原和稀树草原。",
+  "它会发出轻轻的“嘎嘎”和咕噜声。"
+ ],
+ "fact": "狷羚属大约 440 万年前出现。",
+ "range": "撒哈拉以南非洲的草原。",
+ "sources": [
+  "Wikipedia「Hartebeest」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2019）"
+ ],
+ "footnote": ""
+}

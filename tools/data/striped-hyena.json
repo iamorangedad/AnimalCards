@@ -1,0 +1,78 @@
+{
+ "file": "条纹鬣狗",
+ "no": "504",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "条纹鬣狗",
+ "name_en": "Striped hyena",
+ "latin": "Hyaena hyaena",
+ "short": "条纹鬣狗",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃腐肉",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "22–55 kg",
+   "lo": 22,
+   "hi": 55,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "85–130 cm",
+   "lo": 0.85,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "60–80 cm",
+   "lo": 0.6,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "咬碎骨头",
+   "icon": "roar",
+   "desc": "咬合力大到能咬碎骆驼的大腿骨。"
+  },
+  {
+   "name": "一夫一妻",
+   "icon": "huddle",
+   "desc": "雄性和雌性一起建窝，帮忙喂养小鬣狗。"
+  }
+ ],
+ "intro": [
+  "条纹鬣狗分布在北非、中东到印度。",
+  "它主要吃腐肉，大个体也会自己捕猎。",
+  "怀孕 90–91 天，圈养可活 23 年。"
+ ],
+ "fact": "它是会咬碎骨头的鬣狗里个子最小的。",
+ "range": "北非、东非、中东、高加索到印度。",
+ "sources": [
+  "Wikipedia「Striped hyena」"
+ ],
+ "footnote": ""
+}

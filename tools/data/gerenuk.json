@@ -1,0 +1,78 @@
+{
+ "file": "长颈羚",
+ "no": "492",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "长颈羚",
+ "name_en": "Gerenuk",
+ "latin": "Litocranius walleri",
+ "short": "长颈羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树叶和嫩枝",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "80–105 cm",
+   "lo": 0.8,
+   "hi": 1.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "18–52 kg",
+   "lo": 18,
+   "hi": 52,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "25–44 cm",
+   "lo": 0.25,
+   "hi": 0.44,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "够到高度",
+   "value": "超过 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "站起来吃",
+   "icon": "climb",
+   "desc": "能用后腿直立、伸长脖子，吃到 2 m 多高的树叶。"
+  },
+  {
+   "name": "不常喝水",
+   "icon": "drop",
+   "desc": "它不需要经常喝水。"
+  }
+ ],
+ "intro": [
+  "长颈羚生活在东非之角的干旱灌丛里。",
+  "它的脖子和腿都特别细长。",
+  "只有雄性长角。"
+ ],
+ "fact": "中午最热时，它通常站在或躺在树荫下休息。",
+ "range": "东非：埃塞俄比亚、索马里、肯尼亚、坦桑尼亚。",
+ "sources": [
+  "Wikipedia「Gerenuk」"
+ ],
+ "footnote": ""
+}

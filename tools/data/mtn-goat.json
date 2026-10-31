@@ -1,0 +1,78 @@
+{
+ "file": "雪羊",
+ "no": "513",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "雪羊",
+ "name_en": "Mountain goat",
+ "latin": "Oreamnos americanus",
+ "short": "雪羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、苔藓和灌木",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "120–179 cm",
+   "lo": 1.2,
+   "hi": 1.79,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄性肩高",
+   "value": "约 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "角长",
+   "value": "15–28 cm",
+   "lo": 0.15,
+   "hi": 0.28,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−46 °C",
+   "lo": -46,
+   "hi": -46,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀岩高手",
+   "icon": "climb",
+   "desc": "能在超过 60° 的陡坡上行走，蹄子可以分开，内侧有防滑垫。"
+  },
+  {
+   "name": "厚白毛",
+   "icon": "cold",
+   "desc": "白色厚毛能抵御 −46 °C 低温和 160 km/h 的大风。"
+  }
+ ],
+ "intro": [
+  "雪羊生活在北美西部的高山上。",
+  "它其实不是真正的山羊，而是羊亚科里的独立一属。",
+  "雌雄都有胡子和黑色的角。"
+ ],
+ "fact": "雪羊是它所在高山上体型最大的哺乳动物。",
+ "range": "北美西部落基山脉、阿拉斯加到美国西北部。",
+ "sources": [
+  "Wikipedia「Mountain goat」"
+ ],
+ "footnote": ""
+}

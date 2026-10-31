@@ -1,0 +1,78 @@
+{
+ "file": "阿拉伯大羚羊",
+ "no": "498",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "阿拉伯大羚羊",
+ "name_en": "Arabian oryx",
+ "latin": "Oryx leucoryx",
+ "short": "阿拉伯大羚羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 红色名录",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "0.79–1.25 m",
+   "lo": 0.79,
+   "hi": 1.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "100–209 kg",
+   "lo": 100,
+   "hi": 209,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "0.61–1.49 m",
+   "lo": 0.61,
+   "hi": 1.49,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "纯白被毛",
+   "icon": "camo",
+   "desc": "几乎发光的白毛能反射阳光，腿是褐色的。"
+  },
+  {
+   "name": "起死回生",
+   "icon": "huddle",
+   "desc": "1970 年代初野外灭绝，靠动物园繁殖后重新放归。"
+  }
+ ],
+ "intro": [
+  "阿拉伯大羚羊生活在阿拉伯半岛的沙漠。",
+  "它也叫白羚，学名 leucoryx 就是“白色的羚羊”。",
+  "1980 年起开始被放归野外。"
+ ],
+ "fact": "2011 年，它成为第一个从“野外灭绝”降回“易危”的动物。",
+ "range": "阿拉伯半岛（阿曼、沙特、以色列等地重引入）。",
+ "sources": [
+  "Wikipedia「Arabian oryx」"
+ ],
+ "footnote": ""
+}

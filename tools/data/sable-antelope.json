@@ -1,0 +1,78 @@
+{
+ "file": "黑马羚",
+ "no": "497",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑马羚",
+ "name_en": "Sable antelope",
+ "latin": "Hippotragus niger",
+ "short": "黑马羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和树叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄性体重",
+   "value": "约 235 kg",
+   "lo": 235,
+   "hi": 235,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "肩高",
+   "value": "117–140 cm",
+   "lo": 1.17,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄角长",
+   "value": "81–165 cm",
+   "lo": 0.81,
+   "hi": 1.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 19 年",
+   "lo": 19,
+   "hi": 19,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "弯刀长角",
+   "icon": "thorn",
+   "desc": "雌雄都有向后弯的环纹长角。"
+  },
+  {
+   "name": "群体生活",
+   "icon": "team",
+   "desc": "幼年雄性约 3 岁时会被赶出群体。"
+  }
+ ],
+ "intro": [
+  "黑马羚生活在非洲东南部的稀树林地。",
+  "雄性毛色深黑，脸上有白色花纹。",
+  "圈养寿命约 22 年。"
+ ],
+ "fact": "安哥拉的大黑马羚亚种因雌雄都更大、角更长而被称为“皇家黑马羚”。",
+ "range": "非洲东南部（肯尼亚到南非）。",
+ "sources": [
+  "Wikipedia「Sable antelope」"
+ ],
+ "footnote": ""
+}

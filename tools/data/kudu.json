@@ -1,0 +1,78 @@
+{
+ "file": "大捻角羚",
+ "no": "496",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "大捻角羚",
+ "name_en": "Greater kudu",
+ "latin": "Tragelaphus strepsiceros",
+ "short": "大捻角羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃树叶和草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公体重",
+   "value": "190–270 kg",
+   "lo": 190,
+   "hi": 270,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "最高约 1.6 m",
+   "lo": 1.6,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "角长纪录",
+   "value": "187.64 cm",
+   "lo": 1.8764,
+   "hi": 1.8764,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "7–8 年",
+   "lo": 7,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "螺旋长角",
+   "icon": "trunk",
+   "desc": "公羚的角有两圈半螺旋，拉直平均约 120 cm。"
+  },
+  {
+   "name": "大圆耳",
+   "icon": "ear",
+   "desc": "耳朵又大又圆，听觉灵敏。"
+  }
+ ],
+ "intro": [
+  "大捻角羚生活在非洲东部和南部的林地。",
+  "公羚 6–12 个月大时才开始长角。",
+  "6 岁时角才长满两圈半。"
+ ],
+ "fact": "圈养的大捻角羚能活到 23 岁。",
+ "range": "非洲东部和南部。",
+ "sources": [
+  "Wikipedia「Greater kudu」"
+ ],
+ "footnote": ""
+}

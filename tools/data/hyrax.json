@@ -1,0 +1,78 @@
+{
+ "file": "南非岩蹄兔",
+ "no": "511",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "南非岩蹄兔",
+ "name_en": "Rock hyrax",
+ "latin": "Procavia capensis",
+ "short": "南非岩蹄兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和树叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "4–5 kg",
+   "lo": 4,
+   "hi": 5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "6–7 个月",
+   "lo": 6,
+   "hi": 7,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "分布海拔",
+   "value": "最高 4200 m",
+   "lo": 4200,
+   "hi": 4200,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "站岗放哨",
+   "icon": "ear",
+   "desc": "吃东西时总有同伴站在高处放哨，发现敌人就报警。"
+  },
+  {
+   "name": "大象远亲",
+   "icon": "trunk",
+   "desc": "长着像獠牙一样的门齿，和大象是远亲。"
+  }
+ ],
+ "intro": [
+  "南非岩蹄兔生活在非洲和中东有岩缝的地方。",
+  "它和大象、海牛有亲缘关系，雄性的睾丸也像大象一样长在腹腔里。",
+  "一般能活约 10 年。"
+ ],
+ "fact": "研究发现每只岩蹄兔的“歌声”都有自己独特的声音签名。",
+ "range": "非洲和中东。",
+ "sources": [
+  "Wikipedia「Rock hyrax」"
+ ],
+ "footnote": ""
+}

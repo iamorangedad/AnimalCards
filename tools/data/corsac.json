@@ -1,0 +1,78 @@
+{
+ "file": "沙狐",
+ "no": "510",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "沙狐",
+ "name_en": "Corsac fox",
+ "latin": "Vulpes corsac",
+ "short": "沙狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鼠类、昆虫和鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "45–65 cm",
+   "lo": 0.45,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "1.6–3.2 kg",
+   "lo": 1.6,
+   "hi": 3.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "52–60 天",
+   "lo": 52,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "冬季南迁",
+   "value": "最远 600 km",
+   "lo": 600,
+   "hi": 600,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐饥耐渴",
+   "icon": "drop",
+   "desc": "能长时间不吃不喝，适应干旱草原。"
+  },
+  {
+   "name": "避开深雪",
+   "icon": "cold",
+   "desc": "雪深超过约 15 cm 就没法捕猎，会躲进洞里或往南迁。"
+  }
+ ],
+ "intro": [
+  "沙狐生活在中亚和蒙古的草原、半荒漠。",
+  "被毛灰色到浅黄色，肚子颜色更浅。",
+  "每窝一般 2–6 只，最多记录过 10 只。"
+ ],
+ "fact": "新生的小沙狐只有约 60 g 重。",
+ "range": "中亚、蒙古、中国北方、俄罗斯南部。",
+ "sources": [
+  "Wikipedia「Corsac fox」"
+ ],
+ "footnote": ""
+}

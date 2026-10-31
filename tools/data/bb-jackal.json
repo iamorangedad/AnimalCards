@@ -1,0 +1,78 @@
+{
+ "file": "黑背胡狼",
+ "no": "505",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑背胡狼",
+ "name_en": "Black-backed jackal",
+ "latin": "Lupulella mesomelas",
+ "short": "黑背胡狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃小动物、腐肉和果实",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "6–13 kg",
+   "lo": 6,
+   "hi": 13,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "38–48 cm",
+   "lo": 0.38,
+   "hi": 0.48,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "67–81 cm",
+   "lo": 0.673,
+   "hi": 0.812,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "两亚种分化",
+   "value": "约 250 万年前",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "myr",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "夫妻守地盘",
+   "icon": "team",
+   "desc": "一夫一妻，用粪便和尿液标记领地。"
+  },
+  {
+   "name": "哥哥姐姐帮忙",
+   "icon": "huddle",
+   "desc": "长大的孩子会留下来帮爸妈带弟弟妹妹。"
+  }
+ ],
+ "intro": [
+  "黑背胡狼生活在非洲东部和南部。",
+  "背上有一块黑色的“马鞍”毛。",
+  "它在非洲已经生活了至少 200–300 万年。"
+ ],
+ "fact": "东部和南部的两群相隔约 900 km。",
+ "range": "东非和南部非洲。",
+ "sources": [
+  "Wikipedia「Black-backed jackal」"
+ ],
+ "footnote": ""
+}

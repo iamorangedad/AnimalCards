@@ -1,0 +1,80 @@
+{
+ "file": "转角牛羚",
+ "no": "493",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "转角牛羚",
+ "name_en": "Topi",
+ "latin": "Damaliscus lunatus jimela",
+ "short": "转角牛羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "几乎只吃草",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "雄性肩高*",
+   "value": "104–126 cm",
+   "lo": 1.04,
+   "hi": 1.26,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "90–147 kg",
+   "lo": 90,
+   "hi": 147,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长*",
+   "value": "30–40 cm",
+   "lo": 0.3,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期*",
+   "value": "约 8 个月",
+   "lo": 8,
+   "hi": 8,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "土堆哨兵",
+   "icon": "ear",
+   "desc": "雌性会站在高土堆上，给同伴发出危险警报。"
+  },
+  {
+   "name": "草原快跑",
+   "icon": "fire",
+   "desc": "是群居、跑得很快的羚羊。"
+  }
+ ],
+ "intro": [
+  "转角牛羚生活在撒哈拉以南非洲的稀树草原和泛滥平原。",
+  "被毛短而有光泽，身上有紫色的斑块。",
+  "雄性会在土堆上展示自己的领地。"
+ ],
+ "fact": "在乌干达伊沙沙，有的年份狮子的猎物里 80% 以上是转角牛羚。",
+ "range": "东非（肯尼亚、坦桑尼亚、乌干达等）。",
+ "sources": [
+  "Wikipedia「Topi」",
+  "Animal Diversity Web「Damaliscus lunatus」",
+  "IUCN 红色名录（IUCN SSC Antelope Specialist Group 2017）"
+ ],
+ "footnote": "* 为整个 Damaliscus lunatus 物种的数据（ADW）。"
+}

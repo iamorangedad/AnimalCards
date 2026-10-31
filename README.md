@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 251 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 16，鸟类 14，爬行两栖 11，昆虫 10）。
+共 265 张（宠物 50，农场 50，高原草原 50，森林 50，海洋 30，鸟类 14，爬行两栖 11，昆虫 10）。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -224,6 +224,20 @@
 | 069 | 海月水母（Moon jellyfish） | 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%9C%88%E6%B0%B4%E6%AF%8D.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%9C%88%E6%B0%B4%E6%AF%8D.pdf) |
 | 070 | 海星（Common starfish） | 海洋 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E6%98%9F.pdf) |
 | 071 | 蝠鲼（Giant oceanic manta ray） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%9D%A0%E9%B2%BC.pdf) |
+| 252 | 座头鲸（Humpback whale） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BA%A7%E5%A4%B4%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%BA%A7%E5%A4%B4%E9%B2%B8.pdf) |
+| 253 | 抹香鲸（Sperm whale） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%8A%B9%E9%A6%99%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%8A%B9%E9%A6%99%E9%B2%B8.pdf) |
+| 254 | 白鲸（Beluga whale） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%99%BD%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%99%BD%E9%B2%B8.pdf) |
+| 255 | 一角鲸（Narwhal） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%80%E8%A7%92%E9%B2%B8.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%80%E8%A7%92%E9%B2%B8.pdf) |
+| 256 | 中华白海豚（Indo-Pacific humpback dolphin） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%AD%E5%8D%8E%E7%99%BD%E6%B5%B7%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%AD%E5%8D%8E%E7%99%BD%E6%B5%B7%E8%B1%9A.pdf) |
+| 257 | 东亚江豚（East Asian finless porpoise） | 海洋 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%9C%E4%BA%9A%E6%B1%9F%E8%B1%9A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E4%B8%9C%E4%BA%9A%E6%B1%9F%E8%B1%9A.pdf) |
+| 258 | 海象（Walrus） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B5%B7%E8%B1%A1.pdf) |
+| 259 | 豹海豹（Leopard seal） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%B1%B9%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%B1%B9%E6%B5%B7%E8%B1%B9.pdf) |
+| 260 | 港海豹（Harbor seal） | 海洋 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B8%AF%E6%B5%B7%E8%B1%B9.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%B8%AF%E6%B5%B7%E8%B1%B9.pdf) |
+| 261 | 儒艮（Dugong） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%84%92%E8%89%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E5%84%92%E8%89%AE.pdf) |
+| 262 | 西印度海牛（West Indian manatee） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%A5%BF%E5%8D%B0%E5%BA%A6%E6%B5%B7%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%A5%BF%E5%8D%B0%E5%BA%A6%E6%B5%B7%E7%89%9B.pdf) |
+| 263 | 玳瑁（Hawksbill sea turtle） | 海洋 | CR 极危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%8E%B3%E7%91%81.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E7%8E%B3%E7%91%81.pdf) |
+| 264 | 蠵龟（Loggerhead sea turtle） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%A0%B5%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E8%A0%B5%E9%BE%9F.pdf) |
+| 265 | 棱皮龟（Leatherback sea turtle） | 海洋 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%A3%B1%E7%9A%AE%E9%BE%9F.png) · [PDF](%E5%8A%A8%E7%89%A9/%E6%B5%B7%E6%B4%8B/%E6%A3%B1%E7%9A%AE%E9%BE%9F.pdf) |
 | 004 | 帝企鹅（Emperor penguin） | 鸟类 | NT 近危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E5%B8%9D%E4%BC%81%E9%B9%85.pdf) |
 | 072 | 白头海雕（Bald eagle） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E7%99%BD%E5%A4%B4%E6%B5%B7%E9%9B%95.pdf) |
 | 073 | 仓鸮（Western barn owl） | 鸟类 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%B8%9F%E7%B1%BB/%E4%BB%93%E9%B8%AE.pdf) |

@@ -1,0 +1,77 @@
+{
+ "file": "西印度海牛",
+ "no": "262",
+ "cat": "海洋",
+ "name_cn": "西印度海牛",
+ "name_en": "West Indian manatee",
+ "latin": "Trichechus manatus",
+ "short": "西印度海牛",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃水生植物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.7–3.5 m",
+   "lo": 2.7,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "200–600 kg",
+   "lo": 200,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "71 岁（圈养）",
+   "lo": 71,
+   "hi": 71,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每天吃草",
+   "value": "5 小时以上",
+   "lo": 5,
+   "hi": 5,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "牙齿传送带",
+   "icon": "flip",
+   "desc": "臼齿在嘴后面不断长出，每月向前移 1–2 mm，最后脱落，所以牙齿永远用不完。"
+  },
+  {
+   "name": "怕冷",
+   "icon": "huddle",
+   "desc": "水温低于约 20 °C 时，它容易冷到生病甚至死亡。"
+  }
+ ],
+ "intro": [
+  "西印度海牛平均长 2.7–3.5 m，雌性一般比雄性大。",
+  "全身长着 3–5 cm 的毛，用来感知周围。",
+  "每天吃掉相当于体重 4–10% 的水草。"
+ ],
+ "fact": "已知最重的一头 1655 kg、长 4.6 m。",
+ "range": "美国东南部、加勒比海到南美东北部沿岸。",
+ "sources": [
+  "Wikipedia「West Indian manatee」",
+  "IUCN 红色名录（Deutsch 2024）"
+ ],
+ "footnote": ""
+}

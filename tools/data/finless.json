@@ -1,0 +1,77 @@
+{
+ "file": "东亚江豚",
+ "no": "257",
+ "cat": "海洋",
+ "name_cn": "东亚江豚",
+ "name_en": "East Asian finless porpoise",
+ "latin": "Neophocaena sunameri",
+ "short": "东亚江豚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在黄海、渤海吃鱼、虾和鱿鱼",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 2.27 m",
+   "lo": 2.27,
+   "hi": 2.27,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "30–45 kg",
+   "lo": 30,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常在水深",
+   "value": "50 m 以内",
+   "lo": 50,
+   "hi": 50,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "骨骼占体重",
+   "value": "约 5%",
+   "lo": 5,
+   "hi": 5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "没有背鳍",
+   "icon": "camo",
+   "desc": "它没有背鳍，背上只有一条长满小疙瘩的脊，疙瘩里有很多神经末梢，用来感觉。"
+  },
+  {
+   "name": "近岸生活",
+   "icon": "dive",
+   "desc": "喜欢浅水、靠近海岸、海底软的地方，或在河口和红树林里。"
+  }
+ ],
+ "intro": [
+  "东亚江豚分布在东海、黄海和日本周边海域。",
+  "长江江豚以前被当作它的亚种，现在被认为是独立的物种。",
+  "最近三代里数量下降了 50% 以上，所以是濒危物种。"
+ ],
+ "fact": "在日本水域常见两只一起，最大的群也不超过 13 只。",
+ "range": "东海、黄海、渤海、日本周边海域。",
+ "sources": [
+  "Wikipedia「East Asian finless porpoise」",
+  "IUCN 红色名录（Wang 2017）"
+ ],
+ "footnote": "学名按 Wikipedia 现行分类（待核）。"
+}

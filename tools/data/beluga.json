@@ -1,0 +1,78 @@
+{
+ "file": "白鲸",
+ "no": "254",
+ "cat": "海洋",
+ "name_cn": "白鲸",
+ "name_en": "Beluga whale",
+ "latin": "Delphinapterus leucas",
+ "short": "白鲸",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "雄体长",
+   "value": "3.5–5.5 m",
+   "lo": 3.5,
+   "hi": 5.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "可达 1600 kg",
+   "lo": 1600,
+   "hi": 1600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "可达 700 m",
+   "lo": 700,
+   "hi": 700,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "估计 70–80 年",
+   "lo": 70,
+   "hi": 80,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海中金丝雀",
+   "icon": "ear",
+   "desc": "它的叫声又高又尖，所以被称为“海中金丝雀”。"
+  },
+  {
+   "name": "会点头",
+   "icon": "flip",
+   "desc": "它的颈椎很特别，能让它转头和点头。"
+  }
+ ],
+ "intro": [
+  "白鲸生活在北极和亚北极海域。",
+  "它通体白色，而且没有背鳍，方便在冰下游泳。",
+  "小白鲸出生时是灰色的。"
+ ],
+ "fact": "早期认为白鲸很少活过 30 年，后来的研究估计它们能活 70–80 年。",
+ "range": "北冰洋及周边亚北极海域。",
+ "sources": [
+  "Wikipedia「Beluga whale」",
+  "IUCN 红色名录（Lowry 2017）"
+ ],
+ "footnote": ""
+}

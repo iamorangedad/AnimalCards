@@ -1,0 +1,78 @@
+{
+ "file": "豹海豹",
+ "no": "259",
+ "cat": "海洋",
+ "name_cn": "豹海豹",
+ "name_en": "Leopard seal",
+ "latin": "Hydrurga leptonyx",
+ "short": "豹海豹",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃磷虾、鱼、鱿鱼、企鹅和其他海豹",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.4–3.5 m",
+   "lo": 2.4,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "200–600 kg",
+   "lo": 200,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "犬齿",
+   "value": "可达 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "可达 26 年",
+   "lo": 26,
+   "hi": 26,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "顶级掠食者",
+   "icon": "roar",
+   "desc": "它有巨大的颌和 2.5 cm 长的犬齿，以捕食企鹅出名。"
+  },
+  {
+   "name": "滤磷虾",
+   "icon": "jar",
+   "desc": "后牙能像筛子一样咬合，把磷虾从水里滤出来。"
+  }
+ ],
+ "intro": [
+  "豹海豹生活在南极海域。",
+  "雌性比雄性大，最多大 50%。",
+  "它唯一的天敌是虎鲸。"
+ ],
+ "fact": "全球数量估计 22–44 万只。",
+ "range": "南极及亚南极海域。",
+ "sources": [
+  "Wikipedia「Leopard seal」",
+  "IUCN 红色名录（Hückstädt 2015）"
+ ],
+ "footnote": ""
+}

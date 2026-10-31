@@ -1,0 +1,78 @@
+{
+ "file": "一角鲸",
+ "no": "255",
+ "cat": "海洋",
+ "name_cn": "一角鲸",
+ "name_en": "Narwhal",
+ "latin": "Monodon monoceros",
+ "short": "一角鲸",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "3.0–5.5 m",
+   "lo": 3.0,
+   "hi": 5.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "800–1600 kg",
+   "lo": 800,
+   "hi": 1600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "长牙",
+   "value": "1.5–3 m",
+   "lo": 1.5,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "可达 2370 m",
+   "lo": 2370,
+   "hi": 2370,
+   "scale": "abyss",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "独角",
+   "icon": "whisker",
+   "desc": "雄性的“角”其实是向左上方伸出的螺旋形犬齿，里面有数以百万计的神经末梢，能感知温度等变化。"
+  },
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "它能潜到 2370 m 深，一次潜水可达 25 分钟。"
+  }
+ ],
+ "intro": [
+  "一角鲸生活在北极海域。",
+  "夏天它们常 10–100 头一群靠近海岸。",
+  "它有一层 50–100 mm 厚的脂肪。"
+ ],
+ "fact": "学名 Monodon monoceros 来自古希腊语，意思是“一颗牙、一只角”。",
+ "range": "北极（加拿大、格陵兰、俄罗斯北部海域）。",
+ "sources": [
+  "Wikipedia「Narwhal」",
+  "IUCN 红色名录（Lowry 2017）"
+ ],
+ "footnote": ""
+}

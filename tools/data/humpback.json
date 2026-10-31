@@ -1,0 +1,77 @@
+{
+ "file": "座头鲸",
+ "no": "252",
+ "cat": "海洋",
+ "name_cn": "座头鲸",
+ "name_en": "Humpback whale",
+ "latin": "Megaptera novaeangliae",
+ "short": "座头鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用气泡网围捕猎物（食性细节待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14–17 m",
+   "lo": 14,
+   "hi": 17,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "可达 40 吨",
+   "lo": 40000,
+   "hi": 40000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "单程迁徙",
+   "value": "可达 8000 km",
+   "lo": 8000,
+   "hi": 8000,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "唱歌",
+   "value": "4–33 分钟",
+   "lo": 4,
+   "hi": 33,
+   "scale": "min_l",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "气泡网",
+   "icon": "dive",
+   "desc": "座头鲸会吐出一圈气泡把鱼群围住再一口吞下，这被认为是一种使用工具的行为。"
+  },
+  {
+   "name": "鲸歌",
+   "icon": "ear",
+   "desc": "雄鲸会唱复杂的歌，一首 4–33 分钟，声音至少能传 10 km。"
+  }
+ ],
+ "intro": [
+  "座头鲸有很长的胸鳍，头上有许多疙瘩（结节）。",
+  "它们常跃出水面、用尾巴拍水，深受观鲸人喜爱。",
+  "刚出生的小鲸约 4.3 m 长、680 kg 重。"
+ ],
+ "fact": "雌鲸通常比雄鲸长 1–1.5 m。",
+ "range": "全球各大洋。",
+ "sources": [
+  "Wikipedia「Humpback whale」",
+  "IUCN 红色名录（Cooke 2018）"
+ ],
+ "footnote": ""
+}

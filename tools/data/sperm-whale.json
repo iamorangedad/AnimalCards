@@ -1,0 +1,77 @@
+{
+ "file": "抹香鲸",
+ "no": "253",
+ "cat": "海洋",
+ "name_cn": "抹香鲸",
+ "name_en": "Sperm whale",
+ "latin": "Physeter macrocephalus",
+ "short": "抹香鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱿鱼（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "成年雄长",
+   "value": "平均 16 m",
+   "lo": 16,
+   "hi": 16,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "下潜",
+   "value": "可达 2250 m",
+   "lo": 2250,
+   "hi": 2250,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "憋气",
+   "value": "可达 120 分钟",
+   "lo": 120,
+   "hi": 120,
+   "scale": "min_l",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "70 年以上",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的脑",
+   "icon": "ear",
+   "desc": "它拥有地球上最大的脑，比人脑重五倍多。"
+  },
+  {
+   "name": "最响的声音",
+   "icon": "roar",
+   "desc": "它发出的咔嗒声可达 236 分贝，是所有动物中最响的。"
+  }
+ ],
+ "intro": [
+  "抹香鲸是最大的齿鲸，头部可占身体长度的三分之一。",
+  "它能潜到 2250 m 深，是第三深潜的哺乳动物。",
+  "成年雄鲸通常比雌鲸长 30–50%，重约三倍。"
+ ],
+ "fact": "解剖时在某些抹香鲸胃里发现了多达 18000 个鱿鱼的喙。",
+ "range": "全球各大洋的深水区。",
+ "sources": [
+  "Wikipedia「Sperm whale」",
+  "IUCN 红色名录（Taylor 2025）"
+ ],
+ "footnote": ""
+}

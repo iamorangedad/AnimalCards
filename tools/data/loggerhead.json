@@ -1,0 +1,77 @@
+{
+ "file": "蠵龟",
+ "no": "264",
+ "cat": "海洋",
+ "name_cn": "蠵龟",
+ "name_en": "Loggerhead sea turtle",
+ "latin": "Caretta caretta",
+ "short": "蠵龟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃海底的无脊椎动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "80–200 kg",
+   "lo": 80,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "甲长",
+   "value": "70–95 cm",
+   "lo": 0.7,
+   "hi": 0.95,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "47–67 年",
+   "lo": 47,
+   "hi": 67,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "横渡太平洋",
+   "value": "14500 km",
+   "lo": 14500,
+   "hi": 14500,
+   "scale": "km_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "远航",
+   "icon": "dive",
+   "desc": "1996 年一只叫 Adelita 的雌龟带着卫星追踪器，从墨西哥横渡太平洋游了 14500 km。"
+  },
+  {
+   "name": "大头",
+   "icon": "roar",
+   "desc": "英文名 loggerhead 指它的大脑袋；又大又有力的颌能咬碎猎物。"
+  }
+ ],
+ "intro": [
+  "蠵龟分布在大西洋、太平洋、印度洋和地中海。",
+  "17–33 年才性成熟。",
+  "日本屋久岛是最重要的产卵地之一。"
+ ],
+ "fact": "美洲沿岸的蠵龟约 95% 是在日本孵化的。",
+ "range": "全球温带和热带海域。",
+ "sources": [
+  "Wikipedia「Loggerhead sea turtle」",
+  "IUCN 红色名录（Casale 2017）"
+ ],
+ "footnote": ""
+}

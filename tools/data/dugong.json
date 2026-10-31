@@ -1,0 +1,77 @@
+{
+ "file": "儒艮",
+ "no": "261",
+ "cat": "海洋",
+ "name_cn": "儒艮",
+ "name_en": "Dugong",
+ "latin": "Dugong dugon",
+ "short": "儒艮",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "主要依赖海草",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "很少超过 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大纪录",
+   "value": "1016 kg",
+   "lo": 1016,
+   "hi": 1016,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "70 年以上",
+   "lo": 70,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "憋气",
+   "value": "可达 6 分钟",
+   "lo": 6,
+   "hi": 6,
+   "scale": "min",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃海草",
+   "icon": "bamboo",
+   "desc": "它的吻部向下弯，适合在海底啃海草。"
+  },
+  {
+   "name": "海牛家族",
+   "icon": "team",
+   "desc": "它是海牛目的一员，近亲大海牛在 18 世纪被人类捕杀灭绝。"
+  }
+ ],
+ "intro": [
+  "儒艮分布在印度洋到西太平洋的温暖海岸。",
+  "它的鳍肢没有指甲，只占身体长度的 15%。",
+  "寿命长、繁殖慢，所以特别容易灭绝。"
+ ],
+ "fact": "1986 和 1999 年在波斯湾的调查中，卡塔尔西边见到过 600 多头的大群。",
+ "range": "印度洋—西太平洋的热带、亚热带海岸。",
+ "sources": [
+  "Wikipedia「Dugong」",
+  "IUCN 红色名录（Marsh 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "港海豹",
+ "no": "260",
+ "cat": "海洋",
+ "name_cn": "港海豹",
+ "name_en": "Harbor seal",
+ "latin": "Phoca vitulina",
+ "short": "港海豹",
+ "type": "水中",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "可达 1.85 m",
+   "lo": 1.85,
+   "hi": 1.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "55–168 kg",
+   "lo": 55,
+   "hi": 168,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌性寿命",
+   "value": "30–35 年",
+   "lo": 30,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "超过 500 m",
+   "lo": 500,
+   "hi": 500,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天生会游",
+   "icon": "dive",
+   "desc": "小海豹出生几小时就能游泳和潜水。"
+  },
+  {
+   "name": "岸上休息",
+   "icon": "huddle",
+   "desc": "常在岸上休息；建议人们离它们至少 50 m，以免母海豹抛下幼崽。"
+  }
+ ],
+ "intro": [
+  "港海豹是分布最广的鳍足动物。",
+  "雌性比雄性长寿（30–35 年对 20–25 年）。",
+  "小海豹最重可达 16 kg。"
+ ],
+ "fact": "它们会被虎鲸和大白鲨捕食。",
+ "range": "北大西洋和北太平洋沿岸。",
+ "sources": [
+  "Wikipedia「Harbor seal」",
+  "IUCN 红色名录（Lowry 2016）"
+ ],
+ "footnote": ""
+}

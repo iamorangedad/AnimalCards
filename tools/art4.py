@@ -491,3 +491,50 @@ def _ffox(w, h):
     o += P("M-20 -84 l-6 -16 l14 8 M20 -84 l6 -16 l-14 8", "#3a3533", 2.4)
     return scene("forest", w, h, b + o, box=(w / 2, h * .66, 360, 360))
 ART4["flying-fox"] = _ffox
+# ---------------- ocean (phase 3)
+def _ceta(F, L, H, belly=None, dorsal=True, tall=False, extras="", fin=None, kind="sea", box=None, pre="", post=""):
+    f = pre + fish(F=F, L=L, H=H, tail="fluke", belly=belly, cetacean=True, eye_r=5, mouth=False, fin_col=fin or darker(F), dorsal=dorsal, tall_dorsal=tall, extras=extras) + post
+    return lambda w, h: scene(kind, w, h, f, box=box or (w / 2, h * .58, 640, 300))
+_hb_fin = P("M-120 30 C-90 110 -40 170 10 190 C-10 140 -50 80 -80 30 Z", "#3d4a58", 2.6) + "".join(C(-200 + i * 22, -30 - (i % 2) * 8, 4, "#9aa7b4", 0) for i in range(4))
+ART4["humpback"] = _ceta("#3d4a58", 520, 130, belly="#dfe5eb", extras=_hb_fin + "".join(P(f"M{-250+i*16} {20+i} L{-120+i*10} {30+i}", sw=1.6, col="#9aa7b4") for i in range(4)), box=None)
+_sp_head = P("M-280 -40 C-300 -60 -300 40 -270 50 L-150 50 L-150 -60 Z", "#5a5a60", 2.8)
+ART4["sperm-whale"] = _ceta("#5a5a60", 520, 140, dorsal=False, pre="", post=P("M-270 -60 C-290 -50 -292 30 -270 54", sw=3) + P("M-250 48 l120 -4", sw=3) + "".join(P(f"M{-60+i*40} -66 l14 -8 l14 8", sw=2.4) for i in range(4)), extras=P("M-260 -60 L-60 -66", sw=0))
+ART4["beluga"] = _ceta("#f4f6f8", 380, 130, belly="#ffffff", dorsal=False, kind="ice" , box=None,
+                       post=P("M-196 -20 C-200 -60 -160 -80 -130 -64", "#f4f6f8", 2.6), fin="#e4e8ec")
+ART4["narwhal"] = _ceta("#8a96a2", 400, 120, belly="#e6ebf0", dorsal=False, kind="ice",
+                        extras="".join(C(-120 + (i * 37) % 280, -40 + (i * 23) % 50, 6, "#4a5560", 0) for i in range(16)),
+                        post=P("M-200 -6 L-420 -40", sw=10, col=INK) + P("M-200 -6 L-420 -40", sw=6, col="#f4ecd8") + "".join(P(f"M{-240-i*30} {-12-i*4.6:.0f} l6 -8", sw=1.6) for i in range(6)),
+                        box=(480, 0, 0, 0))
+ART4["narwhal"] = (lambda base: (lambda w, h: scene("ice", w, h, fish(F="#8a96a2", L=360, H=110, tail="fluke", belly="#e6ebf0", cetacean=True, eye_r=5, mouth=False, dorsal=False,
+                   extras="".join(C(-100 + (i * 37) % 250, -36 + (i * 23) % 46, 6, "#4a5560", 0) for i in range(16))) + P("M-180 -6 L-380 -40", sw=10, col=INK) + P("M-180 -6 L-380 -40", sw=6, col="#f4ecd8"),
+                   box=(w / 2, h * .62, 640, 280))))(None)
+ART4["cn-white-dolphin"] = (lambda w, h: scene("sea", w, h, P("M-200 -12 C-230 -10 -244 2 -240 10 C-220 12 -200 14 -194 12 Z", "#f2b8b8", 2.8) +
+                            fish(F="#f2c4c4", L=380, H=110, tail="fluke", belly="#fbe4e4", cetacean=True, eye_r=6, mouth=False, fin_col="#e8a8a8") + P("M-214 -60 q30 -40 70 -10", sw=0), box=(w / 2, h * .58, 600, 300)))
+ART4["finless"] = _ceta("#8a96a2", 320, 110, belly="#c9d2db", dorsal=False, box=None, post=P("M20 -54 L160 -40", sw=2, col="#5a6570"))
+def _walrus(w, h):
+    a = pinniped("#b98a6a", L=320, up=1.0)
+    hx, hy = -320 / 2 - 10, -90 - 120
+    a += P(f"M{hx-44} {hy+20} L{hx-50} {hy+110}", sw=12, col=INK) + P(f"M{hx-44} {hy+20} L{hx-50} {hy+110}", sw=7, col="#f6eedc")
+    a += P(f"M{hx-24} {hy+22} L{hx-24} {hy+112}", sw=12, col=INK) + P(f"M{hx-24} {hy+22} L{hx-24} {hy+112}", sw=7, col="#f6eedc")
+    a += "".join(C(hx - 60 + i * 9, hy + 14 + (i % 2) * 6, 2, INK, 0) for i in range(6))
+    return scene("ice", w, h, a, box=(w / 2, h * .7, 560, 360))
+ART4["walrus"] = _walrus
+ART4["leopard-seal"] = lambda w, h: scene("ice", w, h, pinniped("#7d8792", L=360, up=0.0, spots="#3a424a", belly="#c9d0d8"), box=(w / 2, h * .72, 600, 260))
+ART4["harbor-seal"] = lambda w, h: coast(w, h, pinniped("#9aa0a6", L=280, up=0.3, spots="#5a636d"), (w / 2, h * .66, 520, 300))
+def _sirenian(F, tail):
+    o = P("M-200 -30 C-200 -110 160 -120 200 -40 C210 -20 200 0 180 6 C80 20 -120 20 -190 0 Z", F, 3)
+    if tail == "fluke":
+        o += P("M190 -30 L280 -80 Q250 -20 280 30 Z", F, 2.8)
+    else:
+        o += E(250, -20, 70, 50, F, 2.8)
+    o += P("M-180 -20 C-240 -20 -250 20 -230 40 C-200 40 -180 20 -170 6 Z", darker(F, .9), 2.8)
+    o += P("M-100 0 C-110 50 -80 70 -60 60 C-70 40 -70 20 -60 6 Z", darker(F, .9), 2.6) + C(-150, -40, 4, INK, 0)
+    o += "".join(C(-236 + (i % 3) * 8, 10 + (i // 3) * 8, 1.6, INK, 0) for i in range(6))
+    grass = "".join(P(f"M{x} 90 C{x-10} 50 {x+10} 20 {x} -10", sw=8, col=INK) + P(f"M{x} 90 C{x-10} 50 {x+10} 20 {x} -10", sw=4, col=SAGE_L) for x in (-260, -220, 120, 160, 210))
+    return G_(o, 0, -40) + grass
+ART4["dugong"] = lambda w, h: scene("sea", w, h, _sirenian("#a89a8c", "fluke"), box=(w / 2, h * .7, 620, 300))
+ART4["manatee"] = lambda w, h: scene("sea", w, h, _sirenian("#8a8a84", "paddle"), box=(w / 2, h * .7, 620, 300))
+ART4["hawksbill"] = lambda w, h: scene("sea", w, h, turtle(shell="#8a5a2a", skin="#d9b88a", sea=True, scute="#e0a050", plastron="#f3e3a6"), box=(w / 2, h * .56, 520, 280))
+ART4["loggerhead"] = lambda w, h: scene("sea", w, h, turtle(shell="#a8643a", skin="#d9a070", sea=True, scute="#c98050", plastron="#f3e3a6", neck=60), box=(w / 2, h * .56, 520, 280))
+ART4["leatherback"] = lambda w, h: scene("deep", w, h, turtle(shell="#3a3f45", skin="#5a6068", L=360, sea=True, scute="#3a3f45", plastron="#c9ccd0") +
+                                         "".join(P(f"M{-120+i*60} -100 L{-110+i*60} -30", sw=2.4, col="#9aa0a6") for i in range(5)) + "".join(C(-120 + (i * 41) % 240, -70 + (i * 13) % 40, 3, "#ffffff", 0) for i in range(10)), box=(w / 2, h * .62, 560, 280))

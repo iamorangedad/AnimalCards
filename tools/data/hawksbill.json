@@ -1,0 +1,77 @@
+{
+ "file": "玳瑁",
+ "no": "263",
+ "cat": "海洋",
+ "name_cn": "玳瑁",
+ "name_en": "Hawksbill sea turtle",
+ "latin": "Eretmochelys imbricata",
+ "short": "玳瑁",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃海绵（占 70–95%）",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2008"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "平均约 80 kg",
+   "lo": 80,
+   "hi": 80,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "甲长",
+   "value": "可近 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "约 140 个",
+   "lo": 140,
+   "hi": 140,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "性成熟",
+   "value": "23–36 年",
+   "lo": 23,
+   "hi": 36,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鹰嘴",
+   "icon": "roar",
+   "desc": "头部尖长，嘴像鹰嘴一样又尖又弯，英文名就由此而来。"
+  },
+  {
+   "name": "吃海绵",
+   "icon": "jar",
+   "desc": "海绵占它食物的 70–95%，它喜欢待在珊瑚礁附近。"
+  }
+ ],
+ "intro": [
+  "玳瑁是极危的海龟。",
+  "它的龟甲曾是“玳瑁壳”装饰品的主要原料。",
+  "小海龟刚孵出时不到 24 g，甲长约 2.5 cm。"
+ ],
+ "fact": "已知最重的玳瑁 127 kg。",
+ "range": "热带大西洋、印度洋和太平洋的珊瑚礁。",
+ "sources": [
+  "Wikipedia「Hawksbill sea turtle」",
+  "IUCN 红色名录（Mortimer 2008）"
+ ],
+ "footnote": "IUCN 评估年代较早（2008 年）。"
+}

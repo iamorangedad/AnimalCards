@@ -1,0 +1,77 @@
+{
+ "file": "棱皮龟",
+ "no": "265",
+ "cat": "海洋",
+ "name_cn": "棱皮龟",
+ "name_en": "Leatherback sea turtle",
+ "latin": "Dermochelys coriacea",
+ "short": "棱皮龟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2013"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "250–700 kg",
+   "lo": 250,
+   "hi": 700,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "1.83–2.2 m",
+   "lo": 1.83,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "可达 1280 m",
+   "lo": 1280,
+   "hi": 1280,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "前鳍展",
+   "value": "可达 2.7 m",
+   "lo": 2.7,
+   "hi": 2.7,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮革背",
+   "icon": "camo",
+   "desc": "不像其他海龟有硬甲，它的背是软的皮革状，背上有七条棱。"
+  },
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "它是潜得最深的海洋动物之一，纪录 1280 m。"
+  }
+ ],
+ "intro": [
+  "棱皮龟是最大的龟，也是最重的非鳄类爬行动物。",
+  "刚孵出的小龟只有约 46 g，甲长约 6 cm。",
+  "它有很多适应冷水的特点，比如褐色脂肪。"
+ ],
+ "fact": "已证实最大的一只发现于巴基斯坦海滩，重 650 kg。",
+ "range": "全球各大洋（热带到亚北极）。",
+ "sources": [
+  "Wikipedia「Leatherback sea turtle」",
+  "IUCN 红色名录（Wallace 2013）"
+ ],
+ "footnote": ""
+}

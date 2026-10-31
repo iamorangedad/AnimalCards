@@ -1,0 +1,77 @@
+{
+ "file": "中华白海豚",
+ "no": "256",
+ "cat": "海洋",
+ "name_cn": "中华白海豚",
+ "name_en": "Indo-Pacific humpback dolphin",
+ "latin": "Sousa chinensis",
+ "short": "中华白海豚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2–3.5 m",
+   "lo": 2,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "150–230 kg",
+   "lo": 150,
+   "hi": 230,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "常在水深",
+   "value": "小于 5 m",
+   "lo": 5,
+   "hi": 5,
+   "scale": "depth",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "粉红色",
+   "icon": "camo",
+   "desc": "中国沿海的白海豚是粉红色的，这不是色素，而是皮下发达的血管造成的。"
+  },
+  {
+   "name": "大眼睛",
+   "icon": "ear",
+   "desc": "一对凸出的眼睛让它在空气和水里都能看清。"
+  }
+ ],
+ "intro": [
+  "中华白海豚就是印太驼背豚。",
+  "小海豚出生时是深灰或黑色，约 1 m 长。",
+  "母海豚陪伴孩子 3–4 年，直到它能自己找食。"
+ ],
+ "fact": "香港的白海豚从 2003 年的 158 只减少到 2012 年的 78 只（2013 年报道）。",
+ "range": "印度洋东部到西太平洋沿岸（包括中国东南沿海）。",
+ "sources": [
+  "Wikipedia「Indo-Pacific humpback dolphin」",
+  "IUCN 红色名录（Jefferson 2017）"
+ ],
+ "footnote": ""
+}

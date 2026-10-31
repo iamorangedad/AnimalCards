@@ -1,0 +1,78 @@
+{
+ "file": "海象",
+ "no": "258",
+ "cat": "海洋",
+ "name_cn": "海象",
+ "name_en": "Walrus",
+ "latin": "Odobenus rosmarus",
+ "short": "海象",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "太平洋雄",
+   "value": "可超过 2000 kg",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "2.2–3.5 m",
+   "lo": 2.2,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "长牙",
+   "value": "可达 1 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "胡须",
+   "value": "400–700 根",
+   "lo": 400,
+   "hi": 700,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长牙",
+   "icon": "climb",
+   "desc": "雌雄都有长牙，长达 1 m、重 5.4 kg，用来打架、在冰上凿洞和把自己拉上冰面。"
+  },
+  {
+   "name": "灵敏胡须",
+   "icon": "whisker",
+   "desc": "胡须连着肌肉、血管和神经，能分辨 3 mm 宽的形状。"
+  }
+ ],
+ "intro": [
+  "海象主要生活在北极地区。",
+  "大西洋亚种比太平洋亚种轻 10–20%。",
+  "刚出生的小海象就有 33–85 kg 重。"
+ ],
+ "fact": "雌海象的体重约是雄海象的三分之二。",
+ "range": "北冰洋及周边亚北极海域。",
+ "sources": [
+  "Wikipedia「Walrus」",
+  "IUCN 红色名录（Lowry 2016）"
+ ],
+ "footnote": "胡须条超出 0–400 刻度时显示到满格。"
+}

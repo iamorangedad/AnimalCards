@@ -1,0 +1,78 @@
+{
+ "file": "杜洛克猪",
+ "no": "451",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "杜洛克猪",
+ "name_en": "Duroc pig",
+ "latin": "Sus domesticus（品种）",
+ "short": "杜洛克猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "全球数量",
+   "value": "超 250 万头",
+   "lo": 2500000.0,
+   "hi": 2500000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "报告国家",
+   "value": "108 个",
+   "lo": 108,
+   "hi": 108,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "有数据国家",
+   "value": "32 个",
+   "lo": 32,
+   "hi": 32,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "大存栏国",
+   "value": "3 个",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红棕被毛",
+   "icon": "camo",
+   "desc": "毛色从金黄到深红棕都有。"
+  },
+  {
+   "name": "杂交父本",
+   "icon": "team",
+   "desc": "常用作杂交猪的父系，帮助后代长得快。"
+  }
+ ],
+ "intro": [
+  "【品种】杜洛克猪是美国的肉用猪品种。",
+  "现代杜洛克大约在 1850 年由泽西红猪和纽约杜洛克猪杂交形成。",
+  "它体格大、肌肉多，耳朵半垂。"
+ ],
+ "fact": "2012 年，科学家用一头杜洛克母猪的克隆体测出了完整的猪基因组。",
+ "range": "原产美国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Duroc pig」"
+ ],
+ "footnote": "这是猪的一个品种；数量为 2026 年 DAD-IS 报告。超 10 万头的是阿根廷、中国、乌干达。"
+}

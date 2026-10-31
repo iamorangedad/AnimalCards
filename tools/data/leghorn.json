@@ -1,0 +1,78 @@
+{
+ "file": "来航鸡",
+ "no": "455",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "来航鸡",
+ "name_en": "Leghorn chicken",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "来航鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸡体重",
+   "value": "2.4–3.4 kg",
+   "lo": 2.4,
+   "hi": 3.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母鸡体重",
+   "value": "2.0–2.5 kg",
+   "lo": 2.0,
+   "hi": 2.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "年产蛋",
+   "value": "平均 280 枚",
+   "lo": 280,
+   "hi": 280,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "蛋重",
+   "value": "至少 55 g",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "产蛋冠军",
+   "icon": "food",
+   "desc": "白来航鸡是世界上最常用的产蛋鸡之一，蛋是白色的。"
+  },
+  {
+   "name": "轻巧活泼",
+   "icon": "fire",
+   "desc": "个子轻、很活泼，会飞上低处。"
+  }
+ ],
+ "intro": [
+  "【品种】来航鸡来自意大利托斯卡纳。",
+  "名字来自港口利沃诺的英文旧名 Leghorn。",
+  "最早出口到北美时被叫作“意大利鸡”。"
+ ],
+ "fact": "高产的来航鸡一年有时能下 300–320 个蛋。",
+ "range": "原产意大利；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Leghorn chicken」"
+ ],
+ "footnote": "这是鸡的一个品种。"
+}

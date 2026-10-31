@@ -1,0 +1,79 @@
+{
+ "file": "大白猪",
+ "no": "453",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "大白猪",
+ "name_en": "Large White pig",
+ "latin": "Sus domesticus（品种）",
+ "short": "大白猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猪体重",
+   "value": "300–500 kg",
+   "lo": 300,
+   "hi": 500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猪体重",
+   "value": "200–350 kg",
+   "lo": 200,
+   "hi": 350,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每胎产仔",
+   "value": "10–20 头",
+   "lo": 10,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "3 年出口",
+   "value": "超 8500 头",
+   "lo": 8500,
+   "hi": 8500,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高产",
+   "icon": "huddle",
+   "desc": "母猪一胎能生很多，奶水也多。"
+  },
+  {
+   "name": "杂交主力",
+   "icon": "team",
+   "desc": "是数量最多的猪品种之一，广泛用于集约化养殖的杂交。"
+  }
+ ],
+ "intro": [
+  "【品种】大白猪来自英国约克郡，也叫约克夏猪。",
+  "1868 年被承认为品种，1884 年建立了种猪登记簿。",
+  "它全身白色，耳朵直立。"
+ ],
+ "fact": "19 世纪时，约克郡的猪和中国猪杂交，分出了大白、中白和小白三种。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Large White pig」",
+  "维基百科「大白猪」"
+ ],
+ "footnote": "这是猪的一个品种；体重、产仔数和出口数（1970 年代初 3 年）来自中文维基。"
+}

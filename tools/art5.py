@@ -583,3 +583,60 @@ def _hermit(w, h):
     o += P("M-30 -40 L-50 -110 M-20 -40 L-30 -116", sw=3) + C(-50, -114, 6, INK, 0) + C(-30, -120, 6, INK, 0)
     return scene("meadow", w, h, shell + o, box=(w / 2, h * .76, 440, 260))
 ART5["hermit-crab"] = _hermit
+
+# ---- batch p4farm1 ----
+from art2 import bird, blob, rock
+def COW(F, kind="farm", horns=None, snout_col=None, udder=None, **kw):
+    a = dict(F=F, bl=330, bd=140, lh=140, lw=34, neck=(20, 60), nw=90, head=(52, 50), snout=(44, 40), snout_col=snout_col or F, nose="#5a4a44",
+             ears="side", horns=horns, tail="tuft", tail_col=darker(F, .7), hooves=INK, udder=udder)
+    a.update(kw); return Q(kind, (.76, 600, 380), **a)
+ART5["angus"] = COW("#2a2a2e", snout_col="#3a3a3e")
+ART5["jersey"] = COW("#c98a4a", horns="cow", snout_col="#f2e6d6", udder="#f2c9b8", bl=300, lh=130, belly="#e6c09a")
+ART5["wagyu"] = COW("#2e2a2a", horns="cow", snout_col="#3a3434")
+ART5["simmental"] = COW("#c9783a", horns="cow", pattern="patches", pat_col="#fbf8f2", snout_col="#fbf8f2")
+ART5["charolais"] = COW("#f2e8d6", horns="cow", snout_col="#f6d8c8", bl=350, bd=160)
+def PIG(F, **kw):
+    a = dict(F=F, bl=300, bd=150, lh=80, lw=36, neck=(0, 0), head=(64, 58), snout=(34, 40), snout_col=darker(F, .9), nose=None, ears="point", tail="curl", hooves=darker(F, .7), pig=True)
+    a.update(kw); return Q("farm", (.75, 560, 340), **a)
+ART5["duroc"] = PIG("#b8643a")
+ART5["berkshire"] = PIG("#2e2a2e", snout_col="#f2f2ee", hooves="#f2f2ee")
+ART5["large-white"] = PIG("#f8ece6", bl=330)
+ART5["meishan"] = PIG("#3a3438", ears="side", hooves="#f2f2ee", extras="".join(P(f"M{60+i*8} {-150-i*6} q10 6 20 0", sw=2.4, col="#8a8288") for i in range(4)))
+def HEN(F, wing=None, tail_col=None, kind="farm", **kw):
+    a = dict(F=F, wing=wing or darker(F, .9), rx=80, ry=66, tilt=-12, neck=20, nw=46, hr=32, beak="cone", beak_col=YEL, leg_len=60, leg_col=YEL, legw=6,
+             tail="up", tail_col=tail_col or F, crest="comb", wattle=True)
+    a.update(kw)
+    return lambda w, h: scene(kind, w, h, bird(**a), box=(w / 2, h * .76, 420, 380))
+ART5["leghorn"] = HEN("#ffffff", wing="#f1ebe0")
+def _silkie(w, h):
+    b = bird(F="#fbfaf6", wing="#efece4", rx=86, ry=72, tilt=-6, neck=10, nw=60, hr=40, beak="cone", beak_col="#6a7a9a", leg_len=40, leg_col="#6a7a9a", legw=6, tail="up", tail_col="#fbfaf6", crest="comb")
+    fluff = "".join(C(-60 + (i * 37) % 140, -150 + (i * 23) % 80, 16, "#fbfaf6", 0) for i in range(10))
+    return scene("farm", w, h, b + fluff, box=(w / 2, h * .76, 400, 360))
+ART5["silkie"] = _silkie
+ART5["rir"] = HEN("#9a3a22", wing="#7a2a1a", tail_col="#2a2a2e")
+ART5["brahma"] = HEN("#f6f4ee", wing="#e6e2d8", tail_col="#2a2a2e", rx=96, ry=76, leg_col="#f2d27a",
+                     front="".join(P(f"M{-20+i*14} -30 l-6 24", sw=5, col="#f6f4ee") for i in range(4)))
+ART5["pekin"] = lambda w, h: scene("pond", w, h, bird(F="#fffdf6", wing="#f3efe2", rx=96, ry=58, tilt=-26, neck=30, nw=42, hr=34, beak="duck", beak_col="#f29a2a", leg_len=40, leg_col="#f29a2a", legw=6, tail="up", tail_col="#fffdf6", webbed=True), box=(w / 2 - 30, h * .76, 460, 340))
+ART5["runner"] = lambda w, h: scene("wetland", w, h, bird(F="#c9a87a", wing="#a8885a", rx=46, ry=96, tilt=-6, neck=60, nw=30, hr=28, beak="duck", beak_col="#4a5a3a", leg_len=30, leg_col="#e8902a", legw=6, tail="short", tail_col="#a8885a", webbed=True, belly="#e9d8b8"), box=(w / 2, h * .76, 300, 420))
+def SHEEP(face, wool="#fbfaf6", **kw):
+    a = dict(F=face, bl=280, bd=140, lh=100, lw=24, wool=wool, neck=(10, 60), nw=70, head=(44, 46), snout=(30, 32), ears="side", tail="short", tail_col=wool, nose=None, farleg=darker(face, .8))
+    a.update(kw); return Q("farm", (.75, 560, 360), **a)
+ART5["suffolk"] = SHEEP("#2a2a2e")
+ART5["dorper"] = lambda w, h: scene("savanna", w, h, quad(F="#f6f2ea", bl=290, bd=140, lh=100, lw=26, neck=(10, 60), nw=70, head=(44, 46), snout=(30, 32), ears="side", tail="short", nose=None,
+                                    extras="", front_extras="", mask="#2a2a2e"), box=(w / 2, h * .75, 560, 360))
+def GOAT(F, kind="farm", **kw):
+    a = dict(F=F, bl=260, bd=110, lh=130, lw=24, neck=(40, 26), nw=60, head=(42, 40), snout=(38, 30), ears="side", horns="goat", tail="short", hooves="#5a5048", beard=darker(F, .9))
+    a.update(kw); return Q(kind, **a)
+ART5["boer"] = GOAT("#fbf8f2", ears="long", mask="#a8502a", bl=290, bd=130)
+ART5["saanen"] = GOAT("#fbfaf6", horns=None, udder="#f6c9c0")
+ART5["angora-goat"] = GOAT("#f6f2ea", wool="#fbf8f0", kind="plateau")
+ART5["cashmere"] = GOAT("#f2ece2", kind="plateau", horns="goat", wool="#f6f0e6")
+ART5["angora-rabbit"] = lambda w, h: scene("home", w, h, blob(F="#fbfaf6", L=260, H=200, belly="#ffffff", ears="round", tail="puff", nose="#f2a0a0", whisk=False) +
+                                           "".join(C(-100 + (i * 41) % 220, -170 + (i * 29) % 120, 22, "#fbfaf6", 0) for i in range(12)), box=(w / 2, h * .74, 460, 340))
+ART5["nz-rabbit"] = lambda w, h: scene("farm", w, h, blob(F="#fbfaf6", L=250, H=170, belly="#ffffff", ears="long", tail="puff", nose="#f2a0a0", whisk=True), box=(w / 2, h * .74, 460, 320))
+def HORSE(F, kind="farm", **kw):
+    a = dict(F=F, bl=320, bd=130, lh=170, lw=30, neck=(90, 32), nw=70, head=(46, 40), snout=(66, 42), snout_col=F, ears="point", mane="horse", tail="horse", tail_col=darker(F, .6), hooves="#3a3f45")
+    a.update(kw); return Q(kind, **a)
+ART5["shire"] = HORSE("#2a2a2e", bl=360, bd=160, lh=180, lw=40, snout_col="#f6f2ea",
+                      front_extras="".join(P(f"M{x} -40 q-8 20 0 36 h30 q8 -16 0 -36", "#f6f2ea", 2.4) for x in (-170, 130)))
+ART5["arabian"] = HORSE("#b8b8bc", kind="desert", tail_col="#e6e6e8")

@@ -1,0 +1,78 @@
+{
+ "file": "绒山羊",
+ "no": "466",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "绒山羊",
+ "name_en": "Cashmere goat",
+ "latin": "Capra hircus（类型）",
+ "short": "绒山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "绒细度",
+   "value": "12–13 µm",
+   "lo": 12,
+   "hi": 13,
+   "scale": "um",
+   "approx": false
+  },
+  {
+   "label": "母羊产绒",
+   "value": "平均 115 g",
+   "lo": 0.115,
+   "hi": 0.115,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "辽宁母羊",
+   "value": "326 g",
+   "lo": 0.326,
+   "hi": 0.326,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "中国山羊",
+   "value": "约 1.23 亿只",
+   "lo": 123000000.0,
+   "hi": 123000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬季底绒",
+   "icon": "cold",
+   "desc": "冬天在粗毛下面长出又细又软的底绒，就是羊绒。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "很多绒山羊生活在寒冷的高原和草原。"
+  }
+ ],
+ "intro": [
+  "【品种】绒山羊指能产出商品级羊绒的山羊。",
+  "名字来自喜马拉雅地区的克什米尔。",
+  "中国是最大的羊绒产地。"
+ ],
+ "fact": "1994 年西藏高原地区有 700 多万只高原和河谷山羊。",
+ "range": "起源于克什米尔；中国、蒙古、伊朗等地大量饲养。",
+ "sources": [
+  "Wikipedia「Cashmere goat」"
+ ],
+ "footnote": "绒山羊是一类山羊而非单一品种；细度为内蒙古优质品系数据；中国山羊数为 1994 年。"
+}

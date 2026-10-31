@@ -1,0 +1,79 @@
+{
+ "file": "印度跑鸭",
+ "no": "460",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "印度跑鸭",
+ "name_en": "Indian Runner duck",
+ "latin": "Anas platyrhynchos（品种）",
+ "short": "印度跑鸭",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃虫子、螺和草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸭体重",
+   "value": "1.6–2.3 kg",
+   "lo": 1.6,
+   "hi": 2.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母鸭体重",
+   "value": "1.4–2.0 kg",
+   "lo": 1.4,
+   "hi": 2.0,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "站立高度",
+   "value": "50–76 cm",
+   "lo": 0.5,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年产蛋",
+   "value": "约 174 枚",
+   "lo": 173.74,
+   "hi": 173.74,
+   "scale": "n400",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "站着跑",
+   "icon": "fire",
+   "desc": "像企鹅一样直立，不摇摆、也不飞，而是跑。"
+  },
+  {
+   "name": "稻鸭共养",
+   "icon": "food",
+   "desc": "可以在稻田里一边养鸭一边种稻，鸭粪还能肥田。"
+  }
+ ],
+ "intro": [
+  "【品种】印度跑鸭其实是在印尼的龙目岛、爪哇和巴厘岛培育的。",
+  "17 世纪荷兰画家的画里就能看到它的毛色。",
+  "它的蛋是绿蓝色的。"
+ ],
+ "fact": "有人声称它一年能下 300 个蛋，但实测平均约 174 个。",
+ "range": "原产印度尼西亚；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Indian Runner duck」"
+ ],
+ "footnote": "这是家鸭的一个品种。"
+}

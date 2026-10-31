@@ -1,0 +1,78 @@
+{
+ "file": "杜泊羊",
+ "no": "462",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "杜泊羊",
+ "name_en": "Dorper",
+ "latin": "Ovis aries（品种）",
+ "short": "杜泊羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "100 天体重",
+   "value": "约 36 kg",
+   "lo": 36,
+   "hi": 36,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "胴体重",
+   "value": "17–18 kg",
+   "lo": 17,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊配种",
+   "value": "约 5 个月",
+   "lo": 5,
+   "hi": 5,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "繁殖率",
+   "value": "平均 160%",
+   "lo": 160,
+   "hi": 160,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "自己换毛",
+   "icon": "wind",
+   "desc": "毛短而轻，晚春和夏天会自己脱落，不用剪毛。"
+  },
+  {
+   "name": "耐旱",
+   "icon": "fire",
+   "desc": "专门为南非干旱地区培育，适应能力强。"
+  }
+ ],
+ "intro": [
+  "【品种】杜泊羊是南非培育的肉用绵羊。",
+  "1930 年代由多赛特角羊和黑头波斯羊杂交而成。",
+  "名字取自两个亲本名字的前一半：Dor + Per。"
+ ],
+ "fact": "它是南非第二常见的绵羊品种。",
+ "range": "原产南非；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Dorper」"
+ ],
+ "footnote": "这是绵羊的一个品种；体重为澳大利亚一代杂交羔羊的数据。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "安哥拉兔",
+ "no": "467",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "安哥拉兔",
+ "name_en": "Angora rabbit",
+ "latin": "Oryctolagus cuniculus（品种）",
+ "short": "安哥拉兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和颗粒饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "2.0–5.5 kg",
+   "lo": 2.0,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每窝",
+   "value": "2–12 只",
+   "lo": 2,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "7–12 年",
+   "lo": 7,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "兔毛直径",
+   "value": "约 11 µm",
+   "lo": 11,
+   "hi": 11,
+   "scale": "um",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长毛",
+   "icon": "huddle",
+   "desc": "毛每个月能长约 3 cm，比羊绒还细。"
+  },
+  {
+   "name": "要定期剪毛",
+   "icon": "wind",
+   "desc": "每 90–120 天要剪一次毛，防止吞毛导致肠胃堵塞。"
+  }
+ ],
+ "intro": [
+  "【品种】安哥拉兔源自土耳其的安卡拉，是最古老的家兔品种群之一。",
+  "18 世纪中叶，法国王室把它当宠物。",
+  "世界上 90% 的安哥拉兔毛来自中国。"
+ ],
+ "fact": "二战时，美国的安哥拉兔毛需求超过每年 5.4 万 kg。",
+ "range": "原产土耳其；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Angora rabbit」",
+  "维基百科「安哥拉兔」"
+ ],
+ "footnote": "这是兔的一组品种；兔毛直径和 90% 来自中文维基。"
+}

@@ -4,7 +4,7 @@
 
 ## 卡片列表
 
-共 445 张（动物 445）。分类：宠物 95，农场 50，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
+共 470 张（动物 470）。分类：宠物 95，农场 75，高原草原 50，森林 50，海洋 50，鸟类 50，爬行两栖 50，昆虫 50。
 
 | 编号 | 名字 | 类别 | IUCN | 图片链接 |
 |---|---|---|---|---|
@@ -153,6 +153,31 @@
 | 182 | 虱目鱼（Milkfish） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%B1%E7%9B%AE%E9%B1%BC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%99%B1%E7%9B%AE%E9%B1%BC.pdf) |
 | 183 | 边境牧羊犬（Border Collie (breed)） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%BE%B9%E5%A2%83%E7%89%A7%E7%BE%8A%E7%8A%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%BE%B9%E5%A2%83%E7%89%A7%E7%BE%8A%E7%8A%AC.pdf) |
 | 184 | 海狸鼠（Nutria） | 动物 · 农场 | LC 无危 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B5%B7%E7%8B%B8%E9%BC%A0.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B5%B7%E7%8B%B8%E9%BC%A0.pdf) |
+| 446 | 安格斯牛（Aberdeen Angus） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E6%A0%BC%E6%96%AF%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E6%A0%BC%E6%96%AF%E7%89%9B.pdf) |
+| 447 | 娟姗牛（Jersey cattle） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A8%9F%E5%A7%97%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A8%9F%E5%A7%97%E7%89%9B.pdf) |
+| 448 | 和牛（Wagyu） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%92%8C%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%92%8C%E7%89%9B.pdf) |
+| 449 | 西门塔尔牛（Simmental cattle） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%A5%BF%E9%97%A8%E5%A1%94%E5%B0%94%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%A5%BF%E9%97%A8%E5%A1%94%E5%B0%94%E7%89%9B.pdf) |
+| 450 | 夏洛来牛（Charolais cattle） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E6%B4%9B%E6%9D%A5%E7%89%9B.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E6%B4%9B%E6%9D%A5%E7%89%9B.pdf) |
+| 451 | 杜洛克猪（Duroc pig） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%9C%E6%B4%9B%E5%85%8B%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%9C%E6%B4%9B%E5%85%8B%E7%8C%AA.pdf) |
+| 452 | 巴克夏猪（Berkshire pig） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B7%B4%E5%85%8B%E5%A4%8F%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%B7%B4%E5%85%8B%E5%A4%8F%E7%8C%AA.pdf) |
+| 453 | 大白猪（Large White pig） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%99%BD%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%A7%E7%99%BD%E7%8C%AA.pdf) |
+| 454 | 梅山猪（Meishan pig） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%A2%85%E5%B1%B1%E7%8C%AA.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%A2%85%E5%B1%B1%E7%8C%AA.pdf) |
+| 455 | 来航鸡（Leghorn chicken） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%A5%E8%88%AA%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%A5%E8%88%AA%E9%B8%A1.pdf) |
+| 456 | 丝羽乌骨鸡（Silkie） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%9D%E7%BE%BD%E4%B9%8C%E9%AA%A8%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E4%B8%9D%E7%BE%BD%E4%B9%8C%E9%AA%A8%E9%B8%A1.pdf) |
+| 457 | 罗德岛红鸡（Rhode Island Red） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BD%97%E5%BE%B7%E5%B2%9B%E7%BA%A2%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BD%97%E5%BE%B7%E5%B2%9B%E7%BA%A2%E9%B8%A1.pdf) |
+| 458 | 婆罗门鸡（Brahma chicken） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A9%86%E7%BD%97%E9%97%A8%E9%B8%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A9%86%E7%BD%97%E9%97%A8%E9%B8%A1.pdf) |
+| 459 | 北京鸭（American Pekin） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8C%97%E4%BA%AC%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8C%97%E4%BA%AC%E9%B8%AD.pdf) |
+| 460 | 印度跑鸭（Indian Runner duck） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%B0%E5%BA%A6%E8%B7%91%E9%B8%AD.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%8D%B0%E5%BA%A6%E8%B7%91%E9%B8%AD.pdf) |
+| 461 | 萨福克羊（Suffolk sheep） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%90%A8%E7%A6%8F%E5%85%8B%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%90%A8%E7%A6%8F%E5%85%8B%E7%BE%8A.pdf) |
+| 462 | 杜泊羊（Dorper） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%9C%E6%B3%8A%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%9D%9C%E6%B3%8A%E7%BE%8A.pdf) |
+| 463 | 波尔山羊（Boer goat） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B3%A2%E5%B0%94%E5%B1%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%B3%A2%E5%B0%94%E5%B1%B1%E7%BE%8A.pdf) |
+| 464 | 萨能山羊（Saanen goat） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%90%A8%E8%83%BD%E5%B1%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E8%90%A8%E8%83%BD%E5%B1%B1%E7%BE%8A.pdf) |
+| 465 | 安哥拉山羊（Angora goat） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E5%93%A5%E6%8B%89%E5%B1%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E5%93%A5%E6%8B%89%E5%B1%B1%E7%BE%8A.pdf) |
+| 466 | 绒山羊（Cashmere goat） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%92%E5%B1%B1%E7%BE%8A.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E7%BB%92%E5%B1%B1%E7%BE%8A.pdf) |
+| 467 | 安哥拉兔（Angora rabbit） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E5%93%A5%E6%8B%89%E5%85%94.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%AE%89%E5%93%A5%E6%8B%89%E5%85%94.pdf) |
+| 468 | 新西兰兔（New Zealand rabbit） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%B0%E8%A5%BF%E5%85%B0%E5%85%94.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E6%96%B0%E8%A5%BF%E5%85%B0%E5%85%94.pdf) |
+| 469 | 夏尔马（Shire horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E5%B0%94%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E5%A4%8F%E5%B0%94%E9%A9%AC.pdf) |
+| 470 | 阿拉伯马（Arabian horse） | 动物 · 农场 | NE 未评估 | [PNG](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A9%AC.png) · [PDF](%E5%8A%A8%E7%89%A9/%E5%86%9C%E5%9C%BA/%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A9%AC.pdf) |
 | 003 | 非洲象（African bush elephant） | 动物 · 高原草原 | EN 濒危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%9D%9E%E6%B4%B2%E8%B1%A1.pdf) |
 | 006 | 狮子（Lion） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E7%8B%AE%E5%AD%90.pdf) |
 | 027 | 长颈鹿（Giraffe） | 动物 · 高原草原 | VU 易危 | [PNG](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.png) · [PDF](%E5%8A%A8%E7%89%A9/%E9%AB%98%E5%8E%9F%E8%8D%89%E5%8E%9F/%E9%95%BF%E9%A2%88%E9%B9%BF.pdf) |

@@ -1,0 +1,78 @@
+{
+ "file": "西门塔尔牛",
+ "no": "449",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "西门塔尔牛",
+ "name_en": "Simmental cattle",
+ "latin": "Bos taurus（品种）",
+ "short": "西门塔尔牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "1100–1300 kg",
+   "lo": 1100,
+   "hi": 1300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母牛体重",
+   "value": "600–800 kg",
+   "lo": 600,
+   "hi": 800,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公牛肩高",
+   "value": "150–158 cm",
+   "lo": 1.5,
+   "hi": 1.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母牛肩高",
+   "value": "138–142 cm",
+   "lo": 1.38,
+   "hi": 1.42,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "肉奶兼用",
+   "icon": "food",
+   "desc": "既能产奶又能产肉，是兼用型品种。"
+  },
+  {
+   "name": "数量庞大",
+   "icon": "team",
+   "desc": "1980 年估计全世界有 1200–1700 万头。"
+  }
+ ],
+ "intro": [
+  "【品种】西门塔尔牛来自瑞士伯尔尼州的西门河谷。",
+  "它的毛色多是红白花或黄白花。",
+  "它被引种到世界各地，用来改良当地的牛。"
+ ],
+ "fact": "它的德语名叫 Simmentaler Fleckvieh，意思是“西门塔尔花斑牛”。",
+ "range": "原产瑞士；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Simmental cattle」"
+ ],
+ "footnote": "这是牛的一个品种；体重、肩高为品种数据。"
+}

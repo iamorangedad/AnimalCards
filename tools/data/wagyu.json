@@ -1,0 +1,79 @@
+{
+ "file": "和牛",
+ "no": "448",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "和牛",
+ "name_en": "Wagyu",
+ "latin": "Bos taurus（品种群）",
+ "short": "和牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、谷物等饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "黑毛占比",
+   "value": "约 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "A级精肉",
+   "value": "72% 以上",
+   "lo": 72,
+   "hi": 72,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "神户熔点",
+   "value": "约 40 °C",
+   "lo": 40,
+   "hi": 40,
+   "scale": "temp",
+   "approx": true
+  },
+  {
+   "label": "松阪熔点",
+   "value": "约 25 °C",
+   "lo": 25,
+   "hi": 25,
+   "scale": "temp",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "雪花纹",
+   "icon": "food",
+   "desc": "肉里有细密的脂肪“雪花”，入口即化。"
+  },
+  {
+   "name": "血统证明",
+   "icon": "team",
+   "desc": "每头和牛出生就有证明书，记录它的血统。"
+  }
+ ],
+ "intro": [
+  "【品种】和牛是日本四个肉牛品种的统称。",
+  "包括黑毛和种、褐毛和种、无角和种和日本短角种。",
+  "澳大利亚等国家也引进和饲养和牛。"
+ ],
+ "fact": "澳大利亚的和牛在出栏前最后 300–500 天主要喂谷物。",
+ "range": "原产日本；澳大利亚、美国等地也有饲养。",
+ "sources": [
+  "Wikipedia「Wagyu」",
+  "维基百科「和牛」"
+ ],
+ "footnote": "这是牛的一组品种；占比、精肉率和熔点来自中文维基。"
+}

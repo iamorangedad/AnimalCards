@@ -1,0 +1,78 @@
+{
+ "file": "丝羽乌骨鸡",
+ "no": "456",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "丝羽乌骨鸡",
+ "name_en": "Silkie",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "丝羽乌骨鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸡体重",
+   "value": "约 1.8 kg",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母鸡体重",
+   "value": "约 1.4 kg",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "年产蛋",
+   "value": "约 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "矮脚母鸡",
+   "value": "500 g",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "丝毛",
+   "icon": "huddle",
+   "desc": "羽毛缺少羽小钩，像绒毛一样蓬松，所以不能飞。"
+  },
+  {
+   "name": "黑皮黑骨",
+   "icon": "camo",
+   "desc": "皮肤和骨头是黑的，耳垂是蓝的，每只脚有 5 个趾头。"
+  }
+ ],
+ "intro": [
+  "【品种】丝羽乌骨鸡原产中国，也叫乌鸡。",
+  "13 世纪马可·波罗就记载过一种“长着猫毛的鸡”。",
+  "母鸡很爱孵蛋，常被用来帮别的鸟孵蛋。"
+ ],
+ "fact": "早在 7 世纪，中医就认为用乌鸡炖的汤有滋补作用。",
+ "range": "原产中国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Silkie (chicken breed)」"
+ ],
+ "footnote": "这是鸡的一个品种；体重为正文所述标准型体重。"
+}

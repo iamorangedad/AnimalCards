@@ -1,0 +1,79 @@
+{
+ "file": "北京鸭",
+ "no": "459",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "北京鸭",
+ "name_en": "American Pekin",
+ "latin": "Anas platyrhynchos（品种）",
+ "short": "北京鸭",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物饲料、水草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸭体重",
+   "value": "4.5 kg",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母鸭体重",
+   "value": "4.1 kg",
+   "lo": 4.1,
+   "hi": 4.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "7 周体重",
+   "value": "超 3.5 kg",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "渡海天数",
+   "value": "124 天",
+   "lo": 124,
+   "hi": 124,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长得快",
+   "icon": "food",
+   "desc": "体格大、长得快，饲料转化率高。"
+  },
+  {
+   "name": "白羽毛",
+   "icon": "camo",
+   "desc": "白色羽毛让拔毛后的鸭身很干净，适合做肉鸭。"
+  }
+ ],
+ "intro": [
+  "【品种】北京鸭起源于中国，后来在美国发展成“美国北京鸭”。",
+  "绿头鸭大约 3000 年前在中国被驯化。",
+  "它身体斜着立，约与地面成 40°。"
+ ],
+ "fact": "1873 年运往纽约的鸭子只活下来 9 只，成为美国北京鸭的祖先。",
+ "range": "原产中国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「American Pekin」"
+ ],
+ "footnote": "这是家鸭的一个品种；“渡海天数”指 1873 年从上海到纽约的航程。"
+}

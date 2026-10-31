@@ -1,0 +1,78 @@
+{
+ "file": "波尔山羊",
+ "no": "463",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "波尔山羊",
+ "name_en": "Boer goat",
+ "latin": "Capra hircus（品种）",
+ "short": "波尔山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和灌木",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公羊体重",
+   "value": "平均 114 kg",
+   "lo": 114,
+   "hi": 114,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母羊体重",
+   "value": "平均 94 kg",
+   "lo": 94,
+   "hi": 94,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊肩高",
+   "value": "平均 94 cm",
+   "lo": 0.94,
+   "hi": 0.94,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "约 148 天",
+   "lo": 148,
+   "hi": 148,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "肉用山羊",
+   "icon": "food",
+   "desc": "体格大、长得快，是著名的肉用山羊。"
+  },
+  {
+   "name": "耐粗饲",
+   "icon": "fire",
+   "desc": "适应南非东开普的干燥气候。"
+  }
+ ],
+ "intro": [
+  "【品种】波尔山羊来自南非，“Boer”在荷兰语里是“农夫”的意思。",
+  "它的祖先是科伊科伊人和班图人养的山羊。",
+  "1930 年左右开始选育，形成了白身体、红棕色头的特征。"
+ ],
+ "fact": "母羊的发情周期约 21 天。",
+ "range": "原产南非；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Boer goat」"
+ ],
+ "footnote": "这是山羊的一个品种。"
+}

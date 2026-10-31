@@ -1,0 +1,78 @@
+{
+ "file": "萨能山羊",
+ "no": "464",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "萨能山羊",
+ "name_en": "Saanen goat",
+ "latin": "Capra hircus（品种）",
+ "short": "萨能山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公羊体重",
+   "value": "至少 85 kg",
+   "lo": 85,
+   "hi": 85,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母羊体重",
+   "value": "至少 60 kg",
+   "lo": 60,
+   "hi": 60,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊肩高",
+   "value": "约 90 cm",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "每胎产奶",
+   "value": "838 kg",
+   "lo": 838,
+   "hi": 838,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "产奶大户",
+   "icon": "drop",
+   "desc": "一个泌乳期 264 天平均产奶 838 kg。"
+  },
+  {
+   "name": "纯白",
+   "icon": "camo",
+   "desc": "毛、皮肤和脸都是白色或浅奶油色。"
+  }
+ ],
+ "intro": [
+  "【品种】萨能山羊来自瑞士伯尔尼州的萨能河谷。",
+  "它是体型最大的瑞士山羊。",
+  "美国把其他颜色的萨能羊另外登记为“Sable”品种。"
+ ],
+ "fact": "它主要用来产奶，被引种到世界各地。",
+ "range": "原产瑞士；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Saanen goat」"
+ ],
+ "footnote": "这是山羊的一个品种；“每胎产奶”指一个泌乳期的平均产量。"
+}

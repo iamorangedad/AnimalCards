@@ -1,0 +1,78 @@
+{
+ "file": "夏洛来牛",
+ "no": "450",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "夏洛来牛",
+ "name_en": "Charolais cattle",
+ "latin": "Bos taurus（品种）",
+ "short": "夏洛来牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "1000–1650 kg",
+   "lo": 1000,
+   "hi": 1650,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母牛体重",
+   "value": "700–1200 kg",
+   "lo": 700,
+   "hi": 1200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "135–150 cm",
+   "lo": 1.35,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "全球数量",
+   "value": "约 73 万头",
+   "lo": 730000,
+   "hi": 730000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超重量级",
+   "icon": "roar",
+   "desc": "是体重最大的牛品种之一。"
+  },
+  {
+   "name": "白色肉牛",
+   "icon": "food",
+   "desc": "毛色白到奶油色，专门用来产肉。"
+  }
+ ],
+ "intro": [
+  "【品种】夏洛来牛来自法国中东部的夏洛来地区。",
+  "68 个国家向联合国粮农组织报告饲养它。",
+  "数量最多的是捷克和墨西哥。"
+ ],
+ "fact": "2014 年底，法国有 422 万头夏洛来牛。",
+ "range": "原产法国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Charolais cattle」"
+ ],
+ "footnote": "这是牛的一个品种；全球数量为 DAD-IS 估计。"
+}

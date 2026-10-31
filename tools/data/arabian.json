@@ -1,0 +1,79 @@
+{
+ "file": "阿拉伯马",
+ "no": "470",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "阿拉伯马",
+ "name_en": "Arabian horse",
+ "latin": "Equus caballus（品种）",
+ "short": "阿拉伯马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "145–155 cm",
+   "lo": 1.45,
+   "hi": 1.55,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "360–450 kg",
+   "lo": 360,
+   "hi": 450,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "少数肋骨",
+   "value": "17 对",
+   "lo": 17,
+   "hi": 17,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "考古证据",
+   "value": "约 3500 年",
+   "lo": 3500,
+   "hi": 3500,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐力王者",
+   "icon": "fire",
+   "desc": "在耐力赛里占绝对优势。"
+  },
+  {
+   "name": "翘尾凹脸",
+   "icon": "camo",
+   "desc": "头部凹面、尾巴高高翘起，非常好认。"
+  }
+ ],
+ "intro": [
+  "【品种】阿拉伯马起源于中东和阿拉伯半岛。",
+  "很多品种都用它来改良速度、耐力和骨骼。",
+  "一般有 18 对肋骨，但有些只有 17 对、5 节腰椎。"
+ ],
+ "fact": "中东 3500 年前就有长得像阿拉伯马的马。",
+ "range": "原产阿拉伯半岛；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Arabian horse」",
+  "维基百科「阿拉伯马」"
+ ],
+ "footnote": "这是马的一个品种；体重由 800–1000 磅换算；肋骨数来自中文维基。"
+}

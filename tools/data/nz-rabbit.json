@@ -1,0 +1,78 @@
+{
+ "file": "新西兰兔",
+ "no": "468",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "新西兰兔",
+ "name_en": "New Zealand rabbit",
+ "latin": "Oryctolagus cuniculus（品种）",
+ "short": "新西兰兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和颗粒饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "4.5–5.4 kg",
+   "lo": 4.5,
+   "hi": 5.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "怀孕期",
+   "value": "28–35 天",
+   "lo": 28,
+   "hi": 35,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "睁眼",
+   "value": "7–10 天",
+   "lo": 7,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "可配种",
+   "value": "5–8 个月",
+   "lo": 5,
+   "hi": 8,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "实验和肉用",
+   "icon": "food",
+   "desc": "是实验室和肉用最常用的兔品种。"
+  },
+  {
+   "name": "母兔更大",
+   "icon": "huddle",
+   "desc": "母兔比公兔略大一些。"
+  }
+ ],
+ "intro": [
+  "【品种】新西兰兔名字里有“新西兰”，其实起源于美国。",
+  "美国兔繁育者协会承认白、红、黑、蓝、花五种颜色。",
+  "出生 3–5 天开始长毛，2 周大开始尝外面的食物。"
+ ],
+ "fact": "大多数母兔在怀孕第 31–32 天生产。",
+ "range": "原产美国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「New Zealand rabbit」"
+ ],
+ "footnote": "这是兔的一个品种。"
+}

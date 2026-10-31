@@ -1,0 +1,78 @@
+{
+ "file": "婆罗门鸡",
+ "no": "458",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "婆罗门鸡",
+ "name_en": "Brahma chicken",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "婆罗门鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸡体重",
+   "value": "约 5.5 kg",
+   "lo": 5.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母鸡体重",
+   "value": "约 4.5 kg",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "公鸡纪录",
+   "value": "约 8 kg",
+   "lo": 8,
+   "hi": 8,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "蛋重",
+   "value": "55–60 g",
+   "lo": 0.055,
+   "hi": 0.06,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛脚",
+   "icon": "huddle",
+   "desc": "腿和脚上长满羽毛，像穿着靴子。"
+  },
+  {
+   "name": "冬天也下蛋",
+   "icon": "cold",
+   "desc": "是冬季产蛋好的品种，下褐色大蛋。"
+  }
+ ],
+ "intro": [
+  "【品种】婆罗门鸡在美国培育，祖先是 1840 年代从上海运来的大鸡。",
+  "所以早期它被叫作“上海鸡”。",
+  "常见的有浅色婆罗门和深色婆罗门。"
+ ],
+ "fact": "早年有些婆罗门公鸡重约 8 kg，母鸡约 6 kg。",
+ "range": "原产美国（祖先来自中国）；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Brahma chicken」"
+ ],
+ "footnote": "这是鸡的一个品种。"
+}

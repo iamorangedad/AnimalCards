@@ -1,0 +1,79 @@
+{
+ "file": "巴克夏猪",
+ "no": "452",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "巴克夏猪",
+ "name_en": "Berkshire pig",
+ "latin": "Sus domesticus（品种）",
+ "short": "巴克夏猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公猪体重",
+   "value": "约 280 kg",
+   "lo": 280,
+   "hi": 280,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母猪体重",
+   "value": "约 220 kg",
+   "lo": 220,
+   "hi": 220,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "白色部位",
+   "value": "6 处",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "新西兰母猪",
+   "value": "不足 100 头",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "六白",
+   "icon": "camo",
+   "desc": "全身黑色，只有四只脚、脸和尾尖是白色。"
+  },
+  {
+   "name": "肉质好",
+   "icon": "food",
+   "desc": "日本的“鹿儿岛黑猪”就来自这个品种。"
+  }
+ ],
+ "intro": [
+  "【品种】巴克夏猪来自英国的伯克郡。",
+  "最早它是红色或沙褐色的，18 世纪和中国、暹罗的猪杂交后变成黑色。",
+  "现在在英国它被列为易危的稀有品种。"
+ ],
+ "fact": "1875 年成立的美国巴克夏猪协会是世界上第一个种猪登记协会。",
+ "range": "原产英国；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Berkshire pig」",
+  "维基百科「巴克夏猪」"
+ ],
+ "footnote": "这是猪的一个品种；白色部位和新西兰数量来自中文维基。"
+}

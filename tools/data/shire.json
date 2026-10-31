@@ -1,0 +1,78 @@
+{
+ "file": "夏尔马",
+ "no": "469",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "夏尔马",
+ "name_en": "Shire horse",
+ "latin": "Equus caballus（品种）",
+ "short": "夏尔马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "种公马肩高",
+   "value": "平均约 178 cm",
+   "lo": 1.78,
+   "hi": 1.78,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "850–1100 kg",
+   "lo": 850,
+   "hi": 1100,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "双马拉力",
+   "value": "18.5 吨",
+   "lo": 18500,
+   "hi": 18500,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最高纪录",
+   "value": "219.7 cm 以上",
+   "lo": 2.197,
+   "hi": 2.197,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大力士",
+   "icon": "roar",
+   "desc": "1924 年两匹夏尔马拉动的起步负荷估计约 50 吨，超过了测力计的上限。"
+  },
+  {
+   "name": "毛脚",
+   "icon": "huddle",
+   "desc": "小腿上长着长长的“羽毛”。"
+  }
+ ],
+ "intro": [
+  "【品种】夏尔马是英国的重型挽马。",
+  "它曾保持世界最大和最高马的纪录。",
+  "现在它在英国被列为“有风险”的稀有品种。"
+ ],
+ "fact": "史上最高最重的马可能是 1846 年出生的夏尔马“参孙”，肩高超过 219.7 cm。",
+ "range": "原产英国；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Shire horse」"
+ ],
+ "footnote": "这是马的一个品种；拉力为后来一次展览中两匹马在湿滑地面上拉动的重量。"
+}

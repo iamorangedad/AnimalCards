@@ -1,0 +1,78 @@
+{
+ "file": "萨福克羊",
+ "no": "461",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "萨福克羊",
+ "name_en": "Suffolk sheep",
+ "latin": "Ovis aries（品种）",
+ "short": "萨福克羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公羊体重",
+   "value": "125 kg",
+   "lo": 125,
+   "hi": 125,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母羊体重",
+   "value": "88 kg",
+   "lo": 88,
+   "hi": 88,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊肩高",
+   "value": "80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "英国存栏",
+   "value": "14266 只",
+   "lo": 14266,
+   "hi": 14266,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑脸",
+   "icon": "camo",
+   "desc": "脸和腿是黑色的，头上不长角，身体是白毛。"
+  },
+  {
+   "name": "肉用父本",
+   "icon": "food",
+   "desc": "主要用来产肉，常作杂交的父本。"
+  }
+ ],
+ "intro": [
+  "【品种】萨福克羊在 18 世纪末起源于英国萨福克郡。",
+  "它由诺福克角羊和南丘羊杂交而来。",
+  "它是世界上数量最多的绵羊品种之一。"
+ ],
+ "fact": "1980 年代英国约有 50 万只萨福克羊，后来数量下降。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Suffolk sheep」"
+ ],
+ "footnote": "这是绵羊的一个品种；体重、肩高为 DAD-IS 数据；存栏为 2020 年数。"
+}

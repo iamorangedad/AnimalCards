@@ -1,0 +1,80 @@
+{
+ "file": "梅山猪",
+ "no": "454",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "梅山猪",
+ "name_en": "Meishan pig",
+ "latin": "Sus domesticus（品种）",
+ "short": "梅山猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃青饲料和粗饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "每窝产仔",
+   "value": "15–22 头",
+   "lo": 15,
+   "hi": 22,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "平均活仔*",
+   "value": "14 头",
+   "lo": 14,
+   "hi": 14,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每窝最多*",
+   "value": "约 20 头",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "引入美国*",
+   "value": "144 头",
+   "lo": 144,
+   "hi": 144,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级能生",
+   "icon": "huddle",
+   "desc": "以产仔多出名，被用来研究猪的繁殖。"
+  },
+  {
+   "name": "皱皮大耳",
+   "icon": "camo",
+   "desc": "黑色的皮肤有很多皱纹，耳朵大而下垂，四只脚是白的。"
+  }
+ ],
+ "intro": [
+  "【品种】梅山猪是中国太湖猪的一个类群，原产上海嘉定和江苏太仓一带。",
+  "2000 年被列入国家级畜禽遗传资源保护名录。",
+  "它已出口到法国、日本、美国等很多国家。"
+ ],
+ "fact": "2018 年美国家畜保护协会把梅山猪列为全球“极危”的家畜品种。",
+ "range": "原产中国上海嘉定、江苏太仓等地。",
+ "sources": [
+  "Wikipedia「Meishan pig」",
+  "Wikipedia「Taihu pig」",
+  "维基百科「梅山猪」"
+ ],
+ "footnote": "* 为太湖猪整体数据；引入美国的是 1989 年一批以太湖猪为主的猪。"
+}

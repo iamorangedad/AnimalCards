@@ -1,0 +1,78 @@
+{
+ "file": "罗德岛红鸡",
+ "no": "457",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "罗德岛红鸡",
+ "name_en": "Rhode Island Red",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "罗德岛红鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸡体重",
+   "value": "3.9 kg",
+   "lo": 3.9,
+   "hi": 3.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母鸡体重",
+   "value": "3 kg",
+   "lo": 3,
+   "hi": 3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "年产蛋",
+   "value": "200–300 枚",
+   "lo": 200,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "矮脚公鸡",
+   "value": "965 g",
+   "lo": 0.965,
+   "hi": 0.965,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红褐羽毛",
+   "icon": "camo",
+   "desc": "羽毛从深红到近乎黑色，尾巴大多是黑的。"
+  },
+  {
+   "name": "褐壳蛋",
+   "icon": "food",
+   "desc": "下褐色的蛋；现代品系主要用来产蛋。"
+  }
+ ],
+ "intro": [
+  "【品种】罗德岛红鸡是 19 世纪后半叶在美国罗德岛和马萨诸塞培育的。",
+  "1895 年第一次用现在的名字参展。",
+  "它是很多现代杂交鸡的“祖先”之一。"
+ ],
+ "fact": "罗德岛红鸡是美国罗德岛州的州鸟。",
+ "range": "原产美国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Rhode Island Red」"
+ ],
+ "footnote": "这是鸡的一个品种。"
+}

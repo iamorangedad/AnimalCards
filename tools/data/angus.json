@@ -1,0 +1,78 @@
+{
+ "file": "安格斯牛",
+ "no": "446",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "安格斯牛",
+ "name_en": "Aberdeen Angus",
+ "latin": "Bos taurus（品种）",
+ "short": "安格斯牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公牛体重",
+   "value": "约 850 kg",
+   "lo": 850,
+   "hi": 850,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母牛体重",
+   "value": "约 550 kg",
+   "lo": 550,
+   "hi": 550,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "公牛肩高",
+   "value": "145 cm",
+   "lo": 1.45,
+   "hi": 1.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母牛肩高",
+   "value": "135 cm",
+   "lo": 1.35,
+   "hi": 1.35,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天生无角",
+   "icon": "huddle",
+   "desc": "安格斯牛天生不长角，毛色是纯黑或纯红。"
+  },
+  {
+   "name": "优质牛肉",
+   "icon": "food",
+   "desc": "主要用来产肉，被引种到世界很多国家。"
+  }
+ ],
+ "intro": [
+  "【品种】安格斯牛来自苏格兰东北部的阿伯丁郡和安格斯郡。",
+  "1835 年它被正式承认为一个品种。",
+  "在美国发展出了黑安格斯和红安格斯两个品种。"
+ ],
+ "fact": "1800 年以前，当地人把这种无角牛叫“Angus Doddies”，doddie 就是“无角”的意思。",
+ "range": "原产苏格兰；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Aberdeen Angus」"
+ ],
+ "footnote": "这是牛的一个品种；体重为正文数值，肩高为 DAD-IS 数据。"
+}

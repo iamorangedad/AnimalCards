@@ -1,0 +1,77 @@
+{
+ "file": "小麂",
+ "no": "249",
+ "cat": "森林",
+ "name_cn": "小麂",
+ "name_en": "Reeves's muntjac",
+ "latin": "Muntiacus reevesi",
+ "short": "小麂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "10–18 kg",
+   "lo": 10,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "约 0.5 m",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "上犬齿",
+   "value": "约 5.1 cm",
+   "lo": 0.051,
+   "hi": 0.051,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "怀孕",
+   "value": "209–220 天",
+   "lo": 209,
+   "hi": 220,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "獠牙",
+   "icon": "roar",
+   "desc": "雄麂先用短角把对手顶得失去平衡，再用约 5 cm 长的上犬齿攻击。"
+  },
+  {
+   "name": "短角",
+   "icon": "camo",
+   "desc": "雄麂的角很短，一般不超过 10 cm。"
+  }
+ ],
+ "intro": [
+  "小麂又叫黄麂，原产中国东南部和台湾。",
+  "名字来自 19 世纪的博物学家约翰·里夫斯。",
+  "它已被引入英国、日本等地。"
+ ],
+ "fact": "日本伊豆大岛 2007–2014 年想消灭引入的小麂但失败了，到 2014 年至少还有 1.1 万只。",
+ "range": "中国东南部、台湾；已被引入英国、日本等地。",
+ "sources": [
+  "Wikipedia「Reeves's muntjac」",
+  "IUCN 红色名录（Timmins 2016）"
+ ],
+ "footnote": ""
+}

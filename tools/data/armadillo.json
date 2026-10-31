@@ -38,7 +38,7 @@
    "value": "可达 6 分钟",
    "lo": 6,
    "hi": 6,
-   "scale": "sec",
+   "scale": "min",
    "approx": false
   },
   {
@@ -73,5 +73,5 @@
   "Wikipedia「Nine-banded armadillo」",
   "IUCN 红色名录（Loughry 2014）"
  ],
- "footnote": "憋气条借用 0–20 刻度，单位为分钟。"
+ "footnote": ""
 }

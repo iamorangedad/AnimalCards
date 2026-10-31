@@ -1,0 +1,77 @@
+{
+ "file": "蜂猴",
+ "no": "245",
+ "cat": "森林",
+ "name_cn": "蜂猴",
+ "name_en": "Bengal slow loris",
+ "latin": "Nycticebus bengalensis",
+ "short": "蜂猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1–2.1 kg",
+   "lo": 1,
+   "hi": 2.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "26–38 cm",
+   "lo": 0.26,
+   "hi": 0.38,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 20 个月",
+   "lo": 20,
+   "hi": 20,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "可达 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "有毒",
+   "icon": "jar",
+   "desc": "肘部内侧的腺体能分泌刺鼻的油性毒液，它把毒液抹在牙齿上用来自卫。"
+  },
+  {
+   "name": "背宝宝",
+   "icon": "team",
+   "desc": "妈妈会背着宝宝走三个月。"
+  }
+ ],
+ "intro": [
+  "孟加拉蜂猴是最大的蜂猴。",
+  "它不分季节繁殖，每 12–18 个月生一次，通常一胎一只。",
+  "生活在印度东北、孟加拉到中国南部和东南亚。"
+ ],
+ "fact": "倭蜂猴比它小得多，头骨长度不到 55 mm。",
+ "range": "印度东北、孟加拉、缅甸、中国云南和广西、东南亚。",
+ "sources": [
+  "Wikipedia「Bengal slow loris」",
+  "IUCN 红色名录（Nekaris 2020）"
+ ],
+ "footnote": ""
+}

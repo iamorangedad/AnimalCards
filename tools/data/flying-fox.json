@@ -1,0 +1,77 @@
+{
+ "file": "印度狐蝠",
+ "no": "251",
+ "cat": "森林",
+ "name_cn": "印度狐蝠",
+ "name_en": "Indian flying fox",
+ "latin": "Pteropus medius",
+ "short": "印度狐蝠",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃熟果子（芒果、香蕉）和花蜜",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2025"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "0.6–1.6 kg",
+   "lo": 0.6,
+   "hi": 1.6,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "1.2–1.5 m",
+   "lo": 1.2,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "15.5–22 cm",
+   "lo": 0.155,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "圈养最长寿",
+   "value": "31 年 5 个月",
+   "lo": 31.4,
+   "hi": 31.4,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜里出发",
+   "icon": "ear",
+   "desc": "日落后 20–30 分钟，它们一只接一只离开栖息地去觅食。"
+  },
+  {
+   "name": "播种帮手",
+   "icon": "team",
+   "desc": "虽然会糟蹋果园，但它帮植物传粉、传播种子，好处常常更大。"
+  }
+ ],
+ "intro": [
+  "印度狐蝠是印度最大的蝙蝠，也是世界上最大的蝙蝠之一。",
+  "雄性一般比雌性大。",
+  "耳朵长 35–40 mm。"
+ ],
+ "fact": "到 1999 年，它是狐蝠属里圈养寿命最长的纪录保持者。",
+ "range": "印度次大陆（印度、巴基斯坦、孟加拉、斯里兰卡等）。",
+ "sources": [
+  "Wikipedia「Indian flying fox」",
+  "IUCN 红色名录（Ahmed 2025）"
+ ],
+ "footnote": ""
+}

@@ -455,3 +455,39 @@ ART4["beaver"] = lambda w, h: scene("pond", w, h, rodent("#7a5034", 280, 160, be
                                     P("M-40 40 l200 -10 M-20 60 l220 -6", sw=12, col="#8a6a42"), box=(w / 2, h * .72, 540, 280))
 ART4["otter"] = Q("wetland", (.74, 600, 260), F="#6b4a32", bl=300, bd=76, lh=44, lw=22, belly="#c9a88a", neck=(30, 56), nw=58, head=(40, 32), snout=(32, 24), snout_col="#c9a88a",
                   ears="round", tail="long", tail_col="#6b4a32")
+ART4["wolverine"] = Q("snow", (.75, 540, 300), F="#4a3628", bl=250, bd=100, lh=60, lw=28, belly="#3a2a1e", neck=(10, 40), nw=70, head=(44, 36), snout=(30, 24), snout_col="#6b5040",
+                      ears="small", tail="bushy", tail_col="#3a2a1e", extras=P("M-120 -150 C-40 -130 40 -130 130 -150", sw=14, col="#c9a06a"))
+ART4["sable"] = Q("snow", (.74, 580, 260), F="#5a3a26", bl=280, bd=72, lh=46, lw=20, belly="#5a3a26", neck=(30, 50), nw=52, head=(36, 30), snout=(30, 20), snout_col="#7a5a42",
+                  ears="round", tail="bushy", tail_col="#4a2e1e", extras=C(-190, -112, 10, "#e9c27a", 0))
+ART4["civet"] = Q("forest", (.75, 580, 280), F="#8a7a6a", bl=270, bd=80, lh=56, lw=20, neck=(20, 46), nw=54, head=(38, 30), snout=(34, 22), snout_col="#2a2a2a",
+                  ears="round", tail="long", tail_col="#2a2a2a", mask="#ffffff")
+def _loris(w, h):
+    b = branch(-260, 260, 4, 18)
+    o = E(0, -80, 80, 56, "#c9a07a", 3) + C(-80, -110, 44, "#c9a07a", 3) + E(-96, -116, 14, 16, "#5a3a26", 0) + E(-62, -116, 14, 16, "#5a3a26", 0)
+    o += C(-96, -116, 8, INK, 0) + C(-62, -116, 8, INK, 0) + C(-93, -119, 2.5, "#ffffff", 0) + C(-59, -119, 2.5, "#ffffff", 0) + P("M-80 -150 l0 30", sw=6, col="#f4efe6")
+    o += "".join(P(f"M{x} -40 l{d} 40", sw=16, col=INK) + P(f"M{x} -40 l{d} 40", sw=11, col="#c9a07a") for x, d in ((-50, -20), (-10, 10), (40, -10), (70, 20)))
+    o += P("M10 -136 C40 -150 70 -140 80 -110", sw=10, col="#8a5a3a")
+    return scene("rainforest", w, h, b + G_(o, 0, -6), box=(w / 2, h * .66, 460, 300))
+ART4["slow-loris"] = _loris
+def _tarsier(w, h):
+    b = P("M-20 60 L-20 -300", sw=24, col=INK) + P("M-20 60 L-20 -300", sw=18, col="#8a6a42")
+    o = E(30, -120, 40, 60, "#a8865a", 3) + C(30, -200, 46, "#a8865a", 3) + "".join(C(x, -205, 20, "#f6d36a", 2.6) + C(x, -205, 10, INK, 0) for x in (10, 52))
+    o += E(-6, -240, 14, 22, "#c9a07a", 2.4) + E(68, -240, 14, 22, "#c9a07a", 2.4) + P("M40 -60 C70 40 90 60 60 120", sw=6, col="#8a6a42")
+    o += P("M0 -140 l-24 -10 M0 -100 l-24 6 M10 -64 l-28 4", sw=8, col="#a8865a")
+    return scene("rainforest", w, h, b + o, box=(w / 2, h * .76, 320, 440))
+ART4["tarsier"] = _tarsier
+ART4["proboscis"] = lambda w, h: scene("rainforest", w, h, ape(F="#c97a42", face="#e9b88a", H=300, ear_col="#e9b88a", brow=False, hair="#c97a42") +
+                                       P("M-14 -330 C-40 -300 -40 -270 -10 -262 C14 -270 14 -300 -14 -330 Z", "#e88a6a", 2.6), box=(w / 2, h * .76, 440, 400))
+ART4["takin"] = Q("forest", None, F="#d9b25a", bl=290, bd=140, lh=100, lw=34, neck=(10, 50), nw=90, head=(56, 50), snout=(50, 44), snout_col="#5a4a3a", nose=None,
+                  ears="side", horns="wildebeest", tail="short", tail_col="#d9b25a", hooves=INK, shoulder=30)
+ART4["muntjac"] = Q("forest", (.78, 520, 400), F="#b8743e", bl=220, bd=90, lh=100, lw=16, belly="#e9cfa8", neck=(40, 28), nw=44, head=(34, 28), snout=(32, 22),
+                    snout_col="#3a2a1e", ears="side", horns="antler", tail="short", tail_col="#ffffff", hooves="#3a3f45")
+ART4["wt-deer"] = Q("forest", (.78, 560, 440), F="#b07a4a", bl=260, bd=104, lh=150, lw=20, belly="#ffffff", neck=(60, 30), nw=52, head=(36, 30), snout=(40, 26),
+                    snout_col="#ffffff", ears="side", horns="antler", tail="tuft", tail_col="#ffffff", hooves="#3a3f45")
+def _ffox(w, h):
+    b = P("M-260 -280 L260 -280", sw=14, col=INK) + P("M-260 -280 L260 -280", sw=9, col="#8a6a42")
+    o = P("M0 -270 C-120 -240 -160 -120 -100 -20 C-60 -80 -30 -80 0 -40 C30 -80 60 -80 100 -20 C160 -120 120 -240 0 -270 Z", "#3a3533", 3)
+    o += E(0, -150, 34, 80, "#5a4a3a", 3) + C(0, -60, 30, "#c9884a", 3) + P("M-10 -40 l10 28 l10 -28", "#c9884a", 2.4) + C(-10, -56, 4, INK, 0) + C(10, -56, 4, INK, 0)
+    o += P("M-20 -84 l-6 -16 l14 8 M20 -84 l6 -16 l-14 8", "#3a3533", 2.4)
+    return scene("forest", w, h, b + o, box=(w / 2, h * .66, 360, 360))
+ART4["flying-fox"] = _ffox

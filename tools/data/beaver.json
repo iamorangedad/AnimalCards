@@ -47,7 +47,7 @@
    "value": "可达 15 分钟",
    "lo": 15,
    "hi": 15,
-   "scale": "sec",
+   "scale": "min",
    "approx": false
   }
  ],
@@ -74,5 +74,5 @@
   "Wikipedia「North American beaver」",
   "IUCN 红色名录（Cassola 2016）"
  ],
- "footnote": "潜水条借用 0–20 刻度，单位为分钟。"
+ "footnote": ""
 }

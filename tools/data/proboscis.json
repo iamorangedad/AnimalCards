@@ -1,0 +1,78 @@
+{
+ "file": "长鼻猴",
+ "no": "247",
+ "cat": "森林",
+ "name_cn": "长鼻猴",
+ "name_en": "Proboscis monkey",
+ "latin": "Nasalis larvatus",
+ "short": "长鼻猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2021"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "16–22.5 kg",
+   "lo": 16,
+   "hi": 22.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体长",
+   "value": "66–76.2 cm",
+   "lo": 0.66,
+   "hi": 0.762,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雄鼻长",
+   "value": "可超过 10.2 cm",
+   "lo": 0.102,
+   "hi": 0.102,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "水下游",
+   "value": "可达 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大鼻子",
+   "icon": "trunk",
+   "desc": "雄猴的大鼻子能超过 10.2 cm，垂到嘴巴下面。"
+  },
+  {
+   "name": "游泳高手",
+   "icon": "dive",
+   "desc": "它可能是最爱水的灵长类，脚趾间有蹼，能在水下游 20 m。"
+  }
+ ],
+ "intro": [
+  "长鼻猴只生活在婆罗洲岛。",
+  "刚出生的宝宝是蓝色的脸，2.5 个月变灰，8.5 个月变成和大人一样的奶油色。",
+  "一个家庭群 3–19 只，大群可达 60 只。"
+ ],
+ "fact": "已知最重的雄猴达 30 kg。",
+ "range": "婆罗洲（马来西亚、印尼、文莱）。",
+ "sources": [
+  "Wikipedia「Proboscis monkey」",
+  "IUCN 红色名录（Boonratana 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,77 @@
+{
+ "file": "羚牛",
+ "no": "248",
+ "cat": "森林",
+ "name_cn": "羚牛",
+ "name_en": "Takin",
+ "latin": "Budorcas taxicolor",
+ "short": "羚牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2008"
+ },
+ "stats": [
+  {
+   "label": "公体重",
+   "value": "300–350 kg",
+   "lo": 300,
+   "hi": 350,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "97–140 cm",
+   "lo": 0.97,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "冬毛长",
+   "value": "可达 24 cm",
+   "lo": 0.24,
+   "hi": 0.24,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不丹国兽",
+   "icon": "team",
+   "desc": "羚牛是不丹的国兽。"
+  },
+  {
+   "name": "牛羚混搭",
+   "icon": "camo",
+   "desc": "长得像牛又像羊，被叫作“牛羚羊”“角马山羊”。"
+  }
+ ],
+ "intro": [
+  "羚牛分布在喜马拉雅山东部和中国西南的山地。",
+  "雌雄都有角，先贴着头骨向后，再向上翘。",
+  "它们以小家族群生活。"
+ ],
+ "fact": "圈养最重的羚牛达 322 kg。",
+ "range": "喜马拉雅山东部（不丹、印度、缅甸）和中国西南。",
+ "sources": [
+  "Wikipedia「Takin」",
+  "IUCN 红色名录（Song 2008）"
+ ],
+ "footnote": "IUCN 评估年代较早（2008 年）。"
+}

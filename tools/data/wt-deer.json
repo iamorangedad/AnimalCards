@@ -1,0 +1,77 @@
+{
+ "file": "白尾鹿",
+ "no": "250",
+ "cat": "森林",
+ "name_cn": "白尾鹿",
+ "name_en": "White-tailed deer",
+ "latin": "Odocoileus virginianus",
+ "short": "白尾鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄鹿体重",
+   "value": "68–136 kg",
+   "lo": 68,
+   "hi": 136,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "95–220 cm",
+   "lo": 0.95,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "53–120 cm",
+   "lo": 0.53,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鹿体重",
+   "value": "40–90 kg",
+   "lo": 40,
+   "hi": 90,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白尾报警",
+   "icon": "ear",
+   "desc": "奔跑时会亮出白色的尾巴，提醒其他鹿有危险。"
+  },
+  {
+   "name": "一岁长角",
+   "icon": "camo",
+   "desc": "营养好的地方，1.5 岁的雄鹿就能长出八个叉的鹿角。"
+  }
+ ],
+ "intro": [
+  "白尾鹿分布在北美、中美到南美北部。",
+  "热带和佛罗里达群岛的白尾鹿个子小得多，平均 35–50 kg。",
+  "北部有雄鹿超过 180 kg 的记录。"
+ ],
+ "fact": "把所有亚种算在一起，成年雄鹿夏季平均 68 kg，雌鹿 45 kg。",
+ "range": "加拿大南部到南美洲北部。",
+ "sources": [
+  "Wikipedia「White-tailed deer」",
+  "IUCN 红色名录（Gallina 2016）"
+ ],
+ "footnote": ""
+}

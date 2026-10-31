@@ -1,0 +1,77 @@
+{
+ "file": "菲律宾眼镜猴",
+ "no": "246",
+ "cat": "森林",
+ "name_cn": "菲律宾眼镜猴",
+ "name_en": "Philippine tarsier",
+ "latin": "Carlito syrichta",
+ "short": "菲律宾眼镜猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（待核）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2020"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "80–160 g",
+   "lo": 0.08,
+   "hi": 0.16,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 70 mm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "约 115 mm",
+   "lo": 0.115,
+   "hi": 0.115,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "跳跃",
+   "value": "至少 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "跳远",
+   "icon": "climb",
+   "desc": "名字来自它长长的跗骨（踝骨），让它能在树间跳至少 3 m。"
+  },
+  {
+   "name": "大眼睛",
+   "icon": "ear",
+   "desc": "刚出生的小眼镜猴就长满了毛、睁着眼睛。"
+  }
+ ],
+ "intro": [
+  "菲律宾眼镜猴只生活在菲律宾南部的岛屿上。",
+  "怀孕约 180 天，每胎只生一只。",
+  "它喜欢低矮茂密的次生林，常停在离地约 2 m 的地方。"
+ ],
+ "fact": "它的尾巴比身体还长。",
+ "range": "菲律宾南部（保和岛、萨马岛、莱特岛、棉兰老岛等）。",
+ "sources": [
+  "Wikipedia「Philippine tarsier」",
+  "IUCN 红色名录（Shekelle 2020）"
+ ],
+ "footnote": ""
+}

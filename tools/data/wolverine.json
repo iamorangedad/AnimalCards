@@ -1,0 +1,77 @@
+{
+ "file": "狼獾",
+ "no": "242",
+ "cat": "森林",
+ "name_cn": "狼獾",
+ "name_en": "Wolverine",
+ "latin": "Gulo gulo",
+ "short": "狼獾",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕猎，也吃动物尸体（待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016"
+ },
+ "stats": [
+  {
+   "label": "雄体重",
+   "value": "11–18 kg",
+   "lo": 11,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "65–109 cm",
+   "lo": 0.65,
+   "hi": 1.09,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "36–45 cm",
+   "lo": 0.36,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "17–26 cm",
+   "lo": 0.17,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冰爪",
+   "icon": "climb",
+   "desc": "腿短但脚掌大，爪子像冰爪，能轻松爬上陡崖、大树和积雪的山峰。"
+  },
+  {
+   "name": "啃冻肉",
+   "icon": "roar",
+   "desc": "它的颌骨特别强壮，能把冻得硬邦邦的猎物或尸体上的肉撕下来。"
+  }
+ ],
+ "intro": [
+  "狼獾又叫貂熊，是陆地上最大的鼬科动物。",
+  "它有一只中型狗那么大。",
+  "雄性体重可比雌性重 30–40%。"
+ ],
+ "fact": "德语叫它 Vielfraß（“吃得很多”），所以它有“贪吃鬼”的名声。",
+ "range": "北美、欧洲北部和亚洲北部的寒带森林和苔原。",
+ "sources": [
+  "Wikipedia「Wolverine」",
+  "IUCN 红色名录（Abramov 2016）"
+ ],
+ "footnote": ""
+}

@@ -29,6 +29,7 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
 .suggest .nm{ font-weight:700; } .suggest .en{ font-size:12px; color:var(--grey); }
 .suggest .no{ margin-left:auto; font-family:var(--mono); font-size:12px; color:var(--grey); }
 .btn-ghost{ display:none; font:inherit; font-weight:700; border:2px solid var(--ink); background:#fff; border-radius:10px; padding:8px 12px; cursor:pointer; }
+.btn-ghost.lang{ display:block; padding:6px 10px; font-size:13px; flex:none; }
 .btn-link{ font:inherit; font-size:13px; background:none; border:none; color:var(--acc); cursor:pointer; text-decoration:underline; }
 /* filters */
 .filters{ position:absolute; z-index:15; top:84px; left:12px; width:310px; background:var(--card); border:2px solid var(--ink); border-radius:14px;
@@ -98,6 +99,7 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
   .brand h1{ font-size:16px; } .brand .sub{ display:none; } .logo{ font-size:22px; }
   .search{ order:3; flex-basis:100%; max-width:none; }
   .btn-ghost{ display:block; margin-left:auto; }
+  .btn-ghost.lang{ margin-left:0; }
   .filters{ top:104px; left:8px; right:8px; width:auto; display:none; }
   .filters.open{ display:block; }
   .panel{ top:auto; left:0; right:0; bottom:0; width:auto; max-height:72vh; border-radius:18px 18px 0 0; border-bottom:none; }

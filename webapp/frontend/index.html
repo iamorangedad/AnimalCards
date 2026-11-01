@@ -13,38 +13,39 @@
   <header class="topbar">
     <div class="brand">
       <span class="logo">🌏</span>
-      <div><h1>动物卡片地球</h1><div class="sub mono">AnimalCards · <span id="countAll">1000</span> 种动物·植物·真菌</div></div>
+      <div><h1 data-i18n="title">动物卡片地球</h1><div class="sub mono" id="subTitle">AnimalCards · <span id="countAll">1000</span> 种动物·植物·真菌</div></div>
     </div>
     <div class="search">
-      <input id="q" type="search" placeholder="搜索（中文 / 英文 / 学名）" autocomplete="off" aria-label="搜索">
+      <input id="q" type="search" placeholder="搜索（中文 / 英文 / 学名）" autocomplete="off" aria-label="搜索" data-i18n-ph="search">
       <ul id="suggest" class="suggest" role="listbox" hidden></ul>
     </div>
-    <button id="filterToggle" class="btn-ghost" aria-expanded="false">筛选</button>
+    <button id="filterToggle" class="btn-ghost" aria-expanded="false" data-i18n="filter">筛选</button>
+    <button id="langBtn" class="btn-ghost lang" type="button" title="Switch to English" aria-label="English / 中文">EN</button>
   </header>
 
   <section id="filters" class="filters">
-    <div class="row"><span class="lab">类别</span><div id="catChips" class="chips"></div></div>
+    <div class="row"><span class="lab" data-i18n="cat">类别</span><div id="catChips" class="chips"></div></div>
     <div class="row"><span class="lab">IUCN</span><div id="iucnChips" class="chips"></div></div>
-    <div class="row meta"><span id="shown" class="mono"></span><button id="resetBtn" class="btn-link">重置</button>
-      <label class="tog"><input type="checkbox" id="rotateTog" checked> 自动旋转</label></div>
+    <div class="row meta"><span id="shown" class="mono"></span><button id="resetBtn" class="btn-link" data-i18n="reset">重置</button>
+      <label class="tog"><input type="checkbox" id="rotateTog" checked> <span data-i18n="rotate">自动旋转</span></label></div>
   </section>
 
-  <div id="globe" aria-label="3D 地球"></div>
+  <div id="globe" aria-label="3D 地球" data-i18n-aria="globe"></div>
   <div id="tooltip" class="tooltip" hidden></div>
 
   <aside id="panel" class="panel" hidden aria-live="polite">
-    <button id="panelClose" class="close" aria-label="关闭">×</button>
+    <button id="panelClose" class="close" aria-label="关闭" data-i18n-aria="close">×</button>
     <div id="panelBody"></div>
   </aside>
 
-  <div id="lightbox" class="lightbox" hidden><img id="lbImg" alt=""><button class="close" id="lbClose" aria-label="关闭">×</button></div>
+  <div id="lightbox" class="lightbox" hidden><img id="lbImg" alt=""><button class="close" id="lbClose" aria-label="关闭" data-i18n-aria="close">×</button></div>
 
   <footer class="note">
-    <b>说明：</b>标注位置是根据卡片“分布”文字匹配到的国家/区域代表点，均为<b>近似位置</b>，并非精确分布范围；
-    数据由 AI 辅助整理，<b>需人工复核</b>。同一地点的多种动物会稍微错开显示。
-    <a href="#" id="aboutLink">数据来源</a>
+    <span id="noteText"><b>说明：</b>标注位置是根据卡片“分布”文字匹配到的国家/区域代表点，均为<b>近似位置</b>，并非精确分布范围；
+    数据由 AI 辅助整理，<b>需人工复核</b>。同一地点的多种动物会稍微错开显示。</span>
+    <a href="#" id="aboutLink" data-i18n="about">数据来源</a>
   </footer>
-  <div id="loading" class="loading">正在加载地球…</div>
+  <div id="loading" class="loading" data-i18n="loading">正在加载地球…</div>
 </div>
 <script src="vendor/globe.gl.min.js"></script>
 <script src="app.js"></script>

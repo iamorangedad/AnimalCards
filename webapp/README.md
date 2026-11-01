@@ -1,39 +1,50 @@
-# 动物卡片地球（AnimalCards Globe）
+# AnimalCards Globe
 
-把仓库里的 1000 张卡片（动物 760、植物 200、真菌 40）放到一个可拖拽、可缩放的 3D 地球上：每个物种在分布地有 1–3 个标注，点击标注会打开卡片预览，可以查看高清 PNG、下载 PDF。
+**English** · [中文 (Chinese)](README.zh-CN.md) · [Back to the main README](../README.md)
 
-> ⚠️ **数据说明**：标注位置是根据卡片“分布”文字匹配到的国家/区域代表点，**全部是近似位置**，不是真实分布范围。数据由 AI 辅助整理，**需要人工复核**。页面底部和“数据来源”面板里也有同样的说明。
+A draggable, zoomable 3D globe showing all 1000 cards in this repository (760 animals, 200 plants, 40 fungi). Each species has one to three markers where it lives or comes from. Click a marker to preview the card, open the full PNG or download the PDF.
 
-## 功能
+> ⚠️ **About the data:** markers are representative points for the countries or regions matched from each card's range text. They are **all approximate** and are not real distribution ranges. The data was compiled with AI assistance and **needs human review**. The page footer and the “Data & sources” panel say the same. Open location issues are listed in section 4 of [REVIEW_CHECKLIST.md](../REVIEW_CHECKLIST.md#4-web-app-map-locations).
 
-- 3D 地球：自动旋转，可拖动、缩放；NASA Blue Marble 贴图，带地形凹凸
-- 标注按类别着色，用卡片头像做图标；离得近的标注会自动聚合成气泡，放大后再展开；同一地点的多种动物错开显示，放大后点击气泡会列出这里的全部动物
-- 悬停显示名字，点击打开侧栏（手机上是底部抽屉）：卡片缩略图、点开看高清 PNG、下载 PDF、IUCN 等级、分布、标注依据、来源
-- 按界筛选（点“动物 / 植物 / 真菌”= 只看这一界，再点恢复全部）、16 个类别各有颜色和筛选按钮（植物 6 类、真菌 2 类）、IUCN 等级筛选（Shift/Alt + 点击 = 只看这一项）、搜索（中文/英文/学名），选中后地球会飞到这个动物
-- 链接分享：`/#a=giant-panda` 直接打开大熊猫
-- 界面全中文，适配手机
+## Features
 
-## 目录
+- **3D globe** that auto-rotates and can be dragged and zoomed, using the NASA Blue Marble texture with terrain bump.
+- **Markers** coloured by category, using the card avatar as the icon.
+  - Nearby markers merge into clusters that split apart as you zoom in.
+  - Species at the same spot are offset. When zoomed in, clicking a cluster lists every species there.
+- **Hover** shows the name. **Click** opens a side panel (a bottom drawer on phones) with:
+  - the card thumbnail, a full-size PNG view and a PDF download
+  - IUCN status, range, how the location was chosen, and sources
+- **Filters and search**
+  - Kingdom filter: click Animals / Plants / Fungi to show only that kingdom, click again to show all.
+  - 16 category filters, each with its own colour (8 animal, 6 plant, 2 fungus).
+  - IUCN filter: Shift/Alt-click shows only that category.
+  - Search by Chinese, English or scientific name; picking a result flies the globe to that species.
+- **Shareable links**: `/#a=giant-panda` opens the giant panda directly.
+- **Language toggle**: the UI is Chinese by default. The **EN / 中文** button in the top bar switches to English, and the choice is saved in the browser; `?lang=en` also works. In English mode names, categories, IUCN labels and all UI text are English. Range texts and place labels come from the Chinese cards, so they stay in Chinese.
+- **Mobile-friendly**.
+
+## Layout
 
 ```
 webapp/
-├── backend/app.py          FastAPI 服务（API + 静态文件）
-├── frontend/               前端（index.html / style.css / app.js；vendor/ 为本地打包的 globe.gl）
-├── data/animals.json       由脚本生成的动物+坐标数据（不要手改，改脚本或 locations_manual.json）
-├── data/locations_manual.json   人工指定的标注点（附来源）
-├── data/gazetteer_ne.json  由 Natural Earth 生成的国家代表点
-├── thumbs/                 WebP 缩略图（400px 卡片预览 + 120px 头像，共 2000 个），约 30MB
-├── scripts/                生成数据和缩略图的脚本
-├── tests/                  URL 检查和截图脚本
+├── backend/app.py          FastAPI service (API + static files)
+├── frontend/               front end (index.html / style.css / app.js; vendor/ holds a bundled globe.gl)
+├── data/animals.json       generated species + coordinates (don't edit by hand; edit the scripts or locations_manual.json)
+├── data/locations_manual.json   hand-placed markers (with sources)
+├── data/gazetteer_ne.json  country label points generated from Natural Earth
+├── thumbs/                 WebP thumbnails (400 px card preview + 120 px avatar, 2000 files), about 30 MB
+├── scripts/                scripts that build the data and thumbnails
+├── tests/                  URL check and screenshot scripts
 ├── Dockerfile / docker-compose.yml / .env.example
-└── deploy/                 nginx 和 systemd 示例
+└── deploy/                 nginx and systemd examples
 ```
 
-卡片原图 PNG/PDF **不复制**，服务直接读取仓库里的 `动物/`、`植物/`、`真菌/` 文件夹（URL 前缀分别是 `/cards/`、`/plants/`、`/fungi/`；环境变量 `CARDS_DIR`、`PLANTS_DIR`、`FUNGI_DIR` 可改路径）。
+Card PNG/PDF files are **not copied**. The service reads them straight from the repository's `动物/` (animals), `植物/` (plants) and `真菌/` (fungi) folders, under the URL prefixes `/cards/`, `/plants/` and `/fungi/`. The environment variables `CARDS_DIR`, `PLANTS_DIR` and `FUNGI_DIR` change these paths.
 
-## 本地运行
+## Run locally
 
-需要 Python 3.10+。
+Requires Python 3.10+.
 
 ```bash
 cd webapp
@@ -41,110 +52,110 @@ python3 -m venv .venv
 .venv/bin/pip install -r backend/requirements.txt
 cd backend
 ../.venv/bin/uvicorn app:app --host 127.0.0.1 --port 8000
-# 浏览器打开 http://127.0.0.1:8000
+# open http://127.0.0.1:8000  (English UI: http://127.0.0.1:8000/?lang=en)
 ```
 
-### 更新数据 / 缩略图（新增或修改卡片之后）
+### Rebuild data and thumbnails (after adding or changing cards)
 
 ```bash
 cd webapp
 .venv/bin/pip install -r scripts/requirements-build.txt   # Pillow
-python3 scripts/build_data.py            # 读取 ../tools/data/*.json → data/animals.json
-.venv/bin/python scripts/build_thumbs.py # 读取 ../动物|植物|真菌/**/*.png → thumbs/*.webp（已存在的跳过，--force 全部重做）
-# 国家代表点一般不用重做；如需：下载 Natural Earth 1:50m admin0 geojson 后
+python3 scripts/build_data.py            # reads ../tools/data/*.json → data/animals.json
+.venv/bin/python scripts/build_thumbs.py # reads ../动物|植物|真菌/**/*.png → thumbs/*.webp (skips existing; --force redoes all)
+# Country points rarely need rebuilding; if they do, download the Natural Earth 1:50m admin0 geojson, then:
 # python3 scripts/build_gazetteer.py ne_50m_admin_0_countries.geojson
 ```
 
-### 检查
+### Checks
 
 ```bash
-.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API 是否 1000 条、所有 PNG/PDF/缩略图是否可访问
-# 截图（需要 playwright 和 Chromium）
-python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [chrome 路径]
+.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API returns 1000 items; every PNG/PDF/thumbnail is reachable
+# screenshots (needs playwright and Chromium)
+python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [path-to-chrome]
 ```
 
 ## API
 
-| 路径 | 说明 |
+| Path | Description |
 |---|---|
-| `GET /api/animals` | 卡片列表（动物、植物、真菌；接口名保持不变）。参数：`category`（如 `海洋`、`蘑菇`，多个用逗号）、`iucn`（如 `CR,EN`）、`q`（名称搜索）、`bbox`（`minLon,minLat,maxLon,maxLat`，支持跨日界线）、`limit`、`offset`。返回 `{count, items}` |
-| `GET /api/animals/{id}` | 单个动物，如 `/api/animals/giant-panda` |
-| `GET /api/meta` | 数量统计、类别、数据说明 |
-| `GET /healthz` | 健康检查 |
-| `GET /cards/<类别>/<名字>.png\|.pdf` | 动物卡片原图 / PDF（来自 `动物/`） |
-| `GET /plants/<类别>/<名字>.png\|.pdf` | 植物卡片（来自 `植物/`） |
-| `GET /fungi/<类别>/<名字>.png\|.pdf` | 真菌卡片（来自 `真菌/`） |
-| `GET /thumbs/<id>_400.webp`、`<id>_120.webp` | 缩略图 |
-| `GET /api/docs` | 自动生成的接口文档 |
+| `GET /api/animals` | Card list (animals, plants and fungi; the endpoint name is kept for compatibility). Parameters: `category` (Chinese category name, e.g. `海洋` Ocean, `蘑菇` Mushrooms; comma-separated), `iucn` (e.g. `CR,EN`), `q` (name search), `bbox` (`minLon,minLat,maxLon,maxLat`, antimeridian-safe), `limit`, `offset`. Returns `{count, items}` |
+| `GET /api/animals/{id}` | One species, e.g. `/api/animals/giant-panda` |
+| `GET /api/meta` | Counts, categories, data notes |
+| `GET /healthz` | Health check |
+| `GET /cards/<category>/<name>.png\|.pdf` | Animal card image / PDF (from `动物/`) |
+| `GET /plants/<category>/<name>.png\|.pdf` | Plant cards (from `植物/`) |
+| `GET /fungi/<category>/<name>.png\|.pdf` | Fungus cards (from `真菌/`) |
+| `GET /thumbs/<id>_400.webp`, `<id>_120.webp` | Thumbnails |
+| `GET /api/docs` | Auto-generated API docs |
 
-服务开启了 gzip；卡片、缩略图、贴图带 7 天缓存，API 5 分钟，页面本身 `no-cache`（更新后立即生效）。
+Each item has `name_zh`, `name_en`, `latin`, `kingdom`, `category` (Chinese), `iucn`, `range_text`, `locations[]` and the card URLs. Responses are gzip-compressed. Cards, thumbnails and textures are cached for 7 days and the API for 5 minutes. The page itself is `no-cache`, so updates show up immediately.
 
-## 部署到服务器
+## Deploying to a server
 
-### 方式一：Docker（推荐）
+### Option 1: Docker (recommended)
 
 ```bash
 git clone https://github.com/iamorangedad/AnimalCards.git /opt/AnimalCards
 cd /opt/AnimalCards/webapp
-cp .env.example .env          # 按需改端口
+cp .env.example .env          # change the port if needed
 docker compose up -d --build
 curl http://127.0.0.1:8000/healthz
 ```
 
-compose 会把整个仓库**只读**挂载进容器，所以以后更新只需要：
+Compose mounts the whole repository **read-only** into the container, so updating later only needs:
 
 ```bash
 cd /opt/AnimalCards && git pull && cd webapp && docker compose restart
 ```
 
-### 方式二：systemd（不用 Docker）
+### Option 2: systemd (no Docker)
 
 ```bash
 cd /opt/AnimalCards/webapp
 python3 -m venv .venv && .venv/bin/pip install -r backend/requirements.txt
-cp .env.example .env   # 把 ANIMALCARDS_ROOT 改成 /opt/AnimalCards
+cp .env.example .env   # set ANIMALCARDS_ROOT to /opt/AnimalCards
 sudo cp deploy/animalcards.service /etc/systemd/system/
 sudo systemctl daemon-reload && sudo systemctl enable --now animalcards
 ```
 
-### 域名和 HTTPS（nginx）
+### Domain and HTTPS (nginx)
 
 ```bash
-sudo cp deploy/nginx.conf /etc/nginx/sites-available/animalcards   # 改 server_name
+sudo cp deploy/nginx.conf /etc/nginx/sites-available/animalcards   # edit server_name
 sudo ln -s /etc/nginx/sites-available/animalcards /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
-sudo certbot --nginx -d 你的域名
+sudo certbot --nginx -d your.domain
 ```
 
-资源占用很小：每个 uvicorn 进程约 60MB 内存；单个页面首次加载约 4MB（地球贴图 1.5MB + globe.gl 1.9MB），之后走缓存。
+Resource use is small. Each uvicorn process takes about 60 MB of RAM. The first page load is about 4 MB (1.5 MB globe texture + 1.9 MB globe.gl), and later loads come from the cache.
 
-## 坐标数据是怎么来的（请复核）
+## How the coordinates are made (please review)
 
-`scripts/build_data.py` 读取每张卡片的“分布”文字（`tools/data/*.json` 的 `range` 字段）：
+`scripts/build_data.py` reads each card's range text (the `range` field in `tools/data/*.json`):
 
-1. 按标点切分句子，丢掉“引入 / 养殖 / 入侵 / 已被带到…”这类非原生分布的句子，去掉“…除外”；
-2. 在句子里找国家名（Natural Earth 中文名）、大洲/地区、省份、海域等关键词，取最长匹配；国家后面跟“北部/东南部”等方位时，按国界范围推算一个点；
-3. 海洋动物和海草（大叶藻、大洋波喜荡草）优先放海里，其余优先放陆地；相距不到 400km 的点合并；每种最多 3 个点；
-4. 文字里只有“全球 / 广泛分布 / 除南极洲外”的，放 3 个代表点并标“广泛分布”；
-5. 家养动物标在**驯化起源地**，栽培植物 / 栽培食用菌（共 72 种，数据里 `cultivated: true`）标在**原产地 / 起源地**，不是全部种植区；
-6. 只写“热带 / 亚热带”的物种放 3 个热带代表点（南美、非洲、东南亚）；括号里的“重引入点”不影响原生地名匹配；
-7. 有 8 种（北极熊、雪鸮、狗、马、骡、家鸽、宠物大鼠、大叶藻）用了人工点位，写在 `data/locations_manual.json`，每条都附维基百科来源。
+1. It splits the text into sentences. It drops sentences about non-native occurrence (“introduced / farmed / invasive / brought to …”) and removes “… excluded” clauses.
+2. It looks for country names (Natural Earth Chinese names), continents and regions, provinces, seas and other keywords, and takes the longest match. When a country is followed by a direction such as “northern” or “south-eastern”, it estimates a point inside the country's extent.
+3. Marine animals and seagrasses (eelgrass, Neptune grass) are placed at sea first and everything else on land first. Points less than 400 km apart are merged, with at most 3 points per species.
+4. Texts that only say “global / widespread / everywhere except Antarctica” get 3 representative points marked “widespread”.
+5. Domestic animals are placed at their **domestication centre**. Cultivated plants and cultivated mushrooms (72 species, `cultivated: true` in the data) are placed at their **origin**, not across all growing areas.
+6. Species described only as “tropical / subtropical” get 3 tropical representative points (South America, Africa, South-East Asia). Re-introduction sites in brackets don't affect native-range matching.
+7. Eight species (polar bear, snowy owl, dog, horse, mule, domestic pigeon, fancy rat, eelgrass) use hand-placed points in `data/locations_manual.json`, each with a Wikipedia source.
 
-当前结果：1000 种全部有标注，共 2037 个点，**全部 `approx: true`**；
-- 911 种由分布文字自动匹配，8 种人工点位，81 种只有“广泛分布”代表点（多为海洋鱼类、霉菌酵母等全球分布的物种）；
-- 10 种标为“位置待核”（`location_pending: true`）：`宠物小鼠` 的驯化起源，以及 9 种栽培物种卡片上没写原产地（朱槿、欧洲油菜、芝麻、椰子、紫花苜蓿、草莓、萝卜、洋葱、银耳），只放了广泛分布代表点；
-- 另有 7 种卡片的分布文字本身含“待核”（红袋鼠、赤狐、浣熊、豌豆蚜、亮斑扁角水虻、普通草蛉、蜉蝣）。
+Current result: all 1000 species have markers, 2037 points in total, **all `approx: true`**.
+- 911 species are matched from range text, 8 use manual points, and 81 only have “widespread” representative points (mostly ocean fish, molds and yeasts, and other globally distributed species).
+- 10 species are flagged “location to be verified” (`location_pending: true`). One is the domestication origin of the fancy mouse. The other 9 are cultivated species whose cards give no origin (Chinese hibiscus, rapeseed, sesame, coconut palm, alfalfa, garden strawberry, radish, onion, snow fungus), so they only have widespread representative points.
+- The range text on 7 more cards itself contains “待核” (to verify): red kangaroo, red fox, raccoon, pea aphid, black soldier fly, common green lacewing, mayflies.
 
-每个点在数据里都带 `kind`（标注依据）、`label`，每个物种带 `kingdom`、`category`、`range_note`、`source`（维基百科条目）和 `location_method`，页面侧栏会显示这些信息和复核提示。
+Every point carries `kind` (how it was placed) and `label`. Every species carries `kingdom`, `category`, `range_note`, `source` (Wikipedia article) and `location_method`. The side panel shows these together with review hints.
 
-## 第三方资源和许可证
+## Third-party assets and licences
 
-| 资源 | 许可证 |
+| Asset | Licence |
 |---|---|
-| [globe.gl](https://github.com/vasturiano/globe.gl) 2.46（含 three-globe） | MIT，见 `frontend/vendor/LICENSE-*.txt` |
+| [globe.gl](https://github.com/vasturiano/globe.gl) 2.46 (incl. three-globe) | MIT, see `frontend/vendor/LICENSE-*.txt` |
 | [three.js](https://threejs.org/) | MIT |
-| 地球贴图 `earth-blue-marble.jpg`、`earth-topology.png`（来自 three-globe 示例，源自 NASA Blue Marble / NASA 地形数据） | 公有领域（NASA） |
-| [Natural Earth](https://www.naturalearthdata.com/) 1:50m 国家边界（用于生成 `gazetteer_ne.json`） | 公有领域 |
+| Globe textures `earth-blue-marble.jpg`, `earth-topology.png` (from the three-globe examples, derived from NASA Blue Marble / NASA topography) | Public domain (NASA) |
+| [Natural Earth](https://www.naturalearthdata.com/) 1:50m country boundaries (used to build `gazetteer_ne.json`) | Public domain |
 | FastAPI / Uvicorn | MIT / BSD-3 |
 
-前端不依赖任何运行时 CDN，所有文件都在本地。
+The front end loads nothing from a CDN at runtime; all files are local.

@@ -1,0 +1,79 @@
+{
+ "file": "鲯鳅",
+ "no": "1117",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "鲯鳅",
+ "name_en": "Mahi-mahi",
+ "latin": "Coryphaena hippurus",
+ "short": "鲯鳅",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃飞鱼等中上层小鱼、鱼类幼体、蟹、乌贼和水母等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见渔获",
+   "value": "7–13 kg",
+   "lo": 7,
+   "hi": 13,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "每次产卵",
+   "value": "8 万–100 万",
+   "lo": 80000,
+   "hi": 1000000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "游速",
+   "value": "最快 92.6 km/h",
+   "lo": 92.6,
+   "hi": 92.6,
+   "scale": "speed",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "金色变色",
+   "icon": "glow",
+   "desc": "侧面金黄、背部蓝绿；离开水后体色会快速变换。"
+  },
+  {
+   "name": "高速追猎",
+   "icon": "wind",
+   "desc": "为了追捕多种中上层猎物，它游得非常快。"
+  }
+ ],
+ "intro": [
+  "鲯鳅也叫鬼头刀、海豚鱼，是生活在表层的鱼。",
+  "它分布在近海外的温带、热带和亚热带海域。",
+  "公鱼头部隆起，母鱼头部圆。"
+ ],
+ "fact": "它很少超过 15 kg，超过 18 kg 的属罕见。",
+ "range": "全球温带、热带和亚热带外海表层。",
+ "sources": [
+  "Wikipedia「Mahi-mahi」",
+  "IUCN 红色名录（Collette, B. 2011）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "长鳍金枪鱼",
+ "no": "1118",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "长鳍金枪鱼",
+ "name_en": "Albacore",
+ "latin": "Thunnus alalunga",
+ "short": "长鳍金枪鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、甲壳类和头足类，头足类为主",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "1.4 m",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "1.0 m",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "0–600 m",
+   "lo": 0,
+   "hi": 600,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "10–25 °C",
+   "lo": 10,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长长胸鳍",
+   "icon": "wind",
+   "desc": "胸鳍很长，通常一直伸到第二背鳍下方。"
+  },
+  {
+   "name": "远洋猎手",
+   "icon": "food",
+   "desc": "它是远洋捕食者，吃多种鱼、甲壳类和头足类。"
+  }
+ ],
+ "intro": [
+  "长鳍金枪鱼也叫长鳍鲔，是一种金枪鱼。",
+  "它分布在全球温带和热带的表层到中层海域。",
+  "它是最小的“蓝鳍类”金枪鱼。"
+ ],
+ "fact": "它曾是美国金枪鱼罐头产业最早的原料。",
+ "range": "全球温带和热带海洋。",
+ "sources": [
+  "Wikipedia「Albacore」",
+  "IUCN 红色名录（Collette, B.B. 2021）"
+ ],
+ "footnote": ""
+}

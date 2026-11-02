@@ -1,0 +1,79 @@
+{
+ "file": "小齿锯鳐",
+ "no": "1107",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "小齿锯鳐",
+ "name_en": "Largetooth sawfish",
+ "latin": "Pristis pristis",
+ "short": "小齿锯鳐",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鱼、软体动物和甲壳类",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2022",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "最大实测",
+   "value": "7 m",
+   "lo": 7,
+   "hi": 7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "2–2.5 m",
+   "lo": 2,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大个体体重",
+   "value": "500–600 kg",
+   "lo": 500,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 7–10 岁",
+   "lo": 7,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "锯子长吻",
+   "icon": "thorn",
+   "desc": "“锯子”约占全长的 27%，可用来搅动海底找食物。"
+  },
+  {
+   "name": "进入淡水",
+   "icon": "dive",
+   "desc": "生活在热带沿海，也会进入淡水河流。"
+  }
+ ],
+ "intro": [
+  "小齿锯鳐是锯鳐科的鱼，名字来自希腊语“锯子”。",
+  "它在全球热带和亚热带沿海都有分布。",
+  "数量急剧下降，现在是极危物种。"
+ ],
+ "fact": "四个寿命估计分别为 30、35、44 和 80 年。",
+ "range": "全球热带、亚热带沿海和河流。",
+ "sources": [
+  "Wikipedia「Largetooth sawfish」",
+  "IUCN 红色名录（Espinoza, M. 2022）"
+ ],
+ "footnote": ""
+}

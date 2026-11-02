@@ -1,0 +1,79 @@
+{
+ "file": "沙丁鱼",
+ "no": "1116",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "沙丁鱼",
+ "name_en": "European pilchard",
+ "latin": "Sardina pilchardus",
+ "short": "沙丁鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃浮游甲壳类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "27.5 cm",
+   "lo": 0.275,
+   "hi": 0.275,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每雌产卵",
+   "value": "5–6 万枚",
+   "lo": 50000,
+   "hi": 60000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "白天水深",
+   "value": "25–55 m",
+   "lo": 25,
+   "hi": 55,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 1 岁",
+   "lo": 1,
+   "hi": 1,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "集群洄游",
+   "icon": "team",
+   "desc": "它成群洄游，大多在近海，有时游到离岸 100 km。"
+  },
+  {
+   "name": "昼夜升降",
+   "icon": "dive",
+   "desc": "白天待在 25–55 m 深，夜里升到 10–35 m。"
+  }
+ ],
+ "intro": [
+  "沙丁鱼（欧洲沙丁鱼）是沙丁鱼属唯一的物种。",
+  "它分布在东北大西洋、地中海和黑海。",
+  "幼鱼常被叫作“sardine”。"
+ ],
+ "fact": "有一种说法：短于 15 cm 的叫 sardine，更大的叫 pilchard。",
+ "range": "东北大西洋、地中海和黑海。",
+ "sources": [
+  "Wikipedia「European pilchard」",
+  "IUCN 红色名录（Tous, P. 2015）"
+ ],
+ "footnote": ""
+}

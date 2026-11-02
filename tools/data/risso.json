@@ -1,0 +1,79 @@
+{
+ "file": "灰海豚",
+ "no": "1103",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "灰海豚",
+ "name_en": "Risso's dolphin",
+ "latin": "Grampus griseus",
+ "short": "灰海豚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "几乎只吃近海和大洋里的乌贼，多在夜间捕食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "常见约 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体长",
+   "value": "4 m",
+   "lo": 4,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "300–500 kg",
+   "lo": 300,
+   "hi": 500,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "潜水深度",
+   "value": "约 600 m",
+   "lo": 600,
+   "hi": 600,
+   "scale": "depth",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "满身伤疤",
+   "icon": "camo",
+   "desc": "身上布满白色的伤痕，可以靠它辨认。"
+  },
+  {
+   "name": "深潜捕乌贼",
+   "icon": "dive",
+   "desc": "能潜到近 600 m 深追捕猎物。"
+  }
+ ],
+ "intro": [
+  "灰海豚是灰海豚属唯一的物种，属于海豚科。",
+  "它和领航鲸亲缘很近。",
+  "它是名字里带“海豚”的最大物种。"
+ ],
+ "fact": "它偏爱大陆架外缘、水深 400–1000 m 的陡坡水域。",
+ "range": "全球温带到热带海洋。",
+ "sources": [
+  "Wikipedia「Risso's dolphin」",
+  "IUCN 红色名录（Kiszka, J. 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "长棘海星",
+ "no": "1125",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "长棘海星",
+ "name_en": "Crown-of-thorns starfish",
+ "latin": "Acanthaster planci",
+ "short": "长棘海星",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃硬珊瑚的珊瑚虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成体直径",
+   "value": "25–35 cm",
+   "lo": 0.25,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "腕数",
+   "value": "最多 21 条",
+   "lo": 21,
+   "hi": 21,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "刺长",
+   "value": "4–5 cm",
+   "lo": 0.04,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "大雌产卵",
+   "value": "650 万–1400 万",
+   "lo": 6500000.0,
+   "hi": 14000000.0,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒刺冠",
+   "icon": "toxic",
+   "desc": "背面布满有毒的尖刺，像荆棘做的王冠。"
+  },
+  {
+   "name": "珊瑚杀手",
+   "icon": "food",
+   "desc": "专吃硬珊瑚虫，爆发时能大片毁坏珊瑚礁。"
+  }
+ ],
+ "intro": [
+  "长棘海星也叫棘冠海星，是一种大型海星。",
+  "它的名字来自背上像荆棘冠的毒刺。",
+  "它在热带珊瑚礁上平均每分钟能爬 35 cm。"
+ ],
+ "fact": "约 11 种动物被报道偶尔会捕食健康的成年长棘海星。",
+ "range": "印度洋—太平洋热带珊瑚礁。",
+ "sources": [
+  "Wikipedia「Crown-of-thorns starfish」"
+ ],
+ "footnote": "“大雌产卵”指直径 300 mm 的雌体。",
+ "warn": "刺扎进皮肤会引起剧烈刺痛，可持续数小时，千万不要徒手碰。"
+}

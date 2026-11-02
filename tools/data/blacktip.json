@@ -1,0 +1,79 @@
+{
+ "file": "乌翅真鲨",
+ "no": "1105",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "乌翅真鲨",
+ "name_en": "Blacktip reef shark",
+ "latin": "Carcharhinus melanopterus",
+ "short": "乌翅真鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小型硬骨鱼、头足类和甲壳类，也吃海蛇和海鸟",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "1.6 m",
+   "lo": 1.6,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "可能 2.0 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重记录",
+   "value": "13.6 kg",
+   "lo": 13.6,
+   "hi": 13.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "记录水深",
+   "value": "75 m",
+   "lo": 75,
+   "hi": 75,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑色鳍尖",
+   "icon": "camo",
+   "desc": "鳍尖（尤其第一背鳍和尾鳍）有醒目的黑色。"
+  },
+  {
+   "name": "浅水巡游",
+   "icon": "dive",
+   "desc": "通常在只有几米深的水里，常能看到背鳍露出水面。"
+  }
+ ],
+ "intro": [
+  "乌翅真鲨是真鲨科的一种鲨鱼。",
+  "它是印度—太平洋珊瑚礁最常见的鲨鱼之一。",
+  "过度捕捞已使它在一些地方减少。"
+ ],
+ "fact": "它的妊娠期记录从 7–9 个月到可能 16 个月不等。",
+ "range": "印度洋—太平洋热带珊瑚礁浅水。",
+ "sources": [
+  "Wikipedia「Blacktip reef shark」",
+  "IUCN 红色名录（Simpfendorfer, C. 2020）"
+ ],
+ "footnote": ""
+}

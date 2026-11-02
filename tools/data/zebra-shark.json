@@ -1,0 +1,79 @@
+{
+ "file": "豹纹鲨",
+ "no": "1123",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "豹纹鲨",
+ "name_en": "Zebra shark",
+ "latin": "Stegostoma tigrinum",
+ "short": "豹纹鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃带壳的软体动物，也吃甲壳类、小鱼，可能吃海蛇",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2024",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.5 m",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "最深 62 m",
+   "lo": 62,
+   "hi": 62,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "迁移距离",
+   "value": "最远 140 km",
+   "lo": 140,
+   "hi": 140,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "卵囊长",
+   "value": "17 cm",
+   "lo": 0.17,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "幼年斑马纹",
+   "icon": "camo",
+   "desc": "幼鲨是褐底浅色竖纹，长大后变成浅底黑斑。"
+  },
+  {
+   "name": "强力吸食",
+   "icon": "food",
+   "desc": "能产生强大的吸力，把猎物从洞缝里吸出来。"
+  }
+ ],
+ "intro": [
+  "豹纹鲨也叫印太豹鲨，是一种须鲨。",
+  "它是豹纹鲨科唯一现存的物种。",
+  "白天它常静静地趴在海底。"
+ ],
+ "fact": "研究观察到雌鲨即使有交配史，也能孤雌生殖。",
+ "range": "热带印度洋—太平洋的珊瑚礁和沙底。",
+ "sources": [
+  "Wikipedia「Zebra shark」",
+  "IUCN 红色名录（Rigby, C.L. 2024）"
+ ],
+ "footnote": ""
+}

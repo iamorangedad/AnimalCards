@@ -1,0 +1,80 @@
+{
+ "file": "南美毛皮海狮",
+ "no": "1102",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "南美毛皮海狮",
+ "name_en": "South American fur seal",
+ "latin": "Arctocephalus australis",
+ "short": "南美毛皮海狮",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "夜间捕食，吃鳀鱼、石首鱼、带鱼、头足类等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公兽体长",
+   "value": "最长约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公兽体重",
+   "value": "150–200 kg",
+   "lo": 150,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "新生体重",
+   "value": "3.5–5.5 kg",
+   "lo": 3.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "12–30 年",
+   "lo": 12,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜间猎手",
+   "icon": "food",
+   "desc": "它是夜间捕食的肉食者，主要吃底栖和中上层鱼类。"
+  },
+  {
+   "name": "爬崖休息",
+   "icon": "climb",
+   "desc": "在秘鲁的海蚀洞里，有的会爬到 15 m 高处休息。"
+  }
+ ],
+ "intro": [
+  "南美毛皮海狮在秘鲁、智利、福克兰群岛、阿根廷、乌拉圭和巴西沿岸繁殖。",
+  "它被 IUCN 列为无危。",
+  "体型因地区而不同。"
+ ],
+ "fact": "以往的厄尔尼诺事件曾导致秘鲁约 80% 的成年母兽死亡。",
+ "range": "南美洲太平洋和大西洋沿岸。",
+ "sources": [
+  "Wikipedia「South American fur seal」",
+  "IUCN 红色名录（Cárdenas-Alayza, S. 2016）"
+ ],
+ "footnote": ""
+}

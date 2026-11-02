@@ -163,3 +163,99 @@ ART6["bush-dog"] = CAN("rainforest", "#8a4a2a", bl=230, bd=96, lh=60, lw=22, hea
 ART6["javan-rhino"] = Q("rainforest", None, F="#7a7880", bl=330, bd=150, lh=90, lw=46, neck=(0, 0), head=(56, 50), snout=(52, 44), ears="point", horns="rhino", tail="tuft", tail_col="#4a4642", headdown=30, nose=None,
                         extras=P("M-80 -240 C-70 -190 -70 -140 -80 -100 M110 -240 C100 -190 100 -140 110 -100", sw=4, col="#5a5860"))
 ART6["spectacled-bear"] = _bear("forest", "#1e1c1c", "#e8d0a0", chest="#e8d0a0", mask="#e8d0a0")
+# ---- batch p5_sea1 ----
+_ceta = _a4._ceta; _sea = _a4._sea; _cuttle = _a4._cuttle; _ray = _a5._ray; _flat = _a5._flat
+def _fs(F, L=320, H=120, box=(.58, 600, 280), pre="", post="", kind="sea", **kw):
+    return lambda w, h: scene(kind, w, h, pre + fish(F=F, L=L, H=H, **kw) + post, box=(w / 2, h * box[0], box[1], box[2]))
+ART6["n-elephant-seal"] = lambda w, h: coast(w, h, pinniped("#7a6e66", L=440, up=0.5, belly="#9a8e84") + E(-214, -150, 36, 26, "#6a5e56", 2.6) + P("M-236 -132 q-8 20 6 34", sw=3), (w / 2, h * .66, 640, 330), rocky=False)
+ART6["sa-fur-seal"] = lambda w, h: coast(w, h, pinniped("#5a4a3e", L=320, up=0.6, ears=True, belly="#7a6a5a"), (w / 2, h * .66, 540, 320))
+ART6["risso"] = _ceta("#9aa0a6", 400, 120, belly="#c9ced2", box=None, tall=True, extras="".join(P(f"M{x} {y} l{dx} {dy}", sw=3, col="#f4f6f8") for x, y, dx, dy in [(-140, -30, 40, 10), (-90, -40, 50, -6), (-30, -20, 44, 16), (20, -44, 50, 4), (70, -20, 36, 12), (-110, 0, 30, -10), (0, 4, 40, -8)]))
+ART6["brydes"] = _ceta("#3a4250", 520, 110, belly="#dfe4ea", box=None, extras="".join(P(f"M-250 {y} C-210 {y-4} -170 {y-6} -130 {y-4}", sw=3, col="#6a7280") for y in (-30, -16, -2)))
+ART6["blacktip"] = _fs("#9a9488", 420, 120, tail="shark", tail_col="#9a9488", belly="#eef0f0", gills=5, eye_r=6, mouth=False, fin_col="#1a1a1e", post=P("M300 -40 L330 -70 L340 -40 Z", "#1a1a1e", 0))
+ART6["lemon-shark"] = _fs("#c9b46a", 440, 130, tail="shark", belly="#efe6c0", gills=5, eye_r=6, mouth=False, fin_col="#a8944a")
+def _saw():
+    t = "".join(P(f"M{-220-i*16} -6 l-4 -12 M{-220-i*16} 6 l-4 12", sw=3, col="#f4f0e6") for i in range(10))
+    return P("M-200 -12 L-390 -8 L-390 8 L-200 12 Z", "#8a7e6a", 2.6) + t
+ART6["sawfish"] = _fs("#8a7e6a", 420, 100, pre=_saw(), tail="shark", belly="#d9d2c4", gills=5, eye_r=6, mouth=False, fin_col="#6a5e4a", box=(.58, 680, 280))
+ART6["giant-grouper"] = _fs("#5a4a32", 400, 190, tail="round", belly="#7a6a4a", eye_r=8, mouth=True, fin_col="#e8c23a", spots="#e8d8a0", box=(.6, 600, 360))
+ART6["parrotfish"] = _fs("#3a7a6a", 360, 200, tail="round", belly="#5a9a8a", eye_r=8, mouth=True, fin_col="#2a5a4a", post=E(-150, -80, 46, 40, "#4a8a7a", 2.8) + P("M-196 6 l-10 0", sw=6, col="#f4f0e0"), box=(.6, 600, 360))
+def _porcu(w, h):
+    o = "".join(P(f"M{math.cos(a/16*2*math.pi)*120:.0f} {-90+math.sin(a/16*2*math.pi)*110:.0f} l{math.cos(a/16*2*math.pi)*34:.0f} {math.sin(a/16*2*math.pi)*34:.0f}", sw=5) for a in range(16))
+    o += E(0, -90, 130, 118, "#d9c9a0", 3) + "".join(C(x, y, 7, "#3a3020", 0) for x, y in [(-40, -160), (20, -170), (70, -140), (-80, -120), (40, -110), (90, -90), (-20, -130)])
+    o += E(-10, -40, 90, 50, "#f4efe2", 0) + C(-70, -110, 22, "#fff", 2.6) + C(-74, -110, 11, INK, 0) + P("M130 -100 L190 -140 L190 -50 Z", "#c9b98a", 2.8) + E(-128, -70, 10, 8, "#f4efe2", 2.4)
+    return scene("sea", w, h, o, box=(w / 2, h * .72, 460, 420))
+ART6["porcupinefish"] = _porcu
+ART6["picasso-trigger"] = _fs("#e8e2d0", 280, 160, tail="round", belly="#f6f2e6", eye_r=8, fin_col="#d9d0b8", stripes=("#2a3a5a", [.42, .55]),
+                              post=P("M-60 -60 L40 30", sw=10, col="#3a8ac8") + P("M-60 -40 L30 40", sw=4, col="#f2c83a") + P("M-150 4 L-60 6", sw=6, col="#3a8ac8") + P("M60 -30 l40 30 l-40 30", sw=6, col="#2a2a2a"), box=(.6, 520, 340))
+ART6["flying-fish"] = _fs("#2a5aa8", 300, 80, tail="fork", belly="#eef2f6", eye_r=8, fin_col="#9aa6b4", box=(.5, 600, 320),
+                          pre=P("M-60 -10 C-20 -140 80 -190 160 -170 C80 -120 40 -60 20 -10 Z", "#b9c4d0", 2.6, extra='fill-opacity=".9"'))
+ART6["dwarf-seahorse"] = _recol(_a3.a_seahorse, [("#e8b84a", "#c9b86a"), ("#c99a30", "#9a8a4a")])
+def _seahare(w, h):
+    o = P("M-200 -20 C-180 -120 120 -150 220 -40 C160 0 -120 10 -200 -20 Z", "#7a5a3a", 3) + "".join(C(x, y, 8, "#a8845a", 0) for x, y in [(-60, -80), (20, -100), (100, -70), (-120, -50), (40, -50)])
+    o += P("M-180 -60 C-200 -120 -190 -140 -176 -150", sw=12) + P("M-180 -60 C-200 -120 -190 -140 -176 -150", sw=7, col="#7a5a3a")
+    o += P("M-150 -80 C-160 -140 -150 -160 -136 -166", sw=12) + P("M-150 -80 C-160 -140 -150 -160 -136 -166", sw=7, col="#7a5a3a") + C(-176, -80, 6, INK, 0)
+    o += "".join(E(x, y, r, r, "#8a4aa8", 0, extra='fill-opacity=".55"') for x, y, r in [(240, -60, 40), (280, -100, 30), (260, -20, 28)])
+    return scene("sea", w, h, o, box=(w / 2, h * .74, 560, 260))
+ART6["sea-hare"] = _seahare
+def _sanddollar(w, h):
+    o = E(0, -40, 190, 80, "#a8708a", 3) + "".join(P(f"M0 -40 L{math.cos(a)*90:.0f} {-40+math.sin(a)*38:.0f}", sw=14, col="#c99aac") for a in [-math.pi/2 + i*2*math.pi/5 for i in range(5)])
+    o += C(0, -40, 10, "#7a4a5a", 0) + E(170, 40, 60, 22, "#f4f0e6", 2.4)
+    return scene("deep", w, h, o, box=(w / 2, h * .74, 480, 220))
+ART6["sand-dollar"] = _sanddollar
+ART6["sardine"] = lambda w, h: scene("sea", w, h, "".join(G_(fish(F="#3a5a7a", L=220, H=60, tail="fork", belly="#eef2f6", eye_r=7, fin_col="#5a7a9a", spots="#2a3a4a"), x, y) for x, y in [(-120, -160), (100, -110), (-60, -20), (140, 20)]), box=(w / 2, h * .62, 560, 340))
+ART6["mahi-mahi"] = _fs("#2a9a6a", 400, 140, tail="fork", tail_col="#e8c23a", belly="#f2d84a", eye_r=8, fin_col="#2a6aa8", dorsal_col="#2a6aa8", tall_dorsal=True, spots="#2a5aa8",
+                        pre=E(-160, -30, 50, 60, "#2a9a6a", 2.8))
+ART6["albacore"] = _fs("#2a3a5a", 400, 140, tail="fork", belly="#e2e8ee", eye_r=8, mouth=True, fin_col="#3a4a6a", post=P("M-60 0 C20 10 120 30 180 40", sw=14, col="#3a4a6a"))
+ART6["wahoo"] = _fs("#3a5a8a", 480, 80, tail="fork", belly="#dfe6ee", eye_r=6, mouth=True, fin_col="#2a3a5a", stripes=("#24345a", [.25, .33, .41, .49, .57, .65, .73]), box=(.58, 660, 240))
+ART6["halibut"] = _recol(_flat, [("#a89a7a", "#6a5a44"), ("#7a6a4a", "#4a3e2e")])
+ART6["wolffish"] = _fs("#6a7078", 400, 120, tail="round", belly="#a8aeb4", eye_r=8, mouth=False, fin_col="#5a6068", spots="#3a3e44",
+                       post=P("M-200 0 L-170 -6 L-170 14 Z", "#f6f2e6", 2) + P("M-196 -4 l4 10 M-188 -4 l4 10 M-180 -4 l4 10", sw=2.4))
+ART6["ribbontail"] = lambda w, h: scene("sea", w, h, G_(E(0, -40, 170, 120, "#c9a46a", 3) + "".join(C(x, y, 9, "#3a8ae8", 0) for x, y in [(-90, -80), (-30, -110), (40, -100), (100, -60), (-110, -10), (-40, -40), (30, -30), (90, 0), (-60, 30), (20, 30)]) +
+                                                    P("M160 -40 C240 -40 300 -30 380 -20", sw=10, col="#c9a46a") + P("M220 -40 C260 -60 300 -40 330 -26", sw=6, col="#3a8ae8") + C(-120, -100, 12, "#fff", 2.4) + C(-120, -100, 6, INK, 0) + C(-80, -126, 12, "#fff", 2.4) + C(-80, -126, 6, INK, 0), -60, 0), box=(w / 2, h * .66, 620, 280))
+ART6["zebra-shark"] = _fs("#d9c9a0", 360, 120, tail="shark", belly="#efe6d0", gills=5, eye_r=6, mouth=False, fin_col="#b8a87a", spots="#3a3020",
+                          post=P("M150 0 C220 -10 300 -20 380 0 C300 20 220 30 150 20 Z", "#d9c9a0", 2.6) + "".join(C(x, 6, 7, "#3a3020", 0) for x in (200, 250, 300, 340)), box=(.58, 680, 280))
+def _wobbe(w, h):
+    f = fish(F="#8a7a5a", L=440, H=90, tail="shark", belly="#a89a7a", gills=5, eye_r=5, mouth=False, fin_col="#6a5a3a", spots="#5a4a30")
+    t = "".join(P(f"M{-220+i*6} {30+(i%3)*4} l{-10+(i%4)*4} 22", sw=4, col="#6a5a3a") for i in range(12)) + "".join(P(f"M{-216+i*8} -30 l-6 -16", sw=4, col="#6a5a3a") for i in range(6))
+    return scene("sea", w, h, rock(160, 80, 1.2) + G_(f + t, 0, 0), box=(w / 2, h * .66, 620, 260))
+ART6["wobbegong"] = _wobbe
+def _cots(w, h):
+    o = []
+    n = 16
+    for i in range(n):
+        a = 2 * math.pi * i / n
+        x, y = math.cos(a) * 170, math.sin(a) * 170 * .5 - 90
+        o.append(P(f"M{math.cos(a)*50:.0f} {-90+math.sin(a)*25:.0f} L{x:.0f} {y:.0f}", sw=30, col=INK) + P(f"M{math.cos(a)*50:.0f} {-90+math.sin(a)*25:.0f} L{x:.0f} {y:.0f}", sw=22, col="#8a6aa0"))
+    o.append(E(0, -90, 80, 44, "#8a6aa0", 3))
+    import random
+    r = random.Random(3)
+    for _ in range(60):
+        a = r.uniform(0, 2 * math.pi); rr = r.uniform(20, 160)
+        x, y = math.cos(a) * rr, -90 + math.sin(a) * rr * .5
+        o.append(P(f"M{x:.0f} {y:.0f} l{r.uniform(-4,4):.0f} -16", sw=3, col="#e8c23a"))
+    return scene("sea", w, h, "".join(o), box=(w / 2, h * .8, 460, 240))
+ART6["cots"] = _cots
+ART6["anemone"] = _recol(_a3.a_clownfish, [("#e7a9c8", "#f2e6b0"), ("#c97aa0", "#d94a5a")])
+def _brain(w, h):
+    o = P("M-200 0 C-200 -180 200 -180 200 0 Z", "#c9b06a", 3)
+    for k in range(6):
+        y = -20 - k * 22
+        wdt = math.sqrt(max(0, 1 - ((k * 22 + 20) / 140) ** 2)) * 190
+        o += P(wavy(-wdt, y, 2 * wdt, 10, 8, int(4 + wdt / 30)), "none", 0) if False else P(" ".join(["M%.0f %.0f" % (-wdt, y)] + ["Q%.0f %.0f %.0f %.0f" % (-wdt + (j + .5) * 2 * wdt / 10, y + (12 if j % 2 else -12), -wdt + (j + 1) * 2 * wdt / 10, y) for j in range(10)]), sw=4, col="#8a7038")
+    return scene("sea", w, h, o, box=(w / 2, h * .8, 460, 220))
+ART6["brain-coral"] = _brain
+def _bdragon(w, h):
+    o = P("M-180 0 C-120 -30 120 -30 200 -6 C120 10 -120 16 -180 0 Z", "#2a6ad8", 3) + P("M-150 -2 C-80 -14 80 -14 170 -4", sw=4, col="#bcd4f6")
+    for x, s in ((-80, 1), (0, 1.1), (90, .9)):
+        for sg in (-1, 1):
+            o += "".join(P(f"M{x} {sg*6} L{x+dx} {sg*(40+abs(dx)//2)*s:.0f}", sw=6, col="#2a6ad8") for dx in (-30, -10, 10, 30))
+    o += P("M-180 0 l-20 -16 M-180 0 l-20 16", sw=4, col="#2a6ad8")
+    return scene("sea", w, h, G_(o, 0, -240), box=(w / 2, h * .6, 520, 280))
+ART6["blue-dragon"] = _bdragon
+def _sdancer(w, h):
+    o = P("M-220 -40 C-200 -140 -100 -170 0 -130 C100 -170 200 -140 230 -40 C180 10 100 -20 0 10 C-100 -20 -180 10 -220 -40 Z", "#d92a3a", 3)
+    o += P("M-200 -50 C-160 -110 -80 -130 0 -104 C80 -130 160 -110 210 -50", sw=8, col="#f4e6e6") + "".join(C(x, y, 6, "#f4e6e6", 0) for x, y in [(-60, -80), (40, -76), (120, -70), (-130, -70)])
+    o += P("M-200 -70 l-20 -40 M-180 -80 l-6 -44", sw=8, col="#b8202e") + P("M200 -60 C230 -100 250 -80 240 -50", "#f2a03a", 2.4)
+    return scene("sea", w, h, o, box=(w / 2, h * .66, 560, 280))
+ART6["spanish-dancer"] = _sdancer
+ART6["flamboyant"] = _recol(_cuttle, [("#c9a07a", "#5a3a2a"), ("#e8d4b8", "#f2c83a"), ("#7a5a3a", "#d94a8a")])

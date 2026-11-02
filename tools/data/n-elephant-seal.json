@@ -1,0 +1,80 @@
+{
+ "file": "北象海豹",
+ "no": "1101",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "北象海豹",
+ "name_en": "Northern elephant seal",
+ "latin": "Mirounga angustirostris",
+ "short": "北象海豹",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃中层鱼类、深海乌贼、太平洋无须鳕、小型鲨鱼和鳐等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公兽体重",
+   "value": "1500–2300 kg",
+   "lo": 1500,
+   "hi": 2300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公兽体长",
+   "value": "4–5 m",
+   "lo": 4,
+   "hi": 5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母兽最深潜",
+   "value": "1735 m",
+   "lo": 1735,
+   "hi": 1735,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "每天游",
+   "value": "最多 116 km",
+   "lo": 116,
+   "hi": 116,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大鼻子",
+   "icon": "trunk",
+   "desc": "公兽有一个大大的鼻子，“象海豹”的名字就由此而来。"
+  },
+  {
+   "name": "连续潜水",
+   "icon": "dive",
+   "desc": "被追踪的个体一天几乎不停地潜水 20 小时以上。"
+  }
+ ],
+ "intro": [
+  "北象海豹是两种象海豹之一，属于海豹科。",
+  "公兽比母兽大得多，母兽体重只有公兽的约三分之一。",
+  "一头成功的公兽一个繁殖季可让多达 50 头母兽怀孕。"
+ ],
+ "fact": "它大多在 400–600 m 深、小鱼丰富的水层觅食。",
+ "range": "东北太平洋（美国加州、墨西哥下加利福尼亚沿岸繁殖）。",
+ "sources": [
+  "Wikipedia「Northern elephant seal」",
+  "IUCN 红色名录（Hückstädt, L. 2015）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "蓝斑条尾魟",
+ "no": "1122",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "蓝斑条尾魟",
+ "name_en": "Bluespotted ribbontail ray",
+ "latin": "Taeniura lymma",
+ "short": "蓝斑条尾魟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "涨潮时到沙滩上挖食底栖小型无脊椎动物和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大盘宽",
+   "value": "35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大全长",
+   "value": "80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "5 kg",
+   "lo": 5,
+   "hi": 5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每胎幼鳐",
+   "value": "最多 7 只",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毒刺尾",
+   "icon": "toxic",
+   "desc": "尾巴上有毒刺，能伤人，不过受威胁时它更愿意逃走。"
+  },
+  {
+   "name": "随潮觅食",
+   "icon": "dive",
+   "desc": "夜里小群跟着涨潮游上沙滩觅食，退潮时回到礁石里躲着。"
+  }
+ ],
+ "intro": [
+  "蓝斑条尾魟是魟科的一种黄貂鱼。",
+  "从潮间带到 30 m 深都能见到它。",
+  "它在热带印度洋和西太平洋很常见。"
+ ],
+ "fact": "刚出生的幼鳐就像缩小版的成鳐，盘宽约 13–14 cm。",
+ "range": "热带印度洋和西太平洋的珊瑚礁。",
+ "sources": [
+  "Wikipedia「Bluespotted ribbontail ray」",
+  "IUCN 红色名录（Sherman, C.S. 2021）"
+ ],
+ "footnote": "",
+ "warn": "尾巴有毒刺，潜水或下水时不要触碰或踩踏。"
+}

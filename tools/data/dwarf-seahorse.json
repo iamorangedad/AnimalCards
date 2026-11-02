@@ -1,0 +1,79 @@
+{
+ "file": "侏儒海马",
+ "no": "1113",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "侏儒海马",
+ "name_en": "Dwarf seahorse",
+ "latin": "Hippocampus zosterae",
+ "short": "侏儒海马",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食海洋小猎物（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "2–2.5 cm",
+   "lo": 0.02,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "5.0 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最长 2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "育儿袋小马",
+   "value": "3–55 只",
+   "lo": 3,
+   "hi": 55,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最慢的鱼",
+   "icon": "camo",
+   "desc": "吉尼斯世界纪录称它是游得最慢的鱼，每小时约 1.5 m。"
+  },
+  {
+   "name": "爸爸怀孕",
+   "icon": "huddle",
+   "desc": "雄海马把 3–55 个宝宝放在育儿袋里约 10 天再放出来。"
+  }
+ ],
+ "intro": [
+  "侏儒海马生活在巴哈马和美国部分海域的海草床。",
+  "栖息地丧失威胁着它。",
+  "出生时只有 7–9 mm 长。"
+ ],
+ "fact": "求偶时一对海马会变换颜色，一起“跳舞”约 6 分钟。",
+ "range": "巴哈马和美国东南部沿海海草床。",
+ "sources": [
+  "Wikipedia「Dwarf seahorse」",
+  "IUCN 红色名录（Masonjones 2017）"
+ ],
+ "footnote": ""
+}

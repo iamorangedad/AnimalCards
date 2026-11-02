@@ -1,0 +1,79 @@
+{
+ "file": "鞍带石斑鱼",
+ "no": "1108",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "鞍带石斑鱼",
+ "name_en": "Giant grouper",
+ "latin": "Epinephelus lanceolatus",
+ "short": "鞍带石斑鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "伏击捕食鱼类、小鲨鱼和鳐、幼海龟、甲壳类和软体动物，整个吞下",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2018",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "最大标准长",
+   "value": "270 cm",
+   "lo": 2.7,
+   "hi": 2.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "约 180 cm",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大体重",
+   "value": "400 kg",
+   "lo": 400,
+   "hi": 400,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "1–100 m",
+   "lo": 1,
+   "hi": 100,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "一口吞",
+   "icon": "food",
+   "desc": "它把鱼、小鲨鱼、幼海龟等猎物整个吞下。"
+  },
+  {
+   "name": "礁区巨鱼",
+   "icon": "trunk",
+   "desc": "它是珊瑚礁上已知最大的硬骨鱼。"
+  }
+ ],
+ "intro": [
+  "鞍带石斑鱼也叫龙趸，是一种大型海水石斑鱼。",
+  "它广泛分布于印度—太平洋。",
+  "它是现存最大的硬骨鱼之一。"
+ ],
+ "fact": "到 2015 年，杂交龙趸年产量达 15.5 万吨，中国占 65%。",
+ "range": "印度洋—太平洋的珊瑚礁和岩礁。",
+ "sources": [
+  "Wikipedia「Giant grouper」",
+  "IUCN 红色名录（Fennessy, S. 2018）"
+ ],
+ "footnote": ""
+}

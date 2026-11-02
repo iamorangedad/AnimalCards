@@ -1,0 +1,79 @@
+{
+ "file": "狭鳞庸鲽",
+ "no": "1120",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "狭鳞庸鲽",
+ "name_en": "Pacific halibut",
+ "latin": "Hippoglossus stenolepis",
+ "short": "狭鳞庸鲽",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃多种鱼，包括鳕、大菱鲆和狭鳕",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "母鱼体重",
+   "value": "最重 230 kg",
+   "lo": 230,
+   "hi": 230,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最高寿命",
+   "value": "55 年",
+   "lo": 55,
+   "hi": 55,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "3–8 °C",
+   "lo": 3,
+   "hi": 8,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "产卵水深",
+   "value": "183–457 m",
+   "lo": 183,
+   "hi": 457,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "上深下浅",
+   "icon": "camo",
+   "desc": "上面深色、下面浅色，能躲过猎物和天敌的眼睛。"
+  },
+  {
+   "name": "冬季洄游",
+   "icon": "dive",
+   "desc": "夏天在浅水觅食，冬天游到深水产卵。"
+  }
+ ],
+ "intro": [
+  "狭鳞庸鲽也叫太平洋大比目鱼，是一种鲽。",
+  "它原产北太平洋，是重要的商业和游钓鱼。",
+  "它是最大的比目鱼之一，仅次于大西洋庸鲽。"
+ ],
+ "fact": "受精卵约 15 天孵化，6 个月大时长成成鱼模样，约 3.6 cm 长。",
+ "range": "北太平洋（白令海、阿拉斯加湾到日本、加州）。",
+ "sources": [
+  "Wikipedia「Pacific halibut」",
+  "IUCN 红色名录（Hicks, A. 2021）"
+ ],
+ "footnote": ""
+}

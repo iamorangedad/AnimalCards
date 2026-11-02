@@ -1,0 +1,79 @@
+{
+ "file": "大西洋狼鱼",
+ "no": "1121",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "大西洋狼鱼",
+ "name_en": "Atlantic wolffish",
+ "latin": "Anarhichas lupus",
+ "short": "大西洋狼鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用强壮的颌吃硬壳软体动物、甲壳类和棘皮动物，不吃鱼",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2015",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "近 18 kg",
+   "lo": 18,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "20–500 m",
+   "lo": 20,
+   "hi": 500,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "卵径",
+   "value": "5.5–6.0 mm",
+   "lo": 0.0055,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "狼牙",
+   "icon": "thorn",
+   "desc": "犬齿一样的前牙能咬碎贝壳和甲壳。"
+  },
+  {
+   "name": "天然抗冻",
+   "icon": "cold",
+   "desc": "能自己产生抗冻物质，让血液在近冰点的水里也能流动。"
+  }
+ ],
+ "intro": [
+  "大西洋狼鱼也叫海狼，是一种海水鱼。",
+  "它生活在 −1–11 °C 的冷水里。",
+  "它 6 岁才性成熟，比较晚。"
+ ],
+ "fact": "它的卵是已知最大的鱼卵之一。",
+ "range": "北大西洋两岸的冷水海底。",
+ "sources": [
+  "Wikipedia「Atlantic wolffish」",
+  "IUCN 红色名录（Collette, B. 2015）"
+ ],
+ "footnote": ""
+}

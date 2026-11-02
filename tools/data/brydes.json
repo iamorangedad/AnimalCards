@@ -1,0 +1,79 @@
+{
+ "file": "布氏鲸",
+ "no": "1104",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "布氏鲸",
+ "name_en": "Bryde's whale",
+ "latin": "Balaenoptera brydei",
+ "short": "布氏鲸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "日本近海以鳀鱼为主要猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "12–25 吨",
+   "lo": 12000,
+   "hi": 25000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最大实测",
+   "value": "14.95 m",
+   "lo": 14.95,
+   "hi": 14.95,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最长寿命",
+   "value": "72 年",
+   "lo": 72,
+   "hi": 72,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "吻部棱脊",
+   "value": "3 条",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三条棱脊",
+   "icon": "whisker",
+   "desc": "吻部有 3 条棱脊，而塞鲸只有 1 条。"
+  },
+  {
+   "name": "追鳀鱼",
+   "icon": "food",
+   "desc": "在日本近海主要吃鳀鱼，日本古称“鰯鲸”。"
+  }
+ ],
+ "intro": [
+  "布氏鲸是须鲸，也叫“布氏鲸复合群”。",
+  "它可能包括 3–4 个物种，分类至今未定。",
+  "南非近岸型成年雌鲸平均体长 13.7 m。"
+ ],
+ "fact": "布氏鲸的名字来自挪威人 Johan Bryde。",
+ "range": "全球热带和温暖海域。",
+ "sources": [
+  "Wikipedia「Bryde's whale」",
+  "IUCN 红色名录（Cooke, J.G. 2018）"
+ ],
+ "footnote": "“布氏鲸复合群”分类未定，学名取 B. brydei（待核）。*部分数据为复合群整体。"
+}

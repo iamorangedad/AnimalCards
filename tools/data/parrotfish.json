@@ -1,0 +1,79 @@
+{
+ "file": "驼峰大鹦嘴鱼",
+ "no": "1109",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "驼峰大鹦嘴鱼",
+ "name_en": "Green humphead parrotfish",
+ "latin": "Bolbometopon muricatum",
+ "short": "驼峰大鹦嘴鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃底栖藻类和活珊瑚",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "1.3 m",
+   "lo": 1.3,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "46 kg",
+   "lo": 46,
+   "hi": 46,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "最深约 40 m",
+   "lo": 40,
+   "hi": 40,
+   "scale": "depth",
+   "approx": true
+  },
+  {
+   "label": "鱼群",
+   "value": "最多 250 条",
+   "lo": 250,
+   "hi": 250,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "撞珊瑚",
+   "icon": "trunk",
+   "desc": "据说它会用头撞珊瑚，方便啃食。"
+  },
+  {
+   "name": "成群活动",
+   "icon": "team",
+   "desc": "它们喜欢群居，鱼群可达 250 条。"
+  }
+ ],
+ "intro": [
+  "驼峰大鹦嘴鱼是最大的鹦嘴鱼。",
+  "它的头前方有一个大鼓包。",
+  "分布在印度洋和太平洋的珊瑚礁。"
+ ],
+ "fact": "小于 5 cm 的幼鱼常和雀鲷待在一起。",
+ "range": "印度洋—太平洋珊瑚礁（红海到萨摩亚，日本八重山到大堡礁）。",
+ "sources": [
+  "Wikipedia「Green humphead parrotfish」",
+  "IUCN 红色名录（Sadovy, Y. 2025）"
+ ],
+ "footnote": ""
+}

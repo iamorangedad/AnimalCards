@@ -1,0 +1,79 @@
+{
+ "file": "叉斑锉鳞鲀",
+ "no": "1111",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "叉斑锉鳞鲀",
+ "name_en": "Lagoon triggerfish",
+ "latin": "Rhinecanthus aculeatus",
+ "short": "叉斑锉鳞鲀",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "几乎什么都吃，主要是无脊椎动物和礁区藻类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "母鱼护卵",
+   "value": "约 12–14 小时",
+   "lo": 12,
+   "hi": 14,
+   "scale": "hours",
+   "approx": true
+  },
+  {
+   "label": "守领地",
+   "value": "8 年以上",
+   "lo": 8,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "公鱼领地含",
+   "value": "1–5 雌",
+   "lo": 1,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毕加索花纹",
+   "icon": "camo",
+   "desc": "身上的线条和色块像毕加索的画，因此叫“毕加索鱼”。"
+  },
+  {
+   "name": "扇卵护卵",
+   "icon": "food",
+   "desc": "母鱼守在卵上 12–14 小时，用胸鳍扇水给卵增加氧气。"
+  }
+ ],
+ "intro": [
+  "叉斑锉鳞鲀也叫黑带扳机鲀，是一种鳞鲀。",
+  "它生活在印度—太平洋的珊瑚礁。",
+  "常在礁区和沙地活动。"
+ ],
+ "fact": "它能前进、后退或悬停，比只能向前游的鱼更容易从石缝中退出来。",
+ "range": "印度—太平洋珊瑚礁。",
+ "sources": [
+  "Wikipedia「Lagoon triggerfish」",
+  "IUCN 红色名录（Matsuura, K. 2022）"
+ ],
+ "footnote": ""
+}

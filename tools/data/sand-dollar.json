@@ -1,0 +1,78 @@
+{
+ "file": "扁平楯海胆",
+ "no": "1115",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "扁平楯海胆",
+ "name_en": "Common sand dollar",
+ "latin": "Echinarachnius parma",
+ "short": "扁平楯海胆",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "滤食者，用纤毛和“亚里士多德提灯”取食（维基未详述食物）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "常见直径",
+   "value": "约 7.6 cm",
+   "lo": 0.076,
+   "hi": 0.076,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "年生长",
+   "value": "3.5–6 mm",
+   "lo": 0.0035,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 8 年",
+   "lo": 8,
+   "hi": 8,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "最深",
+   "value": "1500 m",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "扁圆盘子",
+   "icon": "camo",
+   "desc": "身体圆扁像圆盘，覆盖着能动的紫红色短刺。"
+  },
+  {
+   "name": "亚里士多德提灯",
+   "icon": "food",
+   "desc": "用叫“亚里士多德提灯”的口器结构取食。"
+  }
+ ],
+ "intro": [
+  "扁平楯海胆是北半球的一种沙钱（海胆的一类）。",
+  "它生活在低潮线以下的沙底。",
+  "死后外壳会褪成白色。"
+ ],
+ "fact": "楯海胆属的物种从上新世就已存在。",
+ "range": "北半球的北大西洋和北太平洋沿海沙底。",
+ "sources": [
+  "Wikipedia「Echinarachnius parma」"
+ ],
+ "footnote": ""
+}

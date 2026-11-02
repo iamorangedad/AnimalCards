@@ -1,0 +1,78 @@
+{
+ "file": "加州海兔",
+ "no": "1114",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "加州海兔",
+ "name_en": "California sea hare",
+ "latin": "Aplysia californica",
+ "short": "加州海兔",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "在浅水啃食藻类（幼体常停在红藻上）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成体体重",
+   "value": "最重 7 kg",
+   "lo": 7,
+   "hi": 7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "75 cm",
+   "lo": 0.75,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "通常不超过 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "depth",
+   "approx": true
+  },
+  {
+   "label": "世代时间",
+   "value": "19 周",
+   "lo": 133,
+   "hi": 133,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "喷紫墨",
+   "icon": "ink",
+   "desc": "能把毒素以紫色墨汁放出来，吓退捕食者。"
+  },
+  {
+   "name": "吃啥变啥色",
+   "icon": "camo",
+   "desc": "体色红褐到绿褐，随吃下的藻类而变。"
+  }
+ ],
+ "intro": [
+  "加州海兔是海兔科的一种海蛞蝓。",
+  "它分布在美国加州沿岸。",
+  "它头上有 4 根触角。"
+ ],
+ "fact": "孵化后 85 天性成熟；神经系统发育要 140 天。",
+ "range": "美国加州和墨西哥沿海浅水。",
+ "sources": [
+  "Wikipedia「California sea hare」"
+ ],
+ "footnote": "“世代时间”19 周≈133 天。"
+}

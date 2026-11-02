@@ -27,4 +27,4 @@
 
 ## 3D 地球网页版
 
-`webapp/` 里有一个网页应用：在 3D 地球上按分布地标注全部 1000 张卡片（动物、植物、真菌，可按界和类别筛选），点击标注即可查看卡片、下载 PDF。本地运行和服务器部署方法见 [webapp/README.zh-CN.md](webapp/README.zh-CN.md)。地图上的位置都是近似点，需要人工复核。
+`webapp/` 里有一个网页应用：在 3D 地球上按分布地标注全部 1000 张卡片（动物、植物、真菌，可按界和类别筛选），点击标注即可查看卡片、下载 PDF。本地运行、Docker 与 **Kubernetes 一键部署**见 [webapp/README.zh-CN.md](webapp/README.zh-CN.md)（`./webapp/deploy/k8s/deploy.sh`）。地图上的位置都是近似点，需要人工复核。

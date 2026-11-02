@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: animalcards-globe
+  namespace: animalcards
+  labels:
+    app.kubernetes.io/name: animalcards-globe
+data:
+  HOST: "0.0.0.0"
+  PORT: "8000"
+  WORKERS: "2"
+  ANIMALCARDS_ROOT: "/repo"
+  WEBAPP_DIR: "/app/webapp"
+  STATIC_MAX_AGE: "604800"
+  API_MAX_AGE: "300"

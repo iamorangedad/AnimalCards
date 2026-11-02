@@ -1,0 +1,14 @@
+# 自包含 K8s 镜像：需要打入 动物/植物/真菌，只排除无关目录
+.git
+tools
+**/__pycache__
+webapp/.venv
+webapp/.env
+webapp/tests
+webapp/deploy
+*.md
+assets
+REVIEW_CHECKLIST.md
+CARDS.md
+CARDS.zh-CN.md
+待核清单.md

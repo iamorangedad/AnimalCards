@@ -1,0 +1,80 @@
+{
+ "file": "北美豹蛙",
+ "no": "1192",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "北美豹蛙",
+ "name_en": "Northern leopard frog",
+ "latin": "Lithobates pipiens",
+ "short": "北美豹蛙",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蟋蟀、苍蝇、蠕虫和更小的蛙等多种动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高海拔",
+   "value": "3000 m 以上",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "最多 6500 枚",
+   "lo": 6500,
+   "hi": 6500,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "蝌蚪期",
+   "value": "70–110 天",
+   "lo": 70,
+   "hi": 110,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "变态幼蛙",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "豹纹斑点",
+   "icon": "camo",
+   "desc": "绿色或褐色的身体上有深色圆斑，像豹纹。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "很适应寒冷，能生活在海拔 3000 m 以上。"
+  }
+ ],
+ "intro": [
+  "北美豹蛙是蛙科的一种豹蛙。",
+  "原产加拿大和美国部分地区。",
+  "它是明尼苏达州和佛蒙特州的州两栖动物。"
+ ],
+ "fact": "曾有记录它吃掉了一只鼠耳蝠。",
+ "range": "加拿大和美国北部。",
+ "sources": [
+  "Wikipedia「Northern leopard frog」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": ""
+}

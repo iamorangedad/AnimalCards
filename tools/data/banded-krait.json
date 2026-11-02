@@ -1,0 +1,80 @@
+{
+ "file": "金环蛇",
+ "no": "1187",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "金环蛇",
+ "name_en": "Banded krait",
+ "latin": "Bungarus fasciatus",
+ "short": "金环蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃别的蛇，也吃鱼、蛙、蛇卵等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "2.25 m",
+   "lo": 2.25,
+   "hi": 2.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体长",
+   "value": "1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "幼蛇",
+   "value": "298–311 mm",
+   "lo": 0.298,
+   "hi": 0.311,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "缅甸海拔",
+   "value": "最高 1500 m",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃蛇的蛇",
+   "icon": "food",
+   "desc": "主要捕食其他蛇，先用毒液让猎物不能动，再从头吞下。"
+  },
+  {
+   "name": "黄黑环纹",
+   "icon": "camo",
+   "desc": "身上有醒目的黄黑相间宽环纹。"
+  }
+ ],
+ "intro": [
+  "金环蛇是眼镜蛇科的毒蛇。",
+  "分布从印度次大陆经东南亚到中国南方。",
+  "它是最长的环蛇，最长超过 2 m。"
+ ],
+ "fact": "它性情胆小温顺，但毒性很强；未治疗时死亡率为 1%–10%。",
+ "range": "南亚、东南亚和中国南方。",
+ "sources": [
+  "Wikipedia「Banded krait」",
+  "IUCN 红色名录（Stuart, B. 2013）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

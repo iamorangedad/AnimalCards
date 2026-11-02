@@ -1,0 +1,79 @@
+{
+ "file": "印度眼镜蛇",
+ "no": "1186",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "印度眼镜蛇",
+ "name_en": "Indian cobra",
+ "latin": "Naja naja",
+ "short": "印度眼镜蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃啮齿类、鸻、䴙䴘、蜥蜴和蛙",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成体体长",
+   "value": "1–1.5 m",
+   "lo": 1,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "2.1–2.2 m",
+   "lo": 2.1,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "10–30 枚",
+   "lo": 10,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "48–69 天",
+   "lo": 48,
+   "hi": 69,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "张开颈褶",
+   "icon": "camo",
+   "desc": "受威胁时张开大大的颈褶，背面有眼镜状花纹。"
+  },
+  {
+   "name": "神经毒素",
+   "icon": "toxic",
+   "desc": "毒液含强烈的神经毒素和心脏毒素，严重时导致呼吸衰竭。"
+  }
+ ],
+ "intro": [
+  "印度眼镜蛇也叫眼镜蛇、亚洲眼镜蛇，是眼镜蛇科的毒蛇。",
+  "有时会进入房屋寻找老鼠。"
+ ],
+ "fact": "雌蛇常把卵产在鼠洞或白蚁丘里。",
+ "range": "印度次大陆（印度、巴基斯坦、斯里兰卡、孟加拉、尼泊尔）。",
+ "sources": [
+  "Wikipedia「Indian cobra」",
+  "IUCN 红色名录（de Silva, A. 2021）"
+ ],
+ "footnote": "“眼镜状花纹”来自别名 spectacled cobra（待核）。",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

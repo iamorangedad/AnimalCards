@@ -1,0 +1,80 @@
+{
+ "file": "东部珊瑚蛇",
+ "no": "1179",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "东部珊瑚蛇",
+ "name_en": "Eastern coral snake",
+ "latin": "Micrurus fulvius",
+ "short": "东部珊瑚蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃其他蛇和细长的蜥蜴，也吃哺乳动物、鸟、蛙、鱼和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大全长",
+   "value": "129.5 cm",
+   "lo": 1.295,
+   "hi": 1.295,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "海平面到约 400 m",
+   "lo": 400,
+   "hi": 400,
+   "scale": "alt",
+   "approx": true
+  },
+  {
+   "label": "每窝卵",
+   "value": "3–12 枚",
+   "lo": 3,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "幼蛇",
+   "value": "18–23 cm",
+   "lo": 0.18,
+   "hi": 0.23,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "警戒色",
+   "icon": "toxic",
+   "desc": "鲜艳的红黄黑环纹很可能是在警告捕食者：我有毒。"
+  },
+  {
+   "name": "先咬头",
+   "icon": "food",
+   "desc": "捕猎时先咬猎物的头部注入毒液。"
+  }
+ ],
+ "intro": [
+  "东部珊瑚蛇是眼镜蛇科的剧毒珊瑚蛇。",
+  "它是美国东南部特有的。",
+  "也被叫作“美洲眼镜蛇”。"
+ ],
+ "fact": "模型预测它的分布未来可能向北扩展 200 km。",
+ "range": "美国东南部（北卡罗来纳到佛罗里达、路易斯安那）。",
+ "sources": [
+  "Wikipedia「Micrurus fulvius」",
+  "IUCN 红色名录（Hammerson, G.A. 2007）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "东部玻璃蜥",
+ "no": "1178",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "东部玻璃蜥",
+ "name_en": "Eastern glass lizard",
+ "latin": "Ophisaurus ventralis",
+ "short": "东部玻璃蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蚱蜢、蟋蟀、甲虫、蜘蛛、小鼠、蜗牛和其他爬行动物的蛋",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "46–108 cm",
+   "lo": 0.46,
+   "hi": 1.08,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "最长 30.5 cm",
+   "lo": 0.305,
+   "hi": 0.305,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "40–65 天",
+   "lo": 40,
+   "hi": 65,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "18 mm",
+   "lo": 0.018,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "断尾逃生",
+   "icon": "drop",
+   "desc": "断掉的尾巴会扭动几分钟，引开捕食者。"
+  },
+  {
+   "name": "没腿的蜥蜴",
+   "icon": "camo",
+   "desc": "没有腿，常被误认为蛇，但它有能动的眼睑和外耳孔。"
+  }
+ ],
+ "intro": [
+  "东部玻璃蜥是一种无腿蜥蜴，属于蛇蜥科。",
+  "它是玻璃蜥属中最长最重的。",
+  "它是美国东南部特有种。"
+ ],
+ "fact": "年长的个体背部可能带绿色，是该属唯一会呈绿色的种。",
+ "range": "美国东南部。",
+ "sources": [
+  "Wikipedia「Eastern glass lizard」",
+  "IUCN 红色名录（Hammerson, G.A. 2007）"
+ ],
+ "footnote": ""
+}

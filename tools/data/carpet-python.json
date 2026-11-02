@@ -1,0 +1,79 @@
+{
+ "file": "地毯蟒",
+ "no": "1190",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "地毯蟒",
+ "name_en": "Carpet python",
+ "latin": "Morelia spilota",
+ "short": "地毯蟒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小型哺乳动物、鸟和蜥蜴",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均成体",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最大亚种",
+   "value": "2.7–3.0 m",
+   "lo": 2.7,
+   "hi": 3.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最小亚种",
+   "value": "120–180 cm",
+   "lo": 1.2,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养纪录",
+   "value": "超过 396 cm",
+   "lo": 3.96,
+   "hi": 3.96,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "缠绕绞杀",
+   "icon": "trunk",
+   "desc": "用身体缠住猎物把它绞死。"
+  },
+  {
+   "name": "唇部热感",
+   "icon": "glow",
+   "desc": "唇边有一排明显的热感应窝。"
+  }
+ ],
+ "intro": [
+  "地毯蟒是蟒科的大型蛇。",
+  "分布在澳大利亚、新几内亚、俾斯麦群岛和所罗门群岛北部。",
+  "它的花纹由明暗相间的带纹或菱形组成。"
+ ],
+ "fact": "成体代谢慢，饲养时每 2–4 周喂一次即可。",
+ "range": "澳大利亚、新几内亚及附近岛屿。",
+ "sources": [
+  "Wikipedia「Morelia spilota」",
+  "IUCN 红色名录（Tallowin, O. 2017）"
+ ],
+ "footnote": ""
+}

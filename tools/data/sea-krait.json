@@ -1,0 +1,81 @@
+{
+ "file": "蓝灰扁尾海蛇",
+ "no": "1180",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "蓝灰扁尾海蛇",
+ "name_en": "Yellow-lipped sea krait",
+ "latin": "Laticauda colubrina",
+ "short": "蓝灰扁尾海蛇",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "用强烈的神经毒素捕食鳗鱼和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄蛇全长",
+   "value": "平均 875 mm",
+   "lo": 0.875,
+   "hi": 0.875,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌蛇全长",
+   "value": "平均 1.42 m",
+   "lo": 1.42,
+   "hi": 1.42,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "最多 10 枚",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "归岛距离",
+   "value": "5.3 km",
+   "lo": 5.3,
+   "hi": 5.3,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海里捕食",
+   "icon": "dive",
+   "desc": "在海里捕食，回到陆地消化、休息和繁殖。"
+  },
+  {
+   "name": "剧毒但温和",
+   "icon": "toxic",
+   "desc": "毒液很强，但它不好斗，只有受到威胁才咬。"
+  }
+ ],
+ "intro": [
+  "蓝灰扁尾海蛇也叫黄唇青斑海蛇，生活在热带印度—太平洋海域。",
+  "它身上有醒目的黑色环纹，上唇黄色。",
+  "雌蛇比雄蛇大得多。"
+ ],
+ "fact": "斐济的海蛇被移到 5.3 km 外的岛上后，重捕到的个体都回到了原来的岛。",
+ "range": "热带印度洋—西太平洋的珊瑚礁和岛屿。",
+ "sources": [
+  "Wikipedia「Yellow-lipped sea krait」",
+  "IUCN 红色名录（Lane, A. 2010）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

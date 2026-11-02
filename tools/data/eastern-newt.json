@@ -1,0 +1,80 @@
+{
+ "file": "红东螈",
+ "no": "1194",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "红东螈",
+ "name_en": "Eastern newt",
+ "latin": "Notophthalmus viridescens",
+ "short": "红东螈",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼体吃小型水生无脊椎动物，成体吃昆虫、蠕虫、蜗牛、蚊子幼虫和蛙卵等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 13 cm",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "7–10 年",
+   "lo": 7,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "15 年",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "幼体到红蜥",
+   "value": "仅 2%",
+   "lo": 2,
+   "hi": 2,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三段人生",
+   "icon": "drop",
+   "desc": "一生分三个阶段：水生幼体、陆生的“红蜥”幼年期、水生成体。"
+  },
+  {
+   "name": "红色警告",
+   "icon": "toxic",
+   "desc": "红蜥阶段的鲜艳颜色是警戒色，腹面有毒腺，捕食者不愿吃它。"
+  }
+ ],
+ "intro": [
+  "红东螈是北美东部常见的蝾螈。",
+  "它常在小湖、池塘、季节性水塘和溪流及附近林地。"
+ ],
+ "fact": "它吃大量蚊子幼虫，帮人们控制害虫。",
+ "range": "北美洲东部。",
+ "sources": [
+  "Wikipedia「Eastern newt」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2015）"
+ ],
+ "footnote": "",
+ "warn": "皮肤有毒腺，摸过后要洗手，不要放进嘴里。"
+}

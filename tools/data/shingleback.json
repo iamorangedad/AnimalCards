@@ -1,0 +1,80 @@
+{
+ "file": "松果蜥",
+ "no": "1198",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "松果蜥",
+ "name_en": "Shingleback skink",
+ "latin": "Tiliqua rugosa",
+ "short": "松果蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃蜗牛和植物，大部分时间在植被中觅食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "头身长",
+   "value": "260–310 mm",
+   "lo": 0.26,
+   "hi": 0.31,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "10–15 年",
+   "lo": 10,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "50 年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "伴侣相守",
+   "value": "最长 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "双头蜥",
+   "icon": "camo",
+   "desc": "短粗的尾巴像另一个头，所以也叫“双头石龙子”。"
+  },
+  {
+   "name": "尾巴存粮",
+   "icon": "food",
+   "desc": "尾巴储存脂肪，冬天休眠时靠它度过。"
+  }
+ ],
+ "intro": [
+  "松果蜥是一种短尾、行动慢的蓝舌石龙子。",
+  "它是澳大利亚特有种。",
+  "它的家域平均约 4 公顷，每天最多走 500 m。"
+ ],
+ "fact": "一对松果蜥会每年重聚，最长达 20 年。",
+ "range": "澳大利亚南部和西部。",
+ "sources": [
+  "Wikipedia「Tiliqua rugosa」",
+  "IUCN 红色名录（Sanderson, C. 2017）"
+ ],
+ "footnote": "",
+ "warn": "受威胁会咬人，虽然没毒但会疼和肿。"
+}

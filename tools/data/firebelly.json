@@ -1,0 +1,80 @@
+{
+ "file": "东方铃蟾",
+ "no": "1184",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "东方铃蟾",
+ "name_en": "Oriental fire-bellied toad",
+ "latin": "Bombina orientalis",
+ "short": "东方铃蟾",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成体吃陆生无脊椎动物，包括蠕虫、软体动物和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高海拔",
+   "value": "1100 m",
+   "lo": 1100,
+   "hi": 1100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "40–110 枚",
+   "lo": 40,
+   "hi": 110,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "长腿",
+   "value": "6–8 周",
+   "lo": 42,
+   "hi": 56,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "约 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "红肚警告",
+   "icon": "toxic",
+   "desc": "皮肤能分泌轻微毒素，鲜艳的红肚皮是警告色。"
+  },
+  {
+   "name": "会走迷宫",
+   "icon": "ear",
+   "desc": "在 T 形迷宫实验里，80% 的个体 3 天内就学会了往右走。"
+  }
+ ],
+ "intro": [
+  "东方铃蟾是东北亚的一种小型半水生蛙。",
+  "野外个体的毒素比饲养的更强，和食物有关。"
+ ],
+ "fact": "饲养条件下一般能活约 12 年，有的能活到 30 年。",
+ "range": "中国东北、朝鲜半岛和俄罗斯远东。",
+ "sources": [
+  "Wikipedia「Oriental fire-bellied toad」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2020）"
+ ],
+ "footnote": "",
+ "warn": "皮肤分泌物有刺激性，摸过后要洗手，别揉眼睛。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "北美林蛙",
+ "no": "1193",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "北美林蛙",
+ "name_en": "Wood frog",
+ "latin": "Lithobates sylvaticus",
+ "short": "北美林蛙",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "成体吃森林地面的小型无脊椎动物，以昆虫为主；蝌蚪杂食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "51–70 mm",
+   "lo": 0.051,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐冻温度",
+   "value": "−3 到 −6 °C",
+   "lo": -6,
+   "hi": -3,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "冻住天数",
+   "value": "约 193 天",
+   "lo": 193,
+   "hi": 193,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "可冻结水分",
+   "value": "65%–70%",
+   "lo": 65,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冻住复活",
+   "icon": "cold",
+   "desc": "冬天能让体内 65%–70% 的水结冰，春天再解冻复活。"
+  },
+  {
+   "name": "糖做防冻剂",
+   "icon": "drop",
+   "desc": "结冰时肝糖原大量转为葡萄糖，和尿素一起保护细胞。"
+  }
+ ],
+ "intro": [
+  "北美林蛙分布在北美，从北方针叶林到阿巴拉契亚山脉南部。",
+  "它以耐冻能力出名。",
+  "雪一化它就最早出来繁殖。"
+ ],
+ "fact": "自然冬眠中的林蛙能连续冻住约 193 天。",
+ "range": "北美洲（阿拉斯加、加拿大到美国东北部）。",
+ "sources": [
+  "Wikipedia「Wood frog」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2015）"
+ ],
+ "footnote": ""
+}

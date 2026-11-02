@@ -1,0 +1,55 @@
+{
+ "file": "飞蜥",
+ "no": "1176",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "飞蜥",
+ "name_en": "Common flying dragon",
+ "latin": "Draco volans",
+ "short": "飞蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "食虫",
+ "diet_note": "主要吃蚂蚁，可能也吃白蚁",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "最长 22 cm",
+   "lo": 0.22,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "肋骨翅膀",
+   "icon": "wind",
+   "desc": "加长的肋骨撑起皮膜“翅膀”，在树间滑翔。"
+  },
+  {
+   "name": "等蚁上门",
+   "icon": "food",
+   "desc": "在树旁等着，专吃路过的蚂蚁。"
+  }
+ ],
+ "intro": [
+  "飞蜥是鬣蜥科的蜥蜴，是东南亚特有种。",
+  "它完全在树上生活。",
+  "雄蜥用皮膜和喉垂的颜色求偶。"
+ ],
+ "fact": "雄性的皮膜是褐色到橙色带深色条纹，雌性的则是不规则花纹。",
+ "range": "东南亚热带雨林。",
+ "sources": [
+  "Wikipedia「Draco volans」",
+  "IUCN 红色名录（Quah, E. 2018）"
+ ],
+ "footnote": ""
+}

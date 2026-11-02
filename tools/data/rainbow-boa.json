@@ -1,0 +1,79 @@
+{
+ "file": "彩虹蚺",
+ "no": "1191",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "彩虹蚺",
+ "name_en": "Rainbow boa",
+ "latin": "Epicrates cenchria",
+ "short": "彩虹蚺",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "肉食性（维基仅提到饲养时喂鼠）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "4–6 英尺",
+   "lo": 1.2,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌蛇成熟",
+   "value": "1.4 m",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "最长 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "5 个",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩虹光泽",
+   "icon": "glow",
+   "desc": "鳞片的结构色让它闪着彩虹般的光泽。"
+  },
+  {
+   "name": "半树栖",
+   "icon": "climb",
+   "desc": "既在地面也在树上活动，还很会游泳。"
+  }
+ ],
+ "intro": [
+  "彩虹蚺是南美洲特有的蚺。",
+  "它夜行，半夜最活跃。",
+  "通常是橙色、褐色或红褐色，带黑色环纹。"
+ ],
+ "fact": "宠物市场最常见的是巴西彩虹蚺。",
+ "range": "南美洲安第斯山脉以东（到阿根廷北部）。",
+ "sources": [
+  "Wikipedia「Rainbow boa」",
+  "IUCN 红色名录（Calderón, M. 2021）"
+ ],
+ "footnote": ""
+}

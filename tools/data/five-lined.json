@@ -1,0 +1,79 @@
+{
+ "file": "五线石龙子",
+ "no": "1177",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "五线石龙子",
+ "name_en": "Common five-lined skink",
+ "latin": "Plestiodon fasciatus",
+ "short": "五线石龙子",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃各种节肢动物，也有吃新生小鼠、蛙和其他蜥蜴的记录",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "12.5–21.5 cm",
+   "lo": 0.125,
+   "hi": 0.215,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 1.3 cm",
+   "lo": 0.013,
+   "hi": 0.013,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "孵化期",
+   "value": "24–55 天",
+   "lo": 24,
+   "hi": 55,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "5–10 年",
+   "lo": 5,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蓝色尾巴",
+   "icon": "camo",
+   "desc": "幼蜥有亮蓝色尾巴和浅色纵纹，所以也叫“蓝尾石龙子”。"
+  },
+  {
+   "name": "咬人防身",
+   "icon": "thorn",
+   "desc": "受威胁时也会咬人自卫。"
+  }
+ ],
+ "intro": [
+  "五线石龙子是石龙子科的蜥蜴。",
+  "它是北美洲特有种。",
+  "成年雄性头部会变红，所以也叫红头石龙子。"
+ ],
+ "fact": "卵在 24–55 天孵化，时间随温度变化。",
+ "range": "北美洲东部。",
+ "sources": [
+  "Wikipedia「Plestiodon fasciatus」",
+  "IUCN 红色名录（Hammerson, G.A. 2007）"
+ ],
+ "footnote": ""
+}

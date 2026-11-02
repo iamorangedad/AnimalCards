@@ -1,0 +1,80 @@
+{
+ "file": "太攀蛇",
+ "no": "1188",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "太攀蛇",
+ "name_en": "Coastal taipan",
+ "latin": "Oxyuranus scutellatus",
+ "short": "太攀蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食小型哺乳动物，偶尔吃鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均全长",
+   "value": "约 2.0 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最长纪录",
+   "value": "2.9 m",
+   "lo": 2.9,
+   "hi": 2.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重纪录",
+   "value": "6.5 kg",
+   "lo": 6.5,
+   "hi": 6.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 1.2 m",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "剧毒",
+   "icon": "toxic",
+   "desc": "它是毒性极强的毒蛇。"
+  },
+  {
+   "name": "捕鼠能手",
+   "icon": "food",
+   "desc": "主要捕食小型哺乳动物，自蔗蟾传入后在一些地方反而更常见。"
+  }
+ ],
+ "intro": [
+  "太攀蛇也叫普通太攀蛇，是眼镜蛇科的剧毒蛇。",
+  "1867 年由 Wilhelm Peters 描述。",
+  "它是澳大利亚第二长的毒蛇。"
+ ],
+ "fact": "平均 2.0 m 长的个体重约 3.0 kg。",
+ "range": "澳大利亚北部和东部沿海、新几内亚。",
+ "sources": [
+  "Wikipedia「Coastal taipan」",
+  "IUCN 红色名录（Tallowin, O. 2018）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

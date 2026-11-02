@@ -1,0 +1,79 @@
+{
+ "file": "犰狳蜥",
+ "no": "1199",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "犰狳蜥",
+ "name_en": "Armadillo girdled lizard",
+ "latin": "Ouroborus cataphractus",
+ "short": "犰狳蜥",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "食虫",
+ "diet_note": "野外最常吃白蚁，也吃甲虫、马陆等",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2022",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "头身长",
+   "value": "7.5–9 cm",
+   "lo": 0.075,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大全长",
+   "value": "20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "群体",
+   "value": "最多 30–60 只",
+   "lo": 30,
+   "hi": 60,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每胎",
+   "value": "1–2 只",
+   "lo": 1,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "咬尾成球",
+   "icon": "thorn",
+   "desc": "受惊时把身体卷成球，用嘴咬住尾巴，露出带刺的鳞甲。"
+  },
+  {
+   "name": "胎生",
+   "icon": "huddle",
+   "desc": "每次生 1–2 只小蜥蜴，是少数不产卵的蜥蜴。"
+  }
+ ],
+ "intro": [
+  "犰狳蜥也叫犰狳环尾蜥，是环尾蜥科的蜥蜴。",
+  "它是南非多肉卡鲁特有的。",
+  "它生活在岩石露头和山坡上。"
+ ],
+ "fact": "它成群生活，各年龄的都有。",
+ "range": "南非西部（多肉卡鲁）。",
+ "sources": [
+  "Wikipedia「Armadillo girdled lizard」",
+  "IUCN 红色名录（Tolley, K.A. 2022）"
+ ],
+ "footnote": ""
+}

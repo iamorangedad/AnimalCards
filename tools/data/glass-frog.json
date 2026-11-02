@@ -1,0 +1,80 @@
+{
+ "file": "网纹玻璃蛙",
+ "no": "1185",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "网纹玻璃蛙",
+ "name_en": "La Palma glass frog",
+ "latin": "Hyalinobatrachium valerioi",
+ "short": "网纹玻璃蛙",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蟋蟀、蛾、苍蝇、蜘蛛等小虫，也吃更小的蛙",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌蛙体长",
+   "value": "26 mm",
+   "lo": 0.026,
+   "hi": 0.026,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蛙体长",
+   "value": "24 mm",
+   "lo": 0.024,
+   "hi": 0.024,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "不超过 40 枚",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "护卵",
+   "value": "24 小时",
+   "lo": 24,
+   "hi": 24,
+   "scale": "hours",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "透明肚皮",
+   "icon": "camo",
+   "desc": "腹部是透明的，只有心脏被白色组织盖住看不见。"
+  },
+  {
+   "name": "爸爸全天护卵",
+   "icon": "huddle",
+   "desc": "雄蛙白天黑夜都守着卵，这在玻璃蛙里很少见。"
+  }
+ ],
+ "intro": [
+  "网纹玻璃蛙是玻璃蛙科的一种蛙。",
+  "分布在哥斯达黎加中部到巴拿马、哥伦比亚和厄瓜多尔。",
+  "背部黄色斑点间有绿色网纹，眼睛金色。"
+ ],
+ "fact": "卵产在溪流上方的叶子背面。",
+ "range": "中美洲南部和南美洲西北部的溪边森林。",
+ "sources": [
+  "Wikipedia「Hyalinobatrachium valerioi」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2020）"
+ ],
+ "footnote": ""
+}

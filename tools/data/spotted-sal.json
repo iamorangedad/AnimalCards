@@ -1,0 +1,80 @@
+{
+ "file": "斑点钝口螈",
+ "no": "1195",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "斑点钝口螈",
+ "name_en": "Spotted salamander",
+ "latin": "Ambystoma maculatum",
+ "short": "斑点钝口螈",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蚯蚓、蛞蝓、蜗牛、蜘蛛、马陆、蜈蚣、昆虫和更小的蝾螈",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "一般寿命",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "最长寿",
+   "value": "30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "约 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "出洞气温",
+   "value": "4 °C 以上",
+   "lo": 4,
+   "hi": 4,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "卵里有藻",
+   "icon": "sun",
+   "desc": "胚胎内外共生着一种绿藻，是已知唯一的脊椎动物与藻类细胞内共生例子。"
+  },
+  {
+   "name": "背部毒腺",
+   "icon": "toxic",
+   "desc": "背部和颈部的大毒腺能分泌有毒物质防身，还会断尾逃生。"
+  }
+ ],
+ "intro": [
+  "斑点钝口螈也叫黄斑钝口螈，属于钝口螈科。",
+  "能在 10 m 外察觉森林的存在。"
+ ],
+ "fact": "季节性水塘常干涸，没有鱼，是它理想的繁殖地。",
+ "range": "美国东部和加拿大东南部。",
+ "sources": [
+  "Wikipedia「Spotted salamander」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2022）"
+ ],
+ "footnote": "",
+ "warn": "皮肤分泌物有毒，摸过后要洗手。"
+}

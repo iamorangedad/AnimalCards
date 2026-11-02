@@ -1,0 +1,78 @@
+{
+ "file": "猪鼻龟",
+ "no": "1200",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "猪鼻龟",
+ "name_en": "Pig-nosed turtle",
+ "latin": "Carettochelys insculpta",
+ "short": "猪鼻龟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃无花果的花、果实和叶子，也捕食甲壳类和软体动物等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2018",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "70–75 cm",
+   "lo": 0.7,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "超过 20 kg",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "十年查获",
+   "value": "8 万多只",
+   "lo": 80000,
+   "hi": 80000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "查获次数",
+   "value": "30 次",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "猪鼻子",
+   "icon": "whisker",
+   "desc": "鼻孔长在肉质鼻子的末端，像猪鼻子。"
+  },
+  {
+   "name": "海龟脚",
+   "icon": "dive",
+   "desc": "脚是像海龟一样的鳍状肢。"
+  }
+ ],
+ "intro": [
+  "猪鼻龟也叫飞河龟，原产澳大利亚北部和新几内亚南部。",
+  "它是两爪鳖科唯一现存的物种。",
+  "它和其他淡水龟都很不一样。"
+ ],
+ "fact": "2003–2013 年在巴布亚新几内亚和印尼查获 8 万多只。幼龟会在卵里休眠，等洪水或气压骤降才孵出。",
+ "range": "澳大利亚北部和新几内亚南部的河流。",
+ "sources": [
+  "Wikipedia「Pig-nosed turtle」"
+ ],
+ "footnote": "IUCN 评估作者未在维基引用中列出（待核）。"
+}

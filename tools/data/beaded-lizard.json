@@ -1,0 +1,79 @@
+{
+ "file": "墨西哥毒蜥",
+ "no": "1197",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "墨西哥毒蜥",
+ "name_en": "Mexican beaded lizard",
+ "latin": "Heloderma horridum",
+ "short": "墨西哥毒蜥",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "专吃鸟蛋和爬行动物蛋，偶尔吃小鸟、兽、蛙、蜥蜴和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "57–91 cm",
+   "lo": 0.57,
+   "hi": 0.91,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "头身长",
+   "value": "33–48 cm",
+   "lo": 0.33,
+   "hi": 0.48,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "800 g",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "4000 g",
+   "lo": 4.0,
+   "hi": 4.0,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "有毒蜥蜴",
+   "icon": "toxic",
+   "desc": "它和吉拉毒蜥同属，是演化出明显毒液输送系统的少数蜥蜴。"
+  },
+  {
+   "name": "爬树偷蛋",
+   "icon": "climb",
+   "desc": "半树栖，会爬上落叶树寻找鸟蛋。"
+  }
+ ],
+ "intro": [
+  "墨西哥毒蜥是毒蜥科的有毒蜥蜴。",
+  "主要分布在墨西哥和危地马拉南部。"
+ ],
+ "fact": "它的毒液含有几种可用于制药的酶。",
+ "range": "墨西哥太平洋沿岸到危地马拉的干燥森林。",
+ "sources": [
+  "Wikipedia「Mexican beaded lizard」",
+  "IUCN 红色名录（Ariano-Sánchez, D. 2014）"
+ ],
+ "footnote": "",
+ "warn": "有毒，会咬人且咬住不放；野外不要触碰。"
+}

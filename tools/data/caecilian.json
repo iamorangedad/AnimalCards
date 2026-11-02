@@ -1,0 +1,79 @@
+{
+ "file": "环管蚓螈",
+ "no": "1183",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "环管蚓螈",
+ "name_en": "Ringed caecilian",
+ "latin": "Siphonops annulatus",
+ "short": "环管蚓螈",
+ "type": "两栖",
+ "habitat": [
+  "土壤"
+ ],
+ "diet": "肉食",
+ "diet_note": "肉食性（维基未详述食性）；幼体吃妈妈的外层皮肤",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "286–450 mm",
+   "lo": 0.286,
+   "hi": 0.45,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "隧道深度",
+   "value": "不超过 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼体牙齿",
+   "value": "44 颗",
+   "lo": 44,
+   "hi": 44,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "分布国",
+   "value": "约 12 国",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃妈妈皮",
+   "icon": "food",
+   "desc": "幼体用 44 颗勺子状的牙刮食妈妈的外层皮肤，妈妈 3 天后又长出新皮。"
+  },
+  {
+   "name": "挖土能手",
+   "icon": "root",
+   "desc": "高度骨化的头骨帮它在地下钻洞，头部还分泌润滑黏液。"
+  }
+ ],
+ "intro": [
+  "环管蚓螈是南美洲特有的一种蚓螈（无足两栖动物）。",
+  "它可能是分布最广的陆生蚓螈。",
+  "身体蓝黑色，环沟镶着白边。"
+ ],
+ "fact": "尾部的腺体装满了有害化学物质，类似蟾蜍和蝾螈的毒腺。",
+ "range": "南美洲安第斯山脉以东。",
+ "sources": [
+  "Wikipedia「Siphonops annulatus」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2023）"
+ ],
+ "footnote": "“分布国”按维基列出的国家计数（待核）。"
+}

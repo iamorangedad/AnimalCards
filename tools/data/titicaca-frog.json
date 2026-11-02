@@ -1,0 +1,79 @@
+{
+ "file": "的的喀喀湖蛙",
+ "no": "1196",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "的的喀喀湖蛙",
+ "name_en": "Titicaca water frog",
+ "latin": "Telmatobius culeus",
+ "short": "的的喀喀湖蛙",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃端足类和螺，也吃昆虫、蝌蚪、鱼（如 Orestias），甚至同类",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "头身长",
+   "value": "最长 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "通常水深",
+   "value": "超过 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "库斯托拍到",
+   "value": "120 m 深",
+   "lo": 120,
+   "hi": 120,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 3 岁",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "松垮皮肤",
+   "icon": "drop",
+   "desc": "多余的皮褶帮它在冰冷的湖水里用皮肤呼吸。"
+  },
+  {
+   "name": "完全水生",
+   "icon": "dive",
+   "desc": "它一生都在水里，只生活在的的喀喀湖流域。"
+  }
+ ],
+ "intro": [
+  "的的喀喀湖蛙是一种大型的濒危蛙。",
+  "它属于 Telmatobiidae 科。",
+  "后腿约是头身长的两倍。"
+ ],
+ "fact": "库斯托乘小潜艇在 120 m 深的湖底拍到了它和它的印迹。",
+ "range": "南美洲的的喀喀湖（秘鲁和玻利维亚）。",
+ "sources": [
+  "Wikipedia「Telmatobius culeus」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2020）"
+ ],
+ "footnote": ""
+}

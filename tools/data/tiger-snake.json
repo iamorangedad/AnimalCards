@@ -1,0 +1,80 @@
+{
+ "file": "虎蛇",
+ "no": "1189",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "虎蛇",
+ "name_en": "Tiger snake",
+ "latin": "Notechis scutatus",
+ "short": "虎蛇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "用毒液杀死猎物（维基未详述食物）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见全长",
+   "value": "约 1.2 m",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "平均长",
+   "value": "0.9 m",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长纪录",
+   "value": "2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "西部虎蛇",
+   "value": "可达 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "虎纹",
+   "icon": "camo",
+   "desc": "身上有黑黄相间的环带，因此叫虎蛇。"
+  },
+  {
+   "name": "扁身示威",
+   "icon": "toxic",
+   "desc": "受威胁时把身体压扁、抬起头，摆出经典的威吓姿态。"
+  }
+ ],
+ "intro": [
+  "虎蛇是澳大利亚南部大型剧毒蛇。",
+  "它也分布在沿海岛屿和塔斯马尼亚。",
+  "岛屿上的种群进化出更大的头来吞大猎物。"
+ ],
+ "fact": "它通常在地面活动，但也会游泳、爬树和钻进建筑物。",
+ "range": "澳大利亚南部和塔斯马尼亚。",
+ "sources": [
+  "Wikipedia「Tiger snake」",
+  "IUCN 红色名录（Michael, D. 2018）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

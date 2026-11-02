@@ -1,0 +1,80 @@
+{
+ "file": "南美巨蝮",
+ "no": "1181",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "南美巨蝮",
+ "name_en": "South American bushmaster",
+ "latin": "Lachesis muta",
+ "short": "南美巨蝮",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃大鼠和小鼠，在哥斯达黎加偏爱刺鼠",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长纪录",
+   "value": "3.65 m",
+   "lo": 3.65,
+   "hi": 3.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "3–5 kg",
+   "lo": 3,
+   "hi": 5,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "亚种",
+   "value": "2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "毒蛇中长度",
+   "value": "第 3 长",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最长蝮蛇",
+   "icon": "trunk",
+   "desc": "最长纪录 3.65 m，是最长的蝰蛇，也是西半球最长的毒蛇。"
+  },
+  {
+   "name": "抖尾警告",
+   "icon": "ear",
+   "desc": "和多数新大陆蝮蛇一样，受到威胁时会快速抖动尾巴。"
+  }
+ ],
+ "intro": [
+  "南美巨蝮也叫大西洋巨蝮，是一种蝮蛇。",
+  "分布在南美洲和加勒比海的特立尼达岛。",
+  "它是世界第三长的毒蛇，仅次于眼镜王蛇和黑曼巴。"
+ ],
+ "fact": "在巴西，一个 7 岁男孩出门时踩到它而被咬。",
+ "range": "南美洲热带雨林和特立尼达。",
+ "sources": [
+  "Wikipedia「Lachesis muta」",
+  "IUCN 红色名录（Gutiérrez-Cárdenas, P. 2021）"
+ ],
+ "footnote": "",
+ "warn": "毒蛇咬伤可能致命：别靠近或捕捉，被咬后立即就医。"
+}

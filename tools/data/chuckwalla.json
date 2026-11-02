@@ -1,0 +1,79 @@
+{
+ "file": "叩壁蜥",
+ "no": "1174",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "叩壁蜥",
+ "name_en": "Common chuckwalla",
+ "latin": "Sauromalus ater",
+ "short": "叩壁蜥",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃三齿拉瑞阿灌木的花、叶和果实，偶尔吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2007",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "51 cm",
+   "lo": 0.51,
+   "hi": 0.51,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.9 kg",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "活动温度",
+   "value": "最高 39 °C",
+   "lo": 39,
+   "hi": 39,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "5–16 枚",
+   "lo": 5,
+   "hi": 16,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鼓气卡石缝",
+   "icon": "huddle",
+   "desc": "受惊时钻进石缝，鼓起肺把身体卡住，敌人拉不出来。"
+  },
+  {
+   "name": "耐热",
+   "icon": "sun",
+   "desc": "很适应沙漠，在 39 °C 时仍很活跃。"
+  }
+ ],
+ "intro": [
+  "叩壁蜥也叫普通叩壁蜥，是美洲鬣蜥科的蜥蜴。",
+  "它生活在美国西南部和墨西哥西北部的索诺拉和莫哈维沙漠。",
+  "名字来自肖肖尼语。"
+ ],
+ "fact": "属名 Sauromalus 由希腊语“蜥蜴”和“扁平”组合而来。",
+ "range": "美国西南部和墨西哥西北部的沙漠。",
+ "sources": [
+  "Wikipedia「Sauromalus ater」",
+  "IUCN 红色名录（Hammerson, G.A. 2007）"
+ ],
+ "footnote": ""
+}

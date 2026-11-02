@@ -213,7 +213,7 @@ elephant-beetle 象犀金龟 Megasoma elephas
 two-spot 二星瓢虫 Adalia bipunctata
 jewel-beetle 彩虹吉丁 Chrysochroa fulgidissima
 giraffe-weevil 长颈象鼻虫 Giraffe weevil
-owl-butterfly 猫头鹰环蝶 Caligo memnon
+owl-butterfly 猫头鹰环蝶 Caligo
 wild-silkmoth 野桑蚕 Bombyx mandarina
 blue-damsel 长叶异痣蟌 Ischnura elegans
 devil-mantis 魔花螳螂 Idolomantis diabolica
@@ -221,7 +221,7 @@ hissing-roach 马岛发声蟑螂 Gromphadorhina portentosa
 backswimmer 仰泳蝽 Notonecta glauca
 scorpionfly 蝎蛉 Panorpa communis
 emma-cricket 大洋油葫芦 Teleogryllus oceanicus
-katydid 纺织娘 Mecopoda elongata
+katydid 纺织娘 Mecopoda
 oriental-hornet 东方胡蜂 Oriental hornet
 velvet-ant 牛杀蚁蜂 Dasymutilla occidentalis
 garden-tiger 豹灯蛾 Garden tiger moth
@@ -230,7 +230,7 @@ ulysses 天堂凤蝶 Papilio ulysses
 small-tortoise 荨麻蛱蝶 Small tortoiseshell
 common-blue 普通眼灰蝶 Common blue
 black-cicada 斑透翅蝉 Hyalessa maculaticollis
-whirligig 豉甲 Gyrinus substriatus
+whirligig 豉甲 Whirligig beetle
 atlas-beetle 南洋大兜虫 Chalcosoma atlas
 dobsonfly 东部巨齿蛉 Corydalus cornutus
 thrips 西花蓟马 Western flower thrips
@@ -248,7 +248,7 @@ zander 梭鲈 Zander
 bass 大口黑鲈 Largemouth bass
 bluegill 蓝鳃太阳鱼 Bluegill
 trout-brown 河鳟 Brown trout
-grayling 茴鱼 Grayling (species)
+grayling 茴鱼 Thymallus thymallus
 huchen 哲罗鲑 Hucho taimen
 sturgeon-chinese 中华鲟 Chinese sturgeon
 paddlefish 匙吻鲟 American paddlefish
@@ -280,7 +280,7 @@ bark-scorpion 亚利桑那树皮蝎 Arizona bark scorpion
 whip-scorpion 鞭蝎 Mastigoproctus giganteus
 camel-spider 避日蛛 Solifugae
 tick 蓖麻硬蜱 Ixodes ricinus
-dust-mite 屋尘螨 Dermatophagoides pteronyssinus
+dust-mite 屋尘螨 House dust mite
 coconut-crab 椰子蟹 Coconut crab
 red-crab 圣诞岛红蟹 Christmas Island red crab
 fiddler 招潮蟹 Fiddler crab
@@ -317,8 +317,8 @@ viperfish 斯氏蝰鱼 Sloane's viperfish
 fangtooth 角高体金眼鲷 Common fangtooth
 barreleye 后肛鱼 Macropinna microstoma
 blobfish 软隐棘杜父鱼 Psychrolutes marcidus
-lanternfish 七星底灯鱼 Benthosema glaciale
-hatchetfish 银斧鱼 Argyropelecus aculeatus
+lanternfish 灯笼鱼 Lanternfish
+hatchetfish 银斧鱼 Marine hatchetfish
 frilled-shark 皱鳃鲨 Frilled shark
 goblin-shark 欧氏尖吻鲛 Goblin shark
 cookiecutter 雪茄达摩鲨 Cookiecutter shark
@@ -371,7 +371,7 @@ crocus 番红花 Crocus sativus
 amaryllis 孤挺花 Amaryllis belladonna
 passionflower 西番莲 Passiflora caerulea
 lantana 马缨丹 Lantana camara""",
-TR: """white-birch 白桦 Betula platyphylla
+TR: """white-birch 纸桦 Betula papyrifera
 horse-chestnut 欧洲七叶树 Aesculus hippocastanum
 ash 欧洲白蜡树 Fraxinus excelsior
 elm 欧洲野榆 Ulmus minor
@@ -502,10 +502,10 @@ old-mans-beard 松萝 Usnea
 map-lichen 地图衣 Rhizocarpon geographicum
 xanthoria 石黄衣 Xanthoria parietina
 lungwort 肺衣 Lobaria pulmonaria
-rock-tripe 石耳 Umbilicaria esculenta
+rock-tripe 石耳 Umbilicaria
 british-soldiers 英国兵石蕊 Cladonia cristatella
 manna-lichen 栎扁枝衣 Oakmoss
-dog-lichen 犬地卷 Peltigera canina""",
+dog-lichen 地卷 Peltigera""",
 }
 R5 = []
 for cat, block in _raw.items():

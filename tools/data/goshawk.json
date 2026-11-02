@@ -1,0 +1,79 @@
+{
+ "file": "苍鹰",
+ "no": "1166",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "苍鹰",
+ "name_en": "Eurasian goshawk",
+ "latin": "Astur gentilis",
+ "short": "苍鹰",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食鸦类、鸽子、松鸡、雉、鸫和啄木鸟等鸟类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鸟体长",
+   "value": "46–63 cm",
+   "lo": 0.46,
+   "hi": 0.63,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体长",
+   "value": "58–69 cm",
+   "lo": 0.58,
+   "hi": 0.69,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟翼展",
+   "value": "108–127 cm",
+   "lo": 1.08,
+   "hi": 1.27,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体重",
+   "value": "820–2200 g",
+   "lo": 0.82,
+   "hi": 2.2,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "林中猎手",
+   "icon": "wind",
+   "desc": "它是凶猛的猛禽，对比它小的猛禽也很危险。"
+  },
+  {
+   "name": "鹰猎名鸟",
+   "icon": "team",
+   "desc": "中世纪只有贵族才被允许用苍鹰打猎。"
+  }
+ ],
+ "intro": [
+  "苍鹰是鹰科中大型的猛禽。",
+  "北美的种群现在被分为另一个物种：美洲苍鹰。",
+  "雌鸟比雄鸟大得多。"
+ ],
+ "fact": "在日本，一个苍鹰种群生活在东京的皇居庭园里。",
+ "range": "欧亚大陆和北非的森林。",
+ "sources": [
+  "Wikipedia「Eurasian goshawk」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

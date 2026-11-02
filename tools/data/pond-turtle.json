@@ -1,0 +1,80 @@
+{
+ "file": "欧洲泽龟",
+ "no": "1171",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "欧洲泽龟",
+ "name_en": "European pond turtle",
+ "latin": "Emys orbicularis",
+ "short": "欧洲泽龟",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "幼年偏肉食，长大后逐渐偏向吃植物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 1996",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "背甲长",
+   "value": "12–38 cm",
+   "lo": 0.12,
+   "hi": 0.38,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一般寿命",
+   "value": "40–60 年",
+   "lo": 40,
+   "hi": 60,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "罕见高寿",
+   "value": "超过 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "离水最远",
+   "value": "4 km",
+   "lo": 4,
+   "hi": 4,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "半水生",
+   "icon": "dive",
+   "desc": "它常被认为是半水生的，在陆地上能走 1 km 以上。"
+  },
+  {
+   "name": "长寿龟",
+   "icon": "huddle",
+   "desc": "一般能活 40–60 年，偶尔超过 100 年。"
+  }
+ ],
+ "intro": [
+  "欧洲泽龟是泽龟科的长寿淡水龟。",
+  "它是西古北界特有的物种。",
+  "已确认 14 个亚种。"
+ ],
+ "fact": "雌龟常把巢建在路边，导致很多死在路上。",
+ "range": "欧洲、北非和西亚。",
+ "sources": [
+  "Wikipedia「European pond turtle」",
+  "IUCN 红色名录（Tortoise & Freshwater Turtle Specialist Group 1996）"
+ ],
+ "footnote": ""
+}

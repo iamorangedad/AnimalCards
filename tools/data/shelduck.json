@@ -1,0 +1,80 @@
+{
+ "file": "翘鼻麻鸭",
+ "no": "1157",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "翘鼻麻鸭",
+ "name_en": "Common shelduck",
+ "latin": "Tadorna tadorna",
+ "short": "翘鼻麻鸭",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "55–65 cm",
+   "lo": 0.55,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "100–120 cm",
+   "lo": 1.0,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "带雏远行",
+   "value": "最远 3 km",
+   "lo": 3,
+   "hi": 3,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "近 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "兔洞做窝",
+   "icon": "climb",
+   "desc": "常在兔子洞、树洞或干草堆里筑巢。"
+  },
+  {
+   "name": "双亲护雏",
+   "icon": "team",
+   "desc": "像雁和天鹅一样，父母一起保护雏鸭，带它们去好的觅食地。"
+  }
+ ],
+ "intro": [
+  "翘鼻麻鸭是麻鸭属的水禽。",
+  "它广泛分布于古北界，在欧洲和西北非温带海岸繁殖。",
+  "嘴红粉色，身体白色带栗色斑，腹部黑色。"
+ ],
+ "fact": "它通常 2 岁第一次繁殖。",
+ "range": "欧亚大陆和北非（海岸、盐池和河口）。",
+ "sources": [
+  "Wikipedia「Common shelduck」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "红嘴鸥",
+ "no": "1164",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红嘴鸥",
+ "name_en": "Black-headed gull",
+ "latin": "Chroicocephalus ridibundus",
+ "short": "红嘴鸥",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃昆虫、鱼、种子、蠕虫、残羹和腐肉，也在翻耕的田里吃无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "34–39 cm",
+   "lo": 0.34,
+   "hi": 0.39,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "100–110 cm",
+   "lo": 1.0,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "野外最长寿",
+   "value": "至少 32.9 年",
+   "lo": 32.9,
+   "hi": 32.9,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "全球",
+   "value": "200–300 万对",
+   "lo": 2000000.0,
+   "hi": 3000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "城里也能吃",
+   "icon": "food",
+   "desc": "在城镇里吃残羹和腐肉，在田里吃翻出的虫子，样样都行。"
+  },
+  {
+   "name": "集群繁殖",
+   "icon": "team",
+   "desc": "在大片芦苇丛、沼泽或湖心岛上成群在地面筑巢。"
+  }
+ ],
+ "intro": [
+  "红嘴鸥是一种小型鸥。",
+  "它在欧亚大陆的古北界大部分地区繁殖，加拿大东部沿海也有少量。",
+  "大多数会迁徙。"
+ ],
+ "fact": "它的分布在向西扩展：1911 年到冰岛，1969 年到格陵兰，1977 年到纽芬兰。",
+ "range": "欧亚大陆（在中国、南亚等地越冬）。",
+ "sources": [
+  "Wikipedia「Black-headed gull」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

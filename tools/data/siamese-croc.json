@@ -1,0 +1,80 @@
+{
+ "file": "暹罗鳄",
+ "no": "1172",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "暹罗鳄",
+ "name_en": "Siamese crocodile",
+ "latin": "Crocodylus siamensis",
+ "short": "暹罗鳄",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成体主要吃鱼和蛇，也吃两栖类和小型哺乳动物",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2012",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "成体体长",
+   "value": "2.1–3 m",
+   "lo": 2.1,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "大公鳄",
+   "value": "4 m、350 kg",
+   "lo": 350,
+   "hi": 350,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "咬合力",
+   "value": "2073–4577 N",
+   "lo": 2073,
+   "hi": 4577,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "15–50 枚",
+   "lo": 15,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "性情温和",
+   "icon": "huddle",
+   "desc": "纯种暹罗鳄一般不攻击人，确认的袭击只有 4 起，都不致命。"
+  },
+  {
+   "name": "筑土堆巢",
+   "icon": "food",
+   "desc": "雌鳄用刮起的植物和泥土堆成土丘巢。"
+  }
+ ],
+ "intro": [
+  "暹罗鳄是中型淡水鳄。",
+  "原产泰国、老挝、柬埔寨、越南和印度尼西亚加里曼丹。",
+  "它是极危物种。"
+ ],
+ "fact": "2021 年，在柬埔寨东部一个野生动物保护区发现了 8 只幼鳄。",
+ "range": "东南亚（泰国、柬埔寨、老挝、越南、加里曼丹）。",
+ "sources": [
+  "Wikipedia「Siamese crocodile」",
+  "IUCN 红色名录（Bezuijen, M. 2012）"
+ ],
+ "footnote": "“咬合力”取 3 只 2.12–2.63 m 个体的测量。"
+}

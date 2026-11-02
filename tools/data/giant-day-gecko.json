@@ -1,0 +1,71 @@
+{
+ "file": "马岛大守宫",
+ "no": "1175",
+ "cat": "爬行两栖",
+ "kingdom": "动物",
+ "name_cn": "马岛大守宫",
+ "name_en": "Madagascar giant day gecko",
+ "latin": "Phelsuma grandis",
+ "short": "马岛大守宫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃各种无脊椎动物、很小的脊椎动物和花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "23–28 cm",
+   "lo": 0.23,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化",
+   "value": "48–80 天",
+   "lo": 48,
+   "hi": 80,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "同类群",
+   "value": "70 多个种和亚种",
+   "lo": 70,
+   "hi": 70,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "舔眼睛",
+   "icon": "drop",
+   "desc": "它没有眼睑，常用舌头舔眼睛保持清洁。"
+  },
+  {
+   "name": "红色鼻纹",
+   "icon": "camo",
+   "desc": "身体鲜绿，从鼻孔到眼睛有一道红色条纹。"
+  }
+ ],
+ "intro": [
+  "马岛大守宫是白天活动、住在树上的守宫。",
+  "原产马达加斯加北部的森林。",
+  "它被引入了佛罗里达和夏威夷等地。"
+ ],
+ "fact": "它常被当作宠物繁殖和出售。",
+ "range": "马达加斯加北部（引入佛罗里达、夏威夷等）。",
+ "sources": [
+  "Wikipedia「Phelsuma grandis」",
+  "IUCN 红色名录（Ratsoavina, F. 2011）"
+ ],
+ "footnote": ""
+}

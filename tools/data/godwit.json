@@ -1,0 +1,80 @@
+{
+ "file": "斑尾塍鹬",
+ "no": "1161",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "斑尾塍鹬",
+ "name_en": "Bar-tailed godwit",
+ "latin": "Limosa lapponica",
+ "short": "斑尾塍鹬",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在海岸泥滩吃多毛类和贝类，在湿草地吃无脊椎动物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2025",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "37–41 cm",
+   "lo": 0.37,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "70–80 cm",
+   "lo": 0.7,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "不停歇飞行",
+   "value": "13560 km",
+   "lo": 13560,
+   "hi": 13560,
+   "scale": "km_xl",
+   "approx": false
+  },
+  {
+   "label": "往返迁徙",
+   "value": "超 2.9 万 km",
+   "lo": 29000,
+   "hi": 29000,
+   "scale": "km_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不停飞纪录",
+   "icon": "wind",
+   "desc": "一只个体 11 天 1 小时不停飞了至少 13560 km，是已知纪录。"
+  },
+  {
+   "name": "红色繁殖羽",
+   "icon": "sun",
+   "desc": "繁殖期胸腹变成醒目的红色。"
+  }
+ ],
+ "intro": [
+  "斑尾塍鹬是一种大型、长距离迁徙的涉禽。",
+  "阿拉斯加繁殖的种群直接飞越太平洋去澳大利亚和新西兰。",
+  "这是已知鸟类最长的不停歇飞行。"
+ ],
+ "fact": "它在途中完全不停下觅食。",
+ "range": "欧亚北部和阿拉斯加繁殖，到西欧、非洲、澳大利亚和新西兰越冬。",
+ "sources": [
+  "Wikipedia「Bar-tailed godwit」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

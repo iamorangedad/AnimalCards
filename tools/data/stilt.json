@@ -1,0 +1,80 @@
+{
+ "file": "黑翅长脚鹬",
+ "no": "1159",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黑翅长脚鹬",
+ "name_en": "Black-winged stilt",
+ "latin": "Himantopus himantopus",
+ "short": "黑翅长脚鹬",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "肉食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "33–36 cm",
+   "lo": 0.33,
+   "hi": 0.36,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "同属物种",
+   "value": "5 种",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "英国断繁",
+   "value": "27 年",
+   "lo": 27,
+   "hi": 27,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长粉腿",
+   "icon": "climb",
+   "desc": "粉红色的腿特别长，能在较深的浅水里涉水。"
+  },
+  {
+   "name": "黑白配色",
+   "icon": "camo",
+   "desc": "上体黑色、下体白色，头颈白色。"
+  }
+ ],
+ "intro": [
+  "黑翅长脚鹬是分布很广的长腿涉禽。",
+  "属名 Himantopus 来自希腊语，意思是“皮带脚”。",
+  "雄鸟背部黑色带绿光，雌鸟背部偏褐。"
+ ],
+ "fact": "1987 年它在英国成功繁殖，时隔 27 年后，2014 年又在英格兰南部繁殖。",
+ "range": "欧亚大陆、非洲（广布温暖地区的湿地）。",
+ "sources": [
+  "Wikipedia「Black-winged stilt」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "数据较少；“英国断繁”无比较意义。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "红头美洲鹫",
+ "no": "1169",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红头美洲鹫",
+ "name_en": "Turkey vulture",
+ "latin": "Cathartes aura",
+ "short": "红头美洲鹫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "食腐，靠敏锐的视觉和嗅觉寻找刚开始腐烂的动物尸体",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "1.5–2 m",
+   "lo": 1.5,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "62–81 cm",
+   "lo": 0.62,
+   "hi": 0.81,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.8–2.41 kg",
+   "lo": 0.8,
+   "hi": 2.41,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全球数量",
+   "value": "约 1800 万",
+   "lo": 18000000.0,
+   "hi": 18000000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "靠鼻子找食",
+   "icon": "whisker",
+   "desc": "低空飞行，闻到动物刚开始腐烂时产生的气体。"
+  },
+  {
+   "name": "呕吐防身",
+   "icon": "toxic",
+   "desc": "受威胁时会吐出食物，近距离吐到敌人脸上会刺痛眼睛。"
+  }
+ ],
+ "intro": [
+  "红头美洲鹫是分布最广的新大陆秃鹫。",
+  "它从加拿大南部一直分布到南美洲最南端。",
+  "红头美洲鹫属共有 3 种。"
+ ],
+ "fact": "2025 年，一只名叫 Lord Richard 的圈养雄鸟已经 51 岁。",
+ "range": "南北美洲（加拿大南部到火地岛）。",
+ "sources": [
+  "Wikipedia「Turkey vulture」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

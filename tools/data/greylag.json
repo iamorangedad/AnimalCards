@@ -1,0 +1,80 @@
+{
+ "file": "灰雁",
+ "no": "1154",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "灰雁",
+ "name_en": "Greylag goose",
+ "latin": "Anser anser",
+ "short": "灰雁",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "冬天吃草和叶子，捡收割后的谷粒，夜里也吃庄稼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "74–91 cm",
+   "lo": 0.74,
+   "hi": 0.91,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "3.3 kg",
+   "lo": 3.3,
+   "hi": 3.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "147–180 cm",
+   "lo": 1.47,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "驯化史",
+   "value": "至少 3000 年",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "印随研究",
+   "icon": "ear",
+   "desc": "动物行为学家洛伦兹用灰雁做了著名的“印随”研究。"
+  },
+  {
+   "name": "家鹅祖先",
+   "icon": "team",
+   "desc": "它是最早被驯化的动物之一，至少 3000 年前在古埃及驯化。"
+  }
+ ],
+ "intro": [
+  "灰雁是鸭科的大型雁，是雁属的模式种。",
+  "羽毛灰白相间，嘴橙色，腿粉色。",
+  "大多数配对可能终身相伴。"
+ ],
+ "fact": "5%–8% 的配对会分开并另找伴侣。",
+ "range": "欧亚大陆（北部繁殖，南部越冬）。",
+ "sources": [
+  "Wikipedia「Greylag goose」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

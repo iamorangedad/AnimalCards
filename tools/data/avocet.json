@@ -1,0 +1,80 @@
+{
+ "file": "反嘴鹬",
+ "no": "1158",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "反嘴鹬",
+ "name_en": "Pied avocet",
+ "latin": "Recurvirostra avosetta",
+ "short": "反嘴鹬",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃甲壳类和昆虫等无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "翼展",
+   "value": "约 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "公鸟嘴长",
+   "value": "8.2–9.1 cm",
+   "lo": 0.082,
+   "hi": 0.091,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "36 年",
+   "lo": 36,
+   "hi": 36,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "上翘长嘴",
+   "icon": "food",
+   "desc": "又细又长的黑嘴向上翘，是它最好认的特征。"
+  },
+  {
+   "name": "成群筑巢",
+   "icon": "team",
+   "desc": "通常 10–70 对一起在小岛或堤坝上筑巢。"
+  }
+ ],
+ "intro": [
+  "反嘴鹬是反嘴鹬科的涉禽。",
+  "它是在欧洲、非洲和亚洲唯一的反嘴鹬属鸟。",
+  "羽毛黑白分明，腿长。"
+ ],
+ "fact": "它的寿命约 20 年，纪录是 36 年。",
+ "range": "欧洲、非洲和亚洲的沿海潟湖和沼泽。",
+ "sources": [
+  "Wikipedia「Pied avocet」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

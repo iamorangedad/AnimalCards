@@ -1,0 +1,80 @@
+{
+ "file": "蛇雕",
+ "no": "1168",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "蛇雕",
+ "name_en": "Crested serpent eagle",
+ "latin": "Spilornis cheela",
+ "short": "蛇雕",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "常吃蛇，也吃鸟、蝗虫、两栖类、兽类、鱼、白蚁和大蚯蚓",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "41–75 cm",
+   "lo": 0.41,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "89–169 cm",
+   "lo": 0.89,
+   "hi": 1.69,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "婆罗洲亚种",
+   "value": "625–1130 g",
+   "lo": 0.625,
+   "hi": 1.13,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "小亚种公鸟",
+   "value": "420 g",
+   "lo": 0.42,
+   "hi": 0.42,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃蛇专家",
+   "icon": "food",
+   "desc": "它常吃蛇，因此得名。"
+  },
+  {
+   "name": "大小差很多",
+   "icon": "trunk",
+   "desc": "各亚种大小相差很大，体长从 41 cm 到 75 cm 不等。"
+  }
+ ],
+ "intro": [
+  "蛇雕是一种中型猛禽，生活在热带亚洲的森林里。",
+  "它分布在印度次大陆、东南亚和东亚。",
+  "各地种群大小差别很大，有许多亚种。"
+ ],
+ "fact": "它和短趾雕一起被归入短趾雕亚科。",
+ "range": "南亚、东南亚和中国南方的森林。",
+ "sources": [
+  "Wikipedia「Crested serpent eagle」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

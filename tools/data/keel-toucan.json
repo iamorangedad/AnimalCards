@@ -1,0 +1,79 @@
+{
+ "file": "厚嘴巨嘴鸟",
+ "no": "1152",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "厚嘴巨嘴鸟",
+ "name_en": "Keel-billed toucan",
+ "latin": "Ramphastos sulfuratus",
+ "short": "厚嘴巨嘴鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、种子、昆虫、蜥蜴、蛇和小鸟及鸟蛋",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "380–500 g",
+   "lo": 0.38,
+   "hi": 0.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "12–15 cm",
+   "lo": 0.12,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "1900 m",
+   "lo": 1900,
+   "hi": 1900,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "15–20 天",
+   "lo": 15,
+   "hi": 20,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩虹大嘴",
+   "icon": "sun",
+   "desc": "嘴大而鲜艳，约占全长的三分之一，所以也叫彩虹嘴巨嘴鸟。"
+  },
+  {
+   "name": "树洞安家",
+   "icon": "climb",
+   "desc": "在离地 3–27 m 的树洞里筑巢。"
+  }
+ ],
+ "intro": [
+  "厚嘴巨嘴鸟原产墨西哥南部、中美洲和南美洲西北部。",
+  "它是杂食的森林鸟。",
+  "它是伯利兹的国鸟。"
+ ],
+ "fact": "雏鸟孵出时没有羽毛，眼睛闭着约 3 周。",
+ "range": "墨西哥南部到哥伦比亚、委内瑞拉西北部的雨林。",
+ "sources": [
+  "Wikipedia「Keel-billed toucan」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

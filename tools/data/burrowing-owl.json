@@ -1,0 +1,80 @@
+{
+ "file": "穴小鸮",
+ "no": "1165",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "穴小鸮",
+ "name_en": "Burrowing owl",
+ "latin": "Athene cunicularia",
+ "short": "穴小鸮",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "多米尼加的研究：约 53% 无脊椎动物、28% 鸟、15% 爬行动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "19–28 cm",
+   "lo": 0.19,
+   "hi": 0.28,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "50.8–61 cm",
+   "lo": 0.508,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "140–240 g",
+   "lo": 0.14,
+   "hi": 0.24,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "4–12 枚",
+   "lo": 4,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "住地洞",
+   "icon": "climb",
+   "desc": "它主要在地面生活，住在草原上的地洞里。"
+  },
+  {
+   "name": "学响尾蛇",
+   "icon": "ear",
+   "desc": "受威胁时在洞里发出像响尾蛇一样的嘎嘎声和嘶嘶声。"
+  }
+ ],
+ "intro": [
+  "穴小鸮是一种腿长、多在地面活动的小型猫头鹰。",
+  "它原产南北美洲的开阔地带。",
+  "它会飞，并不是不会飞的鸟。"
+ ],
+ "fact": "它会把粪便放在洞口，研究者认为这有助于控制洞里的微环境（原以为是掩盖气味）。",
+ "range": "南北美洲的草原、牧场和荒漠。",
+ "sources": [
+  "Wikipedia「Burrowing owl」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

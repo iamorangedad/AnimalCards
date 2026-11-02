@@ -1,0 +1,80 @@
+{
+ "file": "黑水鸡",
+ "no": "1153",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黑水鸡",
+ "name_en": "Common moorhen",
+ "latin": "Gallinula chloropus",
+ "short": "黑水鸡",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–38 cm",
+   "lo": 0.3,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "50–62 cm",
+   "lo": 0.5,
+   "hi": 0.62,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "192–500 g",
+   "lo": 0.192,
+   "hi": 0.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "约 8 枚",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色额甲",
+   "icon": "sun",
+   "desc": "嘴和额甲是红色的，嘴尖黄色。"
+  },
+  {
+   "name": "水边生活",
+   "icon": "dive",
+   "desc": "常在有植物的水边、池塘活动。"
+  }
+ ],
+ "intro": [
+  "黑水鸡也叫红骨顶，是秧鸡科的鸟。",
+  "它分布于非洲、欧洲和亚洲的许多地方。",
+  "在中国，长江以南的种群大多留居，北方种群冬季南迁。"
+ ],
+ "fact": "雏鸟 40–50 天会飞，第二年春天就可能繁殖。",
+ "range": "欧洲、非洲和亚洲的湿地。",
+ "sources": [
+  "Wikipedia「Common moorhen」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "斑尾林鸽",
+ "no": "1170",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "斑尾林鸽",
+ "name_en": "Common wood pigeon",
+ "latin": "Columba palumbus",
+ "short": "斑尾林鸽",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "以植物为主，包括谷物，因此被当作农业害鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "38–44.5 cm",
+   "lo": 0.38,
+   "hi": 0.445,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "300–615 g",
+   "lo": 0.3,
+   "hi": 0.615,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "68–80 cm",
+   "lo": 0.68,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "19 年 8.5 个月",
+   "lo": 19.7,
+   "hi": 19.7,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色颈斑",
+   "icon": "camo",
+   "desc": "比别的鸽子大，脖子和翅膀上有白斑，胸部粉红。"
+  },
+  {
+   "name": "全年繁殖",
+   "icon": "seed",
+   "desc": "食物充足时一年到头都能繁殖。"
+  }
+ ],
+ "intro": [
+  "斑尾林鸽是一种原产西古北界的大型鸽子。",
+  "它和原鸽同属鸽属。",
+  "它被当作农业害鸟。"
+ ],
+ "fact": "卵 17–19 天孵化，雏鸟通常 33–34 天会飞。",
+ "range": "欧洲、西亚和北非。",
+ "sources": [
+  "Wikipedia「Common wood pigeon」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

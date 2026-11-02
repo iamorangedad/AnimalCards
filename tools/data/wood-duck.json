@@ -1,0 +1,80 @@
+{
+ "file": "林鸳鸯",
+ "no": "1156",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "林鸳鸯",
+ "name_en": "Wood duck",
+ "latin": "Aix sponsa",
+ "short": "林鸳鸯",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃浆果、橡子和种子，也吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "47–54 cm",
+   "lo": 0.47,
+   "hi": 0.54,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "66–73 cm",
+   "lo": 0.66,
+   "hi": 0.73,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "28–37 天",
+   "lo": 28,
+   "hi": 37,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "太平洋留鸟",
+   "value": "75%",
+   "lo": 75,
+   "hi": 75,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树洞筑巢",
+   "icon": "climb",
+   "desc": "它是少数会栖树、在树洞里筑巢的鸭，爪子很锋利。"
+  },
+  {
+   "name": "雏鸭跳巢",
+   "icon": "drop",
+   "desc": "孵出后的小鸭爬到洞口，从树上跳到地面。"
+  }
+ ],
+ "intro": [
+  "林鸳鸯也叫卡罗来纳鸭，是北美的栖鸭。",
+  "公鸭是北美最艳丽的水禽之一。",
+  "它们能在砂囊里压碎吞下的橡子。"
+ ],
+ "fact": "太平洋迁徙路线上 75% 的林鸳鸯不迁徙。",
+ "range": "北美洲。",
+ "sources": [
+  "Wikipedia「Wood duck」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

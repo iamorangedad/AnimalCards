@@ -1,0 +1,80 @@
+{
+ "file": "银鸥",
+ "no": "1163",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "银鸥",
+ "name_en": "European herring gull",
+ "latin": "Larus argentatus",
+ "short": "银鸥",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃鱼、甲壳类和一些植物，也食腐，还会抢人的食物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 66 cm",
+   "lo": 0.66,
+   "hi": 0.66,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "125–155 cm",
+   "lo": 1.25,
+   "hi": 1.55,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "28–30 天",
+   "lo": 28,
+   "hi": 30,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "英国25年降",
+   "value": "50%",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "什么都吃",
+   "icon": "food",
+   "desc": "吃鱼、甲壳类和植物，也吃腐肉和人类丢下或被它抢走的食物。"
+  },
+  {
+   "name": "潜水捕食",
+   "icon": "dive",
+   "desc": "有时从水面潜下或从空中扎入水中追捕猎物。"
+  }
+ ],
+ "intro": [
+  "银鸥是一种大型海鸥。",
+  "它在欧洲北部和西部海岸繁殖。",
+  "过去一些别的鸥也被算作这个种。"
+ ],
+ "fact": "英国的银鸥 25 年减少了 50%，现在受法律保护。",
+ "range": "欧洲北部和西部沿海。",
+ "sources": [
+  "Wikipedia「European herring gull」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "虎头海雕",
+ "no": "1167",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "虎头海雕",
+ "name_en": "Steller's sea eagle",
+ "latin": "Haliaeetus pelagicus",
+ "short": "虎头海雕",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食鱼和水鸟",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2021",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "5–10 kg",
+   "lo": 5,
+   "hi": 10,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体重",
+   "value": "6.2–9.5 kg",
+   "lo": 6.2,
+   "hi": 9.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "85–105 cm",
+   "lo": 0.85,
+   "hi": 1.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "1.95–2.5 m",
+   "lo": 1.95,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最重的雕",
+   "icon": "trunk",
+   "desc": "它通常是世界上最重的雕。"
+  },
+  {
+   "name": "白肩大嘴",
+   "icon": "sun",
+   "desc": "有巨大的黄色嘴和白色的肩羽，所以也叫白肩雕。"
+  }
+ ],
+ "intro": [
+  "虎头海雕也叫太平洋海雕，是鹰科的大型白天猛禽。",
+  "1811 年由帕拉斯首次描述。",
+  "它生活在俄罗斯、朝鲜半岛、日本和中国。"
+ ],
+ "fact": "在北海道，有些海雕因缺乏猎物而到内陆吃鹿的尸体。",
+ "range": "俄罗斯远东（堪察加、鄂霍次克海沿岸）繁殖，日本北海道、朝鲜半岛和中国东北越冬。",
+ "sources": [
+  "Wikipedia「Steller's sea eagle」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

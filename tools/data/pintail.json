@@ -1,0 +1,80 @@
+{
+ "file": "针尾鸭",
+ "no": "1155",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "针尾鸭",
+ "name_en": "Northern pintail",
+ "latin": "Anas acuta",
+ "short": "针尾鸭",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "浅水戏水觅食植物，繁殖期加吃小型无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公鸭体长",
+   "value": "59–76 cm",
+   "lo": 0.59,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公鸭体重",
+   "value": "450–1360 g",
+   "lo": 0.45,
+   "hi": 1.36,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "中央尾羽",
+   "value": "最长 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "22–24 天",
+   "lo": 22,
+   "hi": 24,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "针状长尾",
+   "icon": "wind",
+   "desc": "公鸭中央尾羽特别长，可达 10 cm，像一根针。"
+  },
+  {
+   "name": "戏水觅食",
+   "icon": "food",
+   "desc": "把头伸进水里找植物性食物。"
+  }
+ ],
+ "intro": [
+  "针尾鸭分布很广，在欧洲北部、古北界和北美繁殖。",
+  "它会迁徙，在繁殖地以南越冬。",
+  "公鸭比母鸭大得多。"
+ ],
+ "fact": "母鸭每天产 1 枚卵，每窝 7–9 枚。",
+ "range": "北半球（北部繁殖，南方越冬）。",
+ "sources": [
+  "Wikipedia「Northern pintail」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

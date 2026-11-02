@@ -1,0 +1,80 @@
+{
+ "file": "红腹滨鹬",
+ "no": "1162",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "红腹滨鹬",
+ "name_en": "Red knot",
+ "latin": "Calidris canutus",
+ "short": "红腹滨鹬",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "繁殖地吃节肢动物和幼虫，越冬地吃硬壳软体动物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2018",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "23–26 cm",
+   "lo": 0.23,
+   "hi": 0.26,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "47–53 cm",
+   "lo": 0.47,
+   "hi": 0.53,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "100–200 g",
+   "lo": 0.1,
+   "hi": 0.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "迁徙",
+   "value": "超过 1.4 万 km",
+   "lo": 14000,
+   "hi": 14000,
+   "scale": "km_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长迁徙",
+   "icon": "wind",
+   "desc": "有的个体每年要飞 1.4 万 km 以上，是迁徙最远的鸟之一。"
+  },
+  {
+   "name": "长寿小鸟",
+   "icon": "drop",
+   "desc": "对它的体型来说很长寿：绰号“月亮鸟”的 B95 在 2014 年至少 20 岁。"
+  }
+ ],
+ "intro": [
+  "红腹滨鹬是中型滨鸟，在加拿大、欧洲和俄罗斯极北的苔原繁殖。",
+  "它是滨鹬属的模式种。",
+  "它有 6 个亚种。"
+ ],
+ "fact": "西非越冬的个体每天只在 2–16 km² 的潮间带觅食。",
+ "range": "北极苔原繁殖，到南美、非洲、澳大利亚等地沿海越冬。",
+ "sources": [
+  "Wikipedia「Red knot」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

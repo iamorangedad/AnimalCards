@@ -1,0 +1,79 @@
+{
+ "file": "紫蓝金刚鹦鹉",
+ "no": "1151",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "紫蓝金刚鹦鹉",
+ "name_en": "Hyacinth macaw",
+ "latin": "Anodorhynchus hyacinthinus",
+ "short": "紫蓝金刚鹦鹉",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃特定棕榈的坚果，能咬开椰子和巴西坚果的果荚",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "1.2–1.7 kg",
+   "lo": 1.2,
+   "hi": 1.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翅长",
+   "value": "38.8–42.5 cm",
+   "lo": 0.388,
+   "hi": 0.425,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "潘塔纳尔巢",
+   "value": "90% 在一种树上",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "钳子嘴",
+   "icon": "trunk",
+   "desc": "嘴非常强壮，能咬开坚硬的坚果、椰子甚至澳洲坚果。"
+  },
+  {
+   "name": "蓝色巨鹦",
+   "icon": "sun",
+   "desc": "全身钴蓝，眼周和嘴下有鲜黄色的皮肤。"
+  }
+ ],
+ "intro": [
+  "紫蓝金刚鹦鹉是原产南美洲中部和东部的大型鹦鹉。",
+  "它是最大的金刚鹦鹉，也是最大的会飞鹦鹉。",
+  "它也是全世界体长最长的鹦鹉。"
+ ],
+ "fact": "足够大的树洞只在约 60 岁以上的树上才有，竞争很激烈。",
+ "range": "南美洲中部和东部（巴西潘塔纳尔等）。",
+ "sources": [
+  "Wikipedia「Hyacinth macaw」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": "“潘塔纳尔巢”指 90% 的巢建在 manduvi 树上。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "霍氏二趾树懒",
+ "no": "1073",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "霍氏二趾树懒",
+ "name_en": "Hoffmann's two-toed sloth",
+ "latin": "Choloepus hoffmanni",
+ "short": "霍氏二趾树懒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "以植物为主",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "54–72 cm",
+   "lo": 0.54,
+   "hi": 0.72,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "2.1–9 kg",
+   "lo": 2.1,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "爪长",
+   "value": "5–6.5 cm",
+   "lo": 0.05,
+   "hi": 0.065,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "1.5–3 cm",
+   "lo": 0.015,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛里长藻",
+   "icon": "camo",
+   "desc": "毛发里长着藻类，所以常带点绿色。"
+  },
+  {
+   "name": "慢动作",
+   "icon": "huddle",
+   "desc": "身体粗壮、毛蓬乱，动作缓慢而从容。"
+  }
+ ],
+ "intro": [
+  "霍氏二趾树懒也叫北方二趾树懒，分布在中美洲和南美洲。",
+  "它独居、夜行，大部分时间在树上。",
+  "前脚只有两个趾，各带长而弯的爪。"
+ ],
+ "fact": "它也会下到地面，换到另一棵树上。",
+ "range": "中美洲和南美洲北部的热带森林。",
+ "sources": [
+  "Wikipedia「Hoffmann's two-toed sloth」",
+  "IUCN 红色名录（Plese, T. 2014）"
+ ],
+ "footnote": "饮食为大致描述（维基未详述）。"
+}

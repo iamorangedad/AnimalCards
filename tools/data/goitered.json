@@ -1,0 +1,79 @@
+{
+ "file": "鹅喉羚",
+ "no": "1061",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "鹅喉羚",
+ "name_en": "Goitered gazelle",
+ "latin": "Gazella subgutturosa",
+ "short": "鹅喉羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "草食性羚羊（维基未详述食性）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "冬季日行",
+   "value": "10–30 km",
+   "lo": 10,
+   "hi": 30,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "夏季日行",
+   "value": "1–3 km",
+   "lo": 1,
+   "hi": 3,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "被猎捕历史",
+   "value": "约 6000 年",
+   "lo": 6000,
+   "hi": 6000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "分布国",
+   "value": "十几国",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "鼓起的喉咙",
+   "icon": "roar",
+   "desc": "种名意思是“喉下饱满”，指公羊在发情期颈部和喉部会膨大。"
+  },
+  {
+   "name": "黑尾巴",
+   "icon": "camo",
+   "desc": "也叫黑尾瞪羚。"
+  }
+ ],
+ "intro": [
+  "鹅喉羚分布在土耳其、伊朗、中亚到中国西北和蒙古。",
+  "约 6000 年前人们就用“荒漠风筝”围栏捕杀它们。",
+  "冬季鹿群每天走 10–30 km，夏季只走 1–3 km。"
+ ],
+ "fact": "分布国包括格鲁吉亚、阿塞拜疆、伊拉克、巴基斯坦、阿富汗、塔吉克斯坦等。",
+ "range": "中东、中亚到中国西北和蒙古的荒漠与半荒漠。",
+ "sources": [
+  "Wikipedia「Goitered gazelle」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2017）"
+ ],
+ "footnote": "分布国数量为大约（待核）。"
+}

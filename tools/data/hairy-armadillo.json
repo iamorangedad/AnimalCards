@@ -1,0 +1,79 @@
+{
+ "file": "大毛犰狳",
+ "no": "1057",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "大毛犰狳",
+ "name_en": "Big hairy armadillo",
+ "latin": "Chaetophractus villosus",
+ "short": "大毛犰狳",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "26–34 cm",
+   "lo": 0.26,
+   "hi": 0.34,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 2 kg",
+   "lo": 2,
+   "hi": 2,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "9–17 cm",
+   "lo": 0.09,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "超过 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛茸茸的甲",
+   "icon": "thorn",
+   "desc": "甲片之间长着较多的毛，所以叫“多毛犰狳”。"
+  },
+  {
+   "name": "9 个月成熟",
+   "icon": "seed",
+   "desc": "约 9 个月性成熟，圈养可活 30 多年。"
+  }
+ ],
+ "intro": [
+  "大毛犰狳是南美洲体型最大、数量最多的犰狳之一。",
+  "它从海平面一直分布到较高的山地。",
+  "有个体被引入火地岛的里奥格兰德，并适应得很好。"
+ ],
+ "fact": "引入火地岛的个体来自布宜诺斯艾利斯省。",
+ "range": "南美洲南部（阿根廷、玻利维亚、巴拉圭、智利）。",
+ "sources": [
+  "Wikipedia「Big hairy armadillo」",
+  "IUCN 红色名录（Gallo, J. 2025）"
+ ],
+ "footnote": ""
+}

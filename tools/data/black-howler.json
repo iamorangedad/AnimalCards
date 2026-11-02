@@ -1,0 +1,79 @@
+{
+ "file": "黑吼猴",
+ "no": "1074",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "黑吼猴",
+ "name_en": "Black howler",
+ "latin": "Alouatta caraya",
+ "short": "黑吼猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃树叶",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "公猴体重",
+   "value": "6–7.7 kg",
+   "lo": 6,
+   "hi": 7.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公比母重",
+   "value": "47%",
+   "lo": 47,
+   "hi": 47,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "每天休息",
+   "value": "60–70%",
+   "lo": 60,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "群体大小",
+   "value": "6–18 只",
+   "lo": 6,
+   "hi": 18,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑金两色",
+   "icon": "camo",
+   "desc": "英文也叫“黑金吼猴”；它是吼猴属的一员。"
+  },
+  {
+   "name": "懒散高手",
+   "icon": "huddle",
+   "desc": "它是最不爱动的灵长类之一，白天 60–70% 的时间在休息或睡觉。"
+  }
+ ],
+ "intro": [
+  "黑吼猴也叫黑金吼猴，是最大的新大陆猴之一。",
+  "分布在巴拉圭、巴西南部、阿根廷北部、玻利维亚等地。",
+  "公猴比母猴重 47%。"
+ ],
+ "fact": "它的食物大部分是树叶。",
+ "range": "南美洲（巴拉圭、巴西南部、阿根廷北部、玻利维亚）。",
+ "sources": [
+  "Wikipedia「Black howler」",
+  "IUCN 红色名录（Bicca-Marques 2021）"
+ ],
+ "footnote": "群体大小为巴西南部一地的观测。"
+}

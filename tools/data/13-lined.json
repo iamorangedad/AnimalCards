@@ -1,0 +1,79 @@
+{
+ "file": "十三条纹黄鼠",
+ "no": "1066",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "十三条纹黄鼠",
+ "name_en": "Thirteen-lined ground squirrel",
+ "latin": "Ictidomys tridecemlineatus",
+ "short": "十三条纹黄鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "洞穴长",
+   "value": "4.6–6.1 m",
+   "lo": 4.6,
+   "hi": 6.1,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "活动范围",
+   "value": "0.8–1.2 公顷",
+   "lo": 0.8,
+   "hi": 1.2,
+   "scale": "tha",
+   "approx": false
+  },
+  {
+   "label": "最快速度",
+   "value": "13 km/h",
+   "lo": 13,
+   "hi": 13,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "冬眠体温",
+   "value": "5–7 °C",
+   "lo": 5,
+   "hi": 7,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "深度冬眠",
+   "icon": "cold",
+   "desc": "冬眠时 7–10 天一轮，体温降到 5–7 °C，中间醒来不到一天。"
+  },
+  {
+   "name": "会掉头逃",
+   "icon": "wind",
+   "desc": "被追时最快 13 km/h，还会突然改变方向。"
+  }
+ ],
+ "intro": [
+  "十三条纹黄鼠是会冬眠的地松鼠，广泛分布在北美的草原。",
+  "背上有 13 条深浅相间的条纹和斑点。",
+  "也叫条纹地鼠、豹纹地松鼠。"
+ ],
+ "fact": "它的洞可长达 4.6–6.1 m，有好几条侧道。",
+ "range": "北美中部草原（加拿大南部到美国德州）。",
+ "sources": [
+  "Wikipedia「Thirteen-lined ground squirrel」",
+  "IUCN 红色名录（Cassola, F. 2016）"
+ ],
+ "footnote": "“活动范围”单位为公顷，刻度为示意。"
+}

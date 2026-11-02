@@ -1,0 +1,79 @@
+{
+ "file": "灰小羚羊",
+ "no": "1065",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "灰小羚羊",
+ "name_en": "Common duiker",
+ "latin": "Sylvicapra grimmia",
+ "short": "灰小羚羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃叶、花、果实、块茎，也吃昆虫、蛙、小鸟甚至腐肉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "12–25 kg",
+   "lo": 12,
+   "hi": 25,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊角长",
+   "value": "最长 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每胎",
+   "value": "1 只",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "母大公小",
+   "icon": "huddle",
+   "desc": "和多数羚羊相反，母羊一般比公羊更大更重。"
+  },
+  {
+   "name": "全年繁殖",
+   "icon": "seed",
+   "desc": "全年都能繁殖，母羊每次生一只。"
+  }
+ ],
+ "intro": [
+  "灰小羚羊也叫林小羚羊，是小型羚羊。",
+  "它是灰小羚羊属唯一的物种。",
+  "分布在撒哈拉以南非洲大部分地区。"
+ ],
+ "fact": "只有公羊有角。",
+ "range": "撒哈拉以南非洲（雨林和沙漠除外）。",
+ "sources": [
+  "Wikipedia「Common duiker」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2016）"
+ ],
+ "footnote": ""
+}

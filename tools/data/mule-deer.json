@@ -1,0 +1,79 @@
+{
+ "file": "黑尾鹿",
+ "no": "1067",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑尾鹿",
+ "name_en": "Mule deer",
+ "latin": "Odocoileus hemionus",
+ "short": "黑尾鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "草食性鹿类（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "80–106 cm",
+   "lo": 0.8,
+   "hi": 1.06,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公鹿均重",
+   "value": "约 92 kg",
+   "lo": 92,
+   "hi": 92,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母鹿均重",
+   "value": "约 68 kg",
+   "lo": 68,
+   "hi": 68,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "11.6–23 cm",
+   "lo": 0.116,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "骡子耳朵",
+   "icon": "ear",
+   "desc": "名字来自它像骡子一样的大耳朵。"
+  },
+  {
+   "name": "分叉鹿角",
+   "icon": "thorn",
+   "desc": "鹿角是两两分叉生长的，不像白尾鹿从一根主干分枝。"
+  }
+ ],
+ "intro": [
+  "黑尾鹿原产北美西部。",
+  "它是空齿鹿属三种鹿里平均最大的。",
+  "尾巴末端是黑色的，白尾鹿的不是。"
+ ],
+ "fact": "最大的公鹿可重达 210 kg。",
+ "range": "北美西部（加拿大到墨西哥）。",
+ "sources": [
+  "Wikipedia「Mule deer」",
+  "IUCN 红色名录（Sanchez-Rojas, G. 2016）"
+ ],
+ "footnote": ""
+}

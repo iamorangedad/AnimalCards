@@ -1,0 +1,79 @@
+{
+ "file": "渔貂",
+ "no": "1071",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "渔貂",
+ "name_en": "Fisher",
+ "latin": "Pekania pennanti",
+ "short": "渔貂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃雪鞋兔和豪猪",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公兽全长",
+   "value": "90–120 cm",
+   "lo": 0.9,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公兽体重",
+   "value": "3.5–6.0 kg",
+   "lo": 3.5,
+   "hi": 6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母兽体重",
+   "value": "2.0–2.5 kg",
+   "lo": 2,
+   "hi": 2.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最早化石",
+   "value": "约 12.5 万年前",
+   "lo": 125000,
+   "hi": 125000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "豪猪克星",
+   "icon": "fire",
+   "desc": "它是少数能成功捕食豪猪的动物之一。"
+  },
+  {
+   "name": "名不副实",
+   "icon": "dive",
+   "desc": "虽然英文名叫“渔夫”，它其实很少吃鱼。"
+  }
+ ],
+ "intro": [
+  "渔貂是北美的森林食肉动物，分布在加拿大北方针叶林到美国北部。",
+  "它和美洲貂相似，但大得多。",
+  "除了人类，它几乎没有天敌。"
+ ],
+ "fact": "当地原住民语言里它的名字意思是“大貂”。",
+ "range": "北美（加拿大到美国北部）的森林。",
+ "sources": [
+  "Wikipedia「Fisher」",
+  "IUCN 红色名录（Helgen, K. 2018）"
+ ],
+ "footnote": ""
+}

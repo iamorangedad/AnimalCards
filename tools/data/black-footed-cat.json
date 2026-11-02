@@ -1,0 +1,79 @@
+{
+ "file": "黑足猫",
+ "no": "1070",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑足猫",
+ "name_en": "Black-footed cat",
+ "latin": "Felis nigripes",
+ "short": "黑足猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小型啮齿动物和鸟",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2026",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "35–52 cm",
+   "lo": 0.35,
+   "hi": 0.52,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "夜间移动",
+   "value": "5–16 km",
+   "lo": 5,
+   "hi": 16,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "跳跃高度",
+   "value": "最高 1.4 m",
+   "lo": 1.4,
+   "hi": 1.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "5 时成功",
+   "value": "约 6 次",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "非洲最小野猫",
+   "icon": "micro",
+   "desc": "它是非洲最小的野猫。"
+  },
+  {
+   "name": "空中抓鸟",
+   "icon": "wind",
+   "desc": "能跳到 1.4 m 高抓飞着的鸟，还敢攻击比自己重得多的猎物。"
+  }
+ ],
+ "intro": [
+  "黑足猫也叫小斑猫，是非洲最小的野猫。",
+  "母猫体长 33.7–36.8 cm，公猫 42.5–50 cm。",
+  "夜里平均要走 5–16 km 找猎物。"
+ ],
+ "fact": "有观察记录显示它 5 小时内尝试捕捉 10 只脊椎动物，平均成功 6 次。",
+ "range": "非洲南部（南非、纳米比亚、博茨瓦纳）。",
+ "sources": [
+  "Wikipedia「Black-footed cat」",
+  "IUCN 红色名录（Sliwa, A. 2026）"
+ ],
+ "footnote": ""
+}

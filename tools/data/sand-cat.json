@@ -1,0 +1,79 @@
+{
+ "file": "沙猫",
+ "no": "1060",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "沙猫",
+ "name_en": "Sand cat",
+ "latin": "Felis margarita",
+ "short": "沙猫",
+ "type": "沙漠",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小型啮齿动物和鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "39–52 cm",
+   "lo": 0.39,
+   "hi": 0.52,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "23–31 cm",
+   "lo": 0.23,
+   "hi": 0.31,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "耳长",
+   "value": "5–7 cm",
+   "lo": 0.05,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "夜行距离",
+   "value": "5.4 km",
+   "lo": 5.4,
+   "hi": 5.4,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛垫脚掌",
+   "icon": "fire",
+   "desc": "脚掌下长着长毛，隔绝沙漠极端的高温和低温。"
+  },
+  {
+   "name": "地下听猎物",
+   "icon": "ear",
+   "desc": "耳朵低低地长在头两侧，能听到地下移动的猎物。"
+  }
+ ],
+ "intro": [
+  "沙猫是生活在远离水源的沙质和石质荒漠里的小型野猫。",
+  "沙色到浅灰色的毛让它在沙漠里伪装得很好。",
+  "夜里平均走 5.4 km 寻找猎物。"
+ ],
+ "fact": "对 47 只个体的线粒体 DNA 分析发现它们之间差别很小。",
+ "range": "北非、阿拉伯半岛、中亚的沙漠。",
+ "sources": [
+  "Wikipedia「Sand cat」",
+  "IUCN 红色名录（Sliwa, A. 2016）"
+ ],
+ "footnote": ""
+}

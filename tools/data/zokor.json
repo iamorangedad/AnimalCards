@@ -1,0 +1,79 @@
+{
+ "file": "中华鼢鼠",
+ "no": "1063",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "中华鼢鼠",
+ "name_en": "Chinese zokor",
+ "latin": "Eospalax fontanierii",
+ "short": "中华鼢鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物的根和茎",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "256 g",
+   "lo": 0.256,
+   "hi": 0.256,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "155–245 mm",
+   "lo": 0.155,
+   "hi": 0.245,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "隧道长",
+   "value": "最长 100 m",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "洞内储粮",
+   "value": "最多 30 kg",
+   "lo": 30,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "地下隧道",
+   "icon": "root",
+   "desc": "它挖的隧道可长达 100 m，一般在地下 25–48 cm。"
+  },
+  {
+   "name": "储粮大户",
+   "icon": "food",
+   "desc": "洞里曾发现多达 30 kg 的储藏植物，一般约为十分之一。"
+  }
+ ],
+ "intro": [
+  "中华鼢鼠是鼹形鼠科的啮齿动物，是中国特有种。",
+  "从青海向东一直分布到北京的草原和农田。",
+  "它是中等大小的穴居鼠。"
+ ],
+ "fact": "刚出生的幼崽只有约 9 g。",
+ "range": "中国北方（青海到北京）。",
+ "sources": [
+  "Wikipedia「Chinese zokor」",
+  "IUCN 红色名录（Smith, A.T. 2016）"
+ ],
+ "footnote": ""
+}

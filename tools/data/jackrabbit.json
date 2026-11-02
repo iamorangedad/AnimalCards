@@ -1,0 +1,79 @@
+{
+ "file": "黑尾长耳大野兔",
+ "no": "1054",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "黑尾长耳大野兔",
+ "name_en": "Black-tailed jackrabbit",
+ "latin": "Lepus californicus",
+ "short": "黑尾长耳大野兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃灌木、小树、草和杂草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 61 cm",
+   "lo": 0.61,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "1.4–2.7 kg",
+   "lo": 1.4,
+   "hi": 2.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "活动范围",
+   "value": "1.0–3.1 km²",
+   "lo": 1.0,
+   "hi": 3.1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "4 月孕兔",
+   "value": "75% 以上",
+   "lo": 75,
+   "hi": 75,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不冬眠",
+   "icon": "cold",
+   "desc": "冬天不迁徙也不冬眠，全年待在同一片地方。"
+  },
+  {
+   "name": "出生即有毛",
+   "icon": "camo",
+   "desc": "幼崽一出生就有毛、睁着眼，伪装得很好。"
+  }
+ ],
+ "intro": [
+  "黑尾长耳大野兔也叫美洲沙漠野兔，常见于美国西部和墨西哥。",
+  "它是北美第三大的长耳大野兔。",
+  "秋冬主要吃灌木，春季和初夏吃草和杂草。"
+ ],
+ "fact": "它的分布是约 2.1 万年前末次冰盛期后海平面上升造成的。",
+ "range": "美国西部和墨西哥。",
+ "sources": [
+  "Wikipedia「Black-tailed jackrabbit」",
+  "IUCN 红色名录（Brown, D.E. 2019）"
+ ],
+ "footnote": "“全年活动范围”单位为 km²，刻度为示意。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "古氏树袋鼠",
+ "no": "1072",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "古氏树袋鼠",
+ "name_en": "Goodfellow's tree-kangaroo",
+ "latin": "Dendrolagus goodfellowi",
+ "short": "古氏树袋鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "在树冠吃树叶等植物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "约 7 kg",
+   "lo": 7,
+   "hi": 7,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "安全跳下",
+   "value": "9 m 高",
+   "lo": 9,
+   "hi": 9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "所在岛",
+   "value": "新几内亚",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "所属科",
+   "value": "袋鼠科",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树上袋鼠",
+   "icon": "climb",
+   "desc": "前肢强壮，爪子弯钩状，能抓住树枝，长尾巴用来保持平衡。"
+  },
+  {
+   "name": "高空跳下",
+   "icon": "drop",
+   "desc": "能从 9 m 高的树上跳到地面而不受伤。"
+  }
+ ],
+ "intro": [
+  "古氏树袋鼠也叫华丽树袋鼠，是新几内亚雨林里的濒危有袋动物。",
+  "和多数树袋鼠一样，它住在树冠里、吃树叶。",
+  "它属于袋鼠科。"
+ ],
+ "fact": "它生活在茂密的热带雨林和落叶林里。",
+ "range": "新几内亚岛。",
+ "sources": [
+  "Wikipedia「Goodfellow's tree-kangaroo」",
+  "IUCN 红色名录（Leary, T. 2016）"
+ ],
+ "footnote": "“所在岛”“所属科”不是数值，比例条无意义。"
+}

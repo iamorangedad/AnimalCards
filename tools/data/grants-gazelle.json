@@ -1,0 +1,79 @@
+{
+ "file": "格氏瞪羚",
+ "no": "1051",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "格氏瞪羚",
+ "name_en": "Grant's gazelle",
+ "latin": "Nanger granti",
+ "short": "格氏瞪羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃嫩叶和草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "母羊体重",
+   "value": "35–50 kg",
+   "lo": 35,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊体重",
+   "value": "50–80 kg",
+   "lo": 50,
+   "hi": 80,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "45–81 cm",
+   "lo": 0.45,
+   "hi": 0.81,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "食物中嫩叶",
+   "value": "66%",
+   "lo": 66,
+   "hi": 66,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "竖琴角",
+   "icon": "thorn",
+   "desc": "角像竖琴，基部粗壮、环纹清晰。"
+  },
+  {
+   "name": "随季换食",
+   "icon": "food",
+   "desc": "旱季主要吃双子叶植物，雨季吃草。"
+  }
+ ],
+ "intro": [
+  "格氏瞪羚是比较大的瞪羚。",
+  "分布从坦桑尼亚北部到南苏丹和埃塞俄比亚。",
+  "它和汤氏瞪羚很像，但大得多。"
+ ],
+ "fact": "一项研究发现它的食物 66% 是嫩叶、34% 是草。",
+ "range": "东非（坦桑尼亚、肯尼亚、埃塞俄比亚、南苏丹等）。",
+ "sources": [
+  "Wikipedia「Grant's gazelle」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2016）"
+ ],
+ "footnote": ""
+}

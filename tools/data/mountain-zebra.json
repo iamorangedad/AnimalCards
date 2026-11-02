@@ -1,0 +1,79 @@
+{
+ "file": "山斑马",
+ "no": "1069",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "山斑马",
+ "name_en": "Mountain zebra",
+ "latin": "Equus zebra",
+ "short": "山斑马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "最爱吃丛生的草（主要是阿拉伯黄背草），缺草时也啃嫩叶",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2019",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.1–2.6 m",
+   "lo": 2.1,
+   "hi": 2.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "1.16–1.5 m",
+   "lo": 1.16,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "204–372 kg",
+   "lo": 204,
+   "hi": 372,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "栖息海拔",
+   "value": "最高 2000 m",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "颈下垂肉",
+   "icon": "huddle",
+   "desc": "它喉下有一块垂肉，开普亚种更明显。"
+  },
+  {
+   "name": "独一无二条纹",
+   "icon": "camo",
+   "desc": "全身黑白条纹，每一只的花纹都不一样。"
+  }
+ ],
+ "intro": [
+  "山斑马是非洲西南部的斑马，有两个亚种。",
+  "它喜欢海拔高达 2000 m 的山坡和高原，冬天会往低处迁移。",
+  "一胎一只，幼驹约 3 年断奶到吃草。"
+ ],
+ "fact": "两个亚种是开普山斑马和哈氏山斑马。",
+ "range": "南非、纳米比亚、安哥拉西南部的山地。",
+ "sources": [
+  "Wikipedia「Mountain zebra」",
+  "IUCN 红色名录（Gosling, L.M. 2019）"
+ ],
+ "footnote": ""
+}

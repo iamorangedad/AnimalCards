@@ -1,0 +1,79 @@
+{
+ "file": "敏狐",
+ "no": "1055",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "敏狐",
+ "name_en": "Swift fox",
+ "latin": "Vulpes velox",
+ "short": "敏狐",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃草、果实、小型哺乳动物、腐肉和昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "全长含尾",
+   "value": "约 79 cm",
+   "lo": 0.79,
+   "hi": 0.79,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "野外寿命",
+   "value": "3–6 年",
+   "lo": 3,
+   "hi": 6,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "剩余分布",
+   "value": "40%",
+   "lo": 40,
+   "hi": 40,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "离不开洞",
+   "icon": "root",
+   "desc": "它比北美大多数犬科动物更依赖洞穴，用来躲避捕食者。"
+  },
+  {
+   "name": "猫一样大",
+   "icon": "micro",
+   "desc": "它是浅橙褐色的小狐狸，大小和家猫差不多。"
+  }
+ ],
+ "intro": [
+  "敏狐生活在北美大平原西部的草原，如蒙大拿、科罗拉多、新墨西哥。",
+  "它在沙质土、耕地或篱笆边打洞做窝。",
+  "每年繁殖一次，在 12 月底到 3 月。"
+ ],
+ "fact": "它现在只生活在历史分布区的 40% 左右。",
+ "range": "北美大平原（美国中西部、加拿大南部）。",
+ "sources": [
+  "Wikipedia「Swift fox」",
+  "IUCN 红色名录（Moehrenschlager, A. 2016）"
+ ],
+ "footnote": ""
+}

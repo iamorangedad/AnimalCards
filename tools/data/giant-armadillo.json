@@ -1,0 +1,79 @@
+{
+ "file": "大犰狳",
+ "no": "1058",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "大犰狳",
+ "name_en": "Giant armadillo",
+ "latin": "Priodontes maximus",
+ "short": "大犰狳",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "食虫",
+ "diet_note": "主要吃白蚁和蚂蚁",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "18.7–32.5 kg",
+   "lo": 18.7,
+   "hi": 32.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "75–100 cm",
+   "lo": 0.75,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "第三爪长",
+   "value": "最长 22 cm",
+   "lo": 0.22,
+   "hi": 0.22,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "洞口宽",
+   "value": "平均 43 cm",
+   "lo": 0.43,
+   "hi": 0.43,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "镰刀巨爪",
+   "icon": "root",
+   "desc": "前脚爪极长，第三爪像镰刀，可长到 22 cm，用来挖掘。"
+  },
+  {
+   "name": "吃光蚁丘",
+   "icon": "food",
+   "desc": "常把一整个白蚁丘的白蚁都吃光。"
+  }
+ ],
+ "intro": [
+  "大犰狳是现存最大的犰狳。",
+  "它主要生活在开阔环境，塞拉多草原约占其分布区的 25%。",
+  "它挖的洞特别大。"
+ ],
+ "fact": "曾称到一只重 54 kg 的个体。",
+ "range": "南美洲（委内瑞拉到阿根廷北部）。",
+ "sources": [
+  "Wikipedia「Giant armadillo」",
+  "IUCN 红色名录（Superina, M. 2025）"
+ ],
+ "footnote": ""
+}

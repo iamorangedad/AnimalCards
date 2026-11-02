@@ -1,0 +1,79 @@
+{
+ "file": "普氏原羚",
+ "no": "1062",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "普氏原羚",
+ "name_en": "Przewalski's gazelle",
+ "latin": "Procapra przewalskii",
+ "short": "普氏原羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃莎草和草，也吃黄芪等草本和灌木",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2016",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "109–160 cm",
+   "lo": 1.09,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "50–70 cm",
+   "lo": 0.5,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "17–32 kg",
+   "lo": 17,
+   "hi": 32,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "剩余种群",
+   "value": "6 个",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色心形臀斑",
+   "icon": "camo",
+   "desc": "黄褐色身体，腹部白色，臀部有一块白色的心形斑。"
+  },
+  {
+   "name": "青海湖边",
+   "icon": "huddle",
+   "desc": "曾经分布很广，现在只剩青海湖附近的 6 个种群。"
+  }
+ ],
+ "intro": [
+  "普氏原羚是牛科动物，野外只分布在中国。",
+  "名字来自俄国探险家普尔热瓦尔斯基。",
+  "成年公羊角长 18–26 cm。"
+ ],
+ "fact": "尾巴只有 7–10 cm，常被毛完全遮住。",
+ "range": "中国青海湖周边。",
+ "sources": [
+  "Wikipedia「Przewalski's gazelle」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2016）"
+ ],
+ "footnote": ""
+}

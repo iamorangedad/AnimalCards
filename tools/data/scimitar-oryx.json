@@ -1,0 +1,79 @@
+{
+ "file": "弯角剑羚",
+ "no": "1053",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "弯角剑羚",
+ "name_en": "Scimitar oryx",
+ "latin": "Oryx dammah",
+ "short": "弯角剑羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和多汁植物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2023",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "公兽体重",
+   "value": "140–210 kg",
+   "lo": 140,
+   "hi": 210,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母兽体重",
+   "value": "91–140 kg",
+   "lo": 91,
+   "hi": 140,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "140–240 cm",
+   "lo": 1.4,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "染色体",
+   "value": "58 条",
+   "lo": 58,
+   "hi": 58,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "弯刀角",
+   "icon": "thorn",
+   "desc": "角长而向后弯，像一把弯刀。"
+  },
+  {
+   "name": "重回野外",
+   "icon": "seed",
+   "desc": "2000 年被列为野外灭绝，2023 年因乍得重新引入的种群降为濒危。"
+  }
+ ],
+ "intro": [
+  "弯角剑羚也叫撒哈拉大羚羊，曾广泛分布在北非和中西非。",
+  "它适应了严酷的沙漠环境。",
+  "2023 年 IUCN 把它从“野外灭绝”降为“濒危”。"
+ ],
+ "fact": "它的染色体有 58 条。",
+ "range": "乍得（重新引入）；历史上遍布北非。",
+ "sources": [
+  "Wikipedia「Scimitar oryx」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2023）"
+ ],
+ "footnote": ""
+}

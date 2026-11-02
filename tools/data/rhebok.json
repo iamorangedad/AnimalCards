@@ -1,0 +1,79 @@
+{
+ "file": "灰羚",
+ "no": "1068",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "灰羚",
+ "name_en": "Grey rhebok",
+ "latin": "Pelea capreolus",
+ "short": "灰羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃嫩叶，水分主要来自食物",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2017",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "19–30 kg",
+   "lo": 19,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊角长",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见海拔",
+   "value": "1000 m 以上",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "分布国",
+   "value": "3 国",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "羊毛外套",
+   "icon": "cold",
+   "desc": "短而厚、像羊毛一样的灰色被毛帮它在高地御寒。"
+  },
+  {
+   "name": "少喝水",
+   "icon": "drop",
+   "desc": "大部分水分从食物中获得，可以离水源很远觅食。"
+  }
+ ],
+ "intro": [
+  "灰羚是南非、莱索托和斯威士兰特有的羚羊。",
+  "中等体型，脖子长，耳朵窄。",
+  "只有公羊有角，直而尖，基部有环纹。"
+ ],
+ "fact": "南非语叫它 vaalribbok。",
+ "range": "南非、莱索托、斯威士兰的山地草原。",
+ "sources": [
+  "Wikipedia「Grey rhebok」",
+  "IUCN 红色名录（Taylor, A. 2017）"
+ ],
+ "footnote": ""
+}

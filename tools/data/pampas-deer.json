@@ -1,0 +1,79 @@
+{
+ "file": "潘帕斯鹿",
+ "no": "1056",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "潘帕斯鹿",
+ "name_en": "Pampas deer",
+ "latin": "Ozotoceros bezoarticus",
+ "short": "潘帕斯鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "草食性鹿类（维基未详述食性）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2016",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "公鹿肩高",
+   "value": "65–70 cm",
+   "lo": 0.65,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公鹿体重",
+   "value": "24–34 kg",
+   "lo": 24,
+   "hi": 34,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "最长 12 年",
+   "lo": 12,
+   "hi": 12,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "气味传播",
+   "value": "可达 1.5 km",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "强烈气味",
+   "icon": "wind",
+   "desc": "公鹿后蹄的腺体分泌强烈气味，1.5 km 外都能闻到。"
+  },
+  {
+   "name": "白尾警报",
+   "icon": "camo",
+   "desc": "奔跑时会翘起短尾，露出白色斑块。"
+  }
+ ],
+ "intro": [
+  "潘帕斯鹿生活在南美洲低海拔的草原上。",
+  "母鹿肩高 60–65 cm，体重 22–29 kg。",
+  "过度捕猎和栖息地丧失威胁着它们。"
+ ],
+ "fact": "尾巴短而蓬松，只有 10–15 cm 长。",
+ "range": "南美洲（巴西、阿根廷、乌拉圭、巴拉圭、玻利维亚）的低地草原。",
+ "sources": [
+  "Wikipedia「Pampas deer」",
+  "IUCN 红色名录（González, S. 2016）"
+ ],
+ "footnote": ""
+}

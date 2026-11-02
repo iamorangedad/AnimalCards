@@ -1,0 +1,78 @@
+{
+ "file": "狮子兔",
+ "no": "1014",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "狮子兔",
+ "name_en": "Lionhead rabbit",
+ "latin": "Oryctolagus cuniculus domesticus（品种）",
+ "short": "狮子兔",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃干草、兔粮和蔬菜",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1.1–1.7 kg",
+   "lo": 1.1,
+   "hi": 1.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耳长",
+   "value": "5–9 cm",
+   "lo": 0.05,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "认可毛色",
+   "value": "7 类以上",
+   "lo": 7,
+   "hi": 7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "认可机构",
+   "value": "2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "狮子鬃毛",
+   "icon": "wind",
+   "desc": "头部有一圈羊毛般的“鬃毛”，像雄狮一样。"
+  },
+  {
+   "name": "鬃毛基因",
+   "icon": "clone",
+   "desc": "长鬃毛由一个叫“鬃毛基因”的基因控制，和其他长毛兔的基因不同。"
+  }
+ ],
+ "intro": [
+  "【品种】狮子兔是英国兔协会和美国兔育种者协会都承认的家兔品种。",
+  "它起源于法国和比利时。",
+  "身体紧凑，耳朵短而多毛，体侧还有一圈“裙边”毛。"
+ ],
+ "fact": "有传言说它是荷兰侏儒兔和泽西长毛兔杂交出来的，但都没有被证实。",
+ "range": "原产法国、比利时；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Lionhead rabbit」"
+ ],
+ "footnote": "这是家兔的一个品种；体重原文 2.5–3.75 磅、耳长 2–3.5 英寸，已换算。"
+}

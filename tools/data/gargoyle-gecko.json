@@ -1,0 +1,79 @@
+{
+ "file": "石像鬼守宫",
+ "no": "1020",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "石像鬼守宫",
+ "name_en": "Gargoyle gecko",
+ "latin": "Rhacodactylus auriculatus",
+ "short": "石像鬼守宫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃多种节肢动物、守宫和石龙子等蜥蜴，也吃植物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成年体长",
+   "value": "18–23 cm",
+   "lo": 0.18,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "刚孵出体重",
+   "value": "3 g",
+   "lo": 0.003,
+   "hi": 0.003,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "2 枚",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "60–90 天",
+   "lo": 60,
+   "hi": 90,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "头上小角",
+   "icon": "thorn",
+   "desc": "头上有小突起，像教堂上的石像鬼雕塑。"
+  },
+  {
+   "name": "属中最小",
+   "icon": "micro",
+   "desc": "它是所在属 6 个物种里最小的。"
+  }
+ ],
+ "intro": [
+  "石像鬼守宫只分布在新喀里多尼亚岛的南端。",
+  "刚孵出时只有约 25 mm（吻肛长）、3 g 重。",
+  "雌性每窝产 2 枚卵。"
+ ],
+ "fact": "它也叫“新喀里多尼亚疙瘩守宫”。",
+ "range": "新喀里多尼亚岛南部。",
+ "sources": [
+  "Wikipedia「Gargoyle gecko」",
+  "IUCN 红色名录（Sadlier, R.A. 2021）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "交趾鸡",
+ "no": "1023",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "交趾鸡",
+ "name_en": "Cochin chicken",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "交趾鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物和虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "传入欧美",
+   "value": "19 世纪 40–50 年代",
+   "lo": 1840,
+   "hi": 1850,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "入美标准",
+   "value": "1874 年",
+   "lo": 1874,
+   "hi": 1874,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "阉鸡屠宰",
+   "value": "12–16 月龄",
+   "lo": 12,
+   "hi": 16,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "英认可色",
+   "value": "6 类",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛脚大鸡",
+   "icon": "wind",
+   "desc": "它来自从中国带到欧美的大型“毛脚鸡”，腿上长满羽毛。"
+  },
+  {
+   "name": "展览明星",
+   "icon": "glow",
+   "desc": "现在主要养来参加家禽展览。"
+  }
+ ],
+ "intro": [
+  "【品种】交趾鸡是大型家鸡品种。",
+  "它最初被叫作“上海鸡”，后来叫“交趾支那鸡”。",
+  "体型大、外表醒目，在欧美引起了一阵养鸡热。"
+ ],
+ "fact": "肉质较粗、颜色较深；12–16 月龄的阉鸡可以做大的餐桌禽。",
+ "range": "源自中国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Cochin chicken」"
+ ],
+ "footnote": "这是家鸡的一个品种；年份类数值的比例条无意义。"
+}

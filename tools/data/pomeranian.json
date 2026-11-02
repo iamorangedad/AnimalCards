@@ -1,0 +1,78 @@
+{
+ "file": "博美犬",
+ "no": "1005",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "博美犬",
+ "name_en": "Pomeranian",
+ "latin": "Canis familiaris（品种）",
+ "short": "博美犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "1.36–3.17 kg",
+   "lo": 1.36,
+   "hi": 3.17,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "20–36 cm",
+   "lo": 0.2,
+   "hi": 0.36,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每窝幼崽",
+   "value": "1.9–2.7 只",
+   "lo": 1.9,
+   "hi": 2.7,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "12.2 年",
+   "lo": 12.2,
+   "hi": 12.2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "女王的爱犬",
+   "icon": "glow",
+   "desc": "维多利亚女王 1888 年养了一只红色的小博美，让小型博美流行起来。"
+  },
+  {
+   "name": "看家吠叫",
+   "icon": "ear",
+   "desc": "它对领地比较警惕，听到外面的声音常会叫。"
+  }
+ ],
+ "intro": [
+  "【品种】博美犬是狐狸犬（尖嘴犬）类型的玩赏犬。",
+  "名字来自波兰西北部和德国东北部的波美拉尼亚地区。",
+  "它是平均每窝幼崽最少的犬种之一。"
+ ],
+ "fact": "18 世纪画家庚斯博罗画中的博美比现在大得多，据说有 14–23 kg。",
+ "range": "原产中欧波美拉尼亚地区；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Pomeranian dog」"
+ ],
+ "footnote": "这是狗的一个品种；寿命为英国研究。"
+}

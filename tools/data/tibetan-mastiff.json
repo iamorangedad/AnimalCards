@@ -1,0 +1,78 @@
+{
+ "file": "藏獒",
+ "no": "1024",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "藏獒",
+ "name_en": "Tibetan Mastiff",
+ "latin": "Canis familiaris（品种）",
+ "short": "藏獒",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬体重",
+   "value": "40–70 kg",
+   "lo": 40,
+   "hi": 70,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母犬体重",
+   "value": "30–55 kg",
+   "lo": 30,
+   "hi": 55,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "宣称寿命",
+   "value": "10–16 年（未证实）",
+   "lo": 10,
+   "hi": 16,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "毛型",
+   "value": "狮头、虎头 2 型",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "护畜犬",
+   "icon": "roar",
+   "desc": "在西藏它是护卫羊群的犬，会吠叫、做气味标记来吓退捕食者。"
+  },
+  {
+   "name": "夜间警觉",
+   "icon": "ear",
+   "desc": "它常在白天睡觉，夜里更活跃、更警觉，会整夜吠叫。"
+  }
+ ],
+ "intro": [
+  "【品种】藏獒是西藏的大型犬种。",
+  "双层被毛中长，有纯黑、黑褐、红色、灰色等多种颜色。",
+  "它聪明而固执，不推荐新手饲养。"
+ ],
+ "fact": "英文里的“mastiff”是早期到西藏的欧洲人起的名字，当时西方把几乎所有大型犬都叫 mastiff。",
+ "range": "原产中国西藏；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Tibetan Mastiff」"
+ ],
+ "footnote": "这是狗的一个品种；体重为 AKC 标准；寿命为育犬者宣称，维基百科注明“未证实”（待核）。"
+}

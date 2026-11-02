@@ -1,0 +1,78 @@
+{
+ "file": "斑点狗",
+ "no": "1002",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "斑点狗",
+ "name_en": "Dalmatian",
+ "latin": "Canis familiaris（品种）",
+ "short": "斑点狗",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "48–58 cm",
+   "lo": 0.48,
+   "hi": 0.58,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "斑点直径",
+   "value": "2–6 cm",
+   "lo": 0.02,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝幼崽",
+   "value": "6–9 只",
+   "lo": 6,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "13.2 年",
+   "lo": 13.2,
+   "hi": 13.2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "马车护卫",
+   "icon": "team",
+   "desc": "过去马拉消防车的年代，它跟着消防马车奔跑，是“消防站狗”。"
+  },
+  {
+   "name": "出生没有斑",
+   "icon": "camo",
+   "desc": "幼崽出生时全身纯白，第一批斑点通常 10 天内才出现。"
+  }
+ ],
+ "intro": [
+  "【品种】斑点狗（大麦町犬）是白底黑斑或肝色斑的犬种。",
+  "它最早被培育成猎犬。",
+  "被毛油脂很少，所以几乎没有狗味，比较干净。"
+ ],
+ "fact": "瑞士、德国、美国的研究发现约 16.5%–25.7% 的斑点狗有单耳或双耳失聪。",
+ "range": "原产地有争议（品种名来自克罗地亚的达尔马提亚地区）；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Dalmatian dog」"
+ ],
+ "footnote": "这是狗的一个品种；肩高为 AKC 标准；寿命为 2024 年英国研究。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "西施犬",
+ "no": "1007",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "西施犬",
+ "name_en": "Shih Tzu",
+ "latin": "Canis familiaris（品种）",
+ "short": "西施犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "不超过 26.7 cm",
+   "lo": 0.267,
+   "hi": 0.267,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "理想体重",
+   "value": "4.0–7.5 kg",
+   "lo": 4,
+   "hi": 7.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "12.8 年",
+   "lo": 12.8,
+   "hi": 12.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "AKC 承认",
+   "value": "1969 年",
+   "lo": 1969,
+   "hi": 1969,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "小狮子狗",
+   "icon": "roar",
+   "desc": "英文名来自汉语“狮子”的威妥玛拼音，也叫西藏狮子狗。"
+  },
+  {
+   "name": "菊花狗",
+   "icon": "seed",
+   "desc": "20 世纪 30 年代在英国，它的外号是“菊花狗”。"
+  }
+ ],
+ "intro": [
+  "【品种】西施犬是起源于西藏的玩赏犬。",
+  "人们认为它是由京巴犬和拉萨犬培育出来的。",
+  "1928 年第一次被带到英国。"
+ ],
+ "fact": "中文名“西施犬”来自中国古代美女西施。",
+ "range": "起源于中国西藏（说法有争议）；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Shih Tzu」"
+ ],
+ "footnote": "这是狗的一个品种；肩高、体重为品种标准；寿命为 2024 年英国研究；“AKC 承认”只是年份，比例条无意义。"
+}

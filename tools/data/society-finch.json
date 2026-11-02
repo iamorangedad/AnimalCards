@@ -1,0 +1,79 @@
+{
+ "file": "十姊妹",
+ "no": "1016",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "十姊妹",
+ "name_en": "Society finch",
+ "latin": "Lonchura striata domestica",
+ "short": "十姊妹",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "家养鸟，以谷物种子为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "孵化期",
+   "value": "16 天",
+   "lo": 16,
+   "hi": 16,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "学唱期",
+   "value": "35–70 日龄",
+   "lo": 35,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "入欧洲",
+   "value": "19 世纪 60 年代",
+   "lo": 1860,
+   "hi": 1860,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "驯化地",
+   "value": "中国",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "爱心保姆",
+   "icon": "huddle",
+   "desc": "它们愿意孵别的鸟的蛋、养别的鸟的雏鸟，常被用作“代孵鸟”。"
+  },
+  {
+   "name": "学唱歌",
+   "icon": "ear",
+   "desc": "幼年雄鸟会模仿和它相处的“老师”雄鸟学唱歌。"
+  }
+ ],
+ "intro": [
+  "十姊妹也叫白腰文鸟家养种，是梅花雀科的家养鸟。",
+  "它在中国被驯化，19 世纪 60 年代经日本进入欧洲动物园。",
+  "多数学者认为它是白腰文鸟的家养类型。"
+ ],
+ "fact": "科学家对它的鸣唱做了大量研究，比如歌声怎么产生、大脑怎么处理。",
+ "range": "在中国被驯化；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Society finch」"
+ ],
+ "footnote": "这是家养鸟；“进入欧洲动物园”只是年份，“驯化地”不是数值，比例条无意义。"
+}

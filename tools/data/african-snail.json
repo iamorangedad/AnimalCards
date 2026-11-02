@@ -1,0 +1,79 @@
+{
+ "file": "非洲大蜗牛",
+ "no": "1019",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "非洲大蜗牛",
+ "name_en": "Giant African land snail",
+ "latin": "Lissachatina fulica",
+ "short": "非洲大蜗牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃多种植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "壳长",
+   "value": "20 cm 或更长",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "壳直径",
+   "value": "约 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "卵长",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "刚孵出壳长",
+   "value": "5–5.5 mm",
+   "lo": 0.005,
+   "hi": 0.0055,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨型蜗牛",
+   "icon": "trunk",
+   "desc": "它是现存最大的陆地蜗牛之一。"
+  },
+  {
+   "name": "入侵物种",
+   "icon": "clone",
+   "desc": "被带到很多国家后成为入侵物种，美国佛州两次花了近十年才清除。"
+  }
+ ],
+ "intro": [
+  "非洲大蜗牛是非洲大蜗牛科的大型陆生蜗牛。",
+  "1847 年被带到印度，1900 年到斯里兰卡。",
+  "卵有薄薄的钙质壳。"
+ ],
+ "fact": "1966 年和 2011 年它两次在美国迈阿密被发现，每次都花了将近十年才清除。",
+ "range": "原产东非；已扩散到亚洲、美洲等很多热带、亚热带地区。",
+ "sources": [
+  "Wikipedia「Lissachatina fulica」"
+ ],
+ "footnote": "学名现为 Lissachatina fulica（旧名 Achatina fulica）。",
+ "warn": "可能携带寄生虫（如广州管圆线虫），摸过后要洗手，绝对不要生吃。"
+}

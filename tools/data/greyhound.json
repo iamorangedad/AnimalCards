@@ -1,0 +1,78 @@
+{
+ "file": "灵缇",
+ "no": "1009",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "灵缇",
+ "name_en": "Greyhound",
+ "latin": "Canis familiaris（品种）",
+ "short": "灵缇",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最高速度",
+   "value": "至少 69 km/h",
+   "lo": 69,
+   "hi": 69,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "公犬肩高",
+   "value": "71–76 cm",
+   "lo": 0.71,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公犬体重",
+   "value": "27–40 kg",
+   "lo": 27,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "后腿肌肉",
+   "value": "占体重 18% 以上",
+   "lo": 18,
+   "hi": 18,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "视觉猎犬",
+   "icon": "whisker",
+   "desc": "它是靠眼睛追踪猎物的视觉猎犬，最早用来打猎。"
+  },
+  {
+   "name": "短跑冠军",
+   "icon": "wind",
+   "desc": "比赛中典型的获胜速度约 58–61 km/h。"
+  }
+ ],
+ "intro": [
+  "【品种】灵缇是古老的视觉猎犬品种。",
+  "后来被用于追猎比赛和赛狗。",
+  "母犬肩高 66–71 cm，体重 25–34 kg。"
+ ],
+ "fact": "灵缇受伤或手术后，比其他狗更容易在 36–48 小时后出现迟发性出血。",
+ "range": "起源不确定；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Greyhound」"
+ ],
+ "footnote": "这是狗的一个品种；寿命 2024 年英国研究为 11.5 年。"
+}

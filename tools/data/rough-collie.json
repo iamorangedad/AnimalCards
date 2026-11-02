@@ -1,0 +1,78 @@
+{
+ "file": "粗毛柯利牧羊犬",
+ "no": "1001",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "粗毛柯利牧羊犬",
+ "name_en": "Rough Collie",
+ "latin": "Canis familiaris（品种）",
+ "short": "粗毛柯利牧羊犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬肩高",
+   "value": "55.8–66 cm",
+   "lo": 0.558,
+   "hi": 0.66,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公犬体重",
+   "value": "约 23–32 kg",
+   "lo": 23,
+   "hi": 32,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母犬矮约",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "眼病筛查",
+   "value": "6–8 周龄",
+   "lo": 6,
+   "hi": 8,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "牧羊高手",
+   "icon": "team",
+   "desc": "它和短毛柯利都是在苏格兰为放羊而培育的。"
+  },
+  {
+   "name": "银幕明星",
+   "icon": "glow",
+   "desc": "电影和电视里的“灵犬莱西”就是一系列粗毛柯利。"
+  }
+ ],
+ "intro": [
+  "【品种】粗毛柯利是英国的长毛牧羊犬，体型中到大。",
+  "它和短毛柯利除了毛长以外完全一样。",
+  "认可的毛色有貂色、蓝陨石色、三色和白色系。"
+ ],
+ "fact": "它也被用作搜救犬、治疗犬和导盲犬。",
+ "range": "原产苏格兰；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Rough Collie」"
+ ],
+ "footnote": "这是狗的一个品种；体重原文为 50–70 磅，换算为约 23–32 kg；“眼病筛查”是建议的检查周龄，用月份刻度只是示意（单位：周）。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "迷你雪纳瑞",
+ "no": "1006",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "迷你雪纳瑞",
+ "name_en": "Miniature Schnauzer",
+ "latin": "Canis familiaris（品种）",
+ "short": "迷你雪纳瑞",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "30–35 cm",
+   "lo": 0.3,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "4–8 kg",
+   "lo": 4,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "13.3 年",
+   "lo": 13.3,
+   "hi": 13.3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "毛色",
+   "value": "4 种",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鼠农家犬",
+   "icon": "whisker",
+   "desc": "农民培育这种小狗来高效地抓老鼠。"
+  },
+  {
+   "name": "看门好手",
+   "icon": "ear",
+   "desc": "专家评选中它的看门吠叫能力排在第 5 名。"
+  }
+ ],
+ "intro": [
+  "【品种】迷你雪纳瑞是德国的小型犬，19 世纪后期起源于德国。",
+  "它可能来自最小的标准雪纳瑞，或与猴面梗等小型犬杂交。",
+  "国际认可 4 种毛色：纯黑、黑银、椒盐色和白色。"
+ ],
+ "fact": "北美研究发现约 1% 的迷你雪纳瑞有先天性门体分流，混种狗只有 0.05%。",
+ "range": "原产德国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Miniature Schnauzer」"
+ ],
+ "footnote": "这是狗的一个品种；肩高、体重为国际品种标准；寿命为英国研究。"
+}

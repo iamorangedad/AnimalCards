@@ -1,0 +1,79 @@
+{
+ "file": "锯缘青蟹",
+ "no": "1025",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "锯缘青蟹",
+ "name_en": "Mud crab",
+ "latin": "Scylla serrata",
+ "short": "锯缘青蟹",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "肉食性（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大体重",
+   "value": "3.5 kg",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大壳宽",
+   "value": "26 cm",
+   "lo": 0.26,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一次产仔",
+   "value": "约 100 万只",
+   "lo": 1000000.0,
+   "hi": 1000000.0,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "限捕壳宽",
+   "value": "小于约 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红树林居民",
+   "icon": "dive",
+   "desc": "幼蟹住在红树林里，长大后才到低潮线以下活动。"
+  },
+  {
+   "name": "同类相食",
+   "icon": "fire",
+   "desc": "有螃蟹蜕壳时，硬壳的同类有时会攻击并吃掉它。"
+  }
+ ],
+ "intro": [
+  "锯缘青蟹也叫泥蟹、红树林蟹，生活在非洲、澳大利亚和亚洲的河口和红树林。",
+  "壳色多为深色斑驳的绿色到深褐色。",
+  "因为个大肉多，它一直被大量捕捞。"
+ ],
+ "fact": "因为过度捕捞，一些地方禁止捕捞小于 6 英寸的蟹，并禁止捕捞雌蟹。",
+ "range": "印度-西太平洋（非洲、亚洲、澳大利亚）的河口和红树林。",
+ "sources": [
+  "Wikipedia「Scylla serrata」"
+ ],
+ "footnote": "“限捕壳宽”原文为 6 英寸。"
+}

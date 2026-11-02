@@ -1,0 +1,78 @@
+{
+ "file": "英国斗牛犬",
+ "no": "1003",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "英国斗牛犬",
+ "name_en": "Bulldog",
+ "latin": "Canis familiaris（品种）",
+ "short": "英国斗牛犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬体重",
+   "value": "约 25 kg",
+   "lo": 25,
+   "hi": 25,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "母犬体重",
+   "value": "约 23 kg",
+   "lo": 23,
+   "hi": 23,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "预期寿命",
+   "value": "9.8 年",
+   "lo": 9.8,
+   "hi": 9.8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "最常见死因",
+   "value": "心脏病 20%",
+   "lo": 20,
+   "hi": 20,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "斗牛犬的由来",
+   "icon": "roar",
+   "desc": "名字来自过去的“斗牛”游戏；1835 年英国立法禁止后，它被培育成伴侣犬。"
+  },
+  {
+   "name": "短鼻子",
+   "icon": "whisker",
+   "desc": "极短的口鼻（短头颅）会让它呼吸困难，是这个品种的主要健康问题。"
+  }
+ ],
+ "intro": [
+  "【品种】英国斗牛犬是英国的獒犬型犬种，也叫英格兰斗牛犬。",
+  "2013 年它是全球登记数第 12 多的犬种。",
+  "体型敦实，头大，下颌宽。"
+ ],
+ "fact": "2004 年英国调查显示，它最常见的死因是心脏病（20%）和癌症（18%）。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Bulldog」"
+ ],
+ "footnote": "这是狗的一个品种；体重为英国标准（美国标准更轻）；寿命为 2024 年英国研究。"
+}

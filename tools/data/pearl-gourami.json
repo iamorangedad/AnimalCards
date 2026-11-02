@@ -1,0 +1,78 @@
+{
+ "file": "珍珠马甲",
+ "no": "1017",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "珍珠马甲",
+ "name_en": "Pearl gourami",
+ "latin": "Trichopodus leerii",
+ "short": "珍珠马甲",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 红色名录",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "命名年份",
+   "value": "1852 年",
+   "lo": 1852,
+   "hi": 1852,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "原产国",
+   "value": "3 国",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "别名",
+   "value": "2 个以上",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "珍珠斑点",
+   "icon": "glow",
+   "desc": "银褐色的身体上布满珍珠一样的花纹，一条黑线从头延伸到尾。"
+  },
+  {
+   "name": "求偶橙胸",
+   "icon": "fire",
+   "desc": "雄鱼喉部是橙色，繁殖期会变得更鲜艳，用来向雌鱼求偶。"
+  }
+ ],
+ "intro": [
+  "珍珠马甲是原产东南亚的丝足鱼。",
+  "它生活在低地酸性水的沼泽里。",
+  "雄鱼通常比雌鱼大、颜色更鲜艳，鳍也更长。"
+ ],
+ "fact": "它也被叫作“蕾丝马甲”“马赛克马甲”。",
+ "range": "泰国、马来西亚、印度尼西亚（苏门答腊、婆罗洲）。",
+ "sources": [
+  "Wikipedia「Pearl gourami」"
+ ],
+ "footnote": "“命名年份”只是年份，比例条无意义；IUCN 评估年份维基未列（待核）。"
+}

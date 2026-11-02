@@ -1,0 +1,78 @@
+{
+ "file": "挪威森林猫",
+ "no": "1013",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "挪威森林猫",
+ "name_en": "Norwegian Forest Cat",
+ "latin": "Felis catus（品种）",
+ "short": "挪威森林猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以猫粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "母猫体重",
+   "value": "3.6–8 kg",
+   "lo": 3.6,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公猫体重",
+   "value": "4.5–9 kg",
+   "lo": 4.5,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "祖先到挪威",
+   "value": "约公元 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "FIFe 占比",
+   "value": "4.3%",
+   "lo": 4.3,
+   "hi": 4.3,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐寒长毛",
+   "icon": "cold",
+   "desc": "有长而有光泽的外层毛和羊毛般的底层毛，适应很冷的气候。"
+  },
+  {
+   "name": "户外猎手",
+   "icon": "whisker",
+   "desc": "主要在户外生活的挪威森林猫会成为敏捷高效的猎手。"
+  }
+ ],
+ "intro": [
+  "【品种】挪威森林猫是起源于北欧的家猫品种。",
+  "它的祖先可能是维京人约公元 1000 年带到挪威的猫。",
+  "二战期间几乎绝迹，后来靠育种计划恢复。"
+ ],
+ "fact": "20 世纪 70 年代它在欧洲猫协会 FIFe 登记为正式品种；2024 年在 FIFe 排第 6 位。",
+ "range": "原产挪威；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Norwegian Forest cat」"
+ ],
+ "footnote": "这是猫的一个品种；“祖先到挪威”只是年份，比例条无意义。"
+}

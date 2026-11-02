@@ -1,0 +1,78 @@
+{
+ "file": "俄罗斯蓝猫",
+ "no": "1012",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "俄罗斯蓝猫",
+ "name_en": "Russian Blue",
+ "latin": "Felis catus（品种）",
+ "short": "俄罗斯蓝猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以猫粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成年体重",
+   "value": "3.6–6.8 kg",
+   "lo": 3.6,
+   "hi": 6.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "约 64 天",
+   "lo": 64,
+   "hi": 64,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "性格成熟",
+   "value": "3–4 岁",
+   "lo": 3,
+   "hi": 4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "FIFe 占比",
+   "value": "约 2.5%",
+   "lo": 2.5,
+   "hi": 2.5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "银蓝被毛",
+   "icon": "glow",
+   "desc": "浓密的双层被毛是淡蓝灰色，带明显的银色光泽。"
+  },
+  {
+   "name": "翡翠绿眼",
+   "icon": "sun",
+   "desc": "眼睛是明亮的翡翠绿到黄绿色。"
+  }
+ ],
+ "intro": [
+  "【品种】俄罗斯蓝猫以一身纯蓝色被毛著称。",
+  "它也叫“阿尔汉格尔蓝猫”，据说 19 世纪 60 年代水手把它从阿尔汉格尔群岛带到英国。",
+  "英国报刊最早在 1862 年提到“阿尔汉格尔猫”。"
+ ],
+ "fact": "它通常比较安静，到 3–4 岁还保留着很多少年时的习性。",
+ "range": "起源于俄罗斯北部；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Russian Blue」"
+ ],
+ "footnote": "这是猫的一个品种；FIFe 登记数原文写作“British Blue”2370 只，可能是原文笔误（待核）。"
+}

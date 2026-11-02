@@ -1,0 +1,78 @@
+{
+ "file": "玻璃虾",
+ "no": "1018",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "玻璃虾",
+ "name_en": "Ghost shrimp",
+ "latin": "Palaemon paludosus",
+ "short": "玻璃虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃藻类和水生昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "最多 85 枚",
+   "lo": 85,
+   "hi": 85,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "建议群养",
+   "value": "最多 20 只/5 加仑",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "身体",
+   "value": "几乎透明",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "透明身体",
+   "icon": "camo",
+   "desc": "身体大部分是透明的，像“幽灵”一样。"
+  },
+  {
+   "name": "清洁工",
+   "icon": "food",
+   "desc": "它们是杂食动物，吃藻类、水生昆虫和残渣。"
+  }
+ ],
+ "intro": [
+  "玻璃虾也叫幽灵虾，是美国东南部的淡水虾。",
+  "它在生态系统里的作用很大，可以算作关键物种。",
+  "它也是很受欢迎的水族宠物。"
+ ],
+ "fact": "建议成群饲养，5 加仑（约 19 L）的缸里可以养最多 20 只。",
+ "range": "美国东南部的淡水。",
+ "sources": [
+  "Wikipedia「Palaemon paludosus」"
+ ],
+ "footnote": "学名现为 Palaemon paludosus（旧名 Palaemonetes paludosus）；“身体几乎透明”的比例是示意，不是测量值。"
+}

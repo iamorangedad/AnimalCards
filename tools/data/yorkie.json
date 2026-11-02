@@ -1,0 +1,78 @@
+{
+ "file": "约克夏梗",
+ "no": "1004",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "约克夏梗",
+ "name_en": "Yorkshire Terrier",
+ "latin": "Canis familiaris（品种）",
+ "short": "约克夏梗",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "不超过 3.2 kg",
+   "lo": 3.2,
+   "hi": 3.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "13.3 年",
+   "lo": 13.3,
+   "hi": 13.3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "美国排名",
+   "value": "第 11 名",
+   "lo": 11,
+   "hi": 11,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "早期牙周炎",
+   "value": "98% 的狗",
+   "lo": 98,
+   "hi": 98,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鼠梗",
+   "icon": "whisker",
+   "desc": "19 世纪约克郡和兰开夏郡的纺织厂工人、矿工培育它来捉老鼠。"
+  },
+  {
+   "name": "丝滑长毛",
+   "icon": "wind",
+   "desc": "被毛头部是棕褐色、身上是深钢灰色，品种标准不接受其他颜色。"
+  }
+ ],
+ "intro": [
+  "【品种】约克夏梗是英国的玩赏梗犬。",
+  "它是最小的梗犬之一，也是最小的犬种之一。",
+  "19 世纪 60 年代末，名犬 Huddersfield Ben 奠定了这个品种的样子。"
+ ],
+ "fact": "它很容易得牙周病；2019 年一项研究发现 98% 的狗在 37 周龄前至少有一颗牙有早期牙周炎。",
+ "range": "原产英格兰约克郡；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Yorkshire Terrier」"
+ ],
+ "footnote": "这是狗的一个品种；寿命为 2024 年英国研究；美国排名为 202 个犬种中的名次。"
+}

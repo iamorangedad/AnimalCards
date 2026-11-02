@@ -1,0 +1,78 @@
+{
+ "file": "阿比西尼亚猫",
+ "no": "1011",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "阿比西尼亚猫",
+ "name_en": "Abyssinian",
+ "latin": "Felis catus（品种）",
+ "short": "阿比西尼亚猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "以猫粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "4.5 kg",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体重范围",
+   "value": "3.6–5.4 kg",
+   "lo": 3.6,
+   "hi": 5.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "身高",
+   "value": "20–25 cm",
+   "lo": 0.2,
+   "hi": 0.25,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "FIFe 排名",
+   "value": "54 个中第 18",
+   "lo": 18,
+   "hi": 18,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺鼠色被毛",
+   "icon": "camo",
+   "desc": "每根毛上都有不同颜色的色带，叫作“斑纹”被毛。"
+  },
+  {
+   "name": "野猫外表",
+   "icon": "ear",
+   "desc": "斑纹被毛和一对竖起的大耳朵，让它看起来像野猫。"
+  }
+ ],
+ "intro": [
+  "【品种】阿比西尼亚猫是有“斑纹”虎斑被毛的标准猫种。",
+  "英国最早展出的阿比猫来自阿比西尼亚（今埃塞俄比亚），名字由此而来。",
+  "但遗传研究认为它起源于东南亚和欧洲。"
+ ],
+ "fact": "欧美一项研究发现 38%（26/69）的阿比猫有髌骨脱位，其他品种只有 1/84。",
+ "range": "现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Abyssinian cat」"
+ ],
+ "footnote": "这是猫的一个品种；FIFe 排名为 2024 年数据。"
+}

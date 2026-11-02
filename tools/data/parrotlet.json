@@ -1,0 +1,80 @@
+{
+ "file": "太平洋鹦哥",
+ "no": "1015",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "太平洋鹦哥",
+ "name_en": "Pacific parrotlet",
+ "latin": "Forpus coelestis",
+ "short": "太平洋鹦哥",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "野外爱吃浆果和仙人掌果",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "11–14 cm",
+   "lo": 0.11,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "30 g 或更多",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "4–6 枚",
+   "lo": 4,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "10.4 年",
+   "lo": 10.4,
+   "hi": 10.4,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "袖珍鹦鹉",
+   "icon": "micro",
+   "desc": "它是一种很小的绿色鹦鹉，只有 11–14 cm 长。"
+  },
+  {
+   "name": "蓝翅膀",
+   "icon": "wind",
+   "desc": "雄鸟的翅膀上有蓝色，雌鸟没有。"
+  }
+ ],
+ "intro": [
+  "太平洋鹦哥也叫天蓝鹦哥，是鹦鹉科的小型鹦鹉。",
+  "野生个体是绿色的，脸部有亮绿色面罩，嘴是粉色的。",
+  "雌鸟孵卵，平均 18 天孵化。"
+ ],
+ "fact": "人工繁育出了蓝色、黄色等多种颜色。",
+ "range": "南美洲西部（厄瓜多尔、秘鲁一带）。",
+ "sources": [
+  "Wikipedia「Pacific parrotlet」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

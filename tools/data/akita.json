@@ -1,0 +1,78 @@
+{
+ "file": "秋田犬",
+ "no": "1008",
+ "cat": "宠物",
+ "kingdom": "动物",
+ "name_cn": "秋田犬",
+ "name_en": "Akita Inu",
+ "latin": "Canis familiaris（品种）",
+ "short": "秋田犬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "以犬粮为主",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公犬体重",
+   "value": "45–59 kg",
+   "lo": 45,
+   "hi": 59,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公犬肩高",
+   "value": "66–71 cm",
+   "lo": 0.66,
+   "hi": 0.71,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "预期寿命",
+   "value": "11.4 年",
+   "lo": 11.4,
+   "hi": 11.4,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "攻击他犬",
+   "value": "59%",
+   "lo": 59,
+   "hi": 59,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "忠犬八公",
+   "icon": "huddle",
+   "desc": "1923 年出生的八公在主人去世后，仍天天在涩谷车站等他回来。"
+  },
+  {
+   "name": "厚实双层毛",
+   "icon": "cold",
+   "desc": "原产日本北部山区，有短而厚的双层被毛。"
+  }
+ ],
+ "intro": [
+  "【品种】秋田犬是日本的大型犬，起源于日本北部山区。",
+  "日系秋田只允许红、白和虎斑三种毛色，美系所有毛色都可以。",
+  "八公的故事让秋田犬在国际上出名。"
+ ],
+ "fact": "从 1936 年起，每年 3 月 8 日涩谷车站都会举行纪念八公的仪式。",
+ "range": "原产日本秋田县一带；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Akita (dog)」"
+ ],
+ "footnote": "这是狗的一个品种；体重、肩高为美系秋田；攻击性比例来自波兰一项对 5 个古老犬种的问卷调查。"
+}

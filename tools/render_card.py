@@ -8,6 +8,8 @@ import icons
 import art
 import art5
 art.ART.update(art5.ART5)
+import art6
+art.ART.update(art6.ART6)
 
 HERE = pathlib.Path(__file__).resolve().parent
 W, H = 1080, 1920

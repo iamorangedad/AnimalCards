@@ -1,0 +1,77 @@
+{
+ "file": "大洋油葫芦",
+ "no": "1215",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "大洋油葫芦",
+ "name_en": "Oceanic field cricket",
+ "latin": "Teleogryllus oceanicus",
+ "short": "大洋油葫芦",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "（维基未详述食性，待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雄虫体长",
+   "value": "28–35 mm",
+   "lo": 0.028,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌虫体长",
+   "value": "33–42 mm",
+   "lo": 0.033,
+   "hi": 0.042,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "夏威夷哑雄",
+   "value": "超过 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "连胜 5 场后",
+   "value": "再胜率 87%",
+   "lo": 87,
+   "hi": 87,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变哑求生",
+   "icon": "ear",
+   "desc": "夏威夷寄生蝇循歌声找到雄虫；不到 20 代，90% 以上的雄虫翅膀变得不会鸣叫。"
+  },
+  {
+   "name": "寄生蝇",
+   "icon": "toxic",
+   "desc": "寄生蝇把卵产在雄虫身上，幼虫钻进体内，约 7 天后钻出并杀死蟋蟀。"
+  }
+ ],
+ "intro": [
+  "大洋油葫芦也叫大洋田蟋，分布在大洋洲。",
+  "雄虫用歌声吸引雌虫，求偶歌比召唤歌轻柔得多。",
+  "雌虫因为有产卵器，通常比雄虫长。"
+ ],
+ "fact": "它可能在 1877 年随商船、或 1500 年前随波利尼西亚人来到夏威夷。",
+ "range": "大洋洲和澳大利亚沿海；已引入夏威夷。",
+ "sources": [
+  "Wikipedia「Oceanic field cricket」"
+ ],
+ "footnote": "原定的“油葫芦”（Teleogryllus emma）资料太少，换为同属的大洋油葫芦。"
+}

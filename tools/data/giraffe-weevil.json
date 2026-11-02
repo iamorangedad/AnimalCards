@@ -1,0 +1,71 @@
+{
+ "file": "长颈象鼻虫",
+ "no": "1207",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "长颈象鼻虫",
+ "name_en": "Giraffe weevil",
+ "latin": "Trachelophorus giraffa",
+ "short": "长颈象鼻虫",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃两种野牡丹科树（Dichaetanthera）的叶子和汁液",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.5–5 cm",
+   "lo": 0.025,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫脖子",
+   "value": "雌虫的 2–3 倍",
+   "lo": 2,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "跳跃",
+   "value": "体长 100 倍",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长脖子",
+   "icon": "trunk",
+   "desc": "雄虫的长脖子用来打架、求偶和筑巢。"
+  },
+  {
+   "name": "卷叶睡觉",
+   "icon": "flip",
+   "desc": "把叶子卷成筒，晚上缩在里面休息。"
+  }
+ ],
+ "intro": [
+  "长颈象鼻虫是马达加斯加特有的小象鼻虫。",
+  "它的身体红黑相间。",
+  "鸟类、狐猴和马岛獴会吃甲虫和幼虫。"
+ ],
+ "fact": "雄虫为了吸引雌虫会互相用长脖子打斗。",
+ "range": "马达加斯加的森林。",
+ "sources": [
+  "Wikipedia「Giraffe weevil」",
+  "IUCN 红色名录（Englefield, E. 2021）"
+ ],
+ "footnote": "体长原文为 1–2 英寸，换算后取整。"
+}

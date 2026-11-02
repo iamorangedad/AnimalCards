@@ -1,0 +1,70 @@
+{
+ "file": "二星瓢虫",
+ "no": "1205",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "二星瓢虫",
+ "name_en": "Two-spot ladybird",
+ "latin": "Adalia bipunctata",
+ "short": "二星瓢虫",
+ "type": "天空",
+ "habitat": [
+  "林地",
+  "农田"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蚜虫和其他小昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌性后代",
+   "value": "可达 80–90%",
+   "lo": 80,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "携带细菌",
+   "value": "0–20% 雌虫",
+   "lo": 0,
+   "hi": 20,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "感染率",
+   "value": "最高 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃蚜虫",
+   "icon": "food",
+   "desc": "在温室等地被用作对付蚜虫的生物防治天敌。"
+  },
+  {
+   "name": "姐妹的食物",
+   "icon": "huddle",
+   "desc": "有的胚胎因细菌死亡，成了先孵出的姐妹的第一顿饭。"
+  }
+ ],
+ "intro": [
+  "二星瓢虫是肉食性的瓢虫，分布在全北界。",
+  "它在西欧和中欧很常见。",
+  "它的颜色和花纹有很多类型。"
+ ],
+ "fact": "某些种群中细菌会杀死雄性胚胎，所以后代 80–90% 是雌的。",
+ "range": "欧洲、亚洲和北美洲（全北界）。",
+ "sources": [
+  "Wikipedia「Two-spot ladybird」"
+ ],
+ "footnote": ""
+}

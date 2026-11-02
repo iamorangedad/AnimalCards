@@ -1,0 +1,69 @@
+{
+ "file": "野桑蚕",
+ "no": "1209",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "野桑蚕",
+ "name_en": "Wild silk moth",
+ "latin": "Bombyx mandarina",
+ "short": "野桑蚕",
+ "type": "天空",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃桑叶（据“桑蚕蛾”属名推断，待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "驯化开始",
+   "value": "约 5000 年前",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "中国种群",
+   "value": "56 条染色体",
+   "lo": 56,
+   "hi": 56,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "日本种群",
+   "value": "54 条染色体",
+   "lo": 54,
+   "hi": 54,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "家蚕祖先",
+   "icon": "micro",
+   "desc": "它是家蚕最近的亲戚，家蚕可能都来自约 5000 年前采集的野桑蚕。"
+  },
+  {
+   "name": "会吐丝",
+   "icon": "web",
+   "desc": "它的幼虫和家蚕幼虫都叫“蚕”，会结丝茧。"
+  }
+ ],
+ "intro": [
+  "野桑蚕是蚕蛾科的蛾子。",
+  "它的分布从中国内陆一直到朝鲜半岛和日本。",
+  "不同地区的种群有细微差别。"
+ ],
+ "fact": "中国的野桑蚕有 56 条染色体，日本的只有 54 条。",
+ "range": "中国、朝鲜半岛和日本。",
+ "sources": [
+  "Wikipedia「Wild silk moth」"
+ ],
+ "footnote": "食性为推断（待核）。"
+}

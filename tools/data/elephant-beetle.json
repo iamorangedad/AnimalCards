@@ -1,0 +1,77 @@
+{
+ "file": "象犀金龟",
+ "no": "1204",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "象犀金龟",
+ "name_en": "Elephant beetle",
+ "latin": "Megasoma elephas",
+ "short": "象犀金龟",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃某些树的树液和熟透落地的果实",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "7–12 cm",
+   "lo": 0.07,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大雄虫",
+   "value": "13.7 cm",
+   "lo": 0.137,
+   "hi": 0.137,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫期",
+   "value": "约 29 个月",
+   "lo": 2.4166666666666665,
+   "hi": 2.4166666666666665,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "成虫寿命",
+   "value": "1–3 个月",
+   "lo": 30,
+   "hi": 90,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大角",
+   "icon": "trunk",
+   "desc": "雄虫用角防御，也用来争夺食物和配偶。"
+  },
+  {
+   "name": "夜行",
+   "icon": "ear",
+   "desc": "生活在雨林中，主要在夜间活动。"
+  }
+ ],
+ "intro": [
+  "象犀金龟是新热带区的犀金龟。",
+  "它全身黑色，覆盖着细毛。",
+  "幼虫靠吃有机质长大。"
+ ],
+ "fact": "在哥斯达黎加、尼加拉瓜等国，雄虫的头曾被镶金做成项链挂饰。",
+ "range": "墨西哥南部、中美洲和南美洲雨林。",
+ "sources": [
+  "Wikipedia「Elephant beetle」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "东方胡蜂",
+ "no": "1217",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "东方胡蜂",
+ "name_en": "Oriental hornet",
+ "latin": "Vespa orientalis",
+ "short": "东方胡蜂",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "成虫吃花蜜和水果，并捕猎昆虫、收集动物蛋白喂幼虫",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2014",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "巢脾",
+   "value": "3–6 层",
+   "lo": 3,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每层巢室",
+   "value": "600–900 个",
+   "lo": 600,
+   "hi": 900,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "耐受酒精",
+   "value": "最高 80%",
+   "lo": 80,
+   "hi": 80,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "褐色表皮",
+   "value": "约 30 层",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "太阳能条纹",
+   "icon": "sun",
+   "desc": "身上的黄色条纹能吸收阳光产生微弱电压，可能帮助它挖掘。"
+  },
+  {
+   "name": "千杯不醉",
+   "icon": "jar",
+   "desc": "喝含最多 80% 酒精的糖水一周也没有异常。"
+  }
+ ],
+ "intro": [
+  "东方胡蜂是胡蜂科的社会性昆虫。",
+  "它的颚很有力，被惹恼时会咬人。"
+ ],
+ "fact": "它的挖掘活动和日照强度相关。",
+ "range": "西南亚、东北非、中东、中亚和南欧部分地区；已引入墨西哥和智利。",
+ "sources": [
+  "Wikipedia「Oriental hornet」"
+ ],
+ "footnote": "IUCN 引用为 2014 年红色名录总页，评估作者未列（待核）。",
+ "warn": "会蜇人，很疼，有人对蜂毒过敏；看到蜂巢要远离。"
+}

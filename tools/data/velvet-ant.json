@@ -1,0 +1,70 @@
+{
+ "file": "牛杀蚁蜂",
+ "no": "1218",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "牛杀蚁蜂",
+ "name_en": "Eastern velvet ant",
+ "latin": "Dasymutilla occidentalis",
+ "short": "牛杀蚁蜂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "寄生",
+ "diet_note": "雌虫把卵产在其他寄主的卵和幼虫上（维基未详述寄主）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 1.9 cm",
+   "lo": 0.019,
+   "hi": 0.019,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "化蛹",
+   "value": "约 23 天",
+   "lo": 23,
+   "hi": 23,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "蜇痛指数",
+   "value": "4 级中的 3 级",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“杀牛蜂”",
+   "icon": "toxic",
+   "desc": "以极痛的蜇刺闻名，所以外号叫“杀牛蜂”。"
+  },
+  {
+   "name": "六重防御",
+   "icon": "thorn",
+   "desc": "厚外壳、跑得快、警戒色、发声警告、化学分泌物和毒液。"
+  }
+ ],
+ "intro": [
+  "牛杀蚁蜂看起来像蚂蚁，其实是寄生蜂。",
+  "雌虫没有翅膀，雄虫有翅膀但不会蜇人。",
+  "它们独居，成虫多在夏天出现。"
+ ],
+ "fact": "它是美国东部最大的蚁蜂。",
+ "range": "美国东部（北起康涅狄格到堪萨斯，南到佛罗里达和得克萨斯）。",
+ "sources": [
+  "Wikipedia「Eastern velvet ant」"
+ ],
+ "footnote": "",
+ "warn": "雌虫蜇人极痛，别用手抓这种红黑色“毛蚂蚁”。"
+}

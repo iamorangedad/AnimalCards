@@ -1,0 +1,69 @@
+{
+ "file": "叶䗛",
+ "no": "1216",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "叶䗛",
+ "name_en": "Leaf insects",
+ "latin": "Phylliidae",
+ "short": "叶䗛",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃热带植物的叶子",
+ "iucn": {
+  "code": "NE",
+  "sub": "科级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "体长*",
+   "value": "24–120 mm",
+   "lo": 0.024,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每只雌虫*",
+   "value": "产卵 100–300 枚",
+   "lo": 100,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "叶䗛亚科",
+   "value": "120 个有效种",
+   "lo": 120,
+   "hi": 120,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会走的叶子",
+   "icon": "camo",
+   "desc": "是动物界最逼真的“叶子”模仿者之一，有的连边缘都像被虫咬过。"
+  },
+  {
+   "name": "随风摇摆",
+   "icon": "wind",
+   "desc": "走路时前后摇晃，像被风吹动的叶子。"
+  }
+ ],
+ "intro": [
+  "叶䗛是竹节虫目叶䗛科的昆虫。",
+  "和大多数竹节虫一样，它们能孤雌生殖。",
+  "颜色常随湿度、温度、食物和光线而变。"
+ ],
+ "fact": "最东边的属 Chitoniscus 一直分布到斐济群岛。",
+ "range": "南亚经东南亚到澳大利亚，东到斐济。",
+ "sources": [
+  "Wikipedia「Phylliidae」"
+ ],
+ "footnote": "原定纺织娘（Mecopoda）维基资料太少，改为叶䗛科；*为科级数据。"
+}

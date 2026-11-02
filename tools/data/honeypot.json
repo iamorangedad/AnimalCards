@@ -1,0 +1,77 @@
+{
+ "file": "蜜罐蚁",
+ "no": "1201",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "蜜罐蚁",
+ "name_en": "Mexican honeypot ant",
+ "latin": "Myrmecocystus mexicanus",
+ "short": "蜜罐蚁",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃花蜜、虫瘿流出的糖液、蚜虫蜜露，也吃死去的收获蚁",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "工蚁体长",
+   "value": "3–7 mm",
+   "lo": 0.003,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蚁后体长",
+   "value": "约 9 mm",
+   "lo": 0.009,
+   "hi": 0.009,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "工蚁寿命",
+   "value": "11–170 天",
+   "lo": 11,
+   "hi": 170,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "一巢",
+   "value": "约 5000 只",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "活体蜜罐",
+   "icon": "jar",
+   "desc": "“蜜罐工蚁”的腹部被食物撑得鼓鼓的，成了全巢的活仓库。"
+  },
+  {
+   "name": "随时补位",
+   "icon": "team",
+   "desc": "如果拿走蜜罐工蚁，下一批最大的工蚁很快就会变成新的蜜罐。"
+  }
+ ],
+ "intro": [
+  "墨西哥蜜罐蚁属于“蜜罐蚁”的一种。",
+  "其他工蚁傍晚采集花蜜，喂给发育中的蜜罐工蚁。",
+  "普通工蚁大约两周就能变成蜜罐工蚁。"
+ ],
+ "fact": "深色蜜罐里多是葡萄糖和果糖，乳白色的则含蛋白质和油脂。",
+ "range": "美国西南部和墨西哥部分地区。",
+ "sources": [
+  "Wikipedia「Mexican honeypot ant」"
+ ],
+ "footnote": ""
+}

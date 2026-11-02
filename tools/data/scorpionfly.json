@@ -1,0 +1,63 @@
+{
+ "file": "蝎蛉",
+ "no": "1214",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "蝎蛉",
+ "name_en": "Common scorpionfly",
+ "latin": "Panorpa communis",
+ "short": "蝎蛉",
+ "type": "天空",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "腐生",
+ "diet_note": "吃死昆虫（有时吃活蚜虫），常从蜘蛛网上偷，也吸植物汁液",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "约 35 mm",
+   "lo": 0.035,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "幼虫体长",
+   "value": "最长 20 mm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "像蝎子",
+   "icon": "camo",
+   "desc": "雄虫尾端有一对抱握器，看起来像蝎子，但不是螫针。"
+  },
+  {
+   "name": "求偶送礼",
+   "icon": "food",
+   "desc": "雄虫送雌虫唾液分泌物或猎物作“婚礼礼物”。"
+  }
+ ],
+ "intro": [
+  "蝎蛉是一种常见的长翅目昆虫。",
+  "常见于树篱和荨麻丛中。",
+  "幼虫像毛毛虫，在土壤里食腐和化蛹。"
+ ],
+ "fact": "它的翅膀大部分透明，带有许多深色斑点。",
+ "range": "欧洲（冰岛和爱尔兰除外）和北亚（中国除外）。",
+ "sources": [
+  "Wikipedia「Common scorpionfly」"
+ ],
+ "footnote": "IUCN 评估作者和年份未在维基列出（待核）。"
+}

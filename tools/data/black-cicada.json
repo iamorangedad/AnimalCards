@@ -1,0 +1,61 @@
+{
+ "file": "斑透翅蝉",
+ "no": "1224",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "斑透翅蝉",
+ "name_en": "Robust cicada",
+ "latin": "Hyalessa maculaticollis",
+ "short": "斑透翅蝉",
+ "type": "天空",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "若虫在地下生活（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "33–36 mm",
+   "lo": 0.033,
+   "hi": 0.036,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "占蝉总数*",
+   "value": "至少 75.2%",
+   "lo": 75.2,
+   "hi": 75.2,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“咪—嗯”歌声",
+   "icon": "ear",
+   "desc": "日语叫它“minmin 蝉”，因为雄蝉的叫声像“咪—嗯、咪嗯咪嗯咪”。"
+  },
+  {
+   "name": "方言歌声",
+   "icon": "wind",
+   "desc": "不同地区的叫声不一样，好像蝉的“方言”。"
+  }
+ ],
+ "intro": [
+  "斑透翅蝉是东北亚的一种蝉，属于半翅目。",
+  "在中国叫“蛁蟟”。",
+  "北方的若虫常不爬树，而是在矮竹上羽化。"
+ ],
+ "fact": "一项调查中，它和蚱蝉合计至少占所有蝉的 75.2%。",
+ "range": "东北亚（中国、朝鲜半岛、日本等）。",
+ "sources": [
+  "Wikipedia「Robust cicada」"
+ ],
+ "footnote": "*为它与蚱蝉合计的比例。原定的“黑蚱蝉”页面不存在，换为本种。"
+}

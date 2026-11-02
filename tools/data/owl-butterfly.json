@@ -1,0 +1,54 @@
+{
+ "file": "猫头鹰环蝶",
+ "no": "1208",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "猫头鹰环蝶",
+ "name_en": "Owl butterflies",
+ "latin": "Caligo",
+ "short": "猫头鹰环蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "翅展*",
+   "value": "65–200 mm",
+   "lo": 0.065,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "猫头鹰眼",
+   "icon": "camo",
+   "desc": "后翅有大眼斑，像猫头鹰的眼睛，可吓阻捕食者。"
+  },
+  {
+   "name": "飞不远",
+   "icon": "wind",
+   "desc": "它们很大，但每次只飞几米，鸟很容易跟着找到它。"
+  }
+ ],
+ "intro": [
+  "猫头鹰环蝶是 Caligo 属的蝴蝶。",
+  "它们以像猫头鹰眼睛的大眼斑闻名。",
+  "生活在雨林和次生林中。"
+ ],
+ "fact": "人们从 19 世纪就开始讨论眼斑是不是用来防捕食者的。",
+ "range": "墨西哥、中美洲和南美洲。",
+ "sources": [
+  "Wikipedia「Owl butterfly」"
+ ],
+ "footnote": "原定 Caligo memnon 资料太少，改为属级；*为属级数据。"
+}

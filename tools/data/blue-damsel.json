@@ -1,0 +1,62 @@
+{
+ "file": "长叶异痣蟌",
+ "no": "1210",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "长叶异痣蟌",
+ "name_en": "Blue-tailed damselfly",
+ "latin": "Ischnura elegans",
+ "short": "长叶异痣蟌",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成虫捕食小型飞虫；稚虫在水中捕食小型水生昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "27–35 mm",
+   "lo": 0.027,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "后翅长",
+   "value": "14–20 mm",
+   "lo": 0.014,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "腿当网兜",
+   "icon": "food",
+   "desc": "飞行时用腿像篮子一样把小飞虫兜住。"
+  },
+  {
+   "name": "断翅能飞",
+   "icon": "wind",
+   "desc": "研究发现它少了一整只翅膀也能补偿，继续机动捕食。"
+  }
+ ],
+ "intro": [
+  "长叶异痣蟌是蟌科的一种豆娘，很常见。",
+  "它生活在低地的静水和缓流里，连半咸水和污染水也能住。",
+  "稚虫在水中生活。"
+ ],
+ "fact": "雄虫常常比雌虫多，雄虫骚扰雌虫的情况很常见。",
+ "range": "欧洲大部分地区和中东。",
+ "sources": [
+  "Wikipedia「Blue-tailed damselfly」"
+ ],
+ "footnote": ""
+}

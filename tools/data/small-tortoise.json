@@ -1,0 +1,80 @@
+{
+ "file": "荨麻蛱蝶",
+ "no": "1222",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "荨麻蛱蝶",
+ "name_en": "Small tortoiseshell",
+ "latin": "Aglais urticae",
+ "short": "荨麻蛱蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸花蜜；幼虫吃异株荨麻",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2025",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "翅展",
+   "value": "4.5–6.2 cm",
+   "lo": 0.045,
+   "hi": 0.062,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−21 °C 不结冰",
+   "lo": -21,
+   "hi": -21,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "越冬被吃",
+   "value": "最多 50%",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "守领地",
+   "value": "最长 90 分钟",
+   "lo": 90,
+   "hi": 90,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "成虫越冬",
+   "icon": "cold",
+   "desc": "成虫在隐蔽处越冬，能耐 −21 °C 而不结冰。"
+  },
+  {
+   "name": "保护色",
+   "icon": "camo",
+   "desc": "停在地上时，鸟可能要 30 分钟才看得见它。"
+  }
+ ],
+ "intro": [
+  "荨麻蛱蝶是色彩鲜艳的欧亚蝴蝶。",
+  "它是丹麦的国蝶。",
+  "温暖地区一年可繁殖两代。"
+ ],
+ "fact": "它至少要有占体重 20% 的脂肪才能熬过冬天。",
+ "range": "欧洲温带、小亚细亚、中亚、西伯利亚、中国、蒙古、朝鲜半岛和日本等。",
+ "sources": [
+  "Wikipedia「Small tortoiseshell」",
+  "IUCN 红色名录（van Swaay, C. 2025）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,70 @@
+{
+ "file": "仰泳蝽",
+ "no": "1213",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "仰泳蝽",
+ "name_en": "Common backswimmer",
+ "latin": "Notonecta glauca",
+ "short": "仰泳蝽",
+ "type": "水中",
+ "habitat": [
+  "水中",
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "等待或主动游去捕猎，常吃浮在水面的库蚊幼虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "13–16 mm",
+   "lo": 0.013,
+   "hi": 0.016,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "身上气膜",
+   "value": "能维持 120 天",
+   "lo": 120,
+   "hi": 120,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "游泳波频",
+   "value": "最高 70 Hz",
+   "lo": 70,
+   "hi": 70,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "仰着游",
+   "icon": "flip",
+   "desc": "它背朝下仰着游泳和休息，所以叫“仰泳蝽”。"
+  },
+  {
+   "name": "感知水波",
+   "icon": "ear",
+   "desc": "靠水面波纹的频率分辨猎物和同类。"
+  }
+ ],
+ "intro": [
+  "仰泳蝽是一种水生半翅目昆虫。",
+  "它虽然住在水里，却要呼吸空气。",
+  "天气暖和时会飞到别的池塘去。"
+ ],
+ "fact": "它的气膜防水结构被研究用来减少船只阻力。",
+ "range": "欧洲大部、北非，向东经亚洲到西伯利亚。",
+ "sources": [
+  "Wikipedia「Common backswimmer」"
+ ],
+ "footnote": ""
+}

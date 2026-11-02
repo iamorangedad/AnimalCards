@@ -1,0 +1,72 @@
+{
+ "file": "普通眼灰蝶",
+ "no": "1223",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "普通眼灰蝶",
+ "name_en": "Common blue",
+ "latin": "Polyommatus icarus",
+ "short": "普通眼灰蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸野花花蜜；幼虫吃豆科植物如百脉根",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "翼展",
+   "value": "29–36 mm",
+   "lo": 0.029,
+   "hi": 0.036,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "2–3 周",
+   "lo": 14,
+   "hi": 21,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "1970 年后",
+   "value": "减少 15%",
+   "lo": 15,
+   "hi": 15,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃花更壮",
+   "icon": "food",
+   "desc": "实验中吃花的毛虫长得最重最快。"
+  },
+  {
+   "name": "看得见绿",
+   "icon": "ear",
+   "desc": "它的色觉延伸到 560 nm 的绿光。"
+  }
+ ],
+ "intro": [
+  "普通眼灰蝶是灰蝶科的蝴蝶。",
+  "它是英国和爱尔兰最常见、分布最广的蓝色蝴蝶。",
+  "雌蝶比雄蝶多积累约 60% 的类黄酮。"
+ ],
+ "fact": "它在加拿大蒙特利尔城市化程度高的地方反而最多。",
+ "range": "整个古北界；已引入北美。",
+ "sources": [
+  "Wikipedia「Common blue」",
+  "IUCN 红色名录（van Swaay, C. 2025）"
+ ],
+ "footnote": ""
+}

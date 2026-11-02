@@ -1,0 +1,78 @@
+{
+ "file": "黄猄蚁",
+ "no": "1202",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "黄猄蚁",
+ "name_en": "Asian weaver ant",
+ "latin": "Oecophylla smaragdina",
+ "short": "黄猄蚁",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食甲虫、蝇类和膜翅目昆虫，也取食蚜虫等的蜜露",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "工蚁体长",
+   "value": "5–7 mm",
+   "lo": 0.005,
+   "hi": 0.007,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "大工蚁",
+   "value": "8–10 mm",
+   "lo": 0.008,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蚁后体长",
+   "value": "20–25 mm",
+   "lo": 0.02,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一群巢数",
+   "value": "最多 151 个",
+   "lo": 151,
+   "hi": 151,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "幼虫织布",
+   "icon": "web",
+   "desc": "工蚁拿着幼虫在叶缝间来回摆动，让它吐丝把叶子缝成巢。"
+  },
+  {
+   "name": "生物防治",
+   "icon": "team",
+   "desc": "公元 304 年中国就有用它防治柑橘害虫的记录。"
+  }
+ ],
+ "intro": [
+  "黄猄蚁是生活在树上的蚂蚁，也叫绿树蚁。",
+  "一个蚁群常分布在好几棵树的多个巢里。",
+  "它不蜇人，但咬人很痛，还会喷刺激性液体。"
+ ],
+ "fact": "在泰国和菲律宾，人们吃它的幼虫和蛹，据说味道带奶香和酸味。",
+ "range": "热带亚洲和澳大利亚。",
+ "sources": [
+  "Wikipedia「Asian weaver ant」"
+ ],
+ "footnote": "",
+ "warn": "咬人很痛并会分泌刺激性化学物质，别去碰蚁巢。"
+}

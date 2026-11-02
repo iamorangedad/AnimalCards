@@ -1,0 +1,78 @@
+{
+ "file": "刻克罗普斯蚕蛾",
+ "no": "1220",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "刻克罗普斯蚕蛾",
+ "name_en": "Cecropia moth",
+ "latin": "Hyalophora cecropia",
+ "short": "刻克罗普斯蚕蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫吃枫树、桦树、苹果等常见树木和灌木的叶子",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "翅展",
+   "value": "13–18 cm",
+   "lo": 0.13,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫体长",
+   "value": "100–110 mm",
+   "lo": 0.1,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵",
+   "value": "最多 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "约 2 周",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "远距离嗅觉",
+   "icon": "ear",
+   "desc": "雄蛾能在约 1.6 km 外闻到雌蛾的信息素，最远会飞 11 km 去找。"
+  },
+  {
+   "name": "不吃东西",
+   "icon": "huddle",
+   "desc": "成虫没有能用的口器和消化系统，只活约 2 周。"
+  }
+ ],
+ "intro": [
+  "刻克罗普斯蚕蛾是北美最大的本土蛾子。",
+  "幼虫有 5 个龄期，每期约 1 周。",
+  "毛虫秋天成熟，结茧过冬，初夏羽化。"
+ ],
+ "fact": "它属于大蚕蛾科。",
+ "range": "北美洲。",
+ "sources": [
+  "Wikipedia「Cecropia moth」"
+ ],
+ "footnote": "1 英里、7 英里已换算为公里。"
+}

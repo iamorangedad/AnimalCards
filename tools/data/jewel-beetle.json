@@ -1,0 +1,53 @@
+{
+ "file": "彩虹吉丁",
+ "no": "1206",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "彩虹吉丁",
+ "name_en": "Jewel beetle",
+ "latin": "Chrysochroa fulgidissima",
+ "short": "彩虹吉丁",
+ "type": "天空",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫钻蛀木材（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–41 mm",
+   "lo": 0.03,
+   "hi": 0.041,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩虹翅膀",
+   "icon": "glow",
+   "desc": "鞘翅闪着金属光泽，角度不同颜色也变。"
+  },
+  {
+   "name": "国宝装饰",
+   "icon": "sun",
+   "desc": "日本法隆寺的“玉虫厨子”用它的翅膀装饰。"
+  }
+ ],
+ "intro": [
+  "彩虹吉丁也叫“玉虫”，是吉丁虫科的钻木甲虫。",
+  "它原产日本和朝鲜半岛。",
+  "夏天常在强烈阳光下的树林里见到。"
+ ],
+ "fact": "日语“玉虫色”就是说一句话模棱两可、怎么理解都行。",
+ "range": "日本和朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Jewel beetle」"
+ ],
+ "footnote": "维基页面较短，仅一项数据。"
+}

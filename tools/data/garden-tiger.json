@@ -1,0 +1,79 @@
+{
+ "file": "豹灯蛾",
+ "no": "1219",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "豹灯蛾",
+ "name_en": "Garden tiger moth",
+ "latin": "Arctia caja",
+ "short": "豹灯蛾",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "幼虫食性广，吃毛地黄、菊科等多种植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "幼虫最长",
+   "value": "6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "3000 m",
+   "lo": 3000,
+   "hi": 3000,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "英国减少",
+   "value": "30 年内 89%",
+   "lo": 89,
+   "hi": 89,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "变异型",
+   "value": "约 500 种",
+   "lo": 500,
+   "hi": 500,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "警告色",
+   "icon": "toxic",
+   "desc": "醒目的翅纹警告捕食者：它的体液有毒。"
+  },
+  {
+   "name": "吓退蝙蝠",
+   "icon": "ear",
+   "desc": "会对蝙蝠发出声音信号，表明自己不好吃。"
+  }
+ ],
+ "intro": [
+  "豹灯蛾是裳蛾科的蛾子。",
+  "毛毛虫毛茸茸的，常被叫作“毛熊”。",
+  "成虫 6–9 月主要在夜间活动。"
+ ],
+ "fact": "幼虫的毒素大多来自它吃的植物。",
+ "range": "美国北部、加拿大、欧洲和亚洲（如天山）。",
+ "sources": [
+  "Wikipedia「Garden tiger moth」"
+ ],
+ "footnote": "",
+ "warn": "毛虫的刺毛含刺激性物质，不要用手抓。"
+}

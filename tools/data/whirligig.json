@@ -1,0 +1,69 @@
+{
+ "file": "豉甲",
+ "no": "1225",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "豉甲",
+ "name_en": "Whirligig beetles",
+ "latin": "Gyrinidae",
+ "short": "豉甲",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "前腿长，用来抓食物或猎物（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "科级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "体长*",
+   "value": "3–18 mm",
+   "lo": 0.003,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "现存种*",
+   "value": "约 700 种",
+   "lo": 700,
+   "hi": 700,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "属*",
+   "value": "15 个",
+   "lo": 15,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分上下眼",
+   "icon": "ear",
+   "desc": "眼睛分成上下两半，可能同时看水面上和水下。"
+  },
+  {
+   "name": "转圈游",
+   "icon": "flip",
+   "desc": "受惊时在水面飞快地转圈游，因此得名“豉甲”。"
+  }
+ ],
+ "intro": [
+  "豉甲是水生甲虫，平时在水面游，受威胁时潜入水下。",
+  "中腿和后腿扁平带毛，适合划水。",
+  "成虫喜欢水流平稳的小溪和浅滩。"
+ ],
+ "fact": "它们的分眼很像四眼鱼的眼睛。",
+ "range": "全世界。",
+ "sources": [
+  "Wikipedia「Whirligig beetle」"
+ ],
+ "footnote": "原定 Gyrinus substriatus 资料太少，改为豉甲科；*为科级数据。"
+}

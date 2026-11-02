@@ -1,0 +1,78 @@
+{
+ "file": "马岛发声蟑螂",
+ "no": "1212",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "马岛发声蟑螂",
+ "name_en": "Madagascar hissing cockroach",
+ "latin": "Gromphadorhina portentosa",
+ "short": "马岛发声蟑螂",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃植物性物质",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "5–7.5 cm",
+   "lo": 0.05,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "最长 5 年",
+   "lo": 5,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "嘶声类型",
+   "value": "3 种",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "近缘种",
+   "value": "约 20 种",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "会嘶嘶叫",
+   "icon": "wind",
+   "desc": "把空气从身体里挤出来发出嘶嘶声，吓退捕食者。"
+  },
+  {
+   "name": "没有翅膀",
+   "icon": "huddle",
+   "desc": "和大多数蟑螂不同，它没有翅膀，不会飞。"
+  }
+ ],
+ "intro": [
+  "马岛发声蟑螂是最大的蟑螂之一。",
+  "它原产马达加斯加，常见于腐烂的木头里。",
+  "嘶声分三种：受惊、求偶和打架。"
+ ],
+ "fact": "身上常住着一种螨，正常情况下不伤害蟑螂，属于共栖关系。",
+ "range": "马达加斯加。",
+ "sources": [
+  "Wikipedia「Madagascar hissing cockroach」"
+ ],
+ "footnote": ""
+}

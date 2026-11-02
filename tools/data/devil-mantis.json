@@ -1,0 +1,77 @@
+{
+ "file": "魔花螳螂",
+ "no": "1211",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "魔花螳螂",
+ "name_en": "Devil's flower mantis",
+ "latin": "Idolomantis diabolica",
+ "short": "魔花螳螂",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "只吃飞行的昆虫，特别是蝇、蛾、蝴蝶和甲虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌虫体长",
+   "value": "约 13 cm",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "雄虫体长",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每个卵鞘",
+   "value": "10–50 枚卵",
+   "lo": 10,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 12 个月",
+   "lo": 1,
+   "hi": 1,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "假扮花朵",
+   "icon": "camo",
+   "desc": "它可能是最大的模拟花朵的螳螂，伪装成花等猎物上门。"
+  },
+  {
+   "name": "180° 视野",
+   "icon": "ear",
+   "desc": "复眼的感光单元排列让它的视野达到 180°。"
+  }
+ ],
+ "intro": [
+  "魔花螳螂是魔花螳属唯一的物种。",
+  "它是最大的螳螂之一。",
+  "它会左右摆动翅膀，吓唬和迷惑捕食者。"
+ ],
+ "fact": "因为外形漂亮、展示动作夸张，它被视为珍贵的宠物螳螂。",
+ "range": "埃塞俄比亚、肯尼亚、马拉维、索马里、坦桑尼亚、南苏丹和乌干达。",
+ "sources": [
+  "Wikipedia「Idolomantis」"
+ ],
+ "footnote": ""
+}

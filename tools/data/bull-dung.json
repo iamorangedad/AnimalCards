@@ -1,0 +1,78 @@
+{
+ "file": "公牛嗡蜣螂",
+ "no": "1203",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "公牛嗡蜣螂",
+ "name_en": "Taurus scarab",
+ "latin": "Onthophagus taurus",
+ "short": "公牛嗡蜣螂",
+ "type": "陆地",
+ "habitat": [
+  "土壤",
+  "农田"
+ ],
+ "diet": "腐生",
+ "diet_note": "专吃牛粪，并用粪做育儿球喂幼虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "8–10 mm",
+   "lo": 0.008,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "育儿球深",
+   "value": "地下 10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫吃掉",
+   "value": "粪球 40–55%",
+   "lo": 40,
+   "hi": 55,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "16–23 °C",
+   "lo": 16,
+   "hi": 23,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大力士",
+   "icon": "trunk",
+   "desc": "测得能拉动自身体重 1141 倍的重物。"
+  },
+  {
+   "name": "清理牛粪",
+   "icon": "food",
+   "desc": "把牛粪埋进土里，减少苍蝇、还能少用化肥。"
+  }
+ ],
+ "intro": [
+  "公牛嗡蜣螂是一种专吃牛粪的蜣螂。",
+  "大雄虫有像公牛一样弯弯的长角，小雄虫只有小角，雌虫没有角。",
+  "1960–70 年代被引入美国和澳大利亚处理牛粪。"
+ ],
+ "fact": "它原本生活在地中海气候的地区。",
+ "range": "原产欧洲中南部和小亚细亚，已引入澳大利亚、美国等地。",
+ "sources": [
+  "Wikipedia「Taurus scarab」"
+ ],
+ "footnote": ""
+}

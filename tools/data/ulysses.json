@@ -1,0 +1,62 @@
+{
+ "file": "天堂凤蝶",
+ "no": "1221",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "天堂凤蝶",
+ "name_en": "Ulysses butterfly",
+ "latin": "Papilio ulysses",
+ "short": "天堂凤蝶",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "成虫吸粉花 doughwood 等的花蜜；幼虫吃 Euodia、柑橘等的叶子",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "翅展",
+   "value": "10.5–14 cm",
+   "lo": 0.105,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "产卵树高",
+   "value": "2 m 以下",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "电光蓝",
+   "icon": "glow",
+   "desc": "翅膀正面是闪亮的电光蓝，反面是低调的黑褐色。"
+  },
+  {
+   "name": "挑小树产卵",
+   "icon": "seed",
+   "desc": "雌蝶喜欢在 2 m 以下的小树上产卵。"
+  }
+ ],
+ "intro": [
+  "天堂凤蝶也叫蓝凤蝶，是一种大型凤蝶。",
+  "雌蝶后翅有小块蓝色新月斑，雄蝶那里是黑色。",
+  "它是澳大利亚昆士兰州的旅游标志。"
+ ],
+ "fact": "Euodia 树减少可能威胁它的生存。",
+ "range": "澳大利亚、印度尼西亚、巴布亚新几内亚和所罗门群岛。",
+ "sources": [
+  "Wikipedia「Ulysses butterfly」"
+ ],
+ "footnote": ""
+}

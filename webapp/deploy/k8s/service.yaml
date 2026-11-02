@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: animalcards-globe
+  namespace: animalcards
+  labels:
+    app.kubernetes.io/name: animalcards-globe
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: animalcards-globe
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

@@ -27,8 +27,8 @@ webapp/
 ├── thumbs/                 WebP 缩略图（400px 卡片预览 + 120px 头像，共 2000 个），约 30MB
 ├── scripts/                生成数据和缩略图的脚本
 ├── tests/                  URL 检查和截图脚本
-├── Dockerfile / docker-compose.yml / .env.example
-└── deploy/                 nginx 和 systemd 示例
+├── Dockerfile / Dockerfile.k8s / docker-compose.yml / .env.example
+└── deploy/                 nginx、systemd、Kubernetes（kustomize）示例
 ```
 
 卡片原图 PNG/PDF **不复制**，服务直接读取仓库里的 `动物/`、`植物/`、`真菌/` 文件夹（URL 前缀分别是 `/cards/`、`/plants/`、`/fungi/`；环境变量 `CARDS_DIR`、`PLANTS_DIR`、`FUNGI_DIR` 可改路径）。
@@ -83,7 +83,25 @@ python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [chrome 路径]
 
 ## 部署到服务器
 
-### 方式一：Docker（推荐）
+### 方式一：Kubernetes 一键部署
+
+自包含镜像（卡片打进镜像，无需挂载宿主机）。在仓库根目录：
+
+```bash
+# 一键：构建 + kubectl apply（需本机有 docker、kubectl）
+./webapp/deploy/k8s/deploy.sh
+
+# 或分步：
+docker build -f webapp/Dockerfile.k8s -t animalcards-globe:k8s .
+# kind: kind load docker-image animalcards-globe:k8s
+# minikube: minikube image load animalcards-globe:k8s
+kubectl apply -k webapp/deploy/k8s/
+kubectl -n animalcards port-forward svc/animalcards-globe 8000:80
+```
+
+推送到镜像仓库时：`IMAGE=ghcr.io/你的组织/animalcards-globe:k8s ./webapp/deploy/k8s/deploy.sh`。详情见 [deploy/k8s/README.md](deploy/k8s/README.md)。
+
+### 方式二：Docker Compose
 
 ```bash
 git clone https://github.com/iamorangedad/AnimalCards.git /opt/AnimalCards
@@ -99,7 +117,7 @@ compose 会把整个仓库**只读**挂载进容器，所以以后更新只需�
 cd /opt/AnimalCards && git pull && cd webapp && docker compose restart
 ```
 
-### 方式二：systemd（不用 Docker）
+### 方式三：systemd（不用 Docker）
 
 ```bash
 cd /opt/AnimalCards/webapp

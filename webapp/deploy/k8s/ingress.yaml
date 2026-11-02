@@ -1,0 +1,20 @@
+# 可选：需要 Ingress Controller（如 nginx / traefik）。
+# 有域名时在 rules[0] 下加 host: animalcards.example.com，并设置 ingressClassName。
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: animalcards-globe
+  namespace: animalcards
+  labels:
+    app.kubernetes.io/name: animalcards-globe
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: animalcards-globe
+                port:
+                  name: http

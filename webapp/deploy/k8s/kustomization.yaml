@@ -1,0 +1,19 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: animalcards
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - deployment.yaml
+  - service.yaml
+  - ingress.yaml
+labels:
+  - pairs:
+      app.kubernetes.io/part-of: animalcards
+    includeSelectors: false
+# 推送到镜像仓库后改成你的地址，例如：
+#   newName: ghcr.io/YOUR_ORG/animalcards-globe
+images:
+  - name: animalcards-globe
+    newName: animalcards-globe
+    newTag: k8s

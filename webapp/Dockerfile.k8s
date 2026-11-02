@@ -1,0 +1,25 @@
+# AnimalCards Globe —— 自包含镜像（含卡片 PNG/PDF），供 Kubernetes 一键部署。
+# 构建（仓库根目录）：
+#   docker build -f webapp/Dockerfile.k8s -t animalcards-globe:k8s .
+# 镜像约 1GB（卡片 ~850MB + 缩略图/前端/依赖）。
+FROM python:3.12-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
+    ANIMALCARDS_ROOT=/repo WEBAPP_DIR=/app/webapp HOST=0.0.0.0 PORT=8000
+WORKDIR /app/webapp
+
+COPY webapp/backend/requirements.txt backend/requirements.txt
+RUN pip install --no-cache-dir -r backend/requirements.txt
+
+COPY webapp/backend backend
+COPY webapp/frontend frontend
+COPY webapp/data data
+COPY webapp/thumbs thumbs
+COPY 动物 /repo/动物
+COPY 植物 /repo/植物
+COPY 真菌 /repo/真菌
+
+RUN useradd -r -u 10001 app && chown -R app /app /repo
+USER app
+EXPOSE 8000
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD python -c "import urllib.request,os;urllib.request.urlopen('http://127.0.0.1:%s/healthz'%os.environ.get('PORT','8000'))"
+CMD ["sh", "-c", "cd backend && exec uvicorn app:app --host $HOST --port $PORT --workers ${WORKERS:-2} --proxy-headers --forwarded-allow-ips='*'"]

@@ -36,8 +36,8 @@ webapp/
 ├── thumbs/                 WebP thumbnails (400 px card preview + 120 px avatar, 2000 files), about 30 MB
 ├── scripts/                scripts that build the data and thumbnails
 ├── tests/                  URL check and screenshot scripts
-├── Dockerfile / docker-compose.yml / .env.example
-└── deploy/                 nginx and systemd examples
+├── Dockerfile / Dockerfile.k8s / docker-compose.yml / .env.example
+└── deploy/                 nginx, systemd, and Kubernetes (kustomize) examples
 ```
 
 Card PNG/PDF files are **not copied**. The service reads them straight from the repository's `动物/` (animals), `植物/` (plants) and `真菌/` (fungi) folders, under the URL prefixes `/cards/`, `/plants/` and `/fungi/`. The environment variables `CARDS_DIR`, `PLANTS_DIR` and `FUNGI_DIR` change these paths.
@@ -92,7 +92,25 @@ Each item has `name_zh`, `name_en`, `latin`, `kingdom`, `category` (Chinese), `i
 
 ## Deploying to a server
 
-### Option 1: Docker (recommended)
+### Option 1: Kubernetes (one-shot)
+
+Self-contained image (cards baked in; no host mounts). From the repository root:
+
+```bash
+# build + kubectl apply (needs docker and kubectl)
+./webapp/deploy/k8s/deploy.sh
+
+# or step by step:
+docker build -f webapp/Dockerfile.k8s -t animalcards-globe:k8s .
+# kind: kind load docker-image animalcards-globe:k8s
+# minikube: minikube image load animalcards-globe:k8s
+kubectl apply -k webapp/deploy/k8s/
+kubectl -n animalcards port-forward svc/animalcards-globe 8000:80
+```
+
+To a registry: `IMAGE=ghcr.io/YOUR_ORG/animalcards-globe:k8s ./webapp/deploy/k8s/deploy.sh`. See [deploy/k8s/README.md](deploy/k8s/README.md).
+
+### Option 2: Docker Compose
 
 ```bash
 git clone https://github.com/iamorangedad/AnimalCards.git /opt/AnimalCards
@@ -108,7 +126,7 @@ Compose mounts the whole repository **read-only** into the container, so updatin
 cd /opt/AnimalCards && git pull && cd webapp && docker compose restart
 ```
 
-### Option 2: systemd (no Docker)
+### Option 3: systemd (no Docker)
 
 ```bash
 cd /opt/AnimalCards/webapp

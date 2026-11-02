@@ -88,7 +88,7 @@ Folder and file names are in Chinese (e.g. `动物/海洋/蓝鲸.png`). The link
 
 ## 3D globe web app
 
-[`webapp/`](webapp/) puts all 1000 cards on a draggable 3D globe, with one to three markers per species. You can filter by kingdom, category and IUCN status, and search by Chinese, English or scientific name. Click a marker to preview the card, open the full PNG or download the PDF. The UI is Chinese, with an English/中文 toggle. Map positions are **approximate representative points** derived from each card's range text. See **[webapp/README.md](webapp/README.md)** for local setup, the API, deployment and how the locations are generated.
+[`webapp/`](webapp/) puts all 1000 cards on a draggable 3D globe, with one to three markers per species. You can filter by kingdom, category and IUCN status, and search by Chinese, English or scientific name. Click a marker to preview the card, open the full PNG or download the PDF. The UI is Chinese, with an English/中文 toggle. Map positions are **approximate representative points** derived from each card's range text. See **[webapp/README.md](webapp/README.md)** for local setup, the API, Docker/systemd deploy, and **Kubernetes one-shot deploy** (`./webapp/deploy/k8s/deploy.sh`).
 
 ## Data sources and licences
 

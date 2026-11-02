@@ -1,0 +1,79 @@
+{
+ "file": "普通树鼩",
+ "no": "1089",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "普通树鼩",
+ "name_en": "Common treeshrew",
+ "latin": "Tupaia glis",
+ "short": "普通树鼩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃果实、种子、叶子和昆虫（尤其蚂蚁、蜘蛛）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "16–21 cm",
+   "lo": 0.16,
+   "hi": 0.21,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "约 190 g",
+   "lo": 0.19,
+   "hi": 0.19,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "尾长",
+   "value": "12–20 cm",
+   "lo": 0.12,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 1100 m",
+   "lo": 1100,
+   "hi": 1100,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "灵活攀爬",
+   "icon": "climb",
+   "desc": "它很会爬大树干和灌木，有时还从小树上跳到地面。"
+  },
+  {
+   "name": "地面觅食",
+   "icon": "food",
+   "desc": "主要在地面、灌木丛和树洞里找吃的。"
+  }
+ ],
+ "intro": [
+  "普通树鼩是树鼩科的小型哺乳动物。",
+  "原产泰国、马来西亚、新加坡和印度尼西亚。",
+  "毛色有红褐、灰褐等多种。"
+ ],
+ "fact": "它也出现在次生林、种植园、果园和住宅附近的树上。",
+ "range": "东南亚（泰国、马来半岛、新加坡、苏门答腊等）。",
+ "sources": [
+  "Wikipedia「Common treeshrew」",
+  "IUCN 红色名录（Sargis, E.J. 2024）"
+ ],
+ "footnote": ""
+}

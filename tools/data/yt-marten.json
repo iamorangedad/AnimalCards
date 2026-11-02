@@ -1,0 +1,79 @@
+{
+ "file": "青鼬",
+ "no": "1091",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "青鼬",
+ "name_en": "Yellow-throated marten",
+ "latin": "Martes flavigula",
+ "short": "青鼬",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃鼠类、野兔、蛇、蜥蜴、鸟蛋等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公兽体长",
+   "value": "50–72 cm",
+   "lo": 0.5,
+   "hi": 0.72,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公兽体重",
+   "value": "2.5–5.7 kg",
+   "lo": 2.5,
+   "hi": 5.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最高海拔",
+   "value": "4510 m",
+   "lo": 4510,
+   "hi": 4510,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "一昼夜巡逻",
+   "value": "10–20 km",
+   "lo": 10,
+   "hi": 20,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "结伴打猎",
+   "icon": "team",
+   "desc": "它白天打猎，常成对，有时三只以上成群。"
+  },
+  {
+   "name": "金黄喉咙",
+   "icon": "sun",
+   "desc": "毛色是鲜亮的金黄色，喉部最显眼。"
+  }
+ ],
+ "intro": [
+  "青鼬也叫黄喉貂，原产喜马拉雅、东南亚和东亚。",
+  "它比旧大陆其他貂都大。",
+  "母兽体长 50–62 cm。"
+ ],
+ "fact": "在尼泊尔干城章嘉保护区，它在海拔 4510 m 的高山草甸也有记录。",
+ "range": "喜马拉雅、东亚和东南亚（包括中国）。",
+ "sources": [
+  "Wikipedia「Yellow-throated marten」",
+  "IUCN 红色名录（Chutipong, W. 2016）"
+ ],
+ "footnote": ""
+}

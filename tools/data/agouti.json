@@ -1,0 +1,79 @@
+{
+ "file": "中美刺豚鼠",
+ "no": "1097",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "中美刺豚鼠",
+ "name_en": "Central American agouti",
+ "latin": "Dasyprocta punctata",
+ "short": "中美刺豚鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃果实和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "嗅觉排名",
+   "value": "240 种中第 4",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "配偶",
+   "value": "一夫一妻",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "所属科",
+   "value": "刺豚鼠科",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "分布北界",
+   "value": "墨西哥恰帕斯",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超级鼻子",
+   "icon": "whisker",
+   "desc": "一项分析 240 种动物的研究里，刺豚鼠的嗅觉排第 4，比狗还好。"
+  },
+  {
+   "name": "种子播撒者",
+   "icon": "seed",
+   "desc": "它们主要吃果实和种子，是重要的种子传播者。"
+  }
+ ],
+ "intro": [
+  "中美刺豚鼠是刺豚鼠科的刺豚鼠。",
+  "主要分布区从墨西哥恰帕斯向南。",
+  "它们一夫一妻结对生活。"
+ ],
+ "fact": "它的鼻子里布满嗅觉受体。",
+ "range": "中美洲（墨西哥南部到巴拿马），南美也有分隔的种群。",
+ "sources": [
+  "Wikipedia「Central American agouti」",
+  "IUCN 红色名录（Emmons 2016）"
+ ],
+ "footnote": "四个数值均不是体型测量，比例条无意义。"
+}

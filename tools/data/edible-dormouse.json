@@ -1,0 +1,79 @@
+{
+ "file": "肥睡鼠",
+ "no": "1080",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "肥睡鼠",
+ "name_en": "European edible dormouse",
+ "latin": "Glis glis",
+ "short": "肥睡鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃种子、果实等（维基未详述）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体重",
+   "value": "120–150 g",
+   "lo": 0.12,
+   "hi": 0.15,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "冬眠前",
+   "value": "体重近翻倍",
+   "lo": 0.28,
+   "hi": 0.28,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "德国密度",
+   "value": "2.3–6 只/公顷",
+   "lo": 2.3,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "英国数量",
+   "value": "约 1 万只",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬眠前增肥",
+   "icon": "food",
+   "desc": "冬眠前体重几乎能翻一倍。"
+  },
+  {
+   "name": "罗马美食",
+   "icon": "glow",
+   "desc": "英文名“可食睡鼠”来自古罗马人把它当作美味。"
+  }
+ ],
+ "intro": [
+  "肥睡鼠也叫欧洲睡鼠，是体型较大的睡鼠。",
+  "它是睡鼠属仅有的两个现存物种之一。",
+  "身体像松鼠，耳朵小。"
+ ],
+ "fact": "英国的肥睡鼠种群约 1 万只，是人为引入的。",
+ "range": "欧洲大陆和西亚部分地区；英国有引入种群。",
+ "sources": [
+  "Wikipedia「European edible dormouse」",
+  "IUCN 红色名录（Amori, G. 2021）"
+ ],
+ "footnote": "冬眠前体重按 150 g 翻倍的示意值。"
+}

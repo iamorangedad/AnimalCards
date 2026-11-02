@@ -1,0 +1,79 @@
+{
+ "file": "水鹿",
+ "no": "1077",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "水鹿",
+ "name_en": "Sambar",
+ "latin": "Rusa unicolor",
+ "short": "水鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草、树叶、幼苗、果实和种子",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2015",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "102–160 cm",
+   "lo": 1.02,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大体重",
+   "value": "546 kg",
+   "lo": 546,
+   "hi": 546,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "鹿角长",
+   "value": "最长 110 cm",
+   "lo": 1.1,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "最高 3500 m",
+   "lo": 3500,
+   "hi": 3500,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "泥浴",
+   "icon": "drop",
+   "desc": "公鹿会在泥里打滚，还把鹿角插进被尿浸湿的土里，再去蹭树。"
+  },
+  {
+   "name": "游泳好手",
+   "icon": "dive",
+   "desc": "常聚在水边，是游泳好手。"
+  }
+ ],
+ "intro": [
+  "水鹿是原产印度次大陆、华南和东南亚的大型鹿。",
+  "体长 1.62–2.7 m，尾长 22–35 cm。",
+  "它被 IUCN 列为易危。"
+ ],
+ "fact": "它的鹿角很珍贵，被用来做刀柄和枪柄。",
+ "range": "南亚、华南、东南亚的森林。",
+ "sources": [
+  "Wikipedia「Sambar」",
+  "IUCN 红色名录（Timmins, R.J. 2015）"
+ ],
+ "footnote": ""
+}

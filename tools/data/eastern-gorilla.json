@@ -1,0 +1,79 @@
+{
+ "file": "东部大猩猩",
+ "no": "1084",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "东部大猩猩",
+ "name_en": "Eastern gorilla",
+ "latin": "Gorilla beringei",
+ "short": "东部大猩猩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "以植物为主（维基未详述）",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2019",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "公猩猩体重",
+   "value": "140–205.5 kg",
+   "lo": 140,
+   "hi": 205.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "站立高度",
+   "value": "1.7 m",
+   "lo": 1.7,
+   "hi": 1.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "低地亚种",
+   "value": "约 6800 只",
+   "lo": 6800,
+   "hi": 6800,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "山地亚种",
+   "value": "约 1000 只",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大灵长类",
+   "icon": "trunk",
+   "desc": "它是现存最大的灵长类。"
+  },
+  {
+   "name": "大家庭",
+   "icon": "team",
+   "desc": "群体比西部大猩猩大，最多 35 只。"
+  }
+ ],
+ "intro": [
+  "东部大猩猩是极危物种，也是现存最大的灵长类。",
+  "它分为东部低地大猩猩和山地大猩猩两个亚种。",
+  "非法捕猎威胁着它们。"
+ ],
+ "fact": "有记录的最高银背大猩猩站起来高 1.95 m。",
+ "range": "刚果（金）东部、乌干达、卢旺达。",
+ "sources": [
+  "Wikipedia「Eastern gorilla」",
+  "IUCN 红色名录（Plumptre, A. J. 2019）"
+ ],
+ "footnote": ""
+}

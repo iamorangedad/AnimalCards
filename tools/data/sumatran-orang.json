@@ -1,0 +1,79 @@
+{
+ "file": "苏门答腊猩猩",
+ "no": "1083",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "苏门答腊猩猩",
+ "name_en": "Sumatran orangutan",
+ "latin": "Pongo abelii",
+ "short": "苏门答腊猩猩",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "爱吃无花果和波罗蜜，也吃昆虫、鸟蛋",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2023",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "婴儿期",
+   "value": "出生–2.5 岁",
+   "lo": 0,
+   "hi": 2.5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "青少年期",
+   "value": "5–8 岁",
+   "lo": 5,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "母猩猩产子",
+   "value": "8 岁起",
+   "lo": 8,
+   "hi": 8,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "物种数",
+   "value": "猩猩 3 种之一",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会用工具",
+   "icon": "trunk",
+   "desc": "苏阿克沼泽的猩猩会折约一英尺长的树枝当工具，掏蜂蜜、剥硬果。"
+  },
+  {
+   "name": "树上生活",
+   "icon": "climb",
+   "desc": "它主要生活在树上。"
+  }
+ ],
+ "intro": [
+  "苏门答腊猩猩是三种猩猩之一，只分布在苏门答腊岛北部。",
+  "它是极危物种。",
+  "它的食物以果实为主，也吃很多昆虫。"
+ ],
+ "fact": "成熟的尼西亚果外壳又硬又带刺，猩猩会用树枝撬出里面的种子。",
+ "range": "印度尼西亚苏门答腊岛北部。",
+ "sources": [
+  "Wikipedia「Sumatran orangutan」",
+  "IUCN 红色名录（Singleton, I. 2023）"
+ ],
+ "footnote": "“婴儿期”等是生长阶段，按年龄示意。"
+}

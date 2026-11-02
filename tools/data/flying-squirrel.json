@@ -1,0 +1,79 @@
+{
+ "file": "小飞鼠",
+ "no": "1079",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "小飞鼠",
+ "name_en": "Siberian flying squirrel",
+ "latin": "Pteromys volans",
+ "short": "小飞鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物（维基未详述）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "13–20 cm",
+   "lo": 0.13,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "9–14 cm",
+   "lo": 0.09,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "滑翔距离",
+   "value": "超过 100 m",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "拉脱维亚",
+   "value": "2013 年起消失",
+   "lo": 2013,
+   "hi": 2013,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮膜滑翔",
+   "icon": "wind",
+   "desc": "前后腿之间有毛茸茸的皮膜，张开后能在树间滑翔一百多米。"
+  },
+  {
+   "name": "大眼睛",
+   "icon": "glow",
+   "desc": "眼睛又大又黑，适合夜间活动。"
+  }
+ ],
+ "intro": [
+  "小飞鼠是旧大陆的鼯鼠，从波罗的海一直分布到太平洋沿岸。",
+  "尾巴扁平。",
+  "公的平均比母的略小。"
+ ],
+ "fact": "在拉脱维亚 2001 年最后一次被看到，2013 年起被认为当地灭绝。",
+ "range": "欧亚大陆北部（芬兰、俄罗斯、蒙古、中国东北、日本北海道等）。",
+ "sources": [
+  "Wikipedia「Siberian flying squirrel」",
+  "IUCN 红色名录（Shar, S. 2016）"
+ ],
+ "footnote": "“拉脱维亚”一项只是年份，比例条无意义。"
+}

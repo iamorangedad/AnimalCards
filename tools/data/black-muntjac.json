@@ -1,0 +1,79 @@
+{
+ "file": "黑麂",
+ "no": "1082",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "黑麂",
+ "name_en": "Black muntjac",
+ "latin": "Muntiacus crinifrons",
+ "short": "黑麂",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "草食性（维基未详述食性）",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2016",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "90 年代数量",
+   "value": "约 1 万只",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "分布省份",
+   "value": "4 个",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "染色体融合",
+   "value": "50 万年内",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "所属",
+   "value": "麂属",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "额前毛冠",
+   "icon": "camo",
+   "desc": "也叫毛额麂，额头上有一簇毛。"
+  },
+  {
+   "name": "中国特有",
+   "icon": "huddle",
+   "desc": "只分布在中国东南部的浙江、安徽、江西和福建。"
+  }
+ ],
+ "intro": [
+  "黑麂也叫毛额麂，是中国东南部特有的麂。",
+  "20 世纪 90 年代初估计约有 1 万只，之后明显减少。",
+  "它被列为易危。"
+ ],
+ "fact": "最近 50 万年内，它的 X 染色体和一条常染色体发生了融合。",
+ "range": "中国浙江、安徽、江西、福建。",
+ "sources": [
+  "Wikipedia「Black muntjac」",
+  "IUCN 红色名录（Timmins, R. 2016）"
+ ],
+ "footnote": "“染色体融合”单位为万年；“所属”不是数值。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "斑点无尾刺豚鼠",
+ "no": "1096",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "斑点无尾刺豚鼠",
+ "name_en": "Lowland paca",
+ "latin": "Cuniculus paca",
+ "short": "斑点无尾刺豚鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃果实、种子、坚果、根和块茎",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "6–12 kg",
+   "lo": 6,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "115–120 天",
+   "lo": 115,
+   "hi": 120,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "每年幼崽",
+   "value": "1–3 只",
+   "lo": 1,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 13 年",
+   "lo": 13,
+   "hi": 13,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "下水逃生",
+   "icon": "dive",
+   "desc": "它们是游泳好手，遇到危险常跳进水里。"
+  },
+  {
+   "name": "散播种子",
+   "icon": "seed",
+   "desc": "吃果实和种子，帮助植物散播种子。"
+  }
+ ],
+ "intro": [
+  "斑点无尾刺豚鼠也叫低地无尾刺豚鼠，是一种啮齿动物。",
+  "毛粗，深褐到黑色，腹部浅色，身上常有白色斑点排成行。",
+  "它主要夜间活动、独居。"
+ ],
+ "fact": "它们住在靠近水的森林里，在洞穴中生活。",
+ "range": "中美洲和南美洲（墨西哥南部到巴西、巴拉圭）。",
+ "sources": [
+  "Wikipedia「Lowland paca」",
+  "IUCN 红色名录（Emmons 2016）"
+ ],
+ "footnote": ""
+}

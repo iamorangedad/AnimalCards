@@ -1,0 +1,79 @@
+{
+ "file": "灰细懒猴",
+ "no": "1087",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "灰细懒猴",
+ "name_en": "Gray slender loris",
+ "latin": "Loris lydekkerianus",
+ "short": "灰细懒猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "食虫",
+ "diet_note": "主要吃昆虫",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2020",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "18–26 cm",
+   "lo": 0.18,
+   "hi": 0.26,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "约 170 天",
+   "lo": 170,
+   "hi": 170,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "交流距离",
+   "value": "至少 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "分布国",
+   "value": "2 国",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄昏出洞",
+   "icon": "glow",
+   "desc": "它只在黄昏时才从栖身的树洞里出来。"
+  },
+  {
+   "name": "捕虫专家",
+   "icon": "food",
+   "desc": "主要吃昆虫，偶尔也吃别的东西。"
+  }
+ ],
+ "intro": [
+  "灰细懒猴是懒猴科的灵长类。",
+  "它原产印度和斯里兰卡。",
+  "栖息地丧失威胁着它。"
+ ],
+ "fact": "它们靠气味和视觉信号在至少 20 m 外交流。",
+ "range": "印度南部和斯里兰卡的森林。",
+ "sources": [
+  "Wikipedia「Gray slender loris」",
+  "IUCN 红色名录（Dittus, W. 2020）"
+ ],
+ "footnote": ""
+}

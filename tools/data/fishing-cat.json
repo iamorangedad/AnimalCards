@@ -1,0 +1,80 @@
+{
+ "file": "渔猫",
+ "no": "1094",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "渔猫",
+ "name_en": "Fishing cat",
+ "latin": "Prionailurus viverrinus",
+ "short": "渔猫",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，也吃鸟、昆虫、小型啮齿类等",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "57–78 cm",
+   "lo": 0.57,
+   "hi": 0.78,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "20–30 cm",
+   "lo": 0.2,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公兽体重",
+   "value": "8–17 kg",
+   "lo": 8,
+   "hi": 17,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母兽体重",
+   "value": "5–9 kg",
+   "lo": 5,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "捕鱼猫",
+   "icon": "dive",
+   "desc": "它多住在湿地、河流、沼泽和红树林边，主要捕鱼。"
+  },
+  {
+   "name": "壮实肌肉",
+   "icon": "trunk",
+   "desc": "身体结实、肌肉发达。"
+  }
+ ],
+ "intro": [
+  "渔猫是南亚和东南亚的中型野猫。",
+  "毛色深黄灰，有黑色条纹和斑点。",
+  "自 2016 年起被 IUCN 列为易危。"
+ ],
+ "fact": "其他猎物还包括鸟、昆虫、小型啮齿动物、软体动物和爬行动物。",
+ "range": "南亚和东南亚的湿地。",
+ "sources": [
+  "Wikipedia「Fishing cat」",
+  "IUCN 红色名录（Mukherjee, S. 2025）"
+ ],
+ "footnote": ""
+}

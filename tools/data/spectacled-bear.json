@@ -1,0 +1,79 @@
+{
+ "file": "眼镜熊",
+ "no": "1100",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "眼镜熊",
+ "name_en": "Spectacled bear",
+ "latin": "Tremarctos ornatus",
+ "short": "眼镜熊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "和其他熊不同，食物以植物为主",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "偏好海拔",
+   "value": "1800–3100 m",
+   "lo": 1800,
+   "hi": 3100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "所属亚科",
+   "value": "短面熊亚科",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "当地名",
+   "value": "“洞熊”",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "分布",
+   "value": "安第斯山",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "眼镜脸",
+   "icon": "camo",
+   "desc": "脸上有浅黄褐色的花纹，像戴了一副眼镜。"
+  },
+  {
+   "name": "吃素的熊",
+   "icon": "food",
+   "desc": "和其他杂食熊不同，它的食物大多是植物。"
+  }
+ ],
+ "intro": [
+  "眼镜熊也叫安第斯熊，原产南美洲北部和西部的安第斯山。",
+  "它是短面熊亚科唯一现存的熊。",
+  "它喜欢海拔 1800–3100 m 的高地森林。"
+ ],
+ "fact": "当地克丘亚语和艾马拉语叫它 jukumari 或 ukumari。",
+ "range": "南美洲安第斯山（委内瑞拉到玻利维亚）。",
+ "sources": [
+  "Wikipedia「Spectacled bear」",
+  "IUCN 红色名录（Velez-Liendo, X. 2017）"
+ ],
+ "footnote": "四个数值中三个不是数值，比例条无意义；维基百科未给出体重（待补）。"
+}

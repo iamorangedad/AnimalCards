@@ -1,0 +1,79 @@
+{
+ "file": "豹猫",
+ "no": "1092",
+ "cat": "森林",
+ "kingdom": "动物",
+ "name_cn": "豹猫",
+ "name_en": "Leopard cat",
+ "latin": "Prionailurus bengalensis",
+ "short": "豹猫",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃多种小型猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2023",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "热带体重",
+   "value": "0.55–3.8 kg",
+   "lo": 0.55,
+   "hi": 3.8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "北方体重",
+   "value": "最重 7.1 kg",
+   "lo": 7.1,
+   "hi": 7.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "肩高",
+   "value": "约 41 cm",
+   "lo": 0.41,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "最高海拔",
+   "value": "4474 m",
+   "lo": 4474,
+   "hi": 4474,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "豹纹小猫",
+   "icon": "camo",
+   "desc": "黄褐色的身体和四肢上有深色斑点，额头上有两道深色条纹。"
+  },
+  {
+   "name": "会游泳",
+   "icon": "dive",
+   "desc": "它会游泳，但很少下水。"
+  }
+ ],
+ "intro": [
+  "豹猫是一种小型野猫。",
+  "它生活在热带常绿雨林、亚热带落叶林和针叶林里，最高到海拔 4474 m。",
+  "北方（中国北部、西伯利亚）的豹猫比热带的大。"
+ ],
+ "fact": "热带的豹猫体长 38.8–66 cm，北方的可达 75 cm。",
+ "range": "南亚、东南亚、东亚到俄罗斯远东。",
+ "sources": [
+  "Wikipedia「Leopard cat」",
+  "IUCN 红色名录（Ghimirey, Y. 2023）"
+ ],
+ "footnote": ""
+}

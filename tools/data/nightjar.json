@@ -1,0 +1,79 @@
+{
+ "file": "普通夜鹰",
+ "no": "1148",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "普通夜鹰",
+ "name_en": "Grey nightjar",
+ "latin": "Caprimulgus jotaka",
+ "short": "普通夜鹰",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "食虫",
+ "diet_note": "黄昏和夜间捕食飞虫：蛾、甲虫、飞蚁、蚱蜢等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高海拔",
+   "value": "3300 m",
+   "lo": 3300,
+   "hi": 3300,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "2 枚",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "卵长",
+   "value": "约 30.7 mm",
+   "lo": 0.0307,
+   "hi": 0.0307,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "分布面积",
+   "value": "1770 万 km²",
+   "lo": 17700000.0,
+   "hi": 17700000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜间捕虫",
+   "icon": "glow",
+   "desc": "它在黄昏到夜里活动，在空中捕食飞虫。"
+  },
+  {
+   "name": "轮班孵卵",
+   "icon": "huddle",
+   "desc": "白天由雌鸟孵卵，黎明和黄昏换雄鸟。"
+  }
+ ],
+ "intro": [
+  "普通夜鹰分布在东亚。",
+  "从俄罗斯东南部、中国、朝鲜半岛和日本到中南半岛北部繁殖。",
+  "它每年只繁殖一次。"
+ ],
+ "fact": "它在夜里最活跃，叫声响亮。",
+ "range": "东亚（俄罗斯远东、中国、朝鲜半岛、日本到中南半岛北部）。",
+ "sources": [
+  "Wikipedia「Grey nightjar」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

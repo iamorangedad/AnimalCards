@@ -1,0 +1,80 @@
+{
+ "file": "白腹军舰鸟",
+ "no": "1144",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "白腹军舰鸟",
+ "name_en": "Great frigatebird",
+ "latin": "Fregata minor",
+ "short": "白腹军舰鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在飞行中从海面抓鱼（多为飞鱼），也吃乌贼，偶尔抢别的鸟的食物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "85–105 cm",
+   "lo": 0.85,
+   "hi": 1.05,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "205–230 cm",
+   "lo": 2.05,
+   "hi": 2.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体重",
+   "value": "1215–1590 g",
+   "lo": 1.215,
+   "hi": 1.59,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "觅食范围",
+   "value": "80 km 内",
+   "lo": 80,
+   "hi": 80,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色喉囊",
+   "icon": "glow",
+   "desc": "繁殖期雄鸟能把鲜红的喉囊鼓起来。"
+  },
+  {
+   "name": "空中抓鱼",
+   "icon": "wind",
+   "desc": "在飞行中从海面抓飞鱼。"
+  }
+ ],
+ "intro": [
+  "白腹军舰鸟是军舰鸟科的大型海鸟。",
+  "它轻巧，羽毛主要是黑色。",
+  "在热带太平洋和印度洋有大型繁殖群。"
+ ],
+ "fact": "一只雄鸟曾从莫桑比克海峡的欧罗巴岛飞到 4400 km 外的马尔代夫。",
+ "range": "热带太平洋、印度洋和南大西洋岛屿。",
+ "sources": [
+  "Wikipedia「Great frigatebird」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

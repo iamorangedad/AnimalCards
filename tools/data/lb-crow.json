@@ -1,0 +1,79 @@
+{
+ "file": "大嘴乌鸦",
+ "no": "1139",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "大嘴乌鸦",
+ "name_en": "Large-billed crow",
+ "latin": "Corvus macrorhynchos",
+ "short": "大嘴乌鸦",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "什么都尝试吃，活的死的、植物动物都吃",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "46–59 cm",
+   "lo": 0.46,
+   "hi": 0.59,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "450–1000 g",
+   "lo": 0.45,
+   "hi": 1.0,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "日亚种嘴长",
+   "value": "70–80 mm",
+   "lo": 0.07,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "17–19 天",
+   "lo": 17,
+   "hi": 19,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超强适应",
+   "icon": "food",
+   "desc": "能靠很多种食物生存，所以能在新的地方安家。"
+  },
+  {
+   "name": "捕蜥高手",
+   "icon": "climb",
+   "desc": "在斯里兰卡，它很擅长捕捉蜥蜴等小动物。"
+  }
+ ],
+ "intro": [
+  "大嘴乌鸦以前常叫丛林鸦，是广布亚洲的乌鸦。",
+  "它适应力很强。",
+  "最大的亚种是日本亚种。"
+ ],
+ "fact": "通常每窝产 3–5 枚卵。",
+ "range": "亚洲（东亚、南亚、东南亚）。",
+ "sources": [
+  "Wikipedia「Large-billed crow」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

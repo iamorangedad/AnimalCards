@@ -1,0 +1,79 @@
+{
+ "file": "兀鹫",
+ "no": "1137",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "兀鹫",
+ "name_en": "Eurasian griffon vulture",
+ "latin": "Gyps fulvus",
+ "short": "兀鹫",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "食腐，吃动物尸体（维基未详述）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "93–122 cm",
+   "lo": 0.93,
+   "hi": 1.22,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2.3–2.8 m",
+   "lo": 2.3,
+   "hi": 2.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "6.2–10.5 kg",
+   "lo": 6.2,
+   "hi": 10.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "圈养最长寿",
+   "value": "41.4 年",
+   "lo": 41.4,
+   "hi": 41.4,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大型秃鹫",
+   "icon": "wind",
+   "desc": "宽大的翅膀让它能长时间在空中盘旋寻找食物。"
+  },
+  {
+   "name": "调节体温",
+   "icon": "sun",
+   "desc": "改变姿势能让裸露皮肤从 7% 增加到 32%，帮助散热。"
+  }
+ ],
+ "intro": [
+  "兀鹫也叫欧亚兀鹫，是鹰科的大型旧大陆秃鹫。",
+  "它分布于欧洲南部、北非到中亚。",
+  "非法投毒对它是致命的威胁。"
+ ],
+ "fact": "它常在悬崖上成群筑巢。",
+ "range": "南欧、北非、中东到中亚和印度北部。",
+ "sources": [
+  "Wikipedia「Eurasian griffon vulture」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

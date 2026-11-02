@@ -26,7 +26,7 @@ def c5(id, en, latin, typ, hab, diet, note, iucn, sub, stats, skills, intro, fac
     d = dict(file=cn, no=f"{N4[id]:03d}", cat=cat, kingdom=kingdom(cat), name_cn=cn, name_en=en, latin=latin, short=short or cn, type=typ, habitat=hab,
              diet=diet, diet_note=note, iucn=dict(code=iucn, sub=sub, **({"cn": iucn_cn} if iucn_cn else {})), stats=stats, skills=skills, intro=intro,
              fact=fact, range=rng, sources=src, footnote=foot, **({"warn": warn} if warn else {}))
-    assert len(cn) <= 11 and len(stats) == 4 and len(skills) == 2 and len(intro) in (2, 3), id
+    assert len(cn) <= 11 and 1 <= len(stats) <= 4 and len(skills) == 2 and len(intro) in (2, 3), id
     (OUT / f"{id}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 WK = lambda t: f"Wikipedia「{t}」"
 IU = lambda a, y: f"IUCN 红色名录（{a} {y}）"

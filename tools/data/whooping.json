@@ -1,0 +1,79 @@
+{
+ "file": "美洲鹤",
+ "no": "1132",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "美洲鹤",
+ "name_en": "Whooping crane",
+ "latin": "Grus americana",
+ "short": "美洲鹤",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "偏吃动物：甲壳类、软体动物、蚱蜢、鱼、小蛇、鼠，也吃水草、橡子和浆果",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "1.24–1.6 m",
+   "lo": 1.24,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2–2.3 m",
+   "lo": 2,
+   "hi": 2.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "1941 年野外",
+   "value": "仅 21 只",
+   "lo": 21,
+   "hi": 21,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "29–31 天",
+   "lo": 29,
+   "hi": 31,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "嘹亮叫声",
+   "icon": "ear",
+   "desc": "名字来自它“呜嗷”的响亮叫声，还会发出警戒叫声提醒伴侣。"
+  },
+  {
+   "name": "长途迁徙",
+   "icon": "wind",
+   "desc": "残存的野生种群在美国得州沿海和加拿大西北地区之间迁徙。"
+  }
+ ],
+ "intro": [
+  "美洲鹤是北美最高的鸟。",
+  "它和沙丘鹤是北美仅有的两种鹤。",
+  "1941 年野外只剩 21 只，经保护后部分恢复。"
+ ],
+ "fact": "预期寿命估计为 22–30 年以上。",
+ "range": "北美（加拿大西北地区繁殖，美国得州越冬；另有重引入种群）。",
+ "sources": [
+  "Wikipedia「Whooping crane」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

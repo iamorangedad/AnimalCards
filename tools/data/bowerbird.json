@@ -1,0 +1,79 @@
+{
+ "file": "缎蓝园丁鸟",
+ "no": "1140",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "缎蓝园丁鸟",
+ "name_en": "Satin bowerbird",
+ "latin": "Ptilonorhynchus violaceus",
+ "short": "缎蓝园丁鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "成鸟以果实为主，也吃叶、少量种子和昆虫；雏鸟吃甲虫、蚱蜢和蝉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "卵重",
+   "value": "约 19 g",
+   "lo": 0.019,
+   "hi": 0.019,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "孵化期",
+   "value": "21 天",
+   "lo": 21,
+   "hi": 21,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "产卵间隔",
+   "value": "每 2 天 1 枚",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "属内物种",
+   "value": "1 种",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蓝色收藏家",
+   "icon": "food",
+   "desc": "雄鸟搭“求偶亭”，用蓝色、黄色和亮闪闪的东西装饰，越成熟越爱用蓝色。"
+  },
+  {
+   "name": "亮蓝光泽",
+   "icon": "glow",
+   "desc": "雄鸟羽毛其实是黑色，靠光的衍射显出深亮的蓝色。"
+  }
+ ],
+ "intro": [
+  "缎蓝园丁鸟是澳大利亚东部特有的雀形目鸟。",
+  "它是缎蓝园丁鸟属唯一的物种。",
+  "雌鸟和未成年雄鸟是绿褐色的。"
+ ],
+ "fact": "它会把亭子装饰上浆果、花、蜗牛壳，甚至圆珠笔、吸管和衣夹。",
+ "range": "澳大利亚东部（昆士兰南部到维多利亚）的雨林。",
+ "sources": [
+  "Wikipedia「Satin bowerbird」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

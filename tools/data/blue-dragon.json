@@ -1,0 +1,79 @@
+{
+ "file": "海神海蛞蝓",
+ "no": "1128",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "海神海蛞蝓",
+ "name_en": "Blue sea dragon",
+ "latin": "Glaucus atlanticus",
+ "short": "海神海蛞蝓",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃僧帽水母等有毒的管水母",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成体体长",
+   "value": "约 3 cm",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "背突",
+   "value": "最多 84 个",
+   "lo": 84,
+   "hi": 84,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "分布北扩",
+   "value": "150 km",
+   "lo": 150,
+   "hi": 150,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "复合种",
+   "value": "4 个种",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "偷毒防身",
+   "icon": "toxic",
+   "desc": "把吃下的管水母刺细胞存进自己身体里用来防身。"
+  },
+  {
+   "name": "倒漂海面",
+   "icon": "wind",
+   "desc": "靠水的表面张力和胃里的气泡肚皮朝上漂浮，随风和洋流漂流。"
+  }
+ ],
+ "intro": [
+  "海神海蛞蝓也叫蓝龙，是一种海蛞蝓。",
+  "它生活在开阔大洋的表层。",
+  "它和另外两种海蛞蝓都被叫作“蓝龙”。"
+ ],
+ "fact": "2015–2016 年的观察显示它在加利福尼亚湾的分布向北扩展了 150 km。",
+ "range": "全球温带和热带大洋表层。",
+ "sources": [
+  "Wikipedia「Glaucus atlanticus」"
+ ],
+ "footnote": "",
+ "warn": "徒手拿它可能被严重蜇伤，甚至有危险，海滩上见到也不要碰。"
+}

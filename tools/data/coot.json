@@ -1,0 +1,80 @@
+{
+ "file": "白骨顶",
+ "no": "1146",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "白骨顶",
+ "name_en": "Eurasian coot",
+ "latin": "Fulica atra",
+ "short": "白骨顶",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性），会潜水或像绿头鸭那样倒立觅食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "36–38 cm",
+   "lo": 0.36,
+   "hi": 0.38,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "70–80 cm",
+   "lo": 0.7,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "21–24 天",
+   "lo": 21,
+   "hi": 24,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "雏鸟会飞",
+   "value": "55–60 天",
+   "lo": 55,
+   "hi": 60,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色额甲",
+   "icon": "sun",
+   "desc": "全身黑色，只有嘴和额甲是白色的。"
+  },
+  {
+   "name": "跳一下潜水",
+   "icon": "dive",
+   "desc": "游泳时会小跳一下，然后短暂潜入水中。"
+  }
+ ],
+ "intro": [
+  "白骨顶也叫骨顶鸡，是秧鸡科的鸟。",
+  "它分布在欧洲、亚洲、澳大利亚、新西兰和北非部分地区。",
+  "英语里“像骨顶一样秃”就是说它的白额甲。"
+ ],
+ "fact": "亲鸟会啄咬乞食过多的雏鸟，甚至可能把雏鸟咬死。",
+ "range": "欧亚大陆、北非、澳大利亚和新西兰的湖泊湿地。",
+ "sources": [
+  "Wikipedia「Eurasian coot」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

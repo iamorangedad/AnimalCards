@@ -1,0 +1,79 @@
+{
+ "file": "灰冠鹤",
+ "no": "1131",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "灰冠鹤",
+ "name_en": "Grey crowned crane",
+ "latin": "Balearica regulorum",
+ "short": "灰冠鹤",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物、种子、谷物、昆虫、蛙、蠕虫、蛇和小鱼等",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2024",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "3.5 kg",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "28–31 天",
+   "lo": 28,
+   "hi": 31,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "金色冠羽",
+   "icon": "sun",
+   "desc": "头顶有一大簇金黄色的冠羽，像戴着王冠。"
+  },
+  {
+   "name": "成群活动",
+   "icon": "team",
+   "desc": "常见 30–150 只的大群。"
+  }
+ ],
+ "intro": [
+  "灰冠鹤是原产撒哈拉以南非洲的大型鹤。",
+  "它是乌干达的国鸟，出现在乌干达国旗上。",
+  "全球估计有 5.8 万–7.7 万只。"
+ ],
+ "fact": "雏鸟孵出后马上就能跑，56–100 天会飞。",
+ "range": "东非和南部非洲的稀树草原和湿地。",
+ "sources": [
+  "Wikipedia「Grey crowned crane」",
+  "IUCN 红色名录（BirdLife International 2024）"
+ ],
+ "footnote": ""
+}

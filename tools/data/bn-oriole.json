@@ -1,0 +1,79 @@
+{
+ "file": "黑枕黄鹂",
+ "no": "1149",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黑枕黄鹂",
+ "name_en": "Black-naped oriole",
+ "latin": "Oriolus chinensis",
+ "short": "黑枕黄鹂",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "在树冠吃浆果和昆虫，在印度也吸大花的花蜜",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "每窝卵",
+   "value": "2–3 枚",
+   "lo": 2,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "14–16 天",
+   "lo": 14,
+   "hi": 16,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "雏鸟离巢",
+   "value": "再约 2 周",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "亚种",
+   "value": "约 19 个",
+   "lo": 19,
+   "hi": 19,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑色眼罩",
+   "icon": "camo",
+   "desc": "全身金黄，有一条宽宽的黑色眼罩延伸到后颈。"
+  },
+  {
+   "name": "树冠觅食",
+   "icon": "climb",
+   "desc": "在高高的树冠里找浆果和昆虫。"
+  }
+ ],
+ "intro": [
+  "黑枕黄鹂是黄鹂科的雀形目鸟。",
+  "它分布在亚洲许多地方。",
+  "嘴是粉红色的，比金黄鹂粗壮。"
+ ],
+ "fact": "雌鸟可能搭好几个巢，最后选一个产卵。",
+ "range": "东亚、东南亚和南亚部分地区。",
+ "sources": [
+  "Wikipedia「Black-naped oriole」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "亚种数按维基列表计数（待核）。"
+}

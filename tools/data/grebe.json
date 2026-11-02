@@ -1,0 +1,80 @@
+{
+ "file": "凤头䴙䴘",
+ "no": "1145",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "凤头䴙䴘",
+ "name_en": "Great crested grebe",
+ "latin": "Podiceps cristatus",
+ "short": "凤头䴙䴘",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在水下追捕鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "46–51 cm",
+   "lo": 0.46,
+   "hi": 0.51,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "59–73 cm",
+   "lo": 0.59,
+   "hi": 0.73,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "0.9–1.5 kg",
+   "lo": 0.9,
+   "hi": 1.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "27–29 天",
+   "lo": 27,
+   "hi": 29,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "同步求偶舞",
+   "icon": "ear",
+   "desc": "求偶时一对鸟会同步跳舞、做精彩的展示。"
+  },
+  {
+   "name": "背着宝宝",
+   "icon": "dive",
+   "desc": "成鸟把雏鸟背在背上潜水，教它们游泳和潜水。"
+  }
+ ],
+ "intro": [
+  "凤头䴙䴘是䴙䴘科的水鸟。",
+  "它有醒目的黑、橙褐和白色羽毛。",
+  "它是游泳和潜水的好手。"
+ ],
+ "fact": "每窝平均 4 枚白色卵，卵重约 42 g。",
+ "range": "欧亚大陆、非洲和澳大利亚、新西兰的湖泊。",
+ "sources": [
+  "Wikipedia「Great crested grebe」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": ""
+}

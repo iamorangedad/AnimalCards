@@ -1,0 +1,78 @@
+{
+ "file": "公主海葵",
+ "no": "1126",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "公主海葵",
+ "name_en": "Magnificent sea anemone",
+ "latin": "Radianthus magnifica",
+ "short": "公主海葵",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "靠体内共生虫黄藻的光合作用，也用触手捕食",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "口盘直径",
+   "value": "20–50 cm",
+   "lo": 0.2,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最大直径",
+   "value": "1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "触手长",
+   "value": "超过 8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "共生小丑鱼",
+   "value": "12 种",
+   "lo": 12,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "小丑鱼之家",
+   "icon": "huddle",
+   "desc": "有 12 种小丑鱼会住在它的触手间，它是很“随和”的宿主。"
+  },
+  {
+   "name": "体内藻类",
+   "icon": "sun",
+   "desc": "靠组织里共生的虫黄藻进行光合作用获得营养。"
+  }
+ ],
+ "intro": [
+  "公主海葵也叫华丽海葵，是一种大型海葵。",
+  "它原产印度—太平洋。",
+  "种名 magnifica 来自它鲜艳的体柱颜色。"
+ ],
+ "fact": "它通常在光照充足、有水流的水面到 20 m 深处，也见于 40 m 深。",
+ "range": "印度洋—太平洋珊瑚礁。",
+ "sources": [
+  "Wikipedia「Radianthus magnifica」"
+ ],
+ "footnote": ""
+}

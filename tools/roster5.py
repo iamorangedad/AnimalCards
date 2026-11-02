@@ -171,7 +171,7 @@ red-knot 红腹滨鹬 Red knot
 herring-gull 银鸥 European herring gull
 bh-gull 红嘴鸥 Black-headed gull
 burrowing-owl 穴小鸮 Burrowing owl
-goshawk 苍鹰 Northern goshawk
+goshawk 苍鹰 Eurasian goshawk
 stellers-eagle 虎头海雕 Steller's sea eagle
 serpent-eagle 蛇雕 Crested serpent eagle
 turkey-vulture 红头美洲鹫 Turkey vulture
@@ -182,7 +182,7 @@ american-croc 美洲鳄 American crocodile
 chuckwalla 叩壁蜥 Common chuckwalla
 giant-day-gecko 马岛大守宫 Phelsuma grandis
 flying-dragon 飞蜥 Draco volans
-five-lined 五线石龙子 Common five-lined skink
+five-lined 五线石龙子 Plestiodon fasciatus
 glass-lizard 东部玻璃蜥 Eastern glass lizard
 coral-snake 东部珊瑚蛇 Micrurus fulvius
 sea-krait 蓝灰扁尾海蛇 Laticauda colubrina

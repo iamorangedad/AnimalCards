@@ -1,0 +1,79 @@
+{
+ "file": "赤颈鹤",
+ "no": "1133",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "赤颈鹤",
+ "name_en": "Sarus crane",
+ "latin": "Antigone antigone",
+ "short": "赤颈鹤",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "在沼泽和浅水湿地吃根、块茎、昆虫、甲壳类和小型脊椎动物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "115–167 cm",
+   "lo": 1.15,
+   "hi": 1.67,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "5–12 kg",
+   "lo": 5,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "220–250 cm",
+   "lo": 2.2,
+   "hi": 2.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "飞鸟最高",
+   "icon": "wind",
+   "desc": "它是会飞的鸟里个子最高的，最高可达 1.8 m。"
+  },
+  {
+   "name": "求偶舞蹈",
+   "icon": "ear",
+   "desc": "配对的鹤会大声鸣叫、跳跃、跳舞般地求偶和宣示领地。"
+  }
+ ],
+ "intro": [
+  "赤颈鹤是一种不迁徙的大型鹤。",
+  "分布在印度次大陆、东南亚和澳大利亚北部。",
+  "在印度，它被视为忠贞婚姻的象征。"
+ ],
+ "fact": "澳大利亚的赤颈鹤平均比北方的轻约 25%。",
+ "range": "印度次大陆、东南亚和澳大利亚北部的湿地。",
+ "sources": [
+  "Wikipedia「Sarus crane」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "吸蜜蜂鸟",
+ "no": "1142",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "吸蜜蜂鸟",
+ "name_en": "Bee hummingbird",
+ "latin": "Mellisuga helenae",
+ "short": "吸蜜蜂鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃花蜜，也吃昆虫",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2021",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雌鸟体重",
+   "value": "2.6 g",
+   "lo": 0.0026,
+   "hi": 0.0026,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体长",
+   "value": "6.1 cm",
+   "lo": 0.061,
+   "hi": 0.061,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "振翅",
+   "value": "每秒 80–200 次",
+   "lo": 80,
+   "hi": 200,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "一天访花",
+   "value": "1500 朵",
+   "lo": 1500,
+   "hi": 1500,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最小的鸟",
+   "icon": "micro",
+   "desc": "它是已知最小的鸟，雄鸟平均只有 1.95 g。"
+  },
+  {
+   "name": "空中悬停",
+   "icon": "wind",
+   "desc": "每秒振翅 80–200 次，能悬停在花前。"
+  }
+ ],
+ "intro": [
+  "吸蜜蜂鸟也叫古巴蜂鸟，原产古巴。",
+  "它是现存最小的鸟。",
+  "飞行速度能达 40–48 km/h。"
+ ],
+ "fact": "雌鸟用蛛丝、树皮和地衣筑一个直径约 2.5 cm 的杯状巢。",
+ "range": "古巴。",
+ "sources": [
+  "Wikipedia「Bee hummingbird」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

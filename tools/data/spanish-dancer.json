@@ -1,0 +1,78 @@
+{
+ "file": "西班牙舞娘",
+ "no": "1129",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "西班牙舞娘",
+ "name_en": "Spanish dancer",
+ "latin": "Hexabranchus sanguineus",
+ "short": "西班牙舞娘",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃皂海绵科的海绵",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "常见最大",
+   "value": "25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "红海报告",
+   "value": "40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "1–50 m",
+   "lo": 1,
+   "hi": 50,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "鳃",
+   "value": "6 片",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红裙舞者",
+   "icon": "wind",
+   "desc": "受惊时展开外套膜边缘，扭动身体游开，像跳舞的裙摆。"
+  },
+  {
+   "name": "借毒护卵",
+   "icon": "toxic",
+   "desc": "从吃的海绵里获得化学物质防身，还把毒素传给卵带。"
+  }
+ ],
+ "intro": [
+  "西班牙舞娘是一种体型很大、颜色鲜艳的海蛞蝓。",
+  "学名意思是“血红色的六鳃”。",
+  "2023 年研究发现这个名字至少被用在 5 个不同物种上。"
+ ],
+ "fact": "白天它躲在缝隙里，深夜才出来。",
+ "range": "红海、西印度洋、西太平洋到法属波利尼西亚。",
+ "sources": [
+  "Wikipedia「Spanish dancer」"
+ ],
+ "footnote": ""
+}

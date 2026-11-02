@@ -1,0 +1,79 @@
+{
+ "file": "迷宫脑珊瑚",
+ "no": "1127",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "迷宫脑珊瑚",
+ "name_en": "Grooved brain coral",
+ "latin": "Diploria labyrinthiformis",
+ "short": "迷宫脑珊瑚",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "滤食浮游动物和细菌，并靠共生虫黄藻获得部分营养",
+ "iucn": {
+  "code": "CR",
+  "sub": "IUCN 2022",
+  "cn": "极危"
+ },
+ "stats": [
+  {
+   "label": "年生长",
+   "value": "约 3.5 mm",
+   "lo": 0.0035,
+   "hi": 0.0035,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "直径",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "水深",
+   "value": "1–30 m",
+   "lo": 1,
+   "hi": 30,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "属内物种",
+   "value": "1 种",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "迷宫花纹",
+   "icon": "camo",
+   "desc": "半球形，表面有深深相连的双沟，像人的大脑。"
+  },
+  {
+   "name": "刺丝胞捕食",
+   "icon": "micro",
+   "desc": "珊瑚虫用带刺丝胞的触手抓住浮游小猎物。"
+  }
+ ],
+ "intro": [
+  "迷宫脑珊瑚是一种造礁石珊瑚，是脑纹珊瑚属唯一的物种。",
+  "它分布在西大西洋和加勒比海。",
+  "2021 年的评估因珊瑚组织损失病把它大幅上调。"
+ ],
+ "fact": "研究者通过它骨骼的层次了解海水温度的历史变化。",
+ "range": "西大西洋热带海域、墨西哥湾、加勒比海、百慕大。",
+ "sources": [
+  "Wikipedia「Diploria」",
+  "IUCN 红色名录（Goergen, L. 2022）"
+ ],
+ "footnote": ""
+}

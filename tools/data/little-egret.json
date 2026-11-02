@@ -1,0 +1,80 @@
+{
+ "file": "白鹭",
+ "no": "1135",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "白鹭",
+ "name_en": "Little egret",
+ "latin": "Egretta garzetta",
+ "short": "白鹭",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在浅水和陆地追捕猎物，也吃家畜惊起的小动物和身上的蜱",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "55–65 cm",
+   "lo": 0.55,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "88–106 cm",
+   "lo": 0.88,
+   "hi": 1.06,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "350–550 g",
+   "lo": 0.35,
+   "hi": 0.55,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外最长寿",
+   "value": "约 22.3 年",
+   "lo": 22.3,
+   "hi": 22.3,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "繁殖蓑羽",
+   "icon": "wind",
+   "desc": "繁殖期背上长出长达 20 cm 的细长蓑羽。"
+  },
+  {
+   "name": "跟着家畜",
+   "icon": "team",
+   "desc": "会捕食被吃草家畜惊起的小动物。"
+  }
+ ],
+ "intro": [
+  "白鹭也叫小白鹭，是鹭科的小型鹭。",
+  "全身白色，嘴细长黑色，腿黑色。",
+  "西部种群的脚是黄色的。"
+ ],
+ "fact": "它的蓑羽曾被大量用来装饰帽子。",
+ "range": "欧亚大陆、非洲和澳大利亚的湿地。",
+ "sources": [
+  "Wikipedia「Little egret」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

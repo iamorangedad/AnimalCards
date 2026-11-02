@@ -1,0 +1,80 @@
+{
+ "file": "北鲣鸟",
+ "no": "1143",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "北鲣鸟",
+ "name_en": "Northern gannet",
+ "latin": "Morus bassanus",
+ "short": "北鲣鸟",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "以鱼为主，从高空高速俯冲入海捕鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "87–100 cm",
+   "lo": 0.87,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "170–180 cm",
+   "lo": 1.7,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "俯冲",
+   "value": "最快约 97 km/h",
+   "lo": 97,
+   "hi": 97,
+   "scale": "speed",
+   "approx": true
+  },
+  {
+   "label": "巴斯岩",
+   "value": "7.5 万对",
+   "lo": 75000,
+   "hi": 75000,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高速扎水",
+   "icon": "dive",
+   "desc": "从空中以高达 60 英里/时的速度俯冲入海捕鱼。"
+  },
+  {
+   "name": "大群繁殖",
+   "icon": "team",
+   "desc": "在北大西洋两岸成群筑巢，最大的群在苏格兰巴斯岩。"
+  }
+ ],
+ "intro": [
+  "北鲣鸟是鲣鸟科中最大的海鸟。",
+  "它原产北大西洋沿岸。",
+  "在西欧和北美东北部繁殖。"
+ ],
+ "fact": "雏鸟约 10 周大离巢时，体重可超过 4 kg。",
+ "range": "北大西洋两岸（西欧、北美东北部）。",
+ "sources": [
+  "Wikipedia「Northern gannet」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "“俯冲”由 60 mph 换算。"
+}

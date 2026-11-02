@@ -1,0 +1,79 @@
+{
+ "file": "黄胸织雀",
+ "no": "1141",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黄胸织雀",
+ "name_en": "Baya weaver",
+ "latin": "Ploceus philippinus",
+ "short": "黄胸织雀",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "成群在植株上和地面上找种子吃",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "编巢草条",
+   "value": "20–60 cm",
+   "lo": 0.2,
+   "hi": 0.6,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "筑巢",
+   "value": "约 18 天",
+   "lo": 18,
+   "hi": 18,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "孵化期",
+   "value": "14–17 天",
+   "lo": 14,
+   "hi": 17,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "亚种",
+   "value": "5 个",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "编织大师",
+   "icon": "web",
+   "desc": "雄鸟用强壮的嘴剪下草叶条，编织打结成吊挂的瓶状巢。"
+  },
+  {
+   "name": "成群觅食",
+   "icon": "team",
+   "desc": "常成群在草地和农田里找种子。"
+  }
+ ],
+ "intro": [
+  "黄胸织雀是一种织布鸟。",
+  "它分布在印度次大陆和东南亚。",
+  "巢通常挂在多刺的树或棕榈叶上。"
+ ],
+ "fact": "筑巢中途有个“头盔阶段”，约要 8 天。",
+ "range": "印度次大陆和东南亚的草地、农田和灌丛。",
+ "sources": [
+  "Wikipedia「Baya weaver」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

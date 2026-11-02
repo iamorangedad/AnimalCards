@@ -1,0 +1,80 @@
+{
+ "file": "黑脸琵鹭",
+ "no": "1134",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "黑脸琵鹭",
+ "name_en": "Black-faced spoonbill",
+ "latin": "Platalea minor",
+ "short": "黑脸琵鹭",
+ "type": "两栖",
+ "habitat": [
+  "天空",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在水中左右扫动扁平的嘴，靠触觉捕食",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2025",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "2022 年普查",
+   "value": "6162 只",
+   "lo": 6162,
+   "hi": 6162,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "曾经低谷",
+   "value": "约 288 只",
+   "lo": 288,
+   "hi": 288,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "主要越冬地",
+   "value": "4 处",
+   "lo": 4,
+   "hi": 4,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "琵鹭共",
+   "value": "6 种",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "饭勺嘴",
+   "icon": "food",
+   "desc": "嘴又扁又宽像饭勺，在水里左右扫动摸索食物。"
+  },
+  {
+   "name": "繁殖羽",
+   "icon": "sun",
+   "desc": "繁殖期头后到胸前长出黄色的羽毛。"
+  }
+ ],
+ "intro": [
+  "黑脸琵鹭是鹮科的涉禽，分布在东亚。",
+  "它是 6 种琵鹭中分布最狭窄的。",
+  "它是唯一被列为易危的琵鹭。"
+ ],
+ "fact": "它主要在朝鲜和韩国西海岸的小岩岛繁殖，在澳门、香港、台湾和越南越冬。",
+ "range": "东亚（朝鲜半岛繁殖，中国东南沿海、台湾、越南越冬）。",
+ "sources": [
+  "Wikipedia「Black-faced spoonbill」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "大极乐鸟",
+ "no": "1150",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "大极乐鸟",
+ "name_en": "Greater bird-of-paradise",
+ "latin": "Paradisaea apoda",
+ "short": "大极乐鸟",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃果实、种子和小昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雄鸟体长",
+   "value": "最长 43 cm",
+   "lo": 0.43,
+   "hi": 0.43,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体长",
+   "value": "约 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "长尾线",
+   "value": "2 根",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "引入多巴哥",
+   "value": "1909–1912 年",
+   "lo": 1909,
+   "hi": 1912,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "华丽羽毛",
+   "icon": "sun",
+   "desc": "雄鸟有大簇黄色饰羽，用来求偶展示。"
+  },
+  {
+   "name": "“无脚鸟”",
+   "icon": "wind",
+   "desc": "早期运到欧洲的标本没有翅膀和脚，林奈因此取名“无脚的天堂鸟”。"
+  }
+ ],
+ "intro": [
+  "大极乐鸟是极乐鸟属最大的成员。",
+  "它的求偶展示被称为“鸟类世界最迷人的表演”。",
+  "欧洲人曾以为它们一生在空中飘浮、从不落地。"
+ ],
+ "fact": "它曾被引入特立尼达和多巴哥，至今还出现在该国硬币和纸币上。",
+ "range": "新几内亚西南部和印度尼西亚阿鲁群岛的低地和丘陵森林。",
+ "sources": [
+  "Wikipedia「Greater bird-of-paradise」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": "“引入多巴哥”条只表示年份，无比较意义。"
+}

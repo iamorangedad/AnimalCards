@@ -1,0 +1,79 @@
+{
+ "file": "火焰乌贼",
+ "no": "1130",
+ "cat": "海洋",
+ "kingdom": "动物",
+ "name_cn": "火焰乌贼",
+ "name_en": "Flamboyant cuttlefish",
+ "latin": "Ascarosepion pfefferi",
+ "short": "火焰乌贼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "白天捕食鱼和甲壳类",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2012",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "外套膜长",
+   "value": "8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "3–86 m",
+   "lo": 3,
+   "hi": 86,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "腕吸盘每排",
+   "value": "5–6 个",
+   "lo": 5,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "模式标本",
+   "value": "水深 51 m",
+   "lo": 51,
+   "hi": 51,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海底散步",
+   "icon": "climb",
+   "desc": "它的乌贼骨很小，是已知会在海底“走路”的乌贼之一。"
+  },
+  {
+   "name": "火焰变色",
+   "icon": "glow",
+   "desc": "受惊时迅速变成黑、褐、白和黄色斑块的醒目图案。"
+  }
+ ],
+ "intro": [
+  "火焰乌贼是一种分布在热带印度—太平洋的乌贼。",
+  "它生活在浅水的沙底和泥底。",
+  "它白天活动，用复杂的伪装悄悄接近猎物。"
+ ],
+ "fact": "有报告说它的肌肉毒性很强，但另有研究只测到微量河鲀毒素。",
+ "range": "澳大利亚北部、新几内亚南部和附近岛屿（含菲律宾）。",
+ "sources": [
+  "Wikipedia「Ascarosepion pfefferi」",
+  "IUCN 红色名录（Barratt, I. 2012）"
+ ],
+ "footnote": "毒性报道互相矛盾（待核）。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "非洲秃鹳",
+ "no": "1136",
+ "cat": "鸟类",
+ "kingdom": "动物",
+ "name_cn": "非洲秃鹳",
+ "name_en": "Marabou stork",
+ "latin": "Leptoptilos crumenifer",
+ "short": "非洲秃鹳",
+ "type": "天空",
+ "habitat": [
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃腐肉、残渣和粪便，几乎能吞下的动物都吃",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均翼展",
+   "value": "2.6 m",
+   "lo": 2.6,
+   "hi": 2.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "实测最大",
+   "value": "3.2 m",
+   "lo": 3.2,
+   "hi": 3.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "4.5–8 kg",
+   "lo": 4.5,
+   "hi": 8,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "26.4–35 cm",
+   "lo": 0.264,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "巨大翅膀",
+   "icon": "wind",
+   "desc": "常被认为是翼展最大的陆地鸟类之一。"
+  },
+  {
+   "name": "清道夫",
+   "icon": "food",
+   "desc": "主要吃腐肉和垃圾，常出现在垃圾场附近。"
+  }
+ ],
+ "intro": [
+  "非洲秃鹳是鹳科的大型涉禽。",
+  "原产撒哈拉以南非洲。",
+  "它在湿润和干旱地区都能繁殖，常靠近人类居住地。"
+ ],
+ "fact": "旱季它在树上筑巢，产 2–3 枚卵。",
+ "range": "撒哈拉以南非洲。",
+ "sources": [
+  "Wikipedia「Marabou stork」",
+  "IUCN 红色名录（BirdLife International 2025）"
+ ],
+ "footnote": ""
+}

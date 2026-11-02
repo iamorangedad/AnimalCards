@@ -1,0 +1,79 @@
+{
+ "file": "达乌尔黄鼠",
+ "no": "1045",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "达乌尔黄鼠",
+ "name_en": "Daurian ground squirrel",
+ "latin": "Spermophilus dauricus",
+ "short": "达乌尔黄鼠",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "分布国",
+   "value": "3 国",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "中国亚种",
+   "value": "2 个",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "所属科",
+   "value": "松鼠科",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "IUCN 评估",
+   "value": "2016 年",
+   "lo": 2016,
+   "hi": 2016,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "草原穴居",
+   "icon": "root",
+   "desc": "它是地栖的松鼠，生活在草原上。"
+  },
+  {
+   "name": "分布很广",
+   "icon": "team",
+   "desc": "在中国东北分布很广，并延伸到蒙古和俄罗斯外贝加尔。"
+  }
+ ],
+ "intro": [
+  "达乌尔黄鼠是松鼠科的啮齿动物。",
+  "分布在中国、蒙古和俄罗斯。",
+  "中国有两个亚种。"
+ ],
+ "fact": "一个亚种分布在河北、北京、天津、河南、山东，另一个在吉林、黑龙江、辽宁等地。",
+ "range": "中国东北和华北、蒙古、俄罗斯外贝加尔。",
+ "sources": [
+  "Wikipedia「Daurian ground squirrel」",
+  "IUCN 红色名录（Cassola 2016）"
+ ],
+ "footnote": "维基百科条目很短，没有体型数据（待补）；四个数值都不是生物测量，比例条无意义。"
+}

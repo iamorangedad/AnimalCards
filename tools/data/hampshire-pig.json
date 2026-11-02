@@ -1,0 +1,78 @@
+{
+ "file": "汉普夏猪",
+ "no": "1032",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "汉普夏猪",
+ "name_en": "Hampshire pig",
+ "latin": "Sus scrofa domesticus（品种）",
+ "short": "汉普夏猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "引入美国",
+   "value": "约 1825 年",
+   "lo": 1825,
+   "hi": 1825,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "出口国家",
+   "value": "近 60 个",
+   "lo": 60,
+   "hi": 60,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "全球数量",
+   "value": "约 16 万头",
+   "lo": 160000,
+   "hi": 160000,
+   "scale": "cnt",
+   "approx": true
+  },
+  {
+   "label": "1907 印州",
+   "value": "337 头",
+   "lo": 337,
+   "hi": 337,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色腰带",
+   "icon": "camo",
+   "desc": "黑色身体上有一条白色宽带，从肩部一直延伸到前腿。"
+  },
+  {
+   "name": "美国主力猪",
+   "icon": "team",
+   "desc": "美国约四分之三的猪登记来自杜洛克、大约克夏和汉普夏三个品种。"
+  }
+ ],
+ "intro": [
+  "【品种】汉普夏猪是美国的家猪品种。",
+  "它来自约 1825 年起从英国汉普郡带到美国肯塔基的“鞍背猪”。",
+  "耳朵直立。"
+ ],
+ "fact": "1907 年印第安纳州的统计中，6.5 万多头猪里只有 337 头汉普夏猪；现在它出口到近 60 个国家。",
+ "range": "起源于美国；现在五大洲都有饲养。",
+ "sources": [
+  "Wikipedia「Hampshire pig」"
+ ],
+ "footnote": "这是家猪的一个品种；年份类数值比例条无意义。"
+}

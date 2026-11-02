@@ -1,0 +1,78 @@
+{
+ "file": "雅各布羊",
+ "no": "1033",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "雅各布羊",
+ "name_en": "Jacob sheep",
+ "latin": "Ovis aries（品种）",
+ "short": "雅各布羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "中央角长",
+   "value": "61 cm 或更长",
+   "lo": 0.61,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母羊体重",
+   "value": "40–50 kg",
+   "lo": 40,
+   "hi": 50,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊体重",
+   "value": "55–80 kg",
+   "lo": 55,
+   "hi": 80,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "理想白色",
+   "value": "约 60%",
+   "lo": 60,
+   "hi": 60,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "四只角",
+   "icon": "thorn",
+   "desc": "最常见的是四只角：公羊两只竖直的中央角、两只沿头侧向下长的小角。"
+  },
+  {
+   "name": "花斑羊毛",
+   "icon": "camo",
+   "desc": "它是花斑羊：深色毛中有白色羊毛区。"
+  }
+ ],
+ "intro": [
+  "【品种】雅各布羊是英国的家羊品种。",
+  "它在英格兰至少已经养了 350 年。",
+  "羊羔 2 月龄可以断奶，许多牧羊人让母羊在约 4 月龄时自然断奶。"
+ ],
+ "fact": "在捷克、德国、荷兰和美国也有少量饲养。",
+ "range": "原产英国；现在多国有少量饲养。",
+ "sources": [
+  "Wikipedia「Jacob sheep」"
+ ],
+ "footnote": "这是家羊的一个品种；体重为美国数据（英国更重）。"
+}

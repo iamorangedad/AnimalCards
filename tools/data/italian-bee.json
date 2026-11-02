@@ -1,0 +1,80 @@
+{
+ "file": "意大利蜜蜂",
+ "no": "1031",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "意大利蜜蜂",
+ "name_en": "Italian bee",
+ "latin": "Apis mellifera ligustica",
+ "short": "意大利蜜蜂",
+ "type": "天空",
+ "habitat": [
+  "陆地",
+  "天空"
+ ],
+ "diet": "草食",
+ "diet_note": "采花蜜和花粉",
+ "iucn": {
+  "code": "NE",
+  "sub": "亚种未单独评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "舌长",
+   "value": "6.3–6.6 mm",
+   "lo": 0.0063,
+   "hi": 0.0066,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "肘脉指数",
+   "value": "2.2–2.5",
+   "lo": 2.2,
+   "hi": 2.5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "引入英国",
+   "value": "1859 年",
+   "lo": 1859,
+   "hi": 1859,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "体色",
+   "value": "3 种",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "全球最常见",
+   "icon": "bee",
+   "desc": "它可能是全世界商业分布最广的蜜蜂，能适应从亚热带到凉温带的气候。"
+  },
+  {
+   "name": "怕严冬",
+   "icon": "cold",
+   "desc": "冬天抱团不够紧，要消耗更多食物来保暖。"
+  }
+ ],
+ "intro": [
+  "意大利蜜蜂是西方蜜蜂的一个亚种。",
+  "原产意大利阿尔卑斯山以南的大陆部分，在那里熬过了末次冰期。",
+  "腹部有棕色和黄色的环带。"
+ ],
+ "fact": "秋天也常继续育幼，所以比其他蜂消耗更多食物。",
+ "range": "原产意大利；现在世界各地都有养殖。",
+ "sources": [
+  "Wikipedia「Italian bee」"
+ ],
+ "footnote": "“肘脉指数”是翅脉比值，用 0–100 刻度只是示意。",
+ "warn": "会蜇人，靠近蜂箱要穿防护服；对蜂毒过敏的人要特别小心。"
+}

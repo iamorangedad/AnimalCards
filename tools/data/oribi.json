@@ -1,0 +1,79 @@
+{
+ "file": "侏羚",
+ "no": "1049",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "侏羚",
+ "name_en": "Oribi",
+ "latin": "Ourebia ourebi",
+ "short": "侏羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和嫩叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "50–67 cm",
+   "lo": 0.5,
+   "hi": 0.67,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "12–22 kg",
+   "lo": 12,
+   "hi": 22,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊角长",
+   "value": "8–18 cm",
+   "lo": 0.08,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "领地",
+   "value": "25–100 公顷",
+   "lo": 25,
+   "hi": 100,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "小家庭",
+   "icon": "team",
+   "desc": "常见最多 4 只的小群，公羊守卫群体的领地。"
+  },
+  {
+   "name": "直角",
+   "icon": "thorn",
+   "desc": "只有公羊有角，细而直，基部有环纹。"
+  }
+ ],
+ "intro": [
+  "侏羚是分布在非洲东部、南部和西部的小型羚羊。",
+  "它是侏羚属唯一的物种。",
+  "生活在稀树草原、泛滥平原和热带草地。"
+ ],
+ "fact": "它被分为 8 个亚种。",
+ "range": "撒哈拉以南非洲的草原。",
+ "sources": [
+  "Wikipedia「Oribi」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2016）"
+ ],
+ "footnote": ""
+}

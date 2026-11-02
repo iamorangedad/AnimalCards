@@ -1,0 +1,80 @@
+{
+ "file": "驴羚",
+ "no": "1048",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "驴羚",
+ "name_en": "Lechwe",
+ "latin": "Kobus leche",
+ "short": "驴羚",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "吃水生植物和泛滥草甸的草",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2017",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "90–100 cm",
+   "lo": 0.9,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "50–120 kg",
+   "lo": 50,
+   "hi": 120,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "藏身水深",
+   "value": "齐膝",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "分布国",
+   "value": "6 国左右",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "水中避险",
+   "icon": "dive",
+   "desc": "它用齐膝深的水来躲避捕食者。"
+  },
+  {
+   "name": "防水腿",
+   "icon": "drop",
+   "desc": "腿上覆盖着防水物质，能在水里快速奔跑。"
+  }
+ ],
+ "intro": [
+  "驴羚也叫红驴羚，是生活在非洲中南部湿地的羚羊。",
+  "毛色金褐色，腹部白色。",
+  "只有公的长角，角又长又螺旋，有点像竖琴。"
+ ],
+ "fact": "后腿比其他羚羊长一些，方便在湿地里长距离奔跑。",
+ "range": "博茨瓦纳、赞比亚、刚果（金）东南部、安哥拉、纳米比亚等的湿地。",
+ "sources": [
+  "Wikipedia「Lechwe」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2017）"
+ ],
+ "footnote": "“藏身水深”原文为“齐膝深”，数值为示意；分布国数量为大约（待核）。"
+}

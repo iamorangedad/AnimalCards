@@ -1,0 +1,79 @@
+{
+ "file": "卡尤加鸭",
+ "no": "1038",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "卡尤加鸭",
+ "name_en": "Cayuga duck",
+ "latin": "Anas platyrhynchos domesticus（品种）",
+ "short": "卡尤加鸭",
+ "type": "两栖",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物、水草和小动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公鸭体重",
+   "value": "3.6 kg",
+   "lo": 3.6,
+   "hi": 3.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母鸭体重",
+   "value": "3.2 kg",
+   "lo": 3.2,
+   "hi": 3.2,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "28 天",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "引入纽约",
+   "value": "约 1840 年",
+   "lo": 1840,
+   "hi": 1840,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "甲虫绿光",
+   "icon": "glow",
+   "desc": "羽毛是黑色的，带着像甲虫一样的彩虹绿光泽。"
+  },
+  {
+   "name": "从濒危到观察",
+   "icon": "huddle",
+   "desc": "2008 年美国把它列为“受威胁”，2025 年改为“观察”。"
+  }
+ ],
+ "intro": [
+  "【品种】卡尤加鸭是美国的家鸭品种。",
+  "约 1840 年引入纽约州手指湖地区，名字来自当地的卡尤加人。",
+  "19 世纪后期它是美国主要的肉鸭，现在多作观赏。"
+ ],
+ "fact": "有说法称它来自美洲黑鸭而不是绿头鸭，但没有科学证据支持。",
+ "range": "原产美国纽约州；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Cayuga duck」"
+ ],
+ "footnote": "这是家鸭的一个品种；“从濒危到观察”为美国家畜保护组织的评级。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "图卢兹鹅",
+ "no": "1030",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "图卢兹鹅",
+ "name_en": "Toulouse goose",
+ "latin": "Anser anser domesticus（品种）",
+ "short": "图卢兹鹅",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和谷物",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "法国体重",
+   "value": "7–9 kg",
+   "lo": 7,
+   "hi": 9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "英标公鹅",
+   "value": "近 13 kg",
+   "lo": 13,
+   "hi": 13,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "1894 获奖",
+   "value": "超过 15 kg",
+   "lo": 15,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "脚环尺寸",
+   "value": "27 mm",
+   "lo": 0.027,
+   "hi": 0.027,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大型肉鹅",
+   "icon": "food",
+   "desc": "生产型图卢兹鹅是为生产鹅肝和鹅肉培育的。"
+  },
+  {
+   "name": "灰雁后代",
+   "icon": "wind",
+   "desc": "和多数家鹅一样，它来自野生灰雁。"
+  }
+ ],
+ "intro": [
+  "【品种】图卢兹鹅是法国的大型家鹅品种。",
+  "原产法国西南部图卢兹一带。",
+  "在英国被培育得更重。"
+ ],
+ "fact": "1894 年英国家禽展上，一只超过 15 kg 的图卢兹公鹅获了奖。",
+ "range": "原产法国图卢兹；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Toulouse goose」"
+ ],
+ "footnote": "这是家鹅的一个品种。"
+}

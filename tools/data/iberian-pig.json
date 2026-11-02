@@ -1,0 +1,78 @@
+{
+ "file": "伊比利亚猪",
+ "no": "1029",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "伊比利亚猪",
+ "name_en": "Iberian pig",
+ "latin": "Sus scrofa domesticus（品种）",
+ "short": "伊比利亚猪",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "传统上在橡树林里吃橡子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "锐减始于",
+   "value": "1960 年",
+   "lo": 1960,
+   "hi": 1960,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "橡树种类",
+   "value": "3 种",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "被毛",
+   "value": "很少或无毛",
+   "lo": 5,
+   "hi": 5,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "别名",
+   "value": "“黑蹄”",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃橡子长大",
+   "icon": "seed",
+   "desc": "传统上在稀疏的橡树林里放养，吃冬青栎、栓皮栎等的橡子。"
+  },
+  {
+   "name": "大理石花纹",
+   "icon": "food",
+   "desc": "肌肉里脂肪多，形成大理石花纹，让它的火腿风味特别。"
+  }
+ ],
+ "intro": [
+  "【品种】伊比利亚猪是伊比利亚半岛的传统家猪品种。",
+  "毛色红或深色，黑色的从深黑到灰色，几乎无毛，身体精瘦。",
+  "因此也叫“pata negra”（黑蹄）。"
+ ],
+ "fact": "1960 年以后，因为非洲猪瘟暴发和动物脂肪贬值，它的数量大幅减少。",
+ "range": "原产西班牙和葡萄牙。",
+ "sources": [
+  "Wikipedia「Black Iberian pig」"
+ ],
+ "footnote": "这是家猪的一个品种；被毛百分比为示意；年份类数值比例条无意义。"
+}

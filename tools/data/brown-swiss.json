@@ -1,0 +1,78 @@
+{
+ "file": "瑞士褐牛",
+ "no": "1035",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "瑞士褐牛",
+ "name_en": "Brown Swiss cattle",
+ "latin": "Bos taurus（品种）",
+ "short": "瑞士褐牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和饲料",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "年产奶",
+   "value": "10231 kg",
+   "lo": 10231,
+   "hi": 10231,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "泌乳期",
+   "value": "305 天",
+   "lo": 305,
+   "hi": 305,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "乳脂",
+   "value": "约 4%",
+   "lo": 4,
+   "hi": 4,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "乳蛋白",
+   "value": "约 3.5%",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "做奶酪的奶",
+   "icon": "food",
+   "desc": "牛奶的脂肪和蛋白含量适合做奶酪。"
+  },
+  {
+   "name": "白圈黑鼻",
+   "icon": "camo",
+   "desc": "口鼻是黑色的，周围有一圈奶白色。"
+  }
+ ],
+ "intro": [
+  "【品种】美国瑞士褐牛是美国的奶牛品种。",
+  "它来自欧洲阿尔卑斯地区传统的三用途瑞士褐牛，但已明显分化。",
+  "20 世纪中期强化选育导致遗传多样性下降。"
+ ],
+ "fact": "2013 年报道的平均产奶量是每头牛每个 305 天泌乳期 10231 kg。",
+ "range": "起源于美国（祖先来自瑞士）；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Brown Swiss cattle」"
+ ],
+ "footnote": "这是家牛的一个品种。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "白纹牛羚",
+ "no": "1043",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "白纹牛羚",
+ "name_en": "Bontebok",
+ "latin": "Damaliscus pygargus",
+ "short": "白纹牛羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃短草",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2017",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "0.8–1 m",
+   "lo": 0.8,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "1.2–1.6 m",
+   "lo": 1.2,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "30–60 cm",
+   "lo": 0.3,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "50–68 kg",
+   "lo": 50,
+   "hi": 68,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色面纹",
+   "icon": "camo",
+   "desc": "巧克力褐色的身体，腹部白色，从额头到鼻尖有一道白纹。"
+  },
+  {
+   "name": "领地公兽",
+   "icon": "roar",
+   "desc": "成年公兽建立领地，会对其他公兽展示，偶尔打斗。"
+  }
+ ],
+ "intro": [
+  "白纹牛羚分布在南非、莱索托和纳米比亚。",
+  "它有两个亚种：西开普省的南非白纹牛羚和高地草原上的白面牛羚。",
+  "它和转角牛羚是近亲。"
+ ],
+ "fact": "白纹牛羚曾被大量猎杀，后来靠保护区才恢复。",
+ "range": "南非、莱索托、纳米比亚。",
+ "sources": [
+  "Wikipedia「Bontebok」",
+  "IUCN 红色名录（Radloff, F. 2017）"
+ ],
+ "footnote": "IUCN 评估对象为整个物种（含两个亚种）。"
+}

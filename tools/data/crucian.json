@@ -1,0 +1,79 @@
+{
+ "file": "鲫鱼",
+ "no": "1027",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "鲫鱼",
+ "name_en": "Crucian carp",
+ "latin": "Carassius carassius",
+ "short": "鲫鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "典型体长",
+   "value": "约 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "英国纪录",
+   "value": "2.212 kg",
+   "lo": 2.212,
+   "hi": 2.212,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "缺氧存活",
+   "value": "140 天（实验）",
+   "lo": 140,
+   "hi": 140,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "耐受水温",
+   "value": "低至 0 °C",
+   "lo": 0,
+   "hi": 0,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "无氧求生",
+   "icon": "cold",
+   "desc": "实验中它在缺氧的水里活了 140 天，水越冷撑得越久。"
+  },
+  {
+   "name": "变身体型",
+   "icon": "huddle",
+   "desc": "和捕食性鱼类同住的水体里，它的种群会诱导出体型变化（变得更高）。"
+  }
+ ],
+ "intro": [
+  "欧洲鲫是鲤科的中型鱼，广泛分布在北欧。",
+  "它很少超过 2 kg。",
+  "常和金鱼、银鲫混淆。"
+ ],
+ "fact": "2024 年英国用钓竿钓到的最大欧洲鲫重 2.212 kg。",
+ "range": "欧洲（北欧为主）到西伯利亚的湖泊和池塘。",
+ "sources": [
+  "Wikipedia「Crucian carp」",
+  "IUCN 红色名录（Freyhof, J. 2024）"
+ ],
+ "footnote": "中文“鲫鱼”通常指亚洲的鲫（Carassius auratus 等），这里是欧洲鲫。"
+}

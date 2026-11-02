@@ -1,0 +1,79 @@
+{
+ "file": "马羚",
+ "no": "1042",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "马羚",
+ "name_en": "Roan antelope",
+ "latin": "Hippotragus equinus",
+ "short": "马羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃中等高度的草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "135–160 cm",
+   "lo": 1.35,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "230–320 kg",
+   "lo": 230,
+   "hi": 320,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "190–240 cm",
+   "lo": 1.9,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "最长 54 cm",
+   "lo": 0.54,
+   "hi": 0.54,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "后弯长角",
+   "icon": "thorn",
+   "desc": "公母都长一对向后弯的大角，公的更大。"
+  },
+  {
+   "name": "莫西干鬃毛",
+   "icon": "wind",
+   "desc": "背上有一道短而直立、像莫西干发型的鬃毛。"
+  }
+ ],
+ "intro": [
+  "马羚是生活在非洲西部、南部及中东部稀树草原上的大型羚羊。",
+  "名字来自它略带红色的“沙褐色”毛。",
+  "它是世界上最大的羚羊之一，仅次于大羚羊和蓝牛羚。"
+ ],
+ "fact": "脸上有黑白相间的“面具”，母的颜色浅一些。",
+ "range": "撒哈拉以南非洲的稀树草原。",
+ "sources": [
+  "Wikipedia「Roan antelope」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2017）"
+ ],
+ "footnote": ""
+}

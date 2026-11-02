@@ -1,0 +1,78 @@
+{
+ "file": "真鲷",
+ "no": "1026",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "真鲷",
+ "name_en": "Red seabream",
+ "latin": "Pagrus major",
+ "short": "真鲷",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "肉食性（维基未详述食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 红色名录",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见食用",
+   "value": "30–70 cm",
+   "lo": 0.3,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "30–200 m",
+   "lo": 30,
+   "hi": 200,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "20–40 年",
+   "lo": 20,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吉祥之鱼",
+   "icon": "glow",
+   "desc": "在日本叫“真鲷”，是日本料理中很重要的鱼。"
+  },
+  {
+   "name": "礁底独居",
+   "icon": "dive",
+   "desc": "成鱼常独自生活在 30–200 m 深的礁石底部。"
+  }
+ ],
+ "intro": [
+  "真鲷是鲷科的海洋鱼类，分布在西太平洋。",
+  "身体长椭圆形，侧扁，上下颌稍微前突。",
+  "胸鳍长。"
+ ],
+ "fact": "19 世纪描述它的学者说它是日本最常见、个头最大的鲷鱼。",
+ "range": "西北太平洋（日本、朝鲜半岛、中国东部和南部沿海等）。",
+ "sources": [
+  "Wikipedia「Pagrus major」"
+ ],
+ "footnote": "IUCN 评估年份维基未列（待核）。"
+}

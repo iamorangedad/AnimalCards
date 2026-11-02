@@ -1,0 +1,79 @@
+{
+ "file": "香鱼",
+ "no": "1040",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "香鱼",
+ "name_en": "Ayu sweetfish",
+ "latin": "Plecoglossus altivelis",
+ "short": "香鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要刮食石头上的藻类",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2012",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "回河体长",
+   "value": "约 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "夏季体长",
+   "value": "15–30 cm",
+   "lo": 0.15,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "典型寿命",
+   "value": "1 年",
+   "lo": 1,
+   "hi": 1,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "台湾种灭绝",
+   "value": "1968 年",
+   "lo": 1968,
+   "hi": 1968,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "锯齿刮藻",
+   "icon": "food",
+   "desc": "用锯齿状的牙齿刮食石头上的藻类，成鱼会守护自己的觅食领地。"
+  },
+  {
+   "name": "年鱼",
+   "icon": "seed",
+   "desc": "通常只活一年，所以也写作“年鱼”；有些能活 2–3 年。"
+  }
+ ],
+ "intro": [
+  "香鱼原产东亚，从日本北海道到朝鲜半岛、中国和越南北部都有。",
+  "它在海里和河里之间洄游；日本琵琶湖等湖里还有陆封种群。",
+  "秋天在河流下游的砾石里挖小坑产卵。"
+ ],
+ "fact": "台湾的原生野生种群 1968 年因污染灭绝，现在的种群是 20 世纪 90 年代从日本重新引入的。",
+ "range": "西北太平洋沿岸及河流（日本、朝鲜半岛、中国、越南北部）。",
+ "sources": [
+  "Wikipedia「Ayu sweetfish」",
+  "IUCN 红色名录（Huckstorf, V. 2012）"
+ ],
+ "footnote": "“台湾野生种灭绝”只是年份，比例条无意义。"
+}

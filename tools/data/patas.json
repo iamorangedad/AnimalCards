@@ -1,0 +1,79 @@
+{
+ "file": "赤猴",
+ "no": "1046",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "赤猴",
+ "name_en": "Common patas monkey",
+ "latin": "Erythrocebus patas",
+ "short": "赤猴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃金合欢树胶、昆虫、种子",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2022",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "奔跑速度",
+   "value": "55 km/h",
+   "lo": 55,
+   "hi": 55,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "公猴体重",
+   "value": "12.4 kg",
+   "lo": 12.4,
+   "hi": 12.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母猴体重",
+   "value": "6.5 kg",
+   "lo": 6.5,
+   "hi": 6.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "灵长类短跑王",
+   "icon": "wind",
+   "desc": "最高速度 55 km/h，是跑得最快的灵长类。"
+  },
+  {
+   "name": "地面生活",
+   "icon": "team",
+   "desc": "它主要生活在地面，住在干燥开阔的林地。"
+  }
+ ],
+ "intro": [
+  "赤猴也叫骑兵猴，分布在西非到东非的半干旱地区。",
+  "公猴比母猴大得多，母猴平均体长约 49 cm。",
+  "2017 年有研究提议把它分成三个物种。"
+ ],
+ "fact": "公母体型差别很大，是性二型明显的猴子。",
+ "range": "西非到东非的半干旱稀树草原和开阔林地。",
+ "sources": [
+  "Wikipedia「Common patas monkey」",
+  "IUCN 红色名录（De Jong, Y.A. 2022）"
+ ],
+ "footnote": ""
+}

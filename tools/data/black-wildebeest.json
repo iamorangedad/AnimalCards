@@ -1,0 +1,79 @@
+{
+ "file": "白尾角马",
+ "no": "1041",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "白尾角马",
+ "name_en": "Black wildebeest",
+ "latin": "Connochaetes gnou",
+ "short": "白尾角马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "1.7–2.2 m",
+   "lo": 1.7,
+   "hi": 2.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "110–180 kg",
+   "lo": 110,
+   "hi": 180,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公兽肩高",
+   "value": "1.11–1.21 m",
+   "lo": 1.11,
+   "hi": 1.21,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "约 8.5 个月",
+   "lo": 8.5,
+   "hi": 8.5,
+   "scale": "months",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白马尾",
+   "icon": "wind",
+   "desc": "它有一条又长又白、像马尾一样的尾巴，所以也叫白尾角马。"
+  },
+  {
+   "name": "快跑者",
+   "icon": "team",
+   "desc": "它们跑得很快，用多种视觉信号和叫声交流。"
+  }
+ ],
+ "intro": [
+  "白尾角马是两种角马之一，属于牛科。",
+  "毛色深褐到黑色，前腿之间和腹下有长长的深色毛。",
+  "群体分为母兽群、单身公兽群和占领领地的公兽。"
+ ],
+ "fact": "已知最早的化石发现于南非自由州，距今约 80 万年。",
+ "range": "南部非洲（南非、莱索托、斯威士兰；纳米比亚有引入）。",
+ "sources": [
+  "Wikipedia「Black wildebeest」",
+  "IUCN 红色名录（Vrahimis, S. 2017）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "野双峰驼",
+ "no": "1047",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "野双峰驼",
+ "name_en": "Wild Bactrian camel",
+ "latin": "Camelus ferus",
+ "short": "野双峰驼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃灌木和草",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2025",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "寿命",
+   "value": "约 40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "夏季气温",
+   "value": "40–50 °C",
+   "lo": 40,
+   "hi": 50,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "冬季低温",
+   "value": "−30 °C",
+   "lo": -30,
+   "hi": -30,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "密度低至",
+   "value": "5 只/100 km²",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "喝咸水",
+   "icon": "drop",
+   "desc": "它能靠比海水还咸的水活下来，这大概是其他大型哺乳动物都做不到的。"
+  },
+  {
+   "name": "极端温差",
+   "icon": "cold",
+   "desc": "栖息地夏天 40–50 °C，冬天低到 −30 °C。"
+  }
+ ],
+ "intro": [
+  "野双峰驼是中国西北和蒙古西南部特有的濒危骆驼。",
+  "它和家养双峰驼是近亲，但不是家骆驼的祖先。",
+  "雌驼 5 岁开始繁殖，此后每 2 年产一胎。"
+ ],
+ "fact": "它们完全迁徙、分布很分散。",
+ "range": "中国西北（新疆、甘肃）和蒙古西南部的沙漠。",
+ "sources": [
+  "Wikipedia「Wild Bactrian camel」",
+  "IUCN 红色名录（Mallon, D. 2025）"
+ ],
+ "footnote": ""
+}

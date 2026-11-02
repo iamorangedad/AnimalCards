@@ -1,0 +1,78 @@
+{
+ "file": "努比亚山羊",
+ "no": "1034",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "努比亚山羊",
+ "name_en": "Anglo-Nubian goat",
+ "latin": "Capra hircus（品种）",
+ "short": "努比亚山羊",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和嫩枝",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "日产奶",
+   "value": "约 3.9 kg",
+   "lo": 3.9,
+   "hi": 3.9,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "乳脂率",
+   "value": "约 4.8%",
+   "lo": 4.8,
+   "hi": 4.8,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "24 小时最高",
+   "value": "约 8.25 kg",
+   "lo": 8.25,
+   "hi": 8.25,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "年产奶最高",
+   "value": "超过 2500 kg",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长垂耳",
+   "icon": "ear",
+   "desc": "它的祖先之一是从印度、中东等地进口的大垂耳山羊。"
+  },
+  {
+   "name": "高脂奶",
+   "icon": "food",
+   "desc": "奶的乳脂率约 4.8%。"
+  }
+ ],
+ "intro": [
+  "【品种】英国努比亚山羊是英国的家山羊品种。",
+  "19 世纪由英国本地山羊和进口的大垂耳山羊杂交而成。",
+  "它是产奶山羊。"
+ ],
+ "fact": "有记录的最高年产奶量超过 2500 kg。",
+ "range": "原产英国；现在世界各地都有饲养。",
+ "sources": [
+  "Wikipedia「Anglo-Nubian」"
+ ],
+ "footnote": "这是山羊的一个品种。"
+}

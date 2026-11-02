@@ -1,0 +1,79 @@
+{
+ "file": "小岩羚",
+ "no": "1050",
+ "cat": "高原草原",
+ "kingdom": "动物",
+ "name_cn": "小岩羚",
+ "name_en": "Steenbok",
+ "latin": "Raphicerus campestris",
+ "short": "小岩羚",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃嫩叶",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "45–60 cm",
+   "lo": 0.45,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "7–16 kg",
+   "lo": 7,
+   "hi": 16,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "公羊角长",
+   "value": "7–19 cm",
+   "lo": 0.07,
+   "hi": 0.19,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "约 170 天",
+   "lo": 170,
+   "hi": 170,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "大耳朵",
+   "icon": "ear",
+   "desc": "耳朵很大，内侧有“指纹”一样的花纹。"
+  },
+  {
+   "name": "早熟幼崽",
+   "icon": "seed",
+   "desc": "通常一胎一只，幼崽出生不久就能活动。"
+  }
+ ],
+ "intro": [
+  "小岩羚是非洲南部和东部常见的小羚羊。",
+  "它长得像小号的侏羚。",
+  "毛色从浅黄褐到红褐，通常偏橙色。"
+ ],
+ "fact": "尾巴只有 4–6 cm 长，平时一般看不见。",
+ "range": "非洲南部和东部（两块分开的分布区）。",
+ "sources": [
+  "Wikipedia「Steenbok」",
+  "IUCN 红色名录（IUCN SSC 羚羊专家组 2016）"
+ ],
+ "footnote": ""
+}

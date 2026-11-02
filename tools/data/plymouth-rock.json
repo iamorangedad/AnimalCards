@@ -1,0 +1,78 @@
+{
+ "file": "芦花鸡",
+ "no": "1037",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "芦花鸡",
+ "name_en": "Plymouth Rock chicken",
+ "latin": "Gallus gallus domesticus（品种）",
+ "short": "芦花鸡",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃谷物和虫子",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "蛋重",
+   "value": "约 55 g",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "全球数量",
+   "value": "近 24500 只",
+   "lo": 24500,
+   "hi": 24500,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "鸡冠尖",
+   "value": "5 个",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "首次展出",
+   "value": "1849 年",
+   "lo": 1849,
+   "hi": 1849,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "横斑羽毛",
+   "icon": "camo",
+   "desc": "最早的羽色是黑白相间的横斑。"
+  },
+  {
+   "name": "耐寒好养",
+   "icon": "cold",
+   "desc": "抗寒、好管理，也是好的抱窝鸡。"
+  }
+ ],
+ "intro": [
+  "【品种】芦花鸡（普利茅斯洛克鸡）是美国的家鸡品种。",
+  "20 世纪早期很长时间里它是美国饲养最多的鸡。",
+  "它是肉蛋兼用鸡，下褐壳蛋。"
+ ],
+ "fact": "单冠有 5 个尖，鸡冠、肉垂和耳叶都是鲜红色，腿是黄色的。",
+ "range": "原产美国马萨诸塞州；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Plymouth Rock chicken」"
+ ],
+ "footnote": "这是家鸡的一个品种；全球数量为 2026 年报告。"
+}

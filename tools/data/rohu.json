@@ -1,0 +1,79 @@
+{
+ "file": "南亚野鲮",
+ "no": "1028",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "南亚野鲮",
+ "name_en": "Rohu",
+ "latin": "Labeo rohita",
+ "short": "南亚野鲮",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "大型杂食鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体重",
+   "value": "45 kg",
+   "lo": 45,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大体长",
+   "value": "2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体长",
+   "value": "约 0.5 m",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "分布",
+   "value": "南亚河流",
+   "lo": 1,
+   "hi": 1,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "养殖主力",
+   "icon": "food",
+   "desc": "它被大量用于水产养殖。"
+  },
+  {
+   "name": "大型鲤鱼",
+   "icon": "trunk",
+   "desc": "体型大、银色，是典型的鲤科鱼。"
+  }
+ ],
+ "intro": [
+  "南亚野鲮也叫露斯塔野鲮，是鲤科鱼，生活在南亚的河流里。",
+  "它是大型杂食鱼。",
+  "广泛用于水产养殖。"
+ ],
+ "fact": "它在南亚是很重要的食用鱼。",
+ "range": "南亚（印度、孟加拉、巴基斯坦、尼泊尔、缅甸等）的河流。",
+ "sources": [
+  "Wikipedia「Rohu」",
+  "IUCN 红色名录（Dahanukar, N. 2010）"
+ ],
+ "footnote": "“分布”不是数值，比例条无意义。"
+}

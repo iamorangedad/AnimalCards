@@ -1,0 +1,78 @@
+{
+ "file": "佩尔什马",
+ "no": "1036",
+ "cat": "农场",
+ "kingdom": "动物",
+ "name_cn": "佩尔什马",
+ "name_en": "Percheron",
+ "latin": "Equus caballus（品种）",
+ "short": "佩尔什马",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草和干草",
+ "iucn": {
+  "code": "NE",
+  "sub": "家养动物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "法国肩高",
+   "value": "155–185 cm",
+   "lo": 1.55,
+   "hi": 1.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "法国体重",
+   "value": "500–1200 kg",
+   "lo": 500,
+   "hi": 1200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "美国均重",
+   "value": "约 860 kg",
+   "lo": 860,
+   "hi": 860,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "30 年代占比",
+   "value": "70%",
+   "lo": 70,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "挽马力士",
+   "icon": "trunk",
+   "desc": "肌肉发达，以力气大和聪明著称。"
+  },
+  {
+   "name": "灰与黑",
+   "icon": "camo",
+   "desc": "通常是灰色或黑色。"
+  }
+ ],
+ "intro": [
+  "【品种】佩尔什马是起源于法国西部佩尔什地区的挽马。",
+  "20 世纪 30 年代美国 70% 的挽马是佩尔什马。",
+  "二战后数量大幅下降。"
+ ],
+ "fact": "17 世纪佩尔什地区的马比现在小，只有 152–163 cm 高。",
+ "range": "原产法国佩尔什；现在多国有饲养。",
+ "sources": [
+  "Wikipedia「Percheron」"
+ ],
+ "footnote": "这是马的一个品种。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "棕色隐士蜘蛛",
+ "no": "1267",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "棕色隐士蜘蛛",
+ "name_en": "Brown recluse",
+ "latin": "Loxosceles reclusa",
+ "short": "棕色隐士蜘蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "室内"
+ ],
+ "diet": "肉食",
+ "diet_note": "（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "6–20 mm",
+   "lo": 0.006,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每个卵囊",
+   "value": "约 50 粒卵",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "咬伤坏死",
+   "value": "37% 病例",
+   "lo": 37,
+   "hi": 37,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "全身症状",
+   "value": "14% 病例",
+   "lo": 14,
+   "hi": 14,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "小提琴斑",
+   "icon": "camo",
+   "desc": "头胸部背面有像小提琴的深色花纹，所以也叫“小提琴蛛”。"
+  },
+  {
+   "name": "坏死毒液",
+   "icon": "toxic",
+   "desc": "毒液会引起皮肤坏死，咬伤后 2–8 小时开始疼痒。"
+  }
+ ],
+ "intro": [
+  "棕色隐士蜘蛛是刺客蛛科的隐士蛛。",
+  "它和黑寡妇是北美仅有的两种危险毒蛛。",
+  "很多“隐士蛛咬伤”其实是误诊，它没有在加州定居。"
+ ],
+ "fact": "疼痛在咬伤后 12–36 小时加重，之后几天出现坏死。",
+ "range": "美国南部和中部：得克萨斯中部到佐治亚西部，北到肯塔基。",
+ "sources": [
+  "Wikipedia「Brown recluse spider」"
+ ],
+ "footnote": "",
+ "warn": "咬伤可能造成皮肤坏死，被咬后要尽快就医。"
+}

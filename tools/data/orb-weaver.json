@@ -1,0 +1,69 @@
+{
+ "file": "金蛛",
+ "no": "1262",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "金蛛",
+ "name_en": "Wasp spider",
+ "latin": "Argiope bruennichi",
+ "short": "金蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "用网捕捉昆虫，用丝包住后注入麻痹毒液",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌蛛体长",
+   "value": "14–20 mm",
+   "lo": 0.014,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蛛体长",
+   "value": "约 4.5 mm",
+   "lo": 0.0045,
+   "hi": 0.0045,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "雄蛛存活",
+   "value": "从 20% 到 97%",
+   "lo": 20,
+   "hi": 97,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "Z 字网饰",
+   "icon": "web",
+   "desc": "圆网中央有锯齿状的丝带装饰，叫“隐带”。"
+  },
+  {
+   "name": "黄蜂打扮",
+   "icon": "camo",
+   "desc": "腹部有黄、白、黑的条纹，像黄蜂一样。"
+  }
+ ],
+ "intro": [
+  "金蛛也叫黄蜂蛛，是园蛛科的蜘蛛。",
+  "雌蛛刚蜕皮时螯肢变软，雄蛛趁机交配就不会被吃。",
+  "这一招让雄蛛存活率从 20% 提高到 97%。"
+ ],
+ "fact": "研究发现网饰越多的蜘蛛捕到的猎物越多、长得越快。",
+ "range": "中欧和北欧、亚洲和非洲部分地区以及亚速尔群岛。",
+ "sources": [
+  "Wikipedia「Argiope bruennichi」"
+ ],
+ "footnote": ""
+}

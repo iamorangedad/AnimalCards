@@ -1,0 +1,79 @@
+{
+ "file": "白额高脚蛛",
+ "no": "1266",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "白额高脚蛛",
+ "name_en": "Pantropical huntsman spider",
+ "latin": "Heteropoda venatoria",
+ "short": "白额高脚蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "室内"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫，包括多种蝴蝶、蛾子和蟑螂",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.2–2.8 cm",
+   "lo": 0.022,
+   "hi": 0.028,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵囊宽",
+   "value": "最多约 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每个卵囊",
+   "value": "100–400 多粒",
+   "lo": 100,
+   "hi": 400,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "雌蛛寿命",
+   "value": "约 580 天",
+   "lo": 1.5890410958904109,
+   "hi": 1.5890410958904109,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "家中捕手",
+   "icon": "food",
+   "desc": "在百慕大它多住在室内，被叫作“家蛛”。"
+  },
+  {
+   "name": "护卵妈妈",
+   "icon": "huddle",
+   "desc": "雌蛛把卵囊夹在身下随身带着。"
+  }
+ ],
+ "intro": [
+  "白额高脚蛛是巨蟹蛛科的蜘蛛，也叫“甘蔗蛛”。",
+  "它身体扁平、褐色，腿上的刚毛有黑点。",
+  "毒液含钾离子通道阻断剂 HpTX2。"
+ ],
+ "fact": "它不被认为危险，但咬人会疼。",
+ "range": "原产世界热带地区，亚热带有引入。",
+ "sources": [
+  "Wikipedia「Heteropoda venatoria」"
+ ],
+ "footnote": "",
+ "warn": "咬人会疼，不要用手去抓。"
+}

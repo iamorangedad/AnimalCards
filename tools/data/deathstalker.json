@@ -1,0 +1,62 @@
+{
+ "file": "以色列金蝎",
+ "no": "1270",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "以色列金蝎",
+ "name_en": "Deathstalker",
+ "latin": "Leiurus quinquestriatus",
+ "short": "以色列金蝎",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–77 mm",
+   "lo": 0.03,
+   "hi": 0.077,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "平均体长",
+   "value": "58 mm",
+   "lo": 0.058,
+   "hi": 0.058,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "剧毒神经毒",
+   "icon": "toxic",
+   "desc": "毒液是强力神经毒素的混合物，致死剂量很低。"
+  },
+  {
+   "name": "抗癌研究",
+   "icon": "micro",
+   "desc": "毒液里的氯毒素被研究用来给脑肿瘤“上色”，帮助手术。"
+  }
+ ],
+ "intro": [
+  "以色列金蝎是钳蝎科的蝎子，身体黄色。",
+  "它是最危险的蝎子之一。",
+  "它生活在沙漠和灌丛中。"
+ ],
+ "fact": "蜇伤极痛，一般不会让健康成人丧命，但儿童和老人风险高得多。",
+ "range": "撒哈拉、阿拉伯、塔尔沙漠和中亚，从阿尔及利亚、马里到哈萨克斯坦和印度西部。",
+ "sources": [
+  "Wikipedia「Deathstalker」"
+ ],
+ "footnote": "",
+ "warn": "剧毒，蜇伤极痛，儿童老人尤其危险；被蜇立即就医。"
+}

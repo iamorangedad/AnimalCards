@@ -1,0 +1,79 @@
+{
+ "file": "水蛛",
+ "no": "1268",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "水蛛",
+ "name_en": "Diving bell spider",
+ "latin": "Argyroneta aquatica",
+ "short": "水蛛",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食水生昆虫和甲壳类，如蚊子幼虫和水蚤",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2026",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雄蛛体长",
+   "value": "10–15 mm",
+   "lo": 0.01,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蛛体长",
+   "value": "8–12 mm",
+   "lo": 0.008,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄比雌大",
+   "value": "约 30%",
+   "lo": 30,
+   "hi": 30,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "每个卵囊",
+   "value": "30–70 粒",
+   "lo": 30,
+   "hi": 70,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "水下气泡屋",
+   "icon": "drop",
+   "desc": "用丝在水下织一个“潜水钟”，里面装满空气。"
+  },
+  {
+   "name": "银色外衣",
+   "icon": "dive",
+   "desc": "腹部和腿上的疏水毛裹住一层气泡，看上去银光闪闪。"
+  }
+ ],
+ "intro": [
+  "水蛛是已知唯一几乎一生都在水下生活的蜘蛛。",
+  "它只偶尔浮上水面补充氧气。",
+  "雌蛛在气泡屋里做卵囊。"
+ ],
+ "fact": "属名 Argyroneta 来自希腊语“银”。",
+ "range": "欧洲大部、英国和亚洲中北部，南到伊朗。",
+ "sources": [
+  "Wikipedia「Diving bell spider」",
+  "IUCN 红色名录（Milano, F. 2026）"
+ ],
+ "footnote": ""
+}

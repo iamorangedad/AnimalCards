@@ -1,0 +1,79 @@
+{
+ "file": "蓝彩鳉",
+ "no": "1259",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "蓝彩鳉",
+ "name_en": "Turquoise killifish",
+ "latin": "Nothobranchius furzeri",
+ "short": "蓝彩鳉",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "饲养时主要喂血虫（维基未详述野外食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "性成熟",
+   "value": "孵化后 14 天",
+   "lo": 14,
+   "hi": 14,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "1–5 个月",
+   "lo": 30,
+   "hi": 150,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "饲养寿命",
+   "value": "3–16 个月",
+   "lo": 90,
+   "hi": 400,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "最长 6.5 cm",
+   "lo": 0.065,
+   "hi": 0.065,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最快成熟",
+   "icon": "clone",
+   "desc": "孵化后 14 天就性成熟，是已知最快的脊椎动物。"
+  },
+  {
+   "name": "衰老模型",
+   "icon": "micro",
+   "desc": "寿命极短，被用来研究衰老。"
+  }
+ ],
+ "intro": [
+  "蓝彩鳉属于假鳃鳉科。",
+  "它只分布在津巴布韦和莫桑比克。",
+  "基因组 21% 是串联重复，可能和它衰老快有关。"
+ ],
+ "fact": "大多数野外个体只活到 2 个月左右。",
+ "range": "非洲：津巴布韦和莫桑比克。",
+ "sources": [
+  "Wikipedia「Turquoise killifish」",
+  "IUCN 红色名录（Nagy, B. 2019）"
+ ],
+ "footnote": "饲养寿命 16 个月超出刻度上限，按 400 天显示。"
+}

@@ -1,0 +1,53 @@
+{
+ "file": "活板门蛛",
+ "no": "1269",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "活板门蛛",
+ "name_en": "Ummidia trapdoor spiders",
+ "latin": "Ummidia",
+ "short": "活板门蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "与近亲分开",
+   "value": "5000 多万年前",
+   "lo": 50,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "活板门",
+   "icon": "camo",
+   "desc": "住在藏在落叶里的、内衬丝的洞穴中，很难被发现。"
+  },
+  {
+   "name": "黑色铠甲",
+   "icon": "thorn",
+   "desc": "身体从小到大都有，通常是黑色到深褐色。"
+  }
+ ],
+ "intro": [
+  "活板门蛛属是 Halonoproctidae 科的原蛛。",
+  "1875 年由 Thorell 首次描述。",
+  "雄蛛的背甲粗糙，雌蛛的光滑。"
+ ],
+ "fact": "它和外形相似的 Conothele 属在 5000 多万年前分开。",
+ "range": "地中海西南部、中亚，以及美洲（北到俄亥俄和马里兰，南到巴西）。",
+ "sources": [
+  "Wikipedia「Ummidia」"
+ ],
+ "footnote": "维基页面很短；“与近亲分开”刻度单位为百万年。属级卡片。"
+}

@@ -1,0 +1,77 @@
+{
+ "file": "避日蛛",
+ "no": "1273",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "避日蛛",
+ "name_en": "Camel spiders",
+ "latin": "Solifugae",
+ "short": "避日蛛",
+ "type": "沙漠",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "肉食",
+ "diet_note": "在干燥地区机会性地吃地面节肢动物和其他小动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "目级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "已描述种*",
+   "value": "1000 多种",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "属*",
+   "value": "约 147 个",
+   "lo": 147,
+   "hi": 147,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "最大全长*",
+   "value": "12–15 cm",
+   "lo": 0.12,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体长*",
+   "value": "最长 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "强力螯肢",
+   "icon": "trunk",
+   "desc": "螯肢非常有力，能剪下猎物的毛和羽毛，切开皮肤和细骨。"
+  },
+  {
+   "name": "触肢探路",
+   "icon": "ear",
+   "desc": "触肢像昆虫触角一样感知环境，看起来像多了一对腿。"
+  }
+ ],
+ "intro": [
+  "避日蛛是蛛形纲避日目的动物，又叫风蝎、骆驼蜘蛛。",
+  "很多都市传说夸大了它的大小、速度和危险。",
+  "其实它对人的危险可以忽略。"
+ ],
+ "fact": "南非人叫它“剪头发的”，传说它会剪人的头发做窝。",
+ "range": "美洲、南欧、非洲、中东和南亚的热带和亚热带沙漠。",
+ "sources": [
+  "Wikipedia「Camel spiders」"
+ ],
+ "footnote": "*为避日目整体数据。"
+}

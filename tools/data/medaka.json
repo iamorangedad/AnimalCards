@@ -1,0 +1,79 @@
+{
+ "file": "青鳉",
+ "no": "1258",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "青鳉",
+ "name_en": "Japanese rice fish",
+ "latin": "Oryzias latipes",
+ "short": "青鳉",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃孑孓和小型浮游生物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长约 3.6 cm",
+   "lo": 0.036,
+   "hi": 0.036,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "耐受水温",
+   "value": "0–42 °C",
+   "lo": 0,
+   "hi": 42,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "4–10 天",
+   "lo": 4,
+   "hi": 10,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "约 2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃孑孓",
+   "icon": "food",
+   "desc": "吃蚊子幼虫，对人有益。"
+  },
+  {
+   "name": "模式生物",
+   "icon": "micro",
+   "desc": "基因组小、世代时间约 7 周，是常用的实验鱼。"
+  }
+ ],
+ "intro": [
+  "青鳉也叫日本稻田鱼，原产日本。",
+  "它生活在稻田、沼泽、池塘、缓流和潮池。",
+  "17 世纪起就是日本流行的观赏鱼。"
+ ],
+ "fact": "每次产卵 10–20 粒，实验室里可以天天产卵。",
+ "range": "日本。",
+ "sources": [
+  "Wikipedia「Japanese rice fish」",
+  "IUCN 红色名录（Kanao, S. 2019）"
+ ],
+ "footnote": ""
+}

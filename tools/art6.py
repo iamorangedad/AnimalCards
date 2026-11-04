@@ -454,3 +454,75 @@ ART6["gudgeon"] = _pf("#b0a890", 240, 70, tail="fork", eye_r=6, fin_col="#9a9078
 ART6["medaka"] = _pf("#e8d8a0", 200, 60, tail="round", eye_r=9, fin_col="#e8c870", belly="#f8f4e0")
 ART6["killifish"] = _pf("#3a8ab8", 220, 80, tail="round", eye_r=7, fin_col="#e8502a", belly="#7ac0e0", spots="#c8402a")
 ART6["eel-european"] = lambda w, h: scene("pond", w, h, G_(_eel("#5a5a3a", L=480, H=36, belly="#e8e0a0"), 0, -40), box=(w / 2, h * .7, 540, 220))
+# ---- batch p5_arc1 ----
+_arach = _a5._arach
+def _spd(F, abd=None, mark=None, leg=None, kind="forest", ab=(0, 30, 70, 60), ceph=(0, -45, 40), legl=1.0, hair=None, pre="", post="", web=False, box=(.76, 520, 320)):
+    def f(w, h):
+        o = pre
+        if web:
+            o += "".join(P(f"M0 -60 L{math.cos(a)*260:.0f} {-60+math.sin(a)*160:.0f}", sw=1.6, col="#c9ccd0") for a in [i * math.pi / 6 for i in range(12)])
+            o += "".join(P(" ".join(("M" if k == 0 else "L") + f"{math.cos(k*math.pi/6)*r:.0f} {-60+math.sin(k*math.pi/6)*r*.62:.0f}" for k in range(13)), sw=1.4, col="#c9ccd0") for r in (60, 110, 160, 210))
+        lc = leg or F
+        for s in (-1, 1):
+            for i in range(4):
+                d = f"M{s*18} {ceph[1]+10+i*6} L{s*(80+i*14)*legl:.0f} {ceph[1]-60+i*30} L{s*(130+i*20)*legl:.0f} {ceph[1]+80+i*4}"
+                o += P(d, sw=10, col=INK) + P(d, sw=6, col=lc)
+        o += E(ab[0], ab[1], ab[2], ab[3], abd or F, 3)
+        if mark: o += mark
+        if hair: o += "".join(P(f"M{x} {y} l-4 -10", sw=2, col=hair) for x in range(-ab[2] + 16, ab[2] - 10, 16) for y in (ab[1] - 20, ab[1], ab[1] + 20))
+        o += C(ceph[0], ceph[1], ceph[2], F, 3) + C(-10, ceph[1] - ceph[2] * .6, 5, INK, 0) + C(10, ceph[1] - ceph[2] * .6, 5, INK, 0)
+        return scene(kind, w, h, o + post, box=(w / 2, h * box[0], box[1], box[2]))
+    return f
+ART6["black-widow"] = _spd("#1a1a1e", ab=(0, 30, 70, 64), mark=P("M-14 40 L14 40 L0 58 Z M-14 76 L14 76 L0 58 Z", "#d8202a", 0), kind="home", legl=1.1)
+ART6["orb-weaver"] = _spd("#2a2a22", abd="#f2c83a", mark="".join(P(f"M-60 {y} H60", sw=8, col="#1a1a1a") for y in (10, 34, 58)), web=True, leg="#e8c83a", kind="meadow")
+ART6["jumping-spider"] = _spd("#3a2e22", abd="#2a6ad8", mark=E(0, 34, 50, 34, "#d8402a", 0) + "".join(C(x, 30, 8, "#f2c83a", 0) for x in (-26, 0, 26)), ceph=(0, -50, 46), legl=.8, kind="meadow",
+                              post=C(-18, -60, 12, INK, 0) + C(18, -60, 12, INK, 0) + C(-14, -64, 4, "#ffffff", 0) + C(22, -64, 4, "#ffffff", 0))
+ART6["wolf-spider"] = _spd("#6a5440", abd="#5a4632", mark=P("M0 -10 L0 80", sw=10, col="#a8906a"), hair="#8a7454", kind="forest")
+ART6["goliath-spider"] = _arach("#5a4030", hair="#c9a07a", kind="rainforest")
+ART6["huntsman"] = _spd("#8a6a4a", abd="#7a5a3a", ab=(0, 26, 60, 44), legl=1.4, kind="home", box=(.74, 560, 300))
+ART6["recluse"] = _spd("#a8865a", abd="#8a6a4a", mark=P("M0 -70 L-14 -30 L14 -30 Z", "#4a3220", 0), legl=1.2, kind="home")
+ART6["diving-bell"] = lambda w, h: scene("pond", w, h, E(80, -80, 120, 90, "#e6f2fb", 2.4, extra='fill-opacity=".85"') + G_(_spd("#4a4038", abd="#6a6a6a", legl=.8, kind="pond")(w, h).split("<g")[0] if False else "", 0, 0)
+                                       + "".join(P(f"M{80+math.cos(a)*120:.0f} {-80+math.sin(a)*90:.0f} L{80+math.cos(a)*160:.0f} {-80+math.sin(a)*130:.0f}", sw=1.6, col="#c9d6e0") for a in [i * .7 for i in range(9)])
+                                       + E(80, -70, 34, 28, "#5a5450", 3, ) + C(80, -110, 20, "#4a4038", 3) + "".join(P(f"M{80+s*14} -96 L{80+s*(50+i*10)} {-130+i*24} L{80+s*(70+i*12)} {-60+i*10}", sw=5, col="#4a4038") for s in (-1, 1) for i in range(4)), box=(w / 2, h * .74, 460, 360))
+def _trapdoor(w, h):
+    o = P("M-260 0 L260 0", sw=6, col="#6a5232") + E(0, 60, 70, 40, "#3a2e22", 0) + P("M-70 0 C-60 -50 40 -60 80 -20", "#8a6a3a", 3)
+    o += G_("".join(P(f"M{s*10} {-6+i*4} L{s*(40+i*8)} {-30+i*12} L{s*(60+i*10)} {10+i*2}", sw=6, col="#2a1e14") for s in (-1, 1) for i in range(4)) + E(0, 6, 34, 26, "#2a1e14", 2.6) + C(0, -20, 18, "#2a1e14", 2.6), 0, 40)
+    return scene("forest", w, h, o, box=(w / 2, h * .62, 460, 300))
+ART6["trapdoor"] = _trapdoor
+ART6["deathstalker"] = _arach("#e8d07a", tail=True, kind="desert", box=(.74, 480, 360))
+ART6["bark-scorpion"] = _arach("#c9a86a", tail=True, kind="desert", box=(.74, 480, 360))
+ART6["whip-scorpion"] = lambda w, h: _arach("#3a2a22", tail=False, kind="forest")(w, h).replace("</svg>", "</svg>") + "" if False else scene("forest", w, h,
+    "".join(P(f"M{s*20} {-20+i*8} L{s*(90+i*16)} {-80+i*26} L{s*(140+i*22)} 30", sw=10, col="#2a1e18") for s in (-1, 1) for i in range(3)) + P("M-20 -40 L-160 -200 M20 -40 L160 -200", sw=4, col="#2a1e18")
+    + E(0, 10, 40, 80, "#3a2a22", 3) + C(0, -70, 30, "#3a2a22", 3) + P("M0 90 C10 160 -20 220 10 260", sw=3, col="#2a1e18") + "".join(P(f"M{s*20} -80 L{s*60} -120 L{s*40} -140", sw=8, col="#2a1e18") for s in (-1, 1)), box=(w / 2, h * .62, 460, 380))
+ART6["camel-spider"] = _spd("#d8b880", abd="#c9a870", ab=(0, 40, 50, 70), ceph=(0, -40, 44), legl=1.1, hair="#f2e0b0", kind="desert",
+                            post=P("M-20 -84 L-30 -130 L-10 -110 M20 -84 L30 -130 L10 -110", "#8a5a30", 3))
+ART6["tick"] = _spd("#5a2a1a", abd="#8a3a2a", ab=(0, 20, 70, 84), ceph=(0, -76, 22), legl=.7, kind="meadow", mark=E(0, -20, 40, 30, "#2a1a10", 0))
+ART6["dust-mite"] = lambda w, h: scene("home", w, h, "".join(P(f"M{s*30} {-60+i*30} L{s*(110+i*6)} {-90+i*34} L{s*(140+i*6)} {-30+i*40}", sw=8, col="#c9b8a0") for s in (-1, 1) for i in range(4))
+                                         + E(0, -20, 90, 110, "#f2e8d8", 3) + "".join(P(f"M{-60+i*20} -60 C{-50+i*20} -20 {-60+i*20} 20 {-50+i*20} 60", sw=2, col="#c9b8a0") for i in range(7)) + C(0, -140, 26, "#e8dcc8", 3), box=(w / 2, h * .74, 420, 380))
+ART6["coconut-crab"] = lambda w, h: _a4_crab_col(w, h, "#5a3a8a", kind="savanna")
+ART6["red-crab"] = lambda w, h: _a4_crab_col(w, h, "#d8302a", kind="rainforest")
+def _fiddler(w, h):
+    s = _a4_crab_col(w, h, "#3a6ad8", kind="wetland")
+    return s
+ART6["fiddler"] = lambda w, h: scene("wetland", w, h, "".join(P(f"M{s*40} {-30+i*8} L{s*(90+i*14)} {-60+i*6} L{s*(120+i*16)} {10+i*4}", sw=8, col=INK) + P(f"M{s*40} {-30+i*8} L{s*(90+i*14)} {-60+i*6} L{s*(120+i*16)} {10+i*4}", sw=5, col="#3a6ad8") for s in (-1, 1) for i in range(4))
+    + E(0, -50, 80, 46, "#3a6ad8", 3) + P("M60 -70 L130 -140", sw=16, col=INK) + P("M60 -70 L130 -140", sw=11, col="#f2d83a") + E(170, -170, 70, 40, "#f2d83a", 3) + P("M-50 -70 L-80 -110", sw=8) + E(-90, -118, 14, 10, "#f2e0a0", 2)
+    + P("M-20 -92 l-6 -30 M20 -92 l6 -30", sw=4) + C(-26, -124, 6, INK, 0) + C(26, -124, 6, INK, 0), box=(w / 2, h * .74, 520, 300))
+ART6["king-crab"] = lambda w, h: scene("deep", w, h, "".join(P(f"M{s*40} {-30+i*8} L{s*(130+i*20)} {-110+i*10} L{s*(200+i*20)} {20+i*4}", sw=12, col=INK) + P(f"M{s*40} {-30+i*8} L{s*(130+i*20)} {-110+i*10} L{s*(200+i*20)} {20+i*4}", sw=8, col="#c8402a") for s in (-1, 1) for i in range(3))
+    + E(0, -60, 90, 70, "#c8402a", 3) + "".join(P(f"M{x} {y} l0 -14", sw=4, col="#8a2a1a") for x in range(-70, 80, 20) for y in (-90, -60, -30)) + C(-20, -130, 6, INK, 0) + C(20, -130, 6, INK, 0), box=(w / 2, h * .76, 560, 300))
+ART6["blue-crab"] = lambda w, h: _a4_crab_col(w, h, "#4a8ac8", kind="sea")
+ART6["pistol-shrimp"] = _sea(G_(shrimp(F="#e88a5a", L=240, H=56), 0, 0) + P("M-80 -10 L-140 30", sw=10, col=INK) + E(-170, 40, 46, 26, "#e88a5a", 3) + "".join(P(f"M-230 {30+k*6} l-30 {k*8-10}", sw=3, col="#ffffff") for k in range(3)), box=(.62, 520, 280))
+ART6["sea-louse"] = lambda w, h: scene("sea", w, h, G_(fish(F="#9aa6b4", L=480, H=160, tail="fork", belly="#e8eef2", eye_r=10, fin_col="#7a8694"), 0, 0) + "".join(G_(E(0, 0, 20, 14, "#c9a46a", 2) + P("M0 14 l-4 14 M6 14 l4 14", sw=3, col="#a8844a"), x, y) for x, y in ((40, -30), (90, 10), (-30, 20))), box=(w / 2, h * .6, 600, 300))
+def _pillbug(w, h):
+    o = E(0, -40, 150, 70, "#5a5a62", 3) + "".join(P(f"M{x} -104 C{x-8} -60 {x-8} -20 {x} 20", sw=3, col="#3a3a40") for x in range(-110, 130, 22))
+    o += P("M-150 -40 C-190 -70 -210 -90 -230 -80 M-150 -30 C-190 -40 -210 -30 -230 -20", sw=4) + "".join(P(f"M{x} 26 l-4 16", sw=4) for x in range(-110, 130, 30))
+    return scene("forest", w, h, o, box=(w / 2, h * .74, 460, 240))
+ART6["pill-bug"] = _pillbug
+def _goose(w, h):
+    o = P("M-260 -260 C-100 -250 100 -270 260 -250", sw=24, col="#8a6a3a")
+    for x in (-120, -20, 80):
+        o += P(f"M{x} -250 C{x+10} -200 {x-10} -160 {x} -120", sw=16, col="#5a3a3a") + P(f"M{x-30} -120 C{x-30} -40 {x+30} -40 {x+30} -120 C{x+20} -150 {x-20} -150 {x-30} -120 Z", "#f2eee6", 3) + P(f"M{x} -126 L{x} -50", sw=2, col="#9aa0a6")
+        o += "".join(P(f"M{x-10+k*8} -40 C{x-20+k*8} 0 {x-30+k*10} 20 {x-40+k*12} 30", sw=2.4, col="#5a3a3a") for k in range(4))
+    return scene("sea", w, h, o, box=(w / 2, h * .9, 460, 400))
+ART6["barnacle"] = _goose
+ART6["copepod"] = lambda w, h: scene("sea", w, h, P("M-80 -60 C-80 -140 80 -140 100 -60 C80 -10 -60 -10 -80 -60 Z", "#e8b07a", 3, extra='fill-opacity=".9"') + P("M100 -60 L200 -40 M200 -40 l30 -14 M200 -40 l30 14", sw=4)
+    + P("M-70 -100 C-160 -160 -260 -150 -300 -120", sw=3) + P("M-70 -90 C-160 -120 -260 -60 -300 -40", sw=3) + C(-60, -80, 8, "#c8302a", 0) + C(40, -70, 14, "#d84a2a", 0, ), box=(w / 2, h * .62, 520, 260))

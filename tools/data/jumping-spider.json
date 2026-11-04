@@ -1,0 +1,69 @@
+{
+ "file": "孔雀跳蛛",
+ "no": "1263",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "孔雀跳蛛",
+ "name_en": "Peacock spider",
+ "latin": "Maratus volans",
+ "short": "孔雀跳蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "白天在地面游走捕猎小昆虫",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "跳跃高度",
+   "value": "体长 40 倍",
+   "lo": 40,
+   "hi": 40,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每窝卵",
+   "value": "6–15 枚",
+   "lo": 6,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "孔雀舞",
+   "icon": "glow",
+   "desc": "雄蛛竖起彩色的腹瓣跳求偶舞，吸引雌蛛。"
+  },
+  {
+   "name": "看见紫外线",
+   "icon": "ear",
+   "desc": "视觉系统能看到全部可见光和紫外线，帮它追踪猎物。"
+  }
+ ],
+ "intro": [
+  "孔雀跳蛛是跳蛛科孔雀蛛属的蜘蛛。",
+  "雌蛛通常一生只交配一次。",
+  "雌蛛不感兴趣时雄蛛还跳，可能被雌蛛攻击吃掉。"
+ ],
+ "fact": "它们在南半球的春天最活跃，这也是繁殖季节。",
+ "range": "澳大利亚部分地区。",
+ "sources": [
+  "Wikipedia「Maratus volans」"
+ ],
+ "footnote": ""
+}

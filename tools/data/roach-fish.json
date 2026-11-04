@@ -1,0 +1,79 @@
+{
+ "file": "拟鲤",
+ "no": "1255",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "拟鲤",
+ "name_en": "Common roach",
+ "latin": "Rutilus rutilus",
+ "short": "拟鲤",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物、底栖无脊椎动物、蠕虫和蛆；幼鱼吃浮游生物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "不超过约 35 cm",
+   "lo": 0.35,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最长",
+   "value": "50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐受水温",
+   "value": "4–31 °C",
+   "lo": 4,
+   "hi": 31,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "15 年以上",
+   "lo": 15,
+   "hi": 15,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "季节换层",
+   "icon": "dive",
+   "desc": "冷天到深水觅食，暖天在水面附近觅食。"
+  },
+  {
+   "name": "什么都吃",
+   "icon": "food",
+   "desc": "从植物到底栖小动物、蠕虫和蛆都吃。"
+  }
+ ],
+ "intro": [
+  "拟鲤是鲤科的淡水和半咸水鱼。",
+  "它原产欧洲大部和西亚。",
+  "侧线鳞 39–48 枚。"
+ ],
+ "fact": "1860–1880 年代它被从欧洲引入澳大利亚作游钓用。",
+ "range": "欧洲大部和西亚；已引入澳大利亚等地。",
+ "sources": [
+  "Wikipedia「Common roach」",
+  "IUCN 红色名录（Ford, M. 2024）"
+ ],
+ "footnote": ""
+}

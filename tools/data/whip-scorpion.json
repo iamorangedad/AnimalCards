@@ -1,0 +1,62 @@
+{
+ "file": "鞭蝎",
+ "no": "1272",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "鞭蝎",
+ "name_en": "Giant vinegaroon",
+ "latin": "Mastigoproctus giganteus",
+ "short": "鞭蝎",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "夜里捕食蟑螂、蟋蟀等昆虫，也吃马陆、其他蛛形动物，甚至小蛙",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "40–60 mm",
+   "lo": 0.04,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "喷液含醋酸",
+   "value": "85%",
+   "lo": 85,
+   "hi": 85,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "喷醋",
+   "icon": "drop",
+   "desc": "从尾巴根部喷出含 85% 醋酸的液体自卫，所以叫“醋蝎”。"
+  },
+  {
+   "name": "触角足",
+   "icon": "ear",
+   "desc": "眼睛很弱，主要靠长长的前足、尾巴和触肢摸索。"
+  }
+ ],
+ "intro": [
+  "鞭蝎是有鞭蝎科的蛛形动物，不是真正的蝎子。",
+  "它用 6 条腿走路，前面 2 条长腿像触角。",
+  "大钳子一样的触肢用来抓猎物。"
+ ],
+ "fact": "浣熊、犰狳、臭鼬、走鹃和捕鸟蛛等都会吃它。",
+ "range": "美国南部到墨西哥。",
+ "sources": [
+  "Wikipedia「Mastigoproctus giganteus」"
+ ],
+ "footnote": "",
+ "warn": "会喷醋酸液，别让它靠近眼睛。"
+}

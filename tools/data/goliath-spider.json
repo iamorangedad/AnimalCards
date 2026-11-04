@@ -1,0 +1,78 @@
+{
+ "file": "亚马逊巨人食鸟蛛",
+ "no": "1265",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "亚马逊巨人食鸟蛛",
+ "name_en": "Goliath birdeater",
+ "latin": "Theraphosa blondi",
+ "short": "亚马逊巨人食鸟蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "（维基未详述食性）；名字叫“食鸟”，但很少吃鸟",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最重 175 g",
+   "lo": 0.175,
+   "hi": 0.175,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "最长 13 cm",
+   "lo": 0.13,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "足展",
+   "value": "最长 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蛛寿命",
+   "value": "15–25 年",
+   "lo": 15,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最重蜘蛛",
+   "icon": "trunk",
+   "desc": "按体重和体长算，它是世界最大的蜘蛛。"
+  },
+  {
+   "name": "刺激毛",
+   "icon": "thorn",
+   "desc": "受威胁时会摩擦刚毛发出嘶声，身上的刺激毛对人有害。"
+  }
+ ],
+ "intro": [
+  "亚马逊巨人食鸟蛛属于捕鸟蛛科。",
+  "它生活在南美洲北部。",
+  "雌蛛每次产 100–200 粒卵，6–8 周孵化。"
+ ],
+ "fact": "“食鸟蛛”这个名字来自 18 世纪初一幅蜘蛛吃蜂鸟的铜版画。",
+ "range": "南美洲北部。",
+ "sources": [
+  "Wikipedia「Goliath birdeater」"
+ ],
+ "footnote": "",
+ "warn": "刺激毛会刺激皮肤和眼睛；咬伤疼痛类似蜂蜇，别用手碰。"
+}

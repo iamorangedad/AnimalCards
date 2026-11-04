@@ -1,0 +1,79 @@
+{
+ "file": "丁鱥",
+ "no": "1254",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "丁鱥",
+ "name_en": "Tench",
+ "latin": "Tinca tinca",
+ "short": "丁鱥",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "多在夜间吃水底的摇蚊幼虫、螺和豌豆蚬等动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌鱼可达",
+   "value": "约 7 kg",
+   "lo": 7,
+   "hi": 7,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "一次产卵",
+   "value": "最多 30 万粒",
+   "lo": 300000,
+   "hi": 300000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "第一年",
+   "value": "可达 0.11 kg",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "“医生鱼”",
+   "icon": "drop",
+   "desc": "也叫 doctor fish（医生鱼）。"
+  },
+  {
+   "name": "清洁池塘",
+   "icon": "food",
+   "desc": "金色丁鱥常被养在池塘里，在水底觅食，帮助保持水体干净。"
+  }
+ ],
+ "intro": [
+  "丁鱥是鲤形目的淡水和半咸水鱼。",
+  "身体粗壮，橄榄绿色，腹部近金色。",
+  "鳞片很小。"
+ ],
+ "fact": "体重超过 1 kg 的丁鱥上钩后非常有劲。",
+ "range": "欧亚大陆：西欧（含英国和爱尔兰）向东到亚洲。",
+ "sources": [
+  "Wikipedia「Tench」",
+  "IUCN 红色名录（Ford, M. 2024）"
+ ],
+ "footnote": ""
+}

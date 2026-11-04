@@ -1,0 +1,77 @@
+{
+ "file": "狼蛛",
+ "no": "1264",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "狼蛛",
+ "name_en": "Carolina wolf spider",
+ "latin": "Hogna carolinensis",
+ "short": "狼蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "从洞口伏击，常吃蚱蜢和蟋蟀等节肢动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌蛛体长",
+   "value": "22–35 mm",
+   "lo": 0.022,
+   "hi": 0.035,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蛛体长",
+   "value": "18–20 mm",
+   "lo": 0.018,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "洞深",
+   "value": "最深 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每囊幼蛛",
+   "value": "约 200 只",
+   "lo": 200,
+   "hi": 200,
+   "scale": "n400",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "不织网",
+   "icon": "camo",
+   "desc": "和所有狼蛛一样，它不结网，而是在洞口伏击猎物。"
+  },
+  {
+   "name": "抗菌毒液",
+   "icon": "toxic",
+   "desc": "毒液既能麻痹猎物，还能防止猎物身上的微生物感染它。"
+  }
+ ],
+ "intro": [
+  "卡罗来纳狼蛛是北美最大的狼蛛。",
+  "洞里比地面凉约 4 °C。",
+  "2000 年它被选为南卡罗来纳州的州蜘蛛。"
+ ],
+ "fact": "这个提议最初来自一名三年级小学生。",
+ "range": "北美洲。",
+ "sources": [
+  "Wikipedia「Hogna carolinensis」"
+ ],
+ "footnote": "中文名“狼蛛”泛指狼蛛科。"
+}

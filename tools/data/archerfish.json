@@ -1,0 +1,79 @@
+{
+ "file": "射水鱼",
+ "no": "1251",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "射水鱼",
+ "name_en": "Banded archerfish",
+ "latin": "Toxotes jaculatrix",
+ "short": "射水鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物和昆虫；会喷水把昆虫“射”下来，或跳出水面捕捉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2012",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "最长",
+   "value": "30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "射程",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "大个体射程",
+   "value": "2–3 m",
+   "lo": 2,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "水枪射手",
+   "icon": "drop",
+   "desc": "从嘴里喷出一股水柱，把树枝上的昆虫打落水中。"
+  },
+  {
+   "name": "反应神速",
+   "icon": "ear",
+   "desc": "猎物被射中后 100 毫秒内就开始游向落点。"
+  }
+ ],
+ "intro": [
+  "射水鱼是射水鱼属的鱼。",
+  "它的名字和学名都指“射手”，源自人马座。",
+  "白天会到水面吃漂浮物。"
+ ],
+ "fact": "猎物落水后 50 毫秒内它就能赶到。",
+ "range": "印度—太平洋和大洋洲的河口和红树林。",
+ "sources": [
+  "Wikipedia「Banded archerfish」",
+  "IUCN 红色名录（Hoese, D. 2012）"
+ ],
+ "footnote": ""
+}

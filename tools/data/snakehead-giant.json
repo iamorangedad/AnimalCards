@@ -1,0 +1,71 @@
+{
+ "file": "小盾鳢",
+ "no": "1253",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "小盾鳢",
+ "name_en": "Giant snakehead",
+ "latin": "Channa micropeltes",
+ "short": "小盾鳢",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "凶猛的捕食者，会追吃任何能塞进嘴里的东西",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "30 kg",
+   "lo": 30,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "两地相隔",
+   "value": "约 2500 km",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "贪吃猎手",
+   "icon": "food",
+   "desc": "什么能塞进嘴里就追着吃什么。"
+  },
+  {
+   "name": "好吃的鱼",
+   "icon": "jar",
+   "desc": "肉好吃，在中餐馆很常见。"
+  }
+ ],
+ "intro": [
+  "小盾鳢是鳢科最大的鱼之一。",
+  "它曾被认为同时分布在东南亚和印度西南部。",
+  "印度的种群可能是早年人为引入的。"
+ ],
+ "fact": "2000 年代初美国马里兰州捕到过 3 条。",
+ "range": "东南亚；印度西南部可能为引入。",
+ "sources": [
+  "Wikipedia「Giant snakehead」",
+  "IUCN 红色名录（Allen, D.J. 2020）"
+ ],
+ "footnote": ""
+}

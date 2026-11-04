@@ -1,0 +1,79 @@
+{
+ "file": "蓖麻硬蜱",
+ "no": "1274",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "蓖麻硬蜱",
+ "name_en": "Castor bean tick",
+ "latin": "Ixodes ricinus",
+ "short": "蓖麻硬蜱",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "寄生",
+ "diet_note": "三个阶段各吸一次血；成虫吸羊、牛、狗、鹿、人和马的血",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌蜱吸饱",
+   "value": "最长 11 mm",
+   "lo": 0.011,
+   "hi": 0.011,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌蜱未吸血",
+   "value": "3.0–3.6 mm",
+   "lo": 0.003,
+   "hi": 0.0036,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蜱",
+   "value": "2.4–2.8 mm",
+   "lo": 0.0024,
+   "hi": 0.0028,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成虫吸血",
+   "value": "6–13 天",
+   "lo": 6,
+   "hi": 13,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三个宿主",
+   "icon": "drop",
+   "desc": "幼虫、若虫、成虫各找一个宿主吸血，吸饱就掉下来。"
+  },
+  {
+   "name": "传播疾病",
+   "icon": "toxic",
+   "desc": "能传播莱姆病和蜱传脑炎等病原体。"
+  }
+ ],
+ "intro": [
+  "蓖麻硬蜱是主要分布在欧洲的硬蜱。",
+  "它喜欢比较潮湿的地方，夏季干燥的地中海大部地区没有。",
+  "被它叮咬还可能让人对红肉过敏（α-gal 综合征）。"
+ ],
+ "fact": "幼虫不主动找宿主，通常吸食鼩鼱、刺猬等食虫类的血。",
+ "range": "欧洲为主。",
+ "sources": [
+  "Wikipedia「Ixodes ricinus」"
+ ],
+ "footnote": "",
+ "warn": "去草丛林地穿长衣裤，回家检查身体；被叮后发热出疹要就医。"
+}

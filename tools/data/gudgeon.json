@@ -1,0 +1,63 @@
+{
+ "file": "麦穗鱼",
+ "no": "1257",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "麦穗鱼",
+ "name_en": "Stone moroko",
+ "latin": "Pseudorasbora parva",
+ "short": "麦穗鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "会吃当地有价值鱼类的鱼卵（维基未详述其他食性）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2022",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "通常 2–7 cm",
+   "lo": 0.02,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大",
+   "value": "很少超过 8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "入侵高手",
+   "icon": "team",
+   "desc": "1960 年代被引入罗马尼亚的池塘，随后经多瑙河扩散到全欧洲。"
+  },
+  {
+   "name": "吃鱼卵",
+   "icon": "food",
+   "desc": "它会吃当地经济鱼类的卵，危害本地鱼。"
+  }
+ ],
+ "intro": [
+  "麦穗鱼英文也叫 topmouth gudgeon，属于鮈科。",
+  "它原产亚洲。",
+  "英国环境署曾用鱼藤酮大规模清除它。"
+ ],
+ "fact": "它已成为欧洲和北美的入侵物种。",
+ "range": "原产亚洲；已入侵欧洲和北美。",
+ "sources": [
+  "Wikipedia「Stone moroko」",
+  "IUCN 红色名录（Bogutskaya, N. 2022）"
+ ],
+ "footnote": ""
+}

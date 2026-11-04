@@ -1,0 +1,70 @@
+{
+ "file": "大弹涂鱼",
+ "no": "1252",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "大弹涂鱼",
+ "name_en": "Great blue spotted mudskipper",
+ "latin": "Boleophthalmus pectinirostris",
+ "short": "大弹涂鱼",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "草食性，退潮时出洞在泥面啃食硅藻",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "洞深",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "洞口直径",
+   "value": "3–4 cm",
+   "lo": 0.03,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皮肤呼吸",
+   "icon": "drop",
+   "desc": "它是两栖性的鱼，能用皮肤呼吸。"
+  },
+  {
+   "name": "躲进泥洞",
+   "icon": "dive",
+   "desc": "涨潮、夜里或有天敌时，躲进约 1 m 深的洞里。"
+  }
+ ],
+ "intro": [
+  "大弹涂鱼原产西北太平洋。",
+  "它在红树林等地的泥滩里挖洞。",
+  "冬天会在洞口筑泥墙围成小水池，保温又养硅藻。"
+ ],
+ "fact": "它的表皮有特殊的小凸起和细胞层，帮助呼吸空气。",
+ "range": "西北太平洋沿岸。",
+ "sources": [
+  "Wikipedia「Great blue spotted mudskipper」"
+ ],
+ "footnote": ""
+}

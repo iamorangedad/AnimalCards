@@ -1,0 +1,70 @@
+{
+ "file": "屋尘螨",
+ "no": "1275",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "屋尘螨",
+ "name_en": "House dust mites",
+ "latin": "Pyroglyphidae",
+ "short": "屋尘螨",
+ "type": "陆地",
+ "habitat": [
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "吃人和动物脱落的皮屑，也吃某些霉菌",
+ "iucn": {
+  "code": "NE",
+  "sub": "科级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "雌螨寿命*",
+   "value": "最长 70 天",
+   "lo": 70,
+   "hi": 70,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "产卵*",
+   "value": "60–100 枚",
+   "lo": 60,
+   "hi": 100,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "美国床上有*",
+   "value": "约 84% 家庭",
+   "lo": 84,
+   "hi": 84,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "过敏元凶",
+   "icon": "toxic",
+   "desc": "尘螨的粪粒和分泌物是引起过敏性鼻炎、哮喘和湿疹的重要过敏原。"
+  },
+  {
+   "name": "产粪 2000 粒",
+   "icon": "micro",
+   "desc": "10 周的一生里会产约 2000 粒粪便颗粒。"
+  }
+ ],
+ "intro": [
+  "屋尘螨是住在家里灰尘中的一类螨，属于麦食螨科。",
+  "全球约 1%–20% 的人对尘螨过敏。",
+  "防螨面料可以挡住 10–40 μm 的粪粒。"
+ ],
+ "fact": "尘螨的主要过敏原原肌球蛋白，也是导致贝类过敏的成分。",
+ "range": "全世界的人类住所。",
+ "sources": [
+  "Wikipedia「House dust mite」"
+ ],
+ "footnote": "原定 Dermatophagoides pteronyssinus 资料较少，改为科级；*为屋尘螨整体数据；体长 0.2–0.3 mm。",
+ "warn": "对尘螨过敏的人要常洗晒床品、保持干燥通风。"
+}

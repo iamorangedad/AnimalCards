@@ -1,0 +1,79 @@
+{
+ "file": "黑寡妇蜘蛛",
+ "no": "1261",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "黑寡妇蜘蛛",
+ "name_en": "Southern black widow",
+ "latin": "Latrodectus mactans",
+ "short": "黑寡妇蜘蛛",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "室内"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃昆虫，也吃鼠妇、马陆、蜈蚣和其他蛛形动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌蛛体长",
+   "value": "8–13 mm",
+   "lo": 0.008,
+   "hi": 0.013,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄蛛体长",
+   "value": "3–6 mm",
+   "lo": 0.003,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一个夏天",
+   "value": "4–9 个卵囊",
+   "lo": 4,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "每个卵囊",
+   "value": "100–400 粒卵",
+   "lo": 100,
+   "hi": 400,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色沙漏",
+   "icon": "toxic",
+   "desc": "雌蛛黑亮，腹部下面有红色沙漏形斑纹。"
+  },
+  {
+   "name": "毒液慢发",
+   "icon": "web",
+   "desc": "猎物被网缠住后，它咬上去注毒，约 10 分钟毒性发作。"
+  }
+ ],
+ "intro": [
+  "黑寡妇蜘蛛是寇蛛属的毒蜘蛛，原产北美。",
+  "雌蛛偶尔会在交配后吃掉雄蛛。",
+  "褐寡妇蛛正在和它争地盘，甚至捕食它。"
+ ],
+ "fact": "它的毒液会引起疼痛等症状，但很少让健康人死亡。",
+ "range": "北美洲。",
+ "sources": [
+  "Wikipedia「Southern black widow」"
+ ],
+ "footnote": "",
+ "warn": "有毒，咬伤很痛；被咬后要立即就医，别徒手抓。"
+}

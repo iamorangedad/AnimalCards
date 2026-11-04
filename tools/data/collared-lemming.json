@@ -1,0 +1,80 @@
+{
+ "file": "环颈旅鼠",
+ "no": "1286",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "环颈旅鼠",
+ "name_en": "Northern collared lemming",
+ "latin": "Dicrostonyx groenlandicus",
+ "short": "环颈旅鼠",
+ "type": "陆地",
+ "habitat": [
+  "冰原",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "夏天吃草、莎草和绿色植物，冬天吃柳、杨和桦的嫩枝",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "14 cm",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾长",
+   "value": "1.5 cm",
+   "lo": 0.015,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "约 40 g",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "每窝幼崽",
+   "value": "4–8 只",
+   "lo": 4,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬天变白",
+   "icon": "cold",
+   "desc": "冬天毛变成白色，前脚长出挖掘用的大爪子。"
+  },
+  {
+   "name": "雪下挖洞",
+   "icon": "climb",
+   "desc": "全年日夜活动，冬天在雪下挖隧道。"
+  }
+ ],
+ "intro": [
+  "环颈旅鼠是一种小型旅鼠，生活在北美北极地区和弗兰格尔岛。",
+  "胸前有一圈浅褐色的“领子”。",
+  "种群每 3–4 年经历一次暴涨和暴跌。"
+ ],
+ "fact": "雪鸮、鸥、狼獾、北极狐和北极熊都吃它。",
+ "range": "加拿大北部、阿拉斯加、格陵兰的苔原和弗兰格尔岛。",
+ "sources": [
+  "Wikipedia「Northern collared lemming」",
+  "IUCN 红色名录（Cassola, F. 2016）"
+ ],
+ "footnote": ""
+}

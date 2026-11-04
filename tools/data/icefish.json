@@ -1,0 +1,79 @@
+{
+ "file": "鳄冰鱼",
+ "no": "1295",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "鳄冰鱼",
+ "name_en": "Crocodile icefish (Chionodraco hamatus)",
+ "latin": "Chionodraco hamatus",
+ "short": "鳄冰鱼",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃小鱼、磷虾和鱼类幼体",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大全长",
+   "value": "49 cm",
+   "lo": 0.49,
+   "hi": 0.49,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "4–600 m",
+   "lo": 4,
+   "hi": 600,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "怀卵量",
+   "value": "2900–4200 粒",
+   "lo": 2900,
+   "hi": 4200,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "背鳍软条",
+   "value": "38–42 根",
+   "lo": 38,
+   "hi": 42,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吻部尖刺",
+   "icon": "thorn",
+   "desc": "吻部有一根向后的粗壮尖刺，鳃盖刺带钩。"
+  },
+  {
+   "name": "母鱼守巢",
+   "icon": "huddle",
+   "desc": "雄鱼筑巢求偶，雌鱼留在巢里看护卵并扇水。"
+  }
+ ],
+ "intro": [
+  "鳄冰鱼是鳄冰鱼科的海水鱼，分布于南大洋。",
+  "1905 年由瑞典动物学家 Lönnberg 首次描述。",
+  "种名 hamatus 意为“带钩的”。"
+ ],
+ "fact": "产卵似乎在夏天的夜里进行。",
+ "range": "南极大陆架的冷水海底。",
+ "sources": [
+  "Wikipedia「Chionodraco hamatus」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "罗斯海豹",
+ "no": "1291",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "罗斯海豹",
+ "name_en": "Ross seal",
+ "latin": "Ommatophoca rossii",
+ "short": "罗斯海豹",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "约 47% 乌贼、34% 鱼（多为南极银鱼）、19% 无脊椎动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "眼睛直径",
+   "value": "最大 7 cm",
+   "lo": 0.07,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "新生体长",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "新生体重",
+   "value": "16 kg",
+   "lo": 16,
+   "hi": 16,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "估计数量",
+   "value": "约 13 万",
+   "lo": 130000,
+   "hi": 130000,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "大眼睛",
+   "icon": "glow",
+   "desc": "眼睛很大，直径可达 7 cm，近距离很好认。"
+  },
+  {
+   "name": "吃乌贼",
+   "icon": "food",
+   "desc": "食物里将近一半是乌贼。"
+  }
+ ],
+ "intro": [
+  "罗斯海豹是一种海豹，只生活在南极的浮冰区。",
+  "它是罗斯海豹属唯一的物种。",
+  "它很少与商业捕鱼区重叠。"
+ ],
+ "fact": "繁殖季节，雌海豹会连续 5–7 天待在浮冰上。",
+ "range": "南极浮冰区。",
+ "sources": [
+  "Wikipedia「Ross seal」",
+  "IUCN 红色名录（Hückstädt, L. 2015）"
+ ],
+ "footnote": ""
+}

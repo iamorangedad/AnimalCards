@@ -1,0 +1,69 @@
+{
+ "file": "茗荷",
+ "no": "1284",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "茗荷",
+ "name_en": "Pelagic gooseneck barnacle",
+ "latin": "Lepas anatifera",
+ "short": "茗荷",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用从壳板间伸出的蔓足滤食（维基未详述食物）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "头状部",
+   "value": "最长 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "4–80 cm",
+   "lo": 0.04,
+   "hi": 0.8,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "壳板",
+   "value": "5 片",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "随波漂流",
+   "icon": "drop",
+   "desc": "用长柄附着在漂流物上，漂到挪威、冰岛甚至斯匹次卑尔根。"
+  },
+  {
+   "name": "雌雄同体",
+   "icon": "clone",
+   "desc": "它是雌雄同体的动物。"
+  }
+ ],
+ "intro": [
+  "茗荷是茗荷科的鹅颈藤壶。",
+  "身体由长柄和头状部组成，有 5 片半透明的壳板，边缘是红色。",
+  "它遍布世界热带和亚热带海洋。"
+ ],
+ "fact": "褐色丝状的蔓足从壳板之间伸出来进食。",
+ "range": "世界热带和亚热带海洋，随漂流物可到北大西洋。",
+ "sources": [
+  "Wikipedia「Lepas anatifera」"
+ ],
+ "footnote": ""
+}

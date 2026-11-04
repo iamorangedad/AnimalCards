@@ -1,0 +1,62 @@
+{
+ "file": "招潮蟹",
+ "no": "1278",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "招潮蟹",
+ "name_en": "Fiddler crabs",
+ "latin": "Ocypodidae (Gelasiminae, Ucinae)",
+ "short": "招潮蟹",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "腐生",
+ "diet_note": "抓起一团泥沙送到嘴边，筛出其中的有机物",
+ "iucn": {
+  "code": "NE",
+  "sub": "类群，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "种数*",
+   "value": "约 100 种",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "最大宽度*",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "一大一小",
+   "icon": "trunk",
+   "desc": "雄蟹一只螯特别大，像小提琴，挥动它求偶和打架。"
+  },
+  {
+   "name": "重新长出",
+   "icon": "clone",
+   "desc": "掉了腿或螯，下次蜕壳时会长出新的。"
+  }
+ ],
+ "intro": [
+  "招潮蟹是沙蟹科里约一百种半陆生海蟹的总称。",
+  "雄蟹会在洞口敲打地面吸引雌蟹。",
+  "它们翻动泥沙，被认为是“生态系统工程师”。"
+ ],
+ "fact": "鲜艳的颜色会招来天敌，但雌蟹更喜欢鲜艳的雄蟹。",
+ "range": "世界各地的潮间带泥滩和海岸（维基未详列，待核）。",
+ "sources": [
+  "Wikipedia「Fiddler crab」"
+ ],
+ "footnote": "*为招潮蟹类群整体数据；最大的是 Afruca tangeri。"
+}

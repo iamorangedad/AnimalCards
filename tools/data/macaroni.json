@@ -1,0 +1,80 @@
+{
+ "file": "长冠企鹅",
+ "no": "1299",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "长冠企鹅",
+ "name_en": "Macaroni penguin",
+ "latin": "Eudyptes chrysolophus",
+ "short": "长冠企鹅",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃多种甲壳类（主要是磷虾），也吃小鱼和头足类",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "平均体重",
+   "value": "5.5 kg",
+   "lo": 5.5,
+   "hi": 5.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "约 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "繁殖群",
+   "value": "最多 10 万只",
+   "lo": 100000,
+   "hi": 100000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "嘴长",
+   "value": "7–8 cm",
+   "lo": 0.07,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "金色冠羽",
+   "icon": "sun",
+   "desc": "额头上有醒目的黄色冠羽，是 8 种冠企鹅之一。"
+  },
+  {
+   "name": "吃得最多",
+   "icon": "food",
+   "desc": "据称它每年吃掉的海洋生物比其他任何海鸟都多。"
+  }
+ ],
+ "intro": [
+  "长冠企鹅分布在亚南极到南极半岛。",
+  "它和皇家企鹅亲缘很近。",
+  "它的繁殖群是企鹅中最大、最密集的之一。"
+ ],
+ "fact": "换羽时它不能下水觅食，所以要提前约两周囤积脂肪。",
+ "range": "亚南极岛屿到南极半岛。",
+ "sources": [
+  "Wikipedia「Macaroni penguin」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

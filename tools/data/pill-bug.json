@@ -1,0 +1,70 @@
+{
+ "file": "鼠妇",
+ "no": "1283",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "鼠妇",
+ "name_en": "Common pill-bug",
+ "latin": "Armadillidium vulgare",
+ "short": "鼠妇",
+ "type": "陆地",
+ "habitat": [
+  "土壤",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "主要吃腐烂的植物落叶，也吃真菌",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "8.5–18 mm",
+   "lo": 0.0085,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "北美密度",
+   "value": "每平方米 1 万只",
+   "lo": 10000,
+   "hi": 10000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "线粒体DNA",
+   "value": "42 kB",
+   "lo": 42,
+   "hi": 42,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "卷成球",
+   "icon": "flip",
+   "desc": "受惊时把身体卷成一个球。"
+  },
+  {
+   "name": "育儿袋",
+   "icon": "huddle",
+   "desc": "雌虫在身体下面的育儿袋里携带卵和幼体。"
+  }
+ ],
+ "intro": [
+  "鼠妇也叫西瓜虫、潮虫，是一种陆生甲壳动物。",
+  "它比许多鼠妇更耐干，只生活在钙质土壤或海边。",
+  "颜色变化多，被爱好者当宠物养。"
+ ],
+ "fact": "它吃落叶，对氮循环很重要。",
+ "range": "原产欧洲，现已广泛分布（如北美）。",
+ "sources": [
+  "Wikipedia「Armadillidium vulgare」"
+ ],
+ "footnote": ""
+}

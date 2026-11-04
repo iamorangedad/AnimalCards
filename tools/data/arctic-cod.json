@@ -1,0 +1,79 @@
+{
+ "file": "北极鳕",
+ "no": "1294",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "北极鳕",
+ "name_en": "Arctic cod (Arctogadus)",
+ "latin": "Arctogadus glacialis",
+ "short": "北极鳕",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "在格陵兰东北海域几乎只吃浮游的桡足类、端足类和糠虾",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "东西伯利亚",
+   "value": "50–60 cm",
+   "lo": 0.5,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最深",
+   "value": "1000 m",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "常栖水深",
+   "value": "15–40 m",
+   "lo": 15,
+   "hi": 40,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冰下生活",
+   "icon": "cold",
+   "desc": "生活在冰冷的海水里，常在浮冰下面。"
+  },
+  {
+   "name": "鲸的美食",
+   "icon": "food",
+   "desc": "是独角鲸等北极鲸类最爱吃的鱼。"
+  }
+ ],
+ "intro": [
+  "北极鳕是鳕科的北极鱼类，和真鳕属亲缘相近。",
+  "“Arctic cod”和“polar cod”这两个名字容易混淆。",
+  "它的商业价值不大。"
+ ],
+ "fact": "它有时会进入河口。",
+ "range": "北冰洋（格陵兰、加拿大北极群岛、西伯利亚沿海）。",
+ "sources": [
+  "Wikipedia「Arctogadus」"
+ ],
+ "footnote": "维基条目 Arctogadus；与 Boreogadus saida 的俗名易混（待核）。"
+}

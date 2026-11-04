@@ -526,3 +526,35 @@ def _goose(w, h):
 ART6["barnacle"] = _goose
 ART6["copepod"] = lambda w, h: scene("sea", w, h, P("M-80 -60 C-80 -140 80 -140 100 -60 C80 -10 -60 -10 -80 -60 Z", "#e8b07a", 3, extra='fill-opacity=".9"') + P("M100 -60 L200 -40 M200 -40 l30 -14 M200 -40 l30 14", sw=4)
     + P("M-70 -100 C-160 -160 -260 -150 -300 -120", sw=3) + P("M-70 -90 C-160 -120 -260 -60 -300 -40", sw=3) + C(-60, -80, 8, "#c8302a", 0) + C(40, -70, 14, "#d84a2a", 0, ), box=(w / 2, h * .62, 520, 260))
+# ---- batch p5_pol1 ----
+_peng5 = _a5._peng
+def _icef(F, **kw): return _fs(F, kind="ice" if False else "sea", **kw)
+ART6["collared-lemming"] = lambda w, h: scene("snow", w, h, rodent("#ecebe6", 220, 130, belly="#ffffff", ears="small", nose="#3a3430"), box=(w / 2, h * .74, 400, 250))
+ART6["stoat"] = Q("snow", (.74, 580, 260), F="#8a5a32", bl=290, bd=66, lh=44, lw=20, belly="#f4ecd8", neck=(30, 50), nw=50, head=(36, 30), snout=(30, 20), snout_col="#f4ecd8",
+                  ears="round", tail="thin", tail_col="#1f1f22")
+ART6["ringed-seal"] = lambda w, h: scene("ice", w, h, pinniped("#6a7480", L=320, up=0.1, belly="#b8c0c8") + "".join(E(x, y, 14, 9, "none", 3) for x, y in [(-80, -50), (-20, -60), (40, -55), (100, -45), (-50, -30), (70, -30)]), box=(w / 2, h * .72, 560, 260))
+ART6["bearded-seal"] = lambda w, h: scene("ice", w, h, pinniped("#8a7a6a", L=380, up=0.15, belly="#a89a8a") + "".join(P(f"M-170 {-40+i*6} l-40 {-6+i*4}", sw=2.4, col="#f4f0e8") for i in range(5)), box=(w / 2, h * .72, 620, 260))
+ART6["hooded-seal"] = lambda w, h: scene("ice", w, h, pinniped("#9aa0a8", L=360, up=0.2, spots="#2a2e34", belly="#c9ced4") + E(-160, -72, 34, 24, "#3a3e44", 2.6), box=(w / 2, h * .72, 600, 260))
+ART6["ross-seal"] = lambda w, h: scene("ice", w, h, pinniped("#4a525c", L=320, up=0.35, belly="#c9ced4") + "".join(P(f"M-120 {-70+i*12} l60 0", sw=3, col="#8a929c") for i in range(3)), box=(w / 2, h * .72, 560, 280))
+ART6["crabeater"] = lambda w, h: scene("ice", w, h, pinniped("#c9c0b0", L=360, up=0.1, belly="#e6e0d4") + "".join(P(f"M{x} {y} l18 10", sw=3, col="#8a7a6a") for x, y in [(-40, -50), (20, -60), (80, -48)]), box=(w / 2, h * .72, 600, 260))
+ART6["ant-fur-seal"] = lambda w, h: coast(w, h, pinniped("#6a5a4a", L=320, up=0.6, ears=True, belly="#8a7a6a"), (w / 2, h * .66, 540, 320))
+ART6["arctic-cod"] = _fs("#8a7a5a", L=320, H=90, kind="sea", tail="fork", belly="#e8e2d0", spots="#5a4a3a")
+ART6["icefish"] = _fs("#c9ccd0", L=340, H=90, kind="sea", tail="round", belly="#f2f2f2", post=P("M-170 -6 L-210 -20 L-176 6 Z", "#c9ccd0", 2) + "".join(P(f"M{x} -40 l-20 60", sw=4, col="#7a7e86") for x in (-60, 0, 60)))
+ART6["toothfish"] = _fs("#5a5048", L=380, H=120, kind="sea", tail="round", belly="#a89a8a", spots="#3a322a")
+ART6["chinstrap"] = _peng5("#2a2a2e", "#ffffff", lambda: C(-10, -276, 36, "#ffffff", 0) + P("M-44 -256 C-20 -240 20 -240 30 -262", sw=4, col=INK) + C(-22, -286, 7, "#2a2a2e", 0), beak="#2a2a2a", feet="#f2b0b0")
+ART6["gentoo"] = _peng5("#2a2e34", "#ffffff", lambda: P("M-28 -306 C-6 -318 18 -312 24 -296", sw=8, col="#ffffff"), beak="#e8602a", feet="#f2903a")
+ART6["macaroni"] = _peng5("#1f1f22", "#ffffff", lambda: P("M-30 -300 C-6 -320 30 -330 60 -310 M-30 -300 C0 -312 36 -316 66 -296", sw=6, col="#f2b02a"), beak="#c8502a", feet="#f2b0b0")
+ART6["snow-petrel"] = B("snow", (.78, 440, 400), pre=G_(rock(0, 0, 1.8), 0, 0), F="#ffffff", wing="#f4f6f8", rx=64, ry=44, tilt=-12, neck=12, nw=32, hr=26, beak="short", beak_col="#1f1f22", leg_len=30, leg_col="#6a8aa8", legw=5, tail="short", tail_col="#ffffff")
+ART6["ptarmigan"] = B("snow", (.78, 440, 360), F="#ffffff", wing="#f4f4f2", rx=78, ry=58, tilt=-6, neck=10, nw=44, hr=30, beak="short", beak_col="#1f1f22", leg_len=20, leg_col="#ffffff", legw=10, tail="short", tail_col="#1f1f22",
+                      front_fn=lambda x, y, r: P(f"M{x-r*.9} {y-r*.15} L{x+r*.5} {y-r*.15}", sw=5, col=INK) + P(f"M{x-r*.2} {y-r*.5} l{r*.4} 0", sw=4, col="#e8302a"))
+ART6["ivory-gull"] = B("ice", (.76, 440, 400), F="#ffffff", wing="#ffffff", rx=72, ry=44, tilt=-12, neck=16, nw=32, hr=26, beak="short", beak_col="#6a7a5a", leg_len=30, leg_col="#1f1f22", legw=5, tail="short", tail_col="#ffffff",
+                       front_fn=lambda x, y, r: P(f"M{x-r*1.5} {y+r*.1} l{-r*.3} {r*.05}", sw=4, col="#f2c83a"))
+ART6["gyrfalcon"] = B("snow", (.78, 480, 420), F="#f4f4f2", wing="#9aa0a8", rx=84, ry=58, tilt=-24, neck=14, nw=48, hr=34, beak="hook", beak_col="#5a6470", leg_len=40, leg_col="#f2c53a", legw=7, tail="long", tail_col="#9aa0a8")
+def _midge(w, h):
+    o = "".join(P(f"M{x} -40 L{x+dx} 10", sw=4, col="#1f1f22") for x, dx in [(-30, -40), (-10, -20), (10, 10), (-30, -10), (-10, 10), (10, 40)])
+    o += E(70, -50, 70, 22, "#2a2a2e", 2.6) + "".join(P(f"M{40+i*24} -70 l0 40", sw=2, col="#5a5a5a") for i in range(4))
+    o += E(-10, -54, 32, 26, "#1f1f22", 2.6) + C(-50, -60, 18, "#1f1f22", 2.6) + P("M-62 -74 l-30 -30 M-58 -76 l-14 -36", sw=3, col="#1f1f22")
+    o += E(10, -80, 18, 7, "#8a8a8a", 1.6)
+    return scene("snow", w, h, G_(rock(0, 0, 2.6), 0, 60) + G_(o, 0, 0, 1.2), box=(w / 2, h * .66, 420, 300))
+ART6["ant-midge"] = _midge
+ART6["ant-minke"] = _ceta("#3a424e", 440, 110, belly="#eef2f4", box=None, extras=P("M-80 30 l40 30", sw=10, col="#9aa0a8"))

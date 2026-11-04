@@ -1,0 +1,78 @@
+{
+ "file": "圣诞岛红蟹",
+ "no": "1277",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "圣诞岛红蟹",
+ "name_en": "Christmas Island red crab",
+ "latin": "Gecarcoidea natalis",
+ "short": "圣诞岛红蟹",
+ "type": "陆地",
+ "habitat": [
+  "林地",
+  "陆地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃落叶、果实、花和幼苗，也吃动物尸体和人类垃圾",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "背甲宽",
+   "value": "最宽 116 mm",
+   "lo": 0.116,
+   "hi": 0.116,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "曾有成蟹",
+   "value": "约 4370 万只",
+   "lo": 43700000.0,
+   "hi": 43700000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "被蚁害死",
+   "value": "1000–1500 万只",
+   "lo": 10000000.0,
+   "hi": 15000000.0,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "幼蟹宽",
+   "value": "仅 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色大迁徙",
+   "icon": "team",
+   "desc": "每年雨季，几百万只蟹同时出动去海边产卵，铺满地面。"
+  },
+  {
+   "name": "回到森林",
+   "icon": "food",
+   "desc": "产卵后雌蟹回到森林，幼体在海里漂 3–4 周再上岸。"
+  }
+ ],
+ "intro": [
+  "圣诞岛红蟹是印度洋圣诞岛和科科斯群岛特有的陆蟹。",
+  "当地会在迁徙期封路、绕行。",
+  "旱季它们会堵住洞口躲避阳光。"
+ ],
+ "fact": "意外引入的黄疯蚁害死了 1000–1500 万只红蟹。",
+ "range": "印度洋圣诞岛和科科斯（基林）群岛。",
+ "sources": [
+  "Wikipedia「Christmas Island red crab」"
+ ],
+ "footnote": ""
+}

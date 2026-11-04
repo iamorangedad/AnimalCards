@@ -1,0 +1,77 @@
+{
+ "file": "鲑疮痂鱼虱",
+ "no": "1282",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "鲑疮痂鱼虱",
+ "name_en": "Salmon louse",
+ "latin": "Lepeophtheirus salmonis",
+ "short": "鲑疮痂鱼虱",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "寄生",
+ "diet_note": "附在鱼的皮肤、鳍或鳃上，吃黏液、皮肤和血",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雌虱体长",
+   "value": "8–18 mm",
+   "lo": 0.008,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虱体长",
+   "value": "5–6 mm",
+   "lo": 0.005,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼体耐盐",
+   "value": "15‰ 以上",
+   "lo": 15,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "无节幼体 I",
+   "value": "5 °C 时约 52 小时",
+   "lo": 52,
+   "hi": 52,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鲑鱼寄生虫",
+   "icon": "toxic",
+   "desc": "附着在鲑鱼身上吃黏液、皮肤和血。"
+  },
+  {
+   "name": "养殖场传染",
+   "icon": "team",
+   "desc": "养殖场里的大量感染会传染给野生鱼。"
+  }
+ ],
+ "intro": [
+  "鲑疮痂鱼虱是一种桡足类。",
+  "它只影响鱼，对人无害。",
+  "1980 年代曾在驼背鲑幼鱼身上发现大量鱼虱。"
+ ],
+ "fact": "盐度低于 15‰ 时刚孵出的幼体活不了。",
+ "range": "北半球海洋中的鲑鱼身上（维基未详列，待核）。",
+ "sources": [
+  "Wikipedia「Salmon louse」"
+ ],
+ "footnote": ""
+}

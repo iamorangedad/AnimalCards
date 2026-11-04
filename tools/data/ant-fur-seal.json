@@ -1,0 +1,81 @@
+{
+ "file": "南极毛皮海狮",
+ "no": "1293",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "南极毛皮海狮",
+ "name_en": "Antarctic fur seal",
+ "latin": "Arctocephalus gazella",
+ "short": "南极毛皮海狮",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "大西洋种群主要吃南极磷虾；也吃灯笼鱼、冰鱼等鱼",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2026",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "公兽体长",
+   "value": "最长 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公兽均重",
+   "value": "133 kg",
+   "lo": 133,
+   "hi": 133,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "母兽均重",
+   "value": "34 kg",
+   "lo": 34,
+   "hi": 34,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "南乔治亚岛",
+   "value": "约 95% 种群",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长胡须",
+   "icon": "whisker",
+   "desc": "成体尤其公兽的胡须很长，可达 35–50 cm。"
+  },
+  {
+   "name": "会咬人",
+   "icon": "toxic",
+   "desc": "曾有人在南乔治亚岛被它严重咬伤后被救出。"
+  }
+ ],
+ "intro": [
+  "南极毛皮海狮是毛皮海狮属的 8 种之一。",
+  "尽管名字叫“南极”，它主要分布在亚南极岛屿。",
+  "寿命可达 20 年，雌兽最长记录 24 年。"
+ ],
+ "fact": "全球约 95% 的个体聚集在南大西洋的南乔治亚岛。",
+ "range": "南大洋亚南极岛屿（南乔治亚岛等）。",
+ "sources": [
+  "Wikipedia「Antarctic fur seal」",
+  "IUCN 红色名录（Forcada, J. 2026）"
+ ],
+ "footnote": "",
+ "warn": "野外不要靠近，被咬伤可能很严重。"
+}

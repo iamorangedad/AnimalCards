@@ -1,0 +1,77 @@
+{
+ "file": "堪察加拟石蟹",
+ "no": "1279",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "堪察加拟石蟹",
+ "name_en": "Red king crab",
+ "latin": "Paralithodes camtschaticus",
+ "short": "堪察加拟石蟹",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "遇到什么吃什么，吃大部分海底生物，还会吃毛鳞鱼的卵块",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "足展",
+   "value": "最长 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "背甲宽",
+   "value": "最宽 28 cm",
+   "lo": 0.28,
+   "hi": 0.28,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 12.7 kg",
+   "lo": 12.7,
+   "hi": 12.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常见水温",
+   "value": "3.2–5.5 °C",
+   "lo": 3.2,
+   "hi": 5.5,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "帝王蟹之王",
+   "icon": "trunk",
+   "desc": "它是体型最大的帝王蟹，也是重要的渔业对象。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "在 −1.8 到 12.8 °C 的海水里都见过它。"
+  }
+ ],
+ "intro": [
+  "堪察加拟石蟹也叫红帝王蟹、阿拉斯加帝王蟹。",
+  "1960 年代苏联把它引入巴伦支海的摩尔曼斯克峡湾。",
+  "它在挪威扩散很快，令渔民担心。"
+ ],
+ "fact": "它的天敌北太平洋巨型章鱼在欧洲水域没有。",
+ "range": "北太平洋冷水海域；已引入巴伦支海。",
+ "sources": [
+  "Wikipedia「Red king crab」"
+ ],
+ "footnote": ""
+}

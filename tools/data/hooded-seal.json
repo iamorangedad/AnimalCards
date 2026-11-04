@@ -1,0 +1,80 @@
+{
+ "file": "冠海豹",
+ "no": "1290",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "冠海豹",
+ "name_en": "Hooded seal",
+ "latin": "Cystophora cristata",
+ "short": "冠海豹",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃端足类、磷虾和鱼，也吃章鱼、乌贼、海星、虾和贻贝",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2025",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "公平均体长",
+   "value": "2.6 m",
+   "lo": 2.6,
+   "hi": 2.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公体重",
+   "value": "300–410 kg",
+   "lo": 300,
+   "hi": 410,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最深潜",
+   "value": "超过 1016 m",
+   "lo": 1016,
+   "hi": 1016,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "潜水时长",
+   "value": "可超 52 分钟",
+   "lo": 52,
+   "hi": 52,
+   "scale": "min_l",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "鼻子气球",
+   "icon": "trunk",
+   "desc": "雄海豹关闭一侧鼻孔，把膜囊从另一侧鼻孔鼓出来。"
+  },
+  {
+   "name": "深潜",
+   "icon": "dive",
+   "desc": "常在 100–600 m 深处觅食，昼夜约 90% 时间在水下。"
+  }
+ ],
+ "intro": [
+  "冠海豹是一种大型海豹，只分布在北大西洋中部和西部。",
+  "属名的意思是“带囊的”。",
+  "它身上是银灰或白色，布满黑斑。"
+ ],
+ "fact": "雌海豹小得多，体长约 2.03 m。",
+ "range": "北大西洋（斯瓦尔巴到圣劳伦斯湾）。",
+ "sources": [
+  "Wikipedia「Hooded seal」",
+  "IUCN 红色名录（Kovacs, K.M. 2025）"
+ ],
+ "footnote": ""
+}

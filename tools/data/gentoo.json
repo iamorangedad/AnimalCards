@@ -1,0 +1,80 @@
+{
+ "file": "巴布亚企鹅",
+ "no": "1298",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "巴布亚企鹅",
+ "name_en": "Gentoo penguin",
+ "latin": "Pygoscelis papua",
+ "short": "巴布亚企鹅",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼和磷虾等甲壳类，也吃乌贼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "70–90 cm",
+   "lo": 0.7,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公鸟最重",
+   "value": "8.5 kg",
+   "lo": 8.5,
+   "hi": 8.5,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "水下速度",
+   "value": "最快 36 km/h",
+   "lo": 36,
+   "hi": 36,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "雏鸟下海",
+   "value": "80–100 天",
+   "lo": 80,
+   "hi": 100,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最快企鹅",
+   "icon": "dive",
+   "desc": "它是游得最快的企鹅，水下可达 36 km/h。"
+  },
+  {
+   "name": "季节换食",
+   "icon": "food",
+   "desc": "2–3 月甲壳类只占约 10%，3–6 月升到约 75%。"
+  }
+ ],
+ "intro": [
+  "巴布亚企鹅是体型第三大的企鹅，仅次于帝企鹅和王企鹅。",
+  "种名 papua 是个误称。",
+  "北方的个体比南方的平均重 700 g、长 10 cm。"
+ ],
+ "fact": "Linux 发行版 Gentoo 就以它为名，取其“游得最快”。",
+ "range": "南极半岛和亚南极岛屿（福克兰、南乔治亚等）。",
+ "sources": [
+  "Wikipedia「Gentoo penguin」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

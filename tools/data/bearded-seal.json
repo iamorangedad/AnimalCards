@@ -1,0 +1,80 @@
+{
+ "file": "髯海豹",
+ "no": "1289",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "髯海豹",
+ "name_en": "Bearded seal",
+ "latin": "Erignathus barbatus",
+ "short": "髯海豹",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要在海底觅食：蛤、乌贼、北极鳕等",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2025",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2.1–2.7 m",
+   "lo": 2.1,
+   "hi": 2.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "200–430 kg",
+   "lo": 200,
+   "hi": 430,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "体脂",
+   "value": "25%–40%",
+   "lo": 25,
+   "hi": 40,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "幼崽潜水",
+   "value": "最深 450 m",
+   "lo": 450,
+   "hi": 450,
+   "scale": "depth",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大胡子",
+   "icon": "whisker",
+   "desc": "最大的特征是又多又显眼的胡须，名字也由此而来。"
+  },
+  {
+   "name": "海底觅食",
+   "icon": "dive",
+   "desc": "成体偏爱不超过 300 m 深的浅海，在海底找食物。"
+  }
+ ],
+ "intro": [
+  "髯海豹也叫方鳍海豹，是中型鳍足类。",
+  "它生活在北冰洋及附近海域。",
+  "雌海豹比雄海豹大。"
+ ],
+ "fact": "虎鲸有时会掀翻浮冰来捕捉它们。",
+ "range": "北冰洋及其边缘海。",
+ "sources": [
+  "Wikipedia「Bearded seal」",
+  "IUCN 红色名录（Kovacs, K.M. 2025）"
+ ],
+ "footnote": ""
+}

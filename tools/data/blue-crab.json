@@ -1,0 +1,77 @@
+{
+ "file": "美洲蓝蟹",
+ "no": "1280",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "美洲蓝蟹",
+ "name_en": "Atlantic blue crab",
+ "latin": "Callinectes sapidus",
+ "short": "美洲蓝蟹",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "杂食，吃植物和动物，如滨螺、招潮蟹和贻贝；还会吃蛤",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "背甲宽",
+   "value": "最宽 23 cm",
+   "lo": 0.23,
+   "hi": 0.23,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一生蜕壳",
+   "value": "约 25 次",
+   "lo": 25,
+   "hi": 25,
+   "scale": "n100",
+   "approx": true
+  },
+  {
+   "label": "每窝卵",
+   "value": "最多 200 万粒",
+   "lo": 2000000.0,
+   "hi": 2000000.0,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "1 年到 18 个月",
+   "lo": 365,
+   "hi": 548,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "游泳蟹",
+   "icon": "dive",
+   "desc": "它是一种会游泳的蟹，学名意为“美丽的游泳者”（待核）。"
+  },
+  {
+   "name": "潮间伏击",
+   "icon": "food",
+   "desc": "退潮时躲在盐沼浅坑里，伏击招潮蟹和贻贝。"
+  }
+ ],
+ "intro": [
+  "美洲蓝蟹原产西大西洋，也叫马里兰蓝蟹。",
+  "墨西哥湾的个体 1 年内就能成熟，切萨皮克湾的要 18 个月。",
+  "幼体要经过 7 个浮游阶段。"
+ ],
+ "fact": "渔业人士认为它吃蛤，给蛤类养殖带来很大损失。",
+ "range": "西大西洋沿岸和墨西哥湾。",
+ "sources": [
+  "Wikipedia「Callinectes sapidus」"
+ ],
+ "footnote": "成熟 18 个月超出天数刻度，按上限显示。"
+}

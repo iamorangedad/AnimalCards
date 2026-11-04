@@ -1,0 +1,80 @@
+{
+ "file": "雪鹱",
+ "no": "1300",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "雪鹱",
+ "name_en": "Snow petrel",
+ "latin": "Pagodroma nivea",
+ "short": "雪鹱",
+ "type": "天空",
+ "habitat": [
+  "冰原",
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，也吃一些头足类、软体动物和磷虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "30–40 cm",
+   "lo": 0.3,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "75–95 cm",
+   "lo": 0.75,
+   "hi": 0.95,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "41–49 天",
+   "lo": 41,
+   "hi": 49,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "伴侣相守",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "喷胃油",
+   "icon": "toxic",
+   "desc": "胃里储存的油可以喷出来防御贼鸥，也能喂雏鸟。"
+  },
+  {
+   "name": "到过南极点",
+   "icon": "cold",
+   "desc": "它是在南极点见到过的仅有的三种鸟之一。"
+  }
+ ],
+ "intro": [
+  "雪鹱是雪鹱属唯一的物种。",
+  "全身雪白。",
+  "在离海 400 km 以上的内陆山上也有繁殖地。"
+ ],
+ "fact": "卵的死亡率约 50%，雏鸟约 10%–15%。",
+ "range": "南极大陆和周围岛屿。",
+ "sources": [
+  "Wikipedia「Snow petrel」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": ""
+}

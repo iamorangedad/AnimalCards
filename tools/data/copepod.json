@@ -1,0 +1,69 @@
+{
+ "file": "飞马哲水蚤",
+ "no": "1285",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "飞马哲水蚤",
+ "name_en": "Calanus finmarchicus",
+ "latin": "Calanus finmarchicus",
+ "short": "飞马哲水蚤",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃硅藻、甲藻等浮游植物，也吃微型浮游动物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "分布水深",
+   "value": "表层到 4000 m",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "耐受水温",
+   "value": "−2–22 °C",
+   "lo": -2,
+   "hi": 22,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "鱼苗食其卵",
+   "value": "90%–100%",
+   "lo": 90,
+   "hi": 100,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海洋粮仓",
+   "icon": "food",
+   "desc": "它数量巨大，是北大西洋浮游动物的主要成员，鱼苗靠它为食。"
+  },
+  {
+   "name": "营养丰富",
+   "icon": "jar",
+   "desc": "富含蛋白质和 ω-3 多不饱和脂肪酸。"
+  }
+ ],
+ "intro": [
+  "飞马哲水蚤是一种桡足类浮游动物。",
+  "它在北海和挪威海最常见。",
+  "它对气候变化反应很快，分布会跟着变。"
+ ],
+ "fact": "加拿大研究估计 90%–100% 的鲉鱼幼体吃哲水蚤的卵。",
+ "range": "北大西洋，尤其是北海和挪威海。",
+ "sources": [
+  "Wikipedia「Calanus finmarchicus」"
+ ],
+ "footnote": ""
+}

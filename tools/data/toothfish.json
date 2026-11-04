@@ -1,0 +1,79 @@
+{
+ "file": "南极犬牙鱼",
+ "no": "1296",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "南极犬牙鱼",
+ "name_en": "Antarctic toothfish",
+ "latin": "Dissostichus mawsoni",
+ "short": "南极犬牙鱼",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃较小的鱼和甲壳类",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 1.7 m",
+   "lo": 1.7,
+   "hi": 1.7,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "135 kg",
+   "lo": 135,
+   "hi": 135,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最深",
+   "value": "2200 m",
+   "lo": 2200,
+   "hi": 2200,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "最高年龄",
+   "value": "48 年",
+   "lo": 48,
+   "hi": 48,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天然抗冻",
+   "icon": "cold",
+   "desc": "能产生抗冻糖蛋白，在零下的海水里也不结冰。"
+  },
+  {
+   "name": "脂肪浮力",
+   "icon": "dive",
+   "desc": "没有鳔，靠脂肪和轻的软骨骨骼获得浮力。"
+  }
+ ],
+ "intro": [
+  "南极犬牙鱼是南大洋最大的硬骨鱼。",
+  "它生活在南极附近零下的冷水里。",
+  "它和巴塔哥尼亚犬牙鱼一起被当作“智利海鲈”出售。"
+ ],
+ "fact": "雄鱼 13 岁、雌鱼 17 岁才性成熟。",
+ "range": "南大洋（南极大陆周围）。",
+ "sources": [
+  "Wikipedia「Antarctic toothfish」"
+ ],
+ "footnote": ""
+}

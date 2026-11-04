@@ -1,0 +1,61 @@
+{
+ "file": "鼓虾",
+ "no": "1281",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "鼓虾",
+ "name_en": "Bigclaw snapping shrimp",
+ "latin": "Alpheus heterochaelis",
+ "short": "鼓虾",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蠕虫、小型甲壳类和虾虎鱼等小鱼",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 5.5 cm",
+   "lo": 0.055,
+   "hi": 0.055,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "约 4 周",
+   "lo": 28,
+   "hi": 28,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "咔嚓一枪",
+   "icon": "fire",
+   "desc": "大螯猛地合上发出“啪”声，用来吓退天敌、震晕猎物和展示。"
+  },
+  {
+   "name": "借住蟹洞",
+   "icon": "huddle",
+   "desc": "常和黑螯泥蟹同住一个洞，而且不会被它吃掉。"
+  }
+ ],
+ "intro": [
+  "鼓虾是鼓虾科的枪虾。",
+  "它是分布区内最大的枪虾，但多数成虫小得多。",
+  "幼体不进食，只靠卵黄生活。"
+ ],
+ "fact": "犬牙石首鱼会吃它。",
+ "range": "西大西洋和墨西哥湾。",
+ "sources": [
+  "Wikipedia「Alpheus heterochaelis」"
+ ],
+ "footnote": ""
+}

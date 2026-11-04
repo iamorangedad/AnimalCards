@@ -1,0 +1,80 @@
+{
+ "file": "帽带企鹅",
+ "no": "1297",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "帽带企鹅",
+ "name_en": "Chinstrap penguin",
+ "latin": "Pygoscelis antarcticus",
+ "short": "帽带企鹅",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃小鱼、磷虾、虾和乌贼，每天游到离岸 80 km 觅食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "68–76 cm",
+   "lo": 0.68,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "3.2–5.3 kg",
+   "lo": 3.2,
+   "hi": 5.3,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "孵化期",
+   "value": "约 37 天",
+   "lo": 37,
+   "hi": 37,
+   "scale": "days",
+   "approx": true
+  },
+  {
+   "label": "数量",
+   "value": "约 800 万",
+   "lo": 8000000.0,
+   "hi": 8000000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "下巴带子",
+   "icon": "camo",
+   "desc": "头下有一条细细的黑带，像戴着帽带。"
+  },
+  {
+   "name": "石头巢",
+   "icon": "huddle",
+   "desc": "在陆地上用石头堆成圆形的巢。"
+  }
+ ],
+ "intro": [
+  "帽带企鹅生活在南太平洋和南大洋的岛屿和海岸。",
+  "名字来自头下那条细黑带。",
+  "豹海豹每年让它的数量减少约 5%–20%。"
+ ],
+ "fact": "雏鸟在巢里待 20–30 天后加入“托儿所”。",
+ "range": "南极半岛、南设得兰群岛、南桑威奇群岛等。",
+ "sources": [
+  "Wikipedia「Chinstrap penguin」",
+  "IUCN 红色名录（BirdLife International 2020）"
+ ],
+ "footnote": ""
+}

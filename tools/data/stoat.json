@@ -1,0 +1,80 @@
+{
+ "file": "白鼬",
+ "no": "1287",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "白鼬",
+ "name_en": "Stoat",
+ "latin": "Mustela erminea",
+ "short": "白鼬",
+ "type": "陆地",
+ "habitat": [
+  "冰原",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食啮齿类和兔类，如水䶄、仓鼠、鼠兔和兔",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "公体长",
+   "value": "187–325 mm",
+   "lo": 0.187,
+   "hi": 0.325,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "母体长",
+   "value": "170–270 mm",
+   "lo": 0.17,
+   "hi": 0.27,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "公尾长",
+   "value": "75–120 mm",
+   "lo": 0.075,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "公比母大",
+   "value": "约 25%",
+   "lo": 25,
+   "hi": 25,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬季白袍",
+   "icon": "cold",
+   "desc": "冬天换上纯白的毛（尾尖仍黑），这种毛皮叫“ermine”。"
+  },
+  {
+   "name": "咬颈猎手",
+   "icon": "food",
+   "desc": "在洞里制服猎物，咬住大猎物（如兔）后颈。"
+  }
+ ],
+ "intro": [
+  "白鼬也叫短尾鼬，是鼬科动物。",
+  "它分布于欧亚大陆和北美北部，环绕北极分布。",
+  "夏天背部沙褐色、腹部白色。"
+ ],
+ "fact": "19 世纪末它被引入新西兰控制兔子，却成了当地鸟类的大威胁。",
+ "range": "欧亚大陆和北美北部（环北极）。",
+ "sources": [
+  "Wikipedia「Stoat」",
+  "IUCN 红色名录（Reid, F. 2016）"
+ ],
+ "footnote": ""
+}

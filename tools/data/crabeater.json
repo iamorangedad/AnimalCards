@@ -1,0 +1,80 @@
+{
+ "file": "食蟹海豹",
+ "no": "1292",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "食蟹海豹",
+ "name_en": "Crabeater seal",
+ "latin": "Lobodon carcinophaga",
+ "short": "食蟹海豹",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "专吃南极磷虾，也吃头足类和鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "超过 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌体重",
+   "value": "约 215 kg",
+   "lo": 215,
+   "hi": 215,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "最重",
+   "value": "300 kg",
+   "lo": 300,
+   "hi": 300,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "数量",
+   "value": "至少 700 万",
+   "lo": 7000000.0,
+   "hi": 7000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "筛子牙",
+   "icon": "food",
+   "desc": "牙齿有细细的分叉，像筛子一样滤出磷虾。"
+  },
+  {
+   "name": "最多的海豹",
+   "icon": "team",
+   "desc": "它是世界上数量最多的海豹，至少有 700 万只。"
+  }
+ ],
+ "intro": [
+  "食蟹海豹其实主要吃磷虾，也叫“吃磷虾海豹”。",
+  "它环绕南极大陆分布。",
+  "它是食蟹海豹属唯一的物种。"
+ ],
+ "fact": "哺乳期雌海豹体重最多会下降 50%。",
+ "range": "南极大陆周围的浮冰区。",
+ "sources": [
+  "Wikipedia「Crabeater seal」",
+  "IUCN 红色名录（Hückstädt, L.A. 2025）"
+ ],
+ "footnote": ""
+}

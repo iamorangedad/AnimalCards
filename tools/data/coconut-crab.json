@@ -1,0 +1,80 @@
+{
+ "file": "椰子蟹",
+ "no": "1276",
+ "cat": "蛛形甲壳",
+ "kingdom": "动物",
+ "name_cn": "椰子蟹",
+ "name_en": "Coconut crab",
+ "latin": "Birgus latro",
+ "short": "椰子蟹",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃多汁的果实、坚果、种子和倒木的髓，也吃腐肉",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2020",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "体重",
+   "value": "最重 4.1 kg",
+   "lo": 4.1,
+   "hi": 4.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "足展",
+   "value": "可达 90 cm 以上",
+   "lo": 0.9,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体长",
+   "value": "最长 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可能超过 60 年",
+   "lo": 60,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大陆地节肢动物",
+   "icon": "trunk",
+   "desc": "它是现存最大的陆生节肢动物。"
+  },
+  {
+   "name": "海里长大",
+   "icon": "dive",
+   "desc": "幼体在海里漂 3–4 周，钻进螺壳后才回到陆地。"
+  }
+ ],
+ "intro": [
+  "椰子蟹是陆生的巨型寄居蟹，也叫强盗蟹。",
+  "名字叫椰子蟹，其实椰子不是它的主要食物。",
+  "约 5 岁性成熟。"
+ ],
+ "fact": "海鸟会吃小椰子蟹，人和大椰子蟹则什么年龄的都吃。",
+ "range": "印度洋和太平洋岛屿，西到桑给巴尔，东到皮特凯恩群岛。",
+ "sources": [
+  "Wikipedia「Coconut crab」",
+  "IUCN 红色名录（Cumberlidge, N. 2020）"
+ ],
+ "footnote": ""
+}

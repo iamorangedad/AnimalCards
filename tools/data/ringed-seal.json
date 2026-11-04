@@ -1,0 +1,80 @@
+{
+ "file": "环斑海豹",
+ "no": "1288",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "环斑海豹",
+ "name_en": "Ringed seal",
+ "latin": "Pusa hispida",
+ "short": "环斑海豹",
+ "type": "两栖",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃北极鳕和浮游甲壳类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "约 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "成体体重",
+   "value": "32–140 kg",
+   "lo": 32,
+   "hi": 140,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "40 年",
+   "lo": 40,
+   "hi": 40,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "爪厚",
+   "value": "超过 2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "凿冰呼吸",
+   "icon": "cold",
+   "desc": "用前鳍上的厚爪维持冰层上的呼吸孔，冰厚可达 1.8 m。"
+  },
+  {
+   "name": "冰中产房",
+   "icon": "huddle",
+   "desc": "雌海豹在厚冰里筑洞，在洞里生下幼崽。"
+  }
+ ],
+ "intro": [
+  "环斑海豹是北极和亚北极的一种小型海豹。",
+  "身上有浅灰色圆环围着的深色斑点，因此得名。",
+  "它是这些地区最小的海豹。"
+ ],
+ "fact": "它是北极熊的主要猎物，也是虎鲸的猎物。",
+ "range": "北冰洋和亚北极海域（包括波罗的海、白令海等）。",
+ "sources": [
+  "Wikipedia「Ringed seal」",
+  "IUCN 红色名录（Lowry, L. 2016）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "黄麻",
+ "no": "1392",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "黄麻",
+ "name_en": "Jute",
+ "latin": "Corchorus",
+ "short": "黄麻",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*纤维长",
+   "value": "1–4 m",
+   "lo": 1,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "*适宜温度",
+   "value": "20–40 °C",
+   "lo": 20,
+   "hi": 40,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "*空气湿度",
+   "value": "70%–80%",
+   "lo": 70,
+   "hi": 80,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "*每周降雨",
+   "value": "5–8 cm",
+   "lo": 0.05,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*金色纤维",
+   "icon": "sun",
+   "desc": "在孟加拉国，黄麻因颜色和经济价值被称为“金色纤维”。"
+  },
+  {
+   "name": "*叶可食",
+   "icon": "food",
+   "desc": "乌干达的卢格巴拉人用黄麻叶煮汤，越南菜也吃黄麻叶。"
+  }
+ ],
+ "intro": [
+  "黄麻是一种长而粗、有光泽的韧皮纤维。",
+  "它来自锦葵科黄麻属的植物。",
+  "纤维能纺成粗而结实的线。"
+ ],
+ "fact": "印度是最大的黄麻生产国，主要贸易集中在印度和孟加拉国。",
+ "range": "南亚（印度、孟加拉国）为主。",
+ "sources": [
+  "Wikipedia「Jute」"
+ ],
+ "footnote": "* 为黄麻属/纤维整体数据。"
+}

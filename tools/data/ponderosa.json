@@ -1,0 +1,79 @@
+{
+ "file": "西黄松",
+ "no": "1379",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "西黄松",
+ "name_en": "Ponderosa pine",
+ "latin": "Pinus ponderosa",
+ "short": "西黄松",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高记录",
+   "value": "72 m",
+   "lo": 72,
+   "hi": 72,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "球果长",
+   "value": "8–13 cm",
+   "lo": 0.08,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "针叶长",
+   "value": "12–20.5 cm",
+   "lo": 0.12,
+   "hi": 0.205,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "州树年份",
+   "value": "1949 年",
+   "lo": 1949,
+   "hi": 1949,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "香草味树皮",
+   "icon": "food",
+   "desc": "有人说从树皮裂缝里闻到香草味，也有人说没有特别气味。"
+  },
+  {
+   "name": "专属食物",
+   "icon": "food",
+   "desc": "它的针叶是一种麦蛾幼虫唯一已知的食物。"
+  }
+ ],
+ "intro": [
+  "西黄松也叫西部黄松，是北美西部山区的大型松树。",
+  "它的生境变化很大。",
+  "1949 年被定为蒙大拿州的州树。"
+ ],
+ "fact": "美国国家大树名录里有一棵高 72 m 的西黄松，曾是世界最高的松树。",
+ "range": "北美西部山区。",
+ "sources": [
+  "Wikipedia「Pinus ponderosa」",
+  "IUCN 红色名录（Farjon, A. 2013）"
+ ],
+ "footnote": "针叶长度为哥伦比亚亚种数据；“州树年份”比例条仅示意。"
+}

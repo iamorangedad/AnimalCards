@@ -1,0 +1,78 @@
+{
+ "file": "木豆",
+ "no": "1400",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "木豆",
+ "name_en": "Pigeon pea",
+ "latin": "Cajanus cajan",
+ "short": "木豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "年降雨需求",
+   "value": "可低于 650 mm",
+   "lo": 650,
+   "hi": 650,
+   "scale": "rain",
+   "approx": false
+  },
+  {
+   "label": "印度占产量",
+   "value": "约 63%",
+   "lo": 63,
+   "hi": 63,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "多年生可收",
+   "value": "3–5 年",
+   "lo": 3,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "埃及墓葬",
+   "value": "约公元前 2200 年",
+   "lo": 2200,
+   "hi": 2200,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "非常耐旱",
+   "icon": "sun",
+   "desc": "非常耐旱，年降雨不到 650 mm 也能种。"
+  },
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "根上的根瘤菌通过共生固氮让土壤变肥。"
+  }
+ ],
+ "intro": [
+  "木豆是豆科多年生植物，原产东半球。",
+  "它在热带和亚热带广泛栽培。",
+  "非洲是它的次级多样性中心。"
+ ],
+ "fact": "非洲最早的木豆证据是古埃及约公元前 2200 年墓葬里的种子。",
+ "range": "热带、亚热带广泛栽培（印度最多）。",
+ "sources": [
+  "Wikipedia「Pigeon pea」"
+ ],
+ "footnote": "“埃及墓葬”比例条仅示意。"
+}

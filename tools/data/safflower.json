@@ -1,0 +1,78 @@
+{
+ "file": "红花",
+ "no": "1391",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "红花",
+ "name_en": "Safflower",
+ "latin": "Carthamus tinctorius",
+ "short": "红花",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "30–150 cm",
+   "lo": 0.3,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "主根深",
+   "value": "可达 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种子含油",
+   "value": "20%–40%",
+   "lo": 20,
+   "hi": 40,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "每头种子",
+   "value": "15–50 粒",
+   "lo": 15,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "深根耐旱",
+   "icon": "root",
+   "desc": "主根能扎到 2 m 深。"
+  },
+  {
+   "name": "榨油",
+   "icon": "food",
+   "desc": "如今主要为了从种子里榨植物油而栽培。"
+  }
+ ],
+ "intro": [
+  "红花是菊科一年生草本，长得像蓟，分枝很多。",
+  "它是世界上最古老的作物之一。",
+  "花头有黄、橙或红色的花。"
+ ],
+ "fact": "单朵小花通常只开 3–4 天。",
+ "range": "世界各地温暖干旱地区栽培。",
+ "sources": [
+  "Wikipedia「Safflower」"
+ ],
+ "footnote": ""
+}

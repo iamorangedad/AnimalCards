@@ -1,0 +1,78 @@
+{
+ "file": "苔麸",
+ "no": "1395",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "苔麸",
+ "name_en": "Teff",
+ "latin": "Eragrostis tef",
+ "short": "苔麸",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "千粒重",
+   "value": "约 0.3 g",
+   "lo": 0.0003,
+   "hi": 0.0003,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "籽粒直径",
+   "value": "不足 1 mm",
+   "lo": 0.001,
+   "hi": 0.001,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最佳海拔",
+   "value": "1800–2100 m",
+   "lo": 1800,
+   "hi": 2100,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "埃国占比",
+   "value": "超过 90%",
+   "lo": 90,
+   "hi": 90,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超小种子",
+   "icon": "seed",
+   "desc": "种子不到 1 mm，一把就能播种一大片地。"
+  },
+  {
+   "name": "做英杰拉",
+   "icon": "food",
+   "desc": "在埃塞俄比亚和厄立特里亚用来做扁平的发酵饼“英杰拉”。"
+  }
+ ],
+ "intro": [
+  "苔麸是画眉草属的一年生禾草，原产厄立特里亚和埃塞俄比亚高原。",
+  "它至少从公元前 1000 年就被栽培。",
+  "秸秆也用来喂牛。"
+ ],
+ "fact": "2016 年埃塞俄比亚种植了全世界 90% 以上的苔麸。",
+ "range": "埃塞俄比亚、厄立特里亚。",
+ "sources": [
+  "Wikipedia「Teff」"
+ ],
+ "footnote": ""
+}

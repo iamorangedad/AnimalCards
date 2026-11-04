@@ -1,0 +1,79 @@
+{
+ "file": "鸡爪槭",
+ "no": "1388",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "鸡爪槭",
+ "name_en": "Japanese maple",
+ "latin": "Acer palmatum",
+ "short": "鸡爪槭",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成树高",
+   "value": "0.5–25 m",
+   "lo": 0.5,
+   "hi": 25,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–12 cm",
+   "lo": 0.04,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翅果长",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "裂片",
+   "value": "5、7 或 9 裂",
+   "lo": 9,
+   "hi": 9,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "掌状叶",
+   "icon": "sun",
+   "desc": "叶子掌状深裂，有 5、7 或 9 个尖裂片。"
+  },
+  {
+   "name": "红叶天妇罗",
+   "icon": "food",
+   "desc": "叶子可食；日本箕面把叶子腌一年后做成“红叶天妇罗”。"
+  }
+ ],
+ "intro": [
+  "鸡爪槭原产韩国、日本、中国、蒙古东部和俄罗斯远东。",
+  "日语叫 momiji（红叶）。",
+  "原生地常是阴凉林下的小树。"
+ ],
+ "fact": "种子需要层积处理才能发芽。",
+ "range": "东亚（日本、韩国、中国等）。",
+ "sources": [
+  "Wikipedia「Acer palmatum」",
+  "IUCN 红色名录（Barstow, M. 2017）"
+ ],
+ "footnote": ""
+}

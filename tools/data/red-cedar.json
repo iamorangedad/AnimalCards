@@ -1,0 +1,80 @@
+{
+ "file": "北美乔柏",
+ "no": "1380",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "北美乔柏",
+ "name_en": "Western redcedar",
+ "latin": "Thuja plicata",
+ "short": "北美乔柏",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 70 m",
+   "lo": 70,
+   "hi": 70,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "直径",
+   "value": "可达 7 m",
+   "lo": 7,
+   "hi": 7,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "球果长",
+   "value": "10–18 mm",
+   "lo": 0.01,
+   "hi": 0.018,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "独木舟和图腾柱",
+   "icon": "team",
+   "desc": "太平洋西北的原住民用它的木材造独木舟、图腾柱和工具。"
+  },
+  {
+   "name": "鳞片叶",
+   "icon": "sun",
+   "desc": "叶子是小鳞片，长 1–4 mm。"
+  }
+ ],
+ "intro": [
+  "北美乔柏是柏科大型针叶树，原产北美太平洋西北。",
+  "英文叫“西部红雪松”，但它不是真正的雪松。",
+  "它是崖柏属最大的物种。"
+ ],
+ "fact": "大约 6000 年前它才在不列颠哥伦比亚南部海岸变得常见。",
+ "range": "北美太平洋西北；北欧、新西兰等地引种。",
+ "sources": [
+  "Wikipedia「Thuja plicata」",
+  "IUCN 红色名录（Farjon, A. 2013）"
+ ],
+ "footnote": "",
+ "warn": "木材中的 plicatic acid 是主要刺激物和接触过敏原，木工易过敏。"
+}

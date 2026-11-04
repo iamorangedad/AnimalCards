@@ -1,0 +1,78 @@
+{
+ "file": "斯佩尔特小麦",
+ "no": "1396",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "斯佩尔特小麦",
+ "name_en": "Spelt",
+ "latin": "Triticum spelta",
+ "short": "斯佩尔特小麦",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "碳水化合物",
+   "value": "约 70%",
+   "lo": 70,
+   "hi": 70,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "膳食纤维",
+   "value": "11%",
+   "lo": 11,
+   "hi": 11,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "锰",
+   "value": "每日值 143%",
+   "lo": 100,
+   "hi": 100,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "磷",
+   "value": "每日值 57%",
+   "lo": 57,
+   "hi": 57,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "带壳小麦",
+   "icon": "seed",
+   "desc": "是一种带壳（稃）小麦。"
+  },
+  {
+   "name": "六倍体",
+   "icon": "team",
+   "desc": "是六倍体，很可能是小麦和二粒小麦的杂交种。"
+  }
+ ],
+ "intro": [
+  "斯佩尔特小麦也叫丁克尔小麦，是小麦的一种。",
+  "它是孑遗作物，在中欧和西班牙北部仍有人吃。",
+  "从青铜时代到中世纪，它是欧洲部分地区的主食。"
+ ],
+ "fact": "在美国，2022 年大部分斯佩尔特小麦种在俄亥俄州。",
+ "range": "中欧、西班牙北部等。",
+ "sources": [
+  "Wikipedia「Spelt」"
+ ],
+ "footnote": "营养数据为每 100 g 生斯佩尔特小麦；锰的比例条封顶 100%。"
+}

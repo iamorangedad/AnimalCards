@@ -1,0 +1,72 @@
+{
+ "file": "樱桃李",
+ "no": "1389",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "樱桃李",
+ "name_en": "Cherry plum",
+ "latin": "Prunus cerasifera",
+ "short": "樱桃李",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2018",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "8–12 m",
+   "lo": 8,
+   "hi": 12,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "约 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "果径",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "李子祖先",
+   "icon": "team",
+   "desc": "被认为是栽培李（欧洲李）的亲本之一。"
+  },
+  {
+   "name": "可食核果",
+   "icon": "food",
+   "desc": "7–9 月结黄色或红色的可食核果。"
+  }
+ ],
+ "intro": [
+  "樱桃李也叫樱李，原产欧亚大陆，在别处归化。",
+  "野生型是大灌木或小乔木，有时带刺。",
+  "花白色或淡粉色，五瓣。"
+ ],
+ "fact": "栽培品种的果、叶、花可以有多种颜色。",
+ "range": "原产欧亚大陆；多地归化。",
+ "sources": [
+  "Wikipedia「Prunus cerasifera」",
+  "IUCN 红色名录（Kell, S.P. 2018）"
+ ],
+ "footnote": ""
+}

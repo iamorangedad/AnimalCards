@@ -1,0 +1,80 @@
+{
+ "file": "胡桃",
+ "no": "1390",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "胡桃",
+ "name_en": "Common walnut",
+ "latin": "Juglans regia",
+ "short": "胡桃",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最高实测",
+   "value": "29 m",
+   "lo": 29,
+   "hi": 29,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "复叶长",
+   "value": "20–45 cm",
+   "lo": 0.2,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "林区海拔",
+   "value": "1000–2000 m",
+   "lo": 1000,
+   "hi": 2000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "核桃",
+   "icon": "food",
+   "desc": "栽培品种出产全世界食用的核桃，主要产在中国。"
+  },
+  {
+   "name": "葇荑花序",
+   "icon": "wind",
+   "desc": "雄花是下垂的葇荑花序，长 5–10 cm。"
+  }
+ ],
+ "intro": [
+  "胡桃（核桃）原产欧亚大陆。",
+  "种加词 regia 意为“王者的”，指果实和坚果品质好。",
+  "最大的天然林在吉尔吉斯斯坦。"
+ ],
+ "fact": "实测最高的一棵在格鲁吉亚拉戈代希保护区，高 29 m。",
+ "range": "原产欧亚大陆（至少西南亚、中亚和东南欧）。",
+ "sources": [
+  "Wikipedia「Juglans regia」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。",
+ "warn": "马吃核桃叶可能得蹄叶炎。"
+}

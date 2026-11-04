@@ -1,0 +1,63 @@
+{
+ "file": "降香黄檀",
+ "no": "1387",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "降香黄檀",
+ "name_en": "Fragrant rosewood",
+ "latin": "Dalbergia odorifera",
+ "short": "降香黄檀",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 1998",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "10–15 m",
+   "lo": 10,
+   "hi": 15,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "列为易危",
+   "value": "1998 年",
+   "lo": 1998,
+   "hi": 1998,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬季落叶",
+   "icon": "cold",
+   "desc": "落叶乔木，北半球约 12 月开始落叶，冬季休眠。"
+  },
+  {
+   "name": "名贵木材",
+   "icon": "team",
+   "desc": "明末清初的中式家具常用它。"
+  }
+ ],
+ "intro": [
+  "降香黄檀是真正的黄檀属“花梨”树。",
+  "它是中国特有种，分布于福建、海南、浙江和广东。",
+  "20 世纪被过度采伐。"
+ ],
+ "fact": "成材的大树几乎被砍光后，其他黄檀属物种开始被砍伐来替代。",
+ "range": "中国福建、海南、浙江、广东。",
+ "sources": [
+  "Wikipedia「Dalbergia odorifera」",
+  "IUCN 红色名录（World Conservation Monitoring Centre 1998）"
+ ],
+ "footnote": "维基条目很短，数据少（待核）。"
+}

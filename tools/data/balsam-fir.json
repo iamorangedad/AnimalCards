@@ -1,0 +1,79 @@
+{
+ "file": "香脂冷杉",
+ "no": "1378",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "香脂冷杉",
+ "name_en": "Balsam fir",
+ "latin": "Abies balsamea",
+ "short": "香脂冷杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "针叶长",
+   "value": "15–30 mm",
+   "lo": 0.015,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "球果长",
+   "value": "40–80 mm",
+   "lo": 0.04,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−45 °C",
+   "lo": -45,
+   "hi": -45,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "最老",
+   "value": "245 年",
+   "lo": 245,
+   "hi": 245,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "极其耐寒",
+   "icon": "cold",
+   "desc": "是最耐寒的树之一；样本浸入 −196 °C 液氮也没受损。"
+  },
+  {
+   "name": "直立球果",
+   "icon": "seed",
+   "desc": "球果直立、深紫色，成熟后散开放出带翅种子。"
+  }
+ ],
+ "intro": [
+  "香脂冷杉是北美的冷杉，原产加拿大东部和中部及美国东北部。",
+  "它非常耐阴。",
+  "按针叶树标准它寿命较短。"
+ ],
+ "fact": "它的种子是美洲红松鼠、松鸡等动物的食物。",
+ "range": "加拿大东部和中部、美国东北部。",
+ "sources": [
+  "Wikipedia「Abies balsamea」",
+  "IUCN 红色名录（Farjon, A. 2013）"
+ ],
+ "footnote": ""
+}

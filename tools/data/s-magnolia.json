@@ -1,0 +1,79 @@
+{
+ "file": "荷花木兰",
+ "no": "1381",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "荷花木兰",
+ "name_en": "Southern magnolia",
+ "latin": "Magnolia grandiflora",
+ "short": "荷花木兰",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "可达 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "12–20 cm",
+   "lo": 0.12,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "冠军树高",
+   "value": "37 m",
+   "lo": 37,
+   "hi": 37,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "发芽率",
+   "value": "约 50%",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "柠檬香大花",
+   "icon": "bee",
+   "desc": "白色大花有柠檬香茅的香味，直径可达 30 cm。"
+  },
+  {
+   "name": "鸟兽传种",
+   "icon": "seed",
+   "desc": "松鼠、负鼠、鹌鹑和火鸡吃它的种子，帮它传播。"
+  }
+ ],
+ "intro": [
+  "荷花玉兰也叫广玉兰，原产美国东南部沿海平原。",
+  "它是常绿乔木，叶大而深绿。",
+  "木材坚硬沉重，用来做家具。"
+ ],
+ "fact": "美国冠军树在密西西比州史密斯县，高 37 m。",
+ "range": "美国东南部（弗吉尼亚到佛罗里达中部，西到得克萨斯东部）。",
+ "sources": [
+  "Wikipedia「Magnolia grandiflora」",
+  "IUCN 红色名录（Khela, S. 2014）"
+ ],
+ "footnote": ""
+}

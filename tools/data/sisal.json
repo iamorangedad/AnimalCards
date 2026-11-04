@@ -1,0 +1,79 @@
+{
+ "file": "剑麻",
+ "no": "1394",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "剑麻",
+ "name_en": "Sisal",
+ "latin": "Agave sisalana",
+ "short": "剑麻",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "叶丛高",
+   "value": "1.5–2 m",
+   "lo": 1.5,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "7–10 年",
+   "lo": 7,
+   "hi": 10,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "可用叶片",
+   "value": "200–250 片",
+   "lo": 200,
+   "hi": 250,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "纤维占比",
+   "value": "约 4%",
+   "lo": 4,
+   "hi": 4,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "硬叶纤维",
+   "icon": "thorn",
+   "desc": "剑形叶子出产坚硬的纤维，用来做绳子、麻线和飞镖靶。"
+  },
+  {
+   "name": "喜热",
+   "icon": "sun",
+   "desc": "热带亚热带植物，喜欢 25 °C 以上和充足阳光。"
+  }
+ ],
+ "intro": [
+  "剑麻是原产墨西哥南部的开花植物，在许多国家栽培和归化。",
+  "2020 年全球产量 21 万吨，巴西最多，其次是坦桑尼亚、肯尼亚。",
+  "像其他龙舌兰一样，叶髓可以发酵蒸馏成梅斯卡尔酒。"
+ ],
+ "fact": "纤维只占植株重量的约 4%，所以人们想办法利用剩下的废料。",
+ "range": "原产墨西哥南部；热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Sisal」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,70 @@
+{
+ "file": "大麻",
+ "no": "1393",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "大麻",
+ "name_en": "Hemp",
+ "latin": "Cannabis sativa",
+ "short": "大麻",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "去壳籽热量",
+   "value": "586 kcal/100 g",
+   "lo": 586,
+   "hi": 586,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "麻仁球蛋白",
+   "value": "占蛋白 83%",
+   "lo": 83,
+   "hi": 83,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "纤维历史",
+   "value": "约 5 万年",
+   "lo": 50000,
+   "hi": 50000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长得极快",
+   "icon": "sun",
+   "desc": "和竹子一样，是地球上长得最快的植物之一。"
+  },
+  {
+   "name": "低 THC",
+   "icon": "team",
+   "desc": "工业大麻品种的精神活性成分 THC 含量特别低，受法规限制。"
+  }
+ ],
+ "intro": [
+  "大麻（工业大麻）指植物 Cannabis sativa，可以制成多种产品。",
+  "它是最早被纺成纤维的植物之一。",
+  "麻籽可直接食用，也可榨油。"
+ ],
+ "fact": "麻基保温材料可回收、无毒、可降解，常用于绿色建筑。",
+ "range": "全球多地栽培（受各国法规限制）。",
+ "sources": [
+  "Wikipedia「Hemp」"
+ ],
+ "footnote": "高 THC 品种受管制；本卡只介绍工业大麻。"
+}

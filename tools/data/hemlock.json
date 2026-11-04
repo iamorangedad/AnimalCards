@@ -1,0 +1,79 @@
+{
+ "file": "加拿大铁杉",
+ "no": "1377",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "加拿大铁杉",
+ "name_en": "Eastern hemlock",
+ "latin": "Tsuga canadensis",
+ "short": "加拿大铁杉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2013",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 31 m",
+   "lo": 31,
+   "hi": 31,
+   "scale": "len_xxl",
+   "approx": true
+  },
+  {
+   "label": "最高记录",
+   "value": "53 m",
+   "lo": 53,
+   "hi": 53,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "胸径",
+   "value": "常达 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "常超过 500 年",
+   "lo": 500,
+   "hi": 500,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐阴",
+   "icon": "sun",
+   "desc": "耐阴、耐湿，也能长在坡地上。"
+  },
+  {
+   "name": "球蚜威胁",
+   "icon": "toxic",
+   "desc": "入侵的铁杉球蚜会侵染并最终杀死它，因此被列为近危。"
+  }
+ ],
+ "intro": [
+  "加拿大铁杉是松科针叶树，原产北美东部。",
+  "它是宾夕法尼亚州的州树。",
+  "它很受欢迎，常作观赏树。"
+ ],
+ "fact": "叶子通常长 15–20 mm，冬芽只有 1.5–2.5 mm。",
+ "range": "北美东部（加拿大东南部到美国东部）。",
+ "sources": [
+  "Wikipedia「Tsuga canadensis」",
+  "IUCN 红色名录（Farjon, A. 2013）"
+ ],
+ "footnote": ""
+}

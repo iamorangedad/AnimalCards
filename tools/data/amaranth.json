@@ -1,0 +1,70 @@
+{
+ "file": "千穗谷",
+ "no": "1397",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "千穗谷",
+ "name_en": "Prince's-feather",
+ "latin": "Amaranthus hypochondriacus",
+ "short": "千穗谷",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "40–200 cm",
+   "lo": 0.4,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–12 cm",
+   "lo": 0.04,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种子直径",
+   "value": "1–1.4 mm",
+   "lo": 0.001,
+   "hi": 0.0014,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "穗状花序",
+   "icon": "sun",
+   "desc": "花序像羽毛，也叫“威尔士亲王的羽毛”。"
+  },
+  {
+   "name": "食用",
+   "icon": "food",
+   "desc": "在非洲和萨尔瓦多，它被当作食物。"
+  }
+ ],
+ "intro": [
+  "千穗谷是苋属的观赏和食用植物。",
+  "原产墨西哥。",
+  "人们几乎可以肯定它是苋属的共同祖先（维基说法）。"
+ ],
+ "fact": "果实干燥，成熟时裂开，里面是光亮的种子。",
+ "range": "原产墨西哥；多地栽培。",
+ "sources": [
+  "Wikipedia「Amaranthus hypochondriacus」"
+ ],
+ "footnote": "“共同祖先”为维基原文表述（待核）。"
+}

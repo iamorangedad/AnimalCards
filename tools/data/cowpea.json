@@ -1,0 +1,78 @@
+{
+ "file": "豇豆",
+ "no": "1399",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "豇豆",
+ "name_en": "Cowpea",
+ "latin": "Vigna unguiculata",
+ "short": "豇豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "根深",
+   "value": "8 周达 2.4 m",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "豆荚长",
+   "value": "10–110 cm",
+   "lo": 0.1,
+   "hi": 1.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每荚种子",
+   "value": "6–13 粒",
+   "lo": 6,
+   "hi": 13,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "主产两国",
+   "value": "占 66%",
+   "lo": 66,
+   "hi": 66,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐旱",
+   "icon": "sun",
+   "desc": "耐旱、适应低降雨，是非洲和亚洲半干旱地区的重要作物。"
+  },
+  {
+   "name": "长花梗",
+   "icon": "seed",
+   "desc": "20–50 cm 的长花梗托着花和豆荚。"
+  }
+ ],
+ "intro": [
+  "豇豆是豇豆属的一年生草本豆科植物。",
+  "它在非洲被驯化，是最古老的作物之一。",
+  "可以直立、半直立或攀援。"
+ ],
+ "fact": "尼日利亚和尼日尔两国占世界产量的 66%；虫害有时让产量损失超过 90%。",
+ "range": "非洲、亚洲半干旱地区等。",
+ "sources": [
+  "Wikipedia「Cowpea」"
+ ],
+ "footnote": ""
+}

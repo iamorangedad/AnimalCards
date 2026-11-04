@@ -1,0 +1,79 @@
+{
+ "file": "凤凰木",
+ "no": "1383",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "凤凰木",
+ "name_en": "Royal poinciana",
+ "latin": "Delonix regia",
+ "short": "凤凰木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xxl",
+   "approx": true
+  },
+  {
+   "label": "花径",
+   "value": "8–11 cm",
+   "lo": 0.08,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "荚果长",
+   "value": "可达 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种子重",
+   "value": "约 0.4 g",
+   "lo": 0.0004,
+   "hi": 0.0004,
+   "scale": "mass_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "火红花",
+   "icon": "fire",
+   "desc": "四片展开的鲜红或橙红花瓣，第五片直立、带斑点。"
+  },
+  {
+   "name": "蕨状叶",
+   "icon": "sun",
+   "desc": "每片叶长 30–50 cm，有 20–40 对羽片，像蕨叶。"
+  }
+ ],
+ "intro": [
+  "凤凰木是豆科苏木亚科的开花植物，原产马达加斯加。",
+  "以蕨状叶子和火红的花闻名。",
+  "俗名 poinciana 来自一位法国贵族。"
+ ],
+ "fact": "在理想条件下，幼苗几周就能长到 30 cm。",
+ "range": "原产马达加斯加；热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Delonix regia」",
+  "IUCN 红色名录（Rivers, M. 2014）"
+ ],
+ "footnote": ""
+}

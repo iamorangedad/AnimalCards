@@ -1,0 +1,79 @@
+{
+ "file": "山药",
+ "no": "1398",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "山药",
+ "name_en": "Chinese yam",
+ "latin": "Dioscorea polystachya",
+ "short": "山药",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最大块茎",
+   "value": "约 4.5 kg",
+   "lo": 4.5,
+   "hi": 4.5,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "块茎深",
+   "value": "约 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "零余子",
+   "value": "不足 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "7–9 个月",
+   "lo": 7,
+   "hi": 9,
+   "scale": "months",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "可生吃",
+   "icon": "food",
+   "desc": "这种山药的块茎可以生吃，这在薯蓣中很特别。"
+  },
+  {
+   "name": "零余子",
+   "icon": "seed",
+   "desc": "叶腋长出带疣的圆形小珠芽，俗称“山药豆”。"
+  }
+ ],
+ "intro": [
+  "山药（薯蓣）是薯蓣科的开花植物。",
+  "它在 19 世纪欧洲马铃薯歉收时被引入欧洲。",
+  "它也用于中医（怀山）。"
+ ],
+ "fact": "它被引入美国后，如今被视为入侵植物。",
+ "range": "东亚为主要栽培区；美国已成入侵种。",
+ "sources": [
+  "Wikipedia「Chinese yam」"
+ ],
+ "footnote": ""
+}

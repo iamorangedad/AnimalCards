@@ -1,0 +1,79 @@
+{
+ "file": "乌木",
+ "no": "1386",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "乌木",
+ "name_en": "Ceylon ebony",
+ "latin": "Diospyros ebenum",
+ "short": "乌木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 1998",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "20–25 m",
+   "lo": 20,
+   "hi": 25,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "木材密度",
+   "value": "可达 1200 kg/m³",
+   "lo": 1200,
+   "hi": 1200,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "6–15 cm",
+   "lo": 0.06,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "约 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "沉水黑木",
+   "icon": "drop",
+   "desc": "木材密度极高，会沉入水中；心材黑而有光泽。"
+  },
+  {
+   "name": "长得很慢",
+   "icon": "sun",
+   "desc": "常绿乔木，生长非常缓慢。"
+  }
+ ],
+ "intro": [
+  "乌木（锡兰乌木）是柿属的乔木。",
+  "它出产珍贵的黑色木材。",
+  "果子不大，像小柿子。"
+ ],
+ "fact": "在斯里兰卡，采伐和出售乌木是违法的；它的木材硬度是橡木的两倍。",
+ "range": "印度南部、斯里兰卡、印度尼西亚。",
+ "sources": [
+  "Wikipedia「Diospyros ebenum」",
+  "IUCN 红色名录（Asian Regional Workshop 1998）"
+ ],
+ "footnote": "维基条目较短（待核）。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "印楝",
+ "no": "1385",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "印楝",
+ "name_en": "Neem",
+ "latin": "Azadirachta indica",
+ "short": "印楝",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "15–20 m",
+   "lo": 15,
+   "hi": 20,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "冠幅",
+   "value": "20–25 m",
+   "lo": 20,
+   "hi": 25,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "每花序",
+   "value": "250–300 朵",
+   "lo": 250,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "印楝素产量",
+   "value": "5 g/2 kg 种子",
+   "lo": 5,
+   "hi": 5,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "天然杀虫",
+   "icon": "toxic",
+   "desc": "种子提取物印楝素能拒食、干扰昆虫生长，是一种杀虫剂。"
+  },
+  {
+   "name": "耐旱",
+   "icon": "sun",
+   "desc": "非常耐旱，是少数能在干旱地区遮荫的树。"
+  }
+ ],
+ "intro": [
+  "印楝是楝科乔木，也叫印度丁香。",
+  "它是印楝属仅有的两个种之一。",
+  "名字来自梵语 nimba。"
+ ],
+ "fact": "印楝油来自它的果实和种子。",
+ "range": "南亚（印度、巴基斯坦等）；热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Azadirachta indica」",
+  "IUCN 红色名录（Barstow, M. 2018）"
+ ],
+ "footnote": "分布地维基摘录未详述（待核）。",
+ "warn": "印楝油对幼儿有毒，可能致死。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "木棉",
+ "no": "1384",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "木棉",
+ "name_en": "Red silk-cotton tree",
+ "latin": "Bombax ceiba",
+ "short": "木棉",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均树高",
+   "value": "20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "老树最高",
+   "value": "60 m",
+   "lo": 60,
+   "hi": 60,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "柱头长",
+   "value": "可达 9 cm",
+   "lo": 0.09,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花瓣长",
+   "value": "可达 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先花后叶",
+   "icon": "fire",
+   "desc": "春天叶子长出之前开五瓣红花。"
+  },
+  {
+   "name": "棉絮种子",
+   "icon": "wind",
+   "desc": "种子很多，包在白色棉絮里。"
+  }
+ ],
+ "intro": [
+  "木棉是木棉属的乔木，也叫红棉、英雄树。",
+  "它的树干粗壮，但木材太软，用处不大。",
+  "蜜蜂和熊蜂会来采花粉和花蜜。"
+ ],
+ "fact": "新德里很常见，但因半干旱气候长不到 60 m 的最大高度。",
+ "range": "南亚、东南亚到中国南部和澳大利亚北部。",
+ "sources": [
+  "Wikipedia「Bombax ceiba」",
+  "IUCN 红色名录（Barstow, M. 2020）"
+ ],
+ "footnote": "分布地维基摘录未详述（待核）。"
+}

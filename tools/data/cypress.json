@@ -1,0 +1,79 @@
+{
+ "file": "意大利柏木",
+ "no": "1376",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "意大利柏木",
+ "name_en": "Mediterranean cypress",
+ "latin": "Cupressus sempervirens",
+ "short": "意大利柏木",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 35 m",
+   "lo": 35,
+   "hi": 35,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "球果长",
+   "value": "25–40 mm",
+   "lo": 0.025,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "球果成熟",
+   "value": "20–24 个月",
+   "lo": 20,
+   "hi": 24,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长寿",
+   "icon": "sun",
+   "desc": "非常长寿，有的树据报道超过 1000 岁。"
+  },
+  {
+   "name": "致敏花粉",
+   "icon": "wind",
+   "desc": "雄球花只有 3–5 mm，冬末释放强致敏的花粉。"
+  }
+ ],
+ "intro": [
+  "地中海柏木是柏科针叶树，原产地中海东部和伊朗。",
+  "它也叫意大利柏木、托斯卡纳柏木。",
+  "在伊朗它是圣树，也比喻“爱人优雅的身姿”。"
+ ],
+ "fact": "球果有 10–14 片鳞片，起初绿色，授粉后 20–24 个月成熟变褐。",
+ "range": "地中海东部和伊朗；广泛栽培。",
+ "sources": [
+  "Wikipedia「Cupressus sempervirens」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。",
+ "warn": "冬末花粉强致敏。"
+}

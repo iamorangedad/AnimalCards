@@ -1,0 +1,78 @@
+{
+ "file": "庞贝蠕虫",
+ "no": "1323",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "庞贝蠕虫",
+ "name_en": "Pompeii worm",
+ "latin": "Alvinella pompejana",
+ "short": "庞贝蠕虫",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "在管子里“养殖”化能合成细菌并以它们为食",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "10–13 cm",
+   "lo": 0.1,
+   "hi": 0.13,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "尾端温度",
+   "value": "高达 50 °C",
+   "lo": 50,
+   "hi": 50,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "头部水温",
+   "value": "22 °C",
+   "lo": 22,
+   "hi": 22,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "血液温度",
+   "value": "20–30 °C",
+   "lo": 20,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐热",
+   "icon": "fire",
+   "desc": "尾端泡在 50 °C 热水里，羽毛状的头伸进较冷的水里。"
+  },
+  {
+   "name": "细菌外套",
+   "icon": "nfix",
+   "desc": "与体表细菌共生，帮它承受极端环境。"
+  }
+ ],
+ "intro": [
+  "庞贝虫是一种深海多毛类（刚毛虫）。",
+  "它只生活在太平洋的热液喷口。",
+  "20 世纪 80 年代初由法国海洋生物学家在加拉帕戈斯外海发现。"
+ ],
+ "fact": "在 50–55 °C 下超过 2 小时会致死。",
+ "range": "太平洋热液喷口。",
+ "sources": [
+  "Wikipedia「Alvinella pompejana」"
+ ],
+ "footnote": ""
+}

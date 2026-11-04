@@ -1,0 +1,80 @@
+{
+ "file": "白鸥",
+ "no": "1302",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "白鸥",
+ "name_en": "Ivory gull",
+ "latin": "Pagophila eburnea",
+ "short": "白鸥",
+ "type": "天空",
+ "habitat": [
+  "冰原",
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "常跟着北极熊等捕食者吃残骸，也吃北极熊和海豹的粪便及海豹胎盘",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2018",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "40–43 cm",
+   "lo": 0.4,
+   "hi": 0.43,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "108–120 cm",
+   "lo": 1.08,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "全球数量",
+   "value": "1.9 万–2.7 万",
+   "lo": 19000,
+   "hi": 27000,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "加拿大降幅",
+   "value": "约 80%",
+   "lo": 80,
+   "hi": 80,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "跟着北极熊",
+   "icon": "team",
+   "desc": "常跟在北极熊后面吃它们剩下的猎物。"
+  },
+  {
+   "name": "怕水结冰",
+   "icon": "cold",
+   "desc": "北极冬天它不愿落到水上，怕水珠在羽毛上结冰。"
+  }
+ ],
+ "intro": [
+  "白鸥是一种小型鸥，是白鸥属唯一的物种。",
+  "它在高纬度北极繁殖，环北极分布。",
+  "大多数繁殖群很小，只有 5–60 对。"
+ ],
+ "fact": "格陵兰外海有的白鸥甚至在铺着砾石的浮冰上繁殖。",
+ "range": "高纬度北极（格陵兰、加拿大北极、俄罗斯北极海岸）。",
+ "sources": [
+  "Wikipedia「Ivory gull」",
+  "IUCN 红色名录（BirdLife International 2018）"
+ ],
+ "footnote": "“加拿大降幅”指 2000 年代初与 1980 年代相比。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "南极小须鲸",
+ "no": "1305",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "南极小须鲸",
+ "name_en": "Antarctic minke whale",
+ "latin": "Balaenoptera bonaerensis",
+ "short": "南极小须鲸",
+ "type": "水中",
+ "habitat": [
+  "冰原",
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "南大洋 90% 以上的个体吃南极磷虾",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2018",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "巴西最长",
+   "value": "11.9 m",
+   "lo": 11.9,
+   "hi": 11.9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "南极最重",
+   "value": "10.4 吨",
+   "lo": 10400,
+   "hi": 10400,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "雌最长寿",
+   "value": "59 年",
+   "lo": 59,
+   "hi": 59,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "雄最长寿",
+   "value": "63 年",
+   "lo": 63,
+   "hi": 63,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "磷虾为食",
+   "icon": "food",
+   "desc": "在南大洋，90% 以上的个体以南极磷虾为食。"
+  },
+  {
+   "name": "耳垢测龄",
+   "icon": "ear",
+   "desc": "科学家通过分析耳垢估算它的年龄。"
+  }
+ ],
+ "intro": [
+  "南极小须鲸是一种须鲸。",
+  "它是仅次于普通小须鲸的第二小的鳁鲸。",
+  "它主要生活在南半球。"
+ ],
+ "fact": "2007 年在斯瓦尔巴发现过一头它和普通小须鲸的杂交后代。",
+ "range": "南半球海洋（夏季在南极水域）。",
+ "sources": [
+  "Wikipedia「Antarctic minke whale」",
+  "IUCN 红色名录（Cooke, J.G. 2018）"
+ ],
+ "footnote": ""
+}

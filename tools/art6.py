@@ -558,3 +558,74 @@ def _midge(w, h):
     return scene("snow", w, h, G_(rock(0, 0, 2.6), 0, 60) + G_(o, 0, 0, 1.2), box=(w / 2, h * .66, 420, 300))
 ART6["ant-midge"] = _midge
 ART6["ant-minke"] = _ceta("#3a424e", 440, 110, belly="#eef2f4", box=None, extras=P("M-80 30 l40 30", sw=10, col="#9aa0a8"))
+# ---- batch p5_deep1 ----
+def _dp(o, box=(.58, 600, 300)): return lambda w, h: scene("deep", w, h, o, box=(w / 2, h * box[0], box[1], box[2]))
+def _teeth(x0, y0, n, dx, ln, up=False):
+    return "".join(P(f"M{x0+i*dx} {y0} l3 {(-ln if up else ln)} l3 {(ln if up else -ln)}", "#f4f4ee", 1.4) for i in range(n))
+_ang = fish(F="#2a2a2e", L=240, H=190, tail="round", eye_r=6, mouth=False, fin_col="#1f1f22") + P("M-120 -10 L-60 10 L-120 40", "#1a1a1a", 2.4) + _teeth(-118, -6, 6, 10, 14) + _teeth(-116, 36, 6, 10, 12, up=True)
+ART6["anglerfish"] = _dp(_ang + P("M-40 -100 C-80 -200 -170 -190 -170 -130", sw=5, col="#4a4a50") + C(-170, -122, 16, "#f2f0a0", 2.4) + E(-170, -122, 30, 30, "none", 0, extra='stroke="#f2f0a0" stroke-width="3" opacity=".6"'), (.6, 420, 360))
+ART6["gulper"] = _dp(P("M-260 -30 L-40 -10 L-40 10 L-260 120 C-200 60 -200 20 -260 -30 Z", "#1f1f22", 2.6) + P("M-40 0 C80 -20 200 40 300 0 C340 -20 360 -10 380 10", sw=14, col="#1f1f22") + C(-60, -10, 5, "#ddd", 0) + C(386, 12, 12, "#f28aa8", 2), (.58, 680, 300))
+ART6["viperfish"] = _dp(fish(F="#2a3a4a", L=320, H=70, tail="fork", eye_r=8, mouth=False, fin_col="#1f2a36", extras="".join(C(-120 + i * 24, 26, 4, "#8ad0f2", 0) for i in range(10))) + P("M-150 -6 L-140 -60 L-132 -4 M-150 10 L-130 50 L-126 8", "#f4f4ee", 1.6), (.58, 600, 280))
+ART6["fangtooth"] = _dp(fish(F="#2a2420", L=220, H=150, tail="fork", eye_r=5, mouth=False, fin_col="#1f1a16") + P("M-110 -4 L-60 10 L-110 26 Z", "#1a1a1a", 2) + P("M-104 -2 L-96 -40 L-90 0 M-96 24 L-86 60 L-80 20", "#f4f4ee", 1.6), (.6, 420, 320))
+ART6["barreleye"] = _dp(fish(F="#2a2a30", L=240, H=90, tail="fork", eye_r=0, mouth=False, fin_col="#3a3a42", extras="".join(E(-40 + i * 30, 0, 12, 20, "none", 1.6) for i in range(5))) + E(-80, -60, 56, 40, "#dff4f4", 2.4, extra='fill-opacity=".5"') + E(-90, -66, 9, 16, "#5ad04a", 2) + E(-66, -70, 9, 16, "#5ad04a", 2), (.6, 440, 320))
+ART6["blobfish"] = _dp(E(0, -50, 150, 90, "#f2b8c0", 3) + E(-110, -60, 50, 40, "#f2a8b4", 2.6) + P("M-150 -40 C-180 -10 -150 20 -120 0", "#e898a6", 2.4) + C(-90, -90, 7, INK, 0) + C(-130, -86, 6, INK, 0) + P("M-150 30 q30 -14 60 0", sw=3) + P("M140 -40 L200 -80 L200 0 Z", "#f2b8c0", 2.6), (.66, 420, 280))
+ART6["lanternfish"] = _dp(fish(F="#3a5a7a", L=240, H=80, tail="fork", eye_r=12, belly="#9ab8d0", fin_col="#2a4a6a", extras="".join(C(-80 + i * 22, 20, 5, "#8af2f2", 0) for i in range(8))), (.58, 420, 260))
+ART6["hatchetfish"] = _dp(poly([(-110, -40), (-40, -90), (70, -60), (110, -10), (90, 20), (20, 80), (-80, 60), (-120, 10)], "#c9d0d8", 3) + P("M100 -10 L160 -50 L160 30 Z", "#b8c0c8", 2.4) + C(-80, -30, 18, "#fff", 2) + C(-80, -30, 10, INK, 0) + "".join(C(-60 + i * 18, 58 - abs(i - 3) * 4, 5, "#8ad0f2", 0) for i in range(7)), (.6, 400, 300))
+ART6["frilled-shark"] = _dp(P("M-260 0 C-150 -40 50 30 300 -10", sw=56, col=INK) + P("M-260 0 C-150 -40 50 30 300 -10", sw=50, col="#6a5a4a") + "".join(P(f"M{-200+i*14} -30 q8 30 0 56", sw=4, col="#e8c8b8") for i in range(6)) + C(-246, -10, 6, INK, 0) + P("M300 -10 L360 -50 L350 20 Z", "#6a5a4a", 2.4), (.58, 680, 260))
+ART6["goblin-shark"] = _dp(fish(F="#e8a8a8", L=400, H=110, tail="shark", eye_r=5, mouth=False, gills=5, fin_col="#d89898", belly="#f2c8c8") + P("M-200 -20 L-320 -30 L-300 -4 L-198 4 Z", "#e8a8a8", 2.4) + P("M-200 20 L-250 40 L-196 34", "#d07878", 2) + _teeth(-246, 36, 5, 9, 8, up=True), (.58, 700, 300))
+ART6["cookiecutter"] = _dp(fish(F="#6a4a32", L=300, H=70, tail="fork", eye_r=10, mouth=False, fin_col="#5a3a26", belly="#8a6a4a") + P("M-110 -30 L-110 30", sw=18, col="#2a1a10") + C(-150, -6, 12, "#4ae08a", 2), (.58, 520, 260))
+def _vsquid(w, h):
+    o = P("M-120 0 C-120 -120 120 -120 120 0 L160 80 C80 40 40 120 0 80 C-40 120 -80 40 -160 80 Z", "#7a1e2a", 3) + E(0, -110, 70, 90, "#8a2a34", 3) + E(-60, -170, 30, 14, "#8a2a34", 2.4) + E(60, -170, 30, 14, "#8a2a34", 2.4)
+    o += C(-26, -80, 14, "#4a8ad0", 2) + C(26, -80, 14, "#4a8ad0", 2) + P("M-30 60 C-80 140 -140 150 -200 120 M30 60 C80 140 140 150 200 120", sw=3, col="#f2c8c8")
+    return scene("deep", w, h, o, box=(w / 2, h * .62, 440, 340))
+ART6["vampire-squid"] = _vsquid
+def _dumbo(w, h):
+    o = P("M-130 0 C-120 -60 120 -60 130 0 C100 40 60 20 40 50 C20 20 -20 20 -40 50 C-60 20 -100 40 -130 0 Z", "#f2b08a", 3) + E(0, -110, 80, 90, "#f2b890", 3)
+    o += E(-90, -150, 46, 26, "#f2a87a", 2.6, extra='transform="rotate(-30 -90 -150)"') + E(90, -150, 46, 26, "#f2a87a", 2.6, extra='transform="rotate(30 90 -150)"') + C(-28, -90, 10, INK, 0) + C(28, -90, 10, INK, 0)
+    return scene("deep", w, h, o, box=(w / 2, h * .62, 400, 320))
+ART6["dumbo"] = _dumbo
+def _colossal(w, h):
+    o = P("M140 -100 L300 -140 L320 -100 L300 -60 Z", "#b84a3a", 2.8) + E(80, -100, 140, 54, "#c8584a", 3) + C(-50, -100, 26, "#fff", 2.4) + C(-52, -100, 14, INK, 0)
+    o += "".join(P(f"M-60 {-112+i*8} C-160 {-140+i*20} -240 {-60+i*10} -320 {-120+i*30}", sw=10, col=INK) + P(f"M-60 {-112+i*8} C-160 {-140+i*20} -240 {-60+i*10} -320 {-120+i*30}", sw=6, col="#c8584a") for i in range(5))
+    o += "".join(P(f"M{-300+i*20} {-100+i*14} l-6 -8", sw=3, col="#f4f4ee") for i in range(5))
+    return scene("deep", w, h, o, box=(w / 2, h * .62, 660, 300))
+ART6["colossal"] = _colossal
+def _gisopod(w, h):
+    o = E(0, -40, 160, 70, "#c9b8d8", 3) + "".join(P(f"M{x} -104 C{x-8} -60 {x-8} -20 {x} 20", sw=3, col="#9a88a8") for x in range(-120, 140, 22))
+    o += C(-150, -50, 12, "#3a3a3a", 0) + P("M-160 -40 C-200 -70 -220 -90 -240 -80 M-160 -30 C-200 -40 -220 -30 -240 -20", sw=4) + "".join(P(f"M{x} 26 l-4 16", sw=4) for x in range(-110, 130, 30)) + P("M160 -40 l40 -16 M160 -30 l40 14", sw=5, col="#9a88a8")
+    return scene("deep", w, h, o, box=(w / 2, h * .74, 480, 240))
+ART6["giant-isopod"] = _gisopod
+def _yeti(w, h):
+    F = "#f4ecd8"; o = []
+    for sd in (-1, 1):
+        for i in range(4):
+            x = sd * (60 + i * 22)
+            o.append(P(f"M{sd*50} {-40+i*10} L{x+sd*50} {-70+i*6} L{x+sd*80} {10+i*4}", sw=8, col=INK) + P(f"M{sd*50} {-40+i*10} L{x+sd*50} {-70+i*6} L{x+sd*80} {10+i*4}", sw=5, col=F))
+        cx = sd * 130
+        o.append(P(f"M{sd*40} -70 L{cx} -130", sw=14, col=INK) + P(f"M{sd*40} -70 L{cx} -130", sw=10, col=F))
+        o.append("".join(P(f"M{sd*60+sd*k*10} {-86-k*6} l{sd*6} 22", sw=2.4, col="#e8c870") for k in range(8)))
+        o.append(E(cx, -150, 40, 30, F, 2.6) + "".join(P(f"M{cx-30+k*8} -130 l{sd*4} 20", sw=2.4, col="#e8c870") for k in range(8)))
+    o.append(E(0, -50, 100, 64, F, 3) + C(-22, -112, 6, "#e8e0d0", 0) + C(22, -112, 6, "#e8e0d0", 0))
+    return scene("deep", w, h, "".join(o), box=(w / 2, h * .72, 540, 300))
+ART6["yeti-crab"] = _yeti
+def _tubew(w, h):
+    o = ""
+    for x, hgt in [(-120, 220), (-50, 280), (20, 240), (90, 300), (150, 200)]:
+        o += P(f"M{x-12} 0 L{x-12} {-hgt} L{x+12} {-hgt} L{x+12} 0 Z", "#f4f0e4", 2.6) + E(x, -hgt - 20, 22, 30, "#e8302a", 2.4)
+    return scene("deep", w, h, G_(rock(0, 0, 2.6), 0, 20) + o, box=(w / 2, h * .74, 420, 360))
+ART6["tube-worm"] = _tubew
+def _pompeii(w, h):
+    o = P("M-200 0 L-200 -80 L120 -80 L120 0 Z", "#c9b8a0", 2.6) + P("M-160 -40 C-60 -70 40 -10 140 -40", sw=26, col=INK) + P("M-160 -40 C-60 -70 40 -10 140 -40", sw=20, col="#e8a8a0")
+    o += "".join(P(f"M140 -40 l{30+i*6} {-30+i*12}", sw=4, col="#e8402a") for i in range(6)) + "".join(P(f"M{-150+i*20} {-56+(i%2)*10} l0 -12", sw=2, col="#9a9a9a") for i in range(14))
+    return scene("deep", w, h, G_(rock(0, 0, 2.4), 0, 40) + o, box=(w / 2, h * .7, 480, 260))
+ART6["pompeii-worm"] = _pompeii
+def _seaspider(w, h):
+    o = "".join(P(f"M0 -60 L{dx} {-140+abs(dx)//4} L{dx*1.4} 20", sw=6, col=INK) + P(f"M0 -60 L{dx} {-140+abs(dx)//4} L{dx*1.4} 20", sw=3, col="#e8b070") for dx in (-200, -140, -80, -30, 30, 80, 140, 200))
+    o += E(0, -60, 22, 46, "#e8b070", 2.6) + P("M0 -106 L0 -170", sw=10, col=INK) + P("M0 -106 L0 -170", sw=6, col="#e8b070")
+    return scene("deep", w, h, o, box=(w / 2, h * .72, 560, 300))
+ART6["sea-spider"] = _seaspider
+def _siph(w, h):
+    o = "".join(E(-260 + i * 52, -100 + (i % 2) * 10, 26, 18, "#e8f4fb", 2, extra='fill-opacity=".7"') for i in range(11))
+    o += "".join(P(f"M{-250+i*52} {-86+(i%2)*10} C{-260+i*52} -20 {-230+i*52} 30 {-250+i*52} 90", sw=1.6, col="#f2a0b0") for i in range(11))
+    return scene("deep", w, h, o, box=(w / 2, h * .58, 660, 300))
+ART6["siphonophore"] = _siph

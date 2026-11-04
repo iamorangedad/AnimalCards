@@ -1,0 +1,70 @@
+{
+ "file": "小飞象章鱼",
+ "no": "1318",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "小飞象章鱼",
+ "name_en": "Dumbo octopus",
+ "latin": "Grimpoteuthis",
+ "short": "小飞象章鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "*（属级）吃甲壳类、双壳类、蠕虫和桡足类",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*水深",
+   "value": "1000–7000 m",
+   "lo": 1000,
+   "hi": 7000,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "*物种数",
+   "value": "17 种",
+   "lo": 17,
+   "hi": 17,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "*最深记录",
+   "value": "7279 m（待核）",
+   "lo": 7279,
+   "hi": 7279,
+   "scale": "abyss",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*耳朵鳍",
+   "icon": "wind",
+   "desc": "头两侧有两片像耳朵的鳍，名字来自迪士尼的小飞象。"
+  },
+  {
+   "name": "*最深章鱼",
+   "icon": "dive",
+   "desc": "它们是已知生活最深的章鱼，有的在超深渊带被发现。"
+  }
+ ],
+ "intro": [
+  "小飞象章鱼是须蛸目的一个属，属名 Grimpoteuthis。",
+  "它们被认为分布在全球寒冷的深海。",
+  "寿命未知，估计有好几年。"
+ ],
+ "fact": "2022–2025 年水下机器人多次在 960–2108 m 深处拍到它们。",
+ "range": "全球深海。",
+ "sources": [
+  "Wikipedia「Grimpoteuthis」"
+ ],
+ "footnote": "* 为属级数据；7279 m 记录可能是网下降途中捕获，深度待核。"
+}

@@ -1,0 +1,78 @@
+{
+ "file": "巨型管虫",
+ "no": "1322",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "巨型管虫",
+ "name_en": "Giant tube worm",
+ "latin": "Riftia pachyptila",
+ "short": "巨型管虫",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "成体没有嘴和消化道，靠体内化能合成细菌提供养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "管长",
+   "value": "最长 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "年生长",
+   "value": "10–85 cm",
+   "lo": 0.1,
+   "hi": 0.85,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "身体直径",
+   "value": "4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "没有嘴巴",
+   "icon": "nfix",
+   "desc": "成体没有嘴、消化系统和肛门，靠共生细菌生活。"
+  },
+  {
+   "name": "长得最快",
+   "icon": "sun",
+   "desc": "是已知生长最快的海洋无脊椎动物。"
+  }
+ ],
+ "intro": [
+  "巨型管虫是多毛纲的环节动物，生活在热液喷口附近。",
+  "它是管虫属唯一的物种。",
+  "它的血红蛋白能在有硫化物时运氧。"
+ ],
+ "fact": "一片管虫群可以绵延几十米。",
+ "range": "东太平洋热液喷口。",
+ "sources": [
+  "Wikipedia「Riftia」"
+ ],
+ "footnote": ""
+}

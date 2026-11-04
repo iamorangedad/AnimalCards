@@ -1,0 +1,62 @@
+{
+ "file": "后肛鱼",
+ "no": "1310",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "后肛鱼",
+ "name_en": "Pacific barreleye fish",
+ "latin": "Macropinna microstoma",
+ "short": "后肛鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "以水母类等带刺触手的生物为食，靠剪影发现猎物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "600–800 m",
+   "lo": 600,
+   "hi": 800,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "透明脑袋",
+   "icon": "glow",
+   "desc": "头上有一个透明、充满液体的罩子，能看到里面绿色的眼睛。"
+  },
+  {
+   "name": "转动眼睛",
+   "icon": "camo",
+   "desc": "2008 年发现它的管状眼能在透明罩里向上和向前转动。"
+  }
+ ],
+ "intro": [
+  "大鳍后肛鱼是后肛鱼科的一种辐鳍鱼。",
+  "它几乎一动不动地悬在中层海水里。",
+  "嘴很小，身上大部分覆盖着大鳞片。"
+ ],
+ "fact": "透明头罩能保护眼睛不被水母的刺丝伤到。",
+ "range": "太平洋、印度洋和大西洋的温带深水（维基描述，待核）。",
+ "sources": [
+  "Wikipedia「Macropinna」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,62 @@
+{
+ "file": "海蜘蛛",
+ "no": "1324",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "海蜘蛛",
+ "name_en": "Sea spider (Colossendeis megalonyx)",
+ "latin": "Colossendeis megalonyx",
+ "short": "海蜘蛛",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用长吻快速出击，捕捉腿展范围内的猎物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "水深",
+   "value": "3–5000 m",
+   "lo": 3,
+   "hi": 5000,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "吻长",
+   "value": "约为躯干 2 倍",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长吻出击",
+   "icon": "food",
+   "desc": "弯身用长吻尖端刺向腿展范围内的猎物。"
+  },
+  {
+   "name": "沉底爬行",
+   "icon": "climb",
+   "desc": "它慢慢爬行，在水中会下沉。"
+  }
+ ],
+ "intro": [
+  "巨海蜘蛛是海蜘蛛（皆足纲）的一种。",
+  "它是分布最广的海蜘蛛之一。",
+  "触须与蛛形类的触肢同源。"
+ ],
+ "fact": "研究人员在美国南极麦克默多站观察过它们的交配群。",
+ "range": "南大洋等，分布广泛。",
+ "sources": [
+  "Wikipedia「Colossendeis megalonyx」"
+ ],
+ "footnote": "维基未给出体型数据（待核）。"
+}

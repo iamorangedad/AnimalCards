@@ -1,0 +1,70 @@
+{
+ "file": "基瓦多雪人蟹",
+ "no": "1321",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "基瓦多雪人蟹",
+ "name_en": "Yeti crab",
+ "latin": "Kiwa hirsuta",
+ "short": "基瓦多雪人蟹",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "共生",
+ "diet_note": "一般认为主要以细菌为食，也可能是肉食者",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "发现水深",
+   "value": "2200 m",
+   "lo": 2200,
+   "hi": 2200,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "发现年份",
+   "value": "2005 年",
+   "lo": 2005,
+   "hi": 2005,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长毛钳子",
+   "icon": "whisker",
+   "desc": "步足上长满丝状的金色刚毛，像皮毛一样。"
+  },
+  {
+   "name": "看不见",
+   "icon": "camo",
+   "desc": "眼睛严重退化、没有色素，被认为是盲的。"
+  }
+ ],
+ "intro": [
+  "基瓦多毛怪蟹是 2005 年在南太平洋发现的甲壳动物。",
+  "它被归入一个新的科——基瓦蟹科。",
+  "它生活在热液喷口附近。"
+ ],
+ "fact": "它“毛茸茸”的钳子上住着丝状细菌，可能帮它解毒。",
+ "range": "太平洋–南极海岭（复活节岛以南约 1500 km）。",
+ "sources": [
+  "Wikipedia「Kiwa hirsuta」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,80 @@
+{
+ "file": "矛隼",
+ "no": "1303",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "矛隼",
+ "name_en": "Gyrfalcon",
+ "latin": "Falco rusticolus",
+ "short": "矛隼",
+ "type": "天空",
+ "habitat": [
+  "冰原",
+  "天空"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要捕食雷鸟和水禽，可在空中攻击；也捕鱼和小型兽类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌鸟体长",
+   "value": "51–65 cm",
+   "lo": 0.51,
+   "hi": 0.65,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟翼展",
+   "value": "124–134 cm",
+   "lo": 1.24,
+   "hi": 1.34,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "雌鸟体重",
+   "value": "1180–2100 g",
+   "lo": 1.18,
+   "hi": 2.1,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最大猎物",
+   "value": "约 4 kg",
+   "lo": 4,
+   "hi": 4,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的隼",
+   "icon": "wind",
+   "desc": "它是隼科中最大的物种。"
+  },
+  {
+   "name": "鹰猎名禽",
+   "icon": "team",
+   "desc": "人们用它来打猎和进行鹰猎，雄鸟在鹰猎中叫“gyrkin”。"
+  }
+ ],
+ "intro": [
+  "矛隼是一种生活在高纬度的猛禽。",
+  "它在北极海岸、苔原和岛屿繁殖。",
+  "雌鸟比雄鸟更大更壮。"
+ ],
+ "fact": "它的鸟类猎物小到约 20 g 的朱顶雀，大到约 4 kg 的雁和松鸡。",
+ "range": "环北极（北美、格陵兰、冰岛、欧亚北部）。",
+ "sources": [
+  "Wikipedia「Gyrfalcon」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

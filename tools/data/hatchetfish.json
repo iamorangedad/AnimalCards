@@ -1,0 +1,70 @@
+{
+ "file": "银斧鱼",
+ "no": "1313",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "银斧鱼",
+ "name_en": "Marine hatchetfish",
+ "latin": "Sternoptychinae",
+ "short": "银斧鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "*（亚科级）向上看，靠剪影发现上方游过的猎物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*体长",
+   "value": "2.8–12 cm",
+   "lo": 0.028,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "*水深",
+   "value": "50–1500 m",
+   "lo": 50,
+   "hi": 1500,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "*臀鳍鳍条",
+   "value": "11–19 根",
+   "lo": 11,
+   "hi": 19,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*腹部发光",
+   "icon": "glow",
+   "desc": "像亲戚一样身上有发光器。"
+  },
+  {
+   "name": "*斧头身形",
+   "icon": "camo",
+   "desc": "身体侧扁，鳞片银色、娇嫩、易脱落。"
+  }
+ ],
+ "intro": [
+  "深海银斧鱼是深海中层的小型辐鳍鱼。",
+  "不要和淡水的“斧头鱼”混淆。",
+  "共有三个属。"
+ ],
+ "fact": "有的种类臀鳍和尾鳍基部有大片透明区域。",
+ "range": "大西洋、太平洋和印度洋。",
+ "sources": [
+  "Wikipedia「Marine hatchetfish」"
+ ],
+ "footnote": "* 为银斧鱼亚科（亚科级）数据。"
+}

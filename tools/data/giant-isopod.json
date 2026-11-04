@@ -1,0 +1,78 @@
+{
+ "file": "大王具足虫",
+ "no": "1320",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "大王具足虫",
+ "name_en": "Giant isopod",
+ "latin": "Bathynomus giganteus",
+ "short": "大王具足虫",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "腐生",
+ "diet_note": "吃沉到海底的死亡海洋生物遗骸，帮助养分循环",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "19–36 cm",
+   "lo": 0.19,
+   "hi": 0.36,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "确认最大",
+   "value": "约 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "水深",
+   "value": "310–2140 m",
+   "lo": 310,
+   "hi": 2140,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "幼体长",
+   "value": "最长 60 mm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "深海清道夫",
+   "icon": "food",
+   "desc": "吃沉到海底的动物尸体。"
+  },
+  {
+   "name": "深海巨型",
+   "icon": "cold",
+   "desc": "生活在冷水中，体型远大于常见的潮虫亲戚。"
+  }
+ ],
+ "intro": [
+  "大王具足虫是等足目的甲壳动物。",
+  "它和虾、蟹有很远的亲缘关系。",
+  "幼体缺少第七对步足。"
+ ],
+ "fact": "媒体曾报道一只 76 cm 的个体，但确认的最大约 50 cm。",
+ "range": "西大西洋（含墨西哥湾和加勒比海）。",
+ "sources": [
+  "Wikipedia「Bathynomus giganteus」"
+ ],
+ "footnote": ""
+}

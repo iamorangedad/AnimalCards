@@ -1,0 +1,70 @@
+{
+ "file": "灯笼鱼",
+ "no": "1312",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "灯笼鱼",
+ "name_en": "Lanternfish",
+ "latin": "Myctophidae",
+ "short": "灯笼鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "*（科级）是许多海洋动物的重要食物；也被发现会吃塑料碎片",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*体长",
+   "value": "2–30 cm",
+   "lo": 0.02,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "*物种数",
+   "value": "246 种",
+   "lo": 246,
+   "hi": 246,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "*深海鱼占比",
+   "value": "最高 65%",
+   "lo": 65,
+   "hi": 65,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*发光点",
+   "icon": "glow",
+   "desc": "除一种外，身体腹侧都有成排的发光器。"
+  },
+  {
+   "name": "*食物链枢纽",
+   "icon": "team",
+   "desc": "被大量捕食，是许多海洋生态系统的重要环节。"
+  }
+ ],
+ "intro": [
+  "灯笼鱼是灯笼鱼科的小型中层鱼。",
+  "它们是分布最广、种类最多、数量最多的脊椎动物之一。",
+  "浅层种呈蓝绿或银色，深层种呈深褐或黑色。"
+ ],
+ "fact": "曾有一条灯笼鱼肚子里有 80 多片塑料碎片。",
+ "range": "全球各大洋。",
+ "sources": [
+  "Wikipedia「Lanternfish」"
+ ],
+ "footnote": "* 为灯笼鱼科（科级）数据。"
+}

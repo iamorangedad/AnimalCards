@@ -1,0 +1,80 @@
+{
+ "file": "雪茄达摩鲨",
+ "no": "1316",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "雪茄达摩鲨",
+ "name_en": "Cookiecutter shark",
+ "latin": "Isistius brasiliensis",
+ "short": "雪茄达摩鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "从比自己大的动物身上咬下圆形肉块；也整个吞下乌贼等小猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌最长",
+   "value": "56 cm",
+   "lo": 0.56,
+   "hi": 0.56,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每日垂直游",
+   "value": "最多 3 km",
+   "lo": 3,
+   "hi": 3,
+   "scale": "km",
+   "approx": false
+  },
+  {
+   "label": "肝占体重",
+   "value": "约 35%",
+   "lo": 35,
+   "hi": 35,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "一生换牙",
+   "value": "435–465 颗",
+   "lo": 435,
+   "hi": 465,
+   "scale": "n1000",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "饼干切割",
+   "icon": "food",
+   "desc": "像饼干模具一样，从金枪鱼、鲸、海豚甚至大白鲨身上咬下圆形肉块。"
+  },
+  {
+   "name": "黑领伪装",
+   "icon": "glow",
+   "desc": "腹部布满发光器，喉部却有一道黑“领子”，像一条小鱼的影子。"
+  }
+ ],
+ "intro": [
+  "达摩鲨也叫雪茄鲨，是一种小型鲨鱼。",
+  "它生活在全球温暖的大洋，尤其是岛屿附近。",
+  "白天在 1–3.7 km 深处，夜晚升到上层。"
+ ],
+ "fact": "它的咬痕曾出现在潜艇、海底电缆上。",
+ "range": "全球热带和亚热带大洋。",
+ "sources": [
+  "Wikipedia「Cookiecutter shark」",
+  "IUCN 红色名录（Kyne, P.M. 2018）"
+ ],
+ "footnote": "",
+ "warn": "曾在潜艇、海缆和人体上发现它的咬痕；一般不认为它对人危险。"
+}

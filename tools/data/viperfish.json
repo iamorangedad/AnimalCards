@@ -1,0 +1,79 @@
+{
+ "file": "斯氏蝰鱼",
+ "no": "1308",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "斯氏蝰鱼",
+ "name_en": "Sloane's viperfish",
+ "latin": "Chauliodus sloani",
+ "short": "斯氏蝰鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "常吃大猎物，有时能吃下自身体重 50% 的猎物；小个体吃甲壳类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌鱼成熟",
+   "value": "133–191 mm",
+   "lo": 0.133,
+   "hi": 0.191,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "张口角度",
+   "value": "最大 90°",
+   "lo": 90,
+   "hi": 90,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "猎物大小",
+   "value": "体长的 63%",
+   "lo": 63,
+   "hi": 63,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "脂肪含量",
+   "value": "约 2.4%",
+   "lo": 2.4,
+   "hi": 2.4,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "牙笼",
+   "icon": "thorn",
+   "desc": "闭上嘴时，长牙交错形成一个笼子，把猎物关在里面。"
+  },
+  {
+   "name": "腹部发光",
+   "icon": "glow",
+   "desc": "腹部两排发光器能调亮度，隐藏自己的影子。"
+  }
+ ],
+ "intro": [
+  "斯氏蝰鱼是全球分布的中层掠食性巨口鱼。",
+  "1801 年由德国学者 Bloch 和 Schneider 描述。",
+  "它的颌可以“脱开”，嘴能张到 90°。"
+ ],
+ "fact": "在地中海中部，它是大西洋蓝鳍金枪鱼的主要食物之一。",
+ "range": "全球热带和温带海洋的中层。",
+ "sources": [
+  "Wikipedia「Sloane's viperfish」",
+  "IUCN 红色名录（Harold, A. 2015）"
+ ],
+ "footnote": ""
+}

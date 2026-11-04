@@ -1,0 +1,78 @@
+{
+ "file": "深海鮟鱇",
+ "no": "1306",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "深海鮟鱇",
+ "name_en": "Humpback anglerfish",
+ "latin": "Melanocetus johnsonii",
+ "short": "深海鮟鱇",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "雌鱼嘴大几乎垂直，长牙能吃下比自己还大的猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌鱼体长",
+   "value": "最长 153 mm",
+   "lo": 0.153,
+   "hi": 0.153,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄鱼体长",
+   "value": "15.5–28 mm",
+   "lo": 0.0155,
+   "hi": 0.028,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "常见水深",
+   "value": "200–1500 m",
+   "lo": 200,
+   "hi": 1500,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "1000m内比例",
+   "value": "65%",
+   "lo": 65,
+   "hi": 65,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "头顶钓竿",
+   "icon": "glow",
+   "desc": "背鳍的刺伸长成“钓竿”，末端有发光的“诱饵”。"
+  },
+  {
+   "name": "大嘴长牙",
+   "icon": "food",
+   "desc": "长而尖的牙能吞下比自己更大的猎物。"
+  }
+ ],
+ "intro": [
+  "驼背鮟鱇是黑鮟鱇科的一种深海鱼。",
+  "科名的意思是“黑色海怪”。",
+  "雌雄体型差别极大，雄鱼只有几厘米。"
+ ],
+ "fact": "深海里只有约 5% 的光合区养分能沉下来，食物很少。",
+ "range": "全球各大洋的温带和热带区域（含南海、东海）。",
+ "sources": [
+  "Wikipedia「Humpback anglerfish」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。"
+}

@@ -1,0 +1,80 @@
+{
+ "file": "岩雷鸟",
+ "no": "1301",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "岩雷鸟",
+ "name_en": "Rock ptarmigan",
+ "latin": "Lagopus muta",
+ "short": "岩雷鸟",
+ "type": "陆地",
+ "habitat": [
+  "冰原",
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "因地区而异；阿拉斯加冬季主食杨树芽、矮桦和柳树的芽与柔荑花序",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "34–36 cm",
+   "lo": 0.34,
+   "hi": 0.36,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "翼展",
+   "value": "54–60 cm",
+   "lo": 0.54,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "440–640 g",
+   "lo": 0.44,
+   "hi": 0.64,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "飞越海峡",
+   "value": "300 km",
+   "lo": 300,
+   "hi": 300,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "四季换装",
+   "icon": "camo",
+   "desc": "冬天全身变白（只有外侧尾羽和眼线是黑的），春夏换成灰褐色。"
+  },
+  {
+   "name": "储能过冬",
+   "icon": "cold",
+   "desc": "体内储备的能量在没有食物时可撑最多 10 天。"
+  }
+ ],
+ "intro": [
+  "岩雷鸟是松鸡族的中型猎禽。",
+  "在欧洲它直接被叫作“雷鸟”。",
+  "英文名开头的 p 是误以为源自希腊语而加上的。"
+ ],
+ "fact": "冰岛冬天的个体砂囊里有格陵兰的矿物，说明它们飞越了 300 km 宽的丹麦海峡。",
+ "range": "环北极苔原和欧亚、北美的高山。",
+ "sources": [
+  "Wikipedia「Rock ptarmigan」",
+  "IUCN 红色名录（BirdLife International 2016）"
+ ],
+ "footnote": ""
+}

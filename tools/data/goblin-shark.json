@@ -1,0 +1,79 @@
+{
+ "file": "欧氏尖吻鲛",
+ "no": "1315",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "欧氏尖吻鲛",
+ "name_en": "Goblin shark",
+ "latin": "Mitsukurina owstoni",
+ "short": "欧氏尖吻鲛",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "长吻上的电感受器感知猎物，迅速弹出颌抓住它",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成体体长",
+   "value": "3–4 m",
+   "lo": 3,
+   "hi": 4,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "最大估计",
+   "value": "5.4–6.2 m",
+   "lo": 5.4,
+   "hi": 6.2,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "下潜",
+   "value": "最深 1300 m",
+   "lo": 1300,
+   "hi": 1300,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "谱系",
+   "value": "约 1.25 亿年",
+   "lo": 125,
+   "hi": 125,
+   "scale": "myr",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "弹射颌",
+   "icon": "food",
+   "desc": "能把颌迅速向前弹出抓住猎物。"
+  },
+  {
+   "name": "电感长吻",
+   "icon": "ear",
+   "desc": "扁长的吻上布满洛伦兹壶腹，能感知微弱电场。"
+  }
+ ],
+ "intro": [
+  "欧氏尖吻鲛是一种罕见的深海鲨。",
+  "它有时被称为“活化石”，是尖吻鲛科唯一现存的成员。",
+  "皮肤呈粉红色。"
+ ],
+ "fact": "2000 年捕获的一条雌鲨估计长 5.4–6.2 m。",
+ "range": "全球大陆坡、海底峡谷和海山。",
+ "sources": [
+  "Wikipedia「Goblin shark」",
+  "IUCN 红色名录（Finucci, B. 2018）"
+ ],
+ "footnote": ""
+}

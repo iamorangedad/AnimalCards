@@ -1,0 +1,63 @@
+{
+ "file": "管水母",
+ "no": "1325",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "管水母",
+ "name_en": "Giant siphonophore",
+ "latin": "Praya dubia",
+ "short": "管水母",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "用长触手捕捉并麻痹食物，再把消化的养分分给整个群体",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 50 m",
+   "lo": 50,
+   "hi": 50,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "水深",
+   "value": "700–1000 m",
+   "lo": 700,
+   "hi": 1000,
+   "scale": "depth_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "群体动物",
+   "icon": "team",
+   "desc": "不是一只动物，而是很多分工不同的“个员”组成的群体。"
+  },
+  {
+   "name": "刺触手",
+   "icon": "toxic",
+   "desc": "垂下布满刺细胞的触手帘，毒刺能麻痹或杀死碰上的猎物。"
+  }
+ ],
+ "intro": [
+  "巨型管水母是一种管水母（水螅纲）。",
+  "它可能是第二长的海洋生物，也可能是最长的。",
+  "群体排成一条长长的、常为白色透明的柄。"
+ ],
+ "fact": "1987 年蒙特雷湾水族馆研究所在自然环境中观察到了活体。",
+ "range": "全球中层到深层海域。",
+ "sources": [
+  "Wikipedia「Praya dubia」"
+ ],
+ "footnote": "",
+ "warn": "触手有刺细胞；深海生物，一般不会接触到人。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "皱鳃鲨",
+ "no": "1314",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "皱鳃鲨",
+ "name_en": "Frilled shark",
+ "latin": "Chlamydoselachus anguineus",
+ "short": "皱鳃鲨",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃头足类、小型鲨鱼和硬骨鱼；夜间垂直迁移到上层觅食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "雌最长",
+   "value": "2.0 m",
+   "lo": 2.0,
+   "hi": 2.0,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "妊娠期",
+   "value": "最长 3.5 年",
+   "lo": 3.5,
+   "hi": 3.5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "每胎",
+   "value": "2–15 仔",
+   "lo": 2,
+   "hi": 15,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "牙齿",
+   "value": "300 颗",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "褶边鳃",
+   "icon": "camo",
+   "desc": "喉部 6 对鳃裂边缘像褶边，因此得名。"
+  },
+  {
+   "name": "针牙",
+   "icon": "thorn",
+   "desc": "长而柔韧的颌上有 300 颗向后弯的针状牙。"
+  }
+ ],
+ "intro": [
+  "皱鳃鲨也叫蜥鲨，是皱鳃鲨科两个现存物种之一。",
+  "它常作为副渔获被捕到。",
+  "它保留了许多原始的身体特征。"
+ ],
+ "fact": "它捕猎时把尾巴抵在岩石上，像鳗一样弯身扑向猎物。",
+ "range": "大西洋和太平洋的外大陆架和上大陆坡。",
+ "sources": [
+  "Wikipedia「Frilled shark」",
+  "IUCN 红色名录（Smart, J.J. 2016）"
+ ],
+ "footnote": ""
+}

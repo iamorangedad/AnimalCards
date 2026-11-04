@@ -1,0 +1,79 @@
+{
+ "file": "南极摇蚊",
+ "no": "1304",
+ "cat": "极地生物",
+ "kingdom": "动物",
+ "name_cn": "南极摇蚊",
+ "name_en": "Antarctic midge",
+ "latin": "Belgica antarctica",
+ "short": "南极摇蚊",
+ "type": "陆地",
+ "habitat": [
+  "冰原",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "幼虫吃陆生藻类（尤其 Prasiola crispa）、真菌和腐烂植物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "2–6 mm",
+   "lo": 0.002,
+   "hi": 0.006,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最低耐受",
+   "value": "−15 °C",
+   "lo": -15,
+   "hi": -15,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "可失水",
+   "value": "最多 70%",
+   "lo": 70,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "生命周期",
+   "value": "2 年",
+   "lo": 2,
+   "hi": 2,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不会飞",
+   "icon": "cold",
+   "desc": "它没有飞行能力，是南极最大的纯陆生无脊椎动物。"
+  },
+  {
+   "name": "怕热",
+   "icon": "sun",
+   "desc": "30 °C 几小时就会死，幼虫在 10 °C 下一周内就会死。"
+  }
+ ],
+ "intro": [
+  "南极蠓是南极大陆特有的一种无翅摇蚊。",
+  "它能耐受冰冻，但低于 −15 °C 就活不了。",
+  "躲进 1 cm 深的土里，温度就稳定在 0 °C 附近。"
+ ],
+ "fact": "两年的生命大部分是四个幼虫阶段。",
+ "range": "南极半岛和附近岛屿。",
+ "sources": [
+  "Wikipedia「Belgica antarctica」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "大王酸浆鱿",
+ "no": "1319",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "大王酸浆鱿",
+ "name_en": "Colossal squid",
+ "latin": "Mesonychoteuthis hamiltoni",
+ "short": "大王酸浆鱿",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "推测是伏击捕食者，吃各种鱼；可能是抹香鲸的重要猎物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "确认体重",
+   "value": "至少 495 kg",
+   "lo": 495,
+   "hi": 495,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "最大全长",
+   "value": "约 4.2 m",
+   "lo": 4.2,
+   "hi": 4.2,
+   "scale": "len_xl",
+   "approx": true
+  },
+  {
+   "label": "眼径",
+   "value": "27–30 cm",
+   "lo": 0.27,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "胃中喙推算",
+   "value": "600–700 kg",
+   "lo": 600,
+   "hi": 700,
+   "scale": "mass_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大眼睛",
+   "icon": "ear",
+   "desc": "眼睛直径 27–30 cm，是已知动物中最大的。"
+  },
+  {
+   "name": "旋转钩爪",
+   "icon": "thorn",
+   "desc": "它是玻璃乌贼科中唯一在腕和触腕上长钩的。"
+  }
+ ],
+ "intro": [
+  "大王酸浆鱿是玻璃乌贼科的一种巨型乌贼。",
+  "它是最重的现存无脊椎动物。",
+  "它也叫“南极巨型乌贼”，但与大王乌贼不是同一属。"
+ ],
+ "fact": "一般乌贼外套长约 30 cm、重 100–200 g，它则重达数百千克。",
+ "range": "南大洋（南极周围）。",
+ "sources": [
+  "Wikipedia「Colossal squid」",
+  "IUCN 红色名录（Barratt, I. 2014）"
+ ],
+ "footnote": ""
+}

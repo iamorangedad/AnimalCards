@@ -1,0 +1,78 @@
+{
+ "file": "角高体金眼鲷",
+ "no": "1309",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "角高体金眼鲷",
+ "name_en": "Common fangtooth",
+ "latin": "Anoplogaster cornuta",
+ "short": "角高体金眼鲷",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "捕食其他鱼、甲壳类和头足类",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "约 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "成鱼水深",
+   "value": "500–5000 m",
+   "lo": 500,
+   "hi": 5000,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "分布水深",
+   "value": "2–5000 m",
+   "lo": 2,
+   "hi": 5000,
+   "scale": "abyss",
+   "approx": false
+  },
+  {
+   "label": "吸光效率",
+   "value": "99.5%",
+   "lo": 99.5,
+   "hi": 99.5,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑色隐身",
+   "icon": "camo",
+   "desc": "身体吸收 99.5% 的光，在原生环境中很难拍到。"
+  },
+  {
+   "name": "深海猎手",
+   "icon": "food",
+   "desc": "捕食鱼、甲壳类和头足类。"
+  }
+ ],
+ "intro": [
+  "角高体金眼鲷是分布在全球温带和热带海洋的深海鱼。",
+  "幼鱼生活在较浅的水层。",
+  "它是大洋肉食鱼类的食物。"
+ ],
+ "fact": "它对人类渔业没有价值。",
+ "range": "全球温带和热带海洋。",
+ "sources": [
+  "Wikipedia「Anoplogaster cornuta」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。"
+}

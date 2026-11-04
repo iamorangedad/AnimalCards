@@ -1,0 +1,70 @@
+{
+ "file": "软隐棘杜父鱼",
+ "no": "1311",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "软隐棘杜父鱼",
+ "name_en": "Smooth-head blobfish",
+ "latin": "Psychrolutes marcidus",
+ "short": "软隐棘杜父鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "腐生",
+ "diet_note": "肌肉很少，主要吃漂到面前的可食物质",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "通常不足 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "栖息水深",
+   "value": "600–1200 m",
+   "lo": 600,
+   "hi": 1200,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "水压倍数",
+   "value": "60–120 倍",
+   "lo": 60,
+   "hi": 120,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "果冻身体",
+   "icon": "drop",
+   "desc": "身体主要是密度略低于水的胶状物，不费力就能浮在海底上方。"
+  },
+  {
+   "name": "省力生活",
+   "icon": "food",
+   "desc": "缺少肌肉，主要吃漂到面前的东西。"
+  }
+ ],
+ "intro": [
+  "软隐棘杜父鱼也叫水滴鱼，属于隐棘杜父鱼科。",
+  "它生活在澳大利亚、塔斯马尼亚和新西兰外海的深水。",
+  "那里的水压是海面的 60–120 倍。"
+ ],
+ "fact": "缺少肌肉对它来说并不是缺点。",
+ "range": "澳大利亚东南部、塔斯马尼亚和新西兰外海。",
+ "sources": [
+  "Wikipedia「Psychrolutes marcidus」"
+ ],
+ "footnote": "维基条目很短，数据少（待核）。"
+}

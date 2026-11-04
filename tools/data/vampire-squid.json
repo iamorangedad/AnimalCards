@@ -1,0 +1,78 @@
+{
+ "file": "幽灵蛸",
+ "no": "1317",
+ "cat": "深海生物",
+ "kingdom": "动物",
+ "name_cn": "幽灵蛸",
+ "name_en": "Vampire squid",
+ "latin": "Vampyroteuthis infernalis",
+ "short": "幽灵蛸",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "腐生",
+ "diet_note": "吃有机碎屑（不吸血）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "全长",
+   "value": "最长约 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "栖息水深",
+   "value": "600–900 m",
+   "lo": 600,
+   "hi": 900,
+   "scale": "depth_xl",
+   "approx": false
+  },
+  {
+   "label": "耐受氧饱和",
+   "value": "低至 3%",
+   "lo": 3,
+   "hi": 3,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "孵卵",
+   "value": "最长 400 天",
+   "lo": 400,
+   "hi": 400,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "发光斗篷",
+   "icon": "glow",
+   "desc": "受威胁时会放出持续近 10 分钟的发光“弹幕”迷惑敌人。"
+  },
+  {
+   "name": "两条细丝",
+   "icon": "trunk",
+   "desc": "背侧有两条可伸缩的长丝，这让它有别于章鱼和乌贼。"
+  }
+ ],
+ "intro": [
+  "幽灵蛸的学名意思是“来自地狱的吸血鬼乌贼”。",
+  "名字来自它深色的身体和斗篷般的膜，而不是吸血。",
+  "它的眼睛按比例是动物界最大的。"
+ ],
+ "fact": "它是唯一能在缺氧带度过整个生命周期的头足类。",
+ "range": "全球温带和热带海洋的深海。",
+ "sources": [
+  "Wikipedia「Vampire squid」"
+ ],
+ "footnote": ""
+}

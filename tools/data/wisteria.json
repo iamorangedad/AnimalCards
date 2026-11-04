@@ -1,0 +1,79 @@
+{
+ "file": "紫藤",
+ "no": "1351",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "紫藤",
+ "name_en": "Chinese wisteria",
+ "latin": "Wisteria sinensis",
+ "short": "紫藤",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花序长",
+   "value": "15–20 cm",
+   "lo": 0.15,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "复叶长",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "荚果长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大一株",
+   "value": "220 吨",
+   "lo": 220000,
+   "hi": 220000,
+   "scale": "mass_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "逆时针缠绕",
+   "icon": "climb",
+   "desc": "茎按逆时针方向缠绕在支撑物上。"
+  },
+  {
+   "name": "先花后叶",
+   "icon": "bee",
+   "desc": "春天在长叶之前开出白、紫或蓝色的长花序。"
+  }
+ ],
+ "intro": [
+  "紫藤是豆科的开花植物，原产中国。",
+  "分布于广西、贵州、河北、河南、湖北、陕西和云南。",
+  "种子像厚厚的圆盘，直径约 1 cm。"
+ ],
+ "fact": "加州马德雷山的一株紫藤 1892 年种下，1994 年枝条长达 152 m、重 220 吨，被吉尼斯认定为最大的开花植物。",
+ "range": "原产中国；各地庭园栽培。",
+ "sources": [
+  "Wikipedia「Wisteria sinensis」"
+ ],
+ "footnote": "",
+ "warn": "全株含紫藤苷，误食会引起恶心、呕吐等；多国有儿童中毒（肠胃炎）的报告。"
+}

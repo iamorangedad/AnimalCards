@@ -1,0 +1,79 @@
+{
+ "file": "欧洲刺柏",
+ "no": "1375",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲刺柏",
+ "name_en": "Common juniper",
+ "latin": "Juniperus communis",
+ "short": "欧洲刺柏",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2013",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "球果直径",
+   "value": "4–12 mm",
+   "lo": 0.004,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "成熟",
+   "value": "18 个月",
+   "lo": 18,
+   "hi": 18,
+   "scale": "months",
+   "approx": false
+  },
+  {
+   "label": "雄株寿命",
+   "value": "可超 2000 年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "分布最广",
+   "icon": "wind",
+   "desc": "是分布范围最广的木本植物，遍布北半球凉温带。"
+  },
+  {
+   "name": "杜松子",
+   "icon": "food",
+   "desc": "浆果状球果用来给啤酒和金酒调味，gin 一词就源自“杜松”。"
+  }
+ ],
+ "intro": [
+  "欧洲刺柏是柏科的常绿针叶灌木或小乔木。",
+  "形态多变，可以是 10 m 高的树，也可以是贴地的灌木。",
+  "雄株比雌株活得更久。"
+ ],
+ "fact": "鸟吃下球果，把坚硬的种子随粪便排出，帮它传播。",
+ "range": "北半球凉温带（全北区）。",
+ "sources": [
+  "Wikipedia「Juniperus communis」",
+  "IUCN 红色名录（Farjon, A. 2013）"
+ ],
+ "footnote": ""
+}

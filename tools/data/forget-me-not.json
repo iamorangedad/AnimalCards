@@ -1,0 +1,63 @@
+{
+ "file": "勿忘草",
+ "no": "1359",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "勿忘草",
+ "name_en": "Water forget-me-not",
+ "latin": "Myosotis scorpioides",
+ "short": "勿忘草",
+ "type": "植物",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 70 cm",
+   "lo": 0.7,
+   "hi": 0.7,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "8–12 mm",
+   "lo": 0.008,
+   "hi": 0.012,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "粉变蓝",
+   "icon": "sun",
+   "desc": "花蕾是粉色，开放后变成蓝色，中心黄色。"
+  },
+  {
+   "name": "水中漂浮",
+   "icon": "drop",
+   "desc": "喜湿地，能在水下存活，还常形成漂浮的“筏子”。"
+  }
+ ],
+ "intro": [
+  "勿忘草（沼泽勿忘草）是紫草科植物。",
+  "原产欧洲和亚洲，在北美等地归化，有时是有害杂草。",
+  "花序像蝎尾一样卷曲，所以也叫“水蝎草”。"
+ ],
+ "fact": "欧洲传说，一位骑士为未婚妻采花时落水，溺水前喊出“别忘了我”。",
+ "range": "欧洲、亚洲；北美等地归化。",
+ "sources": [
+  "Wikipedia「Myosotis scorpioides」"
+ ],
+ "footnote": ""
+}

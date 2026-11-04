@@ -1,0 +1,70 @@
+{
+ "file": "四季海棠",
+ "no": "1356",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "四季海棠",
+ "name_en": "Wax begonia",
+ "latin": "Begonia cucullata",
+ "short": "四季海棠",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "4–8 cm",
+   "lo": 0.04,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶宽",
+   "value": "约 6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "描述年份",
+   "value": "1805 年",
+   "lo": 1805,
+   "hi": 1805,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "多肉叶",
+   "icon": "drop",
+   "desc": "叶片多汁、光亮、边缘有齿。"
+  },
+  {
+   "name": "种子多",
+   "icon": "seed",
+   "desc": "产种量极大，主要靠种子扩散；扦插也容易生根。"
+  }
+ ],
+ "intro": [
+  "四季秋海棠原产阿根廷、巴西、巴拉圭和乌拉圭。",
+  "1805 年由 Willdenow 描述。",
+  "种加词 cucullata 意为“像兜帽的”。"
+ ],
+ "fact": "它在美国佛罗里达和佐治亚已成为入侵植物。",
+ "range": "原产南美；广泛栽培。",
+ "sources": [
+  "Wikipedia「Begonia cucullata」"
+ ],
+ "footnote": "“描述年份”比例条仅示意。"
+}

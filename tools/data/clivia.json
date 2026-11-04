@@ -1,0 +1,71 @@
+{
+ "file": "君子兰",
+ "no": "1353",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "君子兰",
+ "name_en": "Natal lily",
+ "latin": "Clivia miniata",
+ "short": "君子兰",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "约 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "根状茎直径",
+   "value": "可达 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "浆果直径",
+   "value": "可达 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伞形花序",
+   "icon": "sun",
+   "desc": "漏斗形的花排成伞状，红、橙或黄色，有时有淡淡甜香。"
+  },
+  {
+   "name": "红色浆果",
+   "icon": "seed",
+   "desc": "果实是鲜红的圆形浆果，含一到几粒种子。"
+  }
+ ],
+ "intro": [
+  "君子兰是石蒜科君子兰属的开花植物。",
+  "原产南非东开普、姆普马兰加和夸祖鲁-纳塔尔的林地。",
+  "长长的带状叶排成相对的两列。"
+ ],
+ "fact": "在没有霜冻的地方，它可以全年种在室外。",
+ "range": "南非东部林地；广泛盆栽。",
+ "sources": [
+  "Wikipedia「Clivia miniata」"
+ ],
+ "footnote": "",
+ "warn": "含少量石蒜碱，有毒，不可食用。"
+}

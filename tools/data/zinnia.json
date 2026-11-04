@@ -1,0 +1,70 @@
+{
+ "file": "百日菊",
+ "no": "1357",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "百日菊",
+ "name_en": "Common zinnia",
+ "latin": "Zinnia elegans",
+ "short": "百日菊",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花头直径",
+   "value": "约 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "巨型品种",
+   "value": "可达 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "株高",
+   "value": "15–90 cm",
+   "lo": 0.15,
+   "hi": 0.9,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "颜色丰富",
+   "icon": "sun",
+   "desc": "花色从白、奶油到粉、红、紫，还有绿、黄、橙等。"
+  },
+  {
+   "name": "怕霜冻",
+   "icon": "cold",
+   "desc": "不耐冰冻，温带地区要等霜冻过后才播种。"
+  }
+ ],
+ "intro": [
+  "百日菊是菊科的一年生开花植物。",
+  "它原产墨西哥。",
+  "园艺品种有数百个。"
+ ],
+ "fact": "它在南美和中美多地归化。",
+ "range": "原产墨西哥；广泛栽培。",
+ "sources": [
+  "Wikipedia「Zinnia elegans」"
+ ],
+ "footnote": ""
+}

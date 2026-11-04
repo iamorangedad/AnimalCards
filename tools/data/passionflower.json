@@ -1,0 +1,78 @@
+{
+ "file": "西番莲",
+ "no": "1364",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "西番莲",
+ "name_en": "Blue passionflower",
+ "latin": "Passiflora caerulea",
+ "short": "西番莲",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "藤长",
+   "value": "可达 10 m 以上",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "约 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "果实长",
+   "value": "6 cm",
+   "lo": 0.06,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−10 °C",
+   "lo": -10,
+   "hi": -10,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "卷须攀援",
+   "icon": "climb",
+   "desc": "叶基有 5–10 cm 的卷须，缠住周围植物向上爬。"
+  },
+  {
+   "name": "蓝色副花冠",
+   "icon": "sun",
+   "desc": "花上有一圈蓝紫色的细丝副花冠，种名 caerulea 意为“蓝色”。"
+  }
+ ],
+ "intro": [
+  "西番莲是西番莲科的开花藤本，原产南美。",
+  "它获得英国皇家园艺学会“花园优异奖”。",
+  "南美的托巴人和马卡人用它入药。"
+ ],
+ "fact": "橙黄色的果实可以吃，但有人说味道不好；每个果约有 10–35 粒种子。",
+ "range": "原产南美；多地引种。",
+ "sources": [
+  "Wikipedia「Passiflora caerulea」"
+ ],
+ "footnote": ""
+}

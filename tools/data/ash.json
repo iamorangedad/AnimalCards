@@ -1,0 +1,79 @@
+{
+ "file": "欧洲白蜡树",
+ "no": "1368",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲白蜡树",
+ "name_en": "European ash",
+ "latin": "Fraxinus excelsior",
+ "short": "欧洲白蜡树",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2018",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "12–18 m",
+   "lo": 12,
+   "hi": 18,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "复叶长",
+   "value": "20–35 cm",
+   "lo": 0.2,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "翅果长",
+   "value": "2.5–4.5 cm",
+   "lo": 0.025,
+   "hi": 0.045,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "很少超过 250 年",
+   "lo": 250,
+   "hi": 250,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "翅果",
+   "icon": "wind",
+   "desc": "果实是翅果，常一串串挂过冬天。"
+  },
+  {
+   "name": "灰白蜡枯",
+   "icon": "toxic",
+   "desc": "真菌 Hymenoscyphus fraxineus 引起的“白蜡枯梢病”正威胁它。"
+  }
+ ],
+ "intro": [
+  "欧洲白蜡是木樨科的开花乔木。",
+  "它的木材柔韧、易加工、结实又轻。",
+  "英国记录有 111 种昆虫和螨以它为食，其中 29 种专吃它。"
+ ],
+ "fact": "英国最粗的一棵在克拉普顿庄园，树围 9 m。",
+ "range": "欧洲大部分地区。",
+ "sources": [
+  "Wikipedia「Fraxinus excelsior」",
+  "IUCN 红色名录（Khela, S. 2018）"
+ ],
+ "footnote": ""
+}

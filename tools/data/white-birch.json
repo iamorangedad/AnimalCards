@@ -1,0 +1,79 @@
+{
+ "file": "纸桦",
+ "no": "1366",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "纸桦",
+ "name_en": "Paper birch",
+ "latin": "Betula papyrifera",
+ "short": "纸桦",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "len_xxl",
+   "approx": true
+  },
+  {
+   "label": "最高",
+   "value": "40 m",
+   "lo": 40,
+   "hi": 40,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–10 cm",
+   "lo": 0.04,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "丰年产籽",
+   "value": "8600 万/公顷",
+   "lo": 86000000.0,
+   "hi": 86000000.0,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "纸样树皮",
+   "icon": "camo",
+   "desc": "白色薄树皮常像纸一样一层层剥落。"
+  },
+  {
+   "name": "风媒葇荑花",
+   "icon": "wind",
+   "desc": "花是风媒传粉的葇荑花序，雄花序 5–10 cm。"
+  }
+ ],
+ "intro": [
+  "纸皮桦也叫美洲白桦、独木舟桦，原产北美北部。",
+  "它寿命较短，在温暖地区可能只活 30 年，寒冷地区可超过 100 年。",
+  "它是萨斯喀彻温省的省树、新罕布什尔州的州树。"
+ ],
+ "fact": "15 岁开始结籽，40–70 岁产籽最多。",
+ "range": "北美北部（阿拉斯加、加拿大、美国北部）。",
+ "sources": [
+  "Wikipedia「Betula papyrifera」",
+  "IUCN 红色名录（Stritch, L. 2014）"
+ ],
+ "footnote": ""
+}

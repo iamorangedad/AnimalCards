@@ -1,0 +1,54 @@
+{
+ "file": "矮牵牛",
+ "no": "1355",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "矮牵牛",
+ "name_en": "Petunia",
+ "latin": "Petunia",
+ "short": "矮牵牛",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*物种数",
+   "value": "20 种",
+   "lo": 20,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*烟草亲戚",
+   "icon": "toxic",
+   "desc": "属于茄科，和烟草是亲戚。"
+  },
+  {
+   "name": "*园艺杂交",
+   "icon": "clone",
+   "desc": "花园里多数品种是杂交矮牵牛（Petunia × atkinsiana）。"
+  }
+ ],
+ "intro": [
+  "矮牵牛属有 20 种，起源于南美洲。",
+  "名字来自法语 pétun（烟草），源于图皮–瓜拉尼语。",
+  "它是茄科矮牵牛亚科的成员。"
+ ],
+ "fact": "矮牵牛和小花矮牵牛属杂交，产生了杂交属 Petchoa。",
+ "range": "原产南美；全球广泛栽培。",
+ "sources": [
+  "Wikipedia「Petunia」"
+ ],
+ "footnote": "* 为属级数据；维基条目数据少（待核）。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "马缨丹",
+ "no": "1365",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "马缨丹",
+ "name_en": "Common lantana",
+ "latin": "Lantana camara",
+ "short": "马缨丹",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 6 m",
+   "lo": 6,
+   "hi": 6,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "每株年产籽",
+   "value": "12000 粒",
+   "lo": 12000,
+   "hi": 12000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "印度入侵",
+   "value": "约 50% 自然区",
+   "lo": 50,
+   "hi": 50,
+   "scale": "pct",
+   "approx": true
+  },
+  {
+   "label": "引入澳洲",
+   "value": "1841 年",
+   "lo": 1841,
+   "hi": 1841,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "花会变色",
+   "icon": "sun",
+   "desc": "授粉后花色会变（常从黄变橙、粉或红），提示传粉者。"
+  },
+  {
+   "name": "强势入侵",
+   "icon": "thorn",
+   "desc": "种子多、能抑制其他植物，在很多地区成为入侵植物。"
+  }
+ ],
+ "intro": [
+  "马缨丹是马鞭草科的开花植物，原产美洲热带。",
+  "它适应性很强，能长在多种环境里。",
+  "叶子揉碎有强烈气味。"
+ ],
+ "fact": "2023 年调查发现它已入侵印度约 50% 的自然区域。",
+ "range": "原产美洲热带；在非洲、印度、澳洲等地入侵。",
+ "sources": [
+  "Wikipedia「Lantana camara」"
+ ],
+ "footnote": "“引入澳洲”比例条仅示意。",
+ "warn": "对牲畜有毒；未成熟的绿色果实人和动物都不能吃。"
+}

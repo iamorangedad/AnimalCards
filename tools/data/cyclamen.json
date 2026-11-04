@@ -1,0 +1,79 @@
+{
+ "file": "仙客来",
+ "no": "1354",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "仙客来",
+ "name_en": "Persian cyclamen",
+ "latin": "Cyclamen persicum",
+ "short": "仙客来",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "块茎直径",
+   "value": "4–15 cm",
+   "lo": 0.04,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "可达 14 cm",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "发芽温度",
+   "value": "18 °C",
+   "lo": 18,
+   "hi": 18,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "20–30 年",
+   "lo": 20,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "块茎",
+   "icon": "root",
+   "desc": "从圆而略扁的块茎长出，块茎半有毒。"
+  },
+  {
+   "name": "所罗门之冠",
+   "icon": "sun",
+   "desc": "传说所罗门王的王冠是照它的花做的，希伯来语名叫“所罗门之冠”。"
+  }
+ ],
+ "intro": [
+  "仙客来是多年生草本，从块茎长出。",
+  "名字意为“来自波斯”，但它其实不产于波斯。",
+  "原产海拔 1200 m 以下的岩坡、灌丛和林地。"
+ ],
+ "fact": "在以色列它受法律保护：“只许观赏，不许采摘”。",
+ "range": "土耳其中南部到黎凡特。",
+ "sources": [
+  "Wikipedia「Cyclamen persicum」"
+ ],
+ "footnote": "",
+ "warn": "褐色块茎半有毒；过去被用来毒晕鱼。"
+}

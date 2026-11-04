@@ -1,0 +1,63 @@
+{
+ "file": "荷包牡丹",
+ "no": "1361",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "荷包牡丹",
+ "name_en": "Bleeding heart",
+ "latin": "Lamprocapnos spectabilis",
+ "short": "荷包牡丹",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "冠幅",
+   "value": "45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "心形花",
+   "icon": "sun",
+   "desc": "春天开粉白相间的心形花。"
+  },
+  {
+   "name": "荷包牡丹",
+   "icon": "team",
+   "desc": "中文叫“荷包牡丹”，因花像荷包。"
+  }
+ ],
+ "intro": [
+  "荷包牡丹是罂粟科紫堇亚科的开花植物。",
+  "原产中国东北和朝鲜半岛。",
+  "人类把它带到了西伯利亚、日本等东北亚地区。"
+ ],
+ "fact": "不要把它和北美原生的荷包牡丹属（Dicentra）植物混淆。",
+ "range": "中国东北、朝鲜半岛。",
+ "sources": [
+  "Wikipedia「Lamprocapnos」"
+ ],
+ "footnote": "",
+ "warn": "植株汁液接触皮肤可能引起刺痛麻木；误食有中毒病例。"
+}

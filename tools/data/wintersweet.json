@@ -1,0 +1,70 @@
+{
+ "file": "蜡梅",
+ "no": "1352",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "蜡梅",
+ "name_en": "Wintersweet",
+ "latin": "Chimonanthus praecox",
+ "short": "蜡梅",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 4 m",
+   "lo": 4,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–29 cm",
+   "lo": 0.05,
+   "hi": 0.29,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花被片",
+   "value": "15–21 片",
+   "lo": 15,
+   "hi": 21,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬天开花",
+   "icon": "cold",
+   "desc": "冬天在光秃秃的枝条上开出浓香、下垂的花。"
+  },
+  {
+   "name": "黄色花被",
+   "icon": "sun",
+   "desc": "花被片黄色或淡黄绿色，内层常带紫红色。"
+  }
+ ],
+ "intro": [
+  "蜡梅是蜡梅科蜡梅属的开花植物，原产中国。",
+  "它是生长旺盛的落叶灌木。",
+  "伊朗也有栽培，波斯语叫它“冰花”（gol-e yakh）。"
+ ],
+ "fact": "它和多香果（Pimenta dioica）亲缘并不近，尽管英文别名叫“日本多香果”。",
+ "range": "原产中国；庭园栽培。",
+ "sources": [
+  "Wikipedia「Chimonanthus praecox」"
+ ],
+ "footnote": "维基条目较短（待核）。"
+}

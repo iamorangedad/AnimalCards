@@ -1,0 +1,81 @@
+{
+ "file": "欧洲桤木",
+ "no": "1372",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲桤木",
+ "name_en": "Common alder",
+ "latin": "Alnus glutinosa",
+ "short": "欧洲桤木",
+ "type": "植物",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−54 °C",
+   "lo": -54,
+   "hi": -54,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 160 年",
+   "lo": 160,
+   "hi": 160,
+   "scale": "life_xl",
+   "approx": false
+  },
+  {
+   "label": "菌根真菌",
+   "value": "47 种",
+   "lo": 47,
+   "hi": 47,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "真菌伙伴",
+   "icon": "nfix",
+   "desc": "已发现 47 种菌根真菌和它共生，互相交换养分。"
+  },
+  {
+   "name": "风水传种",
+   "icon": "drop",
+   "desc": "小而圆的果实像球果，种子靠风和水传播。"
+  }
+ ],
+ "intro": [
+  "欧洲桤木是桦木科的中型乔木，寿命较短。",
+  "原产欧洲大部分地区、西南亚和北非。",
+  "它和 140 多种植食性昆虫有关。"
+ ],
+ "fact": "它是很多蝴蝶和蛾幼虫的食物。",
+ "range": "欧洲、西南亚、北非。",
+ "sources": [
+  "Wikipedia「Alnus glutinosa」",
+  "IUCN 红色名录（Shaw, K. 2014）"
+ ],
+ "footnote": "",
+ "warn": "花粉是中欧仅次于禾草花粉的第二大过敏原。"
+}

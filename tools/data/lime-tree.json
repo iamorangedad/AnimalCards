@@ -1,0 +1,79 @@
+{
+ "file": "心叶椴",
+ "no": "1370",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "心叶椴",
+ "name_en": "Small-leaved lime",
+ "latin": "Tilia cordata",
+ "short": "心叶椴",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "20–40 m",
+   "lo": 20,
+   "hi": 40,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "最大树围",
+   "value": "8.35 m",
+   "lo": 8.35,
+   "hi": 8.35,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "−34 °C",
+   "lo": -34,
+   "hi": -34,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–8 cm",
+   "lo": 0.03,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "千年古树",
+   "icon": "sun",
+   "desc": "据说德国有的椴树超过 1000 岁。"
+  },
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "休眠枝能耐 −34 °C 的冬季低温。"
+  }
+ ],
+ "intro": [
+  "心叶椴是锦葵科的乔木，原产欧洲大部分地区。",
+  "它也叫小叶椴。",
+  "在分布区南部，它只长在高海拔地区。"
+ ],
+ "fact": "已知最粗的一棵在瑞典纳尔克，胸高树围 8.35 m。",
+ "range": "欧洲大部分地区。",
+ "sources": [
+  "Wikipedia「Tilia cordata」",
+  "IUCN 红色名录（Rivers, M.C. 2017）"
+ ],
+ "footnote": ""
+}

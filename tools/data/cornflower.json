@@ -1,0 +1,79 @@
+{
+ "file": "矢车菊",
+ "no": "1358",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "矢车菊",
+ "name_en": "Cornflower",
+ "latin": "Centaurea cyanus",
+ "short": "矢车菊",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花头直径",
+   "value": "1.5–3 cm",
+   "lo": 0.015,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "3–10 cm",
+   "lo": 0.03,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花蜜含糖",
+   "value": "34%",
+   "lo": 34,
+   "hi": 34,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "英国分布点",
+   "value": "264→3 处",
+   "lo": 3,
+   "hi": 264,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "矢车菊蓝",
+   "icon": "sun",
+   "desc": "花通常是浓烈的蓝色，色素是原花青素（在玫瑰里是红色）。"
+  },
+  {
+   "name": "甜花蜜",
+   "icon": "bee",
+   "desc": "花蜜很甜，含糖量 34%。"
+  }
+ ],
+ "intro": [
+  "矢车菊是菊科的一年生植物，原产欧洲。",
+  "过去它常是麦田里的杂草，所以叫 cornflower。",
+  "农民认为它会让镰刀变钝。"
+ ],
+ "fact": "在英国，过去 50 年它从 264 个分布点减少到只剩 3 个。",
+ "range": "原产欧洲；多地归化。",
+ "sources": [
+  "Wikipedia「Centaurea cyanus」"
+ ],
+ "footnote": ""
+}

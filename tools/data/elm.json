@@ -1,0 +1,79 @@
+{
+ "file": "欧洲野榆",
+ "no": "1369",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲野榆",
+ "name_en": "Field elm",
+ "latin": "Ulmus minor",
+ "short": "欧洲野榆",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2017",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "通常不足 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "翅果长",
+   "value": "12–15 mm",
+   "lo": 0.012,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "开花年龄",
+   "value": "约 10 岁",
+   "lo": 10,
+   "hi": 10,
+   "scale": "life",
+   "approx": true
+  },
+  {
+   "label": "抗病比例",
+   "value": "约 0.5%",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "pct",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "萌蘖再生",
+   "icon": "clone",
+   "desc": "根和树桩很容易长出萌蘖，被荷兰榆树病毁掉后也能再生。"
+  },
+  {
+   "name": "多变",
+   "icon": "team",
+   "desc": "是欧洲最多变的榆树，分类至今仍有争议。"
+  }
+ ],
+ "intro": [
+  "欧洲野榆是欧洲最多形态的榆树。",
+  "它的自然分布主要在南欧。",
+  "在法国，它一般 10 岁开始开花结果。"
+ ],
+ "fact": "西班牙 2013 年的试验中，只有约 0.5% 的野榆表现出较强的抗病性。",
+ "range": "南欧为主，到中欧、西亚、北非。",
+ "sources": [
+  "Wikipedia「Ulmus minor」",
+  "IUCN 红色名录（Barstow, M. 2017）"
+ ],
+ "footnote": "“抗病比例”指对荷兰榆树病的试验结果。"
+}

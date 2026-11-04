@@ -1,0 +1,80 @@
+{
+ "file": "欧亚花楸",
+ "no": "1374",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧亚花楸",
+ "name_en": "Rowan",
+ "latin": "Sorbus aucuparia",
+ "short": "欧亚花楸",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–15 m",
+   "lo": 5,
+   "hi": 15,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "树干直径",
+   "value": "可达 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每簇花数",
+   "value": "约 250 朵",
+   "lo": 250,
+   "hi": 250,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "温暖区寿命",
+   "value": "很少超过 80 年",
+   "lo": 80,
+   "hi": 80,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红色果子",
+   "icon": "seed",
+   "desc": "8–10 月结小小的红色梨果，很多鸟爱吃。"
+  },
+  {
+   "name": "甜花蜜",
+   "icon": "bee",
+   "desc": "花蜜富含果糖和葡萄糖。"
+  }
+ ],
+ "intro": [
+  "欧亚花楸是蔷薇科的落叶小乔木或灌木。",
+  "它也叫“山白蜡”。",
+  "它是温带寿命最短的树之一。"
+ ],
+ "fact": "果实含维生素 C 能防坏血病，但其中的副山梨酸会刺激胃黏膜。",
+ "range": "欧洲大部、亚洲部分地区和北非。",
+ "sources": [
+  "Wikipedia「Sorbus aucuparia」",
+  "IUCN 红色名录（Rivers, M.C. 2017）"
+ ],
+ "footnote": "",
+ "warn": "生果实含副山梨酸，会刺激胃，不宜大量生吃。"
+}

@@ -1,0 +1,72 @@
+{
+ "file": "番红花",
+ "no": "1362",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "番红花",
+ "name_en": "Saffron crocus",
+ "latin": "Crocus sativus",
+ "short": "番红花",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "栽培历史",
+   "value": "超过 3500 年",
+   "lo": 3500,
+   "hi": 3500,
+   "scale": "yrs",
+   "approx": false
+  },
+  {
+   "label": "球茎寿命",
+   "value": "3–5 年",
+   "lo": 3,
+   "hi": 5,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "种植间距",
+   "value": "10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "藏红花",
+   "icon": "food",
+   "desc": "花的柱头就是香料藏红花。"
+  },
+  {
+   "name": "不结籽",
+   "icon": "clone",
+   "desc": "野外未见，不能自花结实，靠球茎每年增殖。"
+  }
+ ],
+ "intro": [
+  "番红花是鸢尾科的秋季开花植物。",
+  "它是栽培的多年生球茎植物，野外不存在。",
+  "人们栽培和交易藏红花已有 3500 多年。"
+ ],
+ "fact": "秋水仙（Colchicum）和它很像但有毒，必须仔细区分。",
+ "range": "地中海到西亚栽培。",
+ "sources": [
+  "Wikipedia「Crocus sativus」"
+ ],
+ "footnote": "",
+ "warn": "外形相似的秋水仙有毒，采摘时务必分清。"
+}

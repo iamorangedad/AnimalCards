@@ -1,0 +1,80 @@
+{
+ "file": "欧洲七叶树",
+ "no": "1367",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲七叶树",
+ "name_en": "Horse chestnut",
+ "latin": "Aesculus hippocastanum",
+ "short": "欧洲七叶树",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2026",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "约 39 m",
+   "lo": 39,
+   "hi": 39,
+   "scale": "len_xxl",
+   "approx": true
+  },
+  {
+   "label": "小叶长",
+   "value": "13–30 cm",
+   "lo": 0.13,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "整叶宽",
+   "value": "可达 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "种子直径",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "掌状复叶",
+   "icon": "sun",
+   "desc": "对生的掌状复叶有 5–7 片小叶，整叶宽可达 60 cm。"
+  },
+  {
+   "name": "带刺果壳",
+   "icon": "thorn",
+   "desc": "绿色带刺的蒴果里通常有一粒光亮的栗色种子（conker）。"
+  }
+ ],
+ "intro": [
+  "欧洲七叶树是无患子科的大型落叶乔木。",
+  "不要把它和壳斗科的欧洲栗（甜栗）混淆。",
+  "野生种群局限在巴尔干山区。"
+ ],
+ "fact": "保加利亚一处野生种群只占约 9 公顷。",
+ "range": "原产巴尔干半岛；欧洲等地广泛栽培。",
+ "sources": [
+  "Wikipedia「Aesculus hippocastanum」",
+  "IUCN 红色名录（Allen, D.J. 2026）"
+ ],
+ "footnote": "",
+ "warn": "生的种子、叶、树皮和花含七叶苷，有毒，不可食用（不是可食的栗子）。"
+}

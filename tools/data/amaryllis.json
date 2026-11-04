@@ -1,0 +1,63 @@
+{
+ "file": "孤挺花",
+ "no": "1363",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "孤挺花",
+ "name_en": "Belladonna lily",
+ "latin": "Amaryllis belladonna",
+ "short": "孤挺花",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花长",
+   "value": "可达 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每莛花数",
+   "value": "2–12 朵",
+   "lo": 2,
+   "hi": 12,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "先花后叶",
+   "icon": "sun",
+   "desc": "秋天先开花后长叶，光秃的花茎让它得名“裸女百合”。"
+  },
+  {
+   "name": "香甜花蜜",
+   "icon": "bee",
+   "desc": "花香含芳樟醇，花蜜丰富，吸引传粉者。"
+  }
+ ],
+ "intro": [
+  "孤挺花原产南非开普省，被广泛栽培。",
+  "它也叫泽西百合、三月百合。",
+  "种子软而多肉，白色或粉色。"
+ ],
+ "fact": "每根花茎上有 2–12 朵漏斗形的香花。",
+ "range": "原产南非开普省；多地栽培。",
+ "sources": [
+  "Wikipedia「Amaryllis belladonna」"
+ ],
+ "footnote": "",
+ "warn": "全株有毒，含石蒜碱等多种生物碱。"
+}

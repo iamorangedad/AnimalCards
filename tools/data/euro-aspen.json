@@ -1,0 +1,79 @@
+{
+ "file": "欧洲山杨",
+ "no": "1371",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲山杨",
+ "name_en": "Eurasian aspen",
+ "latin": "Populus tremula",
+ "short": "欧洲山杨",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 40 m",
+   "lo": 40,
+   "hi": 40,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶径",
+   "value": "2–8 cm",
+   "lo": 0.02,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "萌蘖距离",
+   "value": "可达 40 m",
+   "lo": 40,
+   "hi": 40,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 200 年",
+   "lo": 200,
+   "hi": 200,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "根蘖成林",
+   "icon": "clone",
+   "desc": "靠根蘖扩散，可在离母树 40 m 处长出，形成大片克隆群。"
+  },
+  {
+   "name": "飞絮",
+   "icon": "wind",
+   "desc": "种子带绒毛，蒴果裂开后随风飘散。"
+  }
+ ],
+ "intro": [
+  "欧洲山杨是杨属树木，原产旧大陆凉温带。",
+  "成年树的叶子近圆形，边缘有粗齿。",
+  "约 20 岁前长得很快，30 岁左右生长达到高峰。"
+ ],
+ "fact": "雄花序绿褐相间，散粉时长 5–10 cm。",
+ "range": "欧洲和亚洲凉温带。",
+ "sources": [
+  "Wikipedia「Populus tremula」",
+  "IUCN 红色名录（Barstow, M. 2017）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "欧洲鹅耳枥",
+ "no": "1373",
+ "cat": "树木",
+ "kingdom": "植物",
+ "name_cn": "欧洲鹅耳枥",
+ "name_en": "European hornbeam",
+ "latin": "Carpinus betulus",
+ "short": "欧洲鹅耳枥",
+ "type": "植物",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "15–25 m",
+   "lo": 15,
+   "hi": 25,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–9 cm",
+   "lo": 0.04,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "坚果长",
+   "value": "7–8 mm",
+   "lo": 0.007,
+   "hi": 0.008,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "1000 m 以下",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "褶皱叶",
+   "icon": "sun",
+   "desc": "叶脉突出，让叶子有独特的褶皱质感。"
+  },
+  {
+   "name": "三裂苞片",
+   "icon": "wind",
+   "desc": "小坚果被三裂的叶状总苞半包着。"
+  }
+ ],
+ "intro": [
+  "欧洲鹅耳枥是桦木科乔木。",
+  "原产西亚和中、东、南欧，包括英格兰南部。",
+  "它是欧洲三种鹅耳枥之一。"
+ ],
+ "fact": "种子常要到播种后第二年春天才发芽。",
+ "range": "西亚和欧洲中、东、南部。",
+ "sources": [
+  "Wikipedia「Carpinus betulus」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。"
+}

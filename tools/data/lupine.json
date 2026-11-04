@@ -1,0 +1,80 @@
+{
+ "file": "多叶羽扇豆",
+ "no": "1360",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "多叶羽扇豆",
+ "name_en": "Large-leaved lupine",
+ "latin": "Lupinus polyphyllus",
+ "short": "多叶羽扇豆",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "小叶数",
+   "value": "9–17 片",
+   "lo": 9,
+   "hi": 17,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "单花长",
+   "value": "1–1.5 cm",
+   "lo": 0.01,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "耐寒",
+   "value": "至少 −25 °C",
+   "lo": -25,
+   "hi": -25,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "能固定氮，改良贫瘠的沙土。"
+  },
+  {
+   "name": "高高花穗",
+   "icon": "bee",
+   "desc": "花开在高高的花穗上，很吸引蜜蜂。"
+  }
+ ],
+ "intro": [
+  "多叶羽扇豆原产北美西部。",
+  "园艺上常见的“拉塞尔羽扇豆”是它的杂交后代。",
+  "它在新西兰被列为入侵物种。"
+ ],
+ "fact": "鼎盛时期，英国一家苗圃每年 6 月吸引 8 万人来看拉塞尔羽扇豆。",
+ "range": "原产北美西部；欧洲、新西兰等地归化。",
+ "sources": [
+  "Wikipedia「Lupinus polyphyllus」",
+  "IUCN 红色名录（Planchuelo, A.M. 2020）"
+ ],
+ "footnote": "",
+ "warn": "新的园艺杂交种含有毒生物碱，有剧毒，绝不能吃。"
+}

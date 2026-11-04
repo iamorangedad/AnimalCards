@@ -1,0 +1,78 @@
+{
+ "file": "树莓",
+ "no": "1417",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "树莓",
+ "name_en": "Raspberry",
+ "latin": "Rubus idaeus",
+ "short": "树莓",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*单果重",
+   "value": "3–5 g",
+   "lo": 0.003,
+   "hi": 0.005,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "*小核果数",
+   "value": "约 100 个",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "*2023 产量",
+   "value": "约 94 万吨",
+   "lo": 940979,
+   "hi": 940979,
+   "scale": "ton",
+   "approx": false
+  },
+  {
+   "label": "*俄罗斯占",
+   "value": "23%",
+   "lo": 23,
+   "hi": 23,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*聚合果",
+   "icon": "food",
+   "desc": "一颗树莓由约 100 个小核果组成。"
+  },
+  {
+   "name": "*易蔓延",
+   "icon": "clone",
+   "desc": "在湿润温带容易种，不修剪就会蔓延。"
+  }
+ ],
+ "intro": [
+  "树莓是悬钩子属多个种的可食果实，多数属于空心莓亚属。",
+  "它在北欧和北美广泛栽培。",
+  "英格兰北部和苏格兰仍叫它 rasp。"
+ ],
+ "fact": "2023 年世界树莓产量约 94 万吨，俄罗斯占 23%。",
+ "range": "北欧、北美等温带地区。",
+ "sources": [
+  "Wikipedia「Raspberry」"
+ ],
+ "footnote": "* 为多个种的总体数据。"
+}

@@ -1,0 +1,71 @@
+{
+ "file": "火龙果",
+ "no": "1408",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "火龙果",
+ "name_en": "Dragon fruit",
+ "latin": "Selenicereus undatus",
+ "short": "火龙果",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "攀援高度",
+   "value": "8–10 m",
+   "lo": 8,
+   "hi": 10,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "果重",
+   "value": "150–600 g",
+   "lo": 0.15,
+   "hi": 0.6,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "耐热",
+   "value": "可达 40 °C",
+   "lo": 40,
+   "hi": 40,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀援仙人掌",
+   "icon": "climb",
+   "desc": "缠绕在树上，从树皮吸取水分，可爬到 8–10 m 高。"
+  },
+  {
+   "name": "怕冻",
+   "icon": "cold",
+   "desc": "能耐短暂霜冻，但长期冰冻会死。"
+  }
+ ],
+ "intro": [
+  "火龙果是仙人掌科蛇鞭柱属几个种的果实。",
+  "主要来自原产墨西哥南部和危地马拉太平洋沿岸的 Selenicereus undatus。",
+  "21 世纪初栽培扩展到中国、哥伦比亚和东南亚。"
+ ],
+ "fact": "在一些国家它逃逸成为入侵杂草。",
+ "range": "原产中美洲；热带亚热带栽培。",
+ "sources": [
+  "Wikipedia「Dragon fruit」"
+ ],
+ "footnote": ""
+}

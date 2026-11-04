@@ -1,0 +1,79 @@
+{
+ "file": "杨桃",
+ "no": "1409",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "杨桃",
+ "name_en": "Carambola",
+ "latin": "Averrhoa carambola",
+ "short": "杨桃",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "可达 9 m",
+   "lo": 9,
+   "hi": 9,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "棱数",
+   "value": "通常 5–6 条",
+   "lo": 5,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "星形切面",
+   "icon": "sun",
+   "desc": "果实两侧有明显的棱，横切是星形。"
+  },
+  {
+   "name": "整果可食",
+   "icon": "food",
+   "desc": "整个果都能吃，常生吃或做果酱、果汁。"
+  }
+ ],
+ "intro": [
+  "杨桃是酢浆草科阳桃属乔木的果实，原产热带东南亚。",
+  "在印度、东南亚、中国南方、台湾和美国南部商业栽培。",
+  "花淡紫色带紫纹。"
+ ],
+ "fact": "在很多地区它有成为入侵物种的风险。",
+ "range": "原产东南亚；热带栽培。",
+ "sources": [
+  "Wikipedia「Carambola」"
+ ],
+ "footnote": "",
+ "warn": "大量食用会对某些肾病患者造成严重危害。"
+}

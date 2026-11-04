@@ -1,0 +1,54 @@
+{
+ "file": "花椰菜",
+ "no": "1425",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "花椰菜",
+ "name_en": "Cauliflower",
+ "latin": "Brassica oleracea var. botrytis",
+ "short": "花椰菜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "传入印度",
+   "value": "1822 年",
+   "lo": 1822,
+   "hi": 1822,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色花球",
+   "icon": "food",
+   "desc": "吃的是由未发育花蕾组成的致密“花球”。"
+  },
+  {
+   "name": "难种",
+   "icon": "sun",
+   "desc": "比卷心菜难种，常出现花球发育不良等问题。"
+  }
+ ],
+ "intro": [
+  "花椰菜是十字花科芸薹属甘蓝的一个栽培类型。",
+  "它和卷心菜、西兰花、羽衣甘蓝、苤蓝等是同一个种。",
+  "老普林尼曾记载过一种美味的甘蓝花头。"
+ ],
+ "fact": "1822 年英国人把它带到印度，19 世纪在印度培育出热带类型。",
+ "range": "全球广泛栽培。",
+ "sources": [
+  "Wikipedia「Cauliflower」"
+ ],
+ "footnote": "“传入印度”比例条仅示意。"
+}

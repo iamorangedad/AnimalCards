@@ -1,0 +1,71 @@
+{
+ "file": "葡萄柚",
+ "no": "1420",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "葡萄柚",
+ "name_en": "Grapefruit",
+ "latin": "Citrus × paradisi",
+ "short": "葡萄柚",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "果径",
+   "value": "10–15 cm",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "可达 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "偶然杂交",
+   "icon": "team",
+   "desc": "是甜橙和柚子偶然杂交的柑橘。"
+  },
+  {
+   "name": "酸苦味",
+   "icon": "food",
+   "desc": "果实大，酸到微甜，略带苦味。"
+  }
+ ],
+ "intro": [
+  "葡萄柚是亚热带柑橘树。",
+  "过去它也叫 pomelo，现在这个名字多指柚子。",
+  "在海地主要用来榨汁和做果酱。"
+ ],
+ "fact": "果汁里的呋喃香豆素会干扰很多药物的代谢。",
+ "range": "亚热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Grapefruit」"
+ ],
+ "footnote": "",
+ "warn": "会与许多药物相互作用，可能加强药效，引起心律异常等副作用；服药者请遵医嘱。"
+}

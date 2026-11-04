@@ -1,0 +1,56 @@
+{
+ "file": "油茶",
+ "no": "1405",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "油茶",
+ "name_en": "Oil-seed camellia",
+ "latin": "Camellia oleifera",
+ "short": "油茶",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2015",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "海拔",
+   "value": "500–1300 m",
+   "lo": 500,
+   "hi": 1300,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "茶油",
+   "icon": "food",
+   "desc": "种子榨出的茶油（山茶油）是重要的食用油。"
+  },
+  {
+   "name": "护刀油",
+   "icon": "drop",
+   "desc": "日本传统上用山茶油保护木工工具和刀具防锈。"
+  }
+ ],
+ "intro": [
+  "油茶起源于中国。",
+  "它在中国分布广泛并大量栽培。",
+  "生长在海拔 500–1300 m 的森林、灌丛、溪岸和山脚。"
+ ],
+ "fact": "榨油后的茶籽饼被用作抗炎和抗氧化剂。",
+ "range": "中国南方为主。",
+ "sources": [
+  "Wikipedia「Camellia oleifera」",
+  "IUCN 红色名录（Wheeler, L. 2015）"
+ ],
+ "footnote": "维基条目较短，数据少（待核）。"
+}

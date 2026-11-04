@@ -1,0 +1,62 @@
+{
+ "file": "番石榴",
+ "no": "1410",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "番石榴",
+ "name_en": "Common guava",
+ "latin": "Psidium guajava",
+ "short": "番石榴",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "栽培证据",
+   "value": "公元前 2500 年",
+   "lo": 2500,
+   "hi": 2500,
+   "scale": "yrs",
+   "approx": true
+  },
+  {
+   "label": "短时耐寒",
+   "value": "约 −4 °C",
+   "lo": -4,
+   "hi": -4,
+   "scale": "tempw",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "鸟传种子",
+   "icon": "seed",
+   "desc": "鸟吃下果实，随粪便传播种子。"
+  },
+  {
+   "name": "果胶多",
+   "icon": "food",
+   "desc": "果胶含量高，常做糖果、果酱和果冻。"
+  }
+ ],
+ "intro": [
+  "番石榴是桃金娘科的小乔木，原产墨西哥、中美洲、加勒比和南美北部。",
+  "秘鲁的考古遗址发现了公元前 2500 年的栽培证据。",
+  "很多热带和亚热带国家都种植。"
+ ],
+ "fact": "夏威夷用番石榴木熏肉。",
+ "range": "原产中南美；热带亚热带栽培。",
+ "sources": [
+  "Wikipedia「Guava」"
+ ],
+ "footnote": "“栽培证据”比例条仅示意。"
+}

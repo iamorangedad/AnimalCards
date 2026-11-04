@@ -421,7 +421,7 @@ lychee-x 黄皮 Clausena lansium
 loquat 枇杷 Loquat
 bayberry 杨梅 Myrica rubra
 plum 李 Prunus salicina
-blackberry 黑莓 Rubus fruticosus
+blackberry 黑莓 Blackberry
 raspberry 树莓 Raspberry
 cranberry 蔓越莓 Vaccinium macrocarpon
 gooseberry 醋栗 Ribes uva-crispa

@@ -1,0 +1,71 @@
+{
+ "file": "李",
+ "no": "1415",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "李",
+ "name_en": "Chinese plum",
+ "latin": "Prunus salicina",
+ "short": "李",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "果径",
+   "value": "4–7 cm",
+   "lo": 0.04,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "6–12 cm",
+   "lo": 0.06,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "约 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "早春白花",
+   "icon": "bee",
+   "desc": "约 4 月开花，花白色五瓣，常三朵一簇。"
+  },
+  {
+   "name": "果粉",
+   "icon": "food",
+   "desc": "核果果肉黄粉色，果皮有一层白粉。"
+  }
+ ],
+ "intro": [
+  "中国李也叫日本李，是小型落叶乔木。",
+  "原产中国、台湾和东南亚。",
+  "种加词 salicina 来自拉丁语“柳”，因为叶子像柳叶。"
+ ],
+ "fact": "果皮可以是黄、红，偶尔绿或紫色。",
+ "range": "原产中国；广泛栽培。",
+ "sources": [
+  "Wikipedia「Prunus salicina」",
+  "IUCN 红色名录（Rhodes, L. 2016）"
+ ],
+ "footnote": ""
+}

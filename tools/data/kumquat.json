@@ -1,0 +1,54 @@
+{
+ "file": "金柑",
+ "no": "1422",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "金柑",
+ "name_en": "Kumquat",
+ "latin": "Citrus japonica",
+ "short": "金柑",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*株高",
+   "value": "2.5–4.5 m",
+   "lo": 2.5,
+   "hi": 4.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*小橙子",
+   "icon": "food",
+   "desc": "果实颜色、质地和结构都像橙子，但只有大橄榄那么大。"
+  },
+  {
+   "name": "*带小刺",
+   "icon": "thorn",
+   "desc": "枝条浓密，有时带小刺。"
+  }
+ ],
+ "intro": [
+  "金柑（金橘）是芸香科的一类小型果树。",
+  "原产中国南方，在日本和东南亚栽培了几个世纪。",
+  "2022 年的基因组研究把它分成野生和栽培两个亚属。"
+ ],
+ "fact": "研究发现圆金柑其实是长金柑和“明和”金柑的杂交种。",
+ "range": "原产中国南方；东亚、东南亚栽培。",
+ "sources": [
+  "Wikipedia「Kumquat」"
+ ],
+ "footnote": "* 为金柑类整体数据。"
+}

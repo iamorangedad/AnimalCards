@@ -1,0 +1,79 @@
+{
+ "file": "黄皮",
+ "no": "1412",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "黄皮",
+ "name_en": "Wampee",
+ "latin": "Clausena lansium",
+ "short": "黄皮",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "3–8 m",
+   "lo": 3,
+   "hi": 8,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "20 m",
+   "lo": 20,
+   "hi": 20,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "约 3 cm",
+   "lo": 0.03,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "种子占体积",
+   "value": "40%–50%",
+   "lo": 40,
+   "hi": 50,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "浓香",
+   "icon": "bee",
+   "desc": "常绿小乔木，全株有浓烈香气。"
+  },
+  {
+   "name": "葡萄大小的果",
+   "icon": "food",
+   "desc": "为了葡萄大小、芳香的果实而栽培。"
+  }
+ ],
+ "intro": [
+  "黄皮是芸香科植物。",
+  "英文名 wampee 来自粤语“黄皮”。",
+  "原产中国中南和东南部、海南、老挝和越南。"
+ ],
+ "fact": "3 月下旬开白色小花，直径只有 3–4 mm。",
+ "range": "中国南部、老挝、越南。",
+ "sources": [
+  "Wikipedia「Clausena lansium」",
+  "IUCN 红色名录（IUCN SSC Global Tree Specialist Group 2021）"
+ ],
+ "footnote": ""
+}

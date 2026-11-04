@@ -1,0 +1,71 @@
+{
+ "file": "魔芋",
+ "no": "1404",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "魔芋",
+ "name_en": "Konjac",
+ "latin": "Amorphophallus konjac",
+ "short": "魔芋",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "单叶宽",
+   "value": "可达 1.3 m",
+   "lo": 1.3,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "肉穗花序",
+   "value": "可达 55 cm",
+   "lo": 0.55,
+   "hi": 0.55,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "驯化",
+   "value": "约 2000 年前",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "去毒成食",
+   "icon": "fire",
+   "desc": "古人反复煮洗去掉球茎的刺激性，把它变成高纤维食物。"
+  },
+  {
+   "name": "素明胶",
+   "icon": "food",
+   "desc": "也被用作明胶的素食替代品。"
+  }
+ ],
+ "intro": [
+  "魔芋是天南星科植物，原产中国，在东亚和东南亚栽培。",
+  "它形成球茎，开紫色的花。",
+  "约 2000 年前在中国西南被驯化。"
+ ],
+ "fact": "最早的明确种植和食用记录来自西晋（265–317 年）。",
+ "range": "原产中国（云南野生）及东南亚。",
+ "sources": [
+  "Wikipedia「Amorphophallus konjac」"
+ ],
+ "footnote": "",
+ "warn": "全株有毒，球茎最毒；生吃会让舌头和喉咙灼痛、发痒、肿胀。"
+}

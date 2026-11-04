@@ -1,0 +1,80 @@
+{
+ "file": "红毛丹",
+ "no": "1407",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "红毛丹",
+ "name_en": "Rambutan",
+ "latin": "Nephelium lappaceum",
+ "short": "红毛丹",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "单株产果",
+   "value": "5000–6000 个",
+   "lo": 5000,
+   "hi": 6000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "单株产量",
+   "value": "60–70 kg",
+   "lo": 60,
+   "hi": 70,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "500 m 以下",
+   "lo": 500,
+   "hi": 500,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "泰国产量",
+   "value": "45 万吨",
+   "lo": 450000,
+   "hi": 450000,
+   "scale": "ton",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛茸茸",
+   "icon": "whisker",
+   "desc": "名字来自马来语 rambut（头发），指果皮上的毛状突起。"
+  },
+  {
+   "name": "雌雄异株",
+   "icon": "team",
+   "desc": "有的树只开雄花、不结果。"
+  }
+ ],
+ "intro": [
+  "红毛丹是无患子科的热带乔木，也指它的果实。",
+  "原产东南亚，多样性中心在印度尼西亚。",
+  "2014 年泰国是最大的生产国。"
+ ],
+ "fact": "幼园每公顷产 1.2 吨，成年树可达每公顷 20 吨。",
+ "range": "东南亚；热带栽培。",
+ "sources": [
+  "Wikipedia「Rambutan」",
+  "IUCN 红色名录（Barstow 2017）"
+ ],
+ "footnote": ""
+}

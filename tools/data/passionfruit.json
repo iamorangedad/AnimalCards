@@ -1,0 +1,78 @@
+{
+ "file": "鸡蛋果",
+ "no": "1411",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "鸡蛋果",
+ "name_en": "Passion fruit",
+ "latin": "Passiflora edulis",
+ "short": "鸡蛋果",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "果径",
+   "value": "4–7.5 cm",
+   "lo": 0.04,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "紫果重",
+   "value": "约 35 g",
+   "lo": 0.035,
+   "hi": 0.035,
+   "scale": "mass_s",
+   "approx": true
+  },
+  {
+   "label": "每果种子",
+   "value": "约 250 粒",
+   "lo": 250,
+   "hi": 250,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "花径",
+   "value": "5–7.5 cm",
+   "lo": 0.05,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀援藤本",
+   "icon": "climb",
+   "desc": "是西番莲属的藤本，每节通常开一朵花。"
+  },
+  {
+   "name": "黄果更大",
+   "icon": "food",
+   "desc": "黄色果约 80 g，比约 35 g 的紫色果大。"
+  }
+ ],
+ "intro": [
+  "百香果原产巴西南部、巴拉圭和阿根廷北部。",
+  "它在热带亚热带商业栽培，取其香甜多籽的果实。",
+  "果皮光滑像皮革，厚 9–13 mm。"
+ ],
+ "fact": "每颗果里通常有约 250 粒 2.4 mm 长的褐色种子。",
+ "range": "原产南美；热带亚热带栽培。",
+ "sources": [
+  "Wikipedia「Passiflora edulis」"
+ ],
+ "footnote": ""
+}

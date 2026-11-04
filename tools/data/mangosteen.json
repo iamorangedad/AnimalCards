@@ -1,0 +1,80 @@
+{
+ "file": "山竹",
+ "no": "1406",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "山竹",
+ "name_en": "Mangosteen",
+ "latin": "Garcinia mangostana",
+ "short": "山竹",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 2024",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "6–25 m",
+   "lo": 6,
+   "hi": 25,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "果皮直径",
+   "value": "6–8 cm",
+   "lo": 0.06,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果肉直径",
+   "value": "4–6 cm",
+   "lo": 0.04,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最后成熟",
+   "value": "约 10 天",
+   "lo": 10,
+   "hi": 10,
+   "scale": "days",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色果肉",
+   "icon": "food",
+   "desc": "紫红色果皮不能吃，里面白色的果肉像橘子瓣，酸甜多汁。"
+  },
+  {
+   "name": "骤然成熟",
+   "icon": "sun",
+   "desc": "果皮一直坚硬，直到最后约 10 天突然成熟。"
+  }
+ ],
+ "intro": [
+  "山竹是热带常绿乔木，原产马来半岛和婆罗洲。",
+  "自古就在热带亚洲广泛栽培。",
+  "也在印度西南、哥伦比亚、波多黎各和佛罗里达种植。"
+ ],
+ "fact": "可吃的部分是包着种子的内果皮。",
+ "range": "原产马来半岛、婆罗洲；热带栽培。",
+ "sources": [
+  "Wikipedia「Mangosteen」",
+  "IUCN 红色名录（Chong, K.Y. 2024）"
+ ],
+ "footnote": ""
+}

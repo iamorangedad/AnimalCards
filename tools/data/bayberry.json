@@ -1,0 +1,70 @@
+{
+ "file": "杨梅",
+ "no": "1414",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "杨梅",
+ "name_en": "Chinese bayberry",
+ "latin": "Myrica rubra",
+ "short": "杨梅",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "10–20 m",
+   "lo": 10,
+   "hi": 20,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶柄长",
+   "value": "2–10 mm",
+   "lo": 0.002,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌花序",
+   "value": "0.5–1.5 cm",
+   "lo": 0.005,
+   "hi": 0.015,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "多汁果",
+   "icon": "food",
+   "desc": "果实叫杨梅，以果汁和风味受欢迎。"
+  },
+  {
+   "name": "常绿",
+   "icon": "sun",
+   "desc": "常绿乔木，树皮光滑灰色，树冠圆。"
+  }
+ ],
+ "intro": [
+  "杨梅是杨梅科的亚热带果树。",
+  "原产中国东南部、日本、韩国、菲律宾和台湾。",
+  "叶片革质，边缘有锯齿。"
+ ],
+ "fact": "雌花序单生于叶腋，是多花的穗状花序。",
+ "range": "中国东南部、日本等东亚地区。",
+ "sources": [
+  "Wikipedia「Myrica rubra」"
+ ],
+ "footnote": ""
+}

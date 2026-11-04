@@ -1,0 +1,54 @@
+{
+ "file": "醋栗",
+ "no": "1419",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "醋栗",
+ "name_en": "European gooseberry",
+ "latin": "Ribes uva-crispa",
+ "short": "醋栗",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺灌木",
+   "icon": "thorn",
+   "desc": "是蔓生的灌木，枝条上有刺。"
+  },
+  {
+   "name": "多色浆果",
+   "icon": "food",
+   "desc": "浆果通常绿色，也有红、紫、黄、白的变种。"
+  }
+ ],
+ "intro": [
+  "醋栗（欧洲醋栗）原产欧洲、高加索和北非。",
+  "确切的原生范围不清楚，因为它可能从栽培中逃逸归化。",
+  "在英国它也被叫作 goosegogs。"
+ ],
+ "fact": "19 世纪种植醋栗非常流行。",
+ "range": "欧洲、高加索、北非。",
+ "sources": [
+  "Wikipedia「Ribes uva-crispa」"
+ ],
+ "footnote": ""
+}

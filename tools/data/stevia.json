@@ -1,0 +1,70 @@
+{
+ "file": "甜叶菊",
+ "no": "1402",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "甜叶菊",
+ "name_en": "Stevia",
+ "latin": "Stevia rebaudiana",
+ "short": "甜叶菊",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 0.61 m",
+   "lo": 0.61,
+   "hi": 0.61,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "甜菊苷",
+   "value": "叶含 9.1%",
+   "lo": 9.1,
+   "hi": 9.1,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "莱鲍迪苷A",
+   "value": "叶含 3.8%",
+   "lo": 3.8,
+   "hi": 3.8,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "天然甜味",
+   "icon": "food",
+   "desc": "叶子提取物制成粉末，是发达国家常用的代糖。"
+  },
+  {
+   "name": "怕霜",
+   "icon": "cold",
+   "desc": "冬天不能抗霜，欧洲要用温室种植。"
+  }
+ ],
+ "intro": [
+  "甜叶菊是菊科甜叶菊属的多年生草本。",
+  "原产巴西和巴拉圭湿润的地区。",
+  "它的叶子已被使用了好几个世纪。"
+ ],
+ "fact": "20 世纪 60 年代起，商业种植扩展到日本、东南亚和美国。",
+ "range": "原产巴西、巴拉圭；多地栽培。",
+ "sources": [
+  "Wikipedia「Stevia rebaudiana」"
+ ],
+ "footnote": ""
+}

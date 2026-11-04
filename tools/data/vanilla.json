@@ -1,0 +1,80 @@
+{
+ "file": "香荚兰",
+ "no": "1403",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "香荚兰",
+ "name_en": "Vanilla",
+ "latin": "Vanilla planifolia",
+ "short": "香荚兰",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "野生藤长",
+   "value": "可达 30 m",
+   "lo": 30,
+   "hi": 30,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "8–25 cm",
+   "lo": 0.08,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "适温",
+   "value": "20–30 °C",
+   "lo": 20,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀援兰花",
+   "icon": "climb",
+   "desc": "是攀援的兰花，野生藤能长到 15–30 m。"
+  },
+  {
+   "name": "香草",
+   "icon": "food",
+   "desc": "20 世纪起成为全世界广泛栽培的作物。"
+  }
+ ],
+ "intro": [
+  "香荚兰是香草兰属的兰花，原产墨西哥、中美洲、哥伦比亚和巴西。",
+  "它在墨西哥早期农村经济中很重要。",
+  "花黄绿色，只有淡淡的香味。"
+ ],
+ "fact": "1 m 长的插条要 2–3 年才开花结果。",
+ "range": "原产墨西哥到巴西；热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Vanilla planifolia」",
+  "IUCN 红色名录（Vega, M. 2020）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,70 @@
+{
+ "file": "白羽扇豆",
+ "no": "1401",
+ "cat": "农作物",
+ "kingdom": "植物",
+ "name_cn": "白羽扇豆",
+ "name_en": "White lupin",
+ "latin": "Lupinus albus",
+ "short": "白羽扇豆",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "30–120 cm",
+   "lo": 0.3,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "生长期",
+   "value": "106–180 天",
+   "lo": 106,
+   "hi": 180,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "单株种子重",
+   "value": "2.2–40 g",
+   "lo": 0.0022,
+   "hi": 0.04,
+   "scale": "mass_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "初次种植或土壤 pH 高于 6.5 时，种子要接种固氮根瘤菌。"
+  },
+  {
+   "name": "古老豆类",
+   "icon": "food",
+   "desc": "是地中海地区传统的豆类作物，埃及至今仍很喜爱。"
+  }
+ ],
+ "intro": [
+  "白羽扇豆是豆科羽扇豆属植物，原产地中海东北部。",
+  "它很可能最早在古希腊被驯化。",
+  "希腊名 thermos 大意是“热的”。"
+ ],
+ "fact": "格鲁吉亚西部直到不久前还保留着叫 hanchcoly 的古老种植方式。",
+ "range": "地中海、埃及、埃塞俄比亚、欧洲、南美等地栽培。",
+ "sources": [
+  "Wikipedia「Lupinus albus」"
+ ],
+ "footnote": ""
+}

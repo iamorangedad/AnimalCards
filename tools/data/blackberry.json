@@ -1,0 +1,78 @@
+{
+ "file": "黑莓",
+ "no": "1416",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "黑莓",
+ "name_en": "Blackberry",
+ "latin": "Rubus subg. Rubus",
+ "short": "黑莓",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*物种数",
+   "value": "超过 375 种",
+   "lo": 375,
+   "hi": 375,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "*首年茎长",
+   "value": "3–6 m",
+   "lo": 3,
+   "hi": 6,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "*亩产",
+   "value": "约 9100 kg/英亩",
+   "lo": 9100,
+   "hi": 9100,
+   "scale": "mass_xl",
+   "approx": true
+  },
+  {
+   "label": "*耐寒",
+   "value": "多数 −23 °C",
+   "lo": -23,
+   "hi": -23,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*刺藤",
+   "icon": "thorn",
+   "desc": "茎上有刺，长成浓密的荆棘丛。"
+  },
+  {
+   "name": "*高产",
+   "icon": "food",
+   "desc": "产量很高，每英亩可产约 9100 kg，商业价值大。"
+  }
+ ],
+ "intro": [
+  "黑莓是蔷薇科悬钩子属多个种及杂交种的果实。",
+  "这个类群有 375 种以上，很多是近缘的无融合生殖微种。",
+  "第一年的新茎可匍匐长到 3–6 m。"
+ ],
+ "fact": "伊利诺伊大学的“Illini Hardy”品种在 1989–1990 年冬天 −31 °C 的低温中存活。",
+ "range": "欧洲、西北非、西亚和中亚、北美等。",
+ "sources": [
+  "Wikipedia「Blackberry」"
+ ],
+ "footnote": "* 为类群级数据；原标题 Rubus fruticosus 为歧义名，已改用 Blackberry 条目。"
+}

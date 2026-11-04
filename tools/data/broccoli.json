@@ -1,0 +1,70 @@
+{
+ "file": "西兰花",
+ "no": "1424",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "西兰花",
+ "name_en": "Broccoli",
+ "latin": "Brassica oleracea var. italica",
+ "short": "西兰花",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "适宜日均温",
+   "value": "12–20 °C",
+   "lo": 12,
+   "hi": 20,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "加州占美国",
+   "value": "92%",
+   "lo": 92,
+   "hi": 92,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "生吃含水",
+   "value": "89%",
+   "lo": 89,
+   "hi": 89,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃花球",
+   "icon": "food",
+   "desc": "吃的是大大的花头、茎和小叶子。"
+  },
+  {
+   "name": "怕热",
+   "icon": "sun",
+   "desc": "温度高花球长不好，5 °C 以下生长变慢。"
+  }
+ ],
+ "intro": [
+  "西兰花是十字花科芸薹属的绿色蔬菜。",
+  "第二次世界大战后，美日培育的 F1 杂交种提高了产量和品质。",
+  "花序长在可食的主茎顶端，呈深绿色。"
+ ],
+ "fact": "2024 年美国 92% 的鲜食西兰花产自加州。",
+ "range": "全球温带广泛栽培。",
+ "sources": [
+  "Wikipedia「Broccoli」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,78 @@
+{
+ "file": "枇杷",
+ "no": "1413",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "枇杷",
+ "name_en": "Loquat",
+ "latin": "Eriobotrya japonica",
+ "short": "枇杷",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–10 m",
+   "lo": 5,
+   "hi": 10,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "10–25 cm",
+   "lo": 0.1,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "3–5 cm",
+   "lo": 0.03,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "毛叶",
+   "icon": "camo",
+   "desc": "叶子坚韧如革，背面密生黄褐色绒毛。"
+  },
+  {
+   "name": "香花",
+   "icon": "bee",
+   "desc": "白色五瓣花香气浓郁，远处都能闻到。"
+  }
+ ],
+ "intro": [
+  "枇杷是常绿大灌木或乔木，因橙色果实而商业栽培。",
+  "原产中国中南部较凉爽的丘陵地区。",
+  "也作观赏植物。"
+ ],
+ "fact": "果实成簇生长，椭圆或梨形，皮黄或橙色。",
+ "range": "原产中国中南部；广泛栽培。",
+ "sources": [
+  "Wikipedia「Loquat」"
+ ],
+ "footnote": ""
+}

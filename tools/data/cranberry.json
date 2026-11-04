@@ -1,0 +1,64 @@
+{
+ "file": "蔓越莓",
+ "no": "1418",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "蔓越莓",
+ "name_en": "American cranberry",
+ "latin": "Vaccinium macrocarpon",
+ "short": "蔓越莓",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2016",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "果径",
+   "value": "9–14 mm",
+   "lo": 0.009,
+   "hi": 0.014,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花梗长",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "酸果",
+   "icon": "food",
+   "desc": "白或粉色的四瓣花之后结酸味的红色浆果。"
+  },
+  {
+   "name": "水淹采收",
+   "icon": "drop",
+   "desc": "现代采收时放水淹田，把果实打松后收集漂浮的果子。"
+  }
+ ],
+ "intro": [
+  "大果越橘是北美的蔓越莓。",
+  "它是多年生灌木。",
+  "在欧洲部分地区和北美西部也已归化。"
+ ],
+ "fact": "它生长在有机质和沙交替层叠的湿地土壤里。",
+ "range": "北美东北部；欧洲等地归化。",
+ "sources": [
+  "Wikipedia「Vaccinium macrocarpon」",
+  "IUCN 红色名录（Maiz-Tome, L. 2016）"
+ ],
+ "footnote": ""
+}

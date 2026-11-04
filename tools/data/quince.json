@@ -1,0 +1,56 @@
+{
+ "file": "榅桲",
+ "no": "1423",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "榅桲",
+ "name_en": "Quince",
+ "latin": "Cydonia oblonga",
+ "short": "榅桲",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2021",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "开花低温",
+   "value": "低于 7 °C",
+   "lo": 7,
+   "hi": 7,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "独苗一属",
+   "icon": "team",
+   "desc": "是榅桲属唯一的成员，和苹果、梨同属苹果亚族。"
+  },
+  {
+   "name": "粉白花",
+   "icon": "sun",
+   "desc": "有时作为观赏树或盆景，欣赏它淡粉色的花。"
+  }
+ ],
+ "intro": [
+  "榅桲原产伊朗里海南岸的赫卡尼亚森林。",
+  "自古就在地中海一带栽培。",
+  "如今各大洲的暖温带和温带都有种植。"
+ ],
+ "fact": "它需要一段低于 7 °C 的较冷时期才能正常开花。",
+ "range": "原产伊朗北部；温带广泛栽培。",
+ "sources": [
+  "Wikipedia「Quince」",
+  "IUCN 红色名录（Plummer 2021）"
+ ],
+ "footnote": "",
+ "warn": "种子含氰苷，大量吃会在胃里产生有毒的氢氰酸。"
+}

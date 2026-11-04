@@ -1,0 +1,72 @@
+{
+ "file": "柚",
+ "no": "1421",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "柚",
+ "name_en": "Pomelo",
+ "latin": "Citrus maxima",
+ "short": "柚",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "5–15 m",
+   "lo": 5,
+   "hi": 15,
+   "scale": "len_xxl",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–20 cm",
+   "lo": 0.05,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大柑橘",
+   "icon": "food",
+   "desc": "是最大的柑橘类水果。"
+  },
+  {
+   "name": "柑橘祖先",
+   "icon": "team",
+   "desc": "是苦橙和葡萄柚等多种栽培柑橘的祖先之一。"
+  }
+ ],
+ "intro": [
+  "柚子是天然的非杂交柑橘，原产东南亚。",
+  "味道像甜的葡萄柚。",
+  "在东南亚和东亚，人们常在节日吃它。"
+ ],
+ "fact": "和葡萄柚一样，它所含的植物化学物可能与药物相互作用。",
+ "range": "原产东南亚；亚洲广泛栽培。",
+ "sources": [
+  "Wikipedia「Pomelo」",
+  "IUCN 红色名录（Botanic Gardens Conservation International 2019）"
+ ],
+ "footnote": "",
+ "warn": "可能与某些药物相互作用，服药者请注意。"
+}

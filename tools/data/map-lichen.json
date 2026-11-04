@@ -1,0 +1,64 @@
+{
+ "file": "地图衣",
+ "no": "1494",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "地图衣",
+ "name_en": "Map lichen",
+ "latin": "Rhizocarpon geographicum",
+ "short": "地图衣",
+ "type": "地衣",
+ "habitat": [
+  "土壤",
+  "冰原"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "小块宽",
+   "value": "0.2–1.8 mm",
+   "lo": 0.0002,
+   "hi": 0.0018,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "最老估计",
+   "value": "约 9500 年",
+   "lo": 9500,
+   "hi": 9500,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "测年",
+   "icon": "sun",
+   "desc": "圆形地衣的直径被用来估算冰碛等地层的年龄。"
+  },
+  {
+   "name": "黄绿小块",
+   "icon": "camo",
+   "desc": "地衣体由 0.2–1.8 mm 的黄绿色小块组成。"
+  }
+ ],
+ "intro": [
+  "地图衣生长在空气清洁的山区岩石上。",
+  "种内变异很大，正在重新研究分类。",
+  "黑色子囊盘通常不到 1.5 mm。"
+ ],
+ "fact": "巴芬岛东部一片地图衣估计已有 9500 岁。",
+ "range": "全球山区岩石（待核）。",
+ "sources": [
+  "Wikipedia「Map lichen」"
+ ],
+ "footnote": "",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

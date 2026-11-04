@@ -1,0 +1,65 @@
+{
+ "file": "桦褐孔菌",
+ "no": "1478",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "桦褐孔菌",
+ "name_en": "Chaga",
+ "latin": "Inonotus obliquus",
+ "short": "桦褐孔菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在桦树等树上",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "菌核宽",
+   "value": "10–25 cm",
+   "lo": 0.1,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "草酸盐",
+   "value": "2.8–11.2 g/100g",
+   "lo": 2.8,
+   "hi": 11.2,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑色菌核",
+   "icon": "micro",
+   "desc": "看到的黑块不是子实体，而是富含黑色素的菌核。"
+  },
+  {
+   "name": "桦树寄生",
+   "icon": "root",
+   "desc": "多寄生在桦树上，也见于桤木、山毛榉和杨树。"
+  }
+ ],
+ "intro": [
+  "桦褐孔菌是锈革孔菌科真菌。",
+  "名字来自俄语 чага。",
+  "传统上磨粉泡成类似咖啡或茶的饮料。"
+ ],
+ "fact": "它的草酸盐含量是已知生物中最高的之一。",
+ "range": "北半球寒温带桦树林（待核）。",
+ "sources": [
+  "Wikipedia「Chaga」",
+  "IUCN 红色名录（Vellinga, E.C. 2025）"
+ ],
+ "footnote": "草酸盐数值为每 100 g 菌核总草酸盐 g 数。",
+ "warn": "草酸盐含量极高；不要自己采来大量饮用。"
+}

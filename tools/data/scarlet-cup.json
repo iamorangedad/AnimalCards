@@ -1,0 +1,64 @@
+{
+ "file": "红白毛杯菌",
+ "no": "1485",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "红白毛杯菌",
+ "name_en": "Scarlet elf cup",
+ "latin": "Sarcoscypha coccinea",
+ "short": "红白毛杯菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "杯径",
+   "value": "2–6 cm",
+   "lo": 0.02,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "可达 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冬季红杯",
+   "icon": "cold",
+   "desc": "多在冬季和早春较冷的月份长出。"
+  },
+  {
+   "name": "枯枝分解",
+   "icon": "micro",
+   "desc": "腐生，长在潮湿林地被落叶埋住的腐烂枝条上。"
+  }
+ ],
+ "intro": [
+  "红白毛杯菌是盘菌目的真菌。",
+  "子实体从球形长成浅盘或杯状，边缘内卷。",
+  "最近的亲戚生活在加那利群岛和马德拉。"
+ ],
+ "fact": "在俄罗斯北部，人们拌沙拉或用酸奶油煎着吃。",
+ "range": "欧洲等地（待核）。",
+ "sources": [
+  "Wikipedia「Scarlet elf cup」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

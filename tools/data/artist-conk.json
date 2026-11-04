@@ -1,0 +1,72 @@
+{
+ "file": "树舌灵芝",
+ "no": "1477",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "树舌灵芝",
+ "name_en": "Artist's bracket",
+ "latin": "Ganoderma applanatum",
+ "short": "树舌灵芝",
+ "type": "菌类",
+ "habitat": [
+  "朽木",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "宽",
+   "value": "3–30 cm",
+   "lo": 0.03,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "长",
+   "value": "5–50 cm",
+   "lo": 0.05,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "24 时孢子",
+   "value": "46.5 亿个",
+   "lo": 4.65,
+   "hi": 4.65,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "画板",
+   "icon": "spore",
+   "desc": "可以当作绘画材料，英文名由此而来。"
+  },
+  {
+   "name": "又寄生又腐生",
+   "icon": "micro",
+   "desc": "菌丝长在活树和死树的木头里。"
+  }
+ ],
+ "intro": [
+  "树舌灵芝是分布全球的多年生檐状真菌。",
+  "英文名“画家的檐菌”来自它能作画。",
+  "10×10 cm 的菌面 24 小时能散出 46.5 亿个孢子。"
+ ],
+ "fact": "也被用来制作火绒（amadou），不过最常用的是木蹄层孔菌。",
+ "range": "世界性分布。",
+ "sources": [
+  "Wikipedia「Artist's bracket」"
+ ],
+ "footnote": "“24 时孢子”单位为亿个。",
+ "warn": "木质坚硬，不作食用；千万不要采食野生蘑菇。"
+}

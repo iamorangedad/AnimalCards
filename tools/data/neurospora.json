@@ -1,0 +1,64 @@
+{
+ "file": "粗糙脉孢菌",
+ "no": "1487",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "粗糙脉孢菌",
+ "name_en": "Red bread mold",
+ "latin": "Neurospora crassa",
+ "short": "粗糙脉孢菌",
+ "type": "菌类",
+ "habitat": [
+  "室内",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "萌发加热",
+   "value": "60 °C",
+   "lo": 60,
+   "hi": 60,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "加热时间",
+   "value": "30 分钟",
+   "lo": 30,
+   "hi": 30,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "一基因一酶",
+   "icon": "micro",
+   "desc": "比德尔和塔特姆用它提出“一个基因一个酶”，获 1958 年诺贝尔奖。"
+  },
+  {
+   "name": "弹射孢子",
+   "icon": "spore",
+   "desc": "子囊孢子成熟后会被猛烈弹射到空中。"
+  }
+ ],
+ "intro": [
+  "粗糙脉孢菌是一种红面包霉。",
+  "容易培养，是重要的模式生物。",
+  "属名意为“有纹的孢子”。"
+ ],
+ "fact": "实验室里子囊孢子要在 60 °C 加热 30 分钟才萌发。",
+ "range": "全球（待核）。",
+ "sources": [
+  "Wikipedia「Red bread mold」"
+ ],
+ "footnote": "",
+ "warn": "霉菌孢子可能引起过敏或感染：发霉的食物要扔掉，别闻、别吃。"
+}

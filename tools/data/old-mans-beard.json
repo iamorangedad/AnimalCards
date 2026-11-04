@@ -1,0 +1,63 @@
+{
+ "file": "松萝",
+ "no": "1493",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "松萝",
+ "name_en": "Old man's beard",
+ "latin": "Usnea",
+ "short": "松萝",
+ "type": "地衣",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "物种数",
+   "value": "约 130",
+   "lo": 130,
+   "hi": 130,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "长松萝",
+   "value": "可超 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "空气检测员",
+   "icon": "wind",
+   "desc": "对空气质量敏感，只在没污染的地方生长。"
+  },
+  {
+   "name": "弹性中轴",
+   "icon": "climb",
+   "desc": "有独特的软骨状弹性中轴，挂在树上。"
+  }
+ ],
+ "intro": [
+  "松萝是梅衣科的灌丛状地衣属。",
+  "约有 130 种。",
+  "广布全球温带和热带，主要长在树上。"
+ ],
+ "fact": "长松萝的丝条可以超过 3 m。",
+ "range": "全球温带和热带。",
+ "sources": [
+  "Wikipedia「Usnea」"
+ ],
+ "footnote": "*属级数据。",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

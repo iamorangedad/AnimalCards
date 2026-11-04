@@ -1,0 +1,64 @@
+{
+ "file": "墨汁拟鬼伞",
+ "no": "1484",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "墨汁拟鬼伞",
+ "name_en": "Common ink cap",
+ "latin": "Coprinopsis atramentaria",
+ "short": "墨汁拟鬼伞",
+ "type": "菌类",
+ "habitat": [
+  "土壤",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "3–10 cm",
+   "lo": 0.03,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄高",
+   "value": "5–17 cm",
+   "lo": 0.05,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黑墨水",
+   "icon": "drop",
+   "desc": "采下后会化成黑色液体，以前被用作墨水。"
+  },
+  {
+   "name": "怕酒",
+   "icon": "toxic",
+   "desc": "含鬼伞素，和酒一起吃会中毒。"
+  }
+ ],
+ "intro": [
+  "墨汁拟鬼伞英文俗称“酒鬼的克星”。",
+  "菌盖灰色或灰褐色，菌柄无环。",
+  "菌丝常从埋在地下的枯木长出。"
+ ],
+ "fact": "曾有人用它来戒酒。",
+ "range": "广布（待核）。",
+ "sources": [
+  "Wikipedia「Common ink cap」"
+ ],
+ "footnote": "",
+ "warn": "与酒同食会中毒（喝酒前后几小时内都不行）；千万不要采食野生蘑菇。"
+}

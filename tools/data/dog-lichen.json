@@ -1,0 +1,64 @@
+{
+ "file": "地卷",
+ "no": "1500",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "地卷",
+ "name_en": "Dog lichen",
+ "latin": "Peltigera",
+ "short": "地卷",
+ "type": "地衣",
+ "habitat": [
+  "土壤",
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "物种数",
+   "value": "约 100",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "最大直径",
+   "value": "可达 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "固氮",
+   "icon": "nfix",
+   "desc": "多数种以念珠藻（蓝细菌）为伙伴，能从空气中固氮。"
+  },
+  {
+   "name": "改良土壤",
+   "icon": "root",
+   "desc": "常长在土壤上，影响土壤的形成和成分。"
+  }
+ ],
+ "intro": [
+  "地卷是叶状地衣属，约 100 种。",
+  "常长在土上，也长在苔藓、树和岩石上。",
+  "北美 34 种，欧洲 30 种。"
+ ],
+ "fact": "有些种被用来指示森林演替。",
+ "range": "世界多地。",
+ "sources": [
+  "Wikipedia「Peltigera」"
+ ],
+ "footnote": "*属级数据。",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

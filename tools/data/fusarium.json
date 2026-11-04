@@ -1,0 +1,55 @@
+{
+ "file": "禾谷镰刀菌",
+ "no": "1489",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "禾谷镰刀菌",
+ "name_en": "Fusarium head blight fungus",
+ "latin": "Fusarium graminearum",
+ "short": "禾谷镰刀菌",
+ "type": "菌类",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在小麦、大麦等禾草上",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "年损失",
+   "value": "数十亿美元",
+   "lo": 1,
+   "hi": 1,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "赤霉病",
+   "icon": "toxic",
+   "desc": "引起小麦、大麦的赤霉病，也让玉米穗腐烂。"
+  },
+  {
+   "name": "毒素",
+   "icon": "micro",
+   "desc": "被侵染的麦粒干瘪，并被呕吐毒素（DON）污染。"
+  }
+ ],
+ "intro": [
+  "禾谷镰刀菌（有性型 Gibberella zeae）是植物病原真菌。",
+  "每年造成全世界数十亿美元损失。",
+  "子囊孢子落到寄主上萌发。"
+ ],
+ "fact": "研究者在找它生活史的弱点来开发杀菌剂。",
+ "range": "全球麦区（待核）。",
+ "sources": [
+  "Wikipedia「Gibberella zeae」"
+ ],
+ "footnote": "“年损失”单位为十亿美元。",
+ "warn": "被污染的粮食含真菌毒素：发霉的粮食不要吃，也别喂牲畜。"
+}

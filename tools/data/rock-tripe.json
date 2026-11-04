@@ -1,0 +1,64 @@
+{
+ "file": "石耳",
+ "no": "1497",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "石耳",
+ "name_en": "Rock tripe",
+ "latin": "Umbilicaria",
+ "short": "石耳",
+ "type": "地衣",
+ "habitat": [
+  "冰原",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "物种数",
+   "value": "70–80",
+   "lo": 70,
+   "hi": 80,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "年生长",
+   "value": "0.9–2.4 mm",
+   "lo": 0.0009,
+   "hi": 0.0024,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "脐状附着",
+   "icon": "climb",
+   "desc": "叶状体只靠中央一点（脐）附着在岩石上。"
+  },
+  {
+   "name": "救命粮",
+   "icon": "food",
+   "desc": "英文名反映它在北方长期被当作应急食物。"
+  }
+ ],
+ "intro": [
+  "石耳是石耳科地衣属。",
+  "各大洲都有，特别是寒冷地区的硅质岩石上。",
+  "部分南极种在 0 °C 以下仍能光合作用。"
+ ],
+ "fact": "五种石耳在 −20 °C 存放十年后恢复了气体交换。",
+ "range": "全球寒冷地区岩石。",
+ "sources": [
+  "Wikipedia「Umbilicaria」"
+ ],
+ "footnote": "*属级数据。",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

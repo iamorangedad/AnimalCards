@@ -1,0 +1,64 @@
+{
+ "file": "黄金银耳",
+ "no": "1476",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "黄金银耳",
+ "name_en": "Yellow brain",
+ "latin": "Tremella mesenterica",
+ "short": "黄金银耳",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在木腐真菌身上",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "宽度",
+   "value": "可达 7.5 cm",
+   "lo": 0.075,
+   "hi": 0.075,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "高度",
+   "value": "2.5–5 cm",
+   "lo": 0.025,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "脑状胶质",
+   "icon": "drop",
+   "desc": "橙黄色胶质，表面皱褶像大脑，潮湿时油滑。"
+  },
+  {
+   "name": "寄生菌",
+   "icon": "micro",
+   "desc": "寄生在枯枝上的韧革菌属（Peniophora）木腐菌身上。"
+  }
+ ],
+ "intro": [
+  "黄金银耳是银耳科常见的胶质菌。",
+  "广布欧亚、非洲、澳大利亚和美洲。",
+  "常长在刚落下的阔叶树枝上。"
+ ],
+ "fact": "它产生的多糖因多种生物活性受到研究关注。",
+ "range": "温带和热带广布。",
+ "sources": [
+  "Wikipedia「Yellow brain」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

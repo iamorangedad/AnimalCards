@@ -1,0 +1,56 @@
+{
+ "file": "冰岛衣",
+ "no": "1492",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "冰岛衣",
+ "name_en": "Iceland moss",
+ "latin": "Cetraria islandica",
+ "short": "冰岛衣",
+ "type": "地衣",
+ "habitat": [
+  "冰原",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "高度",
+   "value": "7.6–10.2 cm",
+   "lo": 0.076,
+   "hi": 0.102,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "面包料",
+   "icon": "food",
+   "desc": "以前常被加进面包、粥和汤里。"
+  },
+  {
+   "name": "润喉",
+   "icon": "drop",
+   "desc": "传统上用来缓解胸部不适、口咽刺激和干咳。"
+  }
+ ],
+ "intro": [
+  "冰岛衣是北极-高山地衣，直立像苔藓。",
+  "名字很可能由此而来。",
+  "在北美从阿拉斯加到纽芬兰都有。"
+ ],
+ "fact": "如今需求不大，冰岛也只偶尔用于民间药和几道传统菜。",
+ "range": "北极及高山地区。",
+ "sources": [
+  "Wikipedia「Iceland moss」"
+ ],
+ "footnote": "",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

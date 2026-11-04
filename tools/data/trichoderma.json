@@ -1,0 +1,56 @@
+{
+ "file": "里氏木霉",
+ "no": "1488",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "里氏木霉",
+ "name_en": "Trichoderma reesei",
+ "latin": "Trichoderma reesei",
+ "short": "里氏木霉",
+ "type": "菌类",
+ "habitat": [
+  "土壤",
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "被视无性",
+   "value": "50 多年",
+   "lo": 50,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "纤维素酶",
+   "icon": "micro",
+   "desc": "能分泌大量纤维素酶，把植物纤维素分解成葡萄糖。"
+  },
+  {
+   "name": "石洗牛仔",
+   "icon": "drop",
+   "desc": "它的酶被用于商业“生物石洗”。"
+  }
+ ],
+ "intro": [
+  "里氏木霉是中温丝状真菌。",
+  "是重要的工业微生物。",
+  "被认为是无性的 50 多年后，人们终于诱导出它的有性生殖。"
+ ],
+ "fact": "研究者希望用它降低纤维素乙醇燃料的成本。",
+ "range": "全球（实验室和工业）。",
+ "sources": [
+  "Wikipedia「Trichoderma reesei」"
+ ],
+ "footnote": "",
+ "warn": "霉菌孢子可能引起过敏或感染：发霉的食物要扔掉，别闻、别吃。"
+}

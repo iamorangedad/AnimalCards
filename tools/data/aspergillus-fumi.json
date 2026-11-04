@@ -1,0 +1,64 @@
+{
+ "file": "烟曲霉",
+ "no": "1486",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "烟曲霉",
+ "name_en": "Aspergillus fumigatus",
+ "latin": "Aspergillus fumigatus",
+ "short": "烟曲霉",
+ "type": "菌类",
+ "habitat": [
+  "土壤",
+  "室内"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最高生长",
+   "value": "50 °C",
+   "lo": 50,
+   "hi": 50,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "基因组",
+   "value": "2940 万碱基",
+   "lo": 29.4,
+   "hi": 29.4,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐高温",
+   "icon": "fire",
+   "desc": "能在人体温度 37 °C 下生长，最高 50 °C。"
+  },
+  {
+   "name": "堆肥工人",
+   "icon": "micro",
+   "desc": "在土壤和堆肥里参与碳、氮循环。"
+  }
+ ],
+ "intro": [
+  "烟曲霉是曲霉属真菌。",
+  "是免疫缺陷人群中最常致病的曲霉之一。",
+  "每人每天估计吸入几百个它的孢子。"
+ ],
+ "fact": "2008 年才发现它有完整的有性生殖周期。",
+ "range": "全球（土壤、堆肥）。",
+ "sources": [
+  "Wikipedia「Aspergillus fumigatus」"
+ ],
+ "footnote": "“基因组”单位为百万碱基对。",
+ "warn": "免疫力低下者吸入可能严重感染：远离发霉物，保持室内通风干燥。"
+}

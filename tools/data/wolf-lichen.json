@@ -1,0 +1,63 @@
+{
+ "file": "狼地衣",
+ "no": "1498",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "狼地衣",
+ "name_en": "Wolf lichen",
+ "latin": "Letharia vulpina",
+ "short": "狼地衣",
+ "type": "地衣",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类共生，藻类光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "直径",
+   "value": "2–7 cm",
+   "lo": 0.02,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "解冻光合",
+   "value": "12 分钟",
+   "lo": 12,
+   "hi": 12,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄色毒素",
+   "icon": "toxic",
+   "desc": "黄色的狐衣酸对哺乳动物有毒，曾被用来毒杀狼和狐狸。"
+  },
+  {
+   "name": "染料",
+   "icon": "drop",
+   "desc": "特林吉特人用它把奇尔卡特毯子染黄。"
+  }
+ ],
+ "intro": [
+  "狼地衣是梅衣科的灌丛状地衣。",
+  "亮黄绿色，分枝很多。",
+  "长在活或死的针叶树树皮上。"
+ ],
+ "fact": "冷藏 15 小时后，解冻 12 分钟就能恢复光合作用。",
+ "range": "欧洲西部和中部、北美太平洋西北和落基山北部。",
+ "sources": [
+  "Wikipedia「Letharia vulpina」"
+ ],
+ "footnote": "",
+ "warn": "有毒（含狐衣酸），不要吃，摸后洗手。"
+}

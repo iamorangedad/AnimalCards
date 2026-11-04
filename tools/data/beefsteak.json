@@ -1,0 +1,64 @@
+{
+ "file": "牛排菌",
+ "no": "1480",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "牛排菌",
+ "name_en": "Beefsteak fungus",
+ "latin": "Fistulina hepatica",
+ "short": "牛排菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "柄长",
+   "value": "可达 5 cm",
+   "lo": 0.05,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄宽",
+   "value": "可达 4 cm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "像生肉",
+   "icon": "food",
+   "desc": "有人觉得它的质地很像生肉，煮熟可吃。"
+  },
+  {
+   "name": "褐腐",
+   "icon": "micro",
+   "desc": "会让被感染的树发生褐腐。"
+  }
+ ],
+ "intro": [
+  "牛排菌是一种檐状真菌，属伞菌目。",
+  "又叫“穷人的牛排”或“牛舌菌”。",
+  "下表面是许多小管，是退化的菌褶。"
+ ],
+ "fact": "老的菌要泡一夜再吃。",
+ "range": "广布（待核）。",
+ "sources": [
+  "Wikipedia「Beefsteak fungus」"
+ ],
+ "footnote": "维基条目较短（待核）。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

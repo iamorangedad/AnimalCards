@@ -1,0 +1,72 @@
+{
+ "file": "木蹄层孔菌",
+ "no": "1479",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "木蹄层孔菌",
+ "name_en": "Tinder fungus",
+ "latin": "Fomes fomentarius",
+ "short": "木蹄层孔菌",
+ "type": "菌类",
+ "habitat": [
+  "朽木",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "子实体宽",
+   "value": "5–45 cm",
+   "lo": 0.05,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "硬壳厚",
+   "value": "1–2 mm",
+   "lo": 0.001,
+   "hi": 0.002,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "27–30 °C",
+   "lo": 27,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "火绒",
+   "icon": "fire",
+   "desc": "是制作火绒（amadou）的主要原料，用来引火。"
+  },
+  {
+   "name": "马蹄形",
+   "icon": "micro",
+   "desc": "多年生，马蹄形檐状，从受伤的树皮侵入树木。"
+  }
+ ],
+ "intro": [
+  "木蹄层孔菌是多年生木腐真菌。",
+  "分布于欧洲、亚洲、非洲和北美。",
+  "也叫“冰人菌”。"
+ ],
+ "fact": "5000 年前的冰人奥茨身上带着四块木蹄层孔菌。",
+ "range": "欧洲、亚洲、非洲、北美。",
+ "sources": [
+  "Wikipedia「Tinder fungus」"
+ ],
+ "footnote": "",
+ "warn": "不能吃，肉质辛辣；千万不要采食野生蘑菇。"
+}

@@ -1,0 +1,72 @@
+{
+ "file": "石黄衣",
+ "no": "1495",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "石黄衣",
+ "name_en": "Common orange lichen",
+ "latin": "Xanthoria parietina",
+ "short": "石黄衣",
+ "type": "地衣",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "叶片宽",
+   "value": "小于 8 cm",
+   "lo": 0.08,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "年生长",
+   "value": "约 2.6 mm",
+   "lo": 0.0026,
+   "hi": 0.0026,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "寄居真菌",
+   "value": "至少 41 种",
+   "lo": 41,
+   "hi": 41,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐污染",
+   "icon": "fire",
+   "desc": "不像许多地衣，它在空气污染和氮过多的地方也能长。"
+  },
+  {
+   "name": "再生",
+   "icon": "clone",
+   "desc": "碎片能长成新的地衣体。"
+  }
+ ],
+ "intro": [
+  "石黄衣是常见又广布的地衣。",
+  "向阳处鲜橙色，背阴处黄绿色。",
+  "长在海边岩石、城市墙壁和树皮上。"
+ ],
+ "fact": "子囊盘要 12–18 个月才成熟。",
+ "range": "欧洲、亚洲部分地区、北非沿海。",
+ "sources": [
+  "Wikipedia「Common orange lichen」"
+ ],
+ "footnote": "",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

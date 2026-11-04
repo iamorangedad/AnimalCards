@@ -1,0 +1,56 @@
+{
+ "file": "蛹虫草",
+ "no": "1481",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "蛹虫草",
+ "name_en": "Caterpillar fungus",
+ "latin": "Cordyceps militaris",
+ "short": "蛹虫草",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在昆虫的蛹或幼虫身上",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "子实体高",
+   "value": "1–8 cm",
+   "lo": 0.01,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "寄生昆虫",
+   "icon": "micro",
+   "desc": "寄生昆虫，从地下死去的蛹里长出橙红色棒状子实体。"
+  },
+  {
+   "name": "人工栽培",
+   "icon": "food",
+   "desc": "可用蚕蛹、米饭和液体培养基栽培。"
+  }
+ ],
+ "intro": [
+  "蛹虫草是虫草科真菌，是虫草属的模式种。",
+  "很多作者认为它在北半球相当常见。",
+  "在中国、越南、台湾和印尼栽培。"
+ ],
+ "fact": "保健说法多因它像冬虫夏草，而后者功效也未经证实。",
+ "range": "北半球广布。",
+ "sources": [
+  "Wikipedia「Caterpillar fungus」"
+ ],
+ "footnote": "",
+ "warn": "有人认为食用可能有毒；功效未经证实，不要自行进补。"
+}

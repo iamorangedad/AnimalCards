@@ -1,0 +1,73 @@
+{
+ "file": "橙盖鹅膏",
+ "no": "1482",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "橙盖鹅膏",
+ "name_en": "Caesar's mushroom",
+ "latin": "Amanita caesarea",
+ "short": "橙盖鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "可达 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄高",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最适温度",
+   "value": "24–28 °C",
+   "lo": 24,
+   "hi": 28,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "皇帝最爱",
+   "icon": "food",
+   "desc": "名字来自罗马皇帝，克劳狄乌斯尤其喜欢。"
+  },
+  {
+   "name": "橙帽黄褶",
+   "icon": "camo",
+   "desc": "橙到红色菌盖，菌褶和菌柄黄色。"
+  }
+ ],
+ "intro": [
+  "橙盖鹅膏是鹅膏属真菌。",
+  "分布在北非、欧亚和北美。",
+  "形似有毒的毒蝇伞。"
+ ],
+ "fact": "有研究发现它的镉含量是欧盟栽培菇标准的四倍。",
+ "range": "北非、欧亚、北美。",
+ "sources": [
+  "Wikipedia「Caesar's mushroom」",
+  "IUCN 红色名录（Gonçalves 2019）"
+ ],
+ "footnote": "",
+ "warn": "很像剧毒的鹅膏菌：千万不要自己采野生蘑菇吃。"
+}

@@ -1,0 +1,72 @@
+{
+ "file": "鹿蕊",
+ "no": "1491",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "鹿蕊",
+ "name_en": "Reindeer lichen",
+ "latin": "Cladonia rangiferina",
+ "short": "鹿蕊",
+ "type": "地衣",
+ "habitat": [
+  "冰原",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "垫高",
+   "value": "可达 10 cm",
+   "lo": 0.1,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "20–30 年",
+   "lo": 20,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "年生长",
+   "value": "3.9–4.4 mm",
+   "lo": 0.0039,
+   "hi": 0.0044,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "超耐寒",
+   "icon": "cold",
+   "desc": "浸过液氮、极度干燥或 −40 °C 后仍能恢复呼吸。"
+  },
+  {
+   "name": "铺成毯",
+   "icon": "clone",
+   "desc": "能长成高可达 10 cm 的大片地毯。"
+  }
+ ],
+ "intro": [
+  "鹿蕊是浅色的灌丛状地衣，俗称“驯鹿苔”。",
+  "虽然像苔藓，但不是苔藓。",
+  "在尼泊尔见于海拔 3400–4500 m。"
+ ],
+ "fact": "芬兰研究发现它每年长 3.9–4.4 mm。",
+ "range": "北极、寒带及高山（待核）。",
+ "sources": [
+  "Wikipedia「Reindeer lichen」"
+ ],
+ "footnote": "",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

@@ -1,0 +1,71 @@
+{
+ "file": "肺衣",
+ "no": "1496",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "肺衣",
+ "name_en": "Tree lungwort",
+ "latin": "Lobaria pulmonaria",
+ "short": "肺衣",
+ "type": "地衣",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "地衣体宽",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "裂片宽",
+   "value": "1–3 cm",
+   "lo": 0.01,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "开始繁殖",
+   "value": "约 25 岁",
+   "lo": 25,
+   "hi": 25,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三方共生",
+   "icon": "nfix",
+   "desc": "真菌、绿藻和蓝细菌三方共生。"
+  },
+  {
+   "name": "老林指示",
+   "icon": "wind",
+   "desc": "对空气污染敏感，可用来指示森林的年龄。"
+  }
+ ],
+ "intro": [
+  "肺衣是大型附生地衣。",
+  "英文俗名有“肺衣”“橡树肺”等。",
+  "常见于老龄林。"
+ ],
+ "fact": "约 25 岁才开始繁殖。",
+ "range": "北半球温带森林（待核）。",
+ "sources": [
+  "Wikipedia「Tree lungwort」"
+ ],
+ "footnote": "",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

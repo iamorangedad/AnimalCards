@@ -1,0 +1,72 @@
+{
+ "file": "卷缘齿菌",
+ "no": "1483",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "卷缘齿菌",
+ "name_en": "Hedgehog mushroom",
+ "latin": "Hydnum repandum",
+ "short": "卷缘齿菌",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "可达 17 cm",
+   "lo": 0.17,
+   "hi": 0.17,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "刺长",
+   "value": "2–7 mm",
+   "lo": 0.002,
+   "hi": 0.007,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "3–10 cm",
+   "lo": 0.03,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "刺代替褶",
+   "icon": "spore",
+   "desc": "菌盖下面没有菌褶，而是密密的白色细刺。"
+  },
+  {
+   "name": "菌根",
+   "icon": "root",
+   "desc": "是菌根真菌，在针叶林或阔叶林里出菇。"
+  }
+ ],
+ "intro": [
+  "卷缘齿菌是齿菌科真菌。",
+  "是优良食用菌，但老了会发苦。",
+  "林奈 1753 年首次正式描述它。"
+ ],
+ "fact": "据资料它没有有毒的相似种。",
+ "range": "欧洲广布。",
+ "sources": [
+  "Wikipedia「Hedgehog mushroom」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

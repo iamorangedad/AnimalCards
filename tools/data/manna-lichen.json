@@ -1,0 +1,55 @@
+{
+ "file": "栎扁枝衣",
+ "no": "1499",
+ "cat": "地衣",
+ "kingdom": "真菌",
+ "name_cn": "栎扁枝衣",
+ "name_en": "Oakmoss",
+ "latin": "Evernia prunastri",
+ "short": "栎扁枝衣",
+ "type": "地衣",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "共生",
+ "diet_note": "真菌和藻类（或蓝细菌）共生，伙伴光合作用",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "香水",
+   "value": "定香剂",
+   "lo": 1,
+   "hi": 1,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香水基调",
+   "icon": "drop",
+   "desc": "提取物常作香水定香剂，是许多香水的基调。"
+  },
+  {
+   "name": "监测重金属",
+   "icon": "wind",
+   "desc": "意大利中部用它监测城市、乡村和工业区的重金属沉降。"
+  }
+ ],
+ "intro": [
+  "栎扁枝衣是一种地衣，英文叫“橡苔”。",
+  "如今在香水中的使用受国际香料协会严格限制。",
+  "许多香水已改用其他成分。"
+ ],
+ "fact": "截至 2026 年 2 月，IUCN 尚未评估它。",
+ "range": "北半球温带（待核）。",
+ "sources": [
+  "Wikipedia「Oakmoss」"
+ ],
+ "footnote": "数据较少（待核）。",
+ "warn": "地衣不是常规食物，有的含刺激性或有毒物质：不要随便采来吃。"
+}

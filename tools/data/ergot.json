@@ -1,0 +1,71 @@
+{
+ "file": "麦角菌",
+ "no": "1490",
+ "cat": "霉菌酵母",
+ "kingdom": "真菌",
+ "name_cn": "麦角菌",
+ "name_en": "Ergot",
+ "latin": "Claviceps purpurea",
+ "short": "麦角菌",
+ "type": "菌类",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "寄生",
+ "diet_note": "寄生在黑麦等禾草的花上",
+ "iucn": {
+  "code": "NE",
+  "sub": "微生物·未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "最适温度",
+   "value": "25 °C",
+   "lo": 25,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "越冬低温",
+   "value": "0–5 °C",
+   "lo": 0,
+   "hi": 5,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "低温天数",
+   "value": "至少 25 天",
+   "lo": 25,
+   "hi": 25,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "麦角",
+   "icon": "toxic",
+   "desc": "在黑麦穗上长出黑色菌核（麦角），误食会引起麦角中毒。"
+  },
+  {
+   "name": "要冷",
+   "icon": "cold",
+   "desc": "菌核要在 0–5 °C 下至少 25 天才萌发。"
+  }
+ ],
+ "intro": [
+  "麦角菌长在黑麦等谷物和牧草的穗上。",
+  "黑麦是它最常见的寄主。",
+  "也侵染小黑麦、小麦和大麦。"
+ ],
+ "fact": "麦角提取物现已不再作为药物制剂使用。",
+ "range": "全球温带谷物区（待核）。",
+ "sources": [
+  "Wikipedia「Ergot」"
+ ],
+ "footnote": "",
+ "warn": "剧毒：含麦角菌核的粮食会引起麦角中毒，必须清除。"
+}

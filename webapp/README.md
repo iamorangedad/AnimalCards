@@ -2,7 +2,7 @@
 
 **English** · [中文 (Chinese)](README.zh-CN.md) · [Back to the main README](../README.md)
 
-A draggable, zoomable 3D globe showing all 1000 cards in this repository (760 animals, 200 plants, 40 fungi). Each species has one to three markers where it lives or comes from. Click a marker to preview the card, open the full PNG or download the PDF.
+A draggable, zoomable 3D globe showing all 1500 cards in this repository (1100 animals, 320 plants, 80 fungi). Each species has one to three markers where it lives or comes from. Click a marker to preview the card, open the full PNG or download the PDF.
 
 > ⚠️ **About the data:** markers are representative points for the countries or regions matched from each card's range text. They are **all approximate** and are not real distribution ranges. The data was compiled with AI assistance and **needs human review**. The page footer and the “Data & sources” panel say the same. Open location issues are listed in section 4 of [REVIEW_CHECKLIST.md](../REVIEW_CHECKLIST.md#4-web-app-map-locations).
 
@@ -17,7 +17,7 @@ A draggable, zoomable 3D globe showing all 1000 cards in this repository (760 an
   - IUCN status, range, how the location was chosen, and sources
 - **Filters and search**
   - Kingdom filter: click Animals / Plants / Fungi to show only that kingdom, click again to show all.
-  - 16 category filters, each with its own colour (8 animal, 6 plant, 2 fungus).
+  - 23 category filters, each with its own colour (13 animal, 7 plant, 3 fungus).
   - IUCN filter: Shift/Alt-click shows only that category.
   - Search by Chinese, English or scientific name; picking a result flies the globe to that species.
 - **Shareable links**: `/#a=giant-panda` opens the giant panda directly.
@@ -69,7 +69,7 @@ python3 scripts/build_data.py            # reads ../tools/data/*.json → data/a
 ### Checks
 
 ```bash
-.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API returns 1000 items; every PNG/PDF/thumbnail is reachable
+.venv/bin/python tests/check_urls.py http://127.0.0.1:8000   # API returns 1500 items; every PNG/PDF/thumbnail is reachable
 # screenshots (needs playwright and Chromium)
 python tests/screenshots.py http://127.0.0.1:8000 /tmp/shots [path-to-chrome]
 ```
@@ -153,16 +153,16 @@ Resource use is small. Each uvicorn process takes about 60 MB of RAM. The first 
 
 1. It splits the text into sentences. It drops sentences about non-native occurrence (“introduced / farmed / invasive / brought to …”) and removes “… excluded” clauses.
 2. It looks for country names (Natural Earth Chinese names), continents and regions, provinces, seas and other keywords, and takes the longest match. When a country is followed by a direction such as “northern” or “south-eastern”, it estimates a point inside the country's extent.
-3. Marine animals and seagrasses (eelgrass, Neptune grass) are placed at sea first and everything else on land first. Points less than 400 km apart are merged, with at most 3 points per species.
+3. Marine and deep-sea animals and seagrasses (eelgrass, Neptune grass) are placed at sea first and everything else on land first. Points less than 400 km apart are merged, with at most 3 points per species.
 4. Texts that only say “global / widespread / everywhere except Antarctica” get 3 representative points marked “widespread”.
-5. Domestic animals are placed at their **domestication centre**. Cultivated plants and cultivated mushrooms (72 species, `cultivated: true` in the data) are placed at their **origin**, not across all growing areas.
+5. Domestic animals are placed at their **domestication centre**. Cultivated plants and cultivated mushrooms (111 species, `cultivated: true` in the data) are placed at their **origin**, not across all growing areas.
 6. Species described only as “tropical / subtropical” get 3 tropical representative points (South America, Africa, South-East Asia). Re-introduction sites in brackets don't affect native-range matching.
-7. Eight species (polar bear, snowy owl, dog, horse, mule, domestic pigeon, fancy rat, eelgrass) use hand-placed points in `data/locations_manual.json`, each with a Wikipedia source.
+7. Eighteen species (polar bear, snowy owl, dog, horse, mule, domestic pigeon, fancy rat, eelgrass, common blue, Mekong giant catfish, saffron crocus, Chinese yam, white lupin, leek, nameko, deadly galerina, artist's bracket, dog lichen) use hand-placed points in `data/locations_manual.json`, each with a Wikipedia source.
 
-Current result: all 1000 species have markers, 2037 points in total, **all `approx: true`**.
-- 911 species are matched from range text, 8 use manual points, and 81 only have “widespread” representative points (mostly ocean fish, molds and yeasts, and other globally distributed species).
-- 10 species are flagged “location to be verified” (`location_pending: true`). One is the domestication origin of the fancy mouse. The other 9 are cultivated species whose cards give no origin (Chinese hibiscus, rapeseed, sesame, coconut palm, alfalfa, garden strawberry, radish, onion, snow fungus), so they only have widespread representative points.
-- The range text on 7 more cards itself contains “待核” (to verify): red kangaroo, red fox, raccoon, pea aphid, black soldier fly, common green lacewing, mayflies.
+Current result: all 1500 species have markers, 3077 points in total, **all `approx: true`**.
+- 1347 species are matched from range text, 18 use manual points, and 135 only have “widespread” representative points (mostly ocean fish, molds and yeasts, lichens and other globally distributed species).
+- 20 species are flagged “location to be verified” (`location_pending: true`). Three are domestic breeds whose domestication origin is not on the card (fancy mouse, greyhound, Abyssinian cat). The other 17 are cultivated species whose cards give no origin (Chinese hibiscus, rapeseed, sesame, coconut palm, alfalfa, garden strawberry, radish, onion, snow fungus, safflower, hemp, pigeon pea, grapefruit, broccoli, cauliflower, celery, zucchini), so they only have widespread representative points.
+- The range text on 23 more cards itself contains “待核” (to verify): red kangaroo, red fox, raccoon, pea aphid, black soldier fly, common green lacewing, mayflies, grayling, fiddler crabs, salmon louse, Pacific barreleye fish, white-egg bird's nest, chaga, beefsteak fungus, common ink cap, scarlet elf cup, red bread mould, Fusarium head blight fungus, ergot, reindeer lichen, map lichen, tree lungwort, oakmoss.
 
 Every point carries `kind` (how it was placed) and `label`. Every species carries `kingdom`, `category`, `range_note`, `source` (Wikipedia article) and `location_method`. The side panel shows these together with review hints.
 

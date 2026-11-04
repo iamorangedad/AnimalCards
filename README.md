@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="AnimalCards — 1000 illustrated species cards: animals, plants, fungi" width="820">
+  <img src="assets/banner.png" alt="AnimalCards — 1500 illustrated species cards: animals, plants, fungi" width="820">
 </p>
 
 <p align="center">
@@ -12,13 +12,13 @@
 
 # AnimalCards
 
-**1000 printable, bilingual (Chinese/English) species cards — animals, plants and fungi — drawn in a clean grid-line isometric style.**
+**1500 printable, bilingual (Chinese/English) species cards — animals, plants and fungi — drawn in a clean grid-line isometric style.**
 
 ## Overview
 
 AnimalCards is a set of one-species-per-card illustrated fact cards, laid out like a portrait trading card. Each card combines an original isometric line illustration with real, sourced data: names, IUCN Red List status, four data bars, two "skills", a short introduction, a fun fact and the species' range. The card text is in Chinese (with English and scientific names on every card). They are meant for kids, classrooms and science-communication posters.
 
-- **1000 cards**: 760 animals, 200 plants, 40 fungi, in 16 categories
+- **1500 cards**: 1100 animals, 320 plants, 80 fungi, in 23 categories
 - Every card is a **1080×1920 PNG (rendered at 2×)** plus a **single-page PDF**
 - An interactive **3D globe web app** ([`webapp/`](webapp/README.md)) places every card on the map where the species lives or comes from
 - Everything is regenerated from JSON data files in [`tools/data/`](tools/data/)
@@ -43,25 +43,32 @@ Data conventions: `约` = approximate, `*` = genus- or group-level data rather t
 
 | Kingdom | Category | 中文 | Cards | Card numbers |
 |---|---|---|---:|---|
-| Animals | Pets | 宠物 | 95 | 002, 007–016, 106–144, 401–445 |
-| Animals | Farm | 农场 | 95 | 017–026, 145–184, 446–490 |
-| Animals | Grasslands & Highlands | 高原草原 | 95 | 003, 006, 027–042, 185–216, 491–535 |
-| Animals | Forest | 森林 | 95 | 001, 043–056, 217–251, 536–580 |
-| Animals | Ocean | 海洋 | 95 | 005, 057–071, 252–285, 581–625 |
-| Animals | Birds | 鸟类 | 95 | 004, 072–084, 286–321, 626–670 |
-| Animals | Reptiles & Amphibians | 爬行两栖 | 95 | 085–095, 322–360, 671–715 |
-| Animals | Insects | 昆虫 | 95 | 096–105, 361–400, 716–760 |
-| Plants | Flowers | 花卉 | 40 | 761–800 |
-| Plants | Trees | 树木 | 40 | 801–840 |
-| Plants | Crops | 农作物 | 35 | 841–875 |
-| Plants | Fruits & Vegetables | 水果蔬菜 | 45 | 876–920 |
-| Plants | Desert plants | 沙漠植物 | 20 | 921–940 |
-| Plants | Aquatic plants | 水生植物 | 20 | 941–960 |
-| Fungi | Mushrooms | 蘑菇 | 30 | 961–990 |
-| Fungi | Molds & Yeasts | 霉菌酵母 | 10 | 991–1000 |
-| | **Total** | | **1000** | 760 animals · 200 plants · 40 fungi |
+| Animals | Pets | 宠物 | 115 | 002, 007–016, 106–144, 401–445, 1001–1020 |
+| Animals | Farm | 农场 | 115 | 017–026, 145–184, 446–490, 1021–1040 |
+| Animals | Grasslands & Highlands | 高原草原 | 125 | 003, 006, 027–042, 185–216, 491–535, 1041–1070 |
+| Animals | Forest | 森林 | 125 | 001, 043–056, 217–251, 536–580, 1071–1100 |
+| Animals | Ocean | 海洋 | 125 | 005, 057–071, 252–285, 581–625, 1101–1130 |
+| Animals | Birds | 鸟类 | 135 | 004, 072–084, 286–321, 626–670, 1131–1170 |
+| Animals | Reptiles & Amphibians | 爬行两栖 | 125 | 085–095, 322–360, 671–715, 1171–1200 |
+| Animals | Insects | 昆虫 | 125 | 096–105, 361–400, 716–760, 1201–1230 |
+| Animals | Freshwater fish | 淡水鱼类 | 30 | 1231–1260 |
+| Animals | Arachnids & Crustaceans | 蛛形甲壳 | 25 | 1261–1285 |
+| Animals | Polar life | 极地生物 | 20 | 1286–1305 |
+| Animals | Deep sea | 深海生物 | 20 | 1306–1325 |
+| Animals | Extinct animals | 灭绝动物 | 15 | 1326–1340 |
+| Plants | Flowers | 花卉 | 65 | 761–800, 1341–1365 |
+| Plants | Trees | 树木 | 65 | 801–840, 1366–1390 |
+| Plants | Crops | 农作物 | 50 | 841–875, 1391–1405 |
+| Plants | Fruits & Vegetables | 水果蔬菜 | 70 | 876–920, 1406–1430 |
+| Plants | Desert plants | 沙漠植物 | 30 | 921–940, 1431–1440 |
+| Plants | Aquatic plants | 水生植物 | 30 | 941–960, 1441–1450 |
+| Plants | Spices & Herbs | 香料草药 | 10 | 1451–1460 |
+| Fungi | Mushrooms | 蘑菇 | 55 | 961–990, 1461–1485 |
+| Fungi | Molds & Yeasts | 霉菌酵母 | 15 | 991–1000, 1486–1490 |
+| Fungi | Lichens | 地衣 | 10 | 1491–1500 |
+| | **Total** | | **1500** | 1100 animals · 320 plants · 80 fungi |
 
-Animal cards were added in several rounds, so each animal category spans several number ranges. The full list of all 1000 cards, with English names, Chinese names, scientific names, IUCN status and PNG/PDF links, is in **[CARDS.md](CARDS.md)** ([中文版](CARDS.zh-CN.md)).
+Cards were added in several rounds, so most categories span several number ranges (cards 1001–1500 added seven new categories: freshwater fish, arachnids & crustaceans, polar life, deep sea, extinct animals, spices & herbs, lichens). The full list of all 1500 cards, with English names, Chinese names, scientific names, IUCN status and PNG/PDF links, is in **[CARDS.md](CARDS.md)** ([中文版](CARDS.zh-CN.md)).
 
 ## Repository layout
 
@@ -79,7 +86,7 @@ AnimalCards/
 │   └── sheet.py, preview*.py  contact sheets / previews for visual checks
 ├── webapp/                   3D globe web app (FastAPI + globe.gl) → webapp/README.md
 ├── assets/                   project logo (logo.svg, banner.svg, PNG exports, make_logo.py)
-├── CARDS.md / CARDS.zh-CN.md          index of all 1000 cards
+├── CARDS.md / CARDS.zh-CN.md          index of all 1500 cards
 ├── REVIEW_CHECKLIST.md / 待核清单.md   items that still need human verification
 └── README.md / README.zh-CN.md
 ```
@@ -88,7 +95,7 @@ Folder and file names are in Chinese (e.g. `动物/海洋/蓝鲸.png`). The link
 
 ## 3D globe web app
 
-[`webapp/`](webapp/) puts all 1000 cards on a draggable 3D globe, with one to three markers per species. You can filter by kingdom, category and IUCN status, and search by Chinese, English or scientific name. Click a marker to preview the card, open the full PNG or download the PDF. The UI is Chinese, with an English/中文 toggle. Map positions are **approximate representative points** derived from each card's range text. See **[webapp/README.md](webapp/README.md)** for local setup, the API, Docker/systemd deploy, and **Kubernetes one-shot deploy** (`./webapp/deploy/k8s/deploy.sh`).
+[`webapp/`](webapp/) puts all 1500 cards on a draggable 3D globe, with one to three markers per species. You can filter by kingdom, category and IUCN status, and search by Chinese, English or scientific name. Click a marker to preview the card, open the full PNG or download the PDF. The UI is Chinese, with an English/中文 toggle. Map positions are **approximate representative points** derived from each card's range text. See **[webapp/README.md](webapp/README.md)** for local setup, the API, Docker/systemd deploy, and **Kubernetes one-shot deploy** (`./webapp/deploy/k8s/deploy.sh`).
 
 ## Data sources and licences
 
@@ -107,7 +114,7 @@ All of these items are collected in a tickable checklist:
 - **[REVIEW_CHECKLIST.md](REVIEW_CHECKLIST.md)**: English
 - **[待核清单.md](%E5%BE%85%E6%A0%B8%E6%B8%85%E5%8D%95.md)**: Chinese original
 
-It currently lists 886 card items across 635 cards (unverified diets, IUCN status or year, group-level data, single-source claims, bars outside their scale …) and 238 web-map location items.
+It currently lists 1264 card items across 896 cards (unverified diets, IUCN status or year, group-level data, single-source claims, bars outside their scale …) and 373 web-map location items.
 
 ## Contributing and regenerating cards
 

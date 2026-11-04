@@ -88,7 +88,7 @@ def animals(category: Optional[str] = Query(None, description="类别，多个�
             iucn: Optional[str] = Query(None, description="IUCN 代码，多个用逗号分隔，如 CR,EN"),
             q: Optional[str] = Query(None, description="按名称搜索（中/英/学名/id）"),
             bbox: Optional[str] = Query(None, description="minLon,minLat,maxLon,maxLat"),
-            limit: int = Query(1000, ge=1, le=1000), offset: int = Query(0, ge=0)):
+            limit: int = Query(2000, ge=1, le=2000), offset: int = Query(0, ge=0)):
     res = ITEMS
     if category: cs = set(category.split(",")); res = [a for a in res if a["category"] in cs]
     if iucn: ic = set(x.upper() for x in iucn.split(",")); res = [a for a in res if a["iucn"] in ic]

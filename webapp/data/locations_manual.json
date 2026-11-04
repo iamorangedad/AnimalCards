@@ -131,5 +131,175 @@
   ],
   "range_note": "广泛分布于北美洲和欧亚大陆沿海，北半球温带至北极（取 3 个沿海代表点）。",
   "source": "https://en.wikipedia.org/wiki/Zostera_marina"
+ },
+ "common-blue": {
+  "points": [
+   [
+    50,
+    15,
+    "欧洲（古北界代表点）"
+   ],
+   [
+    47,
+    90,
+    "中亚/蒙古（古北界代表点）"
+   ],
+   [
+    38,
+    128,
+    "东亚（古北界代表点）"
+   ]
+  ],
+  "range_note": "整个古北界（取 3 个代表点）；已引入北美（未标）。",
+  "source": "https://en.wikipedia.org/wiki/Polyommatus_icarus"
+ },
+ "mekong-cat": {
+  "points": [
+   [
+    12.9,
+    104.0,
+    "柬埔寨（洞里萨湖/湄公河）"
+   ],
+   [
+    10.3,
+    105.8,
+    "越南湄公河三角洲"
+   ]
+  ],
+  "range_note": "湄公河下游（取 2 个代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Mekong_giant_catfish"
+ },
+ "crocus": {
+  "points": [
+   [
+    38.5,
+    22.5,
+    "希腊"
+   ],
+   [
+    34.0,
+    59.0,
+    "伊朗东部"
+   ]
+  ],
+  "range_note": "栽培：地中海到西亚（取 2 个代表点；栽培区，不是野生分布）。",
+  "source": "https://en.wikipedia.org/wiki/Crocus_sativus"
+ },
+ "yam": {
+  "points": [
+   [
+    32,
+    112,
+    "中国（东亚代表点）"
+   ]
+  ],
+  "range_note": "东亚为主要栽培区（取 1 个代表点）；美国入侵（未标）。",
+  "source": "https://en.wikipedia.org/wiki/Dioscorea_polystachya"
+ },
+ "white-lupin": {
+  "points": [
+   [
+    38.5,
+    22.5,
+    "希腊（地中海东北部）"
+   ],
+   [
+    27,
+    30,
+    "埃及"
+   ]
+  ],
+  "range_note": "原产地中海东北部；地中海、埃及等地栽培（取 2 个代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Lupinus_albus"
+ },
+ "leek": {
+  "points": [
+   [
+    48,
+    10,
+    "欧洲（代表点）"
+   ]
+  ],
+  "range_note": "欧洲等地广泛栽培（取 1 个代表点；栽培区）。",
+  "source": "https://en.wikipedia.org/wiki/Leek"
+ },
+ "nameko": {
+  "points": [
+   [
+    37.5,
+    138.5,
+    "日本"
+   ]
+  ],
+  "range_note": "日本等地栽培（取 1 个代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Pholiota_microspora"
+ },
+ "artist-conk": {
+  "points": [
+   [
+    48,
+    10,
+    "欧洲（代表点）"
+   ],
+   [
+    35,
+    105,
+    "亚洲（代表点）"
+   ],
+   [
+    40,
+    -95,
+    "北美（代表点）"
+   ]
+  ],
+  "range_note": "世界性分布（只放代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Ganoderma_applanatum"
+ },
+ "dog-lichen": {
+  "points": [
+   [
+    48,
+    10,
+    "欧洲（代表点）"
+   ],
+   [
+    40,
+    -95,
+    "北美（代表点）"
+   ],
+   [
+    -40,
+    -65,
+    "南美（代表点）"
+   ],
+   [
+    -42,
+    172,
+    "新西兰"
+   ]
+  ],
+  "range_note": "世界多地；北美 34 种、欧洲 30 种、南美 25 种、新西兰 16 种（属级，取代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Peltigera"
+ },
+ "galerina": {
+  "points": [
+   [
+    48,
+    10,
+    "欧洲（代表点）"
+   ],
+   [
+    40,
+    -95,
+    "北美（代表点）"
+   ],
+   [
+    -35,
+    147,
+    "澳大利亚"
+   ]
+  ],
+  "range_note": "广布北半球（欧亚、北美），澳大利亚也有发现（取代表点）。",
+  "source": "https://en.wikipedia.org/wiki/Galerina_marginata"
  }
 }

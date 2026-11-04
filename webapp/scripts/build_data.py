@@ -12,8 +12,10 @@ from regions_manual import R, ALIAS, WIDE, WIDE_LAND, WIDE_SEA, WIDE_TROPIC
 GAZ = json.load(open(os.path.join(HERE, "..", "data", "gazetteer_ne.json"), encoding="utf-8"))
 MANUAL = json.load(open(os.path.join(HERE, "..", "data", "locations_manual.json"), encoding="utf-8"))
 CATS = ["宠物", "农场", "高原草原", "森林", "海洋", "鸟类", "爬行两栖", "昆虫",
-        "花卉", "树木", "农作物", "水果蔬菜", "沙漠植物", "水生植物", "蘑菇", "霉菌酵母"]
-KINGDOMS = {"动物": CATS[:8], "植物": CATS[8:14], "真菌": CATS[14:]}
+        "淡水鱼类", "蛛形甲壳", "极地生物", "深海生物", "灭绝动物",
+        "花卉", "树木", "农作物", "水果蔬菜", "沙漠植物", "水生植物", "香料草药", "蘑菇", "霉菌酵母", "地衣"]
+KINGDOMS = {"动物": CATS[:13], "植物": CATS[13:20], "真菌": CATS[20:]}
+MARINE_CATS = {"海洋", "深海生物"}
 SEAGRASS = {"eelgrass", "posidonia"}  # 海草：按海域定位
 NONNATIVE = re.compile(r"引入|引种|养殖|入侵|传到|遍布|已被|现已|饲养|栽培|驯化后|随人类|带到|扩散到")
 names = {}
@@ -58,7 +60,7 @@ def wiki_url(sources):
 out, stats = [], {"total": 0, "from_range_text": 0, "manual": 0, "wide": 0, "pending": 0}
 for f in sorted(glob.glob(os.path.join(ROOT, "tools", "data", "*.json"))):
     d = json.load(open(f, encoding="utf-8")); aid = os.path.basename(f)[:-5]
-    rng = d.get("range", ""); cat = d["cat"]; marine = cat == "海洋" or aid in SEAGRASS
+    rng = d.get("range", ""); cat = d["cat"]; marine = cat in MARINE_CATS or aid in SEAGRASS
     kingdom = d.get("kingdom", "动物")
     rng_n = re.sub(r"（[^）]*引入[^）]*）", "", rng)  # 括号里的“重引入点”不影响原生地名
     segs = [s for s in re.split(r"[；;。，,]", rng_n) if s.strip()]

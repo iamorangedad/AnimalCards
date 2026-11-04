@@ -66,7 +66,7 @@ banner=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" vie
 {grid(1600,400)}
 <g transform="translate(40 -8) scale(1.0)">{icon()}</g>
 {wordmark(470,200,120)}
-<text x="474" y="262" {FONT} font-size="38" font-weight="500" fill="{GREY}">1000 illustrated species cards · animals · plants · fungi</text>
+<text x="474" y="262" {FONT} font-size="38" font-weight="500" fill="{GREY}">1500 illustrated species cards · animals · plants · fungi</text>
 <rect x="474" y="292" width="220" height="8" rx="4" fill="{ORG}"/><circle cx="712" cy="296" r="8" fill="{YEL}"/><circle cx="738" cy="296" r="8" fill="{GREEN}"/><circle cx="764" cy="296" r="8" fill="{BLUE}"/>
 </svg>'''
 import os; D=os.path.dirname(os.path.abspath(__file__)); open(os.path.join(D,'logo.svg'),'w').write(logo); open(os.path.join(D,'banner.svg'),'w').write(banner)

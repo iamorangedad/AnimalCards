@@ -4,12 +4,13 @@
 const CATS = [
   ["宠物", "#f08a24", "#fdebd8"], ["农场", "#9a6a3a", "#f1e6da"], ["高原草原", "#c9a400", "#faf3cc"], ["森林", "#2e9e5b", "#dcf2e4"],
   ["海洋", "#1f6fd6", "#dceafb"], ["鸟类", "#8e5cd9", "#ece2fa"], ["爬行两栖", "#13a3a3", "#d6f3f3"], ["昆虫", "#e0457b", "#fbe0ea"],
+  ["淡水鱼类", "#4a7bd0", "#e0e9f8"], ["蛛形甲壳", "#b4442c", "#f7e0da"], ["极地生物", "#5aa6c8", "#e0f0f7"], ["深海生物", "#283c78", "#dfe3f1"], ["灭绝动物", "#5f5f5f", "#e8e8e8"],
   // 植物（绿色系）
   ["花卉", "#d6409f", "#fbe1f1"], ["树木", "#2f7d32", "#dcefdc"], ["农作物", "#b5892a", "#f6ecd2"], ["水果蔬菜", "#e8572c", "#fde3d9"],
-  ["沙漠植物", "#a8733a", "#f3e6d6"], ["水生植物", "#1894b8", "#d5eef6"],
+  ["沙漠植物", "#a8733a", "#f3e6d6"], ["水生植物", "#1894b8", "#d5eef6"], ["香料草药", "#7b9a2a", "#eaf1d6"],
   // 真菌
-  ["蘑菇", "#7a4f2f", "#eee2d8"], ["霉菌酵母", "#6a7d3c", "#e6ecd6"]];
-const KINGDOMS = [["动物", CATS.slice(0, 8).map(c => c[0])], ["植物", CATS.slice(8, 14).map(c => c[0])], ["真菌", CATS.slice(14).map(c => c[0])]];
+  ["蘑菇", "#7a4f2f", "#eee2d8"], ["霉菌酵母", "#6a7d3c", "#e6ecd6"], ["地衣", "#8a9a6a", "#edf0e3"]];
+const KINGDOMS = [["动物", CATS.slice(0, 13).map(c => c[0])], ["植物", CATS.slice(13, 20).map(c => c[0])], ["真菌", CATS.slice(20).map(c => c[0])]];
 const CAT = Object.fromEntries(CATS.map(([n, c, l]) => [n, { c, l }]));
 const IUCN = { CR: ["#d81e05", "极危"], EN: ["#fc7f3f", "濒危"], VU: ["#e0a800", "易危"], NT: ["#9aa83b", "近危"], LC: ["#60c659", "无危"],
   DD: ["#6b7075", "数据缺乏"], NE: ["#6b7075", "未评估/家养/栽培"], EX: ["#000", "灭绝"], EW: ["#542344", "野外灭绝"] };
@@ -17,6 +18,7 @@ const $ = s => document.querySelector(s);
 /* ---------- 语言 / language (zh default, en optional) ---------- */
 const CAT_EN = { "宠物": "Pets", "农场": "Farm", "高原草原": "Grasslands & Highlands", "森林": "Forest", "海洋": "Ocean", "鸟类": "Birds", "爬行两栖": "Reptiles & Amphibians", "昆虫": "Insects",
   "花卉": "Flowers", "树木": "Trees", "农作物": "Crops", "水果蔬菜": "Fruits & Vegetables", "沙漠植物": "Desert plants", "水生植物": "Aquatic plants", "蘑菇": "Mushrooms", "霉菌酵母": "Molds & Yeasts",
+  "淡水鱼类": "Freshwater fish", "蛛形甲壳": "Arachnids & Crustaceans", "极地生物": "Polar life", "深海生物": "Deep sea", "灭绝动物": "Extinct animals", "香料草药": "Spices & Herbs", "地衣": "Lichens",
   "动物": "Animals", "植物": "Plants", "真菌": "Fungi" };
 const IUCN_EN = { CR: "Critically Endangered", EN: "Endangered", VU: "Vulnerable", NT: "Near Threatened", LC: "Least Concern", DD: "Data Deficient", NE: "Not evaluated / domestic / cultivated", EX: "Extinct", EW: "Extinct in the Wild" };
 const I18N = { en: {
@@ -30,7 +32,7 @@ const I18N = { en: {
   kIucn: "IUCN", kRange: "Range", kMarks: "Markers", kNote: "Notes", kSrc: "Source", ap: "approx.", zhOnly: "(Chinese) ",
   cardTip: "Click to view the full card", png: "Open full PNG", pdf: "Download PDF", fail: "Failed to load: ",
   aboutHtml: n => `<h3 style="margin:4px 0 8px">Data & sources</h3><div class="facts" style="padding:8px 10px;line-height:1.7">
-   <p>• Card content comes from the 1000 cards in this repository (760 animals, 200 plants, 40 fungi; Wikipedia, IUCN Red List and others — see each card’s source footnote).</p>
+   <p>• Card content comes from the 1500 cards in this repository (1100 animals, 320 plants, 80 fungi; Wikipedia, IUCN Red List and others — see each card’s source footnote).</p>
    <p>• Marker positions are matched automatically from each card’s range text: countries use Natural Earth (public domain) label points or a point estimated by direction inside the country; continents, seas and regions use hand-set approximate centres; a few (${n} species) were added manually with a source.</p>
    <p>• All markers are <b>approximate representative points</b>, not exact ranges. Domestic animals, cultivated plants and cultivated mushrooms are marked at their origin; widespread species get a few representative points only.</p>
    <p>• Compiled with AI assistance; <b>needs human review</b>. Range texts and place labels are shown in Chinese (as on the cards).</p>
@@ -64,7 +66,7 @@ function urls(a) {
 }
 async function load() {
   try {
-    const r = await fetch("api/animals?limit=1000");
+    const r = await fetch("api/animals?limit=2000");
     if (!r.ok) throw new Error(r.status);
     const j = await r.json(); return j.items;
   } catch (e) {  // 纯静态部署时的后备
@@ -196,7 +198,7 @@ function openAbout(ev) {
   ev && ev.preventDefault();
   if (LANG === "en") { openPanel(t("aboutHtml", state.animals.filter(a => a.location_method === "manual").length)); reopen = () => openAbout(); return; }
   openPanel(`<h3 style="margin:4px 0 8px">数据与来源</h3><div class="facts" style="padding:8px 10px;line-height:1.7">
-   <p>• 卡片内容来自本仓库 1000 张卡片（动物 760、植物 200、真菌 40；维基百科、IUCN 红色名录等，见每张卡的来源脚注）。</p>
+   <p>• 卡片内容来自本仓库 1500 张卡片（动物 1100、植物 320、真菌 80；维基百科、IUCN 红色名录等，见每张卡的来源脚注）。</p>
    <p>• 标注位置由脚本根据卡片“分布”文字自动匹配：国家用 Natural Earth（公有领域）的国家标注点或按方位推算的国内点；大洲、海域、地理区用人工设定的大致中心点；少数（${state.animals.filter(a => a.location_method === "manual").length} 种）为人工补充并附来源。</p>
    <p>• 所有标注都是<b>近似代表点</b>，不代表精确分布范围；家养动物、栽培植物和栽培食用菌标注的是原产地或起源地；广泛分布的物种只放了几个代表点。</p>
    <p>• 数据由 AI 辅助整理，<b>需人工复核</b>。</p>
@@ -288,7 +290,7 @@ function applyLang() {
   document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); el.setAttribute("aria-label", t(el.dataset.i18nPh)); });
   document.querySelectorAll("[data-i18n-aria]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
-  const sub = $("#subTitle"); if (sub) sub.innerHTML = esc(t("sub", "\u0000")).replace("\u0000", `<span id="countAll">${state.animals.length || 1000}</span>`);
+  const sub = $("#subTitle"); if (sub) sub.innerHTML = esc(t("sub", "\u0000")).replace("\u0000", `<span id="countAll">${state.animals.length || 1500}</span>`);
   const note = $("#noteText"); if (note) note.innerHTML = t("note");
   const lb = $("#langBtn"); if (lb) { lb.textContent = LANG === "en" ? "中文" : "EN"; lb.title = LANG === "en" ? "切换到中文" : "Switch to English"; }
 }

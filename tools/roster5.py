@@ -441,8 +441,8 @@ ironwood 沙漠铁木 Olneya tesota
 mesquite 腺牧豆树 Prosopis glandulosa
 boojum 观峰玉 Fouquieria columnaris
 fishhook 鱼钩仙人球 Ferocactus wislizeni
-zygophyllum 霸王 Zygophyllum
-calligonum 沙拐枣 Calligonum
+tamarisk-ram 多枝柽柳 Tamarix ramosissima
+harmal 骆驼蓬 Peganum harmala
 camel-thorn 骆驼刺 Alhagi maurorum
 pachypodium 非洲霸王树 Pachypodium lamerei
 organ-pipe 茶柱仙人掌 Stenocereus thurberi""",
@@ -481,7 +481,7 @@ liberty-cap 暗蓝光盖伞 Psilocybe semilanceata
 earthstar 尖顶地星 Geastrum triplex
 birds-nest 白蛋巢菌 Crucibulum laeve
 stinkhorn 白鬼笔 Phallus impudicus
-jelly-ear 木耳状胶质菌 Tremella mesenterica
+jelly-ear 黄金银耳 Tremella mesenterica
 artist-conk 树舌灵芝 Ganoderma applanatum
 chaga 桦褐孔菌 Inonotus obliquus
 tinder 木蹄层孔菌 Fomes fomentarius

@@ -1,0 +1,70 @@
+{
+ "file": "伊乐藻",
+ "no": "1443",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "伊乐藻",
+ "name_en": "Canadian waterweed",
+ "latin": "Elodea canadensis",
+ "short": "伊乐藻",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "茎长",
+   "value": "3 m 以上",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "6–17 mm",
+   "lo": 0.006,
+   "hi": 0.017,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "花管长",
+   "value": "可达 30 cm",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "不停生长",
+   "icon": "clone",
+   "desc": "茎尖可以无限生长。"
+  },
+  {
+   "name": "细长花管",
+   "icon": "sun",
+   "desc": "花管长 30 cm、宽仅 1 mm。"
+  }
+ ],
+ "intro": [
+  "伊乐藻是多年生沉水植物，原产北美大部。",
+  "已被广泛引入原产地以外。",
+  "叶子亮绿、半透明，三片轮生。"
+ ],
+ "fact": "果实在水下成熟。",
+ "range": "原产北美；多地引入。",
+ "sources": [
+  "Wikipedia「Canadian waterweed」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,63 @@
+{
+ "file": "槐叶蘋",
+ "no": "1446",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "槐叶蘋",
+ "name_en": "Floating fern",
+ "latin": "Salvinia natans",
+ "short": "槐叶蘋",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "漂浮叶",
+   "value": "2 片",
+   "lo": 2,
+   "hi": 2,
+   "scale": "cnt",
+   "approx": false
+  },
+  {
+   "label": "沉水叶",
+   "value": "1 片",
+   "lo": 1,
+   "hi": 1,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "气囊",
+   "icon": "drop",
+   "desc": "叶里有气囊，能浮在水面。"
+  },
+  {
+   "name": "防水",
+   "icon": "spore",
+   "desc": "叶面的乳突让水不沾，孢子囊长在基部。"
+  }
+ ],
+ "intro": [
+  "槐叶蘋是一年生漂浮水生蕨类。",
+  "看上去有点像苔藓。",
+  "在非洲、亚洲和中欧尤其常见。"
+ ],
+ "fact": "它会盖满整个池塘，让水下植物见不到光。",
+ "range": "非洲北部、亚洲、欧洲。",
+ "sources": [
+  "Wikipedia「Floating fern」",
+  "IUCN 红色名录（Allen, D.J. 2011）"
+ ],
+ "footnote": ""
+}

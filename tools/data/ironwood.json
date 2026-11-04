@@ -1,0 +1,71 @@
+{
+ "file": "沙漠铁木",
+ "no": "1432",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "沙漠铁木",
+ "name_en": "Desert ironwood",
+ "latin": "Olneya tesota",
+ "short": "沙漠铁木",
+ "type": "植物",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2018",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "高度",
+   "value": "约 10 m",
+   "lo": 10,
+   "hi": 10,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶刺",
+   "value": "约 1 cm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "落叶温度",
+   "value": "低于 2 °C",
+   "lo": 2,
+   "hi": 2,
+   "scale": "tempw",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "沉水木",
+   "icon": "drop",
+   "desc": "木头密度比水大，会沉下去。"
+  },
+  {
+   "name": "硬木",
+   "icon": "thorn",
+   "desc": "非常坚硬难加工，多用于雕刻和刀柄等手工制品。"
+  }
+ ],
+ "intro": [
+  "沙漠铁木是豆科的常绿乔木，是本属唯一的物种。",
+  "生长在美国和墨西哥的索诺兰沙漠西部。",
+  "每片羽状叶基部长两根刺。"
+ ],
+ "fact": "种子烤过后可以吃。",
+ "range": "索诺兰沙漠（美国西南、墨西哥西北）。",
+ "sources": [
+  "Wikipedia「Desert ironwood」",
+  "IUCN 红色名录（Barstow, M. 2018）"
+ ],
+ "footnote": ""
+}

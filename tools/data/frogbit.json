@@ -1,0 +1,63 @@
+{
+ "file": "欧洲水鳖",
+ "no": "1445",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "欧洲水鳖",
+ "name_en": "European frog-bit",
+ "latin": "Hydrocharis morsus-ranae",
+ "short": "欧洲水鳖",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "莲座宽",
+   "value": "1–30 cm",
+   "lo": 0.01,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "根长",
+   "value": "可达 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "净水",
+   "icon": "drop",
+   "desc": "能积累大量重金属，有望用于治理水污染。"
+  },
+  {
+   "name": "漂浮",
+   "icon": "clone",
+   "desc": "自由漂浮，开白色小花。"
+  }
+ ],
+ "intro": [
+  "欧洲水鳖是水鳖属植物。",
+  "种名意为“青蛙咬”。",
+  "原产欧洲和亚洲。"
+ ],
+ "fact": "1932 年被引入加拿大，后来在当地成为入侵种。",
+ "range": "欧洲、亚洲；北美入侵。",
+ "sources": [
+  "Wikipedia「European frog-bit」",
+  "IUCN 红色名录（Lansdown, R.V. 2014）"
+ ],
+ "footnote": ""
+}

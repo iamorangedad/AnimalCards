@@ -1,0 +1,71 @@
+{
+ "file": "貉藻",
+ "no": "1444",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "貉藻",
+ "name_en": "Waterwheel plant",
+ "latin": "Aldrovanda vesiculosa",
+ "short": "貉藻",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "食虫",
+ "diet_note": "光合作用，也捕食水中小动物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2020",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "茎长",
+   "value": "6–40 cm",
+   "lo": 0.06,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "捕虫叶",
+   "value": "2–3 mm",
+   "lo": 0.002,
+   "hi": 0.003,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "日生长",
+   "value": "4–9 mm",
+   "lo": 0.004,
+   "hi": 0.009,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "水下夹子",
+   "icon": "flip",
+   "desc": "轮生的小捕虫叶像捕蝇草的夹子，能夹住水中小动物。"
+  },
+  {
+   "name": "怕冷",
+   "icon": "cold",
+   "desc": "至少 20 °C 时才能捕食。"
+  }
+ ],
+ "intro": [
+  "貉藻是茅膏菜科貉藻属唯一现存的种。",
+  "茎漂浮在水中，没有根。",
+  "捕虫叶 5–9 片轮生。"
+ ],
+ "fact": "日本的种群每天能长 4–9 mm。",
+ "range": "欧洲、亚洲、非洲、澳大利亚零星分布。",
+ "sources": [
+  "Wikipedia「Waterwheel plant」",
+  "IUCN 红色名录（Cross, A. & Adamec, L. 2020）"
+ ],
+ "footnote": ""
+}

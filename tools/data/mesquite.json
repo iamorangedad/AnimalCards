@@ -1,0 +1,63 @@
+{
+ "file": "腺牧豆树",
+ "no": "1433",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "腺牧豆树",
+ "name_en": "Honey mesquite",
+ "latin": "Neltuma glandulosa",
+ "short": "腺牧豆树",
+ "type": "植物",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "6.1–9.1 m",
+   "lo": 6.1,
+   "hi": 9.1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "可达 15 m",
+   "lo": 15,
+   "hi": 15,
+   "scale": "len_xxl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蜜源",
+   "icon": "bee",
+   "desc": "是蜜源植物，养活本地传粉昆虫和蜜蜂。"
+  },
+  {
+   "name": "烟熏烤肉",
+   "icon": "fire",
+   "desc": "原产地用它的木柴烟来熏烤肉，在得州尤其流行。"
+  }
+ ],
+ "intro": [
+  "腺牧豆树是豆科有刺灌木或乔木，旧名 Prosopis glandulosa。",
+  "原产美国西南和墨西哥北部。",
+  "甜豆荚是很多动物的食物。"
+ ],
+ "fact": "IUCN 把它列为原产地以外“世界百大入侵物种”之一。",
+ "range": "美国南部至墨西哥北部。",
+ "sources": [
+  "Wikipedia「Neltuma glandulosa」",
+  "IUCN 红色名录（BGCI & IUCN SSC GTSG 2020）"
+ ],
+ "footnote": ""
+}

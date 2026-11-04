@@ -1,0 +1,70 @@
+{
+ "file": "洋蓟",
+ "no": "1430",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "洋蓟",
+ "name_en": "Artichoke",
+ "latin": "Cynara cardunculus var. scolymus",
+ "short": "洋蓟",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1.4–2 m",
+   "lo": 1.4,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花蕾直径",
+   "value": "8–15 cm",
+   "lo": 0.08,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "世界年产",
+   "value": "170 万吨",
+   "lo": 1700000,
+   "hi": 1700000,
+   "scale": "ton",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃花蕾",
+   "icon": "food",
+   "desc": "可吃的是开花前的花蕾，有许多三角形苞片。"
+  },
+  {
+   "name": "蓟的变种",
+   "icon": "thorn",
+   "desc": "是一种蓟的栽培变种，和刺菜蓟同种。"
+  }
+ ],
+ "intro": [
+  "洋蓟是作为食物栽培的一种蓟。",
+  "叶子深裂、银绿色，长 50–83 cm。",
+  "花开后结构变粗，几乎不能吃。"
+ ],
+ "fact": "2024 年世界产量约 170 万吨，埃及第一、意大利第二。",
+ "range": "地中海起源；多地栽培。",
+ "sources": [
+  "Wikipedia「Artichoke」"
+ ],
+ "footnote": ""
+}

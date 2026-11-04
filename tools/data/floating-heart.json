@@ -1,0 +1,71 @@
+{
+ "file": "荇菜",
+ "no": "1449",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "荇菜",
+ "name_en": "Fringed water-lily",
+ "latin": "Nymphoides peltata",
+ "short": "荇菜",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "叶径",
+   "value": "3–12 cm",
+   "lo": 0.03,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "3–4 cm",
+   "lo": 0.03,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蒴果",
+   "value": "1.5–2.5 cm",
+   "lo": 0.015,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "流苏黄花",
+   "icon": "sun",
+   "desc": "黄花五裂，花瓣边缘有流苏。"
+  },
+  {
+   "name": "浮叶",
+   "icon": "drop",
+   "desc": "心形叶浮在水面，根扎在水底。"
+  }
+ ],
+ "intro": [
+  "荇菜是睡菜科多年生浮叶水生植物。",
+  "因人为栽培已扩散到原产地之外。",
+  "在入侵地常被看作有害杂草。"
+ ],
+ "fact": "种子边缘有硬毛。",
+ "range": "欧亚原生；北美、新西兰等归化。",
+ "sources": [
+  "Wikipedia「Fringed water-lily」",
+  "IUCN 红色名录（Lansdown, R.V. 2014）"
+ ],
+ "footnote": ""
+}

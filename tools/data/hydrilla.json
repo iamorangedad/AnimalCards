@@ -1,0 +1,63 @@
+{
+ "file": "黑藻",
+ "no": "1442",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "黑藻",
+ "name_en": "Hydrilla",
+ "latin": "Hydrilla verticillata",
+ "short": "黑藻",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2017",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "茎长",
+   "value": "可达 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–20 mm",
+   "lo": 0.005,
+   "hi": 0.02,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "轮生叶",
+   "icon": "drop",
+   "desc": "叶 2–8 片轮生，边缘有小锯齿。"
+  },
+  {
+   "name": "入侵",
+   "icon": "clone",
+   "desc": "1950 年代因栽培和观赏鱼贸易在佛罗里达扩散。"
+  }
+ ],
+ "intro": [
+  "黑藻是水生植物属，通常只算一个种。",
+  "原产旧大陆亚洲、非洲和澳大利亚。",
+  "中脉常带红色。"
+ ],
+ "fact": "到 1955 年已从坦帕扩散到迈阿密。",
+ "range": "亚洲、非洲、澳大利亚原生。",
+ "sources": [
+  "Wikipedia「Hydrilla」",
+  "IUCN 红色名录（Zhuang, X. & Beentje, H.J. 2017）"
+ ],
+ "footnote": "*属级条目。"
+}

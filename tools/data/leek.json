@@ -1,0 +1,70 @@
+{
+ "file": "韭葱",
+ "no": "1427",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "韭葱",
+ "name_en": "Leek",
+ "latin": "Allium ampeloprasum",
+ "short": "韭葱",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "适宜温度",
+   "value": "约 20 °C",
+   "lo": 20,
+   "hi": 20,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "含水量",
+   "value": "83%",
+   "lo": 83,
+   "hi": 83,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "切片厚",
+   "value": "5–10 mm",
+   "lo": 0.005,
+   "hi": 0.01,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耐寒",
+   "icon": "cold",
+   "desc": "比其他栽培葱属植物更耐寒，在欧洲可以全年生产。"
+  },
+  {
+   "name": "叶鞘",
+   "icon": "food",
+   "desc": "吃的是一束叶鞘，常被叫作“茎”。"
+  }
+ ],
+ "intro": [
+  "韭葱是二年生蔬菜，是葱属野韭葱的栽培品种。",
+  "象蒜、库拉特等也是同一个种的栽培品种。",
+  "1 世纪的罗马食谱里就有四道韭葱菜。"
+ ],
+ "fact": "韭葱是威尔士的象征，曾出现在英国一镑硬币上。",
+ "range": "欧洲等地广泛栽培。",
+ "sources": [
+  "Wikipedia「Leek」"
+ ],
+ "footnote": "*Allium ampeloprasum 为种名，韭葱是其栽培品种。"
+}

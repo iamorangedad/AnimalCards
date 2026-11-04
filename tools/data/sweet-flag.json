@@ -1,0 +1,56 @@
+{
+ "file": "菖蒲",
+ "no": "1448",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "菖蒲",
+ "name_en": "Sweet flag",
+ "latin": "Acorus calamus",
+ "short": "菖蒲",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2014",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "肉穗花序",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香料",
+   "icon": "food",
+   "desc": "古埃及人用它制作香水。"
+  },
+  {
+   "name": "根茎",
+   "icon": "root",
+   "desc": "根茎外褐内白，传统医学用了几百年。"
+  }
+ ],
+ "intro": [
+  "菖蒲是开花植物。",
+  "原产哈萨克斯坦额尔齐斯河谷。",
+  "已被广泛引种到世界各地。"
+ ],
+ "fact": "前哥伦布时期的人可能把它带到了美国各地。",
+ "range": "原产哈萨克斯坦；世界多地引入。",
+ "sources": [
+  "Wikipedia「Sweet flag」",
+  "IUCN 红色名录（Lansdown, R.V. 2014）"
+ ],
+ "footnote": "",
+ "warn": "传统药用没有临床证据，吞食可能有毒，部分地区已禁止商用。"
+}

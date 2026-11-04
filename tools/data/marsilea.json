@@ -1,0 +1,63 @@
+{
+ "file": "田字蘋",
+ "no": "1447",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "田字蘋",
+ "name_en": "European waterclover",
+ "latin": "Marsilea quadrifolia",
+ "short": "田字蘋",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2011",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "小叶长",
+   "value": "约 1.9 cm",
+   "lo": 0.019,
+   "hi": 0.019,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶柄长",
+   "value": "约 20 cm",
+   "lo": 0.2,
+   "hi": 0.2,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "四叶草",
+   "icon": "clone",
+   "desc": "四片小叶像四叶草，其实是蕨类。"
+  },
+  {
+   "name": "孢子果",
+   "icon": "spore",
+   "desc": "孢子果要划破外壳、泡水才能萌发。"
+  }
+ ],
+ "intro": [
+  "田字蘋是水生蕨类。",
+  "原产中南欧、高加索、西伯利亚西部到中国、日本、越南。",
+  "叶子可浮在深水，也可在浅水挺立。"
+ ],
+ "fact": "常被种在水族箱前景，靠匍匐茎蔓延。",
+ "range": "欧洲、亚洲。",
+ "sources": [
+  "Wikipedia「European waterclover」",
+  "IUCN 红色名录（Gupta, A.K. 2011）"
+ ],
+ "footnote": ""
+}

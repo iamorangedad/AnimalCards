@@ -1,0 +1,54 @@
+{
+ "file": "梭鱼草",
+ "no": "1450",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "梭鱼草",
+ "name_en": "Pickerelweed",
+ "latin": "Pontederia cordata",
+ "short": "梭鱼草",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "种子层积",
+   "value": "6–8 周",
+   "lo": 6,
+   "hi": 8,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三型花柱",
+   "icon": "bee",
+   "desc": "花柱有三种形态，大多数种群三种都有。"
+  },
+  {
+   "name": "沉果",
+   "icon": "seed",
+   "desc": "结籽后花序茎弯下，把果实浸到水里。"
+  }
+ ],
+ "intro": [
+  "梭鱼草是原产美洲的单子叶水生植物。",
+  "从加拿大东部到阿根廷的湿地都有。",
+  "蓝紫色花上有黄色斑纹。"
+ ],
+ "fact": "种子可以生吃，也能磨成粉。",
+ "range": "美洲（加拿大东部至阿根廷）。",
+ "sources": [
+  "Wikipedia「Pickerelweed」"
+ ],
+ "footnote": ""
+}

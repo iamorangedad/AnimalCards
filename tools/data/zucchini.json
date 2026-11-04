@@ -1,0 +1,71 @@
+{
+ "file": "西葫芦",
+ "no": "1428",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "西葫芦",
+ "name_en": "Zucchini",
+ "latin": "Cucurbita pepo var. cylindrica",
+ "short": "西葫芦",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "成熟果长",
+   "value": "可近 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "采收长度",
+   "value": "15–25 cm",
+   "lo": 0.15,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "含水量",
+   "value": "93%",
+   "lo": 93,
+   "hi": 93,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "嫩果",
+   "icon": "food",
+   "desc": "通常在长不到 20 cm、种子还软时采摘。"
+  },
+  {
+   "name": "米兰培育",
+   "icon": "seed",
+   "desc": "南瓜 7000 多年前在美洲驯化，西葫芦这个品种 19 世纪末在米兰育成。"
+  }
+ ],
+ "intro": [
+  "西葫芦是夏南瓜的一种，是藤蔓草本。",
+  "人们吃它未成熟的果实。",
+  "1920 年代初美国才有它的记录。"
+ ],
+ "fact": "1928 年纽约州报告把它列为 60 个美洲南瓜栽培品种之一。",
+ "range": "世界各地栽培。",
+ "sources": [
+  "Wikipedia「Zucchini」"
+ ],
+ "footnote": "",
+ "warn": "偶尔含有毒的葫芦素，会非常苦，吃了可能严重肠胃不适。"
+}

@@ -1,0 +1,70 @@
+{
+ "file": "金鱼藻",
+ "no": "1441",
+ "cat": "水生植物",
+ "kingdom": "植物",
+ "name_cn": "金鱼藻",
+ "name_en": "Hornwort",
+ "latin": "Ceratophyllum demersum",
+ "short": "金鱼藻",
+ "type": "植物",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "茎长",
+   "value": "1–3 m",
+   "lo": 1,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "8–40 mm",
+   "lo": 0.008,
+   "hi": 0.04,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "夏季水温",
+   "value": "15–30 °C",
+   "lo": 15,
+   "hi": 30,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "沉水漂浮",
+   "icon": "drop",
+   "desc": "是沉在水中、自由漂浮的水草。"
+  },
+  {
+   "name": "全球分布",
+   "icon": "wind",
+   "desc": "除南极洲外，各大洲都有原生。"
+  }
+ ],
+ "intro": [
+  "金鱼藻是金鱼藻属的开花植物。",
+  "叶轮生，分叉成带刺齿的细丝。",
+  "花很小，只有 2 mm。"
+ ],
+ "fact": "喜欢长在营养丰富的湖泊、池塘和缓流中。",
+ "range": "除南极洲外各大洲。",
+ "sources": [
+  "Wikipedia「Hornwort」"
+ ],
+ "footnote": ""
+}

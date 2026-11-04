@@ -1,0 +1,71 @@
+{
+ "file": "骆驼蓬",
+ "no": "1437",
+ "cat": "沙漠植物",
+ "kingdom": "植物",
+ "name_cn": "骆驼蓬",
+ "name_en": "Syrian rue",
+ "latin": "Peganum harmala",
+ "short": "骆驼蓬",
+ "type": "植物",
+ "habitat": [
+  "沙漠"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "常约 0.3 m",
+   "lo": 0.3,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "约 0.8 m",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "根粗",
+   "value": "可达 2 cm",
+   "lo": 0.02,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "染料熏香",
+   "icon": "fire",
+   "desc": "被用作染料、熏香和传统药物。"
+  },
+  {
+   "name": "难铲除",
+   "icon": "root",
+   "desc": "地下有木质根茎，在美国多州是要清除的有害杂草。"
+  }
+ ],
+ "intro": [
+  "骆驼蓬是多年生草本，有木质地下根茎。",
+  "原产北非、欧洲南部和东部、中东和中亚。",
+  "揉碎后气味难闻，味道很差。"
+ ],
+ "fact": "有学者把它和古代印度-伊朗文献中的圣草 soma（haoma）联系起来。",
+ "range": "北非至中亚、南亚和东亚部分地区。",
+ "sources": [
+  "Wikipedia「Peganum harmala」"
+ ],
+ "footnote": "",
+ "warn": "有毒，对牲畜有毒；含致幻生物碱，多国管制。"
+}

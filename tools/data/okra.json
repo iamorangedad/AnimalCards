@@ -1,0 +1,70 @@
+{
+ "file": "秋葵",
+ "no": "1429",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "秋葵",
+ "name_en": "Okra",
+ "latin": "Abelmoschus esculentus",
+ "short": "秋葵",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "4–8 cm",
+   "lo": 0.04,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "可达 18 cm",
+   "lo": 0.18,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "五角果荚",
+   "icon": "food",
+   "desc": "嫩果荚横切面呈五角形，可作蔬菜。"
+  },
+  {
+   "name": "锦葵花",
+   "icon": "sun",
+   "desc": "花有五枚白到黄色花瓣，基部常有红或紫斑。"
+  }
+ ],
+ "intro": [
+  "秋葵是锦葵科植物，原产西非。",
+  "在热带、亚热带和暖温带各地栽培。",
+  "英文 okra 可能来自伊博语。"
+ ],
+ "fact": "1216 年有人记录埃及当地人吃它的嫩荚。",
+ "range": "原产西非；热带至暖温带栽培。",
+ "sources": [
+  "Wikipedia「Okra」"
+ ],
+ "footnote": ""
+}

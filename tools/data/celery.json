@@ -1,0 +1,71 @@
+{
+ "file": "芹菜",
+ "no": "1426",
+ "cat": "水果蔬菜",
+ "kingdom": "植物",
+ "name_cn": "芹菜",
+ "name_en": "Celery",
+ "latin": "Apium graveolens var. dulce",
+ "short": "芹菜",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "小叶长",
+   "value": "3–6 cm",
+   "lo": 0.03,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "2–3 mm",
+   "lo": 0.002,
+   "hi": 0.003,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "含水量",
+   "value": "95%",
+   "lo": 95,
+   "hi": 95,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长叶柄",
+   "icon": "food",
+   "desc": "茎秆（叶柄）有纵棱，可生吃、炒菜、煮汤或榨汁。"
+  },
+  {
+   "name": "芹菜籽",
+   "icon": "seed",
+   "desc": "种子香味浓，可作香料或做成芹菜盐。"
+  }
+ ],
+ "intro": [
+  "芹菜是伞形科植物，自古就被当作蔬菜。",
+  "野生种被培育成茎用、叶用和根用三大类。",
+  "古埃及人把它编进葬礼花环。"
+ ],
+ "fact": "在 0–2 °C 下最多可保存约七周。",
+ "range": "世界各地广泛栽培。",
+ "sources": [
+  "Wikipedia「Celery」"
+ ],
+ "footnote": "",
+ "warn": "芹菜是可能引起过敏反应的食物之一。"
+}

@@ -1,0 +1,71 @@
+{
+ "file": "罗勒",
+ "no": "1451",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "罗勒",
+ "name_en": "Basil",
+ "latin": "Ocimum basilicum",
+ "short": "罗勒",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "室内"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "30–150 cm",
+   "lo": 0.3,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "插条长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "发芽适温",
+   "value": "34.5–39 °C",
+   "lo": 34.5,
+   "hi": 39,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香草",
+   "icon": "food",
+   "desc": "许多国家的菜肴用新鲜或干的罗勒，也用来泡油和醋。"
+  },
+  {
+   "name": "自播",
+   "icon": "seed",
+   "desc": "让它结籽的话，第二年会自己长回来。"
+  }
+ ],
+ "intro": [
+  "罗勒是唇形科的烹饪香草。",
+  "原产热带和亚热带亚洲到澳大拉西亚。",
+  "拉丁名曾被和传说中的蛇怪混淆。"
+ ],
+ "fact": "人们曾以为它能解蛇怪（basilisk）的毒。",
+ "range": "原产印度至东南亚、澳大拉西亚；全球栽培。",
+ "sources": [
+  "Wikipedia「Basil」"
+ ],
+ "footnote": ""
+}

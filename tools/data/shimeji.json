@@ -1,0 +1,63 @@
+{
+ "file": "斑玉蕈",
+ "no": "1463",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "斑玉蕈",
+ "name_en": "Beech mushroom",
+ "latin": "Hypsizygus tessulatus",
+ "short": "斑玉蕈",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "可达 11 cm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "长在山毛榉",
+   "icon": "food",
+   "desc": "常长在山毛榉树上，英文名由此而来。"
+  },
+  {
+   "name": "要煮熟",
+   "icon": "fire",
+   "desc": "生吃很韧，煮熟能去掉苦味。"
+  }
+ ],
+ "intro": [
+  "斑玉蕈野外长在硬木上。",
+  "原产东亚，在北美北部也常见。",
+  "孢子印白色到浅黄。"
+ ],
+ "fact": "常长在离地很高的树干上。",
+ "range": "东亚、北美北部；多地栽培。",
+ "sources": [
+  "Wikipedia「Beech mushroom」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

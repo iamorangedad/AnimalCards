@@ -1,0 +1,71 @@
+{
+ "file": "薄荷",
+ "no": "1452",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "薄荷",
+ "name_en": "Japanese mint",
+ "latin": "Mentha canadensis",
+ "short": "薄荷",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "30–60 cm",
+   "lo": 0.3,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "薄荷油",
+   "value": "约 4000 吨/年",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "ton",
+   "approx": false
+  },
+  {
+   "label": "薄荷醇",
+   "value": "约 2000 吨/年",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "ton",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "薄荷醇",
+   "icon": "drop",
+   "desc": "1998 年全世界约产 4000 吨日本薄荷油和 2000 吨薄荷醇。"
+  },
+  {
+   "name": "诱饵",
+   "icon": "food",
+   "desc": "这种薄荷还能用作诱捕狐狸或猞猁的诱饵。"
+  }
+ ],
+ "intro": [
+  "这种薄荷原产北美和亚洲东部。",
+  "亚洲分布从西伯利亚到爪哇。",
+  "植株直立。"
+ ],
+ "fact": "产量数据为 1998 年。",
+ "range": "北美；东亚（含中国、日本、朝鲜半岛）。",
+ "sources": [
+  "Wikipedia「Mentha canadensis」"
+ ],
+ "footnote": "*“薄荷”泛指薄荷属多个种；本卡用 Mentha canadensis。"
+}

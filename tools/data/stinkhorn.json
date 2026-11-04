@@ -1,0 +1,64 @@
+{
+ "file": "白鬼笔",
+ "no": "1475",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "白鬼笔",
+ "name_en": "Common stinkhorn",
+ "latin": "Phallus impudicus",
+ "short": "白鬼笔",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "高度",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "生长速度",
+   "value": "10–15 cm/时",
+   "lo": 0.1,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "腐肉味",
+   "icon": "toxic",
+   "desc": "顶上的绿褐色黏液有腐肉味，吸引昆虫来传播孢子。"
+  },
+  {
+   "name": "女巫蛋",
+   "icon": "spore",
+   "desc": "幼时是白色或粉色的蛋形，叫“女巫蛋”。"
+  }
+ ],
+ "intro": [
+  "白鬼笔广布欧洲和北美。",
+  "常见于富含木屑的森林和花园。",
+  "种名意为“不知羞的”。"
+ ],
+ "fact": "它每小时能长 10–15 cm。",
+ "range": "欧洲、北美。",
+ "sources": [
+  "Wikipedia「Common stinkhorn」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

@@ -1,0 +1,64 @@
+{
+ "file": "暗蓝光盖伞",
+ "no": "1472",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "暗蓝光盖伞",
+ "name_en": "Liberty cap",
+ "latin": "Psilocybe semilanceata",
+ "short": "暗蓝光盖伞",
+ "type": "菌类",
+ "habitat": [
+  "陆地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解腐烂的草根获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "5–25 mm",
+   "lo": 0.005,
+   "hi": 0.025,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "4.5–14 cm",
+   "lo": 0.045,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "尖帽",
+   "icon": "camo",
+   "desc": "圆锥到钟形的小菌盖顶上有个小乳突。"
+  },
+  {
+   "name": "吃草根",
+   "icon": "micro",
+   "desc": "不直接长在粪上，而是分解腐烂的草根。"
+  }
+ ],
+ "intro": [
+  "暗蓝光盖伞是产生裸盖菇素的真菌。",
+  "是分布最广的裸盖菇素蘑菇之一。",
+  "长在草地，尤其是潮湿的地方。"
+ ],
+ "fact": "1960 年代成为第一个被证实含裸盖菇素的欧洲物种。",
+ "range": "北半球温带，尤其欧洲。",
+ "sources": [
+  "Wikipedia「Liberty cap」"
+ ],
+ "footnote": "",
+ "warn": "含致幻毒素，许多国家持有或买卖违法；千万不要采食野生蘑菇。"
+}

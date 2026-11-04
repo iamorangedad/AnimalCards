@@ -1,0 +1,72 @@
+{
+ "file": "肉豆蔻",
+ "no": "1459",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "肉豆蔻",
+ "name_en": "Nutmeg",
+ "latin": "Myristica fragrans",
+ "short": "肉豆蔻",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 1998",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "果长",
+   "value": "6–9 cm",
+   "lo": 0.06,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "种子长",
+   "value": "2–3 cm",
+   "lo": 0.02,
+   "hi": 0.03,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "两种香料",
+   "icon": "food",
+   "desc": "种子是肉豆蔻，外面红色的假种皮也能用。"
+  },
+  {
+   "name": "香精",
+   "icon": "drop",
+   "desc": "种子可提取精油，假种皮、树皮、花和叶用于香皂和香水。"
+  }
+ ],
+ "intro": [
+  "肉豆蔻是常绿树，原产印尼马鲁古群岛。",
+  "几百年来在全球香料贸易中很珍贵。",
+  "现在热带地区广泛栽培。"
+ ],
+ "fact": "种名 fragrans 意为“芳香的”。",
+ "range": "原产马鲁古群岛；热带栽培。",
+ "sources": [
+  "Wikipedia「Myristica fragrans」",
+  "IUCN 红色名录（WCMC 1998）"
+ ],
+ "footnote": ""
+}

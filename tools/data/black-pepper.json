@@ -1,0 +1,71 @@
+{
+ "file": "胡椒",
+ "no": "1457",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "胡椒",
+ "name_en": "Black pepper",
+ "latin": "Piper nigrum",
+ "short": "胡椒",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "藤高",
+   "value": "可达 4 m",
+   "lo": 4,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "约 5 mm",
+   "lo": 0.005,
+   "hi": 0.005,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "攀援藤",
+   "icon": "climb",
+   "desc": "多年生木质藤本，攀在树、杆或棚架上。"
+  },
+  {
+   "name": "黑色黄金",
+   "icon": "food",
+   "desc": "马拉巴尔地区曾是古代唯一产地，把它卖到中东和罗马。"
+  }
+ ],
+ "intro": [
+  "胡椒是胡椒科开花藤本，栽培取它的果实。",
+  "果实晒干就是香料胡椒粒。",
+  "原产热带亚洲，可能包括印度马拉巴尔海岸。"
+ ],
+ "fact": "印度烹饪至少从公元前 2000 年就用胡椒。",
+ "range": "原产南亚或东南亚；热带栽培。",
+ "sources": [
+  "Wikipedia「Black pepper」"
+ ],
+ "footnote": ""
+}

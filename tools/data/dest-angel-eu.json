@@ -1,0 +1,64 @@
+{
+ "file": "鳞柄白鹅膏",
+ "no": "1470",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "鳞柄白鹅膏",
+ "name_en": "European destroying angel",
+ "latin": "Amanita virosa",
+ "short": "鳞柄白鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "常和山毛榉、栗、松等树相伴生长",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "可达 12 cm",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄高",
+   "value": "可达 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色杀手",
+   "icon": "toxic",
+   "desc": "幼菇像白色的蛋，容易和可食的白蘑菇混淆。"
+  },
+  {
+   "name": "伤肝",
+   "icon": "micro",
+   "desc": "鹅膏毒肽主要伤害肝脏，也会伤肾。"
+  }
+ ],
+ "intro": [
+  "鳞柄白鹅膏是剧毒蘑菇。",
+  "种名意为“有毒的”。",
+  "约 22 个物种被统称为“毁灭天使”。"
+ ],
+ "fact": "夏末和秋天出现在林地里，常与山毛榉、栗树、松、云杉相伴。",
+ "range": "欧洲。",
+ "sources": [
+  "Wikipedia「European destroying angel」"
+ ],
+ "footnote": "",
+ "warn": "剧毒！千万不要采食任何野生蘑菇；误食要立刻就医。"
+}

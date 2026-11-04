@@ -1,0 +1,64 @@
+{
+ "file": "高大环柄菇",
+ "no": "1461",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "高大环柄菇",
+ "name_en": "Parasol mushroom",
+ "latin": "Macrolepiota procera",
+ "short": "高大环柄菇",
+ "type": "菌类",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解土壤中的有机物获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "可达 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "菌柄长",
+   "value": "12–40 cm",
+   "lo": 0.12,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蛇皮柄",
+   "icon": "camo",
+   "desc": "菌环以下的柄上有鳞片，像蛇皮。"
+  },
+  {
+   "name": "可移菌环",
+   "icon": "food",
+   "desc": "成熟后留下一个能上下滑动的厚菌环。"
+  }
+ ],
+ "intro": [
+  "高大环柄菇的子实体很大，像一把阳伞。",
+  "在欧亚温带广泛分布。",
+  "常单生、成群或长成蘑菇圈。"
+ ],
+ "fact": "北美最常引起中毒的 Chlorophyllum molybdites 和它很像。",
+ "range": "欧亚温带，北美可能有。",
+ "sources": [
+  "Wikipedia「Parasol mushroom」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

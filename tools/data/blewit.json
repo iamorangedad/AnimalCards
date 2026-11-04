@@ -1,0 +1,64 @@
+{
+ "file": "紫丁香蘑",
+ "no": "1466",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "紫丁香蘑",
+ "name_en": "Wood blewit",
+ "latin": "Collybia nuda",
+ "short": "紫丁香蘑",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "4–15 cm",
+   "lo": 0.04,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "2–6 cm",
+   "lo": 0.02,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "紫色",
+   "icon": "camo",
+   "desc": "幼菇颜色浅，成熟后颜色变深、菌盖变平。"
+  },
+  {
+   "name": "闻气味",
+   "icon": "food",
+   "desc": "可以靠气味和白到淡粉色的孢子印辨认。"
+  }
+ ],
+ "intro": [
+  "紫丁香蘑原产欧洲和北美。",
+  "以前叫 Lepista nuda。",
+  "在英国、荷兰和法国有栽培。"
+ ],
+ "fact": "长在针叶林和阔叶林里。",
+ "range": "欧洲、北美；澳大利亚渐多。",
+ "sources": [
+  "Wikipedia「Collybia nuda」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

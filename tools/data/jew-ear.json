@@ -1,0 +1,63 @@
+{
+ "file": "毛木耳",
+ "no": "1465",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "毛木耳",
+ "name_en": "Hairy wood ear",
+ "latin": "Auricularia cornea",
+ "short": "毛木耳",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "宽度",
+   "value": "可达 9 cm",
+   "lo": 0.09,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "厚度",
+   "value": "约 2 mm",
+   "lo": 0.002,
+   "hi": 0.002,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "耳朵形",
+   "icon": "food",
+   "desc": "胶质有弹性，像耳朵，上表面密生毛。"
+  },
+  {
+   "name": "脆滑口感",
+   "icon": "fire",
+   "desc": "几乎没味道，但煮后仍保持滑脆，比黑木耳粗，多用于汤。"
+  }
+ ],
+ "intro": [
+  "毛木耳是木耳目真菌。",
+  "在中国商业化栽培，是很多中餐的常用食材。",
+  "长在阔叶树的枯木上。"
+ ],
+ "fact": "过去常被误认作 A. polytricha。",
+ "range": "南亚、非洲、澳大拉西亚、太平洋岛屿、南美。",
+ "sources": [
+  "Wikipedia「Auricularia cornea」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

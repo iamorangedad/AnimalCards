@@ -1,0 +1,71 @@
+{
+ "file": "金顶侧耳",
+ "no": "1462",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "金顶侧耳",
+ "name_en": "Golden oyster mushroom",
+ "latin": "Pleurotus citrinopileatus",
+ "short": "金顶侧耳",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "2–10 cm",
+   "lo": 0.02,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "2–5 cm",
+   "lo": 0.02,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "转化率",
+   "value": "50–70%",
+   "lo": 50,
+   "hi": 70,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "变废为宝",
+   "icon": "micro",
+   "desc": "侧耳属能把 100 g 有机废料变成 50–70 g 鲜菇。"
+  },
+  {
+   "name": "逃逸",
+   "icon": "clone",
+   "desc": "在美国已从栽培中逃逸，被视为入侵种。"
+  }
+ ],
+ "intro": [
+  "金顶侧耳是侧耳属的菌褶真菌。",
+  "原产俄罗斯东部、中国北方和日本。",
+  "孢子印浅粉色。"
+ ],
+ "fact": "2012 年首次在美国记录到野外归化。",
+ "range": "原产俄远东、中国北方、日本。",
+ "sources": [
+  "Wikipedia「Golden oyster mushroom」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

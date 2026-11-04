@@ -1,0 +1,64 @@
+{
+ "file": "毒红菇",
+ "no": "1468",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "毒红菇",
+ "name_en": "The sickener",
+ "latin": "Russula emetica",
+ "short": "毒红菇",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "可达 8.5 cm",
+   "lo": 0.085,
+   "hi": 0.085,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "可达 10.5 cm",
+   "lo": 0.105,
+   "hi": 0.105,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "红帽",
+   "icon": "toxic",
+   "desc": "菌盖鲜红，表皮几乎能剥到中央。"
+  },
+  {
+   "name": "辣味",
+   "icon": "fire",
+   "desc": "肉质极辣，有毒。"
+  }
+ ],
+ "intro": [
+  "毒红菇是红菇属的模式种。",
+  "英文名意为“让人呕吐的”。",
+  "在北半球潮湿林地里和针叶树结成菌根。"
+ ],
+ "fact": "过去在俄罗斯和东欧要焯水腌制后才吃，现在一般不推荐食用。",
+ "range": "北半球（北非、亚洲、欧洲）。",
+ "sources": [
+  "Wikipedia「The sickener」"
+ ],
+ "footnote": "",
+ "warn": "有毒，会引起呕吐等肠胃症状；千万不要采食野生蘑菇。"
+}

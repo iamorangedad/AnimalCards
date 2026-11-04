@@ -1,0 +1,72 @@
+{
+ "file": "锡兰肉桂",
+ "no": "1456",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "锡兰肉桂",
+ "name_en": "Ceylon cinnamon",
+ "latin": "Cinnamomum verum",
+ "short": "锡兰肉桂",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2024",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "7–18 cm",
+   "lo": 0.07,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "首次采收",
+   "value": "3 岁",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "持续产",
+   "value": "40–50 年",
+   "lo": 40,
+   "hi": 50,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "树皮香料",
+   "icon": "food",
+   "desc": "内层树皮就是香料肉桂，干后切成卷或磨粉。"
+  },
+  {
+   "name": "斯里兰卡",
+   "icon": "sun",
+   "desc": "斯里兰卡至今生产全世界 80–90% 的锡兰肉桂。"
+  }
+ ],
+ "intro": [
+  "锡兰肉桂是樟科常绿小乔木，原产斯里兰卡。",
+  "旧学名来自斯里兰卡的旧称锡兰。",
+  "果实是 1 cm 的紫色核果。"
+ ],
+ "fact": "砍下的小侧枝直径 1.5–5 cm。",
+ "range": "原产斯里兰卡；塞舌尔、马达加斯加等栽培。",
+ "sources": [
+  "Wikipedia「Cinnamomum verum」",
+  "IUCN 红色名录（de Kok, R. 2024）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,55 @@
+{
+ "file": "丁子香",
+ "no": "1458",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "丁子香",
+ "name_en": "Clove",
+ "latin": "Syzygium aromaticum",
+ "short": "丁子香",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "树高",
+   "value": "8–12 m",
+   "lo": 8,
+   "hi": 12,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "花蕾香料",
+   "icon": "food",
+   "desc": "丁香是没开的花蕾，用作香料、调味和香料产品。"
+  },
+  {
+   "name": "防霉",
+   "icon": "drop",
+   "desc": "丁香精油可抑制多种食物发霉。"
+  }
+ ],
+ "intro": [
+  "丁子香是桃金娘科常绿树。",
+  "原产印度尼西亚马鲁古群岛。",
+  "红色花聚成顶生花簇。"
+ ],
+ "fact": "现代丁香种植最早在马达加斯加东海岸发展起来。",
+ "range": "原产马鲁古群岛；热带栽培。",
+ "sources": [
+  "Wikipedia「Clove」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,71 @@
+{
+ "file": "迷迭香",
+ "no": "1453",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "迷迭香",
+ "name_en": "Rosemary",
+ "latin": "Salvia rosmarinus",
+ "short": "迷迭香",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "1.2–1.8 m",
+   "lo": 1.2,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "可达 35 年",
+   "lo": 35,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "针状叶",
+   "icon": "drop",
+   "desc": "常绿的针状叶上面绿色，下面白色并有短绒毛。"
+  },
+  {
+   "name": "耐旱",
+   "icon": "sun",
+   "desc": "耐旱又好看，常用于花园和节水园艺。"
+  }
+ ],
+ "intro": [
+  "迷迭香是有香味的常绿灌木。",
+  "原产地中海地区。",
+  "叶子常用来给食物调味。"
+ ],
+ "fact": "特殊品种 'Arp' 能耐约 −20 °C 的冬季低温。",
+ "range": "原产地中海；多地栽培。",
+ "sources": [
+  "Wikipedia「Rosemary」"
+ ],
+ "footnote": ""
+}

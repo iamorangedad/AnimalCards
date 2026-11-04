@@ -1,0 +1,63 @@
+{
+ "file": "百里香",
+ "no": "1454",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "百里香",
+ "name_en": "Common thyme",
+ "latin": "Thymus vulgaris",
+ "short": "百里香",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "15–30 cm",
+   "lo": 0.15,
+   "hi": 0.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "宽",
+   "value": "约 40 cm",
+   "lo": 0.4,
+   "hi": 0.4,
+   "scale": "len",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香料",
+   "icon": "food",
+   "desc": "是香草百里香的主要来源，比牛至更辣、比鼠尾草更甜。"
+  },
+  {
+   "name": "扦插",
+   "icon": "clone",
+   "desc": "可作地被，容易用插条繁殖。"
+  }
+ ],
+ "intro": [
+  "百里香是唇形科开花植物。",
+  "原产南欧，从地中海西部到意大利南部。",
+  "是常绿木质小灌木，叶灰绿色、很香。"
+ ],
+ "fact": "种名 vulgaris 意为“普通、广泛”。",
+ "range": "南欧；多地栽培。",
+ "sources": [
+  "Wikipedia「Thymus vulgaris」"
+ ],
+ "footnote": "维基条目较短（待核）。"
+}

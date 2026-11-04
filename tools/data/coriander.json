@@ -1,0 +1,70 @@
+{
+ "file": "芫荽",
+ "no": "1455",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "芫荽",
+ "name_en": "Coriander",
+ "latin": "Coriandrum sativum",
+ "short": "芫荽",
+ "type": "植物",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培植物",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "可达 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "果径",
+   "value": "3–5 mm",
+   "lo": 0.003,
+   "hi": 0.005,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "考古",
+   "value": "6000–8000 年前",
+   "lo": 6000,
+   "hi": 8000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "全株可食",
+   "icon": "food",
+   "desc": "全株都能吃，最常用新鲜叶子和干种子。"
+  },
+  {
+   "name": "伞形花",
+   "icon": "sun",
+   "desc": "小伞形花序，白色或淡粉色。"
+  }
+ ],
+ "intro": [
+  "芫荽是伞形科一年生草本，俗称香菜。",
+  "原产地中海盆地。",
+  "秘鲁、墨西哥、印度和东南亚菜里都用它。"
+ ],
+ "fact": "以色列一个洞穴出土了 6000–8000 年前的芫荽果实。",
+ "range": "原产地中海；全球栽培。",
+ "sources": [
+  "Wikipedia「Coriander」"
+ ],
+ "footnote": ""
+}

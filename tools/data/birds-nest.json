@@ -1,0 +1,63 @@
+{
+ "file": "白蛋巢菌",
+ "no": "1474",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "白蛋巢菌",
+ "name_en": "White-egg bird's nest",
+ "latin": "Crucibulum laeve",
+ "short": "白蛋巢菌",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "杯高",
+   "value": "5–8 mm",
+   "lo": 0.005,
+   "hi": 0.008,
+   "scale": "len_xs",
+   "approx": false
+  },
+  {
+   "label": "“蛋”径",
+   "value": "1–2 mm",
+   "lo": 0.001,
+   "hi": 0.002,
+   "scale": "len_xs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "雨滴弹射",
+   "icon": "drop",
+   "desc": "杯子是“溅杯”，靠雨滴的冲力把“蛋”弹出去。"
+  },
+  {
+   "name": "小蛋",
+   "icon": "spore",
+   "desc": "“蛋”是装着孢子的硬蜡质小包，会粘在附近植物上。"
+  }
+ ],
+ "intro": [
+  "白蛋巢菌的子实体像装着蛋的小鸟巢。",
+  "属于鸟巢菌科。",
+  "腐生，长在腐朽木头和木屑上。"
+ ],
+ "fact": "杯壁由一层紧密交织的菌丝构成。",
+ "range": "广布（待核）。",
+ "sources": [
+  "Wikipedia「Crucibulum (fungus)」"
+ ],
+ "footnote": "*部分资料为蛋巢菌属。",
+ "warn": "不作食用；千万不要采食野生蘑菇。"
+}

@@ -1,0 +1,63 @@
+{
+ "file": "纹缘盔孢伞",
+ "no": "1471",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "纹缘盔孢伞",
+ "name_en": "Deadly galerina",
+ "latin": "Galerina marginata",
+ "short": "纹缘盔孢伞",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "柄长",
+   "value": "2–8 cm",
+   "lo": 0.02,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "20 世纪中毒",
+   "value": "约 10 例",
+   "lo": 10,
+   "hi": 10,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "致命毒素",
+   "icon": "toxic",
+   "desc": "含和死帽蕈一样的致命鹅膏毒肽。"
+  },
+  {
+   "name": "分解木头",
+   "icon": "micro",
+   "desc": "主要长在腐烂的针叶树木头上。"
+  }
+ ],
+ "intro": [
+  "纹缘盔孢伞是剧毒蘑菇。",
+  "广布北半球，澳大利亚也有发现。",
+  "孢子印锈色。"
+ ],
+ "fact": "可能被误认为蜜环菌、金针菇等可食蘑菇。",
+ "range": "北半球；澳大利亚。",
+ "sources": [
+  "Wikipedia「Deadly galerina」"
+ ],
+ "footnote": "",
+ "warn": "剧毒！千万不要采食任何野生蘑菇；误食要立刻就医。"
+}

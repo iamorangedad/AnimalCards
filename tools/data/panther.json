@@ -1,0 +1,64 @@
+{
+ "file": "豹斑鹅膏",
+ "no": "1469",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "豹斑鹅膏",
+ "name_en": "Panther cap",
+ "latin": "Amanita pantherina",
+ "short": "豹斑鹅膏",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "菌盖宽",
+   "value": "5–18 cm",
+   "lo": 0.05,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄长",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色疣点",
+   "icon": "toxic",
+   "desc": "褐色菌盖上密布白色疣点。"
+  },
+  {
+   "name": "菌根",
+   "icon": "root",
+   "desc": "和树根共生，用土壤养分换树的光合产物。"
+  }
+ ],
+ "intro": [
+  "豹斑鹅膏分布在欧亚、非洲和北美。",
+  "很像可食的赭盖鹅膏，所以又叫“假赭盖”。",
+  "含鹅膏蕈氨酸和蝇蕈醇。"
+ ],
+ "fact": "它比毒蝇伞更毒。",
+ "range": "欧亚大陆、非洲、北美。",
+ "sources": [
+  "Wikipedia「Panther cap」"
+ ],
+ "footnote": "",
+ "warn": "有毒，比毒蝇伞更毒；含精神活性毒素。误食立刻就医。"
+}

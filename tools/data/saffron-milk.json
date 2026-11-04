@@ -1,0 +1,64 @@
+{
+ "file": "松乳菇",
+ "no": "1467",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "松乳菇",
+ "name_en": "Saffron milk cap",
+ "latin": "Lactarius deliciosus",
+ "short": "松乳菇",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "共生",
+ "diet_note": "和树根结成菌根，用养分换树的糖",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "柄长",
+   "value": "2–8 cm",
+   "lo": 0.02,
+   "hi": 0.08,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "柄粗",
+   "value": "1–2.5 cm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "松树伙伴",
+   "icon": "root",
+   "desc": "和松树共生，随松树被意外带到其他地区。"
+  },
+  {
+   "name": "乳汁",
+   "icon": "drop",
+   "desc": "是乳菇属最有名的成员之一。"
+  }
+ ],
+ "intro": [
+  "松乳菇原产欧洲。",
+  "菌柄橙色、矮粗，常中空。",
+  "在地中海松林里很常见。"
+ ],
+ "fact": "可以吃，但味道可能平淡或发苦。",
+ "range": "原产欧洲；随松树引入他处。",
+ "sources": [
+  "Wikipedia「Saffron milk cap」"
+ ],
+ "footnote": "",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

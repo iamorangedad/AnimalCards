@@ -1,0 +1,64 @@
+{
+ "file": "八角",
+ "no": "1460",
+ "cat": "香料草药",
+ "kingdom": "植物",
+ "name_cn": "八角",
+ "name_en": "Star anise",
+ "latin": "Illicium verum",
+ "short": "八角",
+ "type": "植物",
+ "habitat": [
+  "农田",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "叶长",
+   "value": "5–15 cm",
+   "lo": 0.05,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "蓇葖果长",
+   "value": "1–2 cm",
+   "lo": 0.01,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "八角星",
+   "icon": "food",
+   "desc": "船形的蓇葖果排成星形，用来做香料。"
+  },
+  {
+   "name": "莽草酸",
+   "icon": "micro",
+   "desc": "曾是合成抗流感药达菲的原料来源之一。"
+  }
+ ],
+ "intro": [
+  "八角是中等大小的常绿乔木。",
+  "原产华南和越南东北部。",
+  "印度一些地方用它做香饭和奶茶。"
+ ],
+ "fact": "到 2018 年，达菲用的莽草酸主要改由大肠杆菌发酵生产。",
+ "range": "华南、越南东北部。",
+ "sources": [
+  "Wikipedia「Illicium verum」"
+ ],
+ "footnote": "",
+ "warn": "八角本身无毒，但一些近缘种有毒，别和野生八角类植物混淆。"
+}

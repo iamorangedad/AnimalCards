@@ -470,7 +470,7 @@ MU: """parasol 高大环柄菇 Macrolepiota procera
 golden-oyster 金顶侧耳 Pleurotus citrinopileatus
 shimeji 斑玉蕈 Hypsizygus tessulatus
 nameko 滑子菇 Pholiota microspora
-jew-ear 毛木耳 Auricularia polytricha
+jew-ear 毛木耳 Auricularia cornea
 blewit 紫丁香蘑 Lepista nuda
 saffron-milk 松乳菇 Lactarius deliciosus
 russula 毒红菇 Russula emetica
@@ -503,7 +503,7 @@ map-lichen 地图衣 Rhizocarpon geographicum
 xanthoria 石黄衣 Xanthoria parietina
 lungwort 肺衣 Lobaria pulmonaria
 rock-tripe 石耳 Umbilicaria
-british-soldiers 英国兵石蕊 Cladonia cristatella
+wolf-lichen 狼地衣 Letharia vulpina
 manna-lichen 栎扁枝衣 Oakmoss
 dog-lichen 地卷 Peltigera""",
 }

@@ -1,0 +1,72 @@
+{
+ "file": "尖顶地星",
+ "no": "1473",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "尖顶地星",
+ "name_en": "Collared earthstar",
+ "latin": "Geastrum triplex",
+ "short": "尖顶地星",
+ "type": "菌类",
+ "habitat": [
+  "林地",
+  "土壤"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "IUCN 未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "展开宽",
+   "value": "8–10 cm",
+   "lo": 0.08,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "裂片长",
+   "value": "2–4 cm",
+   "lo": 0.02,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "裂片数",
+   "value": "4–8 片",
+   "lo": 4,
+   "hi": 8,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "星形裂开",
+   "icon": "spore",
+   "desc": "成熟时外皮裂成 4–8 片尖瓣向外翻，托起球形孢子囊。"
+  },
+  {
+   "name": "落叶里",
+   "icon": "micro",
+   "desc": "生活在阔叶林的落叶和腐殖质中。"
+  }
+ ],
+ "intro": [
+  "尖顶地星是地星属真菌。",
+  "广布欧亚、澳大拉西亚和美洲。",
+  "孢子囊顶端有一个尖嘴状开口。"
+ ],
+ "fact": "传统中医用它消炎、止血、消肿。",
+ "range": "欧亚、澳大拉西亚、美洲。",
+ "sources": [
+  "Wikipedia「Collared earthstar」"
+ ],
+ "footnote": "",
+ "warn": "无毒但通常不作食用；千万不要采食野生蘑菇。"
+}

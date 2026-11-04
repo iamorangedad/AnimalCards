@@ -1,0 +1,63 @@
+{
+ "file": "滑子菇",
+ "no": "1464",
+ "cat": "蘑菇",
+ "kingdom": "真菌",
+ "name_cn": "滑子菇",
+ "name_en": "Nameko",
+ "latin": "Pholiota microspora",
+ "short": "滑子菇",
+ "type": "菌类",
+ "habitat": [
+  "朽木"
+ ],
+ "diet": "腐生",
+ "diet_note": "分解枯木、落叶等获取养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "栽培食用菌",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "出菇温度",
+   "value": "低于 10 °C",
+   "lo": 10,
+   "hi": 10,
+   "scale": "temp",
+   "approx": false
+  },
+  {
+   "label": "出菇",
+   "value": "2 潮",
+   "lo": 2,
+   "hi": 2,
+   "scale": "cnt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "滑溜表面",
+   "icon": "drop",
+   "desc": "琥珀褐色的小蘑菇，表面有一层略带胶质的黏液。"
+  },
+  {
+   "name": "遇冷出菇",
+   "icon": "cold",
+   "desc": "秋天气温第一次降到 10 °C 以下时出菇，隔几周再出一潮。"
+  }
+ ],
+ "intro": [
+  "滑子菇是日本最受欢迎的栽培蘑菇之一。",
+  "常用于味噌汤和火锅。",
+  "味道略带坚果香。"
+ ],
+ "fact": "有些国家能买到在家种的菌包。",
+ "range": "日本等地栽培。",
+ "sources": [
+  "Wikipedia「Pholiota microspora」"
+ ],
+ "footnote": "维基条目较短（待核）。",
+ "warn": "野生蘑菇和有毒种很难分辨：千万不要自己采野生蘑菇吃，只吃市场上买的正规产品。"
+}

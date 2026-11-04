@@ -93,58 +93,114 @@ function buildMarkers() {
       m.jitter = true; void ring;
     });
   }
-  state.markers = list;
+  state.markers = list; state.mgen = (state.mgen || 0) + 1; lastData = null;
   $("#shown").textContent = t("shown", new Set(list.map(m => m.a.id)).size, list.length);
 }
 function cellFor(alt) { return alt < 0.32 ? 0 : Math.min(16, alt * 5.2); }
+/* Performance notes:
+ * - Clusters are computed on ALL filtered markers (stable composition while rotating), with a 3D grid
+ *   so it is O(n) instead of O(n x clusters). Results are cached per zoom level.
+ * - Only clusters inside the visible part of the globe (+margin) become HTML elements ("view culling").
+ * - Datum objects and DOM elements are reused, so globe.gl only adds/removes the difference. */
+const D2R = Math.PI / 180;
+const xyz = (lat, lng) => { const p = lat * D2R, l = lng * D2R, c = Math.cos(p); return [c * Math.cos(l), Math.sin(p), c * Math.sin(l)]; };
+let clCache = { key: null, list: null };
 function cluster() {
-  const cell = cellFor(state.alt), out = [];
-  if (!cell) return state.markers.map(m => ({ single: m, lat: m.lat, lng: m.lng }));
-  const cl = [];
-  for (const m of state.markers) {
-    let best = null, bd = Infinity;
-    for (const c of cl) {
-      let dl = Math.abs(c.lng - m.lng); if (dl > 180) dl = 360 - dl;
-      const d = Math.hypot(c.lat - m.lat, dl * Math.cos(m.lat * Math.PI / 180));
-      if (d < cell && d < bd) { bd = d; best = c; }
+  const cell = cellFor(state.alt);
+  const lvl = cell ? Math.round(Math.log(cell) / Math.log(1.08)) : -999;   // quantised zoom level (8% steps)
+  const key = lvl + "|" + state.mgen;
+  if (clCache.key === key) return clCache.list;
+  let out;
+  if (!cell) out = state.markers.map(m => m.__d || (m.__d = { single: m, lat: m.lat, lng: m.lng, v: xyz(m.lat, m.lng) }));
+  else {
+    const cw = Math.pow(1.08, lvl) * D2R, grid = new Map(), cl = [];   // chord length ~ angle (rad) for small angles
+    const gk = (v) => Math.floor(v[0] / cw) + "," + Math.floor(v[1] / cw) + "," + Math.floor(v[2] / cw);
+    for (const m of state.markers) {
+      const v = m.v || (m.v = xyz(m.lat, m.lng));
+      const gx = Math.floor(v[0] / cw), gy = Math.floor(v[1] / cw), gz = Math.floor(v[2] / cw);
+      let best = null, bd = cw;
+      for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) for (let k = -1; k <= 1; k++) {
+        const b = grid.get((gx + i) + "," + (gy + j) + "," + (gz + k)); if (!b) continue;
+        for (const c of b) { const d = Math.hypot(c.v[0] - v[0], c.v[1] - v[1], c.v[2] - v[2]); if (d < bd) { bd = d; best = c; } }
+      }
+      if (best) { best.items.push(m); const n = best.items.length; best.lat += (m.lat - best.lat) / n;
+        let dl = m.lng - best.lng; if (dl > 180) dl -= 360; if (dl < -180) dl += 360; best.lng += dl / n; }
+      else { const c = { lat: m.lat, lng: m.lng, v, items: [m] }; cl.push(c); const g = gk(v); (grid.get(g) || grid.set(g, []).get(g)).push(c); }
     }
-    if (best) { best.items.push(m); const n = best.items.length; best.lat += (m.lat - best.lat) / n; best.lng += (m.lng - best.lng) / n; }
-    else cl.push({ lat: m.lat, lng: m.lng, items: [m] });
+    out = cl.map(c => c.items.length === 1 ? (c.items[0].__d || (c.items[0].__d = { single: c.items[0], lat: c.items[0].lat, lng: c.items[0].lng, v: c.v }))
+      : (c.v = xyz(c.lat, c.lng), c));
   }
-  for (const c of cl) out.push(c.items.length === 1 ? { single: c.items[0], lat: c.items[0].lat, lng: c.items[0].lng } : c);
+  clCache = { key, list: out };
   return out;
 }
+/* angular radius (rad) of the globe area that is on screen, plus a margin */
+function viewCap() {
+  const cam = world.camera(), d = 1 + state.alt;
+  const th = Math.atan(Math.tan(cam.fov * D2R / 2) * Math.hypot(1, cam.aspect || 1));   // half-diagonal of the view
+  const s = d * Math.sin(th);
+  const phi = s >= 1 ? Math.acos(1 / d) : Math.asin(s) - th;
+  return Math.min(Math.acos(1 / d), phi * 1.25 + 6 * D2R);
+}
+function visibleData() {
+  const all = cluster(), cap = viewCap(), hz = Math.acos(1 / (1 + state.alt));
+  if (cap >= hz - 1e-3 && state.alt > 1.4) return all;           // whole hemisphere visible: keep every cluster (stable while rotating)
+  const pov = world.pointOfView(), c = xyz(pov.lat, pov.lng), cc = Math.cos(cap);
+  return all.filter(d => d.v[0] * c[0] + d.v[1] * c[1] + d.v[2] * c[2] >= cc);
+}
+const elCache = new WeakMap();
 function markerEl(m) {
+  if (elCache.has(m)) return elCache.get(m);
   const el = document.createElement("div"); const a = m.a;
   el.className = "mk"; el.style.setProperty("--c", CAT[a.category].c);
-  el.style.backgroundImage = `url("${a.avatar_url}")`;
+  const av = document.createElement("span"); av.className = "av"; av.style.backgroundImage = `url("${a.avatar_url}")`; el.appendChild(av);
   el.setAttribute("role", "button"); el.setAttribute("aria-label", nm(a));
   el.addEventListener("mouseenter", ev => tip(ev, `<b>${esc(nm(a))}</b> <small>${esc(nm2(a))}</small><br><small>${esc(m.l.label)}${m.l.approx ? t("approx") : ""}</small>`));
   el.addEventListener("mousemove", moveTip); el.addEventListener("mouseleave", hideTip);
   el.addEventListener("click", ev => { ev.stopPropagation(); hideTip(); openAnimal(a, m.l); });
+  elCache.set(m, el);
   return el;
 }
 function clusterEl(c) {
+  if (c.el) return c.el;
   const el = document.createElement("div"); el.className = "cl";
   const cats = {}; c.items.forEach(m => cats[m.a.category] = (cats[m.a.category] || 0) + 1);
   const top = Object.entries(cats).sort((x, y) => y[1] - x[1]).slice(0, 3);
   el.innerHTML = top.map(([k]) => `<span class="ring" style="background:${CAT[k].c}"></span>`).join("") + `<span>${c.items.length}</span>`;
-  const names = [...new Set(c.items.map(m => nm(m.a)))];
-  el.addEventListener("mouseenter", ev => tip(ev, `<b>${t("species", names.length)}</b><br><small>${esc(names.slice(0, 6).join(LANG === "en" ? ", " : "、"))}${names.length > 6 ? "…" : ""}</small>`));
+  el.addEventListener("mouseenter", ev => { const names = [...new Set(c.items.map(m => nm(m.a)))];
+    tip(ev, `<b>${t("species", names.length)}</b><br><small>${esc(names.slice(0, 6).join(LANG === "en" ? ", " : "、"))}${names.length > 6 ? "…" : ""}</small>`); });
   el.addEventListener("mousemove", moveTip); el.addEventListener("mouseleave", hideTip);
   el.addEventListener("click", ev => {
     ev.stopPropagation(); hideTip();
     if (state.alt < 0.55) openList(c);
     else { stopRotate(); world.pointOfView({ lat: c.lat, lng: c.lng, altitude: Math.max(0.25, state.alt * 0.42) }, 900); }
   });
-  return el;
+  return (c.el = el);
 }
-let rcTimer = null;
+let rcTimer = null, lastData = null;
 function render() {
-  const data = cluster();
+  const data = visibleData();
+  if (lastData && data.length === lastData.length && data.every((d, i) => d === lastData[i])) return;   // nothing changed
+  lastData = data;
   world.htmlElementsData(data);
+  wake(600);
 }
 function scheduleRender() { clearTimeout(rcTimer); rcTimer = setTimeout(render, 120); }
+/* while the camera moves (drag / auto-rotate / fly-to), refresh the culled set at most ~4x per second */
+let camT = 0;
+function onCamera() { const now = performance.now(); if (now - camT > 250) { camT = now; render(); } else scheduleRender(); }
+
+/* ---------- 空闲时暂停渲染循环 / pause the render loop when nothing moves ---------- */
+let paused = false, wakeUntil = 0;
+function wake(ms = 1500) {
+  wakeUntil = Math.max(wakeUntil, performance.now() + ms);
+  if (paused && world) { paused = false; world.resumeAnimation(); }
+}
+function idleCheck() {
+  if (!world) return;
+  const busy = world.controls().autoRotate || performance.now() < wakeUntil;
+  if (document.hidden || !busy) { if (!paused) { paused = true; world.pauseAnimation(); } }
+  else if (paused) { paused = false; world.resumeAnimation(); }
+}
 
 /* ---------- 提示框 ---------- */
 const tipEl = () => $("#tooltip");
@@ -189,7 +245,7 @@ function openAnimal(a, loc) {
 function openList(c) {
   const seen = new Set(), items = c.items.filter(m => !seen.has(m.a.id) && seen.add(m.a.id));
   openPanel(`<div class="p-list"><h3>${t("here", items.length)}</h3>${items.map(m => `
-    <div class="item" data-id="${m.a.id}"><img src="${m.a.avatar_url}" style="--c:${CAT[m.a.category].c}" alt="">
+    <div class="item" data-id="${m.a.id}"><img src="${m.a.avatar_url}" style="--c:${CAT[m.a.category].c}" alt="" loading="lazy" decoding="async">
     <div><b>${esc(nm(m.a))}</b><br><small>${esc(catName(m.a.category))} · ${esc(m.l.label)}</small></div></div>`).join("")}</div>`);
   reopen = () => openList(c);
   document.querySelectorAll(".p-list .item").forEach(el => el.addEventListener("click", () => openAnimal(state.byId[el.dataset.id])));
@@ -280,7 +336,7 @@ function flyTo(a) {
 function stopRotate() { world.controls().autoRotate = false; clearTimeout(state.idleTimer); }
 function scheduleResume() {
   clearTimeout(state.idleTimer);
-  state.idleTimer = setTimeout(() => { if (state.rotate && $("#panel").hidden) world.controls().autoRotate = true; }, 15000);
+  state.idleTimer = setTimeout(() => { if (state.rotate && $("#panel").hidden) { world.controls().autoRotate = true; idleCheck(); } }, 15000);
 }
 
 /* ---------- 语言切换 / language toggle ---------- */
@@ -311,20 +367,31 @@ async function main() {
   applyLang();
   chips(); buildMarkers();
   const el = $("#globe");
+  // lighter rendering on phones / small or low-memory devices: 2048px texture (343 KB instead of 1.46 MB), pixel ratio <= 1.5
+  const light = matchMedia("(pointer:coarse)").matches || Math.min(screen.width, screen.height) < 600 || (navigator.deviceMemory || 8) <= 4;
   world = Globe({ animateIn: true })(el)
-    .globeImageUrl("img/earth-blue-marble.jpg").bumpImageUrl("img/earth-topology.png")
+    .globeImageUrl(light ? "img/earth-blue-marble-2k.jpg" : "img/earth-blue-marble.jpg").bumpImageUrl(light ? null : "img/earth-topology.png")
     .backgroundColor("rgba(0,0,0,0)").showAtmosphere(true).atmosphereColor("#8cc4ff").atmosphereAltitude(0.18)
-    .htmlElementsData([]).htmlLat(d => d.lat).htmlLng(d => d.lng).htmlAltitude(0.01)
+    .htmlElementsData([]).htmlLat(d => d.lat).htmlLng(d => d.lng).htmlAltitude(0.01).htmlTransitionDuration(0)
     .htmlElement(d => d.single ? markerEl(d.single) : clusterEl(d))
-    .onZoom(pov => { const changed = Math.abs(pov.altitude - state.alt) > 0.04; state.alt = pov.altitude; if (changed) scheduleRender(); })
+    .onZoom(pov => { state.alt = pov.altitude; onCamera(); })
     .onGlobeClick(() => { hideTip(); });
-  if (world.htmlElementVisibilityModifier) world.htmlElementVisibilityModifier((elx, vis) => { elx.style.opacity = vis ? 1 : 0; elx.style.pointerEvents = vis ? "auto" : "none"; });
+  // only touch the style when visibility actually changes (this runs for every element on every camera move)
+  if (world.htmlElementVisibilityModifier) world.htmlElementVisibilityModifier((elx, vis) => { if (elx.__vis === vis) return; elx.__vis = vis; elx.style.opacity = vis ? 1 : 0; elx.style.pointerEvents = vis ? "auto" : "none"; });
+  if (light) world.renderer().setPixelRatio(Math.min(1.5, window.devicePixelRatio || 1));
+  { const pov0 = world.pointOfView.bind(world);   // any camera fly-to must keep the render loop running
+    world.pointOfView = (p, ms) => { if (p === undefined) return pov0(); wake((ms || 0) + 800); return pov0(p, ms); }; }
   const fit = () => world.width(el.clientWidth).height(el.clientHeight);
   fit(); window.addEventListener("resize", fit);
   world.pointOfView({ lat: 25, lng: 105, altitude: 2.4 });
   const ctr = world.controls(); ctr.autoRotate = true; ctr.autoRotateSpeed = 0.45; ctr.minDistance = 112; ctr.maxDistance = 900;
-  ctr.addEventListener("start", () => { stopRotate(); });
-  ctr.addEventListener("end", scheduleResume);
+  ctr.addEventListener("start", () => { stopRotate(); wake(60000); });
+  ctr.addEventListener("end", () => { wakeUntil = 0; wake(1200); scheduleResume(); scheduleRender(); });
+  ctr.addEventListener("change", onCamera);
+  ["pointerdown", "wheel", "touchstart"].forEach(ev => el.addEventListener(ev, () => wake(1500), { passive: true }));
+  window.addEventListener("resize", () => { wake(800); scheduleRender(); });
+  setInterval(idleCheck, 500);
+  document.addEventListener("visibilitychange", idleCheck);
   render();
   $("#loading").classList.add("done");
   searchSetup();
@@ -333,12 +400,12 @@ async function main() {
   $("#lightbox").addEventListener("click", e => { if (e.target.id === "lightbox") $("#lightbox").hidden = true; });
   $("#resetBtn").onclick = reset;
   $("#aboutLink").onclick = openAbout;
-  $("#rotateTog").onchange = e => { state.rotate = e.target.checked; world.controls().autoRotate = state.rotate && $("#panel").hidden; };
+  $("#rotateTog").onchange = e => { state.rotate = e.target.checked; world.controls().autoRotate = state.rotate && $("#panel").hidden; idleCheck(); };
   $("#filterToggle").onclick = () => { const f = $("#filters"); f.classList.toggle("open"); $("#filterToggle").setAttribute("aria-expanded", f.classList.contains("open")); };
   document.addEventListener("keydown", e => { if (e.key === "Escape") { $("#lightbox").hidden = true; closePanel(); } });
   const m = location.hash.match(/a=([^&]+)/);
   if (m && state.byId[decodeURIComponent(m[1])]) flyTo(state.byId[decodeURIComponent(m[1])]);
-  window.__app = { state, world, flyTo, openList, render, setLang };  // 便于测试
+  window.__app = { state, world, flyTo, openList, render, setLang, wake };  // 便于测试
 }
 main().catch(err => { $("#loading").textContent = t("fail") + err.message; console.error(err); });
 })();

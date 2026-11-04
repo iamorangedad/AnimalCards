@@ -33,7 +33,7 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
 .btn-link{ font:inherit; font-size:13px; background:none; border:none; color:var(--acc); cursor:pointer; text-decoration:underline; }
 /* filters */
 .filters{ position:absolute; z-index:15; top:84px; left:12px; width:310px; background:var(--card); border:2px solid var(--ink); border-radius:14px;
-  padding:10px 12px; box-shadow:var(--shadow); }
+  padding:10px 12px; box-shadow:var(--shadow); max-height:calc(100vh - 140px); overflow:auto; }
 .filters .row{ display:flex; gap:8px; align-items:flex-start; margin:4px 0; }
 .filters .lab{ flex:none; width:38px; font-size:12px; font-weight:700; color:var(--grey); padding-top:5px; }
 .chips{ display:flex; flex-wrap:wrap; gap:6px; }
@@ -46,13 +46,19 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
 .meta{ align-items:center !important; font-size:12px; color:var(--grey); justify-content:space-between; }
 .tog{ display:flex; align-items:center; gap:4px; cursor:pointer; }
 /* markers */
-.mk{ position:relative; width:30px; height:30px; border-radius:50%; border:3px solid var(--c); background:#fff center/cover no-repeat;
-  box-shadow:0 2px 6px rgba(0,0,0,.35); cursor:pointer; pointer-events:auto; transform:translate(-50%,-50%); transition:transform .12s; }
-.mk:hover{ transform:translate(-50%,-50%) scale(1.35); z-index:5; }
-.mk.dotonly{ width:14px; height:14px; border-width:2px; background:var(--c); }
+/* .mk is positioned by globe.gl (inline transform every frame) - never put a transition on it; the visual is the inner .av */
+/* will-change: each marker gets its own compositor layer, so moving it every frame is a cheap composite instead of
+   a repaint of the whole marker overlay (measured: 13 -> 30 fps in software GL with ~80 clusters). Safe because view
+   culling keeps the element count to a few hundred at most. */
+.mk,.cl{ will-change:transform; }
+.mk{ cursor:pointer; pointer-events:auto; }
+.mk .av{ display:block; width:30px; height:30px; border-radius:50%; border:3px solid var(--c); background:#fff center/cover no-repeat;
+  box-shadow:0 2px 6px rgba(0,0,0,.35); transition:transform .12s; }
+.mk:hover{ z-index:100000 !important; } .mk:hover .av{ transform:scale(1.35); }
+.mk.dotonly .av{ width:14px; height:14px; border-width:2px; background:var(--c); }
 .cl{ min-width:34px; height:34px; padding:0 8px; border-radius:999px; display:flex; align-items:center; justify-content:center; gap:4px;
   font-family:var(--mono); font-weight:700; font-size:13px; color:var(--ink); background:#fff; border:3px solid var(--ink);
-  box-shadow:0 2px 8px rgba(0,0,0,.4); cursor:pointer; pointer-events:auto; transform:translate(-50%,-50%); }
+  box-shadow:0 2px 8px rgba(0,0,0,.4); cursor:pointer; pointer-events:auto; }
 .cl:hover{ background:#fff7d6; }
 .cl .ring{ width:12px; height:12px; border-radius:50%; }
 .tooltip{ position:fixed; z-index:40; pointer-events:none; background:var(--ink); color:#fff; font-size:13px; padding:5px 9px; border-radius:8px;
@@ -106,7 +112,7 @@ body{ font-family:var(--font); color:var(--ink); overflow:hidden; background-col
   .p-card{ aspect-ratio:auto; height:auto; } .p-card img{ height:auto; }
   .p-wrap{ display:flex; gap:10px; } .p-wrap .p-card{ width:42%; flex:none; } .p-wrap .facts{ flex:1; }
   .note{ font-size:11px; bottom:6px; left:8px; right:8px; }
-  .mk{ width:26px; height:26px; }
+  .mk .av{ width:26px; height:26px; }
 }
 .chips .kg{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; width:100%; }
 .kchip{ font:inherit; font-size:12px; font-weight:700; padding:3px 8px; border-radius:6px; cursor:pointer; border:1px solid var(--grey,#888); background:#fff; color:inherit; }

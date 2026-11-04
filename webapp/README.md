@@ -147,6 +147,16 @@ sudo certbot --nginx -d your.domain
 
 Resource use is small. Each uvicorn process takes about 60 MB of RAM. The first page load is about 4 MB (1.5 MB globe texture + 1.9 MB globe.gl), and later loads come from the cache.
 
+### Front-end performance
+
+The page keeps the number of moving HTML markers small, because globe.gl moves every marker element on every frame:
+
+- **View culling:** only clusters and markers in the visible part of the globe (plus a margin) become HTML elements. Zoomed in over Europe that is about 470 elements instead of all 3077.
+- **Clustering** is grid-based, O(n), and cached per zoom level. Marker and cluster elements are reused, so only the difference is added or removed.
+- Each marker is its own compositor layer (`will-change: transform`), and the old per-frame CSS transition on markers was removed.
+- The render loop **pauses when nothing moves** (auto-rotate off and no drag, zoom or fly-to) and when the tab is hidden.
+- **Phones and low-memory devices** use a 2048 px texture (343 KB instead of 1.46 MB), no bump map, and pixel ratio ≤ 1.5.
+
 ## How the coordinates are made (please review)
 
 `scripts/build_data.py` reads each card's range text (the `range` field in `tools/data/*.json`):

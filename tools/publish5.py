@@ -2,6 +2,13 @@ import json, shutil, pathlib, sys
 HERE = pathlib.Path(__file__).resolve().parent; R = pathlib.Path("/tmp/animalcards")
 def king(d): return d.get("kingdom", "动物")
 ids = set(sys.argv[1:])
+_own = {}
+for q in (R / "tools" / "data").glob("*.json"):
+    dq = json.loads(q.read_text()); _own[(king(dq), dq["cat"], dq["file"])] = q.stem
+for p in (HERE / "data").glob("*.json"):
+    if p.stem in ids:
+        d = json.loads(p.read_text()); o = _own.get((king(d), d["cat"], d["file"]))
+        if o and o != p.stem: sys.exit(f"REFUSING: {p.stem} would overwrite file of existing card {o} ({d['file']})")
 for p in (HERE / "data").glob("*.json"):
     if p.stem not in ids: continue
     d = json.loads(p.read_text()); dst = R / king(d) / d["cat"]; dst.mkdir(parents=True, exist_ok=True)

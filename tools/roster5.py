@@ -221,7 +221,7 @@ hissing-roach 马岛发声蟑螂 Gromphadorhina portentosa
 backswimmer 仰泳蝽 Notonecta glauca
 scorpionfly 蝎蛉 Panorpa communis
 emma-cricket 大洋油葫芦 Teleogryllus oceanicus
-leaf-insect 叶䗛 Phylliidae
+glow-worm 欧洲萤 Lampyris noctiluca
 oriental-hornet 东方胡蜂 Oriental hornet
 velvet-ant 牛杀蚁蜂 Dasymutilla occidentalis
 garden-tiger 豹灯蛾 Garden tiger moth

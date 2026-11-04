@@ -1,0 +1,80 @@
+{
+ "file": "欧洲萤",
+ "no": "1216",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "欧洲萤",
+ "name_en": "Common glow-worm",
+ "latin": "Lampyris noctiluca",
+ "short": "欧洲萤",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫吃蜗牛和蛞蝓，先注入有毒的消化液使其麻痹",
+ "iucn": {
+  "code": "NT",
+  "sub": "IUCN 2024",
+  "cn": "近危"
+ },
+ "stats": [
+  {
+   "label": "雌虫体长",
+   "value": "12–20 mm",
+   "lo": 0.012,
+   "hi": 0.02,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "光可见距离",
+   "value": "最远 45 m",
+   "lo": 45,
+   "hi": 45,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "能量变热",
+   "value": "仅 2%",
+   "lo": 2,
+   "hi": 2,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "50–100 枚",
+   "lo": 50,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "冷光",
+   "icon": "glow",
+   "desc": "雌虫腹部发光，几乎全部能量都变成光，只有 2% 变成热。"
+  },
+  {
+   "name": "麻醉猎手",
+   "icon": "toxic",
+   "desc": "幼虫给蜗牛和蛞蝓注入褐色有毒消化液，等它们不能动再吃。"
+  }
+ ],
+ "intro": [
+  "欧洲萤是欧洲常见的萤火虫，是萤属的模式种。",
+  "雌雄差别很大，雄虫比雌虫小得多。",
+  "雌虫在夏夜发光吸引雄虫。"
+ ],
+ "fact": "卵淡黄色，直径约 1 mm；产卵后成虫活不到卵孵化。",
+ "range": "从葡萄牙、英国向东横跨欧洲和亚洲到中国（非洲也有记录）。",
+ "sources": [
+  "Wikipedia「Lampyris noctiluca」",
+  "IUCN 红色名录（Macadam, C. 2024）"
+ ],
+ "footnote": "原定叶䗛科与已有卡片“叶䗛”重复，换为欧洲萤。"
+}

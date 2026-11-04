@@ -117,10 +117,10 @@ c5("ghost-shrimp", "Ghost shrimp", "Palaemon paludosus", "水中", ["水中"], "
 c5("african-snail", "Giant African land snail", "Lissachatina fulica", "陆地", ["陆地"], "草食", "吃多种植物", "NE", "维基百科列 NatureServe G5，未列 IUCN（待核）",
  [S("壳长", "20 cm 或更长", 0.2, None, "len_s"), S("壳直径", "约 7 cm", 0.07, None, "len_s", True), S("卵长", "约 5 mm", 0.005, None, "len_s", True), S("刚孵出壳长", "5–5.5 mm", 0.005, 0.0055, "len_s")],
  [K("巨型蜗牛", "trunk", "它是现存最大的陆地蜗牛之一。"), K("入侵物种", "clone", "被带到很多国家后成为入侵物种，美国佛州两次花了近十年才清除。")],
- ["非洲大蜗牛是非洲大蜗牛科的大型陆生蜗牛。", "1847 年被带到印度，1900 年到斯里兰卡。", "卵有薄薄的钙质壳。"],
+ ["非洲大蜗牛是非洲大蜗牛科的大型陆生蜗牛。", "1847 年被带到印度，1900 年到斯里兰卡。"],
  "1966 年和 2011 年它两次在美国迈阿密被发现，每次都花了将近十年才清除。",
  "原产东非；已扩散到亚洲、美洲等很多热带、亚热带地区。", [WK("Lissachatina fulica")], "学名现为 Lissachatina fulica（旧名 Achatina fulica）。",
- iucn_cn="未评估", warn="可能携带寄生虫（如广州管圆线虫），摸过后要洗手，绝对不要生吃。")
+ iucn_cn="未评估", warn="可能带广州管圆线虫，摸后洗手，绝不能生吃。")
 c5("gargoyle-gecko", "Gargoyle gecko", "Rhacodactylus auriculatus", "陆地", ["陆地"], "杂食", "吃多种节肢动物、守宫和石龙子等蜥蜴，也吃植物", "LC", "IUCN 红色名录（Sadlier, R.A. 2021）",
  [S("成年体长", "18–23 cm", 0.18, 0.23, "len_s"), S("刚孵出体重", "3 g", 0.003, None, "mass_s"), S("每窝卵", "2 枚", 2, None, "n100"), S("孵化期", "60–90 天", 60, 90, "days")],
  [K("头上小角", "thorn", "头上有小突起，像教堂上的石像鬼雕塑。"), K("属中最小", "micro", "它是所在属 6 个物种里最小的。")],

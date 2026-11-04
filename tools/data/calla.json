@@ -1,0 +1,73 @@
+{
+ "file": "马蹄莲",
+ "no": "1348",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "马蹄莲",
+ "name_en": "Calla lily",
+ "latin": "Zantedeschia aethiopica",
+ "short": "马蹄莲",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "水中"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2010",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "0.6–1 m",
+   "lo": 0.6,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "可达 45 cm",
+   "lo": 0.45,
+   "hi": 0.45,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "佛焰苞",
+   "value": "可达 25 cm",
+   "lo": 0.25,
+   "hi": 0.25,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "白色佛焰苞",
+   "icon": "sun",
+   "desc": "春夏秋开花，纯白的佛焰苞中间是黄色肉穗花序。"
+  },
+  {
+   "name": "鸟传种子",
+   "icon": "seed",
+   "desc": "种子靠鸟传播，根状茎也能扩散。"
+  }
+ ],
+ "intro": [
+  "马蹄莲是天南星科植物，原产非洲南部（莱索托、南非、斯威士兰）。",
+  "它也叫 arum lily 和 death lily。",
+  "它在很多地方归化。"
+ ],
+ "fact": "在西澳大利亚它被列为有毒杂草。",
+ "range": "原产非洲南部；多地归化。",
+ "sources": [
+  "Wikipedia「Zantedeschia aethiopica」",
+  "IUCN 红色名录（Foden, W. 2010）"
+ ],
+ "footnote": "",
+ "warn": "含草酸钙；生吃可能引起嘴唇严重灼痛和肿胀。"
+}

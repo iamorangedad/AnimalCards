@@ -1,0 +1,70 @@
+{
+ "file": "南岛巨恐鸟",
+ "no": "1332",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "南岛巨恐鸟",
+ "name_en": "South Island giant moa",
+ "latin": "Dinornis robustus",
+ "short": "南岛巨恐鸟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃小枝、种子、浆果等纤维多的植物，靠胃石磨碎",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 年份待核",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "雌身高",
+   "value": "背高可达 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "可够到",
+   "value": "3.6 m 高",
+   "lo": 3.6,
+   "hi": 3.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "约 200 kg",
+   "lo": 200,
+   "hi": 200,
+   "scale": "mass",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超高的鸟",
+   "icon": "climb",
+   "desc": "是地球上走过的最高的鸟之一，能吃到 3.6 m 高的叶子。"
+  },
+  {
+   "name": "吞石磨食",
+   "icon": "food",
+   "desc": "砂囊里有大量胃石，用来磨碎粗纤维食物。"
+  }
+ ],
+ "intro": [
+  "南岛巨恐鸟是恐鸟属的一种已灭绝鸟类。",
+  "毛利语叫它 moa nunui。",
+  "它的体重只被马达加斯加的象鸟超过。"
+ ],
+ "fact": "Colossal Biosciences 公司宣布计划尝试“复活”南岛巨恐鸟。",
+ "range": "新西兰南岛（已灭绝）。",
+ "sources": [
+  "Wikipedia「South Island giant moa」"
+ ],
+ "footnote": "IUCN 列为灭绝（维基未给年份，待核）。"
+}

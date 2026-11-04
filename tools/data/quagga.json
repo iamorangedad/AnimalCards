@@ -1,0 +1,79 @@
+{
+ "file": "斑驴",
+ "no": "1330",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "斑驴",
+ "name_en": "Quagga",
+ "latin": "Equus quagga quagga",
+ "short": "斑驴",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃草（平原斑马的亚种）",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2008",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 257 cm",
+   "lo": 2.57,
+   "hi": 2.57,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "肩高",
+   "value": "125–135 cm",
+   "lo": 1.25,
+   "hi": 1.35,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "圈养寿命",
+   "value": "21 年 4 个月",
+   "lo": 21.3,
+   "hi": 21.3,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "分化",
+   "value": "12 万–29 万年前",
+   "lo": 120000,
+   "hi": 290000,
+   "scale": "yrs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "半身条纹",
+   "icon": "camo",
+   "desc": "主要在身体前部有褐白条纹，后半身是褐色、没有条纹，更像马。"
+  },
+  {
+   "name": "复育计划",
+   "icon": "clone",
+   "desc": "复育计划用 19 匹条纹较少的平原斑马开始选育。"
+  }
+ ],
+ "intro": [
+  "斑驴是平原斑马的一个已灭绝亚种，曾是南非特有。",
+  "19 世纪末它被猎杀殆尽。",
+  "它长期被认为是独立物种。"
+ ],
+ "fact": "野外的斑驴 1878 年已灭绝，最后一匹圈养个体 1883 年 8 月 12 日死在阿姆斯特丹。",
+ "range": "南非（已灭绝）。",
+ "sources": [
+  "Wikipedia「Quagga」",
+  "IUCN 红色名录（Hack, M.A. 2008）"
+ ],
+ "footnote": "“分化”比例条超出刻度（仅示意）；圈养寿命为单个个体记录。"
+}

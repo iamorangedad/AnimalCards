@@ -1,0 +1,79 @@
+{
+ "file": "一品红",
+ "no": "1349",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "一品红",
+ "name_en": "Poinsettia",
+ "latin": "Euphorbia pulcherrima",
+ "short": "一品红",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "0.6–4 m",
+   "lo": 0.6,
+   "hi": 4,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "每日黑暗",
+   "value": "至少 14 小时",
+   "lo": 14,
+   "hi": 14,
+   "scale": "hours",
+   "approx": false
+  },
+  {
+   "label": "黑暗期",
+   "value": "6–8 周",
+   "lo": 42,
+   "hi": 56,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "分布长度",
+   "value": "约 2000 km",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "km",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "光周期变色",
+   "icon": "sun",
+   "desc": "苞片变色需要光周期：每天至少 14 小时黑暗，持续 6–8 周。"
+  },
+  {
+   "name": "圣诞花",
+   "icon": "team",
+   "desc": "红绿相间的叶片常用于圣诞节装饰。"
+  }
+ ],
+ "intro": [
+  "一品红是大戟科的重要商业花卉。",
+  "原产墨西哥和中美洲的中海拔热带干林。",
+  "英文名来自美国首任驻墨西哥公使 Poinsett。"
+ ],
+ "fact": "人们常说它剧毒，但它对宠物和儿童并不危险；1970 年 FDA 说“一片叶子能毒死孩子”是错的。",
+ "range": "墨西哥和中美洲。",
+ "sources": [
+  "Wikipedia「Poinsettia」"
+ ],
+ "footnote": "",
+ "warn": "毒性很低：对宠物和儿童并不危险，但不宜食用。"
+}

@@ -1,0 +1,79 @@
+{
+ "file": "风信子",
+ "no": "1342",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "风信子",
+ "name_en": "Common hyacinth",
+ "latin": "Hyacinthus orientalis",
+ "short": "风信子",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花莛高",
+   "value": "20–35 cm",
+   "lo": 0.2,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每莛花数",
+   "value": "2–50 朵",
+   "lo": 2,
+   "hi": 50,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "15–35 cm",
+   "lo": 0.15,
+   "hi": 0.35,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "鳞茎直径",
+   "value": "3–7 cm",
+   "lo": 0.03,
+   "hi": 0.07,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "早春浓香",
+   "icon": "bee",
+   "desc": "花香浓郁，在早春很早开花；蜜蜂等昆虫传粉。"
+  },
+  {
+   "name": "鳞茎分株",
+   "icon": "clone",
+   "desc": "很容易靠分出新长的小鳞茎繁殖。"
+  }
+ ],
+ "intro": [
+  "风信子是天门冬科的开花植物。",
+  "原产西亚：土耳其南部、叙利亚、黎巴嫩一带。",
+  "荷兰是它的主要栽培中心，法国用它制香水。"
+ ],
+ "fact": "温带地区到处栽培，常被“催花”在冬季室内开放。",
+ "range": "原产西亚；温带广泛栽培。",
+ "sources": [
+  "Wikipedia「Hyacinthus orientalis」"
+ ],
+ "footnote": "",
+ "warn": "据报道全株对人和动物有毒，不可食用。"
+}

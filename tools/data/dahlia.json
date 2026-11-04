@@ -1,0 +1,79 @@
+{
+ "file": "大丽花",
+ "no": "1345",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "大丽花",
+ "name_en": "Garden dahlia",
+ "latin": "Dahlia pinnata",
+ "short": "大丽花",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "农田"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "70–120 cm",
+   "lo": 0.7,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "花头直径",
+   "value": "6–10 cm",
+   "lo": 0.06,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每茎花头",
+   "value": "2–8 个",
+   "lo": 2,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "传入西班牙",
+   "value": "1798 年",
+   "lo": 1798,
+   "hi": 1798,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "块根",
+   "icon": "root",
+   "desc": "有根状茎和块根，常靠分块根或扦插繁殖。"
+  },
+  {
+   "name": "阿兹特克花",
+   "icon": "sun",
+   "desc": "美洲被发现之前，阿兹特克人就栽培它。"
+  }
+ ],
+ "intro": [
+  "大丽花是菊科大丽花属的模式种。",
+  "它是多年生草本，被广泛栽培。",
+  "7–10 月开花。"
+ ],
+ "fact": "它的根含菊粉，块根外皮据称含抗菌化合物。",
+ "range": "原产墨西哥城周围的山区；世界广泛栽培。",
+ "sources": [
+  "Wikipedia「Dahlia pinnata」"
+ ],
+ "footnote": "“传入西班牙”比例条仅示意。"
+}

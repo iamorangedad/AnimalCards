@@ -1,0 +1,78 @@
+{
+ "file": "唐菖蒲",
+ "no": "1346",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "唐菖蒲",
+ "name_en": "Gladiolus",
+ "latin": "Gladiolus",
+ "short": "唐菖蒲",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*野生花径",
+   "value": "最大约 40 mm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "*物种与杂交",
+   "value": "近 300 个",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "*耐寒",
+   "value": "最低 −26 °C",
+   "lo": -26,
+   "hi": -26,
+   "scale": "tempw",
+   "approx": false
+  },
+  {
+   "label": "*欧亚原生",
+   "value": "约 10 种",
+   "lo": 10,
+   "hi": 10,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "*剑叶",
+   "icon": "thorn",
+   "desc": "属名来自拉丁语 gladius（剑）的指小词，也叫“剑兰”。"
+  },
+  {
+   "name": "*球茎",
+   "icon": "root",
+   "desc": "从圆形球茎长出，外面裹着几层褐色纤维膜。"
+  }
+ ],
+ "intro": [
+  "唐菖蒲属是鸢尾科的多年生球茎植物。",
+  "它分布于亚洲、地中海欧洲、南非和热带非洲。",
+  "物种多样性中心在开普植物区。"
+ ],
+ "fact": "欧洲和非洲高海拔的一些种以及“Nanus”杂交种很耐寒。",
+ "range": "亚洲、地中海欧洲、非洲（开普最多）。",
+ "sources": [
+  "Wikipedia「Gladiolus」"
+ ],
+ "footnote": "* 为属级数据。"
+}

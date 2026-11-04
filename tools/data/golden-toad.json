@@ -1,0 +1,80 @@
+{
+ "file": "金蟾蜍",
+ "no": "1335",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "金蟾蜍",
+ "name_en": "Golden toad",
+ "latin": "Incilius periglenes",
+ "short": "金蟾蜍",
+ "type": "两栖",
+ "habitat": [
+  "林地",
+  "水中"
+ ],
+ "diet": "食虫",
+ "diet_note": "维基未详述食性（待核）",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2020",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "雌体长",
+   "value": "42–56 mm",
+   "lo": 0.042,
+   "hi": 0.056,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "分布面积",
+   "value": "至多 8 km²",
+   "lo": 8,
+   "hi": 8,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "1500–1620 m",
+   "lo": 1500,
+   "hi": 1620,
+   "scale": "alt",
+   "approx": false
+  },
+  {
+   "label": "每周产卵",
+   "value": "200–400 枚",
+   "lo": 200,
+   "hi": 400,
+   "scale": "eggs",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "金色雄蟾",
+   "icon": "sun",
+   "desc": "雄蟾是亮橙色，雌蟾颜色更多样。"
+  },
+  {
+   "name": "极小分布",
+   "icon": "camo",
+   "desc": "只生活在哥斯达黎加蒙特维多约 4 km² 的高地。"
+  }
+ ],
+ "intro": [
+  "金蟾蜍是一种已灭绝的蟾蜍。",
+  "它常被看作两栖动物衰退危机的“代表”。",
+  "2004 年 IUCN 宣布它灭绝。"
+ ],
+ "fact": "最后一次目击是 1989 年 5 月 15 日的一只雄蟾。",
+ "range": "哥斯达黎加蒙特维多（已灭绝）。",
+ "sources": [
+  "Wikipedia「Golden toad」",
+  "IUCN 红色名录（IUCN SSC Amphibian Specialist Group 2020）"
+ ],
+ "footnote": ""
+}

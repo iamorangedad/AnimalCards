@@ -1,0 +1,80 @@
+{
+ "file": "大海雀",
+ "no": "1331",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "大海雀",
+ "name_en": "Great auk",
+ "latin": "Pinguinus impennis",
+ "short": "大海雀",
+ "type": "两栖",
+ "habitat": [
+  "水中",
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "最爱吃鱼（如大西洋油鲱和毛鳞鱼）和甲壳类",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2021",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "身高",
+   "value": "约 75 cm",
+   "lo": 0.75,
+   "hi": 0.75,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "翅膀长",
+   "value": "仅 15 cm",
+   "lo": 0.15,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "潜水深度",
+   "value": "75 m",
+   "lo": 75,
+   "hi": 75,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "约 20–25 年",
+   "lo": 20,
+   "hi": 25,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "不会飞",
+   "icon": "dive",
+   "desc": "翅膀只有 15 cm 长，不会飞，但能潜到 75 m 深。"
+  },
+  {
+   "name": "一窝一蛋",
+   "icon": "huddle",
+   "desc": "在极其密集的群落里繁殖，在裸岩上只产一枚蛋。"
+  }
+ ],
+ "intro": [
+  "大海雀是一种不会飞的海雀科鸟类，约 40 万年前出现。",
+  "南半球的企鹅（penguin）正是因为长得像它而得名。",
+  "喙长 11 cm，上下有深深的白色沟纹。"
+ ],
+ "fact": "1844 年 6 月 3 日，最后两只确认的大海雀在冰岛外的埃尔德岛被杀。",
+ "range": "北大西洋（已灭绝）。",
+ "sources": [
+  "Wikipedia「Great auk」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": ""
+}

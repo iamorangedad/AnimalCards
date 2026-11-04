@@ -1,0 +1,70 @@
+{
+ "file": "象鸟",
+ "no": "1337",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "象鸟",
+ "name_en": "Elephant bird (Aepyornis)",
+ "latin": "Aepyornis",
+ "short": "象鸟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "*（属级）一项 2022 年研究认为 A. hildebrandti 是混合取食者",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 年份待核",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "*身高",
+   "value": "可达 3 m",
+   "lo": 3,
+   "hi": 3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "*物种数",
+   "value": "2 种",
+   "lo": 2,
+   "hi": 2,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "*灭绝",
+   "value": "约公元 1000 年",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "*史上最大鸟",
+   "icon": "huddle",
+   "desc": "A. maximus 可能是有史以来最大的鸟。"
+  },
+  {
+   "name": "*巨蛋",
+   "icon": "seed",
+   "desc": "有一枚完整的蛋里保存着孵化到 80%–90% 的胚胎骨骼。"
+  }
+ ],
+ "intro": [
+  "象鸟属是马达加斯加特有的已灭绝象鸟。",
+  "它有两个种：较小的 A. hildebrandti 和较大的 A. maximus。",
+  "DNA 显示它最近的现存亲戚是新西兰的几维鸟。"
+ ],
+ "fact": "这个属大约在公元 1000 年灭绝，可能和人类活动有关。",
+ "range": "马达加斯加（已灭绝）。",
+ "sources": [
+  "Wikipedia「Aepyornis」"
+ ],
+ "footnote": "* 为属级数据；IUCN 列为灭绝（维基未给年份，待核）。"
+}

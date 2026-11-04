@@ -1,0 +1,79 @@
+{
+ "file": "欧丁香",
+ "no": "1341",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "欧丁香",
+ "name_en": "Common lilac",
+ "latin": "Syringa vulgaris",
+ "short": "欧丁香",
+ "type": "植物",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 年份待核",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "6–7 m",
+   "lo": 6,
+   "hi": 7,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "花序长",
+   "value": "8–18 cm",
+   "lo": 0.08,
+   "hi": 0.18,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "4–12 cm",
+   "lo": 0.04,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花冠筒",
+   "value": "6–10 mm",
+   "lo": 0.006,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "香花",
+   "icon": "bee",
+   "desc": "春天开浓香的花，通常是淡紫到紫红色，偶尔白色。"
+  },
+  {
+   "name": "隔年盛花",
+   "icon": "sun",
+   "desc": "常隔一年大量开花，花后剪掉残花能改善。"
+  }
+ ],
+ "intro": [
+  "欧丁香是木樨科的开花植物，原产巴尔干半岛。",
+  "它是落叶大灌木或多干小乔木。",
+  "它被选为美国新罕布什尔州的州花。"
+ ],
+ "fact": "蒴果成熟后裂成两半，放出两粒带翅的种子。",
+ "range": "原产巴尔干；欧洲、亚洲、北美广泛栽培并归化。",
+ "sources": [
+  "Wikipedia「Syringa vulgaris」"
+ ],
+ "footnote": "IUCN 列为无危（维基未给年份，待核）。"
+}

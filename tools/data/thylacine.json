@@ -1,0 +1,78 @@
+{
+ "file": "袋狼",
+ "no": "1327",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "袋狼",
+ "name_en": "Thylacine",
+ "latin": "Thylacinus cynocephalus",
+ "short": "袋狼",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "肉食",
+ "diet_note": "独居的伏击型捕食者，专门猎捕小到中型猎物",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 年份待核",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "约 60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体长",
+   "value": "1–1.3 m",
+   "lo": 1,
+   "hi": 1.3,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公平均体重",
+   "value": "19.7 kg",
+   "lo": 19.7,
+   "hi": 19.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "咬合力商",
+   "value": "166",
+   "lo": 166,
+   "hi": 166,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "背部条纹",
+   "icon": "camo",
+   "desc": "背上有深色横纹，所以叫“塔斯马尼亚虎”。"
+  },
+  {
+   "name": "两性有袋",
+   "icon": "huddle",
+   "desc": "雌雄都有育儿袋，是有袋类动物。"
+  }
+ ],
+ "intro": [
+  "袋狼也叫塔斯马尼亚虎、塔斯马尼亚狼，是已灭绝的肉食性有袋类。",
+  "它曾分布在澳大利亚大陆、塔斯马尼亚和新几内亚。",
+  "名字来自希腊语 thýlakos（袋子）。"
+ ],
+ "fact": "已知最后一只袋狼于 1936 年 9 月 7 日死在塔斯马尼亚的霍巴特动物园。",
+ "range": "澳大利亚大陆、塔斯马尼亚、新几内亚（已灭绝）。",
+ "sources": [
+  "Wikipedia「Thylacine」"
+ ],
+ "footnote": "IUCN 列为灭绝（维基未给年份，待核）。"
+}

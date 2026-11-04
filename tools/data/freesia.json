@@ -1,0 +1,78 @@
+{
+ "file": "小苍兰",
+ "no": "1344",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "小苍兰",
+ "name_en": "Freesia",
+ "latin": "Freesia",
+ "short": "小苍兰",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "*球茎直径",
+   "value": "1–2.5 cm",
+   "lo": 0.01,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "*茎高",
+   "value": "10–40 cm",
+   "lo": 0.1,
+   "hi": 0.4,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "*叶长",
+   "value": "10–30 cm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "*花瓣",
+   "value": "6 片",
+   "lo": 6,
+   "hi": 6,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "*漏斗香花",
+   "icon": "bee",
+   "desc": "很多种的花呈窄漏斗形，带香味。"
+  },
+  {
+   "name": "*单侧花穗",
+   "icon": "sun",
+   "desc": "花沿着花穗的一侧排开。"
+  }
+ ],
+ "intro": [
+  "香雪兰属是鸢尾科的多年生草本。",
+  "它原产非洲南部东侧，从肯尼亚到南非，多数在开普省。",
+  "属名纪念德国医生 Friedrich Freese。"
+ ],
+ "fact": "常见的“香雪兰”花卉是几个物种的栽培杂交种。",
+ "range": "非洲南部和东部（开普省最多）。",
+ "sources": [
+  "Wikipedia「Freesia」"
+ ],
+ "footnote": "* 为属级数据。"
+}

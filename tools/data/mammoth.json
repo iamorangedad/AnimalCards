@@ -1,0 +1,78 @@
+{
+ "file": "真猛犸象",
+ "no": "1326",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "真猛犸象",
+ "name_en": "Woolly mammoth",
+ "latin": "Mammuthus primigenius",
+ "short": "真猛犸象",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "主要吃杂草类植物和禾草",
+ "iucn": {
+  "code": "NE",
+  "sub": "史前灭绝未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "公肩高",
+   "value": "2.67–3.49 m",
+   "lo": 2.67,
+   "hi": 3.49,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "公体重",
+   "value": "3.9–8.2 吨",
+   "lo": 3900,
+   "hi": 8200,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "新生幼崽",
+   "value": "约 90 kg",
+   "lo": 90,
+   "hi": 90,
+   "scale": "mass_xl",
+   "approx": true
+  },
+  {
+   "label": "弗兰格尔岛",
+   "value": "约 4000 年前灭绝",
+   "lo": 4000,
+   "hi": 4000,
+   "scale": "yrs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "长毛御寒",
+   "icon": "cold",
+   "desc": "身上有长长的护毛和较短的底绒。"
+  },
+  {
+   "name": "小耳短尾",
+   "icon": "ear",
+   "desc": "耳朵小、尾巴短，减少冻伤和散热。"
+  }
+ ],
+ "intro": [
+  "真猛犸象是一种已灭绝的猛犸象，生活在中更新世到全新世。",
+  "约 80 万年前它在西伯利亚从草原猛犸象中分化出来。",
+  "早期人类猎杀它，用它的骨和牙做艺术品、工具和住所。"
+ ],
+ "fact": "西伯利亚大陆上的种群约 1 万年前消失，弗兰格尔岛上的一直活到约 4000 年前。",
+ "range": "更新世欧亚大陆北部和北美北部（已灭绝）。",
+ "sources": [
+  "Wikipedia「Woolly mammoth」"
+ ],
+ "footnote": "史前灭绝物种，IUCN 不评估。"
+}

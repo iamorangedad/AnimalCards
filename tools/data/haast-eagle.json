@@ -1,0 +1,79 @@
+{
+ "file": "哈斯特鹰",
+ "no": "1339",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "哈斯特鹰",
+ "name_en": "Haast's eagle",
+ "latin": "Hieraaetus moorei",
+ "short": "哈斯特鹰",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要猎物是不会飞的恐鸟，最大的恐鸟可重 200 kg",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 年份待核",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "雌体重",
+   "value": "10–18 kg",
+   "lo": 10,
+   "hi": 18,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雄体重",
+   "value": "9–12 kg",
+   "lo": 9,
+   "hi": 12,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "雌翼展",
+   "value": "可达 2.6 m",
+   "lo": 2.6,
+   "hi": 2.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "灭绝",
+   "value": "约 1445 年",
+   "lo": 1445,
+   "hi": 1445,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大的鹰",
+   "icon": "wind",
+   "desc": "现存最大的鹰比它小约 40%。"
+  },
+  {
+   "name": "猎杀恐鸟",
+   "icon": "food",
+   "desc": "巨大的体型是为了捕猎体型巨大的恐鸟。"
+  }
+ ],
+ "intro": [
+  "哈斯特鹰是生活在新西兰南岛的已灭绝鹰类。",
+  "人们普遍认为它就是毛利神话中的 pouākai。",
+  "它和小型鹰的分化可能只在 180 万–70 万年前。"
+ ],
+ "fact": "毛利人到来后猎光了恐鸟，哈斯特鹰也在约 1445 年灭绝。",
+ "range": "新西兰南岛（已灭绝）。",
+ "sources": [
+  "Wikipedia「Haast's eagle」"
+ ],
+ "footnote": "IUCN 列为灭绝（维基未给年份，待核）。"
+}

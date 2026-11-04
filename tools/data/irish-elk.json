@@ -1,0 +1,78 @@
+{
+ "file": "大角鹿",
+ "no": "1338",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "大角鹿",
+ "name_en": "Irish elk",
+ "latin": "Megaloceros giganteus",
+ "short": "大角鹿",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "维基未详述食性（待核）",
+ "iucn": {
+  "code": "NE",
+  "sub": "史前灭绝未评估",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "肩高",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "450–600 kg",
+   "lo": 450,
+   "hi": 600,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "鹿角宽",
+   "value": "超过 4.2 m",
+   "lo": 4.2,
+   "hi": 4.2,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "鹿角重",
+   "value": "最重 40 kg",
+   "lo": 40,
+   "hi": 40,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大鹿角",
+   "icon": "thorn",
+   "desc": "掌状鹿角宽可达 4.2 m 以上，是已知鹿类中最大的。"
+  },
+  {
+   "name": "借骨长角",
+   "icon": "food",
+   "desc": "长角时会从自己的骨头里调用矿物质，类似骨质疏松。"
+  }
+ ],
+ "intro": [
+  "大角鹿也叫巨鹿或爱尔兰鹿，是已灭绝的大角鹿属鹿类。",
+  "它是有史以来最大的鹿之一。",
+  "分布从爱尔兰横跨北欧亚大陆。"
+ ],
+ "fact": "最近的遗骸放射性碳测年约 7700 年前，出自俄罗斯西部。",
+ "range": "北欧亚大陆（已灭绝）。",
+ "sources": [
+  "Wikipedia「Irish elk」"
+ ],
+ "footnote": "史前灭绝物种，IUCN 不评估。"
+}

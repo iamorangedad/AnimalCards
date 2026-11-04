@@ -1,0 +1,80 @@
+{
+ "file": "旅鸽",
+ "no": "1328",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "旅鸽",
+ "name_en": "Passenger pigeon",
+ "latin": "Ectopistes migratorius",
+ "short": "旅鸽",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃山毛榉和栎树的坚果（mast），也吃果实和无脊椎动物",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2019",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "公体长",
+   "value": "390–410 mm",
+   "lo": 0.39,
+   "hi": 0.41,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "260–340 g",
+   "lo": 0.26,
+   "hi": 0.34,
+   "scale": "mass_s",
+   "approx": false
+  },
+  {
+   "label": "飞行速度",
+   "value": "可达 100 km/h",
+   "lo": 100,
+   "hi": 100,
+   "scale": "speed",
+   "approx": false
+  },
+  {
+   "label": "鼎盛数量",
+   "value": "约 30 亿",
+   "lo": 3000000000.0,
+   "hi": 3000000000.0,
+   "scale": "cnt",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "遮天鸽群",
+   "icon": "team",
+   "desc": "曾经是北美最多的鸟，迁徙时鸽群极其庞大。"
+  },
+  {
+   "name": "飞得很快",
+   "icon": "wind",
+   "desc": "飞行速度可达 100 km/h。"
+  }
+ ],
+ "intro": [
+  "旅鸽是北美特有的已灭绝鸽子。",
+  "英文名来自法语 passager（经过的），因为它们总在迁徙。",
+  "它们集体栖息、集体繁殖。"
+ ],
+ "fact": "人们认为最后一只旅鸽“玛莎”于 1914 年 9 月 1 日死在辛辛那提动物园。",
+ "range": "北美东部（已灭绝）。",
+ "sources": [
+  "Wikipedia「Passenger pigeon」",
+  "IUCN 红色名录（BirdLife International 2019）"
+ ],
+ "footnote": "“鼎盛数量”维基称约 30 亿，可能高达 50 亿。"
+}

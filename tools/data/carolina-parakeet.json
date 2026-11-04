@@ -1,0 +1,81 @@
+{
+ "file": "卡罗来纳鹦哥",
+ "no": "1336",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "卡罗来纳鹦哥",
+ "name_en": "Carolina parakeet",
+ "latin": "Conuropsis carolinensis",
+ "short": "卡罗来纳鹦哥",
+ "type": "天空",
+ "habitat": [
+  "天空",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃种子，包括有毒的苍耳种子",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2021",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "蛋直径",
+   "value": "4.1 cm",
+   "lo": 0.041,
+   "hi": 0.041,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "每窝蛋",
+   "value": "2–5 枚",
+   "lo": 2,
+   "hi": 5,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "圈养",
+   "value": "超过 35 年",
+   "lo": 35,
+   "hi": 35,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "宣布灭绝",
+   "value": "1939 年",
+   "lo": 1939,
+   "hi": 1939,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "黄头绿鹦",
+   "icon": "sun",
+   "desc": "身体绿色，头亮黄，脸橙红色。"
+  },
+  {
+   "name": "可能有毒",
+   "icon": "toxic",
+   "desc": "奥杜邦记录猫吃了它们后似乎死了，可能因为它们吃苍耳种子。"
+  }
+ ],
+ "intro": [
+  "卡罗莱纳长尾鹦鹉是美国东部原产的已灭绝小型鹦鹉。",
+  "它们成大群生活，非常吵闹。",
+  "在树洞里筑巢。"
+ ],
+ "fact": "最后一只已知个体“Incas”1918 年死在辛辛那提动物园，1939 年它被宣布灭绝。",
+ "range": "美国东部（已灭绝）。",
+ "sources": [
+  "Wikipedia「Carolina parakeet」",
+  "IUCN 红色名录（BirdLife International 2021）"
+ ],
+ "footnote": "“宣布灭绝”比例条仅示意。",
+ "warn": "历史记载称它可能有毒（待核）。"
+}

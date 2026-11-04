@@ -1,0 +1,80 @@
+{
+ "file": "原牛",
+ "no": "1333",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "原牛",
+ "name_en": "Aurochs",
+ "latin": "Bos primigenius",
+ "short": "原牛",
+ "type": "陆地",
+ "habitat": [
+  "陆地",
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "可能是吃草者，食性和家牛很相似",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2023",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "公肩高",
+   "value": "最高 1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "母肩高",
+   "value": "最高 1.55 m",
+   "lo": 1.55,
+   "hi": 1.55,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "角长",
+   "value": "可达 80 cm",
+   "lo": 0.8,
+   "hi": 0.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最后个体",
+   "value": "1627 年",
+   "lo": 1627,
+   "hi": 1627,
+   "scale": "n1000",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "家牛祖先",
+   "icon": "team",
+   "desc": "它是现代家牛的野生祖先，印度原牛驯化成了瘤牛。"
+  },
+  {
+   "name": "巨大牛角",
+   "icon": "thorn",
+   "desc": "又长又宽的角可达 80 cm。"
+  }
+ ],
+ "intro": [
+  "原牛是一种已灭绝的牛科动物。",
+  "它是全新世最大的食草动物之一。",
+  "它的角曾被用作祭品、战利品和酒杯。"
+ ],
+ "fact": "公认的最后一头原牛 1627 年死在波兰的亚克托鲁夫森林。",
+ "range": "西欧、北非到印度次大陆和东亚（已灭绝）。",
+ "sources": [
+  "Wikipedia「Aurochs」",
+  "IUCN 红色名录（Mallon, D.P. 2023）"
+ ],
+ "footnote": "“最后个体”比例条仅示意。"
+}

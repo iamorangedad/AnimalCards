@@ -1,0 +1,79 @@
+{
+ "file": "大海牛",
+ "no": "1329",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "大海牛",
+ "name_en": "Steller's sea cow",
+ "latin": "Hydrodamalis gigas",
+ "short": "大海牛",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "草食",
+ "diet_note": "以海带（大型褐藻）为主食，是食藻动物",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2016",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "成体体长",
+   "value": "最长 9 m",
+   "lo": 9,
+   "hi": 9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "成体体重",
+   "value": "8–10 吨",
+   "lo": 8000,
+   "hi": 10000,
+   "scale": "mass_xl",
+   "approx": false
+  },
+  {
+   "label": "皮厚",
+   "value": "2.5 cm",
+   "lo": 0.025,
+   "hi": 0.025,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "发现到灭绝",
+   "value": "27 年",
+   "lo": 27,
+   "hi": 27,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "无牙吃藻",
+   "icon": "food",
+   "desc": "没有真正的牙齿，用上唇的白色刚毛和嘴里的角质板撕扯海藻。"
+  },
+  {
+   "name": "厚皮护身",
+   "icon": "cold",
+   "desc": "2.5 cm 厚的外皮保护它不被岩石和冰划伤。"
+  }
+ ],
+ "intro": [
+  "斯特拉海牛是已灭绝的海牛目动物，1741 年由斯特拉描述。",
+  "当时它只生活在白令海的科曼多尔群岛附近。",
+  "它属于儒艮科，现存唯一的成员是约 3 m 长的儒艮。"
+ ],
+ "fact": "被欧洲人发现后仅 27 年，行动缓慢、易于捕捉的它就因肉、脂肪和皮被猎杀殆尽。",
+ "range": "白令海科曼多尔群岛（已灭绝）。",
+ "sources": [
+  "Wikipedia「Steller's sea cow」",
+  "IUCN 红色名录（Domning, D. 2016）"
+ ],
+ "footnote": ""
+}

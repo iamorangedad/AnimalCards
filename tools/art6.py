@@ -629,3 +629,40 @@ def _siph(w, h):
     o += "".join(P(f"M{-250+i*52} {-86+(i%2)*10} C{-260+i*52} -20 {-230+i*52} 30 {-250+i*52} 90", sw=1.6, col="#f2a0b0") for i in range(11))
     return scene("deep", w, h, o, box=(w / 2, h * .58, 660, 300))
 ART6["siphonophore"] = _siph
+# ---- batch p5_ext1 ----
+_sirenian = _a4._sirenian
+ART6["mammoth"] = _recol(_art.elephant, [("#e3e6ea", "#8a5a3a"), ("#c9ced4", "#8a5a3a"), ("#6b7075", "#5a3a20"), ("#9a9ea4", "#6a4a2a"), ("#d3d8de", "#7a4a2a"), ("#c9ccd1", "#7a4a2a")])
+ART6["thylacine"] = Q("forest", None, F="#c9a06a", bl=280, bd=96, lh=100, lw=20, belly="#e8d4b0", pattern="stripes", pat_col="#3a2a1e", neck=(30, 40), nw=56, head=(40, 34), snout=(48, 26),
+                      snout_col="#c9a06a", ears="point", tail="thin", tail_col="#c9a06a")
+ART6["passenger-pigeon"] = B("forest", (.78, 460, 400), pre=branch(-180, 180, 5), F="#8a96a8", wing="#7a8698", rx=70, ry=40, tilt=-18, neck=12, nw=34, hr=22, beak="short", beak_col="#2a2a2a", leg_len=30, leg_col="#d85a4a", legw=4,
+                             tail="long", tail_col="#7a8698", belly="#c87a5a", eye_ring="#d85a4a")
+ART6["steller-cow"] = lambda w, h: scene("sea", w, h, G_(_sirenian("#5a5048", "fluke"), 0, 0, 1.2), box=(w / 2, h * .7, 680, 300))
+ART6["quagga"] = Q("savanna", None, F="#9a6a3a", bl=280, bd=120, lh=150, lw=26, neck=(70, 32), nw=66, head=(40, 36), snout=(52, 34), snout_col="#3a3f45", ears="point", mane="zebra",
+                   tail="tuft", tail_col="#5a3a1e", hooves=INK, belly="#f4ecd8", front_extras="".join(P(f"M{x} -262 l-6 96", sw=7, col="#f4ecd8") for x in (-128, -108, -88, -68)))
+ART6["great-auk"] = _peng5("#1f1f22", "#ffffff", lambda: E(-14, -300, 14, 10, "#ffffff", 0) + P("M-44 -292 L-96 -276 L-44 -258 Z", "#1f1f22", 2) + P("M-80 -284 l10 12 M-66 -288 l10 14", sw=3, col="#ffffff"), kind="sea", beak="#1f1f22", feet=INK)
+ART6["moa"] = B("forest", (.82, 520, 460), F="#7a5a3a", wing="#6a4a2a", rx=110, ry=76, tilt=-4, neck=200, nw=30, hr=24, beak="short", beak_col="#8a8070", leg_len=200, leg_col="#6a6a5a", legw=14, tail="short", tail_col="#6a4a2a")
+ART6["aurochs"] = Q("meadow", None, F="#2a2220", bl=330, bd=150, lh=130, lw=34, neck=(20, 60), nw=90, head=(52, 48), snout=(42, 38), snout_col="#d9c8b0", ears="side", horns="cow", tail="tuft",
+                    tail_col="#1a1410", hooves=INK, extras=P("M120 -150 L300 -160", sw=6, col="#c9a87a"))
+ART6["baiji"] = _ceta("#a8b0b8", 360, 90, belly="#f2f4f6", box=None, extras=P("M-180 0 L-260 6 L-180 14 Z", "#a8b0b8", 2.4))
+ART6["golden-toad"] = FR_("rainforest", "#f2801a", "#f29a3a")
+ART6["carolina-parakeet"] = mk_bird(dict(F="#5ab04a", wing="#3a903a", rx=58, ry=44, tilt=-36, neck=6, nw=42, hr=30, beak="hook", beak_col="#f2e8d0", leg_len=28, leg_col="#c9b8a8",
+          tail="long", tail_col="#3a903a", head_col="#f6d43a", eye_ring="#f2802a"), kind="forest")
+ART6["elephant-bird"] = B("forest", (.82, 520, 460), F="#5a4a3a", wing="#4a3a2a", rx=120, ry=86, tilt=-4, neck=170, nw=36, hr=26, beak="short", beak_col="#8a8070", leg_len=190, leg_col="#6a6a5a", legw=16, tail="short", tail_col="#4a3a2a",
+                          post=E(220, -60, 50, 66, "#f4ecd8", 2.6))
+ART6["irish-elk"] = Q("forest", (.78, 600, 480), F="#a8784a", bl=320, bd=136, lh=160, lw=26, belly="#d9b890", neck=(50, 40), nw=70, head=(46, 38), snout=(50, 30), snout_col="#8a6a4a",
+                      ears="side", horns="antler", tail="short", tail_col="#5a4030", hooves=INK, shoulder=30)
+ART6["haast-eagle"] = B("forest", (.8, 520, 440), pre=branch(-200, 200, 6), F="#5a3d2b", wing="#4a3222", rx=100, ry=70, tilt=-26, neck=16, nw=54, hr=38, beak="hook", beak_col="#f2c53a", leg_len=46, leg_col="#f2c53a", legw=9,
+                        tail="long", tail_col="#4a3222", belly="#8a6a4a")
+ART6["pinta-tortoise"] = lambda w, h: scene("desert", w, h, turtle(shell="#4a4a3a", skin="#7a7a6a", L=320, H=190, scute="#3a3a2a", neck=90, plastron="#9a9a7a"), box=(w / 2, h * .74, 540, 320))
+# ---- batch p5_flo1 ----
+_shr = _a5._shr; _bush = _a5._bush
+ART6["lilac"] = PL("meadow", _shr(320, 200, "#7aa85a", lambda x, y: cluster(x, y, 30, "#b48ad9"), 6))
+ART6["hyacinth"] = PL("meadow", herb(lambda x, y: spike(x, y, 110, 12, "#7a5ad9", 9), H=160, stems=((-70, -10), (10, 10), (90, 0)), basal=True, leafL=80))
+ART6["gerbera"] = PL("meadow", herb(lambda x, y: daisy(x, y, 40, "#f2502a", "#5a3a1a", 22), H=230, stems=((-70, -20), (60, 10)), basal=True, leafL=70))
+ART6["freesia"] = PL("meadow", herb(lambda x, y: "".join(trumpet(x + i * 26, y + i * 10, -60, 34, 14, "#f6d43a", "#f2a03a") for i in range(4)), H=220, stems=((-60, -20), (50, 10)), basal=True, leafL=70))
+ART6["dahlia"] = PL("meadow", herb(lambda x, y: pompom(x, y, 44, "#d84a8a", 4), H=260, stems=((-80, -20), (10, 20), (100, 0)), leafL=60))
+ART6["gladiolus"] = PL("meadow", "".join(line(f"M{x} 0 L{x+dx} -220", 7, "#6a9a5a") for x, dx in ((-50, -20), (-10, -6), (30, 14))) + herb(lambda x, y: spike(x, y, 150, 18, "#f26a8a", 8), H=240, stems=((-30, -10), (40, 10)), n_leaf=0))
+ART6["anthurium"] = PL("home", potted(leaf(-60, -160, -130, 90, 60, "#3a7a3a") + leaf(60, -150, -50, 90, 60, "#3a7a3a") + line("M0 0 L0 -200", 6) + P("M0 -200 C-70 -260 -60 -320 0 -290 C60 -320 70 -260 0 -200 Z", "#e8302a", 2.6) + line("M0 -250 L24 -320", 10, "#f2e8b0")))
+ART6["calla"] = PL("wetland", herb(lambda x, y: trumpet(x, y, -70, 80, 40, "#ffffff", "#f6d43a"), H=260, stems=((-60, -10), (60, 10)), basal=True, leafL=90))
+ART6["poinsettia"] = PL("home", potted(_bush("#3a7a3a", 150, 200, lambda x, y: petals(x, y, 6, 36, col="#d8202a", center="#f6d43a", cr=6), 5)))
+ART6["bougainvillea"] = PL("savanna", _shr(340, 210, "#4a8a3a", lambda x, y: petals(x, y, 3, 22, col="#d8409a", center="#f4ecd8", cr=4), 8))

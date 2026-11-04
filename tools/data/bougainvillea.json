@@ -1,0 +1,79 @@
+{
+ "file": "光叶子花",
+ "no": "1350",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "光叶子花",
+ "name_en": "Lesser bougainvillea",
+ "latin": "Bougainvillea glabra",
+ "short": "光叶子花",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "株高",
+   "value": "3–3.5 m",
+   "lo": 3,
+   "hi": 3.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最高",
+   "value": "9 m",
+   "lo": 9,
+   "hi": 9,
+   "scale": "len_xl",
+   "approx": false
+  },
+  {
+   "label": "苞片长",
+   "value": "65–90 mm",
+   "lo": 0.065,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "花径",
+   "value": "约 0.4 cm",
+   "lo": 0.004,
+   "hi": 0.004,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "彩色苞片",
+   "icon": "sun",
+   "desc": "粉紫色像花瓣的部分其实是苞片，真正的花很小。"
+  },
+  {
+   "name": "带刺攀援",
+   "icon": "thorn",
+   "desc": "常绿攀援灌木，茎粗而有刺。"
+  }
+ ],
+ "intro": [
+  "光叶子花是最常用来做盆景的叶子花。",
+  "种加词 glabra 来自拉丁语，意思是“光秃的”。",
+  "叶片深绿色，形状多变。"
+ ],
+ "fact": "它耐热耐旱，但怕霜冻。",
+ "range": "热带、亚热带广泛栽培。",
+ "sources": [
+  "Wikipedia「Bougainvillea glabra」",
+  "IUCN 红色名录（Botanic Gardens Conservation International 2019）"
+ ],
+ "footnote": "原产地维基未详述（待核）。"
+}

@@ -1,0 +1,70 @@
+{
+ "file": "非洲菊",
+ "no": "1343",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "非洲菊",
+ "name_en": "Barberton daisy",
+ "latin": "Gerbera jamesonii",
+ "short": "非洲菊",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "花径",
+   "value": "4–5 cm",
+   "lo": 0.04,
+   "hi": 0.05,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "叶长",
+   "value": "15–42 cm",
+   "lo": 0.15,
+   "hi": 0.42,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "海拔",
+   "value": "500–1670 m",
+   "lo": 500,
+   "hi": 1670,
+   "scale": "alt",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "橙红花头",
+   "icon": "sun",
+   "desc": "头状花序的舌状花通常为橙红色（少见黄、橙、白、粉）。"
+  },
+  {
+   "name": "昆虫传粉",
+   "icon": "bee",
+   "desc": "花由蜜蜂等昆虫传粉。"
+  }
+ ],
+ "intro": [
+  "非洲菊属于菊科的大丁草属。",
+  "它原产非洲东南部，也叫巴伯顿雏菊、德兰士瓦雏菊。",
+  "种子有刚毛状冠毛。"
+ ],
+ "fact": "它生长在海拔 500–1670 m 的林地岩坡上，常在半阴处。",
+ "range": "南非姆普马兰加、林波波省和斯威士兰。",
+ "sources": [
+  "Wikipedia「Gerbera jamesonii」"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "平塔岛象龟",
+ "no": "1340",
+ "cat": "灭绝动物",
+ "kingdom": "动物",
+ "name_cn": "平塔岛象龟",
+ "name_en": "Pinta Island tortoise",
+ "latin": "Chelonoidis niger abingdonii",
+ "short": "平塔岛象龟",
+ "type": "陆地",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物，帮助传播种子；据称能半年不吃不喝",
+ "iucn": {
+  "code": "EX",
+  "sub": "IUCN 2022",
+  "cn": "灭绝"
+ },
+ "stats": [
+  {
+   "label": "发现乔治",
+   "value": "1971 年",
+   "lo": 1971,
+   "hi": 1971,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "乔治去世",
+   "value": "2012 年",
+   "lo": 2012,
+   "hi": 2012,
+   "scale": "n1000",
+   "approx": true
+  },
+  {
+   "label": "耐饥",
+   "value": "最长约 6 个月",
+   "lo": 6,
+   "hi": 6,
+   "scale": "months",
+   "approx": true
+  },
+  {
+   "label": "巨龟寿命",
+   "value": "可超 100 年",
+   "lo": 100,
+   "hi": 100,
+   "scale": "life_xl",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "孤独乔治",
+   "icon": "huddle",
+   "desc": "最后一只个体“孤独乔治”1971 年被发现，2012 年去世。"
+  },
+  {
+   "name": "生态工程师",
+   "icon": "seed",
+   "desc": "巨龟传播种子，通过啃食和养分循环塑造生态系统。"
+  }
+ ],
+ "intro": [
+  "平塔岛象龟是加拉帕戈斯象龟的一个最近灭绝的亚种。",
+  "它也叫阿宾登岛象龟。",
+  "人们曾试着让孤独乔治和其他亚种配对，但没有得到能孵化的蛋。"
+ ],
+ "fact": "孤独乔治死于 2012 年 6 月 24 日，这个亚种随之被认为灭绝。",
+ "range": "加拉帕戈斯群岛平塔岛（已灭绝）。",
+ "sources": [
+  "Wikipedia「Pinta Island tortoise」",
+  "IUCN 红色名录（Cayot, L.J. 2022）"
+ ],
+ "footnote": "“巨龟寿命”为象龟总体估计；年份比例条仅示意。"
+}

@@ -1,0 +1,63 @@
+{
+ "file": "红掌",
+ "no": "1347",
+ "cat": "花卉",
+ "kingdom": "植物",
+ "name_cn": "红掌",
+ "name_en": "Anthurium andraeanum",
+ "latin": "Anthurium andraeanum",
+ "short": "红掌",
+ "type": "植物",
+ "habitat": [
+  "陆地"
+ ],
+ "diet": "自养",
+ "diet_note": "靠光合作用自己制造养分",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）",
+  "cn": "未评估"
+ },
+ "stats": [
+  {
+   "label": "佛焰苞长",
+   "value": "8–15 cm",
+   "lo": 0.08,
+   "hi": 0.15,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "肉穗花序",
+   "value": "7–9 cm",
+   "lo": 0.07,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "蜡质苞片",
+   "icon": "sun",
+   "desc": "佛焰苞像蜡一样，有鲜艳的红色或粉色。"
+  },
+  {
+   "name": "园艺奖",
+   "icon": "team",
+   "desc": "获得英国皇家园艺学会“花园优异奖”，常做花束。"
+  }
+ ],
+ "intro": [
+  "花烛是天南星科的开花植物。",
+  "原产哥伦比亚和厄瓜多尔。",
+  "叶子心形，叶基心形、叶尖渐尖。"
+ ],
+ "fact": "它含皂苷和针状草酸钙晶体，能刺入黏膜引起疼痛。",
+ "range": "哥伦比亚、厄瓜多尔；广泛盆栽。",
+ "sources": [
+  "Wikipedia「Anthurium andraeanum」"
+ ],
+ "footnote": "",
+ "warn": "全株有毒；咬一小块就可能严重刺激口腔和喉咙（对所有哺乳动物）。"
+}

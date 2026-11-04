@@ -1,0 +1,77 @@
+{
+ "file": "角蝉",
+ "no": "1230",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "角蝉",
+ "name_en": "Thorn bug",
+ "latin": "Umbonia crassicornis",
+ "short": "角蝉",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "在亚热带观赏树和果树上吸食汁液",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 10 mm",
+   "lo": 0.01,
+   "hi": 0.01,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "每次产卵",
+   "value": "约 100 枚",
+   "lo": 100,
+   "hi": 100,
+   "scale": "n400",
+   "approx": true
+  },
+  {
+   "label": "母亲在场",
+   "value": "存活 53%",
+   "lo": 53,
+   "hi": 53,
+   "scale": "pct",
+   "approx": false
+  },
+  {
+   "label": "母亲不在",
+   "value": "存活 27%",
+   "lo": 27,
+   "hi": 27,
+   "scale": "pct",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "假装是刺",
+   "icon": "thorn",
+   "desc": "背上高高竖起像刺一样的前胸背板，让鸟以为它是植物的刺。"
+  },
+  {
+   "name": "妈妈护卫",
+   "icon": "huddle",
+   "desc": "母虫守着若虫，捕食者只有 25% 能得手；母虫不在时达 95%。"
+  }
+ ],
+ "intro": [
+  "角蝉是角蝉科分布很广的昆虫。",
+  "它在佛罗里达南部偶尔危害观赏树和果树。",
+  "0 °C 以下的低温对它是致命的。"
+ ],
+ "fact": "若虫受威胁时会同步振动发出警报，召唤母亲。",
+ "range": "南美洲北部的热带地区到墨西哥和佛罗里达。",
+ "sources": [
+  "Wikipedia「Thorn bug」"
+ ],
+ "footnote": ""
+}

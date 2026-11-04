@@ -1,0 +1,78 @@
+{
+ "file": "东部巨齿蛉",
+ "no": "1227",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "东部巨齿蛉",
+ "name_en": "Eastern dobsonfly",
+ "latin": "Corydalus cornutus",
+ "short": "东部巨齿蛉",
+ "type": "天空",
+ "habitat": [
+  "水中",
+  "林地"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼虫（“蛇蛉”）躲在石头下捕食软体无脊椎动物；成虫可能不进食",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "成虫体长",
+   "value": "最长 140 mm",
+   "lo": 0.14,
+   "hi": 0.14,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫大颚",
+   "value": "最长 40 mm",
+   "lo": 0.04,
+   "hi": 0.04,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "幼虫体长",
+   "value": "最长 90 mm",
+   "lo": 0.09,
+   "hi": 0.09,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一块卵",
+   "value": "约 1000 枚",
+   "lo": 1000,
+   "hi": 1000,
+   "scale": "eggs",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "超长大颚",
+   "icon": "trunk",
+   "desc": "雄虫的大颚呈镰刀状，长达 40 mm，约是身体的一半长。"
+  },
+  {
+   "name": "水下幼虫",
+   "icon": "dive",
+   "desc": "幼虫在溪流石头下生活，捕食软体无脊椎动物。"
+  }
+ ],
+ "intro": [
+  "东部巨齿蛉是齿蛉科的大型昆虫。",
+  "卵灰色圆柱形，约 1.4 mm 长，分三层叠放。",
+  "成虫多躲在溪边茂密的植被里。"
+ ],
+ "fact": "雌虫的大颚短而有力，和幼虫的差不多大。",
+ "range": "北美洲东部大部分地区。",
+ "sources": [
+  "Wikipedia「Eastern dobsonfly」"
+ ],
+ "footnote": ""
+}

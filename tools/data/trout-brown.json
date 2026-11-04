@@ -1,0 +1,79 @@
+{
+ "file": "河鳟",
+ "no": "1242",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "河鳟",
+ "name_en": "Brown trout",
+ "latin": "Salmo trutta",
+ "short": "河鳟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "淡水中吃昆虫、甲壳类、软体动物和蠕虫，也吃其他鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 100 cm",
+   "lo": 1.0,
+   "hi": 1.0,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "可达 20 kg 以上",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每公斤产卵",
+   "value": "约 2000 粒",
+   "lo": 2000,
+   "hi": 2000,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "寿命",
+   "value": "可达 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "海陆两型",
+   "icon": "dive",
+   "desc": "有的一辈子在淡水，有的下海长大，叫“海鳟”。"
+  },
+  {
+   "name": "昼夜觅食",
+   "icon": "food",
+   "desc": "白天黑夜都活动，是机会主义捕食者。"
+  }
+ ],
+ "intro": [
+  "河鳟是鲑属分布最广的鱼。",
+  "它被引入世界各地作为游钓鱼。",
+  "在原产地以外，它成了世界上最糟糕的入侵物种之一。"
+ ],
+ "fact": "它爱吃昆虫，因此是飞蝇钓最喜欢的目标。",
+ "range": "原产欧洲大部、西亚和北非部分地区；已引入全球。",
+ "sources": [
+  "Wikipedia「Brown trout」",
+  "IUCN 红色名录（Freyhof, J. 2024）"
+ ],
+ "footnote": ""
+}

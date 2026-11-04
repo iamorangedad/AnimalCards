@@ -1,0 +1,71 @@
+{
+ "file": "白斑狗鱼",
+ "no": "1237",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "白斑狗鱼",
+ "name_en": "Northern pike",
+ "latin": "Esox lucius",
+ "short": "白斑狗鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "伏击捕食鱼类；超过 70 cm 后吃更大的鱼，还会同类相食",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "40–55 cm",
+   "lo": 0.4,
+   "hi": 0.55,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "150 cm",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "28.4 kg",
+   "lo": 28.4,
+   "hi": 28.4,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "伏击高手",
+   "icon": "camo",
+   "desc": "长时间一动不动地埋伏，然后猛然加速扑向猎物。"
+  },
+  {
+   "name": "同类相食",
+   "icon": "food",
+   "desc": "幼鱼要躲在水草里，免得被大狗鱼吃掉。"
+  }
+ ],
+ "intro": [
+  "白斑狗鱼是狗鱼属的肉食性鱼。",
+  "它生活在缓流和水草多的浅湖，也住在冷而清澈的多石水域。",
+  "50 cm 的狗鱼约重 0.9 kg。"
+ ],
+ "fact": "在一些地方它被引入用于游钓，但可能威胁其他鱼类。",
+ "range": "北半球淡水（北美、欧洲和北亚）。",
+ "sources": [
+  "Wikipedia「Northern pike」",
+  "IUCN 红色名录（NatureServe 2018）"
+ ],
+ "footnote": ""
+}

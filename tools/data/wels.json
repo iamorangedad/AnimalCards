@@ -1,0 +1,79 @@
+{
+ "file": "欧洲鲶",
+ "no": "1236",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "欧洲鲶",
+ "name_en": "Wels catfish",
+ "latin": "Silurus glanis",
+ "short": "欧洲鲶",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃蠕虫、螺、昆虫、甲壳类和鱼；大个体还吃蛙、蛇、鼠和水鸟",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "1.3–1.6 m",
+   "lo": 1.3,
+   "hi": 1.6,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "2.2 m 重",
+   "value": "65 kg",
+   "lo": 65,
+   "hi": 65,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每公斤产卵",
+   "value": "最多 3 万粒",
+   "lo": 30000,
+   "hi": 30000,
+   "scale": "eggs",
+   "approx": false
+  },
+  {
+   "label": "平均寿命",
+   "value": "约 20 年",
+   "lo": 20,
+   "hi": 20,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "扑鸽子",
+   "icon": "food",
+   "desc": "在法国的引入地，有的会冲出水面抓岸边的鸽子。"
+  },
+  {
+   "name": "听声辨位",
+   "icon": "ear",
+   "desc": "主要靠灵敏的听觉和嗅觉捕猎。"
+  }
+ ],
+ "intro": [
+  "欧洲鲶是一种大型鲶鱼。",
+  "名字 Wels 与英语 whale（鲸）同源。",
+  "超过 2 m 的很少见。"
+ ],
+ "fact": "寒冷水域中它代谢慢，但寿命大大延长。",
+ "range": "欧洲中部、南部和东部，波罗的海、黑海和里海流域。",
+ "sources": [
+  "Wikipedia「Wels catfish」",
+  "IUCN 红色名录（Freyhof, J. 2024）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,73 @@
+{
+ "file": "南美淡水魟",
+ "no": "1234",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "南美淡水魟",
+ "name_en": "Ocellate river stingray",
+ "latin": "Potamotrygon motoro",
+ "short": "南美淡水魟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "（维基未详述食性，待核）",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2025",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "盘宽",
+   "value": "最大 50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "全长",
+   "value": "最长 1 m",
+   "lo": 1,
+   "hi": 1,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重",
+   "value": "最重 34.2 kg",
+   "lo": 34.2,
+   "hi": 34.2,
+   "scale": "mass",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "孔雀眼斑",
+   "icon": "camo",
+   "desc": "背上有黑边黄橙色的眼状斑点，所以叫“孔雀眼魟”。"
+  },
+  {
+   "name": "尾部毒刺",
+   "icon": "toxic",
+   "desc": "淡水魟科的鱼尾巴上有毒刺。"
+  }
+ ],
+ "intro": [
+  "南美淡水魟是淡水魟科的鱼。",
+  "亚马孙河流域有好几种不同花纹的类型。",
+  "它是最受欢迎的观赏淡水魟之一，但需要很大的鱼缸。"
+ ],
+ "fact": "秘鲁的“披巾魟”类型身上完全没有斑点。",
+ "range": "南美洲亚马孙、奥里诺科和拉普拉塔等流域。",
+ "sources": [
+  "Wikipedia「Ocellate river stingray」",
+  "Wikipedia「Potamotrygonidae」",
+  "IUCN 红色名录（Torres, Y.T.P. 2025）"
+ ],
+ "footnote": "毒刺信息来自淡水魟科页面。",
+ "warn": "尾部有毒刺，蹚水时拖着脚走，别踩到。"
+}

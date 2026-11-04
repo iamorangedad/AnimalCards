@@ -1,0 +1,79 @@
+{
+ "file": "哲罗鲑",
+ "no": "1244",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "哲罗鲑",
+ "name_en": "Siberian taimen",
+ "latin": "Hucho taimen",
+ "short": "哲罗鲑",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，也常吃鼠类和鸟等陆地猎物",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2013",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "70–120 cm",
+   "lo": 0.7,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "150–180 cm",
+   "lo": 1.5,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "常见体重",
+   "value": "15–30 kg",
+   "lo": 15,
+   "hi": 30,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "至少 55 年",
+   "lo": 55,
+   "hi": 55,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "吃老鼠",
+   "icon": "food",
+   "desc": "它主要吃鱼，但也常吃鼠类和鸟等陆地猎物。"
+  },
+  {
+   "name": "大范围游荡",
+   "icon": "dive",
+   "desc": "蒙古河流中平均家域 23 km，有的达 93 km。"
+  }
+ ],
+ "intro": [
+  "哲罗鲑是世界上最大的鲑科鱼，比北美的大鳞大马哈鱼还重。",
+  "IGFA 世界纪录是 45.8 kg、150 cm。",
+  "喀纳斯附近村民说见过超过 4 吨的鱼，但未证实。"
+ ],
+ "fact": "它在俄罗斯、哈萨克斯坦、蒙古和中国境内的河流中生活。",
+ "range": "伏尔加河、伯朝拉河流域向东到亚纳河、阿穆尔河流域。",
+ "sources": [
+  "Wikipedia「Siberian taimen」",
+  "IUCN 红色名录（Hogan, Z. 2013）"
+ ],
+ "footnote": "“超过 4 吨”为村民传说，未证实。"
+}

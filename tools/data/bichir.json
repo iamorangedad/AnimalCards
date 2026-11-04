@@ -1,0 +1,79 @@
+{
+ "file": "恩氏多鳍鱼",
+ "no": "1248",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "恩氏多鳍鱼",
+ "name_en": "Saddled bichir",
+ "latin": "Polypterus endlicheri",
+ "short": "恩氏多鳍鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃罗非鱼、鲶鱼等鱼类，也吃甲壳类、软体动物和腐肉",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2020",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成鱼体长",
+   "value": "61–76 cm",
+   "lo": 0.61,
+   "hi": 0.76,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "约 3.3 kg",
+   "lo": 3.3,
+   "hi": 3.3,
+   "scale": "mass",
+   "approx": true
+  },
+  {
+   "label": "背鳍小鳍",
+   "value": "11–14 片",
+   "lo": 11,
+   "hi": 14,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "胸鳍鳍条",
+   "value": "40–45 根",
+   "lo": 40,
+   "hi": 45,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "夜里嗅猎",
+   "icon": "ear",
+   "desc": "主要在夜间活动，靠灵敏的嗅觉追踪猎物。"
+  },
+  {
+   "name": "一排小背鳍",
+   "icon": "thorn",
+   "desc": "背上有 11–14 片分开的小鳍。"
+  }
+ ],
+ "intro": [
+  "恩氏多鳍鱼是多鳍鱼科 14 个现存种之一。",
+  "雌鱼通常比雄鱼大。",
+  "成鱼的天敌有鳄鱼、食鱼鸟、尼罗河鲈等。"
+ ],
+ "fact": "它连半咸水都能生活。",
+ "range": "非洲中部和西部的河流、湖泊和沼泽。",
+ "sources": [
+  "Wikipedia「Polypterus endlicherii」",
+  "IUCN 红色名录（Lalèyè, P. 2020）"
+ ],
+ "footnote": ""
+}

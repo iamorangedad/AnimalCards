@@ -1,0 +1,79 @@
+{
+ "file": "大口黑鲈",
+ "no": "1240",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "大口黑鲈",
+ "name_en": "Largemouth bass",
+ "latin": "Micropterus nigricans",
+ "short": "大口黑鲈",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼鱼吃小鱼、钩虾、水蚤和昆虫；成鱼几乎只吃鱼和小龙虾",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "75 cm",
+   "lo": 0.75,
+   "hi": 0.75,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "11.4 kg（非官方）",
+   "lo": 11.4,
+   "hi": 11.4,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "野外寿命",
+   "value": "10–16 年",
+   "lo": 10,
+   "hi": 16,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "产卵水温",
+   "value": "16 °C 以上",
+   "lo": 16,
+   "hi": 16,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大嘴吞食",
+   "icon": "food",
+   "desc": "猎物可达自身体长的 50% 甚至更大。"
+  },
+  {
+   "name": "水草藏身",
+   "icon": "camo",
+   "desc": "水草多的地方它抓猎物更难，长得更慢。"
+  }
+ ],
+ "intro": [
+  "大口黑鲈是太阳鱼科最大的黑鲈。",
+  "原产美国东部和中部、加拿大东南部和墨西哥北部。",
+  "它被引入许多国家，用于游钓。"
+ ],
+ "fact": "IGFA 规定新纪录至少要比旧纪录重 2 盎司，所以纪录有并列。",
+ "range": "原产美国东部和中部等地；已被引入世界许多地方。",
+ "sources": [
+  "Wikipedia「Largemouth bass」",
+  "IUCN 红色名录（NatureServe 2019）"
+ ],
+ "footnote": ""
+}

@@ -1,0 +1,79 @@
+{
+ "file": "匙吻鲟",
+ "no": "1246",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "匙吻鲟",
+ "name_en": "American paddlefish",
+ "latin": "Polyodon spathula",
+ "short": "匙吻鲟",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要滤食浮游动物，如桡足类、水蚤和蜉蝣稚虫",
+ "iucn": {
+  "code": "VU",
+  "sub": "IUCN 2022",
+  "cn": "易危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "1.5 m",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "平均体重",
+   "value": "27 kg",
+   "lo": 27,
+   "hi": 27,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "超过 30 年",
+   "lo": 30,
+   "hi": 30,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "有的可活",
+   "value": "60 年以上",
+   "lo": 60,
+   "hi": 60,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "桨形长吻",
+   "icon": "ear",
+   "desc": "像船桨的长吻约占身长三分之一，布满几万个感受器，能感知浮游动物的微弱电场。"
+  },
+  {
+   "name": "大口滤食",
+   "icon": "food",
+   "desc": "成鱼没有牙，靠张大嘴滤食浮游动物。"
+  }
+ ],
+ "intro": [
+  "匙吻鲟是一种鳍条鱼，骨骼几乎全是软骨。",
+  "它和鲟鱼是姐妹类群。",
+  "同属的化石可追溯到约 6500 万年前。"
+ ],
+ "fact": "DNA 显示中国的白鲟和它约在 6800 万年前分开。",
+ "range": "美国密西西比河流域。",
+ "sources": [
+  "Wikipedia「American paddlefish」",
+  "IUCN 红色名录（Moore, M. 2022）"
+ ],
+ "footnote": ""
+}

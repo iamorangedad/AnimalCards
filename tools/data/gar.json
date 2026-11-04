@@ -1,0 +1,80 @@
+{
+ "file": "雀鳝",
+ "no": "1247",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "雀鳝",
+ "name_en": "Alligator gar",
+ "latin": "Atractosteus spatula",
+ "short": "雀鳝",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，也伏击水面上的水鸟、龟和小型哺乳动物",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "成鱼常见",
+   "value": "1.8 m",
+   "lo": 1.8,
+   "hi": 1.8,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "成鱼体重",
+   "value": "超过 45 kg",
+   "lo": 45,
+   "hi": 45,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "纪录个体",
+   "value": "2.572 m、148 kg",
+   "lo": 2.572,
+   "hi": 2.572,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "估计年龄",
+   "value": "50–70 年",
+   "lo": 50,
+   "hi": 70,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "双排利齿",
+   "icon": "thorn",
+   "desc": "上颌有两排又大又尖的牙，用来刺穿并咬住猎物。"
+  },
+  {
+   "name": "有毒鱼卵",
+   "icon": "toxic",
+   "desc": "鱼卵鲜红，人吃了会中毒。"
+  }
+ ],
+ "intro": [
+  "鳄雀鳝是雀鳝科最大的鱼，和弓鳍鱼亲缘最近。",
+  "它是北美最大的淡水鱼之一。",
+  "它在水面下几英尺处等待猎物游近。"
+ ],
+ "fact": "它的类群化石可追溯到 1 亿多年前的早白垩世。",
+ "range": "美国南部到墨西哥，墨西哥湾沿岸的淡水和半咸水。",
+ "sources": [
+  "Wikipedia「Alligator gar」",
+  "IUCN 红色名录（Collette, B.B. 2019）"
+ ],
+ "footnote": "",
+ "warn": "鱼卵有毒，不能吃；牙齿锋利，别用手碰嘴。"
+}

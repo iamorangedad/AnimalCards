@@ -1,0 +1,80 @@
+{
+ "file": "红腹食人鲳",
+ "no": "1232",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "红腹食人鲳",
+ "name_en": "Red-bellied piranha",
+ "latin": "Pygocentrus nattereri",
+ "short": "红腹食人鲳",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "吃昆虫、蠕虫、甲壳类和鱼，也会吃落进水里的果实和种子",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最大体长",
+   "value": "50 cm",
+   "lo": 0.5,
+   "hi": 0.5,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "3.9 kg",
+   "lo": 3.9,
+   "hi": 3.9,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "每次产卵",
+   "value": "约 5000 粒",
+   "lo": 5000,
+   "hi": 5000,
+   "scale": "eggs",
+   "approx": true
+  },
+  {
+   "label": "适宜水温",
+   "value": "15–35 °C",
+   "lo": 15,
+   "hi": 35,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "偶尔疯抢",
+   "icon": "team",
+   "desc": "成群生活但不合作捕猎；偶尔会疯抢，几分钟吃掉一只大猎物。"
+  },
+  {
+   "name": "会“说话”",
+   "icon": "ear",
+   "desc": "会发出不同的声音：对峙时 120 Hz，争食打斗时 40 Hz。"
+  }
+ ],
+ "intro": [
+  "红腹食人鲳属于锯脂鲤科，和银板鱼是亲戚。",
+  "雄鱼在水草间挖 4–5 cm 深的巢。",
+  "体长很少超过 35 cm。"
+ ],
+ "fact": "它短时间能忍受低到 10 °C 的水温。",
+ "range": "南美洲亚马孙、巴拉圭、巴拉那和埃塞奎博河流域。",
+ "sources": [
+  "Wikipedia「Red-bellied piranha」",
+  "IUCN 红色名录（Brejão, G.L. 2024）"
+ ],
+ "footnote": "",
+ "warn": "牙齿锋利，钓到或捕捉时别用手碰它的嘴。"
+}

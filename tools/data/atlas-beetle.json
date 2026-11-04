@@ -1,0 +1,69 @@
+{
+ "file": "南洋大兜虫",
+ "no": "1226",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "南洋大兜虫",
+ "name_en": "Atlas beetle",
+ "latin": "Chalcosoma atlas",
+ "short": "南洋大兜虫",
+ "type": "陆地",
+ "habitat": [
+  "林地"
+ ],
+ "diet": "草食",
+ "diet_note": "（维基未详述食性）",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "雄虫体长",
+   "value": "60–120 mm",
+   "lo": 0.06,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雌虫体长",
+   "value": "25–60 mm",
+   "lo": 0.025,
+   "hi": 0.06,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "雄虫角",
+   "value": "3 支",
+   "lo": 3,
+   "hi": 3,
+   "scale": "n100",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "三支大角",
+   "icon": "trunk",
+   "desc": "雄虫头和胸上有三支大角，用来和别的雄虫打架争配偶。"
+  },
+  {
+   "name": "雄大雌小",
+   "icon": "huddle",
+   "desc": "和大多数金龟一样，雄虫比雌虫大得多。"
+  }
+ ],
+ "intro": [
+  "南洋大兜虫是金龟科的大型甲虫。",
+  "它生活在东南亚。",
+  "有未证实的说法称，空间或食物不够时幼虫会打到死。"
+ ],
+ "fact": "巨型土蜂 Megascolia procer 会用麻痹毒液把卵寄生在它身上。",
+ "range": "东南亚。",
+ "sources": [
+  "Wikipedia「Atlas beetle」"
+ ],
+ "footnote": "维基页面较短；幼虫打斗为未证实说法。"
+}

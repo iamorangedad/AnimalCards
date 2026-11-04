@@ -1,0 +1,79 @@
+{
+ "file": "澳洲肺鱼",
+ "no": "1249",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "澳洲肺鱼",
+ "name_en": "Australian lungfish",
+ "latin": "Neoceratodus forsteri",
+ "short": "澳洲肺鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "野外吃蛙、蝌蚪、鱼、多种无脊椎动物和植物",
+ "iucn": {
+  "code": "EN",
+  "sub": "IUCN 2019",
+  "cn": "濒危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "约 150 cm",
+   "lo": 1.5,
+   "hi": 1.5,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "最重 43 kg",
+   "lo": 43,
+   "hi": 43,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "常栖水深",
+   "value": "3–10 m",
+   "lo": 3,
+   "hi": 10,
+   "scale": "depth",
+   "approx": false
+  },
+  {
+   "label": "喜欢水温",
+   "value": "15–25 °C",
+   "lo": 15,
+   "hi": 25,
+   "scale": "temp",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "活化石",
+   "icon": "clone",
+   "desc": "1 亿多年前的化石几乎和它一模一样。"
+  },
+  {
+   "name": "巨型感光",
+   "icon": "ear",
+   "desc": "部分感光细胞直径达 20–24 μm，可能是动物界最大的。"
+  }
+ ],
+ "intro": [
+  "澳洲肺鱼也叫昆士兰肺鱼，是现存 6 种肺鱼之一。",
+  "它是角齿鱼科唯一的幸存者，只分布在澳大利亚。",
+  "它常成小群躲在沉木、水草或水下洞穴里。"
+ ],
+ "fact": "昆士兰的 Wide Bay–Burnett 地区以它命名。",
+ "range": "澳大利亚昆士兰东南部的河流。",
+ "sources": [
+  "Wikipedia「Australian lungfish」",
+  "IUCN 红色名录（Brooks, S. 2019）"
+ ],
+ "footnote": "评估作者共 5 人，此处只列第一位。"
+}

@@ -1,0 +1,71 @@
+{
+ "file": "茴鱼",
+ "no": "1243",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "茴鱼",
+ "name_en": "Grayling",
+ "latin": "Thymallus thymallus",
+ "short": "茴鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "吃植物、甲壳类、昆虫、蜘蛛、软体动物、浮游动物和小鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "6.7 kg",
+   "lo": 6.7,
+   "hi": 6.7,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "最长寿",
+   "value": "14 年",
+   "lo": 14,
+   "hi": 14,
+   "scale": "life",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "大背鳍",
+   "icon": "wind",
+   "desc": "背鳍有 5–8 根棘，可以和北极茴鱼区分。"
+  },
+  {
+   "name": "冬季钓鱼",
+   "icon": "food",
+   "desc": "鳟鱼禁钓期还能钓它，是飞蝇钓的好对象。"
+  }
+ ],
+ "intro": [
+  "茴鱼也叫欧洲茴鱼，属于鲑科。",
+  "它和鳟鱼在河里吃不同的食物、占不同的小生境。",
+  "多瑙哲罗鲑会捕食它。"
+ ],
+ "fact": "模仿粉红小虾的毛钩对钓它很有效。",
+ "range": "欧洲（维基未详列分布，待核）。",
+ "sources": [
+  "Wikipedia「Thymallus thymallus」",
+  "IUCN 红色名录（Ford, M. 2024）"
+ ],
+ "footnote": ""
+}

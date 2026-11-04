@@ -1,0 +1,69 @@
+{
+ "file": "西花蓟马",
+ "no": "1228",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "西花蓟马",
+ "name_en": "Western flower thrips",
+ "latin": "Frankliniella occidentalis",
+ "short": "西花蓟马",
+ "type": "陆地",
+ "habitat": [
+  "农田"
+ ],
+ "diet": "草食",
+ "diet_note": "吸食 500 多种寄主植物，包括许多水果、蔬菜和观赏作物",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "寄主植物",
+   "value": "500 多种",
+   "lo": 500,
+   "hi": 500,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "每只产卵",
+   "value": "40–100 多枚",
+   "lo": 40,
+   "hi": 100,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "成虫寿命",
+   "value": "2–5 周以上",
+   "lo": 14,
+   "hi": 35,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "传播病毒",
+   "icon": "toxic",
+   "desc": "它是番茄斑萎病毒的主要传播者。"
+  },
+  {
+   "name": "爱亮色",
+   "icon": "ear",
+   "desc": "被白、蓝、黄等鲜艳花色吸引，有时还会“咬”穿亮色衣服的人。"
+  }
+ ],
+ "intro": [
+  "西花蓟马是入侵性的农业害虫。",
+  "大多数个体是雌性，能孤雌生殖。",
+  "取食后叶片会留下孔洞和银白斑。"
+ ],
+ "fact": "它的叮咬不传播已知人类疾病，但可能刺激皮肤。",
+ "range": "原产美国西南部，已扩散到欧洲、澳大利亚和南美洲。",
+ "sources": [
+  "Wikipedia「Western flower thrips」"
+ ],
+ "footnote": ""
+}

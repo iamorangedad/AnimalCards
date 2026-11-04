@@ -1,0 +1,79 @@
+{
+ "file": "河鲈",
+ "no": "1238",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "河鲈",
+ "name_en": "European perch",
+ "latin": "Perca fluviatilis",
+ "short": "河鲈",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "幼鱼吃浮游动物和底栖无脊椎动物，长大后吃鱼",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "最长",
+   "value": "60 cm",
+   "lo": 0.6,
+   "hi": 0.6,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "寿命",
+   "value": "最长 22 年",
+   "lo": 22,
+   "hi": 22,
+   "scale": "life",
+   "approx": false
+  },
+  {
+   "label": "卵孵化",
+   "value": "8–16 天",
+   "lo": 8,
+   "hi": 16,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "开始吃鱼",
+   "value": "约 120 mm 长",
+   "lo": 0.12,
+   "hi": 0.12,
+   "scale": "len_s",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "由小变凶",
+   "icon": "food",
+   "desc": "鱼苗长到约 120 mm 就开始吃别的鱼。"
+  },
+  {
+   "name": "好吃的肉",
+   "icon": "jar",
+   "desc": "肉白而结实，片状，味道好。"
+  }
+ ],
+ "intro": [
+  "河鲈也叫欧洲鲈，是捕食性的淡水鱼。",
+  "刚孵出的幼鱼只有 5 mm 长，在开阔水域吃浮游生物。",
+  "英国纪录是 2.806 kg。"
+ ],
+ "fact": "捕捞量最多的国家是俄罗斯，约 1.5 万吨。",
+ "range": "欧洲和北亚。",
+ "sources": [
+  "Wikipedia「European perch」",
+  "IUCN 红色名录（Freyhof, J. 2024）"
+ ],
+ "footnote": ""
+}

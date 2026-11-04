@@ -1,0 +1,79 @@
+{
+ "file": "梭鲈",
+ "no": "1239",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "梭鲈",
+ "name_en": "Zander",
+ "latin": "Sander lucioperca",
+ "short": "梭鲈",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成鱼吃成群的小鱼，如拟鲤、胡瓜鱼、河鲈等",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2024",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "平均体长",
+   "value": "40–80 cm",
+   "lo": 0.4,
+   "hi": 0.8,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最长",
+   "value": "120 cm",
+   "lo": 1.2,
+   "hi": 1.2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "最重",
+   "value": "15 kg",
+   "lo": 15,
+   "hi": 15,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "洄游产卵",
+   "value": "最远 250 km",
+   "lo": 250,
+   "hi": 250,
+   "scale": "km",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "背鳍带刺",
+   "icon": "thorn",
+   "desc": "第一背鳍有 13–20 根硬棘。"
+  },
+  {
+   "name": "上溯产卵",
+   "icon": "dive",
+   "desc": "住在半咸水的会上溯最远 250 km 产卵。"
+  }
+ ],
+ "intro": [
+  "梭鲈是鲈科的鱼。",
+  "它和北美的大眼鲈是近亲。",
+  "在英国它被列为最可能危害本地野生动物的外来种之一。"
+ ],
+ "fact": "它在流水中的砾石上产卵。",
+ "range": "欧亚大陆：里海、波罗的海、黑海、咸海、北海和爱琴海流域。",
+ "sources": [
+  "Wikipedia「Zander」",
+  "IUCN 红色名录（Freyhof, J. 2024）"
+ ],
+ "footnote": ""
+}

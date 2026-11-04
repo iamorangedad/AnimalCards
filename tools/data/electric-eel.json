@@ -1,0 +1,78 @@
+{
+ "file": "电鳗",
+ "no": "1233",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "电鳗",
+ "name_en": "Electric eels",
+ "latin": "Electrophorus",
+ "short": "电鳗",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "主要吃鱼，例如甲鲶和慈鲷",
+ "iucn": {
+  "code": "NE",
+  "sub": "属级，未统一评估"
+ },
+ "stats": [
+  {
+   "label": "放电",
+   "value": "最高 860 V",
+   "lo": 860,
+   "hi": 860,
+   "scale": "n1000",
+   "approx": false
+  },
+  {
+   "label": "体长*",
+   "value": "最长 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "体重*",
+   "value": "最重 20 kg",
+   "lo": 20,
+   "hi": 20,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "脊椎骨",
+   "value": "最多 300 节",
+   "lo": 300,
+   "hi": 300,
+   "scale": "n400",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "高压电击",
+   "icon": "fire",
+   "desc": "能放出最高 860 V 的电，电晕猎物。"
+  },
+  {
+   "name": "电场定位",
+   "icon": "ear",
+   "desc": "视力差，靠电感受和电定位在夜间找猎物。"
+  }
+ ],
+ "intro": [
+  "电鳗是南美洲的淡水鱼，名字叫“鳗”，其实不是鳗鲡。",
+  "它们必须浮上水面呼吸空气。",
+  "内脏挤在身体前部，只占 20% 的空间。"
+ ],
+ "fact": "电鳗属目前分 3 个种，分布几乎不重叠。",
+ "range": "南美洲北部。",
+ "sources": [
+  "Wikipedia「Electric eel」"
+ ],
+ "footnote": "*为 E. electricus 数据；IUCN 按种评估。",
+ "warn": "电击很痛，可能让人摔倒溺水；野外不要接近。"
+}

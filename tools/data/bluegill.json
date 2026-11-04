@@ -1,0 +1,79 @@
+{
+ "file": "蓝鳃太阳鱼",
+ "no": "1241",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "蓝鳃太阳鱼",
+ "name_en": "Bluegill",
+ "latin": "Lepomis macrochirus",
+ "short": "蓝鳃太阳鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "杂食",
+ "diet_note": "主要吃小型水生昆虫和小鱼，也吃浮游动物、虾、螺，缺食时吃水草",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2019",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "100–300 mm",
+   "lo": 0.1,
+   "hi": 0.3,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "最大",
+   "value": "41 cm、2.0 kg",
+   "lo": 0.41,
+   "hi": 0.41,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "一群",
+   "value": "10–20 条",
+   "lo": 10,
+   "hi": 20,
+   "scale": "n100",
+   "approx": false
+  },
+  {
+   "label": "家域",
+   "value": "约 30 m²",
+   "lo": 30,
+   "hi": 30,
+   "scale": "n100",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "竖纹威吓",
+   "icon": "camo",
+   "desc": "刚被抓住时身上会显出 5–9 条竖纹，这是威吓表现。"
+  },
+  {
+   "name": "雄鱼挖巢",
+   "icon": "food",
+   "desc": "雄鱼先到产卵场，在砾石或沙里挖出巢坑。"
+  }
+ ],
+ "intro": [
+  "蓝鳃太阳鱼是北美的淡水鱼。",
+  "它常在水草丛中觅食和产卵。",
+  "它能耐受最高 1.8% 的盐度。"
+ ],
+ "fact": "它是黑鲈、狗鱼、鹭、翠鸟、鳄龟和水獭的重要食物。",
+ "range": "北美洲洛基山脉以东；已被引入许多地方。",
+ "sources": [
+  "Wikipedia「Bluegill」",
+  "IUCN 红色名录（Espinosa Pérez, H. 2019）"
+ ],
+ "footnote": ""
+}

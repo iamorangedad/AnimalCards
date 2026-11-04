@@ -1,0 +1,79 @@
+{
+ "file": "巨骨舌鱼",
+ "no": "1231",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "巨骨舌鱼",
+ "name_en": "Arapaima",
+ "latin": "Arapaima gigas",
+ "short": "巨骨舌鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "专吃鱼，如甲鲶、骨甲鲶等，也吃无脊椎动物",
+ "iucn": {
+  "code": "DD",
+  "sub": "IUCN 1996",
+  "cn": "数据缺乏"
+ },
+ "stats": [
+  {
+   "label": "常见体长",
+   "value": "约 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": true
+  },
+  {
+   "label": "体重",
+   "value": "最重 200 kg",
+   "lo": 200,
+   "hi": 200,
+   "scale": "mass",
+   "approx": false
+  },
+  {
+   "label": "鳞片",
+   "value": "5–10 cm",
+   "lo": 0.05,
+   "hi": 0.1,
+   "scale": "len_s",
+   "approx": false
+  },
+  {
+   "label": "改呼吸空气",
+   "value": "孵化后 8–9 天",
+   "lo": 8,
+   "hi": 9,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "会呼吸空气",
+   "icon": "drop",
+   "desc": "鱼鳔经过特化，含有类似肺的组织，能直接呼吸空气。"
+  },
+  {
+   "name": "坚硬鳞片",
+   "icon": "thorn",
+   "desc": "鳞片由层层胶原纤维构成，大的可达 10 cm。"
+  }
+ ],
+ "intro": [
+  "巨骨舌鱼也叫海象鱼、pirarucu，原产亚马孙河流域。",
+  "它是已知最大的淡水鱼之一。",
+  "雄鱼成熟后身体最多 70% 会变红。"
+ ],
+ "fact": "它不到 30 年就入侵了玻利维亚的 Madre de Dios 和 Beni 流域。",
+ "range": "南美洲亚马孙河流域。",
+ "sources": [
+  "Wikipedia「Arapaima」",
+  "IUCN 红色名录（World Conservation Monitoring Centre 1996）"
+ ],
+ "footnote": "IUCN 为 1996 年旧评估。"
+}

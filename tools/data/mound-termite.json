@@ -1,0 +1,77 @@
+{
+ "file": "好战大白蚁",
+ "no": "1229",
+ "cat": "昆虫",
+ "kingdom": "动物",
+ "name_cn": "好战大白蚁",
+ "name_en": "Macrotermes bellicosus",
+ "latin": "Macrotermes bellicosus",
+ "short": "好战大白蚁",
+ "type": "陆地",
+ "habitat": [
+  "土壤"
+ ],
+ "diet": "草食",
+ "diet_note": "吃植物残落物，并在巢里用粪便建菌圃、吃菌圃",
+ "iucn": {
+  "code": "NE",
+  "sub": "未见评估（待核）"
+ },
+ "stats": [
+  {
+   "label": "蚁后体长",
+   "value": "约 110 mm",
+   "lo": 0.11,
+   "hi": 0.11,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "工蚁体长",
+   "value": "约 3.6 mm",
+   "lo": 0.0036,
+   "hi": 0.0036,
+   "scale": "len_s",
+   "approx": true
+  },
+  {
+   "label": "大工蚁出巢",
+   "value": "蜕皮后 13–25 天",
+   "lo": 13,
+   "hi": 25,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "小工蚁出巢",
+   "value": "蜕皮后 9–32 天",
+   "lo": 9,
+   "hi": 32,
+   "scale": "days",
+   "approx": false
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大蚁后",
+   "icon": "huddle",
+   "desc": "怀卵膨大的蚁后约 110 mm 长，是已知最大的白蚁蚁后。"
+  },
+  {
+   "name": "因地建巢",
+   "icon": "team",
+   "desc": "森林里的蚁丘厚壁圆顶，热带草原的薄壁、结构更复杂。"
+  }
+ ],
+ "intro": [
+  "好战大白蚁是大白蚁属的一种。",
+  "工蚁先照顾蚁后，之后才出巢觅食。",
+  "小工蚁负责挖掘向外辐射的地下通道。"
+ ],
+ "fact": "蚁丘建造通常在雨季最忙。",
+ "range": "非洲（研究地点在科特迪瓦科摩埃国家公园）。",
+ "sources": [
+  "Wikipedia「Macrotermes bellicosus」"
+ ],
+ "footnote": "维基未列明种级分布，仅说大白蚁属分布于非洲和东南亚（待核）。"
+}

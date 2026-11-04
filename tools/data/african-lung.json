@@ -1,0 +1,79 @@
+{
+ "file": "东非肺鱼",
+ "no": "1250",
+ "cat": "淡水鱼类",
+ "kingdom": "动物",
+ "name_cn": "东非肺鱼",
+ "name_en": "Marbled lungfish",
+ "latin": "Protopterus aethiopicus",
+ "short": "东非肺鱼",
+ "type": "水中",
+ "habitat": [
+  "水中"
+ ],
+ "diet": "肉食",
+ "diet_note": "成鱼主要吃软体动物，有时吃小鱼和昆虫；幼鱼几乎只吃昆虫",
+ "iucn": {
+  "code": "LC",
+  "sub": "IUCN 2018",
+  "cn": "无危"
+ },
+ "stats": [
+  {
+   "label": "体长",
+   "value": "最长 2 m",
+   "lo": 2,
+   "hi": 2,
+   "scale": "len",
+   "approx": false
+  },
+  {
+   "label": "基因组",
+   "value": "1330 亿碱基对",
+   "lo": 133,
+   "hi": 133,
+   "scale": "n400",
+   "approx": false
+  },
+  {
+   "label": "雄鱼守巢",
+   "value": "8 周",
+   "lo": 56,
+   "hi": 56,
+   "scale": "days",
+   "approx": false
+  },
+  {
+   "label": "性成熟",
+   "value": "约 3 岁",
+   "lo": 3,
+   "hi": 3,
+   "scale": "life",
+   "approx": true
+  }
+ ],
+ "skills": [
+  {
+   "name": "最大基因组",
+   "icon": "micro",
+   "desc": "基因组有 1330 亿个碱基对，是已知最大的动物基因组。"
+  },
+  {
+   "name": "泥里休眠",
+   "icon": "drop",
+   "desc": "能钻进泥里做成茧，留个小孔呼吸，度过旱季。"
+  }
+ ],
+ "intro": [
+  "东非肺鱼也叫豹纹肺鱼，属于原鳍鱼科。",
+  "雄鱼守巢时会不断往巢里送空气，让卵存活。",
+  "在维多利亚湖的姆万扎湾每年捕捞几百吨。"
+ ],
+ "fact": "有的地方把它当美味，有的地方不爱吃甚至视为禁忌。",
+ "range": "非洲东部和中部，以及尼罗河地区。",
+ "sources": [
+  "Wikipedia「Marbled lungfish」",
+  "IUCN 红色名录（Snoeks, J. 2018）"
+ ],
+ "footnote": "基因组数值单位为“亿碱基对”。"
+}
